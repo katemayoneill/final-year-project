@@ -73,5 +73,6 @@ ENV LD_LIBRARY_PATH="/openpose/build/src/openpose:/usr/local/nvidia/lib:/usr/loc
 WORKDIR /app
 
 COPY process.py /app/process.py
+COPY annotate.py /app/annotate.py
 
 CMD ["sleep", "infinity"]
