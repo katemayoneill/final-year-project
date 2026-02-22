@@ -23,16 +23,14 @@ RUN apt-get update && apt-get install -y \
     python3-dev \
     python3-pip \
     wget \
+    ffmpeg \
     && rm -rf /var/lib/apt/lists/*
-
-
 
 WORKDIR /openpose
 
 # clone openpose
 RUN git clone https://github.com/CMU-Perceptual-Computing-Lab/openpose.git . && \
     git submodule update --init --recursive
-
 
 # copy pretrained models into the proper directories
 RUN mkdir -p models/pose/body_25 && \
@@ -54,7 +52,7 @@ RUN cd models/pose/body_25 && \
     cd ../hand && \
     wget -q https://raw.githubusercontent.com/CMU-Perceptual-Computing-Lab/openpose/master/models/hand/pose_deploy.prototxt
 
-# create build directoy and compile openpose
+# create build directory and compile openpose
 RUN mkdir build && cd build && \
     cmake \
     -DBUILD_PYTHON=ON \
@@ -67,17 +65,13 @@ RUN mkdir build && cd build && \
     make -j$(nproc)
 
 # install python dependencies
-RUN pip3 install numpy opencv-python fastapi uvicorn python-multipart
+RUN pip3 install numpy opencv-python
 
 ENV PYTHONPATH="/openpose/build/python:${PYTHONPATH}"
 ENV LD_LIBRARY_PATH="/openpose/build/src/openpose:${LD_LIBRARY_PATH}"
 
-# api server
 WORKDIR /app
 
-COPY server.py /app/server.py
+COPY process.py /app/process.py
 
-EXPOSE 8000
-
-
-CMD ["uvicorn", "server:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["/bin/bash"]
