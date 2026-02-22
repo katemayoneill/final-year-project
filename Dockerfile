@@ -74,5 +74,6 @@ WORKDIR /app
 
 COPY process.py /app/process.py
 COPY annotate.py /app/annotate.py
+COPY annotate_angles.py /app/annotate_angles.py
 
 CMD ["sleep", "infinity"]
