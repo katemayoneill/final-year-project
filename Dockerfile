@@ -67,11 +67,11 @@ RUN mkdir build && cd build && \
 # install python dependencies
 RUN pip3 install numpy opencv-python
 
-ENV PYTHONPATH="/openpose/build/python:${PYTHONPATH}"
-ENV LD_LIBRARY_PATH="/openpose/build/src/openpose:${LD_LIBRARY_PATH}"
+ENV PYTHONPATH="/openpose/build/python"
+ENV LD_LIBRARY_PATH="/openpose/build/src/openpose:/usr/local/nvidia/lib:/usr/local/nvidia/lib64"
 
 WORKDIR /app
 
 COPY process.py /app/process.py
 
-CMD ["/bin/bash"]
+CMD ["sleep", "infinity"]
