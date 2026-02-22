@@ -67,6 +67,8 @@ RUN mkdir build && cd build && \
 # install python dependencies
 RUN pip3 install numpy opencv-python
 
+RUN pip3 install ultralytics --break-system-packages
+
 ENV PYTHONPATH="/openpose/build/python"
 ENV LD_LIBRARY_PATH="/openpose/build/src/openpose:/usr/local/nvidia/lib:/usr/local/nvidia/lib64"
 
@@ -76,5 +78,6 @@ COPY process.py /app/process.py
 COPY annotate.py /app/annotate.py
 COPY annotate_angles.py /app/annotate_angles.py
 COPY snapshot.py /app/snapshot.py
+COPY track_cyclist.py /app/track_cyclist.py
 
 CMD ["sleep", "infinity"]
