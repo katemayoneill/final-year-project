@@ -20,11 +20,12 @@ JOINTS = {
 }
 
 # ---------------------------
-# How close the hip x coordinates need to be
-# to be considered perpendicular (in pixels)
-# increase this value if too few frames are found
+# How perpendicular the hips need to be as a ratio
+# of total hip-to-hip distance (accounts for scale)
+# 0.2 = x difference must be less than 20% of hip distance
+# increase if too few frames are found
 # ---------------------------
-HIP_THRESHOLD = 30
+HIP_THRESHOLD = 0.2
 
 # ---------------------------
 # Law of cosines - angle at B
@@ -59,7 +60,17 @@ def is_perpendicular(keypoints):
     LHip = get_joint(keypoints, "LHip")
     if RHip is None or LHip is None:
         return False
-    return abs(RHip[0] - LHip[0]) < HIP_THRESHOLD
+
+    # total distance between hips
+    hip_distance = math.sqrt((RHip[0] - LHip[0])**2 + (RHip[1] - LHip[1])**2)
+
+    if hip_distance == 0:
+        return False
+
+    # x difference as proportion of total hip distance
+    x_diff_ratio = abs(RHip[0] - LHip[0]) / hip_distance
+
+    return x_diff_ratio < HIP_THRESHOLD
 
 # ---------------------------
 # Draw angles onto frame, returns frame and r knee angle
