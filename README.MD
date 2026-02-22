@@ -1,6 +1,9 @@
 # Cycling Posture Analysis System
 
-## Scripts
+## todos
+
+- [ ] separate scripts from docker image files
+- [ ] mkae docker image pull from scripts repo
 
 ### `track_cyclist.py`
 Detects the cyclist using YOLO and tracks them across frames using a Kalman filter. Outputs a cropped video with the cyclist centred and consistently scaled.
