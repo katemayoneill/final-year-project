@@ -73,7 +73,7 @@ ENV LD_LIBRARY_PATH="/openpose/build/src/openpose:/usr/local/nvidia/lib:/usr/loc
 # install ultralytics for YOLO
 RUN pip3 install ultralytics
 
-# clone scripts from github — no rebuild needed when scripts change
+# clone scripts from github 
 RUN git clone https://github.com/katemayoneill/final-year-project.git /app
 
 WORKDIR /app
