@@ -41,17 +41,6 @@ RUN mkdir -p models/pose/body_25 && \
 
 COPY models/ /openpose/models/
 
-RUN cd models/pose/body_25 && \
-    wget -q https://raw.githubusercontent.com/CMU-Perceptual-Computing-Lab/openpose/master/models/pose/body_25/pose_deploy.prototxt && \
-    cd ../coco && \
-    wget -q https://raw.githubusercontent.com/CMU-Perceptual-Computing-Lab/openpose/master/models/pose/coco/pose_deploy_linevec.prototxt && \
-    cd ../mpi && \
-    wget -q https://raw.githubusercontent.com/CMU-Perceptual-Computing-Lab/openpose/master/models/pose/mpi/pose_deploy_linevec.prototxt && \
-    cd ../../face && \
-    wget -q https://raw.githubusercontent.com/CMU-Perceptual-Computing-Lab/openpose/master/models/face/pose_deploy.prototxt && \
-    cd ../hand && \
-    wget -q https://raw.githubusercontent.com/CMU-Perceptual-Computing-Lab/openpose/master/models/hand/pose_deploy.prototxt
-
 # create build directory and compile openpose
 RUN mkdir build && cd build && \
     cmake \
