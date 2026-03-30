@@ -64,14 +64,11 @@ RUN mkdir build && cd build && \
     .. && \
     make -j$(nproc)
 
-# install python dependencies
-RUN pip3 install numpy opencv-python-headless boto3 python-dotenv ultralytics
-
 ENV PYTHONPATH="/openpose/build/python"
 ENV LD_LIBRARY_PATH="/openpose/build/src/openpose:/usr/local/nvidia/lib:/usr/local/nvidia/lib64"
 
-# /app is where scripts will be transferred to at runtime
 RUN mkdir -p /app
+COPY upload.py download.py startup.sh /app/
 WORKDIR /app
 
 CMD ["sleep", "infinity"]
