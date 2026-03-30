@@ -65,18 +65,13 @@ RUN mkdir build && cd build && \
     make -j$(nproc)
 
 # install python dependencies
-RUN pip3 install numpy opencv-python
+RUN pip3 install numpy opencv-python-headless boto3 python-dotenv ultralytics
 
 ENV PYTHONPATH="/openpose/build/python"
 ENV LD_LIBRARY_PATH="/openpose/build/src/openpose:/usr/local/nvidia/lib:/usr/local/nvidia/lib64"
 
-# install ultralytics for YOLO
-RUN pip3 install ultralytics
-
-# clone scripts from github 
-RUN git clone https://github.com/katemayoneill/final-year-project.git /app
-
+# /app is where scripts will be transferred to at runtime
+RUN mkdir -p /app
 WORKDIR /app
 
-# on startup: pull latest scripts then keep container alive
-CMD git -C /app pull && sleep infinity
+CMD ["sleep", "infinity"]
