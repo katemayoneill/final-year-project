@@ -1,5 +1,7 @@
 import cv2
 import math
+import os
+import subprocess
 import sys
 from openpose import pyopenpose as op
 
@@ -58,6 +60,7 @@ opWrapper.start()
 # ---------------------------
 input_path = sys.argv[1]
 output_path = input_path.replace(".mp4", "_annotated_angles.mp4")
+temp_path = output_path.replace(".mp4", "_tmp.mp4")
 
 # ---------------------------
 # Processing loop
@@ -89,7 +92,7 @@ while True:
 
     if out is None:
         h, w = annotated_frame.shape[:2]
-        out = cv2.VideoWriter(output_path, fourcc, fps, (w, h))
+        out = cv2.VideoWriter(temp_path, fourcc, fps, (w, h))
 
     # draw angles on top of the skeleton
     if datum.poseKeypoints is not None:
@@ -144,5 +147,11 @@ while True:
 cap.release()
 if out:
     out.release()
+
+subprocess.run(
+    ["ffmpeg", "-y", "-i", temp_path, "-vcodec", "libx264", "-crf", "23", "-preset", "fast", output_path],
+    check=True
+)
+os.remove(temp_path)
 
 print(f"\nDone! Saved to {output_path}")
