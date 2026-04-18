@@ -11,53 +11,163 @@ Accessed: March 2026
 
 import sys
 import os
+import subprocess
 import cv2 as cv
 import numpy as np
+from ultralytics import YOLO
 
-def process_frame(src):
-    gray = cv.cvtColor(src, cv.COLOR_BGR2GRAY)
+# ---------------------------
+# YOLO config (mirrors track_cyclist.py)
+# ---------------------------
+CONFIDENCE        = 0.5
+PERSON_CLASS      = 0
+BIKE_CLASS        = 1
+CYCLIST_PROXIMITY = 0.3   # max person-bike centre distance as ratio of frame width
+
+# Downscale factor applied to the crop before Hough detection.
+# Smaller crops reduce noise and compression artefacts.
+# Results are scaled back to full-frame coords before drawing.
+DOWNSCALE = 0.5
+
+# Spatial zone thresholds (crop-local x as fraction of crop width).
+# Wheels must be in the outer portions — never the middle.
+LEFT_ZONE_MAX  = 0.42
+RIGHT_ZONE_MIN = 0.58
+
+
+def box_centre(box):
+    x1, y1, x2, y2 = box
+    return ((x1 + x2) / 2, (y1 + y2) / 2)
+
+def merge_boxes(box1, box2):
+    return (
+        min(box1[0], box2[0]),
+        min(box1[1], box2[1]),
+        max(box1[2], box2[2]),
+        max(box1[3], box2[3])
+    )
+
+def find_cyclist(results, frame_w):
+    person_boxes = []
+    bike_boxes   = []
+
+    for result in results:
+        for box in result.boxes:
+            cls    = int(box.cls[0])
+            coords = tuple(map(int, box.xyxy[0]))
+            if cls == PERSON_CLASS:
+                person_boxes.append(coords)
+            elif cls == BIKE_CLASS:
+                bike_boxes.append(coords)
+
+    if not person_boxes or not bike_boxes:
+        return None
+
+    best_box  = None
+    best_dist = float('inf')
+
+    for person in person_boxes:
+        for bike in bike_boxes:
+            pc        = box_centre(person)
+            bc        = box_centre(bike)
+            dist      = ((pc[0]-bc[0])**2 + (pc[1]-bc[1])**2) ** 0.5
+            norm_dist = dist / frame_w
+            if norm_dist < CYCLIST_PROXIMITY and dist < best_dist:
+                best_dist = dist
+                best_box  = merge_boxes(person, bike)
+
+    return best_box
+
+
+prev_radii = {'left': None, 'right': None}
+
+def process_frame(src, model, frame_w):
+    results = model(src, classes=[PERSON_CLASS, BIKE_CLASS],
+                    conf=CONFIDENCE, verbose=False)
+    bbox    = find_cyclist(results, frame_w)
+
+    if bbox is None:
+        return src
+
+    x1, y1, x2, y2 = bbox
+    h_frame, w_frame = src.shape[:2]
+    x1 = max(0, x1); y1 = max(0, y1)
+    x2 = min(w_frame, x2); y2 = min(h_frame, y2)
+
+    box_h     = y2 - y1
+    box_w     = x2 - x1
+    y1_bottom = y1 + box_h // 2
+
+    crop = src[y1_bottom:y2, x1:x2]
+    if crop.size == 0:
+        return src
+
+    # Downscale crop before Hough — reduces noise and compression artefacts
+    small = cv.resize(crop, None, fx=DOWNSCALE, fy=DOWNSCALE,
+                      interpolation=cv.INTER_AREA)
+
+    gray = cv.cvtColor(small, cv.COLOR_BGR2GRAY)
     gray = cv.medianBlur(gray, 5)
     rows = gray.shape[0]
 
-    min_r = rows // 8   # wheels are large — ignore anything tiny
-    max_r = rows // 2
+    min_r = max(5, rows * 15 // 100)
+    max_r = rows * 30 // 100
 
-    circles = cv.HoughCircles(gray, cv.HOUGH_GRADIENT, 1, rows / 4,
-                               param1=100, param2=50,
-                               minRadius=min_r, maxRadius=max_r)
+    raw = cv.HoughCircles(gray, cv.HOUGH_GRADIENT, 1, rows // 2,
+                          param1=100, param2=40,
+                          minRadius=min_r, maxRadius=max_r)
 
-    if circles is not None:
-        circles = np.uint16(np.around(circles))[0]  # shape: (N, 3)
+    if raw is not None:
+        raw = np.uint16(np.around(raw))[0]   # (N, 3)
 
-        # Find the pair of circles whose radii are most similar in size.
-        # With only one circle detected we just draw that one.
-        best_pair = None
-        best_diff = float('inf')
+        left_candidates  = []
+        right_candidates = []
 
-        if len(circles) == 1:
-            best_pair = circles
-        else:
-            for i in range(len(circles)):
-                for j in range(i + 1, len(circles)):
-                    diff = abs(int(circles[i][2]) - int(circles[j][2]))
-                    if diff < best_diff:
-                        best_diff = diff
-                        best_pair = circles[[i, j]]
+        for c in raw:
+            # scale detections back to full crop resolution
+            cx_crop = int(c[0] / DOWNSCALE)
+            cy_crop = int(c[1] / DOWNSCALE)
+            r       = int(c[2] / DOWNSCALE)
+            frac    = cx_crop / box_w
 
-        for c in best_pair:
-            cv.circle(src, (c[0], c[1]), 1, (0, 100, 100), 3)
-            cv.circle(src, (c[0], c[1]), c[2], (255, 0, 255), 3)
+            fx = cx_crop + x1
+            fy = cy_crop + y1_bottom
 
+            if frac < LEFT_ZONE_MAX:
+                left_candidates.append((fx, fy, r))
+            elif frac > RIGHT_ZONE_MIN:
+                right_candidates.append((fx, fy, r))
+            # middle: discard
+
+        # Pick the largest circle from each side, but cap at the previous radius
+        # so detections can only shrink, never suddenly grow larger.
+        chosen = []
+        for side, candidates in (('left', left_candidates), ('right', right_candidates)):
+            if not candidates:
+                continue
+            cx, cy, r = max(candidates, key=lambda c: c[2])
+            if prev_radii[side] is not None:
+                r = max(r, prev_radii[side])
+            prev_radii[side] = r
+            chosen.append((cx, cy, r))
+
+        for (cx, cy, r) in chosen:
+            cv.circle(src, (cx, cy), 3, (0, 100, 100), -1)
+            cv.circle(src, (cx, cy), r, (255, 0, 255), 2)
+
+    cv.rectangle(src, (x1, y1), (x2, y2), (0, 255, 0), 2)
     return src
+
 
 def main(argv):
     if len(argv) < 1:
         print('Usage: circles.py <video.mp4>')
         return -1
 
-    input_path = argv[0]
-    base, ext = os.path.splitext(input_path)
+    input_path  = argv[0]
+    base, ext   = os.path.splitext(input_path)
     output_path = base + '_circles' + ext
+    temp_path   = base + '_circles_tmp' + ext
 
     cap = cv.VideoCapture(input_path)
     if not cap.isOpened():
@@ -68,9 +178,11 @@ def main(argv):
     height = int(cap.get(cv.CAP_PROP_FRAME_HEIGHT))
     fps    = cap.get(cv.CAP_PROP_FPS)
     fourcc = cv.VideoWriter_fourcc(*'mp4v')
-    out = cv.VideoWriter(output_path, fourcc, fps, (width, height))
+    out    = cv.VideoWriter(temp_path, fourcc, fps, (width, height))
 
     frame_count = int(cap.get(cv.CAP_PROP_FRAME_COUNT))
+    print('Loading YOLO model...')
+    model = YOLO("yolo26s.pt")
     print(f'Processing {frame_count} frames → {output_path}')
 
     frame_idx = 0
@@ -78,7 +190,7 @@ def main(argv):
         ret, frame = cap.read()
         if not ret:
             break
-        out.write(process_frame(frame))
+        out.write(process_frame(frame, model, width))
         frame_idx += 1
         pct = frame_idx / frame_count
         bar = ('█' * int(pct * 40)).ljust(40)
@@ -87,8 +199,16 @@ def main(argv):
 
     cap.release()
     out.release()
+
+    subprocess.run(
+        ["ffmpeg", "-y", "-i", temp_path, "-vcodec", "libx264", "-crf", "23", "-preset", "fast", output_path],
+        check=True
+    )
+    os.remove(temp_path)
+
     print('Done.')
     return 0
+
 
 if __name__ == "__main__":
     main(sys.argv[1:])

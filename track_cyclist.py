@@ -113,7 +113,7 @@ output_path = os.path.join(output_dir, f"{video_name}_tracked.mp4")
 # Load YOLO
 # ---------------------------
 print("Loading YOLO model...")
-model = YOLO("yolov8n.pt")
+model = YOLO("yolo26s.pt")
 
 # ---------------------------
 # Pass 1: detect + Kalman track centre and height
