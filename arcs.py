@@ -309,7 +309,7 @@ def main(argv):
 
     subprocess.run(
         ["ffmpeg", "-y", "-i", temp_path,
-         "-vcodec", "libx264", "-crf", "23", "-preset", "fast", output_path],
+         "-vcodec", "h264_nvenc", "-cq", "23", "-preset", "p4", output_path],
         check=True
     )
     os.remove(temp_path)

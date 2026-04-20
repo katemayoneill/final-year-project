@@ -13,7 +13,10 @@ WHEEL_CLASS_NAME = 'wheel'
 
 
 def find_wheel_class(model):
-    """Return the class ID whose name contains 'wheel', or None."""
+    """Return the class ID for 'front_wheel' or any class containing 'wheel'."""
+    for cls_id, name in model.names.items():
+        if name in ('front_wheel', 'back_wheel'):
+            return cls_id
     for cls_id, name in model.names.items():
         if 'wheel' in name.lower():
             return cls_id
@@ -91,7 +94,7 @@ def main(argv):
 
     subprocess.run(
         ['ffmpeg', '-y', '-i', temp_path,
-         '-vcodec', 'libx264', '-crf', '23', '-preset', 'fast', output_path],
+         '-vcodec', 'h264_nvenc', '-cq', '23', '-preset', 'p4', output_path],
         check=True
     )
     os.remove(temp_path)
