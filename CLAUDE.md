@@ -58,10 +58,10 @@ Each stage outputs intermediate files so stages can be re-run independently and 
 
 ## File Transfer
 Large files are transferred via **Cloudflare R2** (S3-compatible, HTTPS/port 443):
-- `upload.py <file>` — uploads a single file to R2 (key = filename, no prefix)
-- `download.py <key> [dest]` — downloads a single file from R2
-- `upload_scripts.py` — uploads all pipeline scripts to R2 under `scripts/` prefix; run locally after any script change
-- `download_scripts.py [dest_dir]` — downloads all pipeline scripts from R2; run on pod to get latest versions
+- `infra/upload.py <file>` — uploads a single file to R2 (key = filename, no prefix)
+- `infra/download.py <key> [dest]` — downloads a single file from R2
+- `infra/upload_scripts.py` — uploads all pipeline scripts to R2 under `scripts/` prefix; run locally after any script change
+- `infra/download_scripts.py [dest_dir]` — downloads all pipeline scripts from R2; run on pod to get latest versions
 - Credentials via `.env`: `R2_ENDPOINT`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`
 - `boto3.upload_file` handles multipart automatically — suitable for large videos
 
@@ -73,7 +73,7 @@ Large files are transferred via **Cloudflare R2** (S3-compatible, HTTPS/port 443
 ### Updating scripts
 ```bash
 # Local — after editing any pipeline script:
-python3 upload_scripts.py
+python3 infra/upload_scripts.py
 
 # Pod — to pull latest without restarting:
 python3 /app/download_scripts.py
@@ -92,23 +92,23 @@ Prints a summary after each stage and a final results block. Or run stages indiv
 
 ```bash
 # Stage 1 — side-angle frame selection (cheap, YOLO only)
-python3 side_angle_select.py  <video.mp4> [best.pt]
+python3 pipeline/side_angle_select.py  <video.mp4> [best.pt]
 # → <video>_selected_frames/  +  <video>_selection_log.json
 
 # Stage 2 — OpenPose on selected frames (expensive, RunPod GPU)
-python3 pose_estimate.py  <video>_selection_log.json
+python3 pipeline/pose_estimate.py  <video>_selection_log.json
 # → <video>_keypoints.json
 
 # Stage 3 — seat height assessment
-python3 seat_height.py  <video>_keypoints.json
+python3 pipeline/seat_height.py  <video>_keypoints.json
 # → <video>_assessment.json
 
 # Stage 4 — RPM / cadence
-python3 rpm.py  <video>_keypoints.json
+python3 pipeline/rpm.py  <video>_keypoints.json
 # → <video>_rpm.json
 
 # Stage 5 — annotated output video
-python3 annotate_output.py  <video.mp4>  <video>_keypoints.json  <video>_assessment.json  <video>_rpm.json
+python3 pipeline/annotate_output.py  <video.mp4>  <video>_keypoints.json  <video>_assessment.json  <video>_rpm.json
 # → <video>_final.mp4
 ```
 
@@ -260,19 +260,10 @@ They all use `yolo26s.pt` (person + bike classes 0/1) and output `<input>_<suffi
 | `contours.py` | Canny edges → contour circularity filter (no YOLO) | `_contours` |
 
 ```bash
-python3 wheels.py   <video.mp4>
-python3 circles.py  <video.mp4>
-python3 arcs.py     <video.mp4>
-python3 contours.py <video.mp4>
-```
-
-### Side-angle detection prototype (infer.py)
-Early prototype of side-angle detection; superseded by `side_angle_select.py`.
-Overlays a "Perfect side angle!" banner but does not save frames or JSON.
-
-```bash
-python3 infer.py <video.mp4> [model.pt]
-# output: <video>_predictions.mp4
+python3 experiments/wheel_detection/wheels.py   <video.mp4>
+python3 experiments/wheel_detection/circles.py  <video.mp4>
+python3 experiments/wheel_detection/arcs.py     <video.mp4>
+python3 experiments/wheel_detection/contours.py <video.mp4>
 ```
 
 ### Inference benchmark scripts
@@ -287,11 +278,11 @@ Five standalone versions of the YOLO inference pipeline for performance comparis
 | `infer_opt4_all.py` | All of the above + NVENC GPU encode |
 
 ```bash
-python3 infer_base.py       <video.mp4>
-python3 infer_opt1_fp16.py  <video.mp4>
-python3 infer_opt2_batch.py <video.mp4>
-python3 infer_opt3_skip.py  <video.mp4>
-python3 infer_opt4_all.py   <video.mp4>
+python3 experiments/inference_benchmarks/infer_base.py       <video.mp4>
+python3 experiments/inference_benchmarks/infer_opt1_fp16.py  <video.mp4>
+python3 experiments/inference_benchmarks/infer_opt2_batch.py <video.mp4>
+python3 experiments/inference_benchmarks/infer_opt3_skip.py  <video.mp4>
+python3 experiments/inference_benchmarks/infer_opt4_all.py   <video.mp4>
 ```
 
 ## Pipeline Script Evaluation Metrics
@@ -303,6 +294,37 @@ Each script prints these on exit — quote directly in the report:
 | `pose_estimate.py` | frames processed, avg inference time/frame, per-joint avg confidence |
 | `seat_height.py` | knee angle count, mean, std dev, peak, verdict + detail string |
 | `rpm.py` | frames with angle, contiguous runs found, best run (frame range + duration), peak count, cadence RPM ± std dev, direction of travel, knee used, RPM method (peak_detection / autocorrelation) |
+
+## Local Lab Machine Setup (msc-linux-sls-016)
+
+The pipeline runs directly on the lab machine without Docker. It has an NVIDIA RTX A4000 (16GB, sm_86) with CUDA 12.6.
+
+### Environment
+- OpenPose built from source at `~/openpose/build/`
+- Python venv at `~/fyp/linux/` — activate with `source ~/fyp/linux/bin/activate`
+- cuDNN installed via pip (`nvidia-cudnn-cu12`) at `~/fyp/linux/lib/python3.12/site-packages/nvidia/cudnn/`
+- Models at `~/openpose/models/` (copied from `~/fyp/final-year-project/models/`)
+- `~/.bashrc` sets PYTHONPATH, LD_LIBRARY_PATH, and activates the venv automatically
+
+### Required env vars (set in ~/.bashrc)
+```bash
+export PYTHONPATH=/users/ugrad/oneilk10/openpose/build/python/openpose:$PYTHONPATH
+export LD_LIBRARY_PATH=/users/ugrad/oneilk10/openpose/build/src/openpose:/users/ugrad/oneilk10/fyp/linux/lib/python3.12/site-packages/nvidia/cudnn/lib:$LD_LIBRARY_PATH
+```
+
+### pose_estimate.py on local machine
+`OPENPOSE_MODELS` must be set — the script defaults to `/openpose/models/` (the Docker path) and silently returns no detections if the models aren't found there:
+```bash
+export OPENPOSE_MODELS=/users/ugrad/oneilk10/openpose/models/
+python3 pipeline/pose_estimate.py <selection_log.json>
+```
+Add this export to `~/.bashrc` so it's always set.
+
+### Build notes
+- pybind11 submodule updated to v2.11.1 (bundled v2.3 incompatible with Python 3.12)
+- Line in `CMakeLists.txt` that resets pybind11 submodule was commented out to prevent it reverting
+- `3rdparty/caffe/src/caffe/util/io.cpp` patched: `SetTotalBytesLimit` call reduced to 1 argument (protobuf 3.21+ compatibility)
+- Body25 model must be a valid download — a corrupted `pose_iter_584000.caffemodel` causes silent no-detection
 
 ## TODOs
 - [ ] Choose best wheel-detection approach from research scripts and document rationale in report

@@ -58,7 +58,7 @@ print(f"Model          : {model}")
 
 # ── Stage 1: side-angle selection ──────────────────────────────────────────
 run("Stage 1: Side-angle frame selection",
-    [PYTHON, os.path.join(HERE, "side_angle_select.py"), video, model])
+    [PYTHON, os.path.join(HERE, "pipeline", "side_angle_select.py"), video, model])
 
 log = load(log_path)
 m   = log["metrics"]
@@ -73,7 +73,7 @@ if m['frames_selected'] == 0:
 
 # ── Stage 2: OpenPose pose estimation ──────────────────────────────────────
 run("Stage 2: Pose estimation (OpenPose)",
-    [PYTHON, os.path.join(HERE, "pose_estimate.py"), log_path])
+    [PYTHON, os.path.join(HERE, "pipeline", "pose_estimate.py"), log_path])
 
 kp = load(kp_path)
 m  = kp["metrics"]
@@ -92,7 +92,7 @@ for j in key_joints:
 
 # ── Stage 3: seat height assessment ────────────────────────────────────────
 run("Stage 3: Seat height assessment",
-    [PYTHON, os.path.join(HERE, "seat_height.py"), kp_path])
+    [PYTHON, os.path.join(HERE, "pipeline", "seat_height.py"), kp_path])
 
 assess = load(assessment_path)
 s      = assess["summary"]
@@ -108,7 +108,7 @@ print(f"  Detail                  : {s['verdict_detail']}")
 
 # ── Stage 4: RPM ───────────────────────────────────────────────────────────
 run("Stage 4: RPM / cadence",
-    [PYTHON, os.path.join(HERE, "rpm.py"), kp_path])
+    [PYTHON, os.path.join(HERE, "pipeline", "rpm.py"), kp_path])
 
 rpm = load(rpm_path)
 m   = rpm["metrics"]
@@ -126,7 +126,7 @@ else:
 
 # ── Stage 5: annotate output video ─────────────────────────────────────────
 run("Stage 5: Annotate output video",
-    [PYTHON, os.path.join(HERE, "annotate_output.py"),
+    [PYTHON, os.path.join(HERE, "pipeline", "annotate_output.py"),
      video, kp_path, assessment_path, rpm_path])
 
 # ── Final summary ───────────────────────────────────────────────────────────
