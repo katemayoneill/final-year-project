@@ -1,4 +1,25 @@
-/models
+# Model weights
 /models/
+
+# Secrets
 kaggle.json
 .env
+
+# Raw video footage (large files)
+videos/
+
+# Pipeline intermediate outputs
+*_selected_frames/
+*_keypoints.json
+*_selection_log.json
+*_assessment.json
+*_rpm.json
+*_final.mp4
+*_annotated.mp4
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
