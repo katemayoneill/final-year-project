@@ -33,7 +33,8 @@ input_path = sys.argv[1]
 if len(sys.argv) >= 3:
     MODEL_PATH = sys.argv[2]
 
-base       = os.path.splitext(input_path)[0]
+stem       = os.path.splitext(os.path.basename(input_path))[0]
+base       = os.path.join("output", stem, stem)
 frames_dir = base + "_selected_frames"
 log_path   = base + "_selection_log.json"
 

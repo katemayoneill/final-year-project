@@ -212,7 +212,10 @@ with open(rpm_path)        as f: rpm_data = json.load(f)
 
 
 
-base        = os.path.splitext(video_path)[0]
+stem        = os.path.splitext(os.path.basename(video_path))[0]
+out_dir     = os.path.join("output", stem)
+os.makedirs(out_dir, exist_ok=True)
+base        = os.path.join(out_dir, stem)
 temp_path   = base + "_final_tmp.mp4"
 output_path = base + "_final.mp4"
 

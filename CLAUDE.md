@@ -12,27 +12,30 @@ A cycling posture analysis system for real-world smartphone footage of a cyclist
 ## Pipeline
 ```
 smartphone_video.mp4
-  → side_angle_select.py  → selected_frames/  +  selection_log.json
+  → side_angle_select.py  → output/<stem>/<stem>_selected_frames/
+  │                          output/<stem>/<stem>_selection_log.json
   │   (YOLO on every frame — cheap, runs locally or on pod)
   │   Detects when both wheels visible + near-square aspect ratio
   │
-  → pose_estimate.py      → keypoints.json
+  → pose_estimate.py      → output/<stem>/<stem>_keypoints.json
   │   (OpenPose only on selected frames — expensive, cloud GPU)
   │   25-joint Body25 keypoints per selected frame
   │
-  → seat_height.py        → assessment.json
+  → seat_height.py        → output/<stem>/<stem>_assessment.json
   │   (Law of cosines on hip/knee/ankle keypoints)
   │   Per-frame angles + verdict: optimal / too high / too low
   │
-  → rpm.py                → rpm.json
+  → rpm.py                → output/<stem>/<stem>_rpm.json
   │   (Count knee-angle cycles per second from keypoints)
   │   Cadence estimate + cycle timestamps
   │
-  → annotate_output.py    → output_annotated.mp4
+  → annotate_output.py    → output/<stem>/<stem>_final.mp4
       (Overlay skeleton + angles + verdict + RPM on original video)
 ```
 
-Each stage outputs intermediate files so stages can be re-run independently and evaluated in isolation for the report.
+All outputs for a given video land in `output/<stem>/` (e.g. `output/jennyb30/`). Each stage creates the directory if it doesn't exist, so stages can be run standalone without `run_pipeline.py`.
+
+Each stage also outputs intermediate files so stages can be re-run independently and evaluated in isolation for the report.
 
 ## Stack
 - **OpenPose** (`pyopenpose`) — Body25 model, 25-joint pose estimation
@@ -43,15 +46,17 @@ Each stage outputs intermediate files so stages can be re-run independently and 
 - **RunPod** — GPU cloud deployment target
 
 ## Docker Image
+- `infra/Dockerfile` — build config; `infra/DOCKER_HUB.md` — push/pull instructions
 - CUDA 11.8 + cuDNN 8 on Ubuntu 22.04
 - OpenPose compiled from source with Python bindings (`BUILD_PYTHON=ON`), cuDNN + CUDA enabled
 - GPU architectures: 60, 61, 62, 70, 72, 75, 80, 86, 89, 90
-- On startup: run `startup.sh` — installs Python deps, then fetches `download_scripts.py` from R2 via `download.py`, then pulls all pipeline scripts to `/app`
+- On startup: run `infra/startup.sh` — installs Python deps, then fetches `download_scripts.py` from R2 via `download.py`, then pulls all pipeline scripts to `/app`
 - OpenPose models in `/openpose/models/` — baked into the image at build time via `COPY models/`; NOT in git (too large)
 - Scripts are NOT bundled in the image — pulled from R2 at startup so updates don't require a rebuild
 
 ## Key Constraints
 - **Model weights** are excluded from git (`.gitignore` ignores `/models`)
+- **Raw footage** (`videos/`) is gitignored — too large for git; transfer via R2
 - **runpodctl** is blocked on the college network — cannot use it for file transfer
 - **HTTP transfers** time out on large files — naive HTTP upload/download is not viable
 - Target workflow: upload input video to pod → run pipeline → retrieve output files
@@ -66,9 +71,9 @@ Large files are transferred via **Cloudflare R2** (S3-compatible, HTTPS/port 443
 - `boto3.upload_file` handles multipart automatically — suitable for large videos
 
 ### Pod setup workflow
-1. On first pod start, `download.py` and `.env` must already be in `/app` (paste via web terminal or bake into image)
-2. `startup.sh` uses `download.py` to fetch `download_scripts.py` from R2, then runs it to pull all other scripts
-3. After that, re-running `startup.sh` always gets the latest script versions from R2
+1. On first pod start, `infra/download.py` and `.env` must already be in `/app` (paste via web terminal or bake into image)
+2. `infra/startup.sh` uses `download.py` to fetch `download_scripts.py` from R2, then runs it to pull all other scripts
+3. After that, re-running `infra/startup.sh` always gets the latest script versions from R2
 
 ### Updating scripts
 ```bash
@@ -78,6 +83,45 @@ python3 infra/upload_scripts.py
 # Pod — to pull latest without restarting:
 python3 /app/download_scripts.py
 ```
+
+## Directory Structure
+
+### `videos/` — raw footage (gitignored)
+Organized by subject: `videos/<name>/<name><position><group>.mp4`
+- `<position>`: `a` = controlled (trainer-mounted bike, used as ground truth); `b` = real-world pass-by footage
+- `<group>`: `30` = subject asked to target 60 RPM; `60` = subject asked to target 90 RPM. This is a cadence condition label, **not** the recording frame rate. Actual RPM varies per subject and is measured in Kinovea.
+- Example: `videos/jenny/jennyb30.mp4` — Jenny, real-world, target 60 RPM condition
+
+Original `.MOV` files from iPhone are converted to H.264 MP4 with:
+```bash
+bash convert_videos.sh   # converts all .MOV under videos/ to .mp4; skips if .mp4 already exists
+```
+Uses NVENC if available, falls back to libx264. Output written next to the source file.
+
+### `output/` — pipeline outputs (gitignored)
+One sub-directory per processed video, named by the video stem:
+```
+output/
+  jennyb30/
+    jennyb30_selected_frames/     ← Stage 1 frame images
+    jennyb30_selection_log.json   ← Stage 1
+    jennyb30_keypoints.json       ← Stage 2
+    jennyb30_assessment.json      ← Stage 3
+    jennyb30_rpm.json             ← Stage 4
+    jennyb30_final.mp4            ← Stage 5
+  alexb60/
+    ...
+```
+
+### `samples/` — reference pipeline output
+`samples/jennyb30/` contains the full pipeline output for `jennyb30.MOV`:
+- `jennyb30.MOV` — source video
+- `jennyb30_selection_log.json`, `jennyb30_selected_frames/` — Stage 1 output
+- `jennyb30_keypoints.json` — Stage 2 output
+- `jennyb30_assessment.json`, `jennyb30_rpm.json` — Stages 3 & 4 output
+- `jennyb30_final.mp4` — Stage 5 annotated video
+
+Use this as a reference for expected intermediate file content and for testing stages 3–5 without re-running OpenPose.
 
 ## Scripts — Usage
 
@@ -93,23 +137,23 @@ Prints a summary after each stage and a final results block. Or run stages indiv
 ```bash
 # Stage 1 — side-angle frame selection (cheap, YOLO only)
 python3 pipeline/side_angle_select.py  <video.mp4> [best.pt]
-# → <video>_selected_frames/  +  <video>_selection_log.json
+# → output/<stem>/<stem>_selected_frames/  +  output/<stem>/<stem>_selection_log.json
 
 # Stage 2 — OpenPose on selected frames (expensive, RunPod GPU)
-python3 pipeline/pose_estimate.py  <video>_selection_log.json
-# → <video>_keypoints.json
+python3 pipeline/pose_estimate.py  output/<stem>/<stem>_selection_log.json
+# → output/<stem>/<stem>_keypoints.json
 
 # Stage 3 — seat height assessment
-python3 pipeline/seat_height.py  <video>_keypoints.json
-# → <video>_assessment.json
+python3 pipeline/seat_height.py  output/<stem>/<stem>_keypoints.json
+# → output/<stem>/<stem>_assessment.json
 
 # Stage 4 — RPM / cadence
-python3 pipeline/rpm.py  <video>_keypoints.json
-# → <video>_rpm.json
+python3 pipeline/rpm.py  output/<stem>/<stem>_keypoints.json
+# → output/<stem>/<stem>_rpm.json
 
 # Stage 5 — annotated output video
-python3 pipeline/annotate_output.py  <video.mp4>  <video>_keypoints.json  <video>_assessment.json  <video>_rpm.json
-# → <video>_final.mp4
+python3 pipeline/annotate_output.py  <video.mp4>  output/<stem>/<stem>_keypoints.json  output/<stem>/<stem>_assessment.json  output/<stem>/<stem>_rpm.json
+# → output/<stem>/<stem>_final.mp4
 ```
 
 ### Pipeline script details
@@ -135,7 +179,7 @@ python3 pipeline/annotate_output.py  <video.mp4>  <video>_keypoints.json  <video
     {
       "frame_idx": 321,
       "timestamp": 5.4149,
-      "frame_file": "alexb60_selected_frames/frame_0321.jpg",
+      "frame_file": "output/alexb60/alexb60_selected_frames/frame_0321.jpg",
       "front_wheel_conf": 0.9421,
       "back_wheel_conf": 0.9187,
       "front_squareness": 0.9823,
@@ -164,7 +208,7 @@ python3 pipeline/annotate_output.py  <video.mp4>  <video>_keypoints.json  <video
     {
       "frame_idx": 321,
       "timestamp": 5.4149,
-      "frame_file": "alexb60_selected_frames/frame_0321.jpg",
+      "frame_file": "output/alexb60/alexb60_selected_frames/frame_0321.jpg",
       "inference_time_ms": 130.1,
       "keypoints": [[x, y, conf], ...],   // 25 joints, Body25 order
       "joint_confidences": { "Nose": 0.92, "RKnee": 0.87, ... }
@@ -310,15 +354,10 @@ The pipeline runs directly on the lab machine without Docker. It has an NVIDIA R
 ```bash
 export PYTHONPATH=/users/ugrad/oneilk10/openpose/build/python/openpose:$PYTHONPATH
 export LD_LIBRARY_PATH=/users/ugrad/oneilk10/openpose/build/src/openpose:/users/ugrad/oneilk10/fyp/linux/lib/python3.12/site-packages/nvidia/cudnn/lib:$LD_LIBRARY_PATH
+export OPENPOSE_MODELS=/users/ugrad/oneilk10/openpose/models/
 ```
 
-### pose_estimate.py on local machine
-`OPENPOSE_MODELS` must be set — the script defaults to `/openpose/models/` (the Docker path) and silently returns no detections if the models aren't found there:
-```bash
-export OPENPOSE_MODELS=/users/ugrad/oneilk10/openpose/models/
-python3 pipeline/pose_estimate.py <selection_log.json>
-```
-Add this export to `~/.bashrc` so it's always set.
+`OPENPOSE_MODELS` is critical — `pose_estimate.py` defaults to `/openpose/models/` (the Docker path) and silently returns empty keypoints if it isn't set.
 
 ### Build notes
 - pybind11 submodule updated to v2.11.1 (bundled v2.3 incompatible with Python 3.12)
@@ -326,8 +365,46 @@ Add this export to `~/.bashrc` so it's always set.
 - `3rdparty/caffe/src/caffe/util/io.cpp` patched: `SetTotalBytesLimit` call reduced to 1 argument (protobuf 3.21+ compatibility)
 - Body25 model must be a valid download — a corrupted `pose_iter_584000.caffemodel` causes silent no-detection
 
+## Evaluation Pipeline
+
+Ground truth for RPM is measured manually in **Kinovea** from the `a` (trainer/controlled) videos.
+`<name>a<group>` videos are controlled (trainer-mounted); `<name>b<group>` are real-world pass-by footage.
+`<group>` is `30` (target 60 RPM) or `60` (target 90 RPM) — a cadence condition label, not frame rate.
+
+### Files
+- `evaluation/ground_truth.csv` — one row per video: `video,true_rpm`. Fill in Kinovea RPM values here.
+- `evaluation/evaluate.py` — runs both evaluations and prints a report table.
+
+### Usage
+```bash
+# From project root:
+python3 evaluation/evaluate.py
+# Optional overrides:
+python3 evaluation/evaluate.py --gt evaluation/ground_truth.csv --videos output/
+```
+
+The script searches `output/` recursively for `<stem>_rpm.json` and `<stem>_assessment.json` files.
+
+### RPM evaluation output
+Per-video table: true RPM, predicted RPM, absolute error, % error, method used.
+Aggregate stats (MAE, RMSE, mean % error) broken down by:
+- Condition `a` (trainer) vs `b` (real-world)
+- Cadence group: `30` (target 60 RPM) vs `60` (target 90 RPM)
+- RPM method: `peak_detection` vs `autocorrelation`
+
+### Seat height evaluation output
+Automatically pairs `<name>a<group>` ↔ `<name>b<group>` for each subject.
+Reports per-pair verdict agreement (`too_low` / `optimal` / `too_high`) and peak angle delta between conditions.
+
 ## TODOs
 - [ ] Choose best wheel-detection approach from research scripts and document rationale in report
+- [ ] Fill in evaluation/ground_truth.csv with Kinovea RPM measurements
+- [ ] Preprocessing before OpenPose (in `pipeline/pose_estimate.py`):
+  - [ ] ROI crop to YOLO cyclist bounding box (highest priority — fixes small subject in large frame)
+  - [ ] Motion deblur / unsharp mask to counteract lateral motion blur from pass-by footage
+  - [ ] CLAHE on LAB L-channel for variable outdoor lighting
+  - [ ] Pad crop to square before resizing to net_resolution (avoid aspect ratio distortion)
+  - [ ] Tune net_resolution (try `656x368` or `736x368` for better joint localisation on small subjects)
 
 ## Final Year Project Report
 A detailed written report is required covering approach and findings. It should document:

@@ -199,7 +199,10 @@ kp_path = sys.argv[1]
 with open(kp_path) as f:
     data = json.load(f)
 
-base     = os.path.splitext(kp_path)[0].replace("_keypoints", "")
+stem     = os.path.splitext(os.path.basename(kp_path))[0].replace("_keypoints", "")
+out_dir  = os.path.join("output", stem)
+os.makedirs(out_dir, exist_ok=True)
+base     = os.path.join(out_dir, stem)
 out_path = base + "_rpm.json"
 log_path = base + "_selection_log.json"
 

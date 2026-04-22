@@ -45,7 +45,10 @@ if len(sys.argv) < 2:
 
 video      = sys.argv[1]
 model      = sys.argv[2] if len(sys.argv) >= 3 else "best.pt"
-base       = os.path.splitext(video)[0]
+stem       = os.path.splitext(os.path.basename(video))[0]
+out_dir    = os.path.join(HERE, "output", stem)
+os.makedirs(out_dir, exist_ok=True)
+base       = os.path.join("output", stem, stem)
 
 log_path        = base + "_selection_log.json"
 kp_path         = base + "_keypoints.json"

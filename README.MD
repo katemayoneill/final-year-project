@@ -1,72 +1,100 @@
 # Cycling Posture Analysis System
 
-## todos
+Analyses real-world smartphone footage of a cyclist passing a camera. Detects side-on frames automatically, runs OpenPose on those frames to extract joint keypoints, then measures knee angles to assess seat height and estimate pedalling RPM.
 
-- [ ] separate scripts from docker image files
-- [ ] mkae docker image pull from scripts repo
+## Pipeline
 
-### `track_cyclist.py`
-Detects the cyclist using YOLO and tracks them across frames using a Kalman filter. Outputs a cropped video with the cyclist centred and consistently scaled.
-
-```bash
-pip3 install ultralytics
-python3 /app/track_cyclist.py video.mp4
-# output: video_tracked.mp4
+```
+smartphone_video.mp4
+  → side_angle_select.py  →  selected_frames/  +  selection_log.json
+  → pose_estimate.py      →  keypoints.json          (RunPod GPU)
+  → seat_height.py        →  assessment.json
+  → rpm.py                →  rpm.json
+  → annotate_output.py    →  _final.mp4
 ```
 
----
+## Usage
 
-### `process.py`
-Runs OpenPose on a video and saves all detected joint keypoints to a JSON file for downstream analysis. Each entry in the JSON corresponds to a frame and contains the (x, y, confidence) coordinates for all 25 body joints.
-
-```bash
-python3 /app/process.py video.mp4
-# output: video_keypoints.json
-```
-
----
-
-### `annotate_angles.py`
-Runs OpenPose on a video and outputs an annotated video with the skeleton and joint angles (knee and hip) drawn on every frame.
+### Run all stages at once
 
 ```bash
-python3 /app/annotate_angles.py video.mp4
-# output: video_annotated_angles.mp4
+python3 run_pipeline.py <video.mp4> [best.pt]
 ```
 
----
-
-### `snapshot.py`
-Finds frames where the cyclist is perpendicular to the camera and saves the frame with maximum knee extension (6 o'clock pedal position) as a snapshot with angles drawn on. Also outputs a video of all perpendicular frames.
+### Run stages individually
 
 ```bash
-python3 /app/snapshot.py video.mp4
-# output: video_6oclock.jpg
-#         video_perpendicular.mp4
+# Stage 1 — side-angle frame selection (YOLO, CPU)
+python3 pipeline/side_angle_select.py <video.mp4> [best.pt]
+
+# Stage 2 — pose estimation (OpenPose, RunPod GPU)
+export OPENPOSE_MODELS=/users/ugrad/oneilk10/openpose/models/
+python3 pipeline/pose_estimate.py <video>_selection_log.json
+
+# Stage 3 — seat height assessment
+python3 pipeline/seat_height.py <video>_keypoints.json
+
+# Stage 4 — RPM / cadence
+python3 pipeline/rpm.py <video>_keypoints.json
+
+# Stage 5 — annotated output video
+python3 pipeline/annotate_output.py <video.mp4> <video>_keypoints.json <video>_assessment.json <video>_rpm.json
 ```
 
----
-
-## Recommended Workflow
+## Local Setup (msc-linux-sls-016)
 
 ```bash
-# step 1: isolate and track the cyclist
-python3 /app/track_cyclist.py video.mp4
-
-# step 2: get the 6 o'clock measurement snapshot
-python3 /app/snapshot.py video_tracked.mp4
+source ~/fyp/linux/bin/activate
+export OPENPOSE_MODELS=/users/ugrad/oneilk10/openpose/models/
 ```
 
----
+Both are set automatically via `~/.bashrc`.
 
-## File Transfer (RunPod)
+## File Transfer (Cloudflare R2)
+
+Large files are transferred via R2 (HTTPS, port 443) — runpodctl is blocked on the college network.
 
 ```bash
-# laptop → pod
-runpodctl send video.mp4        # run on laptop, gives a code
-runpodctl receive <code>         # run on pod
+# Upload a video to R2
+python3 infra/upload.py <video.mp4>
 
-# pod → laptop
-runpodctl send result.jpg        # run on pod, gives a code
-runpodctl receive <code>         # run on laptop
+# Download a file from R2
+python3 infra/download.py <key> [dest]
+
+# Push all pipeline scripts to R2 (run locally after any script change)
+python3 infra/upload_scripts.py
+
+# Pull latest scripts on pod
+python3 /app/download_scripts.py
 ```
+
+Credentials via `.env`: `R2_ENDPOINT`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`.
+
+## Wheel-Detection Experiments
+
+Standalone scripts comparing four approaches for the report:
+
+```bash
+python3 experiments/wheel_detection/wheels.py   <video.mp4>   # YOLO bbox → circle
+python3 experiments/wheel_detection/circles.py  <video.mp4>   # Hough circles
+python3 experiments/wheel_detection/arcs.py     <video.mp4>   # RANSAC arc fitting
+python3 experiments/wheel_detection/contours.py <video.mp4>   # contour circularity
+```
+
+## Inference Benchmark Experiments
+
+```bash
+python3 experiments/inference_benchmarks/infer_base.py       <video.mp4>
+python3 experiments/inference_benchmarks/infer_opt1_fp16.py  <video.mp4>
+python3 experiments/inference_benchmarks/infer_opt2_batch.py <video.mp4>
+python3 experiments/inference_benchmarks/infer_opt3_skip.py  <video.mp4>
+python3 experiments/inference_benchmarks/infer_opt4_all.py   <video.mp4>
+```
+
+## Seat Height Verdicts
+
+| Verdict | Peak knee extension |
+|---|---|
+| `too_low` | < 145° |
+| `optimal` | 145° – 155° |
+| `too_high` | > 155° |

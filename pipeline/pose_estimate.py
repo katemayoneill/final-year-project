@@ -39,7 +39,10 @@ log_path = sys.argv[1]
 with open(log_path) as f:
     log = json.load(f)
 
-base     = os.path.splitext(log_path)[0].replace("_selection_log", "")
+stem     = os.path.splitext(os.path.basename(log_path))[0].replace("_selection_log", "")
+out_dir  = os.path.join("output", stem)
+os.makedirs(out_dir, exist_ok=True)
+base     = os.path.join(out_dir, stem)
 out_path = base + "_keypoints.json"
 
 params  = {"model_folder": OPENPOSE_MODELS}
