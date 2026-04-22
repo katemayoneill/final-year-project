@@ -7,15 +7,14 @@ kaggle.json
 
 # Raw video footage (large files)
 videos/
+*.MOV
 
-# Pipeline intermediate outputs
-*_selected_frames/
-*_keypoints.json
-*_selection_log.json
-*_assessment.json
-*_rpm.json
-*_final.mp4
-*_annotated.mp4
+# Pipeline outputs (one sub-directory per video)
+output/
+
+# Large generated video files in samples/
+samples/**/*.mp4
+samples/**/*.MOV
 
 # Python
 __pycache__/
