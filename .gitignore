@@ -11,10 +11,14 @@ videos/
 
 # Pipeline outputs (one sub-directory per video)
 output/
+output_v2/
 
 # Large generated video files in samples/
 samples/**/*.mp4
 samples/**/*.MOV
+
+# Generated docs
+*.html
 
 # Python
 __pycache__/
