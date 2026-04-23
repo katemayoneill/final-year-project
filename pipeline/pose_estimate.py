@@ -31,88 +31,95 @@ JOINT_NAMES = [
     "RBigToe", "RSmallToe", "RHeel",
 ]
 
-if len(sys.argv) < 2:
-    print("Usage: python3 pose_estimate.py <video_selection_log.json>")
-    sys.exit(1)
 
-log_path = sys.argv[1]
-with open(log_path) as f:
-    log = json.load(f)
+def main():
+    """Parse arguments, run OpenPose on selected frames, write keypoints.json."""
+    if len(sys.argv) < 2:
+        print("Usage: python3 pose_estimate.py <video_selection_log.json>")
+        sys.exit(1)
 
-stem     = os.path.splitext(os.path.basename(log_path))[0].replace("_selection_log", "")
-out_dir  = os.path.join("output", stem)
-os.makedirs(out_dir, exist_ok=True)
-base     = os.path.join(out_dir, stem)
-out_path = base + "_keypoints.json"
+    log_path = sys.argv[1]
+    with open(log_path) as f:
+        log = json.load(f)
 
-params  = {"model_folder": OPENPOSE_MODELS}
-wrapper = op.WrapperPython()
-wrapper.configure(params)
-wrapper.start()
-print(f"OpenPose ready. Processing {len(log['selected_frames'])} frames...")
+    stem     = os.path.splitext(os.path.basename(log_path))[0].replace("_selection_log", "")
+    out_dir  = os.path.join("output", stem)
+    os.makedirs(out_dir, exist_ok=True)
+    base     = os.path.join(out_dir, stem)
+    out_path = base + "_keypoints.json"
 
-frames_out      = []
-inference_times = []
+    params  = {"model_folder": OPENPOSE_MODELS}
+    wrapper = op.WrapperPython()
+    wrapper.configure(params)
+    wrapper.start()
+    print(f"OpenPose ready. Processing {len(log['selected_frames'])} frames...")
 
-for i, entry in enumerate(log["selected_frames"]):
-    frame = cv2.imread(entry["frame_file"])
-    if frame is None:
-        print(f"  [WARN] Could not read {entry['frame_file']}, skipping")
-        continue
+    frames_out      = []
+    inference_times = []
 
-    datum            = op.Datum()
-    datum.cvInputData = frame
-    t0               = time.time()
-    wrapper.emplaceAndPop(op.VectorDatum([datum]))
-    ms = (time.time() - t0) * 1000
-    inference_times.append(ms)
+    for i, entry in enumerate(log["selected_frames"]):
+        frame = cv2.imread(entry["frame_file"])
+        if frame is None:
+            print(f"  [WARN] Could not read {entry['frame_file']}, skipping")
+            continue
 
-    keypoints  = []
-    joint_conf = {}
-    if datum.poseKeypoints is not None and len(datum.poseKeypoints) > 0:
-        kp = datum.poseKeypoints[0]
-        for j, name in enumerate(JOINT_NAMES):
-            x, y, c = float(kp[j][0]), float(kp[j][1]), float(kp[j][2])
-            keypoints.append([round(x, 2), round(y, 2), round(c, 4)])
-            joint_conf[name] = round(c, 4)
+        datum             = op.Datum()
+        datum.cvInputData = frame
+        t0                = time.time()
+        wrapper.emplaceAndPop(op.VectorDatum([datum]))
+        ms = (time.time() - t0) * 1000
+        inference_times.append(ms)
 
-    frames_out.append({
-        "frame_idx":         entry["frame_idx"],
-        "timestamp":         entry["timestamp"],
-        "frame_file":        entry["frame_file"],
-        "inference_time_ms": round(ms, 1),
-        "keypoints":         keypoints,
-        "joint_confidences": joint_conf,
-    })
+        keypoints  = []
+        joint_conf = {}
+        if datum.poseKeypoints is not None and len(datum.poseKeypoints) > 0:
+            kp = datum.poseKeypoints[0]
+            for j, name in enumerate(JOINT_NAMES):
+                x, y, c = float(kp[j][0]), float(kp[j][1]), float(kp[j][2])
+                keypoints.append([round(x, 2), round(y, 2), round(c, 4)])
+                joint_conf[name] = round(c, 4)
 
-    pct = (i + 1) / len(log["selected_frames"])
-    bar = ('█' * int(pct * 40)).ljust(40)
-    print(f'\r  [{bar}] {i+1}/{len(log["selected_frames"])} ({pct:.0%})  {ms:.0f}ms', end='', flush=True)
+        frames_out.append({
+            "frame_idx":         entry["frame_idx"],
+            "timestamp":         entry["timestamp"],
+            "frame_file":        entry["frame_file"],
+            "inference_time_ms": round(ms, 1),
+            "keypoints":         keypoints,
+            "joint_confidences": joint_conf,
+        })
 
-print()
+        pct = (i + 1) / len(log["selected_frames"])
+        bar = ('█' * int(pct * 40)).ljust(40)
+        print(f'\r  [{bar}] {i+1}/{len(log["selected_frames"])} ({pct:.0%})  {ms:.0f}ms', end='', flush=True)
 
-avg_infer = sum(inference_times) / len(inference_times) if inference_times else 0
+    print()
 
-avg_joint_conf = {}
-if frames_out:
-    for name in JOINT_NAMES:
-        vals = [f["joint_confidences"].get(name, 0) for f in frames_out if f["joint_confidences"]]
-        avg_joint_conf[name] = round(sum(vals) / len(vals), 4) if vals else 0
+    avg_infer = sum(inference_times) / len(inference_times) if inference_times else 0
 
-output = {
-    "video":  log["video"],
-    "frames": frames_out,
-    "metrics": {
-        "frames_processed":      len(frames_out),
-        "avg_inference_time_ms": round(avg_infer, 1),
-        "avg_joint_confidence":  avg_joint_conf,
+    avg_joint_conf = {}
+    if frames_out:
+        for name in JOINT_NAMES:
+            vals = [f["joint_confidences"].get(name, 0) for f in frames_out if f["joint_confidences"]]
+            avg_joint_conf[name] = round(sum(vals) / len(vals), 4) if vals else 0
+
+    output = {
+        "video":  log["video"],
+        "frames": frames_out,
+        "metrics": {
+            "frames_processed":      len(frames_out),
+            "avg_inference_time_ms": round(avg_infer, 1),
+            "avg_joint_confidence":  avg_joint_conf,
+        }
     }
-}
 
-with open(out_path, "w") as f:
-    json.dump(output, f, indent=2)
+    with open(out_path, "w") as f:
+        json.dump(output, f, indent=2)
 
-m = output["metrics"]
-print(f"Frames processed   : {m['frames_processed']}")
-print(f"Avg inference time : {m['avg_inference_time_ms']}ms/frame")
-print(f"Keypoints saved    → {out_path}")
+    m = output["metrics"]
+    print(f"Frames processed   : {m['frames_processed']}")
+    print(f"Avg inference time : {m['avg_inference_time_ms']}ms/frame")
+    print(f"Keypoints saved    → {out_path}")
+
+
+if __name__ == "__main__":
+    main()

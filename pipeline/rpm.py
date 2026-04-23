@@ -41,6 +41,7 @@ L_HIP, L_KNEE, L_ANKLE = 12, 13, 14
 
 
 def calc_angle(A, B, C):
+    """Law of cosines: return angle at joint B in degrees."""
     a2 = (B[0] - C[0]) ** 2 + (B[1] - C[1]) ** 2
     b2 = (A[0] - B[0]) ** 2 + (A[1] - B[1]) ** 2
     c2 = (A[0] - C[0]) ** 2 + (A[1] - C[1]) ** 2
@@ -51,6 +52,7 @@ def calc_angle(A, B, C):
 
 
 def get_xy(keypoints, idx):
+    """Return (x, y) for keypoint idx if confidence >= CONF_MIN and position is valid, else None."""
     if not keypoints or idx >= len(keypoints):
         return None
     x, y, c = keypoints[idx]
@@ -191,147 +193,152 @@ def detect_direction(selection_log_path):
     return "right" if median > 0 else "left"
 
 
-if len(sys.argv) < 2:
-    print("Usage: python3 rpm.py <video_keypoints.json>")
-    sys.exit(1)
+def main():
+    """Parse arguments, compute cadence RPM from knee angle peaks, write rpm.json."""
+    if len(sys.argv) < 2:
+        print("Usage: python3 rpm.py <video_keypoints.json>")
+        sys.exit(1)
 
-kp_path = sys.argv[1]
-with open(kp_path) as f:
-    data = json.load(f)
+    kp_path = sys.argv[1]
+    with open(kp_path) as f:
+        data = json.load(f)
 
-stem     = os.path.splitext(os.path.basename(kp_path))[0].replace("_keypoints", "")
-out_dir  = os.path.join("output", stem)
-os.makedirs(out_dir, exist_ok=True)
-base     = os.path.join(out_dir, stem)
-out_path = base + "_rpm.json"
-log_path = base + "_selection_log.json"
+    stem     = os.path.splitext(os.path.basename(kp_path))[0].replace("_keypoints", "")
+    out_dir  = os.path.join("output", stem)
+    os.makedirs(out_dir, exist_ok=True)
+    base     = os.path.join(out_dir, stem)
+    out_path = base + "_rpm.json"
+    log_path = base + "_selection_log.json"
+
+    direction = detect_direction(log_path)
+
+    if direction == "right":
+        primary   = (L_HIP, L_KNEE, L_ANKLE)
+        fallback  = (R_HIP, R_KNEE, R_ANKLE)
+        knee_used = "right"
+    else:
+        primary   = (R_HIP, R_KNEE, R_ANKLE)
+        fallback  = (L_HIP, L_KNEE, L_ANKLE)
+        knee_used = "left"
+
+    if direction:
+        print(f"Direction of travel    : {direction}  →  using {knee_used} knee (camera-facing side)")
+    else:
+        print("Direction of travel    : unknown (selection log missing) — defaulting to right knee")
+
+    # Build time series: (frame_idx, timestamp, angle)
+    series = []
+    for entry in data["frames"]:
+        kp  = entry.get("keypoints", [])
+        t   = entry["timestamp"]
+        idx = entry["frame_idx"]
+
+        hip   = get_xy(kp, primary[0])
+        knee  = get_xy(kp, primary[1])
+        ankle = get_xy(kp, primary[2])
+
+        if not (hip and knee and ankle):
+            hip   = get_xy(kp, fallback[0])
+            knee  = get_xy(kp, fallback[1])
+            ankle = get_xy(kp, fallback[2])
+
+        angle = calc_angle(hip, knee, ankle) if (hip and knee and ankle) else None
+
+        if angle is not None:
+            series.append((idx, t, angle))
+
+    series.sort(key=lambda x: x[0])
+
+    # Split into contiguous runs and pick the longest
+    runs = split_into_runs(series, CONTIGUOUS_GAP_FRAMES)
+    best_run = max(runs, key=len) if runs else []
+
+    timestamps = [s[1] for s in best_run]
+    angles     = [s[2] for s in best_run]
+    smoothed   = smooth(angles)
+
+    peak_indices    = detect_peaks(smoothed, timestamps) if len(smoothed) >= 3 else []
+    peak_timestamps = [timestamps[i] for i in peak_indices]
+
+    cadence_rpm    = None
+    std_dev_rpm    = None
+    cycle_periods  = []
+    rpm_method     = "peak_detection"
+
+    if len(peak_timestamps) >= 2:
+        periods    = [peak_timestamps[i+1] - peak_timestamps[i] for i in range(len(peak_timestamps) - 1)]
+        avg_period = sum(periods) / len(periods)
+        cadence_rpm = round(60.0 / avg_period, 1) if avg_period > 0 else None
+
+        if len(periods) > 1:
+            mean_p = avg_period
+            var    = sum((p - mean_p) ** 2 for p in periods) / len(periods)
+            std_p  = math.sqrt(var)
+            if avg_period > std_p:
+                std_dev_rpm = round(
+                    (60.0 / (avg_period - std_p) - 60.0 / (avg_period + std_p)) / 2, 1
+                )
+
+        cycle_periods = [round(p, 4) for p in periods]
+
+    else:
+        # Fewer than 2 peaks — try autocorrelation as fallback
+        ac_rpm, ac_period = autocorrelation_rpm(timestamps, smoothed)
+        if ac_rpm is not None:
+            cadence_rpm  = ac_rpm
+            rpm_method   = "autocorrelation"
+            cycle_periods = [ac_period] if ac_period else []
+            if ac_period and len(timestamps) >= 2:
+                duration = timestamps[-1] - timestamps[0]
+                peak_timestamps = []  # timestamps not available from autocorrelation
+                estimated_cycles = int(duration / ac_period)
+                # update peak_indices count for metrics
+                peak_indices = [None] * estimated_cycles
+
+    run_info = {
+        "frame_idx_start": best_run[0][0]  if best_run else None,
+        "frame_idx_end":   best_run[-1][0] if best_run else None,
+        "frame_count":     len(best_run),
+        "duration_sec":    round(timestamps[-1] - timestamps[0], 2) if len(timestamps) >= 2 else 0,
+        "total_runs":      len(runs),
+    }
+
+    output = {
+        "video":             data["video"],
+        "direction":         direction,
+        "knee_used":         knee_used,
+        "cadence_rpm":       cadence_rpm,
+        "cycle_count":       len(peak_timestamps) if rpm_method == "peak_detection" else len(peak_indices),
+        "cycle_timestamps":  [round(t, 4) for t in peak_timestamps],
+        "cycle_periods_sec": cycle_periods,
+        "std_dev_rpm":       std_dev_rpm,
+        "rpm_method":        rpm_method,
+        "best_run":          run_info,
+        "metrics": {
+            "frames_with_angle":    len(series),
+            "frames_in_best_run":   len(best_run),
+            "peaks_found":          len(peak_indices),
+            "time_span_sec":        run_info["duration_sec"],
+        },
+        "angle_series": [[t, a] for t, a in zip(timestamps, smoothed)],
+        "peak_timestamps": peak_timestamps,
+    }
+
+    with open(out_path, "w") as f:
+        json.dump(output, f, indent=2)
+
+    m = output["metrics"]
+    print(f"Frames with knee angle : {m['frames_with_angle']}")
+    print(f"Contiguous runs found  : {run_info['total_runs']}")
+    print(f"Best run               : frames {run_info['frame_idx_start']}–{run_info['frame_idx_end']}  ({run_info['frame_count']} frames, {run_info['duration_sec']}s)")
+    print(f"Peaks (pedal cycles)   : {output['cycle_count']}  [method: {rpm_method}]")
+    if cadence_rpm is not None:
+        suffix = f"  ±{std_dev_rpm}" if std_dev_rpm else ""
+        print(f"Cadence                : {cadence_rpm} RPM{suffix}")
+    else:
+        print("Cadence                : insufficient data (need >= 2 peaks or clear autocorrelation period)")
+    print(f"RPM saved              → {out_path}")
 
 
-direction = detect_direction(log_path)
-
-if direction == "right":
-    primary   = (L_HIP, L_KNEE, L_ANKLE)
-    fallback  = (R_HIP, R_KNEE, R_ANKLE)
-    knee_used = "right"
-else:
-    primary   = (R_HIP, R_KNEE, R_ANKLE)
-    fallback  = (L_HIP, L_KNEE, L_ANKLE)
-    knee_used = "left"
-
-if direction:
-    print(f"Direction of travel    : {direction}  →  using {knee_used} knee (camera-facing side)")
-else:
-    print("Direction of travel    : unknown (selection log missing) — defaulting to right knee")
-
-# Build time series: (frame_idx, timestamp, angle)
-series = []
-for entry in data["frames"]:
-    kp  = entry.get("keypoints", [])
-    t   = entry["timestamp"]
-    idx = entry["frame_idx"]
-
-    hip   = get_xy(kp, primary[0])
-    knee  = get_xy(kp, primary[1])
-    ankle = get_xy(kp, primary[2])
-
-    if not (hip and knee and ankle):
-        hip   = get_xy(kp, fallback[0])
-        knee  = get_xy(kp, fallback[1])
-        ankle = get_xy(kp, fallback[2])
-
-    angle = calc_angle(hip, knee, ankle) if (hip and knee and ankle) else None
-
-    if angle is not None:
-        series.append((idx, t, angle))
-
-series.sort(key=lambda x: x[0])
-
-# Split into contiguous runs and pick the longest
-runs = split_into_runs(series, CONTIGUOUS_GAP_FRAMES)
-best_run = max(runs, key=len) if runs else []
-
-timestamps = [s[1] for s in best_run]
-angles     = [s[2] for s in best_run]
-smoothed   = smooth(angles)
-
-peak_indices    = detect_peaks(smoothed, timestamps) if len(smoothed) >= 3 else []
-peak_timestamps = [timestamps[i] for i in peak_indices]
-
-cadence_rpm    = None
-std_dev_rpm    = None
-cycle_periods  = []
-rpm_method     = "peak_detection"
-
-if len(peak_timestamps) >= 2:
-    periods    = [peak_timestamps[i+1] - peak_timestamps[i] for i in range(len(peak_timestamps) - 1)]
-    avg_period = sum(periods) / len(periods)
-    cadence_rpm = round(60.0 / avg_period, 1) if avg_period > 0 else None
-
-    if len(periods) > 1:
-        mean_p = avg_period
-        var    = sum((p - mean_p) ** 2 for p in periods) / len(periods)
-        std_p  = math.sqrt(var)
-        if avg_period > std_p:
-            std_dev_rpm = round(
-                (60.0 / (avg_period - std_p) - 60.0 / (avg_period + std_p)) / 2, 1
-            )
-
-    cycle_periods = [round(p, 4) for p in periods]
-
-else:
-    # Fewer than 2 peaks — try autocorrelation as fallback
-    ac_rpm, ac_period = autocorrelation_rpm(timestamps, smoothed)
-    if ac_rpm is not None:
-        cadence_rpm  = ac_rpm
-        rpm_method   = "autocorrelation"
-        cycle_periods = [ac_period] if ac_period else []
-        if ac_period and len(timestamps) >= 2:
-            duration = timestamps[-1] - timestamps[0]
-            peak_timestamps = []  # timestamps not available from autocorrelation
-            estimated_cycles = int(duration / ac_period)
-            # update peak_indices count for metrics
-            peak_indices = [None] * estimated_cycles
-
-run_info = {
-    "frame_idx_start": best_run[0][0]  if best_run else None,
-    "frame_idx_end":   best_run[-1][0] if best_run else None,
-    "frame_count":     len(best_run),
-    "duration_sec":    round(timestamps[-1] - timestamps[0], 2) if len(timestamps) >= 2 else 0,
-    "total_runs":      len(runs),
-}
-
-output = {
-    "video":             data["video"],
-    "direction":         direction,
-    "knee_used":         knee_used,
-    "cadence_rpm":       cadence_rpm,
-    "cycle_count":       len(peak_timestamps) if rpm_method == "peak_detection" else len(peak_indices),
-    "cycle_timestamps":  [round(t, 4) for t in peak_timestamps],
-    "cycle_periods_sec": cycle_periods,
-    "std_dev_rpm":       std_dev_rpm,
-    "rpm_method":        rpm_method,
-    "best_run":          run_info,
-    "metrics": {
-        "frames_with_angle":    len(series),
-        "frames_in_best_run":   len(best_run),
-        "peaks_found":          len(peak_indices),
-        "time_span_sec":        run_info["duration_sec"],
-    },
-    "angle_series": [[t, a] for t, a in zip(timestamps, smoothed)],
-    "peak_timestamps": peak_timestamps,
-}
-
-with open(out_path, "w") as f:
-    json.dump(output, f, indent=2)
-
-m = output["metrics"]
-print(f"Frames with knee angle : {m['frames_with_angle']}")
-print(f"Contiguous runs found  : {run_info['total_runs']}")
-print(f"Best run               : frames {run_info['frame_idx_start']}–{run_info['frame_idx_end']}  ({run_info['frame_count']} frames, {run_info['duration_sec']}s)")
-print(f"Peaks (pedal cycles)   : {output['cycle_count']}  [method: {rpm_method}]")
-if cadence_rpm is not None:
-    suffix = f"  ±{std_dev_rpm}" if std_dev_rpm else ""
-    print(f"Cadence                : {cadence_rpm} RPM{suffix}")
-else:
-    print("Cadence                : insufficient data (need >= 2 peaks or clear autocorrelation period)")
-print(f"RPM saved              → {out_path}")
+if __name__ == "__main__":
+    main()

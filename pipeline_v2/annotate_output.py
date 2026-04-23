@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Stage 5: Annotate original video with skeleton, angle labels, seat height verdict, and RPM.
+Pipeline V2 — Stage 5: Annotate original video with skeleton, angle labels, seat height verdict, and RPM.
 Draws Body25 skeleton from saved keypoints on selected frames; non-selected frames pass through.
 
 Usage: python3 annotate_output.py <video.mp4> <keypoints.json> <assessment.json> <rpm.json>
-Output: <video>_final.mp4
+Output: output_v2/<stem>/<stem>_final.mp4
 """
 import cv2
 import json
@@ -13,7 +13,7 @@ import os
 import subprocess
 import sys
 
-CONF_MIN = 0.1
+from utils import CONF_MIN, calc_angle, print_progress, video_stem
 
 # Body25 limb connections for skeleton overlay
 BODY25_PAIRS = [
@@ -36,17 +36,6 @@ VERDICT_COLOUR = {
     "too_low":            (0, 100, 255),
     "insufficient_data":  (180, 180, 180),
 }
-
-
-def calc_angle(A, B, C):
-    """Law of cosines: return angle at joint B in degrees."""
-    a2 = (B[0] - C[0]) ** 2 + (B[1] - C[1]) ** 2
-    b2 = (A[0] - B[0]) ** 2 + (A[1] - B[1]) ** 2
-    c2 = (A[0] - C[0]) ** 2 + (A[1] - C[1]) ** 2
-    denom = 2 * math.sqrt(a2 * b2)
-    if denom < 1e-6:
-        return None
-    return math.degrees(math.acos(max(-1.0, min(1.0, (a2 + b2 - c2) / denom))))
 
 
 def get_xy(keypoints, idx):
@@ -112,20 +101,14 @@ def draw_angle_annotation(frame, keypoints, name_a, name_b, name_c, colour, pref
     cv2.putText(frame, text, (lx, ly), cv2.FONT_HERSHEY_SIMPLEX, 0.55, colour, 2, cv2.LINE_AA)
 
 
-def draw_cadence_graph(frame, current_ts, angle_series, peak_timestamps, cadence_rpm, knee_used, frame_w, frame_h):
-    """Bottom-right waveform: knee angle over time, peak markers, current-frame cursor."""
+def build_graph_params(angle_series, peak_timestamps, cadence_rpm, knee_used, frame_w, frame_h):
+    """Pre-compute frame-invariant graph layout values. Returns None if series too short."""
     if len(angle_series) < 2:
-        return
-
+        return None
     GW, GH = 320, 100
     PAD = 12
     gx = frame_w - GW - PAD
-    gy = frame_h - GH - PAD - 20   # 20px for label above graph
-
-    overlay = frame.copy()
-    cv2.rectangle(overlay, (gx - 6, gy - 24), (gx + GW + 6, gy + GH + 6), (0, 0, 0), -1)
-    cv2.addWeighted(overlay, 0.65, frame, 0.35, 0, frame)
-
+    gy = frame_h - GH - PAD - 20
     times  = [t for t, _ in angle_series]
     angles = [a for _, a in angle_series]
     t_min, t_max = times[0], times[-1]
@@ -135,43 +118,58 @@ def draw_cadence_graph(frame, current_ts, angle_series, peak_timestamps, cadence
     a_rng = max(a_max - a_min, 1.0)
 
     def to_px(t, a):
-        """Map (time, angle) to pixel coordinates within the graph bounds."""
         x = gx + int((t - t_min) / t_rng * GW)
         y = gy + GH - int((a - a_min) / a_rng * GH)
         return (max(gx, min(gx + GW, x)), max(gy, min(gy + GH, y)))
 
-    # Optimal range shading (145–155°)
-    y_hi = max(gy, min(gy + GH, gy + GH - int((155 - a_min) / a_rng * GH)))
-    y_lo = max(gy, min(gy + GH, gy + GH - int((145 - a_min) / a_rng * GH)))
+    y_hi     = max(gy, min(gy + GH, gy + GH - int((155 - a_min) / a_rng * GH)))
+    y_lo     = max(gy, min(gy + GH, gy + GH - int((145 - a_min) / a_rng * GH)))
+    pts      = [to_px(t, a) for t, a in angle_series]
+    peak_xs  = [gx + int((pkt - t_min) / t_rng * GW) for pkt in peak_timestamps if t_min <= pkt <= t_max]
+    rpm_str  = f"  |  {cadence_rpm} RPM" if cadence_rpm is not None else ""
+    return {
+        "GW": GW, "GH": GH, "gx": gx, "gy": gy,
+        "t_min": t_min, "t_max": t_max, "t_rng": t_rng,
+        "y_hi": y_hi, "y_lo": y_lo,
+        "pts": pts, "peak_xs": peak_xs,
+        "to_px": to_px,
+        "series": list(zip(times, angles)),
+        "label": f"{knee_used.capitalize()} knee angle{rpm_str}",
+    }
+
+
+def draw_cadence_graph(frame, current_ts, gp):
+    """Bottom-right waveform: knee angle over time, peak markers, current-frame cursor."""
+    GW, GH, gx, gy = gp["GW"], gp["GH"], gp["gx"], gp["gy"]
+    t_min, t_max, t_rng = gp["t_min"], gp["t_max"], gp["t_rng"]
+
+    overlay = frame.copy()
+    cv2.rectangle(overlay, (gx - 6, gy - 24), (gx + GW + 6, gy + GH + 6), (0, 0, 0), -1)
+    cv2.addWeighted(overlay, 0.65, frame, 0.35, 0, frame)
+
+    y_hi, y_lo = gp["y_hi"], gp["y_lo"]
     if y_hi < y_lo:
         shd = frame.copy()
         cv2.rectangle(shd, (gx, y_hi), (gx + GW, y_lo), (0, 200, 80), -1)
         cv2.addWeighted(shd, 0.18, frame, 0.82, 0, frame)
 
-    # Waveform
-    pts = [to_px(t, a) for t, a in angle_series]
+    pts = gp["pts"]
     for i in range(1, len(pts)):
-        cv2.line(frame, pts[i-1], pts[i], (70, 205, 70), 2, cv2.LINE_AA)
+        cv2.line(frame, pts[i - 1], pts[i], (70, 205, 70), 2, cv2.LINE_AA)
 
-    # Peak markers — orange vertical lines with a dot at the top
-    for pkt in peak_timestamps:
-        if t_min <= pkt <= t_max:
-            mx = gx + int((pkt - t_min) / t_rng * GW)
-            cv2.line(frame,  (mx, gy), (mx, gy + GH), (30, 120, 255), 1, cv2.LINE_AA)
-            cv2.circle(frame, (mx, gy + 5), 4, (30, 120, 255), -1, cv2.LINE_AA)
+    for mx in gp["peak_xs"]:
+        cv2.line(frame,  (mx, gy), (mx, gy + GH), (30, 120, 255), 1, cv2.LINE_AA)
+        cv2.circle(frame, (mx, gy + 5), 4, (30, 120, 255), -1, cv2.LINE_AA)
 
-    # Current-frame cursor — white vertical line + dot on the waveform
     if t_min <= current_ts <= t_max:
-        cx = gx + int((current_ts - t_min) / t_rng * GW)
+        cx      = gx + int((current_ts - t_min) / t_rng * GW)
         cv2.line(frame, (cx, gy), (cx, gy + GH), (255, 255, 255), 1, cv2.LINE_AA)
-        closest = min(angle_series, key=lambda ta: abs(ta[0] - current_ts))
-        dot = to_px(closest[0], closest[1])
+        closest = min(gp["series"], key=lambda ta: abs(ta[0] - current_ts))
+        dot     = gp["to_px"](closest[0], closest[1])
         cv2.circle(frame, dot, 5, (255, 255, 255), -1, cv2.LINE_AA)
         cv2.circle(frame, dot, 5, (70, 205, 70),  1,  cv2.LINE_AA)
 
-    rpm_str = f"  |  {cadence_rpm} RPM" if cadence_rpm is not None else ""
-    label   = f"{knee_used.capitalize()} knee angle{rpm_str}"
-    cv2.putText(frame, label, (gx, gy - 7),
+    cv2.putText(frame, gp["label"], (gx, gy - 7),
                 cv2.FONT_HERSHEY_SIMPLEX, 0.45, (190, 190, 190), 1, cv2.LINE_AA)
 
 
@@ -217,8 +215,8 @@ def main():
     with open(assessment_path) as f: assess   = json.load(f)
     with open(rpm_path)        as f: rpm_data = json.load(f)
 
-    stem        = os.path.splitext(os.path.basename(video_path))[0]
-    out_dir     = os.path.join("output", stem)
+    stem        = video_stem(video_path)
+    out_dir     = os.path.join("output_v2", stem)
     os.makedirs(out_dir, exist_ok=True)
     base        = os.path.join(out_dir, stem)
     temp_path   = base + "_final_tmp.mp4"
@@ -240,9 +238,10 @@ def main():
 
     fourcc = cv2.VideoWriter_fourcc(*"mp4v")
     out    = cv2.VideoWriter(temp_path, fourcc, fps, (frame_w, frame_h))
+    gp     = build_graph_params(angle_series, peak_timestamps, cadence_rpm, knee_used, frame_w, frame_h)
 
     frame_idx = 0
-    print(f"Annotating {frame_count} frames...")
+    print(f"[Pipeline V2] Annotating {frame_count} frames...")
 
     while True:
         ret, frame = cap.read()
@@ -260,25 +259,31 @@ def main():
             draw_angle_annotation(frame, kp, "LShoulder", "LHip",  "LKnee",  (255, 255, 0),  "L Hip")
             draw_hud(frame, verdict, verdict_detail, cadence_rpm, frame_w, frame_h)
 
-        draw_cadence_graph(frame, current_ts, angle_series, peak_timestamps,
-                           cadence_rpm, knee_used, frame_w, frame_h)
+        if gp:
+            draw_cadence_graph(frame, current_ts, gp)
 
         out.write(frame)
         frame_idx += 1
-        pct = frame_idx / frame_count
-        bar = ('█' * int(pct * 40)).ljust(40)
-        print(f'\r  [{bar}] {frame_idx}/{frame_count} ({pct:.0%})', end='', flush=True)
+        print_progress(frame_idx, frame_count)
 
     print()
     cap.release()
     out.release()
 
-    subprocess.run(
-        ["ffmpeg", "-y", "-i", temp_path,
-         "-vcodec", "h264_nvenc", "-cq", "23", "-preset", "p4", output_path],
-        check=True
-    )
-    os.remove(temp_path)
+    try:
+        subprocess.run(
+            ["ffmpeg", "-y", "-i", temp_path,
+             "-vcodec", "h264_nvenc", "-cq", "23", "-preset", "p4", output_path],
+            check=True
+        )
+    except subprocess.CalledProcessError:
+        subprocess.run(
+            ["ffmpeg", "-y", "-i", temp_path,
+             "-c:v", "libx264", "-crf", "23", output_path],
+            check=True
+        )
+    finally:
+        os.remove(temp_path)
     print(f"Done → {output_path}")
 
 
