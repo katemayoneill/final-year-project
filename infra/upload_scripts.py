@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""
-Upload all pipeline scripts to R2.
-Run this locally whenever scripts are updated.
+"""Upload all pipeline scripts to R2, mirroring the project directory structure.
 
-Usage: python3 infra/upload_scripts.py
+Run locally whenever scripts are updated:
+  python3 infra/upload_scripts.py
+
+R2 keys match the local paths relative to the project root, e.g.:
+  pipeline/rpm.py, pipeline_v2/knee_analysis.py, run_pipeline_v2.py
 """
 import os
 import boto3
@@ -21,23 +23,34 @@ BUCKET = os.environ["R2_BUCKET"]
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# (local path relative to ROOT, R2 key) — pod downloads everything flat to /app
+# (local path relative to ROOT, R2 key) — R2 key mirrors project structure
 SCRIPTS = [
-    ("pipeline/side_angle_select.py", "scripts/side_angle_select.py"),
-    ("pipeline/pose_estimate.py",     "scripts/pose_estimate.py"),
-    ("pipeline/seat_height.py",       "scripts/seat_height.py"),
-    ("pipeline/rpm.py",               "scripts/rpm.py"),
-    ("pipeline/annotate_output.py",   "scripts/annotate_output.py"),
-    ("run_pipeline.py",               "scripts/run_pipeline.py"),
-    ("infra/upload.py",               "scripts/upload.py"),
-    ("infra/download.py",             "scripts/download.py"),
+    # Pipeline 1
+    ("pipeline/side_angle_select.py",    "pipeline/side_angle_select.py"),
+    ("pipeline/pose_estimate.py",        "pipeline/pose_estimate.py"),
+    ("pipeline/seat_height.py",          "pipeline/seat_height.py"),
+    ("pipeline/rpm.py",                  "pipeline/rpm.py"),
+    ("pipeline/annotate_output.py",      "pipeline/annotate_output.py"),
+    ("run_pipeline.py",                  "run_pipeline.py"),
+    # Pipeline V2
+    ("pipeline_v2/utils.py",             "pipeline_v2/utils.py"),
+    ("pipeline_v2/side_angle_select.py", "pipeline_v2/side_angle_select.py"),
+    ("pipeline_v2/pose_estimate.py",     "pipeline_v2/pose_estimate.py"),
+    ("pipeline_v2/knee_analysis.py",     "pipeline_v2/knee_analysis.py"),
+    ("pipeline_v2/seat_height.py",       "pipeline_v2/seat_height.py"),
+    ("pipeline_v2/rpm.py",               "pipeline_v2/rpm.py"),
+    ("pipeline_v2/annotate_output.py",   "pipeline_v2/annotate_output.py"),
+    ("run_pipeline_v2.py",               "run_pipeline_v2.py"),
+    # Transfer utilities (available on pod for video upload/download)
+    ("infra/upload.py",                  "infra/upload.py"),
+    ("infra/download.py",                "infra/download.py"),
 ]
 
 
 def upload_script(local_rel, key):
     path = os.path.join(ROOT, local_rel)
     if not os.path.exists(path):
-        print(f"  [SKIP] {local_rel} — file not found")
+        print(f"  [SKIP] {local_rel} — not found")
         return False
     size = os.path.getsize(path)
     print(f"  {local_rel} ({size} bytes) → {key}", end="", flush=True)

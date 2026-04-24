@@ -13,6 +13,8 @@ A cycling posture analysis system for real-world smartphone footage of a cyclist
 
 There are two parallel pipelines. **Pipeline 1** is the stable baseline; **Pipeline V2** is the working copy used for experiments and improvements. Run both on the same video and compare outputs.
 
+> **IMPORTANT: Do not modify any scripts in `pipeline/` (Pipeline 1).** Pipeline 1 is frozen as the comparison baseline. All improvements and fixes go into `pipeline_v2/` only.
+
 | | Pipeline 1 | Pipeline V2 |
 |---|---|---|
 | Scripts | `pipeline/` | `pipeline_v2/` |
@@ -50,7 +52,8 @@ smartphone_video.mp4
   → pose_estimate.py      → output_v2/<stem>/<stem>_keypoints.json
   │   (OpenPose only on selected frames — expensive, cloud GPU)
   │   25-joint Body25 keypoints per selected frame; ROI crop + CLAHE +
-  │   unsharp mask + square pad preprocessing
+  │   unsharp mask + square pad preprocessing; frames missing cyclist_box
+  │   fall back to wheel-position crop at median aspect ratio (not skipped)
   │
   → knee_analysis.py      → output_v2/<stem>/<stem>_knee_analysis.json
   │   (Single source of truth for pedal cycle analysis)
@@ -90,7 +93,7 @@ Each stage creates its output directory if it doesn't exist, so stages can be ru
 - CUDA 11.8 + cuDNN 8 on Ubuntu 22.04
 - OpenPose compiled from source with Python bindings (`BUILD_PYTHON=ON`), cuDNN + CUDA enabled
 - GPU architectures: 60, 61, 62, 70, 72, 75, 80, 86, 89, 90
-- On startup: run `infra/startup.sh` — installs Python deps, then fetches `download_scripts.py` from R2 via `download.py`, then pulls all pipeline scripts to `/app`
+- On startup: run `infra/startup.sh` — installs Python deps (torch for **cu124** — RTX 4090 pods have CUDA 12.4 driver, cu121/cu13 builds fail CUDA init), then fetches `download_scripts.py` from R2 via `download.py`, then pulls all pipeline scripts to `/app`
 - OpenPose models in `/openpose/models/` — baked into the image at build time via `COPY models/`; NOT in git (too large)
 - Scripts are NOT bundled in the image — pulled from R2 at startup so updates don't require a rebuild
 
@@ -103,12 +106,22 @@ Each stage creates its output directory if it doesn't exist, so stages can be ru
 
 ## File Transfer
 Large files are transferred via **Cloudflare R2** (S3-compatible, HTTPS/port 443):
-- `infra/upload.py <file>` — uploads a single file to R2 (key = filename, no prefix)
+- `infra/upload.py <src1> [src2 ...] <r2_folder>` — uploads files or directories to R2 under the given folder prefix; directories are walked recursively; last argument is always the R2 folder
 - `infra/download.py <key> [dest]` — downloads a single file from R2
 - `infra/upload_scripts.py` — uploads all pipeline scripts to R2 under `scripts/` prefix; run locally after any script change
 - `infra/download_scripts.py [dest_dir]` — downloads all pipeline scripts from R2; run on pod to get latest versions
 - Credentials via `.env`: `R2_ENDPOINT`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`
 - `boto3.upload_file` handles multipart automatically — suitable for large videos
+
+**Uploading output folders from the pod:** tar the directory first to avoid per-file HTTP overhead (hundreds of JPEGs = hundreds of round-trips):
+```bash
+tar -czf /tmp/<stem>.tar.gz -C /app/data/output_v2 <stem>
+python3 /app/infra/upload.py /tmp/<stem>.tar.gz output_v2
+rm /tmp/<stem>.tar.gz
+```
+Extract locally with `tar -xzf <stem>.tar.gz`.
+
+**Pod storage layout:** pipeline outputs live in `/app/data/output_v2/` (the persistent network volume), not in `/app/output_v2/`. The container root (`/`) is a separate 20 GB overlay — keep it clear of large files.
 
 ### Pod setup workflow
 1. On first pod start, `infra/download.py` and `.env` must already be in `/app` (paste via web terminal or bake into image)
@@ -123,6 +136,11 @@ python3 infra/upload_scripts.py
 # Pod — to pull latest without restarting:
 python3 /app/download_scripts.py
 ```
+
+### Pod operation tips
+- **Use Ctrl+C to interrupt a run, not Ctrl+Z.** Ctrl+Z suspends the process but leaves it alive in memory, holding the GPU CUDA/cuDNN context. Any subsequent OpenPose run will fail with `CUDNN_STATUS_NOT_INITIALIZED` because the GPU is already claimed by the suspended process.
+- **If `CUDNN_STATUS_NOT_INITIALIZED` appears:** there is a stale Python process holding the GPU. Fix: `pkill -9 -f python3`, then retry.
+- **Multiple SSH sessions are safe** — each SSH connection is independent. You can monitor GPU usage (`nvidia-smi -l 1`) in one terminal while the pipeline runs in another. Do not run two OpenPose stages simultaneously as they will conflict on the GPU.
 
 ## Directory Structure
 
@@ -249,7 +267,7 @@ All pipeline_v2 scripts import shared helpers from **`pipeline_v2/utils.py`** (`
 |---|---|---|---|
 | `utils.py` *(V2 only)* | — | — | Shared helpers: `CONF_MIN`, `calc_angle`, `get_xy`, `video_stem`, `print_progress` |
 | `side_angle_select.py` | video.mp4 | selection_log.json + frame images | **Quality-weighted burst selection**: scores each burst as `len × mean_squareness × mean_size_ratio × mean_normalised_cyclist_height`; keeps all bursts scoring ≥ `QUALITY_FRACTION` (50%) of best burst with ≥ `MIN_BURST_FRAMES` (5); adds `selected_bursts` metadata to log; also saves `cyclist_box` per frame |
-| `pose_estimate.py` | selection_log.json | keypoints.json | **ROI crop to cyclist box, CLAHE, unsharp mask, square pad, net_resolution=656x368; keypoints transformed back to original-frame coordinates; step montages saved to `_preprocessing_steps/`** |
+| `pose_estimate.py` | selection_log.json | keypoints.json | **ROI crop to cyclist box, CLAHE, unsharp mask, square pad, net_resolution=656x368; keypoints transformed back to original-frame coordinates; step montages saved to `_preprocessing_steps/`**; if a selected frame has no `cyclist_box` (YOLO detected wheels but not cyclist class), estimates crop from wheel positions + median h/w aspect ratio of frames that do have a box — preserves scale rather than skipping; estimated box drawn in yellow in montage vs green for detected |
 | `knee_analysis.py` *(V2 only)* | keypoints.json | knee_analysis.json | **Per-burst direction detection** from wheel x-positions (`load_direction_map`); knee selected independently per burst so opposing-direction bursts in the same clip are handled correctly; camera-facing knee selection; **processes every contiguous run independently** — Savitzky-Golay smoothing, adaptive-prominence peak detection (scipy), autocorrelation fallback per run; outputs `runs[]` array + aggregated `peaks` + `angle_series` at top level for downstream compat |
 | `seat_height.py` | keypoints.json (+ knee_analysis.json auto-read) | assessment.json | Per-frame angles same as P1; **peak = mean of all peaks from runs with ≥2 detected peaks; falls back to max() if no run has ≥2 peaks; adds `peak_angle_method` field** |
 | `rpm.py` | knee_analysis.json | rpm.json | **Pools all inter-peak periods from every run with ≥2 peaks → single mean cadence RPM**; autocorr fallback from first run with a valid period; adds `per_run_rpms` list; forwards aggregated angle_series + peak_timestamps for annotate |

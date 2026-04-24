@@ -53,9 +53,36 @@ JOINT_NAMES = [
 ]
 
 
-def compute_roi(entry, frame_h, frame_w):
-    """Return (x1, y1, x2, y2) crop region from the cyclist bounding box."""
-    cx1, cy1, cx2, cy2 = entry["cyclist_box"]
+def median_cyclist_aspect(entries):
+    """Return median height/width ratio from entries that have a cyclist_box."""
+    ratios = []
+    for e in entries:
+        box = e.get("cyclist_box")
+        if box:
+            w = box[2] - box[0]
+            h = box[3] - box[1]
+            if w > 0:
+                ratios.append(h / w)
+    if not ratios:
+        return 2.0
+    return sorted(ratios)[len(ratios) // 2]
+
+
+def estimate_cyclist_box(entry, aspect):
+    """Estimate cyclist box from wheel positions + known aspect ratio when cyclist_box is missing."""
+    fw_box = entry["front_wheel_box"]
+    bw_box = entry["back_wheel_box"]
+    x_left       = min(fw_box[0], bw_box[0])
+    x_right      = max(fw_box[2], bw_box[2])
+    wheel_bottom = max(fw_box[3], bw_box[3])
+    est_width    = x_right - x_left
+    est_height   = int(est_width * aspect)
+    return [x_left, wheel_bottom - est_height, x_right, wheel_bottom]
+
+
+def compute_roi(box, frame_h, frame_w):
+    """Return (x1, y1, x2, y2) padded crop region from [cx1, cy1, cx2, cy2] box."""
+    cx1, cy1, cx2, cy2 = box
     margin = int(0.05 * max(cx2 - cx1, cy2 - cy1))
     x1 = max(0, cx1 - margin)
     y1 = max(0, cy1 - margin)
@@ -137,30 +164,36 @@ def main():
     wrapper = op.WrapperPython()
     wrapper.configure(params)
     wrapper.start()
-    print(f"[Pipeline V2] OpenPose ready (net_resolution={NET_RESOLUTION}). Processing {len(log['selected_frames'])} frames...")
+    all_entries = log["selected_frames"]
+    fallback_aspect = median_cyclist_aspect(all_entries)
+    print(f"[Pipeline V2] OpenPose ready (net_resolution={NET_RESOLUTION}). Processing {len(all_entries)} frames...")
+    print(f"  Fallback cyclist aspect ratio (h/w): {fallback_aspect:.2f}")
 
     frames_out       = []
     inference_times  = []
     joint_conf_sums  = {name: 0.0 for name in JOINT_NAMES}
     joint_conf_count = 0
 
-    for i, entry in enumerate(log["selected_frames"]):
+    for i, entry in enumerate(all_entries):
         frame = cv2.imread(entry["frame_file"])
         if frame is None:
             print(f"  [WARN] Could not read {entry['frame_file']}, skipping")
             continue
 
-        if not entry.get("cyclist_box"):
-            print(f"  [WARN] No cyclist_box for frame {entry['frame_idx']}, skipping")
-            continue
-
         fh, fw = frame.shape[:2]
 
-        # Step 1 — original frame with cyclist box highlighted
-        x1, y1, x2, y2 = compute_roi(entry, fh, fw)
+        has_cyclist_box = bool(entry.get("cyclist_box"))
+        if not has_cyclist_box:
+            print(f"  [WARN] No cyclist_box for frame {entry['frame_idx']}, estimating from wheel boxes")
+        cyclist_box = entry["cyclist_box"] if has_cyclist_box else estimate_cyclist_box(entry, fallback_aspect)
+
+        # Step 1 — original frame with box highlighted (green=detected, yellow=estimated)
+        x1, y1, x2, y2 = compute_roi(cyclist_box, fh, fw)
         annotated = frame.copy()
-        cx1, cy1, cx2, cy2 = entry["cyclist_box"]
-        cv2.rectangle(annotated, (cx1, cy1), (cx2, cy2), (0, 255, 0), 3)
+        cx1, cy1, cx2, cy2 = cyclist_box
+        box_colour  = (0, 255, 0) if has_cyclist_box else (0, 200, 255)
+        step1_label = "1. Original + cyclist box" if has_cyclist_box else "1. Original + estimated box"
+        cv2.rectangle(annotated, (cx1, cy1), (cx2, cy2), box_colour, 3)
         step_original = annotated
 
         # Step 2 — ROI crop (raw)
@@ -177,11 +210,11 @@ def main():
 
         save_step_montage(
             [
-                ("1. Original + cyclist box", step_original),
-                ("2. ROI crop",               crop_raw),
-                ("3. CLAHE",                  crop_clahe),
-                ("4. Unsharp mask",           crop_sharp),
-                ("5. Square pad",             padded),
+                (step1_label,    step_original),
+                ("2. ROI crop",  crop_raw),
+                ("3. CLAHE",     crop_clahe),
+                ("4. Unsharp mask", crop_sharp),
+                ("5. Square pad",   padded),
             ],
             os.path.join(steps_dir, f"frame_{entry['frame_idx']:06d}_steps.jpg"),
         )

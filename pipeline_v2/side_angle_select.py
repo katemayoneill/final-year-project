@@ -69,7 +69,9 @@ def main():
 
     os.makedirs(frames_dir, exist_ok=True)
 
-    print(f"[Pipeline V2] Loading model: {MODEL_PATH}")
+    import torch
+    device = 0 if torch.cuda.is_available() else "cpu"
+    print(f"[Pipeline V2] Loading model: {MODEL_PATH}  (device: {'cuda:0' if device == 0 else 'cpu'})")
     model = YOLO(MODEL_PATH)
 
     cap         = cv2.VideoCapture(input_path)
@@ -88,7 +90,7 @@ def main():
         if not ret:
             break
 
-        results = model(frame, conf=CONFIDENCE, verbose=False)
+        results = model(frame, conf=CONFIDENCE, verbose=False, device=device)
 
         front_box = back_box = cyclist_box = None
         front_conf = back_conf = cyclist_conf = 0.0

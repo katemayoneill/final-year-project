@@ -17,6 +17,9 @@ output_v2/
 samples/**/*.mp4
 samples/**/*.MOV
 
+# Temporary pipeline output archives
+*.tar.gz
+
 # Generated docs
 *.html
 
