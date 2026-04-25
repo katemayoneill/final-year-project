@@ -1,0 +1,4277 @@
+{
+  "video": "videos/jackb60.MP4",
+  "model": "models/best.pt",
+  "fps": 59.96592844974446,
+  "total_frames": 2112,
+  "selected_frames": [
+    {
+      "frame_idx": 1785,
+      "timestamp": 29.7669,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001785.jpg",
+      "front_wheel_conf": 0.9102,
+      "back_wheel_conf": 0.9063,
+      "front_squareness": 0.95,
+      "back_squareness": 0.875,
+      "size_match_ratio": 0.9211,
+      "front_wheel_box": [
+        422,
+        222,
+        460,
+        262
+      ],
+      "back_wheel_box": [
+        476,
+        222,
+        511,
+        262
+      ],
+      "cyclist_box": [
+        422,
+        162,
+        511,
+        263
+      ]
+    },
+    {
+      "frame_idx": 1786,
+      "timestamp": 29.7836,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001786.jpg",
+      "front_wheel_conf": 0.9143,
+      "back_wheel_conf": 0.9096,
+      "front_squareness": 0.95,
+      "back_squareness": 0.9231,
+      "size_match_ratio": 0.9237,
+      "front_wheel_box": [
+        422,
+        222,
+        460,
+        262
+      ],
+      "back_wheel_box": [
+        475,
+        222,
+        511,
+        261
+      ],
+      "cyclist_box": [
+        421,
+        164,
+        511,
+        263
+      ]
+    },
+    {
+      "frame_idx": 1787,
+      "timestamp": 29.8003,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001787.jpg",
+      "front_wheel_conf": 0.9103,
+      "back_wheel_conf": 0.9142,
+      "front_squareness": 0.9268,
+      "back_squareness": 0.9,
+      "size_match_ratio": 0.9243,
+      "front_wheel_box": [
+        422,
+        221,
+        460,
+        262
+      ],
+      "back_wheel_box": [
+        475,
+        222,
+        511,
+        262
+      ],
+      "cyclist_box": [
+        421,
+        164,
+        511,
+        264
+      ]
+    },
+    {
+      "frame_idx": 1788,
+      "timestamp": 29.8169,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001788.jpg",
+      "front_wheel_conf": 0.9133,
+      "back_wheel_conf": 0.918,
+      "front_squareness": 0.9268,
+      "back_squareness": 0.925,
+      "size_match_ratio": 0.9499,
+      "front_wheel_box": [
+        421,
+        221,
+        459,
+        262
+      ],
+      "back_wheel_box": [
+        474,
+        222,
+        511,
+        262
+      ],
+      "cyclist_box": [
+        421,
+        164,
+        511,
+        264
+      ]
+    },
+    {
+      "frame_idx": 1789,
+      "timestamp": 29.8336,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001789.jpg",
+      "front_wheel_conf": 0.9132,
+      "back_wheel_conf": 0.9167,
+      "front_squareness": 0.95,
+      "back_squareness": 0.925,
+      "size_match_ratio": 0.9737,
+      "front_wheel_box": [
+        421,
+        222,
+        459,
+        262
+      ],
+      "back_wheel_box": [
+        474,
+        222,
+        511,
+        262
+      ],
+      "cyclist_box": [
+        421,
+        165,
+        511,
+        264
+      ]
+    },
+    {
+      "frame_idx": 1790,
+      "timestamp": 29.8503,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001790.jpg",
+      "front_wheel_conf": 0.9095,
+      "back_wheel_conf": 0.916,
+      "front_squareness": 0.975,
+      "back_squareness": 0.9,
+      "size_match_ratio": 0.9231,
+      "front_wheel_box": [
+        421,
+        222,
+        460,
+        262
+      ],
+      "back_wheel_box": [
+        475,
+        222,
+        511,
+        262
+      ],
+      "cyclist_box": [
+        421,
+        166,
+        512,
+        264
+      ]
+    },
+    {
+      "frame_idx": 1791,
+      "timestamp": 29.867,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001791.jpg",
+      "front_wheel_conf": 0.9057,
+      "back_wheel_conf": 0.9113,
+      "front_squareness": 0.975,
+      "back_squareness": 0.925,
+      "size_match_ratio": 0.9487,
+      "front_wheel_box": [
+        421,
+        222,
+        460,
+        262
+      ],
+      "back_wheel_box": [
+        475,
+        222,
+        512,
+        262
+      ],
+      "cyclist_box": [
+        421,
+        165,
+        512,
+        263
+      ]
+    },
+    {
+      "frame_idx": 1792,
+      "timestamp": 29.8836,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001792.jpg",
+      "front_wheel_conf": 0.9087,
+      "back_wheel_conf": 0.911,
+      "front_squareness": 0.975,
+      "back_squareness": 0.95,
+      "size_match_ratio": 0.9744,
+      "front_wheel_box": [
+        421,
+        222,
+        460,
+        262
+      ],
+      "back_wheel_box": [
+        474,
+        222,
+        512,
+        262
+      ],
+      "cyclist_box": [
+        421,
+        164,
+        512,
+        264
+      ]
+    },
+    {
+      "frame_idx": 1793,
+      "timestamp": 29.9003,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001793.jpg",
+      "front_wheel_conf": 0.9125,
+      "back_wheel_conf": 0.9156,
+      "front_squareness": 0.95,
+      "back_squareness": 0.9024,
+      "size_match_ratio": 0.998,
+      "front_wheel_box": [
+        422,
+        222,
+        460,
+        262
+      ],
+      "back_wheel_box": [
+        475,
+        222,
+        512,
+        263
+      ],
+      "cyclist_box": [
+        421,
+        165,
+        512,
+        264
+      ]
+    },
+    {
+      "frame_idx": 1794,
+      "timestamp": 29.917,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001794.jpg",
+      "front_wheel_conf": 0.9082,
+      "back_wheel_conf": 0.915,
+      "front_squareness": 0.9512,
+      "back_squareness": 0.9024,
+      "size_match_ratio": 0.9487,
+      "front_wheel_box": [
+        422,
+        222,
+        461,
+        263
+      ],
+      "back_wheel_box": [
+        475,
+        222,
+        512,
+        263
+      ],
+      "cyclist_box": [
+        421,
+        164,
+        512,
+        264
+      ]
+    },
+    {
+      "frame_idx": 1795,
+      "timestamp": 29.9337,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001795.jpg",
+      "front_wheel_conf": 0.904,
+      "back_wheel_conf": 0.8614,
+      "front_squareness": 0.9512,
+      "back_squareness": 0.9024,
+      "size_match_ratio": 0.9487,
+      "front_wheel_box": [
+        422,
+        222,
+        461,
+        263
+      ],
+      "back_wheel_box": [
+        475,
+        222,
+        512,
+        263
+      ],
+      "cyclist_box": [
+        422,
+        165,
+        513,
+        264
+      ]
+    },
+    {
+      "frame_idx": 1796,
+      "timestamp": 29.9503,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001796.jpg",
+      "front_wheel_conf": 0.8977,
+      "back_wheel_conf": 0.9182,
+      "front_squareness": 0.975,
+      "back_squareness": 0.9024,
+      "size_match_ratio": 0.9724,
+      "front_wheel_box": [
+        422,
+        223,
+        461,
+        263
+      ],
+      "back_wheel_box": [
+        475,
+        222,
+        512,
+        263
+      ],
+      "cyclist_box": [
+        422,
+        166,
+        512,
+        264
+      ]
+    },
+    {
+      "frame_idx": 1797,
+      "timestamp": 29.967,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001797.jpg",
+      "front_wheel_conf": 0.8989,
+      "back_wheel_conf": 0.9151,
+      "front_squareness": 0.9512,
+      "back_squareness": 0.9268,
+      "size_match_ratio": 0.9744,
+      "front_wheel_box": [
+        422,
+        222,
+        461,
+        263
+      ],
+      "back_wheel_box": [
+        474,
+        222,
+        512,
+        263
+      ],
+      "cyclist_box": [
+        421,
+        165,
+        512,
+        264
+      ]
+    },
+    {
+      "frame_idx": 1798,
+      "timestamp": 29.9837,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001798.jpg",
+      "front_wheel_conf": 0.9047,
+      "back_wheel_conf": 0.9176,
+      "front_squareness": 0.975,
+      "back_squareness": 0.9286,
+      "size_match_ratio": 0.9524,
+      "front_wheel_box": [
+        422,
+        223,
+        461,
+        263
+      ],
+      "back_wheel_box": [
+        473,
+        222,
+        512,
+        264
+      ],
+      "cyclist_box": [
+        421,
+        166,
+        512,
+        264
+      ]
+    },
+    {
+      "frame_idx": 1799,
+      "timestamp": 30.0004,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001799.jpg",
+      "front_wheel_conf": 0.9077,
+      "back_wheel_conf": 0.9189,
+      "front_squareness": 0.9512,
+      "back_squareness": 0.9268,
+      "size_match_ratio": 0.9744,
+      "front_wheel_box": [
+        422,
+        223,
+        461,
+        264
+      ],
+      "back_wheel_box": [
+        474,
+        222,
+        512,
+        263
+      ],
+      "cyclist_box": [
+        421,
+        169,
+        512,
+        264
+      ]
+    },
+    {
+      "frame_idx": 1800,
+      "timestamp": 30.017,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001800.jpg",
+      "front_wheel_conf": 0.9057,
+      "back_wheel_conf": 0.9185,
+      "front_squareness": 0.9512,
+      "back_squareness": 0.9048,
+      "size_match_ratio": 0.9981,
+      "front_wheel_box": [
+        422,
+        223,
+        461,
+        264
+      ],
+      "back_wheel_box": [
+        474,
+        222,
+        512,
+        264
+      ],
+      "cyclist_box": [
+        421,
+        165,
+        512,
+        265
+      ]
+    },
+    {
+      "frame_idx": 1801,
+      "timestamp": 30.0337,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001801.jpg",
+      "front_wheel_conf": 0.9036,
+      "back_wheel_conf": 0.9205,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9286,
+      "size_match_ratio": 0.9988,
+      "front_wheel_box": [
+        421,
+        223,
+        461,
+        264
+      ],
+      "back_wheel_box": [
+        473,
+        222,
+        512,
+        264
+      ],
+      "cyclist_box": [
+        421,
+        165,
+        512,
+        264
+      ]
+    },
+    {
+      "frame_idx": 1802,
+      "timestamp": 30.0504,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001802.jpg",
+      "front_wheel_conf": 0.9043,
+      "back_wheel_conf": 0.9264,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9286,
+      "size_match_ratio": 0.9988,
+      "front_wheel_box": [
+        421,
+        223,
+        461,
+        264
+      ],
+      "back_wheel_box": [
+        473,
+        222,
+        512,
+        264
+      ],
+      "cyclist_box": [
+        420,
+        167,
+        512,
+        264
+      ]
+    },
+    {
+      "frame_idx": 1803,
+      "timestamp": 30.0671,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001803.jpg",
+      "front_wheel_conf": 0.9018,
+      "back_wheel_conf": 0.9259,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9512,
+      "size_match_ratio": 0.9512,
+      "front_wheel_box": [
+        420,
+        223,
+        461,
+        264
+      ],
+      "back_wheel_box": [
+        473,
+        223,
+        512,
+        264
+      ],
+      "cyclist_box": [
+        420,
+        166,
+        512,
+        264
+      ]
+    },
+    {
+      "frame_idx": 1804,
+      "timestamp": 30.0838,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001804.jpg",
+      "front_wheel_conf": 0.9098,
+      "back_wheel_conf": 0.9294,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9286,
+      "size_match_ratio": 0.9988,
+      "front_wheel_box": [
+        420,
+        223,
+        460,
+        264
+      ],
+      "back_wheel_box": [
+        473,
+        222,
+        512,
+        264
+      ],
+      "cyclist_box": [
+        420,
+        166,
+        512,
+        264
+      ]
+    },
+    {
+      "frame_idx": 1805,
+      "timestamp": 30.1004,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001805.jpg",
+      "front_wheel_conf": 0.9096,
+      "back_wheel_conf": 0.9265,
+      "front_squareness": 0.9524,
+      "back_squareness": 0.9286,
+      "size_match_ratio": 0.975,
+      "front_wheel_box": [
+        420,
+        222,
+        460,
+        264
+      ],
+      "back_wheel_box": [
+        473,
+        222,
+        512,
+        264
+      ],
+      "cyclist_box": [
+        420,
+        166,
+        512,
+        265
+      ]
+    },
+    {
+      "frame_idx": 1806,
+      "timestamp": 30.1171,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001806.jpg",
+      "front_wheel_conf": 0.9158,
+      "back_wheel_conf": 0.9247,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9048,
+      "size_match_ratio": 0.9732,
+      "front_wheel_box": [
+        420,
+        223,
+        460,
+        264
+      ],
+      "back_wheel_box": [
+        474,
+        222,
+        512,
+        264
+      ],
+      "cyclist_box": [
+        420,
+        167,
+        512,
+        265
+      ]
+    },
+    {
+      "frame_idx": 1807,
+      "timestamp": 30.1338,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001807.jpg",
+      "front_wheel_conf": 0.9191,
+      "back_wheel_conf": 0.9256,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9048,
+      "size_match_ratio": 0.9732,
+      "front_wheel_box": [
+        419,
+        223,
+        459,
+        264
+      ],
+      "back_wheel_box": [
+        474,
+        222,
+        512,
+        264
+      ],
+      "cyclist_box": [
+        419,
+        164,
+        512,
+        265
+      ]
+    },
+    {
+      "frame_idx": 1808,
+      "timestamp": 30.1505,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001808.jpg",
+      "front_wheel_conf": 0.9173,
+      "back_wheel_conf": 0.9258,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9048,
+      "size_match_ratio": 0.9732,
+      "front_wheel_box": [
+        419,
+        223,
+        459,
+        264
+      ],
+      "back_wheel_box": [
+        474,
+        222,
+        512,
+        264
+      ],
+      "cyclist_box": [
+        419,
+        167,
+        512,
+        265
+      ]
+    },
+    {
+      "frame_idx": 1809,
+      "timestamp": 30.1671,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001809.jpg",
+      "front_wheel_conf": 0.9111,
+      "back_wheel_conf": 0.9235,
+      "front_squareness": 0.9524,
+      "back_squareness": 0.9268,
+      "size_match_ratio": 0.9274,
+      "front_wheel_box": [
+        418,
+        222,
+        458,
+        264
+      ],
+      "back_wheel_box": [
+        473,
+        223,
+        511,
+        264
+      ],
+      "cyclist_box": [
+        418,
+        167,
+        512,
+        265
+      ]
+    },
+    {
+      "frame_idx": 1810,
+      "timestamp": 30.1838,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001810.jpg",
+      "front_wheel_conf": 0.9117,
+      "back_wheel_conf": 0.9238,
+      "front_squareness": 0.9524,
+      "back_squareness": 0.9268,
+      "size_match_ratio": 0.9274,
+      "front_wheel_box": [
+        418,
+        222,
+        458,
+        264
+      ],
+      "back_wheel_box": [
+        473,
+        223,
+        511,
+        264
+      ],
+      "cyclist_box": [
+        418,
+        168,
+        511,
+        265
+      ]
+    },
+    {
+      "frame_idx": 1811,
+      "timestamp": 30.2005,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001811.jpg",
+      "front_wheel_conf": 0.9101,
+      "back_wheel_conf": 0.9208,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.95,
+      "size_match_ratio": 0.8827,
+      "front_wheel_box": [
+        417,
+        222,
+        458,
+        264
+      ],
+      "back_wheel_box": [
+        473,
+        224,
+        511,
+        264
+      ],
+      "cyclist_box": [
+        417,
+        169,
+        511,
+        265
+      ]
+    },
+    {
+      "frame_idx": 1812,
+      "timestamp": 30.2172,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001812.jpg",
+      "front_wheel_conf": 0.9072,
+      "back_wheel_conf": 0.922,
+      "front_squareness": 0.9524,
+      "back_squareness": 0.9744,
+      "size_match_ratio": 0.8821,
+      "front_wheel_box": [
+        417,
+        222,
+        457,
+        264
+      ],
+      "back_wheel_box": [
+        473,
+        225,
+        511,
+        264
+      ],
+      "cyclist_box": [
+        416,
+        168,
+        511,
+        265
+      ]
+    },
+    {
+      "frame_idx": 1813,
+      "timestamp": 30.2338,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001813.jpg",
+      "front_wheel_conf": 0.9061,
+      "back_wheel_conf": 0.9252,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.95,
+      "size_match_ratio": 0.8827,
+      "front_wheel_box": [
+        416,
+        222,
+        457,
+        264
+      ],
+      "back_wheel_box": [
+        473,
+        225,
+        511,
+        265
+      ],
+      "cyclist_box": [
+        416,
+        169,
+        511,
+        266
+      ]
+    },
+    {
+      "frame_idx": 1814,
+      "timestamp": 30.2505,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001814.jpg",
+      "front_wheel_conf": 0.8967,
+      "back_wheel_conf": 0.9255,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.95,
+      "size_match_ratio": 0.8827,
+      "front_wheel_box": [
+        416,
+        222,
+        457,
+        264
+      ],
+      "back_wheel_box": [
+        472,
+        225,
+        510,
+        265
+      ],
+      "cyclist_box": [
+        416,
+        169,
+        510,
+        266
+      ]
+    },
+    {
+      "frame_idx": 1815,
+      "timestamp": 30.2672,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001815.jpg",
+      "front_wheel_conf": 0.8865,
+      "back_wheel_conf": 0.9291,
+      "front_squareness": 0.9535,
+      "back_squareness": 0.975,
+      "size_match_ratio": 0.8849,
+      "front_wheel_box": [
+        415,
+        222,
+        456,
+        265
+      ],
+      "back_wheel_box": [
+        471,
+        225,
+        510,
+        265
+      ],
+      "cyclist_box": [
+        415,
+        169,
+        510,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1816,
+      "timestamp": 30.2839,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001816.jpg",
+      "front_wheel_conf": 0.9097,
+      "back_wheel_conf": 0.9298,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9512,
+      "size_match_ratio": 0.975,
+      "front_wheel_box": [
+        415,
+        223,
+        455,
+        264
+      ],
+      "back_wheel_box": [
+        471,
+        225,
+        510,
+        266
+      ],
+      "cyclist_box": [
+        415,
+        167,
+        510,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1817,
+      "timestamp": 30.3005,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001817.jpg",
+      "front_wheel_conf": 0.8969,
+      "back_wheel_conf": 0.9269,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9512,
+      "size_match_ratio": 0.975,
+      "front_wheel_box": [
+        415,
+        223,
+        455,
+        264
+      ],
+      "back_wheel_box": [
+        470,
+        225,
+        509,
+        266
+      ],
+      "cyclist_box": [
+        414,
+        168,
+        510,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1818,
+      "timestamp": 30.3172,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001818.jpg",
+      "front_wheel_conf": 0.9019,
+      "back_wheel_conf": 0.9291,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9286,
+      "size_match_ratio": 0.9768,
+      "front_wheel_box": [
+        415,
+        224,
+        455,
+        264
+      ],
+      "back_wheel_box": [
+        470,
+        224,
+        509,
+        266
+      ],
+      "cyclist_box": [
+        414,
+        166,
+        509,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1819,
+      "timestamp": 30.3339,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001819.jpg",
+      "front_wheel_conf": 0.9104,
+      "back_wheel_conf": 0.9275,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9524,
+      "size_match_ratio": 0.9524,
+      "front_wheel_box": [
+        414,
+        224,
+        454,
+        264
+      ],
+      "back_wheel_box": [
+        469,
+        224,
+        509,
+        266
+      ],
+      "cyclist_box": [
+        414,
+        165,
+        509,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1820,
+      "timestamp": 30.3506,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001820.jpg",
+      "front_wheel_conf": 0.9064,
+      "back_wheel_conf": 0.9277,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9762,
+      "size_match_ratio": 0.9524,
+      "front_wheel_box": [
+        414,
+        224,
+        454,
+        265
+      ],
+      "back_wheel_box": [
+        468,
+        224,
+        509,
+        266
+      ],
+      "cyclist_box": [
+        413,
+        166,
+        509,
+        266
+      ]
+    },
+    {
+      "frame_idx": 1821,
+      "timestamp": 30.3672,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001821.jpg",
+      "front_wheel_conf": 0.9067,
+      "back_wheel_conf": 0.9256,
+      "front_squareness": 0.9524,
+      "back_squareness": 0.9524,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        413,
+        223,
+        453,
+        265
+      ],
+      "back_wheel_box": [
+        468,
+        224,
+        508,
+        266
+      ],
+      "cyclist_box": [
+        413,
+        165,
+        509,
+        266
+      ]
+    },
+    {
+      "frame_idx": 1822,
+      "timestamp": 30.3839,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001822.jpg",
+      "front_wheel_conf": 0.908,
+      "back_wheel_conf": 0.928,
+      "front_squareness": 0.9524,
+      "back_squareness": 0.9286,
+      "size_match_ratio": 0.975,
+      "front_wheel_box": [
+        413,
+        223,
+        453,
+        265
+      ],
+      "back_wheel_box": [
+        469,
+        224,
+        508,
+        266
+      ],
+      "cyclist_box": [
+        412,
+        166,
+        508,
+        266
+      ]
+    },
+    {
+      "frame_idx": 1823,
+      "timestamp": 30.4006,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001823.jpg",
+      "front_wheel_conf": 0.9101,
+      "back_wheel_conf": 0.9245,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.9286,
+      "size_match_ratio": 0.9512,
+      "front_wheel_box": [
+        412,
+        223,
+        453,
+        265
+      ],
+      "back_wheel_box": [
+        469,
+        224,
+        508,
+        266
+      ],
+      "cyclist_box": [
+        412,
+        166,
+        508,
+        266
+      ]
+    },
+    {
+      "frame_idx": 1824,
+      "timestamp": 30.4173,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001824.jpg",
+      "front_wheel_conf": 0.911,
+      "back_wheel_conf": 0.9217,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9512,
+      "size_match_ratio": 0.9512,
+      "front_wheel_box": [
+        412,
+        224,
+        453,
+        265
+      ],
+      "back_wheel_box": [
+        469,
+        225,
+        508,
+        266
+      ],
+      "cyclist_box": [
+        412,
+        167,
+        508,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1825,
+      "timestamp": 30.4339,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001825.jpg",
+      "front_wheel_conf": 0.9011,
+      "back_wheel_conf": 0.9273,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9512,
+      "size_match_ratio": 0.9512,
+      "front_wheel_box": [
+        411,
+        224,
+        452,
+        265
+      ],
+      "back_wheel_box": [
+        468,
+        225,
+        507,
+        266
+      ],
+      "cyclist_box": [
+        412,
+        169,
+        508,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1826,
+      "timestamp": 30.4506,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001826.jpg",
+      "front_wheel_conf": 0.8975,
+      "back_wheel_conf": 0.9226,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9512,
+      "size_match_ratio": 0.9512,
+      "front_wheel_box": [
+        411,
+        224,
+        452,
+        265
+      ],
+      "back_wheel_box": [
+        468,
+        225,
+        507,
+        266
+      ],
+      "cyclist_box": [
+        411,
+        168,
+        507,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1827,
+      "timestamp": 30.4673,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001827.jpg",
+      "front_wheel_conf": 0.9148,
+      "back_wheel_conf": 0.8752,
+      "front_squareness": 0.975,
+      "back_squareness": 0.95,
+      "size_match_ratio": 0.9268,
+      "front_wheel_box": [
+        411,
+        225,
+        452,
+        265
+      ],
+      "back_wheel_box": [
+        468,
+        226,
+        506,
+        266
+      ],
+      "cyclist_box": [
+        411,
+        167,
+        507,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1828,
+      "timestamp": 30.484,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001828.jpg",
+      "front_wheel_conf": 0.916,
+      "back_wheel_conf": 0.8916,
+      "front_squareness": 0.95,
+      "back_squareness": 0.9268,
+      "size_match_ratio": 0.9274,
+      "front_wheel_box": [
+        410,
+        225,
+        452,
+        265
+      ],
+      "back_wheel_box": [
+        468,
+        225,
+        506,
+        266
+      ],
+      "cyclist_box": [
+        410,
+        168,
+        506,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1829,
+      "timestamp": 30.5007,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001829.jpg",
+      "front_wheel_conf": 0.9119,
+      "back_wheel_conf": 0.8907,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9024,
+      "size_match_ratio": 0.881,
+      "front_wheel_box": [
+        410,
+        224,
+        452,
+        265
+      ],
+      "back_wheel_box": [
+        468,
+        225,
+        505,
+        266
+      ],
+      "cyclist_box": [
+        410,
+        168,
+        506,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1830,
+      "timestamp": 30.5173,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001830.jpg",
+      "front_wheel_conf": 0.9121,
+      "back_wheel_conf": 0.8914,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9268,
+      "size_match_ratio": 0.9048,
+      "front_wheel_box": [
+        410,
+        224,
+        452,
+        265
+      ],
+      "back_wheel_box": [
+        467,
+        225,
+        505,
+        266
+      ],
+      "cyclist_box": [
+        410,
+        169,
+        507,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1831,
+      "timestamp": 30.534,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001831.jpg",
+      "front_wheel_conf": 0.9125,
+      "back_wheel_conf": 0.8854,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9268,
+      "size_match_ratio": 0.9268,
+      "front_wheel_box": [
+        410,
+        224,
+        451,
+        265
+      ],
+      "back_wheel_box": [
+        468,
+        226,
+        506,
+        267
+      ],
+      "cyclist_box": [
+        410,
+        167,
+        506,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1832,
+      "timestamp": 30.5507,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001832.jpg",
+      "front_wheel_conf": 0.9169,
+      "back_wheel_conf": 0.8984,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9512,
+      "size_match_ratio": 0.9512,
+      "front_wheel_box": [
+        410,
+        224,
+        451,
+        265
+      ],
+      "back_wheel_box": [
+        467,
+        226,
+        506,
+        267
+      ],
+      "cyclist_box": [
+        410,
+        169,
+        507,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1833,
+      "timestamp": 30.5674,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001833.jpg",
+      "front_wheel_conf": 0.9142,
+      "back_wheel_conf": 0.8966,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9268,
+      "size_match_ratio": 0.9268,
+      "front_wheel_box": [
+        410,
+        224,
+        451,
+        265
+      ],
+      "back_wheel_box": [
+        468,
+        226,
+        506,
+        267
+      ],
+      "cyclist_box": [
+        411,
+        171,
+        507,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1834,
+      "timestamp": 30.584,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001834.jpg",
+      "front_wheel_conf": 0.9156,
+      "back_wheel_conf": 0.8965,
+      "front_squareness": 0.975,
+      "back_squareness": 0.9024,
+      "size_match_ratio": 0.925,
+      "front_wheel_box": [
+        410,
+        225,
+        451,
+        265
+      ],
+      "back_wheel_box": [
+        468,
+        226,
+        505,
+        267
+      ],
+      "cyclist_box": [
+        410,
+        170,
+        507,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1835,
+      "timestamp": 30.6007,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001835.jpg",
+      "front_wheel_conf": 0.9169,
+      "back_wheel_conf": 0.8939,
+      "front_squareness": 0.975,
+      "back_squareness": 0.9024,
+      "size_match_ratio": 0.925,
+      "front_wheel_box": [
+        410,
+        225,
+        451,
+        265
+      ],
+      "back_wheel_box": [
+        468,
+        226,
+        505,
+        267
+      ],
+      "cyclist_box": [
+        411,
+        171,
+        507,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1836,
+      "timestamp": 30.6174,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001836.jpg",
+      "front_wheel_conf": 0.9191,
+      "back_wheel_conf": 0.9008,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9512,
+      "size_match_ratio": 0.9065,
+      "front_wheel_box": [
+        410,
+        224,
+        452,
+        266
+      ],
+      "back_wheel_box": [
+        467,
+        226,
+        506,
+        267
+      ],
+      "cyclist_box": [
+        410,
+        169,
+        506,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1837,
+      "timestamp": 30.6341,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001837.jpg",
+      "front_wheel_conf": 0.9216,
+      "back_wheel_conf": 0.9,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.9512,
+      "size_match_ratio": 0.9286,
+      "front_wheel_box": [
+        410,
+        224,
+        451,
+        266
+      ],
+      "back_wheel_box": [
+        467,
+        226,
+        506,
+        267
+      ],
+      "cyclist_box": [
+        410,
+        167,
+        506,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1838,
+      "timestamp": 30.6507,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001838.jpg",
+      "front_wheel_conf": 0.9221,
+      "back_wheel_conf": 0.896,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.975,
+      "size_match_ratio": 0.9059,
+      "front_wheel_box": [
+        410,
+        224,
+        451,
+        266
+      ],
+      "back_wheel_box": [
+        466,
+        227,
+        505,
+        267
+      ],
+      "cyclist_box": [
+        410,
+        167,
+        506,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1839,
+      "timestamp": 30.6674,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001839.jpg",
+      "front_wheel_conf": 0.9191,
+      "back_wheel_conf": 0.8931,
+      "front_squareness": 1.0,
+      "back_squareness": 0.975,
+      "size_match_ratio": 0.928,
+      "front_wheel_box": [
+        410,
+        225,
+        451,
+        266
+      ],
+      "back_wheel_box": [
+        466,
+        227,
+        505,
+        267
+      ],
+      "cyclist_box": [
+        410,
+        167,
+        506,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1840,
+      "timestamp": 30.6841,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001840.jpg",
+      "front_wheel_conf": 0.9212,
+      "back_wheel_conf": 0.8991,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 0.9756,
+      "front_wheel_box": [
+        410,
+        225,
+        451,
+        266
+      ],
+      "back_wheel_box": [
+        466,
+        226,
+        506,
+        267
+      ],
+      "cyclist_box": [
+        410,
+        166,
+        506,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1841,
+      "timestamp": 30.7008,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001841.jpg",
+      "front_wheel_conf": 0.9236,
+      "back_wheel_conf": 0.8994,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9512,
+      "size_match_ratio": 0.9512,
+      "front_wheel_box": [
+        410,
+        225,
+        451,
+        266
+      ],
+      "back_wheel_box": [
+        466,
+        226,
+        505,
+        267
+      ],
+      "cyclist_box": [
+        410,
+        168,
+        506,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1842,
+      "timestamp": 30.7174,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001842.jpg",
+      "front_wheel_conf": 0.9226,
+      "back_wheel_conf": 0.8988,
+      "front_squareness": 0.9524,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9524,
+      "front_wheel_box": [
+        410,
+        224,
+        450,
+        266
+      ],
+      "back_wheel_box": [
+        465,
+        227,
+        505,
+        267
+      ],
+      "cyclist_box": [
+        410,
+        168,
+        505,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1843,
+      "timestamp": 30.7341,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001843.jpg",
+      "front_wheel_conf": 0.9236,
+      "back_wheel_conf": 0.9025,
+      "front_squareness": 1.0,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9518,
+      "front_wheel_box": [
+        410,
+        224,
+        451,
+        265
+      ],
+      "back_wheel_box": [
+        465,
+        227,
+        505,
+        267
+      ],
+      "cyclist_box": [
+        410,
+        167,
+        505,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1844,
+      "timestamp": 30.7508,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001844.jpg",
+      "front_wheel_conf": 0.9221,
+      "back_wheel_conf": 0.8981,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.975,
+      "size_match_ratio": 0.9512,
+      "front_wheel_box": [
+        410,
+        225,
+        450,
+        266
+      ],
+      "back_wheel_box": [
+        465,
+        227,
+        504,
+        267
+      ],
+      "cyclist_box": [
+        410,
+        168,
+        505,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1845,
+      "timestamp": 30.7675,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001845.jpg",
+      "front_wheel_conf": 0.9224,
+      "back_wheel_conf": 0.9042,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 0.9756,
+      "front_wheel_box": [
+        409,
+        225,
+        450,
+        266
+      ],
+      "back_wheel_box": [
+        464,
+        227,
+        504,
+        268
+      ],
+      "cyclist_box": [
+        409,
+        168,
+        505,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1846,
+      "timestamp": 30.7841,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001846.jpg",
+      "front_wheel_conf": 0.9241,
+      "back_wheel_conf": 0.9067,
+      "front_squareness": 0.975,
+      "back_squareness": 0.9512,
+      "size_match_ratio": 0.975,
+      "front_wheel_box": [
+        409,
+        225,
+        450,
+        265
+      ],
+      "back_wheel_box": [
+        465,
+        227,
+        504,
+        268
+      ],
+      "cyclist_box": [
+        409,
+        168,
+        504,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1847,
+      "timestamp": 30.8008,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001847.jpg",
+      "front_wheel_conf": 0.927,
+      "back_wheel_conf": 0.9065,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        409,
+        225,
+        449,
+        266
+      ],
+      "back_wheel_box": [
+        464,
+        227,
+        504,
+        268
+      ],
+      "cyclist_box": [
+        409,
+        166,
+        504,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1848,
+      "timestamp": 30.8175,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001848.jpg",
+      "front_wheel_conf": 0.9254,
+      "back_wheel_conf": 0.9075,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        409,
+        225,
+        449,
+        266
+      ],
+      "back_wheel_box": [
+        464,
+        227,
+        504,
+        268
+      ],
+      "cyclist_box": [
+        409,
+        165,
+        504,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1849,
+      "timestamp": 30.8342,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001849.jpg",
+      "front_wheel_conf": 0.9261,
+      "back_wheel_conf": 0.9094,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9762,
+      "size_match_ratio": 0.9524,
+      "front_wheel_box": [
+        409,
+        225,
+        449,
+        266
+      ],
+      "back_wheel_box": [
+        463,
+        226,
+        504,
+        268
+      ],
+      "cyclist_box": [
+        409,
+        166,
+        504,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1850,
+      "timestamp": 30.8509,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001850.jpg",
+      "front_wheel_conf": 0.9262,
+      "back_wheel_conf": 0.9152,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 0.9756,
+      "front_wheel_box": [
+        409,
+        226,
+        449,
+        266
+      ],
+      "back_wheel_box": [
+        464,
+        227,
+        504,
+        268
+      ],
+      "cyclist_box": [
+        408,
+        166,
+        504,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1851,
+      "timestamp": 30.8675,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001851.jpg",
+      "front_wheel_conf": 0.9288,
+      "back_wheel_conf": 0.9157,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 0.9756,
+      "front_wheel_box": [
+        409,
+        226,
+        449,
+        266
+      ],
+      "back_wheel_box": [
+        463,
+        227,
+        503,
+        268
+      ],
+      "cyclist_box": [
+        408,
+        167,
+        504,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1852,
+      "timestamp": 30.8842,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001852.jpg",
+      "front_wheel_conf": 0.9295,
+      "back_wheel_conf": 0.9142,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 0.9756,
+      "front_wheel_box": [
+        408,
+        226,
+        448,
+        266
+      ],
+      "back_wheel_box": [
+        463,
+        227,
+        503,
+        268
+      ],
+      "cyclist_box": [
+        408,
+        167,
+        503,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1853,
+      "timestamp": 30.9009,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001853.jpg",
+      "front_wheel_conf": 0.929,
+      "back_wheel_conf": 0.9127,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9512,
+      "size_match_ratio": 0.9994,
+      "front_wheel_box": [
+        408,
+        226,
+        448,
+        266
+      ],
+      "back_wheel_box": [
+        464,
+        227,
+        503,
+        268
+      ],
+      "cyclist_box": [
+        408,
+        170,
+        503,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1854,
+      "timestamp": 30.9176,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001854.jpg",
+      "front_wheel_conf": 0.9267,
+      "back_wheel_conf": 0.9189,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9512,
+      "size_match_ratio": 0.9994,
+      "front_wheel_box": [
+        408,
+        226,
+        448,
+        266
+      ],
+      "back_wheel_box": [
+        464,
+        227,
+        503,
+        268
+      ],
+      "cyclist_box": [
+        408,
+        168,
+        504,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1855,
+      "timestamp": 30.9342,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001855.jpg",
+      "front_wheel_conf": 0.9262,
+      "back_wheel_conf": 0.9226,
+      "front_squareness": 1.0,
+      "back_squareness": 0.975,
+      "size_match_ratio": 0.975,
+      "front_wheel_box": [
+        408,
+        226,
+        448,
+        266
+      ],
+      "back_wheel_box": [
+        464,
+        228,
+        503,
+        268
+      ],
+      "cyclist_box": [
+        408,
+        169,
+        503,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1856,
+      "timestamp": 30.9509,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001856.jpg",
+      "front_wheel_conf": 0.9266,
+      "back_wheel_conf": 0.9251,
+      "front_squareness": 1.0,
+      "back_squareness": 0.975,
+      "size_match_ratio": 0.975,
+      "front_wheel_box": [
+        408,
+        226,
+        448,
+        266
+      ],
+      "back_wheel_box": [
+        464,
+        228,
+        503,
+        268
+      ],
+      "cyclist_box": [
+        408,
+        171,
+        503,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1857,
+      "timestamp": 30.9676,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001857.jpg",
+      "front_wheel_conf": 0.9258,
+      "back_wheel_conf": 0.9254,
+      "front_squareness": 0.9744,
+      "back_squareness": 0.975,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        408,
+        227,
+        448,
+        266
+      ],
+      "back_wheel_box": [
+        464,
+        228,
+        503,
+        268
+      ],
+      "cyclist_box": [
+        409,
+        169,
+        503,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1858,
+      "timestamp": 30.9843,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001858.jpg",
+      "front_wheel_conf": 0.9257,
+      "back_wheel_conf": 0.9195,
+      "front_squareness": 1.0,
+      "back_squareness": 0.975,
+      "size_match_ratio": 0.975,
+      "front_wheel_box": [
+        408,
+        226,
+        448,
+        266
+      ],
+      "back_wheel_box": [
+        464,
+        228,
+        503,
+        268
+      ],
+      "cyclist_box": [
+        408,
+        168,
+        503,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1859,
+      "timestamp": 31.0009,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001859.jpg",
+      "front_wheel_conf": 0.9255,
+      "back_wheel_conf": 0.9192,
+      "front_squareness": 0.9744,
+      "back_squareness": 0.975,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        408,
+        227,
+        448,
+        266
+      ],
+      "back_wheel_box": [
+        464,
+        228,
+        503,
+        268
+      ],
+      "cyclist_box": [
+        408,
+        168,
+        503,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1860,
+      "timestamp": 31.0176,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001860.jpg",
+      "front_wheel_conf": 0.9211,
+      "back_wheel_conf": 0.922,
+      "front_squareness": 1.0,
+      "back_squareness": 0.975,
+      "size_match_ratio": 0.975,
+      "front_wheel_box": [
+        408,
+        227,
+        448,
+        267
+      ],
+      "back_wheel_box": [
+        464,
+        228,
+        503,
+        268
+      ],
+      "cyclist_box": [
+        408,
+        167,
+        503,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1861,
+      "timestamp": 31.0343,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001861.jpg",
+      "front_wheel_conf": 0.9208,
+      "back_wheel_conf": 0.9166,
+      "front_squareness": 1.0,
+      "back_squareness": 0.95,
+      "size_match_ratio": 0.95,
+      "front_wheel_box": [
+        409,
+        227,
+        449,
+        267
+      ],
+      "back_wheel_box": [
+        465,
+        228,
+        503,
+        268
+      ],
+      "cyclist_box": [
+        408,
+        167,
+        503,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1862,
+      "timestamp": 31.051,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001862.jpg",
+      "front_wheel_conf": 0.9195,
+      "back_wheel_conf": 0.9148,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9268,
+      "size_match_ratio": 0.9738,
+      "front_wheel_box": [
+        409,
+        227,
+        449,
+        267
+      ],
+      "back_wheel_box": [
+        465,
+        228,
+        503,
+        269
+      ],
+      "cyclist_box": [
+        409,
+        168,
+        503,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1863,
+      "timestamp": 31.0676,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001863.jpg",
+      "front_wheel_conf": 0.9208,
+      "back_wheel_conf": 0.9133,
+      "front_squareness": 0.9744,
+      "back_squareness": 0.9512,
+      "size_match_ratio": 0.9756,
+      "front_wheel_box": [
+        409,
+        228,
+        449,
+        267
+      ],
+      "back_wheel_box": [
+        464,
+        228,
+        503,
+        269
+      ],
+      "cyclist_box": [
+        409,
+        169,
+        503,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1864,
+      "timestamp": 31.0843,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001864.jpg",
+      "front_wheel_conf": 0.9204,
+      "back_wheel_conf": 0.9157,
+      "front_squareness": 0.9744,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 0.9512,
+      "front_wheel_box": [
+        410,
+        228,
+        450,
+        267
+      ],
+      "back_wheel_box": [
+        464,
+        228,
+        504,
+        269
+      ],
+      "cyclist_box": [
+        410,
+        169,
+        503,
+        270
+      ]
+    },
+    {
+      "frame_idx": 1865,
+      "timestamp": 31.101,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001865.jpg",
+      "front_wheel_conf": 0.9218,
+      "back_wheel_conf": 0.9184,
+      "front_squareness": 0.9487,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9994,
+      "front_wheel_box": [
+        410,
+        228,
+        451,
+        267
+      ],
+      "back_wheel_box": [
+        464,
+        229,
+        504,
+        269
+      ],
+      "cyclist_box": [
+        410,
+        170,
+        504,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1866,
+      "timestamp": 31.1177,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001866.jpg",
+      "front_wheel_conf": 0.9188,
+      "back_wheel_conf": 0.9094,
+      "front_squareness": 0.9744,
+      "back_squareness": 0.975,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        410,
+        228,
+        450,
+        267
+      ],
+      "back_wheel_box": [
+        465,
+        229,
+        504,
+        269
+      ],
+      "cyclist_box": [
+        410,
+        171,
+        504,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1867,
+      "timestamp": 31.1343,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001867.jpg",
+      "front_wheel_conf": 0.9167,
+      "back_wheel_conf": 0.907,
+      "front_squareness": 0.9744,
+      "back_squareness": 0.975,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        411,
+        228,
+        451,
+        267
+      ],
+      "back_wheel_box": [
+        465,
+        229,
+        504,
+        269
+      ],
+      "cyclist_box": [
+        411,
+        170,
+        504,
+        270
+      ]
+    },
+    {
+      "frame_idx": 1868,
+      "timestamp": 31.151,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001868.jpg",
+      "front_wheel_conf": 0.9174,
+      "back_wheel_conf": 0.9162,
+      "front_squareness": 0.9744,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.975,
+      "front_wheel_box": [
+        411,
+        228,
+        451,
+        267
+      ],
+      "back_wheel_box": [
+        464,
+        229,
+        504,
+        269
+      ],
+      "cyclist_box": [
+        411,
+        170,
+        504,
+        270
+      ]
+    },
+    {
+      "frame_idx": 1869,
+      "timestamp": 31.1677,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001869.jpg",
+      "front_wheel_conf": 0.9175,
+      "back_wheel_conf": 0.9194,
+      "front_squareness": 0.9744,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.975,
+      "front_wheel_box": [
+        411,
+        228,
+        451,
+        267
+      ],
+      "back_wheel_box": [
+        464,
+        229,
+        504,
+        269
+      ],
+      "cyclist_box": [
+        412,
+        170,
+        504,
+        270
+      ]
+    },
+    {
+      "frame_idx": 1870,
+      "timestamp": 31.1844,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001870.jpg",
+      "front_wheel_conf": 0.9218,
+      "back_wheel_conf": 0.9175,
+      "front_squareness": 0.9744,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 0.9512,
+      "front_wheel_box": [
+        411,
+        228,
+        451,
+        267
+      ],
+      "back_wheel_box": [
+        464,
+        229,
+        504,
+        270
+      ],
+      "cyclist_box": [
+        411,
+        170,
+        504,
+        270
+      ]
+    },
+    {
+      "frame_idx": 1871,
+      "timestamp": 31.2011,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001871.jpg",
+      "front_wheel_conf": 0.9219,
+      "back_wheel_conf": 0.9146,
+      "front_squareness": 1.0,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9048,
+      "front_wheel_box": [
+        411,
+        228,
+        450,
+        267
+      ],
+      "back_wheel_box": [
+        463,
+        229,
+        504,
+        270
+      ],
+      "cyclist_box": [
+        411,
+        169,
+        504,
+        270
+      ]
+    },
+    {
+      "frame_idx": 1872,
+      "timestamp": 31.2177,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001872.jpg",
+      "front_wheel_conf": 0.9235,
+      "back_wheel_conf": 0.9172,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9762,
+      "size_match_ratio": 0.8833,
+      "front_wheel_box": [
+        411,
+        228,
+        450,
+        267
+      ],
+      "back_wheel_box": [
+        463,
+        228,
+        504,
+        270
+      ],
+      "cyclist_box": [
+        411,
+        169,
+        503,
+        270
+      ]
+    },
+    {
+      "frame_idx": 1873,
+      "timestamp": 31.2344,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001873.jpg",
+      "front_wheel_conf": 0.9219,
+      "back_wheel_conf": 0.9232,
+      "front_squareness": 0.9744,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 0.8606,
+      "front_wheel_box": [
+        411,
+        228,
+        449,
+        267
+      ],
+      "back_wheel_box": [
+        462,
+        229,
+        504,
+        270
+      ],
+      "cyclist_box": [
+        411,
+        169,
+        503,
+        270
+      ]
+    },
+    {
+      "frame_idx": 1874,
+      "timestamp": 31.2511,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001874.jpg",
+      "front_wheel_conf": 0.9195,
+      "back_wheel_conf": 0.9237,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 0.9274,
+      "front_wheel_box": [
+        410,
+        228,
+        449,
+        267
+      ],
+      "back_wheel_box": [
+        463,
+        228,
+        503,
+        269
+      ],
+      "cyclist_box": null
+    },
+    {
+      "frame_idx": 1875,
+      "timestamp": 31.2678,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001875.jpg",
+      "front_wheel_conf": 0.9191,
+      "back_wheel_conf": 0.9232,
+      "front_squareness": 1.0,
+      "back_squareness": 0.975,
+      "size_match_ratio": 0.9274,
+      "front_wheel_box": [
+        410,
+        228,
+        449,
+        267
+      ],
+      "back_wheel_box": [
+        462,
+        229,
+        503,
+        269
+      ],
+      "cyclist_box": [
+        410,
+        168,
+        502,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1876,
+      "timestamp": 31.2844,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001876.jpg",
+      "front_wheel_conf": 0.9197,
+      "back_wheel_conf": 0.9241,
+      "front_squareness": 1.0,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9048,
+      "front_wheel_box": [
+        410,
+        228,
+        449,
+        267
+      ],
+      "back_wheel_box": [
+        462,
+        228,
+        503,
+        269
+      ],
+      "cyclist_box": [
+        410,
+        168,
+        502,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1877,
+      "timestamp": 31.3011,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001877.jpg",
+      "front_wheel_conf": 0.9207,
+      "back_wheel_conf": 0.9237,
+      "front_squareness": 0.95,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 0.9268,
+      "front_wheel_box": [
+        410,
+        227,
+        448,
+        267
+      ],
+      "back_wheel_box": [
+        462,
+        228,
+        502,
+        269
+      ],
+      "cyclist_box": [
+        410,
+        169,
+        502,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1878,
+      "timestamp": 31.3178,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001878.jpg",
+      "front_wheel_conf": 0.9187,
+      "back_wheel_conf": 0.9179,
+      "front_squareness": 0.95,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 0.9268,
+      "front_wheel_box": [
+        410,
+        227,
+        448,
+        267
+      ],
+      "back_wheel_box": [
+        462,
+        228,
+        502,
+        269
+      ],
+      "cyclist_box": [
+        410,
+        168,
+        502,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1879,
+      "timestamp": 31.3345,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001879.jpg",
+      "front_wheel_conf": 0.9201,
+      "back_wheel_conf": 0.9132,
+      "front_squareness": 0.95,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.95,
+      "front_wheel_box": [
+        410,
+        227,
+        448,
+        267
+      ],
+      "back_wheel_box": [
+        462,
+        229,
+        502,
+        269
+      ],
+      "cyclist_box": [
+        410,
+        169,
+        501,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1880,
+      "timestamp": 31.3511,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001880.jpg",
+      "front_wheel_conf": 0.9175,
+      "back_wheel_conf": 0.918,
+      "front_squareness": 0.975,
+      "back_squareness": 0.975,
+      "size_match_ratio": 0.9512,
+      "front_wheel_box": [
+        409,
+        227,
+        448,
+        267
+      ],
+      "back_wheel_box": [
+        461,
+        229,
+        502,
+        269
+      ],
+      "cyclist_box": [
+        409,
+        169,
+        501,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1881,
+      "timestamp": 31.3678,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001881.jpg",
+      "front_wheel_conf": 0.9181,
+      "back_wheel_conf": 0.917,
+      "front_squareness": 0.95,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.95,
+      "front_wheel_box": [
+        409,
+        227,
+        447,
+        267
+      ],
+      "back_wheel_box": [
+        461,
+        229,
+        501,
+        269
+      ],
+      "cyclist_box": [
+        409,
+        170,
+        501,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1882,
+      "timestamp": 31.3845,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001882.jpg",
+      "front_wheel_conf": 0.9204,
+      "back_wheel_conf": 0.9202,
+      "front_squareness": 0.95,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.95,
+      "front_wheel_box": [
+        409,
+        227,
+        447,
+        267
+      ],
+      "back_wheel_box": [
+        461,
+        229,
+        501,
+        269
+      ],
+      "cyclist_box": [
+        409,
+        170,
+        500,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1883,
+      "timestamp": 31.4012,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001883.jpg",
+      "front_wheel_conf": 0.9226,
+      "back_wheel_conf": 0.9247,
+      "front_squareness": 0.95,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.95,
+      "front_wheel_box": [
+        409,
+        227,
+        447,
+        267
+      ],
+      "back_wheel_box": [
+        461,
+        229,
+        501,
+        269
+      ],
+      "cyclist_box": [
+        409,
+        169,
+        500,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1884,
+      "timestamp": 31.4178,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001884.jpg",
+      "front_wheel_conf": 0.9255,
+      "back_wheel_conf": 0.9227,
+      "front_squareness": 0.95,
+      "back_squareness": 0.975,
+      "size_match_ratio": 0.9744,
+      "front_wheel_box": [
+        409,
+        227,
+        447,
+        267
+      ],
+      "back_wheel_box": [
+        462,
+        229,
+        501,
+        269
+      ],
+      "cyclist_box": [
+        409,
+        170,
+        500,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1885,
+      "timestamp": 31.4345,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001885.jpg",
+      "front_wheel_conf": 0.9243,
+      "back_wheel_conf": 0.9237,
+      "front_squareness": 0.9744,
+      "back_squareness": 0.975,
+      "size_match_ratio": 0.95,
+      "front_wheel_box": [
+        409,
+        228,
+        447,
+        267
+      ],
+      "back_wheel_box": [
+        462,
+        229,
+        501,
+        269
+      ],
+      "cyclist_box": [
+        409,
+        170,
+        500,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1886,
+      "timestamp": 31.4512,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001886.jpg",
+      "front_wheel_conf": 0.9245,
+      "back_wheel_conf": 0.9209,
+      "front_squareness": 0.95,
+      "back_squareness": 0.975,
+      "size_match_ratio": 0.9744,
+      "front_wheel_box": [
+        409,
+        227,
+        447,
+        267
+      ],
+      "back_wheel_box": [
+        462,
+        229,
+        501,
+        269
+      ],
+      "cyclist_box": [
+        409,
+        169,
+        501,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1887,
+      "timestamp": 31.4679,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001887.jpg",
+      "front_wheel_conf": 0.9261,
+      "back_wheel_conf": 0.9203,
+      "front_squareness": 0.95,
+      "back_squareness": 0.95,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        410,
+        227,
+        448,
+        267
+      ],
+      "back_wheel_box": [
+        463,
+        229,
+        501,
+        269
+      ],
+      "cyclist_box": [
+        409,
+        169,
+        500,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1888,
+      "timestamp": 31.4845,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001888.jpg",
+      "front_wheel_conf": 0.9231,
+      "back_wheel_conf": 0.9197,
+      "front_squareness": 0.95,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9993,
+      "front_wheel_box": [
+        410,
+        227,
+        448,
+        267
+      ],
+      "back_wheel_box": [
+        462,
+        229,
+        501,
+        268
+      ],
+      "cyclist_box": [
+        409,
+        169,
+        500,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1889,
+      "timestamp": 31.5012,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001889.jpg",
+      "front_wheel_conf": 0.9215,
+      "back_wheel_conf": 0.9171,
+      "front_squareness": 0.95,
+      "back_squareness": 0.9744,
+      "size_match_ratio": 0.975,
+      "front_wheel_box": [
+        410,
+        227,
+        448,
+        267
+      ],
+      "back_wheel_box": [
+        463,
+        229,
+        501,
+        268
+      ],
+      "cyclist_box": [
+        409,
+        170,
+        500,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1890,
+      "timestamp": 31.5179,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001890.jpg",
+      "front_wheel_conf": 0.9199,
+      "back_wheel_conf": 0.9204,
+      "front_squareness": 0.95,
+      "back_squareness": 0.9744,
+      "size_match_ratio": 0.975,
+      "front_wheel_box": [
+        410,
+        227,
+        448,
+        267
+      ],
+      "back_wheel_box": [
+        463,
+        229,
+        501,
+        268
+      ],
+      "cyclist_box": [
+        409,
+        170,
+        500,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1891,
+      "timestamp": 31.5346,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001891.jpg",
+      "front_wheel_conf": 0.9192,
+      "back_wheel_conf": 0.9201,
+      "front_squareness": 0.975,
+      "back_squareness": 0.9744,
+      "size_match_ratio": 0.95,
+      "front_wheel_box": [
+        409,
+        227,
+        448,
+        267
+      ],
+      "back_wheel_box": [
+        463,
+        229,
+        501,
+        268
+      ],
+      "cyclist_box": [
+        409,
+        170,
+        500,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1892,
+      "timestamp": 31.5513,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001892.jpg",
+      "front_wheel_conf": 0.9188,
+      "back_wheel_conf": 0.9206,
+      "front_squareness": 0.975,
+      "back_squareness": 0.9744,
+      "size_match_ratio": 0.95,
+      "front_wheel_box": [
+        409,
+        227,
+        448,
+        267
+      ],
+      "back_wheel_box": [
+        462,
+        229,
+        500,
+        268
+      ],
+      "cyclist_box": [
+        409,
+        170,
+        500,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1893,
+      "timestamp": 31.5679,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001893.jpg",
+      "front_wheel_conf": 0.9151,
+      "back_wheel_conf": 0.9204,
+      "front_squareness": 0.95,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9993,
+      "front_wheel_box": [
+        409,
+        227,
+        447,
+        267
+      ],
+      "back_wheel_box": [
+        461,
+        229,
+        500,
+        268
+      ],
+      "cyclist_box": [
+        409,
+        169,
+        500,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1894,
+      "timestamp": 31.5846,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001894.jpg",
+      "front_wheel_conf": 0.9136,
+      "back_wheel_conf": 0.9207,
+      "front_squareness": 0.95,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9993,
+      "front_wheel_box": [
+        409,
+        227,
+        447,
+        267
+      ],
+      "back_wheel_box": [
+        461,
+        229,
+        500,
+        268
+      ],
+      "cyclist_box": [
+        408,
+        170,
+        500,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1895,
+      "timestamp": 31.6013,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001895.jpg",
+      "front_wheel_conf": 0.9147,
+      "back_wheel_conf": 0.9222,
+      "front_squareness": 0.9744,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9744,
+      "front_wheel_box": [
+        409,
+        227,
+        447,
+        266
+      ],
+      "back_wheel_box": [
+        461,
+        229,
+        500,
+        268
+      ],
+      "cyclist_box": [
+        409,
+        170,
+        499,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1896,
+      "timestamp": 31.618,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001896.jpg",
+      "front_wheel_conf": 0.9127,
+      "back_wheel_conf": 0.9234,
+      "front_squareness": 0.9744,
+      "back_squareness": 0.9744,
+      "size_match_ratio": 0.95,
+      "front_wheel_box": [
+        409,
+        227,
+        447,
+        266
+      ],
+      "back_wheel_box": [
+        460,
+        229,
+        500,
+        268
+      ],
+      "cyclist_box": [
+        409,
+        169,
+        499,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1897,
+      "timestamp": 31.6346,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001897.jpg",
+      "front_wheel_conf": 0.9133,
+      "back_wheel_conf": 0.9233,
+      "front_squareness": 0.9744,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9744,
+      "front_wheel_box": [
+        409,
+        227,
+        447,
+        266
+      ],
+      "back_wheel_box": [
+        460,
+        229,
+        499,
+        268
+      ],
+      "cyclist_box": [
+        408,
+        169,
+        498,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1898,
+      "timestamp": 31.6513,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001898.jpg",
+      "front_wheel_conf": 0.9161,
+      "back_wheel_conf": 0.9277,
+      "front_squareness": 1.0,
+      "back_squareness": 1.0,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        408,
+        227,
+        447,
+        266
+      ],
+      "back_wheel_box": [
+        460,
+        229,
+        499,
+        268
+      ],
+      "cyclist_box": [
+        408,
+        169,
+        498,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1899,
+      "timestamp": 31.668,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001899.jpg",
+      "front_wheel_conf": 0.9153,
+      "back_wheel_conf": 0.9176,
+      "front_squareness": 0.9744,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9744,
+      "front_wheel_box": [
+        408,
+        227,
+        446,
+        266
+      ],
+      "back_wheel_box": [
+        459,
+        229,
+        498,
+        268
+      ],
+      "cyclist_box": [
+        407,
+        170,
+        498,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1900,
+      "timestamp": 31.6847,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001900.jpg",
+      "front_wheel_conf": 0.9179,
+      "back_wheel_conf": 0.9249,
+      "front_squareness": 0.9744,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9744,
+      "front_wheel_box": [
+        408,
+        227,
+        446,
+        266
+      ],
+      "back_wheel_box": [
+        459,
+        229,
+        498,
+        268
+      ],
+      "cyclist_box": [
+        407,
+        170,
+        497,
+        269
+      ]
+    },
+    {
+      "frame_idx": 1901,
+      "timestamp": 31.7013,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001901.jpg",
+      "front_wheel_conf": 0.9178,
+      "back_wheel_conf": 0.9158,
+      "front_squareness": 0.9744,
+      "back_squareness": 0.975,
+      "size_match_ratio": 0.95,
+      "front_wheel_box": [
+        408,
+        227,
+        446,
+        266
+      ],
+      "back_wheel_box": [
+        459,
+        228,
+        498,
+        268
+      ],
+      "cyclist_box": [
+        407,
+        170,
+        497,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1902,
+      "timestamp": 31.718,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001902.jpg",
+      "front_wheel_conf": 0.9152,
+      "back_wheel_conf": 0.9169,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9744,
+      "size_match_ratio": 0.9744,
+      "front_wheel_box": [
+        407,
+        227,
+        446,
+        266
+      ],
+      "back_wheel_box": [
+        459,
+        229,
+        497,
+        268
+      ],
+      "cyclist_box": [
+        407,
+        173,
+        496,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1903,
+      "timestamp": 31.7347,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001903.jpg",
+      "front_wheel_conf": 0.9043,
+      "back_wheel_conf": 0.9194,
+      "front_squareness": 0.95,
+      "back_squareness": 0.9737,
+      "size_match_ratio": 0.925,
+      "front_wheel_box": [
+        407,
+        226,
+        445,
+        266
+      ],
+      "back_wheel_box": [
+        459,
+        229,
+        496,
+        267
+      ],
+      "cyclist_box": [
+        406,
+        172,
+        496,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1904,
+      "timestamp": 31.7514,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001904.jpg",
+      "front_wheel_conf": 0.894,
+      "back_wheel_conf": 0.9161,
+      "front_squareness": 0.9737,
+      "back_squareness": 0.9487,
+      "size_match_ratio": 0.9744,
+      "front_wheel_box": [
+        407,
+        227,
+        444,
+        265
+      ],
+      "back_wheel_box": [
+        459,
+        229,
+        496,
+        268
+      ],
+      "cyclist_box": [
+        406,
+        170,
+        495,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1905,
+      "timestamp": 31.768,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001905.jpg",
+      "front_wheel_conf": 0.8955,
+      "back_wheel_conf": 0.8759,
+      "front_squareness": 0.9737,
+      "back_squareness": 0.9211,
+      "size_match_ratio": 0.9459,
+      "front_wheel_box": [
+        407,
+        227,
+        444,
+        265
+      ],
+      "back_wheel_box": [
+        459,
+        229,
+        494,
+        267
+      ],
+      "cyclist_box": [
+        406,
+        173,
+        495,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1906,
+      "timestamp": 31.7847,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001906.jpg",
+      "front_wheel_conf": 0.9011,
+      "back_wheel_conf": 0.8927,
+      "front_squareness": 0.9737,
+      "back_squareness": 0.9474,
+      "size_match_ratio": 0.973,
+      "front_wheel_box": [
+        407,
+        227,
+        444,
+        265
+      ],
+      "back_wheel_box": [
+        458,
+        229,
+        494,
+        267
+      ],
+      "cyclist_box": [
+        406,
+        170,
+        494,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1907,
+      "timestamp": 31.8014,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001907.jpg",
+      "front_wheel_conf": 0.9007,
+      "back_wheel_conf": 0.904,
+      "front_squareness": 0.9487,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9993,
+      "front_wheel_box": [
+        406,
+        226,
+        443,
+        265
+      ],
+      "back_wheel_box": [
+        456,
+        229,
+        494,
+        267
+      ],
+      "cyclist_box": [
+        405,
+        171,
+        494,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1908,
+      "timestamp": 31.8181,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001908.jpg",
+      "front_wheel_conf": 0.9005,
+      "back_wheel_conf": 0.9085,
+      "front_squareness": 0.9487,
+      "back_squareness": 0.9737,
+      "size_match_ratio": 0.9744,
+      "front_wheel_box": [
+        406,
+        226,
+        443,
+        265
+      ],
+      "back_wheel_box": [
+        456,
+        228,
+        493,
+        266
+      ],
+      "cyclist_box": [
+        405,
+        170,
+        494,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1909,
+      "timestamp": 31.8347,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001909.jpg",
+      "front_wheel_conf": 0.905,
+      "back_wheel_conf": 0.9119,
+      "front_squareness": 0.9487,
+      "back_squareness": 0.9744,
+      "size_match_ratio": 0.9737,
+      "front_wheel_box": [
+        406,
+        226,
+        443,
+        265
+      ],
+      "back_wheel_box": [
+        455,
+        228,
+        493,
+        267
+      ],
+      "cyclist_box": [
+        405,
+        170,
+        493,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1910,
+      "timestamp": 31.8514,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001910.jpg",
+      "front_wheel_conf": 0.8979,
+      "back_wheel_conf": 0.9027,
+      "front_squareness": 0.9737,
+      "back_squareness": 0.9744,
+      "size_match_ratio": 0.9013,
+      "front_wheel_box": [
+        405,
+        226,
+        442,
+        264
+      ],
+      "back_wheel_box": [
+        453,
+        228,
+        493,
+        267
+      ],
+      "cyclist_box": [
+        405,
+        171,
+        492,
+        268
+      ]
+    },
+    {
+      "frame_idx": 1911,
+      "timestamp": 31.8681,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001911.jpg",
+      "front_wheel_conf": 0.9015,
+      "back_wheel_conf": 0.9056,
+      "front_squareness": 0.9737,
+      "back_squareness": 0.9744,
+      "size_match_ratio": 0.9487,
+      "front_wheel_box": [
+        405,
+        226,
+        442,
+        264
+      ],
+      "back_wheel_box": [
+        454,
+        228,
+        492,
+        267
+      ],
+      "cyclist_box": [
+        404,
+        171,
+        492,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1912,
+      "timestamp": 31.8848,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001912.jpg",
+      "front_wheel_conf": 0.9043,
+      "back_wheel_conf": 0.91,
+      "front_squareness": 0.9737,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9737,
+      "front_wheel_box": [
+        405,
+        226,
+        442,
+        264
+      ],
+      "back_wheel_box": [
+        454,
+        228,
+        492,
+        266
+      ],
+      "cyclist_box": [
+        404,
+        170,
+        492,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1913,
+      "timestamp": 31.9014,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001913.jpg",
+      "front_wheel_conf": 0.9048,
+      "back_wheel_conf": 0.9104,
+      "front_squareness": 0.9474,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9474,
+      "front_wheel_box": [
+        405,
+        226,
+        441,
+        264
+      ],
+      "back_wheel_box": [
+        454,
+        228,
+        492,
+        266
+      ],
+      "cyclist_box": [
+        404,
+        171,
+        491,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1914,
+      "timestamp": 31.9181,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001914.jpg",
+      "front_wheel_conf": 0.9102,
+      "back_wheel_conf": 0.9138,
+      "front_squareness": 0.9474,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.8994,
+      "front_wheel_box": [
+        405,
+        226,
+        441,
+        264
+      ],
+      "back_wheel_box": [
+        453,
+        227,
+        492,
+        266
+      ],
+      "cyclist_box": [
+        404,
+        170,
+        491,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1915,
+      "timestamp": 31.9348,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001915.jpg",
+      "front_wheel_conf": 0.9123,
+      "back_wheel_conf": 0.9146,
+      "front_squareness": 0.9737,
+      "back_squareness": 0.9744,
+      "size_match_ratio": 0.9487,
+      "front_wheel_box": [
+        404,
+        226,
+        441,
+        264
+      ],
+      "back_wheel_box": [
+        453,
+        227,
+        491,
+        266
+      ],
+      "cyclist_box": [
+        404,
+        171,
+        491,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1916,
+      "timestamp": 31.9515,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001916.jpg",
+      "front_wheel_conf": 0.9112,
+      "back_wheel_conf": 0.91,
+      "front_squareness": 0.9211,
+      "back_squareness": 0.9744,
+      "size_match_ratio": 0.8974,
+      "front_wheel_box": [
+        405,
+        226,
+        440,
+        264
+      ],
+      "back_wheel_box": [
+        453,
+        227,
+        491,
+        266
+      ],
+      "cyclist_box": [
+        403,
+        171,
+        491,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1917,
+      "timestamp": 31.9682,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001917.jpg",
+      "front_wheel_conf": 0.915,
+      "back_wheel_conf": 0.9149,
+      "front_squareness": 0.9211,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9211,
+      "front_wheel_box": [
+        405,
+        226,
+        440,
+        264
+      ],
+      "back_wheel_box": [
+        453,
+        228,
+        491,
+        266
+      ],
+      "cyclist_box": [
+        404,
+        172,
+        490,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1918,
+      "timestamp": 31.9848,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001918.jpg",
+      "front_wheel_conf": 0.9155,
+      "back_wheel_conf": 0.9158,
+      "front_squareness": 0.9211,
+      "back_squareness": 0.9744,
+      "size_match_ratio": 0.8974,
+      "front_wheel_box": [
+        405,
+        226,
+        440,
+        264
+      ],
+      "back_wheel_box": [
+        453,
+        227,
+        491,
+        266
+      ],
+      "cyclist_box": [
+        404,
+        171,
+        490,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1919,
+      "timestamp": 32.0015,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001919.jpg",
+      "front_wheel_conf": 0.9186,
+      "back_wheel_conf": 0.9168,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9744,
+      "size_match_ratio": 0.8738,
+      "front_wheel_box": [
+        405,
+        226,
+        440,
+        263
+      ],
+      "back_wheel_box": [
+        453,
+        227,
+        491,
+        266
+      ],
+      "cyclist_box": [
+        404,
+        171,
+        490,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1920,
+      "timestamp": 32.0182,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001920.jpg",
+      "front_wheel_conf": 0.9196,
+      "back_wheel_conf": 0.9202,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9487,
+      "size_match_ratio": 0.8974,
+      "front_wheel_box": [
+        405,
+        226,
+        440,
+        263
+      ],
+      "back_wheel_box": [
+        453,
+        227,
+        490,
+        266
+      ],
+      "cyclist_box": [
+        404,
+        171,
+        490,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1921,
+      "timestamp": 32.0349,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001921.jpg",
+      "front_wheel_conf": 0.9175,
+      "back_wheel_conf": 0.9193,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9737,
+      "size_match_ratio": 0.9211,
+      "front_wheel_box": [
+        405,
+        226,
+        440,
+        263
+      ],
+      "back_wheel_box": [
+        453,
+        227,
+        490,
+        265
+      ],
+      "cyclist_box": [
+        404,
+        172,
+        490,
+        266
+      ]
+    },
+    {
+      "frame_idx": 1922,
+      "timestamp": 32.0515,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001922.jpg",
+      "front_wheel_conf": 0.9155,
+      "back_wheel_conf": 0.9211,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9737,
+      "size_match_ratio": 0.9211,
+      "front_wheel_box": [
+        405,
+        226,
+        440,
+        263
+      ],
+      "back_wheel_box": [
+        453,
+        227,
+        490,
+        265
+      ],
+      "cyclist_box": [
+        404,
+        170,
+        489,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1923,
+      "timestamp": 32.0682,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001923.jpg",
+      "front_wheel_conf": 0.9164,
+      "back_wheel_conf": 0.9232,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9487,
+      "size_match_ratio": 0.8974,
+      "front_wheel_box": [
+        405,
+        226,
+        440,
+        263
+      ],
+      "back_wheel_box": [
+        452,
+        227,
+        489,
+        266
+      ],
+      "cyclist_box": [
+        404,
+        169,
+        489,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1924,
+      "timestamp": 32.0849,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001924.jpg",
+      "front_wheel_conf": 0.9128,
+      "back_wheel_conf": 0.9184,
+      "front_squareness": 0.9211,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9211,
+      "front_wheel_box": [
+        405,
+        225,
+        440,
+        263
+      ],
+      "back_wheel_box": [
+        451,
+        227,
+        489,
+        265
+      ],
+      "cyclist_box": [
+        404,
+        170,
+        488,
+        266
+      ]
+    },
+    {
+      "frame_idx": 1925,
+      "timestamp": 32.1016,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001925.jpg",
+      "front_wheel_conf": 0.9137,
+      "back_wheel_conf": 0.9186,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9487,
+      "size_match_ratio": 0.8974,
+      "front_wheel_box": [
+        405,
+        226,
+        440,
+        263
+      ],
+      "back_wheel_box": [
+        451,
+        226,
+        488,
+        265
+      ],
+      "cyclist_box": [
+        403,
+        171,
+        488,
+        266
+      ]
+    },
+    {
+      "frame_idx": 1926,
+      "timestamp": 32.1182,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001926.jpg",
+      "front_wheel_conf": 0.9102,
+      "back_wheel_conf": 0.9173,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.95,
+      "size_match_ratio": 0.852,
+      "front_wheel_box": [
+        405,
+        226,
+        440,
+        263
+      ],
+      "back_wheel_box": [
+        450,
+        226,
+        488,
+        266
+      ],
+      "cyclist_box": [
+        403,
+        169,
+        487,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1927,
+      "timestamp": 32.1349,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001927.jpg",
+      "front_wheel_conf": 0.911,
+      "back_wheel_conf": 0.919,
+      "front_squareness": 0.8947,
+      "back_squareness": 0.9487,
+      "size_match_ratio": 0.8954,
+      "front_wheel_box": [
+        405,
+        225,
+        439,
+        263
+      ],
+      "back_wheel_box": [
+        450,
+        226,
+        487,
+        265
+      ],
+      "cyclist_box": [
+        403,
+        170,
+        487,
+        267
+      ]
+    },
+    {
+      "frame_idx": 1928,
+      "timestamp": 32.1516,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001928.jpg",
+      "front_wheel_conf": 0.9102,
+      "back_wheel_conf": 0.9195,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9487,
+      "size_match_ratio": 0.8974,
+      "front_wheel_box": [
+        404,
+        225,
+        439,
+        262
+      ],
+      "back_wheel_box": [
+        450,
+        226,
+        487,
+        265
+      ],
+      "cyclist_box": [
+        403,
+        170,
+        487,
+        266
+      ]
+    },
+    {
+      "frame_idx": 1929,
+      "timestamp": 32.1683,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001929.jpg",
+      "front_wheel_conf": 0.9091,
+      "back_wheel_conf": 0.9178,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9474,
+      "size_match_ratio": 0.9466,
+      "front_wheel_box": [
+        404,
+        225,
+        439,
+        262
+      ],
+      "back_wheel_box": [
+        450,
+        226,
+        486,
+        264
+      ],
+      "cyclist_box": [
+        403,
+        171,
+        486,
+        265
+      ]
+    },
+    {
+      "frame_idx": 1930,
+      "timestamp": 32.1849,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001930.jpg",
+      "front_wheel_conf": 0.9098,
+      "back_wheel_conf": 0.9153,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9474,
+      "size_match_ratio": 0.9466,
+      "front_wheel_box": [
+        404,
+        225,
+        439,
+        262
+      ],
+      "back_wheel_box": [
+        450,
+        226,
+        486,
+        264
+      ],
+      "cyclist_box": [
+        403,
+        171,
+        486,
+        265
+      ]
+    },
+    {
+      "frame_idx": 1931,
+      "timestamp": 32.2016,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001931.jpg",
+      "front_wheel_conf": 0.9076,
+      "back_wheel_conf": 0.9154,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.8947,
+      "size_match_ratio": 0.9977,
+      "front_wheel_box": [
+        404,
+        225,
+        439,
+        262
+      ],
+      "back_wheel_box": [
+        451,
+        226,
+        485,
+        264
+      ],
+      "cyclist_box": [
+        403,
+        171,
+        486,
+        265
+      ]
+    },
+    {
+      "frame_idx": 1932,
+      "timestamp": 32.2183,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001932.jpg",
+      "front_wheel_conf": 0.9022,
+      "back_wheel_conf": 0.9165,
+      "front_squareness": 0.8947,
+      "back_squareness": 0.8947,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        404,
+        224,
+        438,
+        262
+      ],
+      "back_wheel_box": [
+        451,
+        226,
+        485,
+        264
+      ],
+      "cyclist_box": [
+        403,
+        170,
+        485,
+        265
+      ]
+    },
+    {
+      "frame_idx": 1933,
+      "timestamp": 32.235,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001933.jpg",
+      "front_wheel_conf": 0.901,
+      "back_wheel_conf": 0.911,
+      "front_squareness": 0.9189,
+      "back_squareness": 0.8947,
+      "size_match_ratio": 0.9737,
+      "front_wheel_box": [
+        404,
+        225,
+        438,
+        262
+      ],
+      "back_wheel_box": [
+        450,
+        226,
+        484,
+        264
+      ],
+      "cyclist_box": [
+        403,
+        171,
+        485,
+        265
+      ]
+    },
+    {
+      "frame_idx": 1934,
+      "timestamp": 32.2516,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001934.jpg",
+      "front_wheel_conf": 0.8994,
+      "back_wheel_conf": 0.9068,
+      "front_squareness": 0.8919,
+      "back_squareness": 0.8684,
+      "size_match_ratio": 0.9737,
+      "front_wheel_box": [
+        404,
+        225,
+        437,
+        262
+      ],
+      "back_wheel_box": [
+        450,
+        226,
+        483,
+        264
+      ],
+      "cyclist_box": [
+        403,
+        171,
+        484,
+        265
+      ]
+    },
+    {
+      "frame_idx": 1935,
+      "timestamp": 32.2683,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001935.jpg",
+      "front_wheel_conf": 0.9015,
+      "back_wheel_conf": 0.9069,
+      "front_squareness": 0.9167,
+      "back_squareness": 0.8684,
+      "size_match_ratio": 0.9474,
+      "front_wheel_box": [
+        404,
+        225,
+        437,
+        261
+      ],
+      "back_wheel_box": [
+        450,
+        226,
+        483,
+        264
+      ],
+      "cyclist_box": [
+        403,
+        171,
+        484,
+        264
+      ]
+    },
+    {
+      "frame_idx": 1936,
+      "timestamp": 32.285,
+      "frame_file": "output_v2/jackb60/jackb60_selected_frames/frame_001936.jpg",
+      "front_wheel_conf": 0.9004,
+      "back_wheel_conf": 0.8784,
+      "front_squareness": 0.9167,
+      "back_squareness": 0.8649,
+      "size_match_ratio": 0.9966,
+      "front_wheel_box": [
+        403,
+        225,
+        436,
+        261
+      ],
+      "back_wheel_box": [
+        450,
+        226,
+        482,
+        263
+      ],
+      "cyclist_box": [
+        402,
+        170,
+        483,
+        264
+      ]
+    }
+  ],
+  "selected_bursts": [
+    {
+      "burst_id": 0,
+      "quality_score": 29.5741,
+      "frame_idx_start": 1785,
+      "frame_idx_end": 1936,
+      "frame_count": 152
+    }
+  ],
+  "metrics": {
+    "frames_processed": 2112,
+    "frames_selected": 152,
+    "total_bursts": 78,
+    "bursts_selected": 1,
+    "selection_rate": 0.072,
+    "avg_confidence": 0.9141,
+    "elapsed_sec": 97.35
+  }
+}

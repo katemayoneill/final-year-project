@@ -1,0 +1,161 @@
+{
+  "video": "videos/kateb60.mp4",
+  "frames": [
+    {
+      "frame_idx": 143,
+      "timestamp": 4.8202,
+      "right_knee_angle": 153.25,
+      "left_knee_angle": 79.07,
+      "right_hip_angle": 102.02,
+      "left_hip_angle": 82.19
+    },
+    {
+      "frame_idx": 144,
+      "timestamp": 4.8539,
+      "right_knee_angle": 150.35,
+      "left_knee_angle": 74.04,
+      "right_hip_angle": 109.21,
+      "left_hip_angle": 75.52
+    },
+    {
+      "frame_idx": 145,
+      "timestamp": 4.8876,
+      "right_knee_angle": 142.81,
+      "left_knee_angle": 75.22,
+      "right_hip_angle": 106.8,
+      "left_hip_angle": 70.82
+    },
+    {
+      "frame_idx": 146,
+      "timestamp": 4.9213,
+      "right_knee_angle": 47.04,
+      "left_knee_angle": 80.09,
+      "right_hip_angle": 108.36,
+      "left_hip_angle": 67.77
+    },
+    {
+      "frame_idx": 147,
+      "timestamp": 4.9551,
+      "right_knee_angle": 40.92,
+      "left_knee_angle": 88.54,
+      "right_hip_angle": 104.39,
+      "left_hip_angle": 68.05
+    },
+    {
+      "frame_idx": 148,
+      "timestamp": 4.9888,
+      "right_knee_angle": 151.63,
+      "left_knee_angle": 95.67,
+      "right_hip_angle": 104.52,
+      "left_hip_angle": 70.37
+    },
+    {
+      "frame_idx": 149,
+      "timestamp": 5.0225,
+      "right_knee_angle": 112.62,
+      "left_knee_angle": 106.86,
+      "right_hip_angle": 97.16,
+      "left_hip_angle": 75.21
+    },
+    {
+      "frame_idx": 150,
+      "timestamp": 5.0562,
+      "right_knee_angle": 101.33,
+      "left_knee_angle": 113.16,
+      "right_hip_angle": 94.75,
+      "left_hip_angle": 82.38
+    },
+    {
+      "frame_idx": 151,
+      "timestamp": 5.0899,
+      "right_knee_angle": 122.99,
+      "left_knee_angle": 120.87,
+      "right_hip_angle": 89.81,
+      "left_hip_angle": 86.23
+    },
+    {
+      "frame_idx": 152,
+      "timestamp": 5.1236,
+      "right_knee_angle": 41.79,
+      "left_knee_angle": 131.15,
+      "right_hip_angle": 91.83,
+      "left_hip_angle": 92.18
+    },
+    {
+      "frame_idx": 153,
+      "timestamp": 5.1573,
+      "right_knee_angle": 75.7,
+      "left_knee_angle": 136.62,
+      "right_hip_angle": 86.63,
+      "left_hip_angle": 96.01
+    },
+    {
+      "frame_idx": 154,
+      "timestamp": 5.191,
+      "right_knee_angle": 75.55,
+      "left_knee_angle": 137.4,
+      "right_hip_angle": 82.86,
+      "left_hip_angle": 99.47
+    },
+    {
+      "frame_idx": 155,
+      "timestamp": 5.2247,
+      "right_knee_angle": 68.99,
+      "left_knee_angle": 135.9,
+      "right_hip_angle": 80.72,
+      "left_hip_angle": 102.09
+    },
+    {
+      "frame_idx": 156,
+      "timestamp": 5.2584,
+      "right_knee_angle": 85.44,
+      "left_knee_angle": 129.63,
+      "right_hip_angle": 79.72,
+      "left_hip_angle": 100.87
+    },
+    {
+      "frame_idx": 157,
+      "timestamp": 5.2921,
+      "right_knee_angle": 89.68,
+      "left_knee_angle": 121.0,
+      "right_hip_angle": 81.19,
+      "left_hip_angle": 98.4
+    },
+    {
+      "frame_idx": 158,
+      "timestamp": 5.3258,
+      "right_knee_angle": 94.17,
+      "left_knee_angle": 110.78,
+      "right_hip_angle": 79.55,
+      "left_hip_angle": 92.7
+    },
+    {
+      "frame_idx": 159,
+      "timestamp": 5.3596,
+      "right_knee_angle": 99.24,
+      "left_knee_angle": 104.3,
+      "right_hip_angle": 82.82,
+      "left_hip_angle": 92.06
+    },
+    {
+      "frame_idx": 160,
+      "timestamp": 5.3933,
+      "right_knee_angle": 106.08,
+      "left_knee_angle": 94.61,
+      "right_hip_angle": 89.67,
+      "left_hip_angle": 87.81
+    }
+  ],
+  "summary": {
+    "knee_angles_count": 18,
+    "knee_angle_mean": 107.5,
+    "knee_angle_std": 21.6,
+    "knee_angle_peak": 137.4,
+    "optimal_range": [
+      145.0,
+      155.0
+    ],
+    "verdict": "too_low",
+    "verdict_detail": "Peak knee extension 137.4\u00b0 is below 145.0\u00b0. Seat is likely too low \u2014 raise saddle height."
+  }
+}

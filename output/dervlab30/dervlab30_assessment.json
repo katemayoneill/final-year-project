@@ -1,0 +1,465 @@
+{
+  "video": "videos/dervlab30.MP4",
+  "frames": [
+    {
+      "frame_idx": 160,
+      "timestamp": 2.6681,
+      "right_knee_angle": null,
+      "left_knee_angle": null,
+      "right_hip_angle": null,
+      "left_hip_angle": null
+    },
+    {
+      "frame_idx": 161,
+      "timestamp": 2.6847,
+      "right_knee_angle": 155.67,
+      "left_knee_angle": 161.02,
+      "right_hip_angle": 135.84,
+      "left_hip_angle": 134.83
+    },
+    {
+      "frame_idx": 162,
+      "timestamp": 2.7014,
+      "right_knee_angle": 170.33,
+      "left_knee_angle": 160.07,
+      "right_hip_angle": 134.54,
+      "left_hip_angle": 133.49
+    },
+    {
+      "frame_idx": 163,
+      "timestamp": 2.7181,
+      "right_knee_angle": 145.73,
+      "left_knee_angle": 153.0,
+      "right_hip_angle": 118.23,
+      "left_hip_angle": 113.76
+    },
+    {
+      "frame_idx": 164,
+      "timestamp": 2.7348,
+      "right_knee_angle": 158.2,
+      "left_knee_angle": 163.16,
+      "right_hip_angle": 127.74,
+      "left_hip_angle": 129.89
+    },
+    {
+      "frame_idx": 165,
+      "timestamp": 2.7514,
+      "right_knee_angle": 139.31,
+      "left_knee_angle": 144.59,
+      "right_hip_angle": 103.6,
+      "left_hip_angle": 122.55
+    },
+    {
+      "frame_idx": 166,
+      "timestamp": 2.7681,
+      "right_knee_angle": 143.49,
+      "left_knee_angle": 169.07,
+      "right_hip_angle": 105.89,
+      "left_hip_angle": 141.02
+    },
+    {
+      "frame_idx": 167,
+      "timestamp": 2.7848,
+      "right_knee_angle": 127.14,
+      "left_knee_angle": 112.8,
+      "right_hip_angle": 95.69,
+      "left_hip_angle": 92.6
+    },
+    {
+      "frame_idx": 168,
+      "timestamp": 2.8015,
+      "right_knee_angle": 126.6,
+      "left_knee_angle": 108.29,
+      "right_hip_angle": 97.36,
+      "left_hip_angle": 84.3
+    },
+    {
+      "frame_idx": 169,
+      "timestamp": 2.8181,
+      "right_knee_angle": 118.11,
+      "left_knee_angle": 113.19,
+      "right_hip_angle": 91.94,
+      "left_hip_angle": 80.78
+    },
+    {
+      "frame_idx": 170,
+      "timestamp": 2.8348,
+      "right_knee_angle": 135.04,
+      "left_knee_angle": 117.77,
+      "right_hip_angle": 103.67,
+      "left_hip_angle": 100.3
+    },
+    {
+      "frame_idx": 171,
+      "timestamp": 2.8515,
+      "right_knee_angle": 134.42,
+      "left_knee_angle": 114.7,
+      "right_hip_angle": 106.3,
+      "left_hip_angle": 90.73
+    },
+    {
+      "frame_idx": 172,
+      "timestamp": 2.8682,
+      "right_knee_angle": 156.88,
+      "left_knee_angle": 131.26,
+      "right_hip_angle": 132.68,
+      "left_hip_angle": 102.59
+    },
+    {
+      "frame_idx": 173,
+      "timestamp": 2.8848,
+      "right_knee_angle": 144.96,
+      "left_knee_angle": 137.33,
+      "right_hip_angle": 137.57,
+      "left_hip_angle": 109.57
+    },
+    {
+      "frame_idx": 174,
+      "timestamp": 2.9015,
+      "right_knee_angle": 167.85,
+      "left_knee_angle": 144.8,
+      "right_hip_angle": 152.45,
+      "left_hip_angle": 117.22
+    },
+    {
+      "frame_idx": 175,
+      "timestamp": 2.9182,
+      "right_knee_angle": 165.87,
+      "left_knee_angle": 139.34,
+      "right_hip_angle": 139.43,
+      "left_hip_angle": 112.56
+    },
+    {
+      "frame_idx": 176,
+      "timestamp": 2.9349,
+      "right_knee_angle": 179.28,
+      "left_knee_angle": 141.99,
+      "right_hip_angle": 144.61,
+      "left_hip_angle": 119.63
+    },
+    {
+      "frame_idx": 177,
+      "timestamp": 2.9515,
+      "right_knee_angle": null,
+      "left_knee_angle": 85.88,
+      "right_hip_angle": 106.28,
+      "left_hip_angle": 77.15
+    },
+    {
+      "frame_idx": 178,
+      "timestamp": 2.9682,
+      "right_knee_angle": null,
+      "left_knee_angle": null,
+      "right_hip_angle": null,
+      "left_hip_angle": 87.31
+    },
+    {
+      "frame_idx": 179,
+      "timestamp": 2.9849,
+      "right_knee_angle": 134.15,
+      "left_knee_angle": 88.29,
+      "right_hip_angle": 111.42,
+      "left_hip_angle": 68.8
+    },
+    {
+      "frame_idx": 180,
+      "timestamp": 3.0016,
+      "right_knee_angle": 134.36,
+      "left_knee_angle": 71.45,
+      "right_hip_angle": 94.63,
+      "left_hip_angle": 50.84
+    },
+    {
+      "frame_idx": 181,
+      "timestamp": 3.0182,
+      "right_knee_angle": 175.15,
+      "left_knee_angle": 116.47,
+      "right_hip_angle": 135.01,
+      "left_hip_angle": 81.81
+    },
+    {
+      "frame_idx": 182,
+      "timestamp": 3.0349,
+      "right_knee_angle": 143.8,
+      "left_knee_angle": 107.94,
+      "right_hip_angle": 119.48,
+      "left_hip_angle": 88.9
+    },
+    {
+      "frame_idx": 183,
+      "timestamp": 3.0516,
+      "right_knee_angle": 148.58,
+      "left_knee_angle": 104.0,
+      "right_hip_angle": 122.92,
+      "left_hip_angle": 83.55
+    },
+    {
+      "frame_idx": 184,
+      "timestamp": 3.0683,
+      "right_knee_angle": 120.99,
+      "left_knee_angle": 101.26,
+      "right_hip_angle": 109.2,
+      "left_hip_angle": 92.25
+    },
+    {
+      "frame_idx": 185,
+      "timestamp": 3.0849,
+      "right_knee_angle": 151.29,
+      "left_knee_angle": 112.15,
+      "right_hip_angle": 130.73,
+      "left_hip_angle": 104.79
+    },
+    {
+      "frame_idx": 186,
+      "timestamp": 3.1016,
+      "right_knee_angle": 131.79,
+      "left_knee_angle": 108.31,
+      "right_hip_angle": 123.28,
+      "left_hip_angle": 105.41
+    },
+    {
+      "frame_idx": 187,
+      "timestamp": 3.1183,
+      "right_knee_angle": 106.79,
+      "left_knee_angle": 91.53,
+      "right_hip_angle": 97.93,
+      "left_hip_angle": 83.02
+    },
+    {
+      "frame_idx": 188,
+      "timestamp": 3.135,
+      "right_knee_angle": 126.79,
+      "left_knee_angle": 101.15,
+      "right_hip_angle": 118.61,
+      "left_hip_angle": 94.24
+    },
+    {
+      "frame_idx": 189,
+      "timestamp": 3.1516,
+      "right_knee_angle": 127.71,
+      "left_knee_angle": 106.56,
+      "right_hip_angle": 114.0,
+      "left_hip_angle": 85.33
+    },
+    {
+      "frame_idx": 190,
+      "timestamp": 3.1683,
+      "right_knee_angle": 108.61,
+      "left_knee_angle": 88.89,
+      "right_hip_angle": 104.81,
+      "left_hip_angle": 78.8
+    },
+    {
+      "frame_idx": 191,
+      "timestamp": 3.185,
+      "right_knee_angle": 119.01,
+      "left_knee_angle": 110.41,
+      "right_hip_angle": 101.29,
+      "left_hip_angle": 84.94
+    },
+    {
+      "frame_idx": 192,
+      "timestamp": 3.2017,
+      "right_knee_angle": 141.52,
+      "left_knee_angle": 134.94,
+      "right_hip_angle": 126.65,
+      "left_hip_angle": 104.73
+    },
+    {
+      "frame_idx": 193,
+      "timestamp": 3.2183,
+      "right_knee_angle": 153.66,
+      "left_knee_angle": 154.02,
+      "right_hip_angle": 150.7,
+      "left_hip_angle": 122.33
+    },
+    {
+      "frame_idx": 194,
+      "timestamp": 3.235,
+      "right_knee_angle": 152.61,
+      "left_knee_angle": 142.75,
+      "right_hip_angle": 144.18,
+      "left_hip_angle": 115.79
+    },
+    {
+      "frame_idx": 195,
+      "timestamp": 3.2517,
+      "right_knee_angle": 155.9,
+      "left_knee_angle": 143.09,
+      "right_hip_angle": 156.55,
+      "left_hip_angle": 114.53
+    },
+    {
+      "frame_idx": 196,
+      "timestamp": 3.2684,
+      "right_knee_angle": 147.01,
+      "left_knee_angle": 139.13,
+      "right_hip_angle": 143.21,
+      "left_hip_angle": 110.72
+    },
+    {
+      "frame_idx": 197,
+      "timestamp": 3.285,
+      "right_knee_angle": 158.89,
+      "left_knee_angle": 151.91,
+      "right_hip_angle": 145.8,
+      "left_hip_angle": 119.66
+    },
+    {
+      "frame_idx": 198,
+      "timestamp": 3.3017,
+      "right_knee_angle": 158.65,
+      "left_knee_angle": 163.81,
+      "right_hip_angle": 168.35,
+      "left_hip_angle": 128.35
+    },
+    {
+      "frame_idx": 199,
+      "timestamp": 3.3184,
+      "right_knee_angle": 150.16,
+      "left_knee_angle": 149.05,
+      "right_hip_angle": 121.42,
+      "left_hip_angle": 121.26
+    },
+    {
+      "frame_idx": 200,
+      "timestamp": 3.3351,
+      "right_knee_angle": 146.07,
+      "left_knee_angle": 149.78,
+      "right_hip_angle": 113.24,
+      "left_hip_angle": 114.65
+    },
+    {
+      "frame_idx": 201,
+      "timestamp": 3.3518,
+      "right_knee_angle": 127.12,
+      "left_knee_angle": 154.53,
+      "right_hip_angle": 100.73,
+      "left_hip_angle": 119.31
+    },
+    {
+      "frame_idx": 202,
+      "timestamp": 3.3684,
+      "right_knee_angle": 139.19,
+      "left_knee_angle": 153.52,
+      "right_hip_angle": 115.56,
+      "left_hip_angle": 126.57
+    },
+    {
+      "frame_idx": 203,
+      "timestamp": 3.3851,
+      "right_knee_angle": 154.54,
+      "left_knee_angle": 178.17,
+      "right_hip_angle": 126.04,
+      "left_hip_angle": 150.76
+    },
+    {
+      "frame_idx": 204,
+      "timestamp": 3.4018,
+      "right_knee_angle": 148.52,
+      "left_knee_angle": 172.83,
+      "right_hip_angle": 126.48,
+      "left_hip_angle": 161.07
+    },
+    {
+      "frame_idx": 205,
+      "timestamp": 3.4185,
+      "right_knee_angle": 148.73,
+      "left_knee_angle": 172.03,
+      "right_hip_angle": 126.88,
+      "left_hip_angle": 152.11
+    },
+    {
+      "frame_idx": 206,
+      "timestamp": 3.4351,
+      "right_knee_angle": 146.45,
+      "left_knee_angle": 167.3,
+      "right_hip_angle": 120.07,
+      "left_hip_angle": 155.06
+    },
+    {
+      "frame_idx": 207,
+      "timestamp": 3.4518,
+      "right_knee_angle": 146.62,
+      "left_knee_angle": 161.75,
+      "right_hip_angle": 123.15,
+      "left_hip_angle": 149.63
+    },
+    {
+      "frame_idx": 208,
+      "timestamp": 3.4685,
+      "right_knee_angle": 142.12,
+      "left_knee_angle": 141.95,
+      "right_hip_angle": 119.26,
+      "left_hip_angle": 123.08
+    },
+    {
+      "frame_idx": 209,
+      "timestamp": 3.4852,
+      "right_knee_angle": 158.36,
+      "left_knee_angle": 154.12,
+      "right_hip_angle": 130.59,
+      "left_hip_angle": 132.2
+    },
+    {
+      "frame_idx": 210,
+      "timestamp": 3.5018,
+      "right_knee_angle": 146.46,
+      "left_knee_angle": 149.0,
+      "right_hip_angle": 128.32,
+      "left_hip_angle": 122.9
+    },
+    {
+      "frame_idx": 211,
+      "timestamp": 3.5185,
+      "right_knee_angle": 138.14,
+      "left_knee_angle": 138.53,
+      "right_hip_angle": 130.33,
+      "left_hip_angle": 117.58
+    },
+    {
+      "frame_idx": 212,
+      "timestamp": 3.5352,
+      "right_knee_angle": 127.81,
+      "left_knee_angle": 142.32,
+      "right_hip_angle": 126.44,
+      "left_hip_angle": 129.18
+    },
+    {
+      "frame_idx": 213,
+      "timestamp": 3.5519,
+      "right_knee_angle": 140.29,
+      "left_knee_angle": 132.9,
+      "right_hip_angle": 130.55,
+      "left_hip_angle": 127.78
+    },
+    {
+      "frame_idx": 214,
+      "timestamp": 3.5685,
+      "right_knee_angle": 139.12,
+      "left_knee_angle": 150.67,
+      "right_hip_angle": 132.35,
+      "left_hip_angle": 136.92
+    },
+    {
+      "frame_idx": 215,
+      "timestamp": 3.5852,
+      "right_knee_angle": null,
+      "left_knee_angle": null,
+      "right_hip_angle": null,
+      "left_hip_angle": null
+    }
+  ],
+  "summary": {
+    "knee_angles_count": 53,
+    "knee_angle_mean": 134.05,
+    "knee_angle_std": 26.04,
+    "knee_angle_peak": 178.17,
+    "optimal_range": [
+      145.0,
+      155.0
+    ],
+    "verdict": "too_high",
+    "verdict_detail": "Peak knee extension 178.2\u00b0 exceeds 155.0\u00b0. Seat is likely too high \u2014 risk of over-extension, lower saddle height."
+  }
+}

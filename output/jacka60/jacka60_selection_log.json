@@ -1,0 +1,8596 @@
+{
+  "video": "videos/jacka60.mp4",
+  "model": "models/best.pt",
+  "fps": 29.666666666666668,
+  "total_frames": 2022,
+  "selected_frames": [
+    {
+      "frame_idx": 72,
+      "timestamp": 2.427,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000072.jpg",
+      "front_wheel_conf": 0.9519,
+      "back_wheel_conf": 0.9625,
+      "front_squareness": 0.9772,
+      "back_squareness": 0.9709,
+      "size_match_ratio": 0.9588,
+      "front_wheel_box": [
+        591,
+        618,
+        994,
+        1012
+      ],
+      "back_wheel_box": [
+        1168,
+        604,
+        1569,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 73,
+      "timestamp": 2.4607,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000073.jpg",
+      "front_wheel_conf": 0.9634,
+      "back_wheel_conf": 0.9641,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9638,
+      "size_match_ratio": 0.9493,
+      "front_wheel_box": [
+        595,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        603,
+        1569,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 74,
+      "timestamp": 2.4944,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000074.jpg",
+      "front_wheel_conf": 0.9622,
+      "back_wheel_conf": 0.964,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9684,
+      "size_match_ratio": 0.9538,
+      "front_wheel_box": [
+        595,
+        622,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        604,
+        1569,
+        1016
+      ]
+    },
+    {
+      "frame_idx": 75,
+      "timestamp": 2.5281,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000075.jpg",
+      "front_wheel_conf": 0.9621,
+      "back_wheel_conf": 0.9623,
+      "front_squareness": 0.977,
+      "back_squareness": 0.9684,
+      "size_match_ratio": 0.9561,
+      "front_wheel_box": [
+        595,
+        623,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        605,
+        1569,
+        1016
+      ]
+    },
+    {
+      "frame_idx": 76,
+      "timestamp": 2.5618,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000076.jpg",
+      "front_wheel_conf": 0.9619,
+      "back_wheel_conf": 0.9569,
+      "front_squareness": 0.9769,
+      "back_squareness": 0.9635,
+      "size_match_ratio": 0.9561,
+      "front_wheel_box": [
+        595,
+        624,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1173,
+        605,
+        1569,
+        1016
+      ]
+    },
+    {
+      "frame_idx": 77,
+      "timestamp": 2.5955,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000077.jpg",
+      "front_wheel_conf": 0.961,
+      "back_wheel_conf": 0.9394,
+      "front_squareness": 0.9795,
+      "back_squareness": 0.9781,
+      "size_match_ratio": 0.9395,
+      "front_wheel_box": [
+        594,
+        624,
+        992,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        607,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 78,
+      "timestamp": 2.6292,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000078.jpg",
+      "front_wheel_conf": 0.9629,
+      "back_wheel_conf": 0.9641,
+      "front_squareness": 0.9821,
+      "back_squareness": 0.9782,
+      "size_match_ratio": 0.9373,
+      "front_wheel_box": [
+        594,
+        623,
+        992,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        606,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 79,
+      "timestamp": 2.6629,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000079.jpg",
+      "front_wheel_conf": 0.9618,
+      "back_wheel_conf": 0.9627,
+      "front_squareness": 0.9821,
+      "back_squareness": 0.9854,
+      "size_match_ratio": 0.9395,
+      "front_wheel_box": [
+        594,
+        623,
+        992,
+        1014
+      ],
+      "back_wheel_box": [
+        1168,
+        609,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 80,
+      "timestamp": 2.6966,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000080.jpg",
+      "front_wheel_conf": 0.9611,
+      "back_wheel_conf": 0.9632,
+      "front_squareness": 0.9821,
+      "back_squareness": 0.9877,
+      "size_match_ratio": 0.9512,
+      "front_wheel_box": [
+        594,
+        622,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        610,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 81,
+      "timestamp": 2.7303,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000081.jpg",
+      "front_wheel_conf": 0.9615,
+      "back_wheel_conf": 0.9635,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9804,
+      "size_match_ratio": 0.9585,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        609,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 82,
+      "timestamp": 2.764,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000082.jpg",
+      "front_wheel_conf": 0.9614,
+      "back_wheel_conf": 0.9632,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9976,
+      "size_match_ratio": 0.9374,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1163,
+        609,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 83,
+      "timestamp": 2.7978,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000083.jpg",
+      "front_wheel_conf": 0.9612,
+      "back_wheel_conf": 0.961,
+      "front_squareness": 0.9899,
+      "back_squareness": 0.9586,
+      "size_match_ratio": 0.9733,
+      "front_wheel_box": [
+        594,
+        620,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1177,
+        608,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 84,
+      "timestamp": 2.8315,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000084.jpg",
+      "front_wheel_conf": 0.9603,
+      "back_wheel_conf": 0.9529,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9458,
+      "size_match_ratio": 0.9967,
+      "front_wheel_box": [
+        595,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1186,
+        612,
+        1570,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 85,
+      "timestamp": 2.8652,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000085.jpg",
+      "front_wheel_conf": 0.962,
+      "back_wheel_conf": 0.9393,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.939,
+      "size_match_ratio": 0.9934,
+      "front_wheel_box": [
+        595,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1185,
+        608,
+        1570,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 86,
+      "timestamp": 2.8989,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000086.jpg",
+      "front_wheel_conf": 0.9606,
+      "back_wheel_conf": 0.9632,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9684,
+      "size_match_ratio": 0.9563,
+      "front_wheel_box": [
+        594,
+        622,
+        993,
+        1016
+      ],
+      "back_wheel_box": [
+        1171,
+        607,
+        1570,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 87,
+      "timestamp": 2.9326,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000087.jpg",
+      "front_wheel_conf": 0.9588,
+      "back_wheel_conf": 0.963,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9732,
+      "size_match_ratio": 0.9586,
+      "front_wheel_box": [
+        593,
+        623,
+        994,
+        1016
+      ],
+      "back_wheel_box": [
+        1170,
+        608,
+        1570,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 88,
+      "timestamp": 2.9663,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000088.jpg",
+      "front_wheel_conf": 0.9585,
+      "back_wheel_conf": 0.961,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.949,
+      "front_wheel_box": [
+        593,
+        622,
+        992,
+        1015
+      ],
+      "back_wheel_box": [
+        1167,
+        608,
+        1570,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 89,
+      "timestamp": 3.0,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000089.jpg",
+      "front_wheel_conf": 0.9586,
+      "back_wheel_conf": 0.9619,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9804,
+      "size_match_ratio": 0.9633,
+      "front_wheel_box": [
+        593,
+        622,
+        992,
+        1016
+      ],
+      "back_wheel_box": [
+        1170,
+        611,
+        1570,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 90,
+      "timestamp": 3.0337,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000090.jpg",
+      "front_wheel_conf": 0.9595,
+      "back_wheel_conf": 0.9629,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.9562,
+      "front_wheel_box": [
+        593,
+        621,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1168,
+        608,
+        1570,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 91,
+      "timestamp": 3.0674,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000091.jpg",
+      "front_wheel_conf": 0.9612,
+      "back_wheel_conf": 0.9464,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.9513,
+      "front_wheel_box": [
+        592,
+        623,
+        992,
+        1015
+      ],
+      "back_wheel_box": [
+        1168,
+        608,
+        1570,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 92,
+      "timestamp": 3.1011,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000092.jpg",
+      "front_wheel_conf": 0.9591,
+      "back_wheel_conf": 0.9608,
+      "front_squareness": 0.9823,
+      "back_squareness": 0.9732,
+      "size_match_ratio": 0.9659,
+      "front_wheel_box": [
+        594,
+        620,
+        996,
+        1015
+      ],
+      "back_wheel_box": [
+        1170,
+        607,
+        1570,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 93,
+      "timestamp": 3.1348,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000093.jpg",
+      "front_wheel_conf": 0.9601,
+      "back_wheel_conf": 0.9629,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 0.9658,
+      "front_wheel_box": [
+        595,
+        620,
+        996,
+        1015
+      ],
+      "back_wheel_box": [
+        1171,
+        607,
+        1571,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 94,
+      "timestamp": 3.1685,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000094.jpg",
+      "front_wheel_conf": 0.9523,
+      "back_wheel_conf": 0.9523,
+      "front_squareness": 0.9668,
+      "back_squareness": 0.9637,
+      "size_match_ratio": 0.9658,
+      "front_wheel_box": [
+        592,
+        618,
+        997,
+        1010
+      ],
+      "back_wheel_box": [
+        1173,
+        604,
+        1571,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 95,
+      "timestamp": 3.2022,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000095.jpg",
+      "front_wheel_conf": 0.954,
+      "back_wheel_conf": 0.9628,
+      "front_squareness": 0.977,
+      "back_squareness": 0.9687,
+      "size_match_ratio": 0.9422,
+      "front_wheel_box": [
+        593,
+        619,
+        994,
+        1011
+      ],
+      "back_wheel_box": [
+        1170,
+        602,
+        1572,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 96,
+      "timestamp": 3.236,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000096.jpg",
+      "front_wheel_conf": 0.9611,
+      "back_wheel_conf": 0.9616,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9853,
+      "size_match_ratio": 0.9586,
+      "front_wheel_box": [
+        595,
+        620,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1572,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 97,
+      "timestamp": 3.2697,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000097.jpg",
+      "front_wheel_conf": 0.9621,
+      "back_wheel_conf": 0.9626,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9781,
+      "size_match_ratio": 0.9491,
+      "front_wheel_box": [
+        595,
+        621,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1170,
+        608,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 98,
+      "timestamp": 3.3034,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000098.jpg",
+      "front_wheel_conf": 0.9614,
+      "back_wheel_conf": 0.9636,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9854,
+      "size_match_ratio": 0.9491,
+      "front_wheel_box": [
+        595,
+        621,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1167,
+        608,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 99,
+      "timestamp": 3.3371,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000099.jpg",
+      "front_wheel_conf": 0.9584,
+      "back_wheel_conf": 0.962,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 0.9634,
+      "front_wheel_box": [
+        594,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1172,
+        608,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 100,
+      "timestamp": 3.3708,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000100.jpg",
+      "front_wheel_conf": 0.9486,
+      "back_wheel_conf": 0.9606,
+      "front_squareness": 0.9823,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 0.9779,
+      "front_wheel_box": [
+        592,
+        615,
+        995,
+        1011
+      ],
+      "back_wheel_box": [
+        1172,
+        607,
+        1571,
+        1016
+      ]
+    },
+    {
+      "frame_idx": 101,
+      "timestamp": 3.4045,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000101.jpg",
+      "front_wheel_conf": 0.9527,
+      "back_wheel_conf": 0.9603,
+      "front_squareness": 0.9747,
+      "back_squareness": 0.9569,
+      "size_match_ratio": 0.9568,
+      "front_wheel_box": [
+        591,
+        617,
+        996,
+        1012
+      ],
+      "back_wheel_box": [
+        1171,
+        601,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 102,
+      "timestamp": 3.4382,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000102.jpg",
+      "front_wheel_conf": 0.9616,
+      "back_wheel_conf": 0.9595,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9684,
+      "size_match_ratio": 0.9659,
+      "front_wheel_box": [
+        595,
+        620,
+        996,
+        1014
+      ],
+      "back_wheel_box": [
+        1174,
+        608,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 103,
+      "timestamp": 3.4719,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000103.jpg",
+      "front_wheel_conf": 0.9612,
+      "back_wheel_conf": 0.9536,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9386,
+      "size_match_ratio": 0.9915,
+      "front_wheel_box": [
+        596,
+        622,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1189,
+        612,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 104,
+      "timestamp": 3.5056,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000104.jpg",
+      "front_wheel_conf": 0.6526,
+      "back_wheel_conf": 0.9545,
+      "front_squareness": 0.9693,
+      "back_squareness": 0.939,
+      "size_match_ratio": 0.9982,
+      "front_wheel_box": [
+        593,
+        621,
+        996,
+        1012
+      ],
+      "back_wheel_box": [
+        1184,
+        608,
+        1569,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 105,
+      "timestamp": 3.5393,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000105.jpg",
+      "front_wheel_conf": 0.9619,
+      "back_wheel_conf": 0.9606,
+      "front_squareness": 0.9821,
+      "back_squareness": 0.9612,
+      "size_match_ratio": 0.9587,
+      "front_wheel_box": [
+        595,
+        622,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1174,
+        607,
+        1570,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 106,
+      "timestamp": 3.573,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000106.jpg",
+      "front_wheel_conf": 0.9617,
+      "back_wheel_conf": 0.9627,
+      "front_squareness": 0.9821,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        595,
+        622,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        606,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 107,
+      "timestamp": 3.6067,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000107.jpg",
+      "front_wheel_conf": 0.961,
+      "back_wheel_conf": 0.9613,
+      "front_squareness": 0.9924,
+      "back_squareness": 0.9734,
+      "size_match_ratio": 0.9469,
+      "front_wheel_box": [
+        595,
+        620,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        606,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 108,
+      "timestamp": 3.6404,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000108.jpg",
+      "front_wheel_conf": 0.9575,
+      "back_wheel_conf": 0.9245,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9567,
+      "size_match_ratio": 0.9495,
+      "front_wheel_box": [
+        594,
+        623,
+        994,
+        1016
+      ],
+      "back_wheel_box": [
+        1171,
+        602,
+        1569,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 109,
+      "timestamp": 3.6742,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000109.jpg",
+      "front_wheel_conf": 0.9592,
+      "back_wheel_conf": 0.9621,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.978,
+      "size_match_ratio": 0.9584,
+      "front_wheel_box": [
+        594,
+        623,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1171,
+        610,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 110,
+      "timestamp": 3.7079,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000110.jpg",
+      "front_wheel_conf": 0.9592,
+      "back_wheel_conf": 0.9614,
+      "front_squareness": 0.9899,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.9659,
+      "front_wheel_box": [
+        594,
+        620,
+        995,
+        1017
+      ],
+      "back_wheel_box": [
+        1169,
+        609,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 111,
+      "timestamp": 3.7416,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000111.jpg",
+      "front_wheel_conf": 0.9594,
+      "back_wheel_conf": 0.963,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9806,
+      "size_match_ratio": 0.9468,
+      "front_wheel_box": [
+        594,
+        623,
+        994,
+        1017
+      ],
+      "back_wheel_box": [
+        1167,
+        608,
+        1571,
+        1020
+      ]
+    },
+    {
+      "frame_idx": 112,
+      "timestamp": 3.7753,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000112.jpg",
+      "front_wheel_conf": 0.9624,
+      "back_wheel_conf": 0.9645,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.9586,
+      "front_wheel_box": [
+        595,
+        621,
+        995,
+        1016
+      ],
+      "back_wheel_box": [
+        1169,
+        609,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 113,
+      "timestamp": 3.809,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000113.jpg",
+      "front_wheel_conf": 0.961,
+      "back_wheel_conf": 0.9625,
+      "front_squareness": 0.9874,
+      "back_squareness": 0.9708,
+      "size_match_ratio": 0.9683,
+      "front_wheel_box": [
+        595,
+        620,
+        996,
+        1016
+      ],
+      "back_wheel_box": [
+        1172,
+        608,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 114,
+      "timestamp": 3.8427,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000114.jpg",
+      "front_wheel_conf": 0.9624,
+      "back_wheel_conf": 0.9637,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9708,
+      "size_match_ratio": 0.9562,
+      "front_wheel_box": [
+        596,
+        622,
+        994,
+        1016
+      ],
+      "back_wheel_box": [
+        1172,
+        608,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 115,
+      "timestamp": 3.8764,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000115.jpg",
+      "front_wheel_conf": 0.9626,
+      "back_wheel_conf": 0.964,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 0.9513,
+      "front_wheel_box": [
+        595,
+        622,
+        992,
+        1015
+      ],
+      "back_wheel_box": [
+        1171,
+        608,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 116,
+      "timestamp": 3.9101,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000116.jpg",
+      "front_wheel_conf": 0.96,
+      "back_wheel_conf": 0.9643,
+      "front_squareness": 0.9924,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9467,
+      "front_wheel_box": [
+        595,
+        622,
+        992,
+        1016
+      ],
+      "back_wheel_box": [
+        1168,
+        610,
+        1571,
+        1020
+      ]
+    },
+    {
+      "frame_idx": 117,
+      "timestamp": 3.9438,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000117.jpg",
+      "front_wheel_conf": 0.9592,
+      "back_wheel_conf": 0.9623,
+      "front_squareness": 0.9924,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 0.9538,
+      "front_wheel_box": [
+        595,
+        622,
+        992,
+        1016
+      ],
+      "back_wheel_box": [
+        1171,
+        609,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 118,
+      "timestamp": 3.9775,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000118.jpg",
+      "front_wheel_conf": 0.9591,
+      "back_wheel_conf": 0.9638,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.983,
+      "size_match_ratio": 0.9491,
+      "front_wheel_box": [
+        594,
+        622,
+        994,
+        1016
+      ],
+      "back_wheel_box": [
+        1167,
+        609,
+        1571,
+        1020
+      ]
+    },
+    {
+      "frame_idx": 119,
+      "timestamp": 4.0112,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000119.jpg",
+      "front_wheel_conf": 0.9589,
+      "back_wheel_conf": 0.9637,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9902,
+      "size_match_ratio": 0.9584,
+      "front_wheel_box": [
+        594,
+        623,
+        994,
+        1016
+      ],
+      "back_wheel_box": [
+        1168,
+        612,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 120,
+      "timestamp": 4.0449,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000120.jpg",
+      "front_wheel_conf": 0.9582,
+      "back_wheel_conf": 0.9637,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9902,
+      "size_match_ratio": 0.9352,
+      "front_wheel_box": [
+        594,
+        623,
+        993,
+        1017
+      ],
+      "back_wheel_box": [
+        1161,
+        613,
+        1573,
+        1021
+      ]
+    },
+    {
+      "frame_idx": 121,
+      "timestamp": 4.0787,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000121.jpg",
+      "front_wheel_conf": 0.9598,
+      "back_wheel_conf": 0.9639,
+      "front_squareness": 0.9924,
+      "back_squareness": 0.9853,
+      "size_match_ratio": 0.9538,
+      "front_wheel_box": [
+        594,
+        622,
+        992,
+        1017
+      ],
+      "back_wheel_box": [
+        1169,
+        612,
+        1572,
+        1021
+      ]
+    },
+    {
+      "frame_idx": 122,
+      "timestamp": 4.1124,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000122.jpg",
+      "front_wheel_conf": 0.9607,
+      "back_wheel_conf": 0.9555,
+      "front_squareness": 0.9899,
+      "back_squareness": 0.973,
+      "size_match_ratio": 0.973,
+      "front_wheel_box": [
+        595,
+        621,
+        994,
+        1016
+      ],
+      "back_wheel_box": [
+        1175,
+        611,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 123,
+      "timestamp": 4.1461,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000123.jpg",
+      "front_wheel_conf": 0.9609,
+      "back_wheel_conf": 0.9513,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9459,
+      "size_match_ratio": 0.9993,
+      "front_wheel_box": [
+        595,
+        622,
+        993,
+        1016
+      ],
+      "back_wheel_box": [
+        1186,
+        612,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 124,
+      "timestamp": 4.1798,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000124.jpg",
+      "front_wheel_conf": 0.9603,
+      "back_wheel_conf": 0.8673,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.951,
+      "size_match_ratio": 0.9956,
+      "front_wheel_box": [
+        595,
+        622,
+        995,
+        1016
+      ],
+      "back_wheel_box": [
+        1183,
+        611,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 125,
+      "timestamp": 4.2135,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000125.jpg",
+      "front_wheel_conf": 0.9618,
+      "back_wheel_conf": 0.959,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9683,
+      "size_match_ratio": 0.9658,
+      "front_wheel_box": [
+        595,
+        622,
+        994,
+        1016
+      ],
+      "back_wheel_box": [
+        1174,
+        609,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 126,
+      "timestamp": 4.2472,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000126.jpg",
+      "front_wheel_conf": 0.9587,
+      "back_wheel_conf": 0.9619,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9732,
+      "size_match_ratio": 0.9561,
+      "front_wheel_box": [
+        594,
+        623,
+        992,
+        1016
+      ],
+      "back_wheel_box": [
+        1172,
+        609,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 127,
+      "timestamp": 4.2809,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000127.jpg",
+      "front_wheel_conf": 0.9582,
+      "back_wheel_conf": 0.886,
+      "front_squareness": 0.9924,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        594,
+        622,
+        991,
+        1016
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 128,
+      "timestamp": 4.3146,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000128.jpg",
+      "front_wheel_conf": 0.9578,
+      "back_wheel_conf": 0.8386,
+      "front_squareness": 0.9924,
+      "back_squareness": 0.9613,
+      "size_match_ratio": 0.954,
+      "front_wheel_box": [
+        594,
+        622,
+        991,
+        1016
+      ],
+      "back_wheel_box": [
+        1171,
+        605,
+        1568,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 129,
+      "timestamp": 4.3483,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000129.jpg",
+      "front_wheel_conf": 0.9579,
+      "back_wheel_conf": 0.9464,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9588,
+      "size_match_ratio": 0.9588,
+      "front_wheel_box": [
+        594,
+        623,
+        993,
+        1016
+      ],
+      "back_wheel_box": [
+        1173,
+        605,
+        1569,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 130,
+      "timestamp": 4.382,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000130.jpg",
+      "front_wheel_conf": 0.9563,
+      "back_wheel_conf": 0.9554,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9901,
+      "size_match_ratio": 0.9656,
+      "front_wheel_box": [
+        593,
+        624,
+        994,
+        1017
+      ],
+      "back_wheel_box": [
+        1169,
+        613,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 131,
+      "timestamp": 4.4157,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000131.jpg",
+      "front_wheel_conf": 0.9581,
+      "back_wheel_conf": 0.9631,
+      "front_squareness": 0.977,
+      "back_squareness": 0.9853,
+      "size_match_ratio": 0.9584,
+      "front_wheel_box": [
+        593,
+        624,
+        994,
+        1016
+      ],
+      "back_wheel_box": [
+        1169,
+        611,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 132,
+      "timestamp": 4.4494,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000132.jpg",
+      "front_wheel_conf": 0.9582,
+      "back_wheel_conf": 0.5828,
+      "front_squareness": 0.9797,
+      "back_squareness": 0.9684,
+      "size_match_ratio": 0.9635,
+      "front_wheel_box": [
+        593,
+        622,
+        995,
+        1016
+      ],
+      "back_wheel_box": [
+        1169,
+        606,
+        1568,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 133,
+      "timestamp": 4.4831,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000133.jpg",
+      "front_wheel_conf": 0.9597,
+      "back_wheel_conf": 0.9393,
+      "front_squareness": 0.9797,
+      "back_squareness": 0.9636,
+      "size_match_ratio": 0.9732,
+      "front_wheel_box": [
+        593,
+        621,
+        996,
+        1016
+      ],
+      "back_wheel_box": [
+        1171,
+        606,
+        1568,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 134,
+      "timestamp": 4.5169,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000134.jpg",
+      "front_wheel_conf": 0.9589,
+      "back_wheel_conf": 0.9463,
+      "front_squareness": 0.9797,
+      "back_squareness": 0.9635,
+      "size_match_ratio": 0.9732,
+      "front_wheel_box": [
+        593,
+        622,
+        995,
+        1016
+      ],
+      "back_wheel_box": [
+        1172,
+        607,
+        1568,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 135,
+      "timestamp": 4.5506,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000135.jpg",
+      "front_wheel_conf": 0.9598,
+      "back_wheel_conf": 0.9644,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.978,
+      "size_match_ratio": 0.9514,
+      "front_wheel_box": [
+        594,
+        622,
+        992,
+        1015
+      ],
+      "back_wheel_box": [
+        1170,
+        609,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 136,
+      "timestamp": 4.5843,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000136.jpg",
+      "front_wheel_conf": 0.9594,
+      "back_wheel_conf": 0.9632,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9781,
+      "size_match_ratio": 0.9515,
+      "front_wheel_box": [
+        594,
+        622,
+        993,
+        1016
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 137,
+      "timestamp": 4.618,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000137.jpg",
+      "front_wheel_conf": 0.9607,
+      "back_wheel_conf": 0.9615,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.9514,
+      "front_wheel_box": [
+        594,
+        622,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1170,
+        608,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 138,
+      "timestamp": 4.6517,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000138.jpg",
+      "front_wheel_conf": 0.962,
+      "back_wheel_conf": 0.963,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9781,
+      "size_match_ratio": 0.9467,
+      "front_wheel_box": [
+        595,
+        622,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 139,
+      "timestamp": 4.6854,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000139.jpg",
+      "front_wheel_conf": 0.9617,
+      "back_wheel_conf": 0.9648,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9585,
+      "front_wheel_box": [
+        594,
+        622,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        609,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 140,
+      "timestamp": 4.7191,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000140.jpg",
+      "front_wheel_conf": 0.9594,
+      "back_wheel_conf": 0.9639,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.995,
+      "size_match_ratio": 0.9584,
+      "front_wheel_box": [
+        594,
+        622,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1166,
+        614,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 141,
+      "timestamp": 4.7528,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000141.jpg",
+      "front_wheel_conf": 0.9595,
+      "back_wheel_conf": 0.9622,
+      "front_squareness": 0.977,
+      "back_squareness": 0.9951,
+      "size_match_ratio": 0.9488,
+      "front_wheel_box": [
+        594,
+        624,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1165,
+        614,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 142,
+      "timestamp": 4.7865,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000142.jpg",
+      "front_wheel_conf": 0.9592,
+      "back_wheel_conf": 0.9626,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9853,
+      "size_match_ratio": 0.9632,
+      "front_wheel_box": [
+        594,
+        623,
+        994,
+        1016
+      ],
+      "back_wheel_box": [
+        1171,
+        613,
+        1572,
+        1020
+      ]
+    },
+    {
+      "frame_idx": 143,
+      "timestamp": 4.8202,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000143.jpg",
+      "front_wheel_conf": 0.9596,
+      "back_wheel_conf": 0.9595,
+      "front_squareness": 0.977,
+      "back_squareness": 0.9605,
+      "size_match_ratio": 0.9927,
+      "front_wheel_box": [
+        594,
+        624,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1182,
+        614,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 144,
+      "timestamp": 4.8539,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000144.jpg",
+      "front_wheel_conf": 0.9594,
+      "back_wheel_conf": 0.9539,
+      "front_squareness": 0.9821,
+      "back_squareness": 0.9366,
+      "size_match_ratio": 0.9884,
+      "front_wheel_box": [
+        594,
+        624,
+        992,
+        1015
+      ],
+      "back_wheel_box": [
+        1183,
+        608,
+        1567,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 145,
+      "timestamp": 4.8876,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000145.jpg",
+      "front_wheel_conf": 0.9604,
+      "back_wheel_conf": 0.9363,
+      "front_squareness": 0.977,
+      "back_squareness": 0.9488,
+      "size_match_ratio": 0.9806,
+      "front_wheel_box": [
+        594,
+        625,
+        994,
+        1016
+      ],
+      "back_wheel_box": [
+        1178,
+        608,
+        1567,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 146,
+      "timestamp": 4.9213,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000146.jpg",
+      "front_wheel_conf": 0.9595,
+      "back_wheel_conf": 0.9572,
+      "front_squareness": 0.977,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.949,
+      "front_wheel_box": [
+        594,
+        625,
+        994,
+        1016
+      ],
+      "back_wheel_box": [
+        1170,
+        608,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 147,
+      "timestamp": 4.9551,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000147.jpg",
+      "front_wheel_conf": 0.9583,
+      "back_wheel_conf": 0.9394,
+      "front_squareness": 0.9769,
+      "back_squareness": 0.966,
+      "size_match_ratio": 0.949,
+      "front_wheel_box": [
+        593,
+        626,
+        992,
+        1016
+      ],
+      "back_wheel_box": [
+        1170,
+        605,
+        1568,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 148,
+      "timestamp": 4.9888,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000148.jpg",
+      "front_wheel_conf": 0.9565,
+      "back_wheel_conf": 0.8927,
+      "front_squareness": 0.9716,
+      "back_squareness": 0.9853,
+      "size_match_ratio": 0.9439,
+      "front_wheel_box": [
+        594,
+        627,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1170,
+        610,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 149,
+      "timestamp": 5.0225,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000149.jpg",
+      "front_wheel_conf": 0.9571,
+      "back_wheel_conf": 0.9595,
+      "front_squareness": 0.9717,
+      "back_squareness": 0.9804,
+      "size_match_ratio": 0.9487,
+      "front_wheel_box": [
+        594,
+        626,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1170,
+        610,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 150,
+      "timestamp": 5.0562,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000150.jpg",
+      "front_wheel_conf": 0.9568,
+      "back_wheel_conf": 0.9638,
+      "front_squareness": 0.9717,
+      "back_squareness": 0.9853,
+      "size_match_ratio": 0.9487,
+      "front_wheel_box": [
+        594,
+        626,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        610,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 151,
+      "timestamp": 5.0899,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000151.jpg",
+      "front_wheel_conf": 0.9577,
+      "back_wheel_conf": 0.6846,
+      "front_squareness": 0.977,
+      "back_squareness": 0.9853,
+      "size_match_ratio": 0.9537,
+      "front_wheel_box": [
+        594,
+        624,
+        995,
+        1016
+      ],
+      "back_wheel_box": [
+        1169,
+        610,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 152,
+      "timestamp": 5.1236,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000152.jpg",
+      "front_wheel_conf": 0.9578,
+      "back_wheel_conf": 0.685,
+      "front_squareness": 0.9772,
+      "back_squareness": 0.9661,
+      "size_match_ratio": 0.9636,
+      "front_wheel_box": [
+        593,
+        622,
+        996,
+        1016
+      ],
+      "back_wheel_box": [
+        1169,
+        605,
+        1568,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 153,
+      "timestamp": 5.1573,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000153.jpg",
+      "front_wheel_conf": 0.9575,
+      "back_wheel_conf": 0.961,
+      "front_squareness": 0.9772,
+      "back_squareness": 0.9828,
+      "size_match_ratio": 0.9705,
+      "front_wheel_box": [
+        593,
+        621,
+        996,
+        1015
+      ],
+      "back_wheel_box": [
+        1170,
+        610,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 154,
+      "timestamp": 5.191,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000154.jpg",
+      "front_wheel_conf": 0.9594,
+      "back_wheel_conf": 0.9098,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9804,
+      "size_match_ratio": 0.9656,
+      "front_wheel_box": [
+        594,
+        622,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1171,
+        610,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 155,
+      "timestamp": 5.2247,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000155.jpg",
+      "front_wheel_conf": 0.9592,
+      "back_wheel_conf": 0.9649,
+      "front_squareness": 0.977,
+      "back_squareness": 0.9853,
+      "size_match_ratio": 0.9584,
+      "front_wheel_box": [
+        593,
+        623,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        610,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 156,
+      "timestamp": 5.2584,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000156.jpg",
+      "front_wheel_conf": 0.9572,
+      "back_wheel_conf": 0.9635,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.983,
+      "size_match_ratio": 0.9467,
+      "front_wheel_box": [
+        594,
+        622,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1167,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 157,
+      "timestamp": 5.2921,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000157.jpg",
+      "front_wheel_conf": 0.9588,
+      "back_wheel_conf": 0.9627,
+      "front_squareness": 0.9771,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.9538,
+      "front_wheel_box": [
+        594,
+        622,
+        996,
+        1015
+      ],
+      "back_wheel_box": [
+        1168,
+        608,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 158,
+      "timestamp": 5.3258,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000158.jpg",
+      "front_wheel_conf": 0.9593,
+      "back_wheel_conf": 0.9625,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9878,
+      "size_match_ratio": 0.9562,
+      "front_wheel_box": [
+        594,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1167,
+        610,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 159,
+      "timestamp": 5.3596,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000159.jpg",
+      "front_wheel_conf": 0.9593,
+      "back_wheel_conf": 0.9626,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9902,
+      "size_match_ratio": 0.9585,
+      "front_wheel_box": [
+        594,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1167,
+        610,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 160,
+      "timestamp": 5.3933,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000160.jpg",
+      "front_wheel_conf": 0.9595,
+      "back_wheel_conf": 0.9625,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9286,
+      "front_wheel_box": [
+        594,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1157,
+        610,
+        1573,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 161,
+      "timestamp": 5.427,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000161.jpg",
+      "front_wheel_conf": 0.9605,
+      "back_wheel_conf": 0.9615,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.9539,
+      "front_wheel_box": [
+        594,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1170,
+        608,
+        1572,
+        1020
+      ]
+    },
+    {
+      "frame_idx": 162,
+      "timestamp": 5.4607,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000162.jpg",
+      "front_wheel_conf": 0.9602,
+      "back_wheel_conf": 0.9558,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9683,
+      "size_match_ratio": 0.9707,
+      "front_wheel_box": [
+        594,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1174,
+        609,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 163,
+      "timestamp": 5.4944,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000163.jpg",
+      "front_wheel_conf": 0.9599,
+      "back_wheel_conf": 0.9504,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9458,
+      "size_match_ratio": 0.9918,
+      "front_wheel_box": [
+        594,
+        622,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1186,
+        612,
+        1570,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 164,
+      "timestamp": 5.5281,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000164.jpg",
+      "front_wheel_conf": 0.9591,
+      "back_wheel_conf": 0.9582,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.956,
+      "size_match_ratio": 0.9855,
+      "front_wheel_box": [
+        594,
+        622,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1179,
+        609,
+        1570,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 165,
+      "timestamp": 5.5618,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000165.jpg",
+      "front_wheel_conf": 0.9594,
+      "back_wheel_conf": 0.9623,
+      "front_squareness": 0.9771,
+      "back_squareness": 0.9707,
+      "size_match_ratio": 0.9682,
+      "front_wheel_box": [
+        593,
+        622,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1172,
+        608,
+        1570,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 166,
+      "timestamp": 5.5955,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000166.jpg",
+      "front_wheel_conf": 0.9591,
+      "back_wheel_conf": 0.9628,
+      "front_squareness": 0.9821,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9466,
+      "front_wheel_box": [
+        593,
+        623,
+        992,
+        1015
+      ],
+      "back_wheel_box": [
+        1168,
+        608,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 167,
+      "timestamp": 5.6292,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000167.jpg",
+      "front_wheel_conf": 0.9594,
+      "back_wheel_conf": 0.9615,
+      "front_squareness": 0.977,
+      "back_squareness": 0.9782,
+      "size_match_ratio": 0.9467,
+      "front_wheel_box": [
+        593,
+        623,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1168,
+        607,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 168,
+      "timestamp": 5.6629,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000168.jpg",
+      "front_wheel_conf": 0.9592,
+      "back_wheel_conf": 0.9588,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9804,
+      "size_match_ratio": 0.9681,
+      "front_wheel_box": [
+        593,
+        620,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1171,
+        610,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 169,
+      "timestamp": 5.6966,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000169.jpg",
+      "front_wheel_conf": 0.9594,
+      "back_wheel_conf": 0.9619,
+      "front_squareness": 0.9797,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9586,
+      "front_wheel_box": [
+        593,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1168,
+        608,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 170,
+      "timestamp": 5.7303,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000170.jpg",
+      "front_wheel_conf": 0.9598,
+      "back_wheel_conf": 0.9614,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9781,
+      "size_match_ratio": 0.9539,
+      "front_wheel_box": [
+        593,
+        621,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 171,
+      "timestamp": 5.764,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000171.jpg",
+      "front_wheel_conf": 0.9607,
+      "back_wheel_conf": 0.9515,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.9587,
+      "front_wheel_box": [
+        593,
+        620,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1170,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 172,
+      "timestamp": 5.7978,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000172.jpg",
+      "front_wheel_conf": 0.9613,
+      "back_wheel_conf": 0.8689,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.966,
+      "size_match_ratio": 0.9635,
+      "front_wheel_box": [
+        593,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        605,
+        1568,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 173,
+      "timestamp": 5.8315,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000173.jpg",
+      "front_wheel_conf": 0.9616,
+      "back_wheel_conf": 0.5538,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9708,
+      "size_match_ratio": 0.9586,
+      "front_wheel_box": [
+        593,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1172,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 174,
+      "timestamp": 5.8652,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000174.jpg",
+      "front_wheel_conf": 0.9612,
+      "back_wheel_conf": 0.9617,
+      "front_squareness": 0.9872,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.9443,
+      "front_wheel_box": [
+        594,
+        622,
+        991,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        607,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 175,
+      "timestamp": 5.8989,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000175.jpg",
+      "front_wheel_conf": 0.9607,
+      "back_wheel_conf": 0.9621,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9782,
+      "size_match_ratio": 0.9397,
+      "front_wheel_box": [
+        594,
+        622,
+        991,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        606,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 176,
+      "timestamp": 5.9326,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000176.jpg",
+      "front_wheel_conf": 0.9606,
+      "back_wheel_conf": 0.9617,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9782,
+      "size_match_ratio": 0.9422,
+      "front_wheel_box": [
+        594,
+        621,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1167,
+        605,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 177,
+      "timestamp": 5.9663,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000177.jpg",
+      "front_wheel_conf": 0.9595,
+      "back_wheel_conf": 0.9617,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9806,
+      "size_match_ratio": 0.9422,
+      "front_wheel_box": [
+        594,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1166,
+        606,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 178,
+      "timestamp": 6.0,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000178.jpg",
+      "front_wheel_conf": 0.9593,
+      "back_wheel_conf": 0.963,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.983,
+      "size_match_ratio": 0.9468,
+      "front_wheel_box": [
+        594,
+        620,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1167,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 179,
+      "timestamp": 6.0337,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000179.jpg",
+      "front_wheel_conf": 0.9592,
+      "back_wheel_conf": 0.9623,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9538,
+      "front_wheel_box": [
+        594,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 180,
+      "timestamp": 6.0674,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000180.jpg",
+      "front_wheel_conf": 0.9585,
+      "back_wheel_conf": 0.9611,
+      "front_squareness": 0.9848,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9285,
+      "front_wheel_box": [
+        594,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1161,
+        607,
+        1573,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 181,
+      "timestamp": 6.1011,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000181.jpg",
+      "front_wheel_conf": 0.9601,
+      "back_wheel_conf": 0.9605,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9636,
+      "size_match_ratio": 0.9611,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1175,
+        606,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 182,
+      "timestamp": 6.1348,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000182.jpg",
+      "front_wheel_conf": 0.9605,
+      "back_wheel_conf": 0.9513,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9633,
+      "size_match_ratio": 0.9682,
+      "front_wheel_box": [
+        595,
+        622,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1178,
+        609,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 183,
+      "timestamp": 6.1685,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000183.jpg",
+      "front_wheel_conf": 0.9612,
+      "back_wheel_conf": 0.9502,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9532,
+      "size_match_ratio": 0.9955,
+      "front_wheel_box": [
+        594,
+        621,
+        992,
+        1014
+      ],
+      "back_wheel_box": [
+        1184,
+        611,
+        1571,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 184,
+      "timestamp": 6.2022,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000184.jpg",
+      "front_wheel_conf": 0.962,
+      "back_wheel_conf": 0.9589,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9512,
+      "size_match_ratio": 0.9856,
+      "front_wheel_box": [
+        594,
+        621,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1181,
+        607,
+        1571,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 185,
+      "timestamp": 6.236,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000185.jpg",
+      "front_wheel_conf": 0.9627,
+      "back_wheel_conf": 0.9615,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 0.9586,
+      "front_wheel_box": [
+        595,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        607,
+        1571,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 186,
+      "timestamp": 6.2697,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000186.jpg",
+      "front_wheel_conf": 0.9624,
+      "back_wheel_conf": 0.9621,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9686,
+      "size_match_ratio": 0.9469,
+      "front_wheel_box": [
+        595,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        604,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 187,
+      "timestamp": 6.3034,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000187.jpg",
+      "front_wheel_conf": 0.9616,
+      "back_wheel_conf": 0.9602,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9758,
+      "size_match_ratio": 0.9374,
+      "front_wheel_box": [
+        595,
+        621,
+        992,
+        1014
+      ],
+      "back_wheel_box": [
+        1168,
+        605,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 188,
+      "timestamp": 6.3371,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000188.jpg",
+      "front_wheel_conf": 0.961,
+      "back_wheel_conf": 0.9562,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.9514,
+      "front_wheel_box": [
+        595,
+        620,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        607,
+        1572,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 189,
+      "timestamp": 6.3708,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000189.jpg",
+      "front_wheel_conf": 0.9607,
+      "back_wheel_conf": 0.9603,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.978,
+      "size_match_ratio": 0.9538,
+      "front_wheel_box": [
+        594,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        608,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 190,
+      "timestamp": 6.4045,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000190.jpg",
+      "front_wheel_conf": 0.9602,
+      "back_wheel_conf": 0.9628,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9902,
+      "size_match_ratio": 0.9561,
+      "front_wheel_box": [
+        594,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1168,
+        610,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 191,
+      "timestamp": 6.4382,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000191.jpg",
+      "front_wheel_conf": 0.9603,
+      "back_wheel_conf": 0.9593,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.9515,
+      "front_wheel_box": [
+        594,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1168,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 192,
+      "timestamp": 6.4719,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000192.jpg",
+      "front_wheel_conf": 0.9588,
+      "back_wheel_conf": 0.804,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9514,
+      "front_wheel_box": [
+        593,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 193,
+      "timestamp": 6.5056,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000193.jpg",
+      "front_wheel_conf": 0.9607,
+      "back_wheel_conf": 0.9284,
+      "front_squareness": 0.9797,
+      "back_squareness": 0.9614,
+      "size_match_ratio": 0.9613,
+      "front_wheel_box": [
+        593,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1170,
+        603,
+        1568,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 194,
+      "timestamp": 6.5393,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000194.jpg",
+      "front_wheel_conf": 0.9601,
+      "back_wheel_conf": 0.9588,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9613,
+      "size_match_ratio": 0.9588,
+      "front_wheel_box": [
+        594,
+        621,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1171,
+        604,
+        1568,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 195,
+      "timestamp": 6.573,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000195.jpg",
+      "front_wheel_conf": 0.9613,
+      "back_wheel_conf": 0.9619,
+      "front_squareness": 0.9821,
+      "back_squareness": 0.9732,
+      "size_match_ratio": 0.9514,
+      "front_wheel_box": [
+        594,
+        622,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1172,
+        607,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 196,
+      "timestamp": 6.6067,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000196.jpg",
+      "front_wheel_conf": 0.9611,
+      "back_wheel_conf": 0.9628,
+      "front_squareness": 0.9923,
+      "back_squareness": 0.9806,
+      "size_match_ratio": 0.9303,
+      "front_wheel_box": [
+        595,
+        622,
+        990,
+        1014
+      ],
+      "back_wheel_box": [
+        1168,
+        606,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 197,
+      "timestamp": 6.6404,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000197.jpg",
+      "front_wheel_conf": 0.9597,
+      "back_wheel_conf": 0.9625,
+      "front_squareness": 0.9899,
+      "back_squareness": 0.9758,
+      "size_match_ratio": 0.9469,
+      "front_wheel_box": [
+        595,
+        620,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1168,
+        605,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 198,
+      "timestamp": 6.6742,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000198.jpg",
+      "front_wheel_conf": 0.9607,
+      "back_wheel_conf": 0.9614,
+      "front_squareness": 0.9899,
+      "back_squareness": 0.9782,
+      "size_match_ratio": 0.9446,
+      "front_wheel_box": [
+        595,
+        620,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1167,
+        605,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 199,
+      "timestamp": 6.7079,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000199.jpg",
+      "front_wheel_conf": 0.9617,
+      "back_wheel_conf": 0.9628,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9514,
+      "front_wheel_box": [
+        595,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1168,
+        607,
+        1571,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 200,
+      "timestamp": 6.7416,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000200.jpg",
+      "front_wheel_conf": 0.9607,
+      "back_wheel_conf": 0.9632,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.983,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        595,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1167,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 201,
+      "timestamp": 6.7753,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000201.jpg",
+      "front_wheel_conf": 0.9603,
+      "back_wheel_conf": 0.9616,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9782,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        595,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        607,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 202,
+      "timestamp": 6.809,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000202.jpg",
+      "front_wheel_conf": 0.9595,
+      "back_wheel_conf": 0.9596,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9732,
+      "size_match_ratio": 0.9562,
+      "front_wheel_box": [
+        595,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1172,
+        608,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 203,
+      "timestamp": 6.8427,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000203.jpg",
+      "front_wheel_conf": 0.9602,
+      "back_wheel_conf": 0.9563,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9511,
+      "size_match_ratio": 0.9881,
+      "front_wheel_box": [
+        595,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1182,
+        609,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 204,
+      "timestamp": 6.8764,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000204.jpg",
+      "front_wheel_conf": 0.9603,
+      "back_wheel_conf": 0.9536,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9484,
+      "size_match_ratio": 0.9982,
+      "front_wheel_box": [
+        594,
+        620,
+        992,
+        1014
+      ],
+      "back_wheel_box": [
+        1184,
+        611,
+        1570,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 205,
+      "timestamp": 6.9101,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000205.jpg",
+      "front_wheel_conf": 0.962,
+      "back_wheel_conf": 0.9606,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9561,
+      "size_match_ratio": 0.9757,
+      "front_wheel_box": [
+        595,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1179,
+        608,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 206,
+      "timestamp": 6.9438,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000206.jpg",
+      "front_wheel_conf": 0.9647,
+      "back_wheel_conf": 0.9607,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 0.9537,
+      "front_wheel_box": [
+        595,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        607,
+        1571,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 207,
+      "timestamp": 6.9775,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000207.jpg",
+      "front_wheel_conf": 0.9636,
+      "back_wheel_conf": 0.9617,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9686,
+      "size_match_ratio": 0.9445,
+      "front_wheel_box": [
+        595,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        604,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 208,
+      "timestamp": 7.0112,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000208.jpg",
+      "front_wheel_conf": 0.962,
+      "back_wheel_conf": 0.9621,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9758,
+      "size_match_ratio": 0.9328,
+      "front_wheel_box": [
+        594,
+        621,
+        991,
+        1014
+      ],
+      "back_wheel_box": [
+        1168,
+        604,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 209,
+      "timestamp": 7.0449,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000209.jpg",
+      "front_wheel_conf": 0.9612,
+      "back_wheel_conf": 0.9615,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9806,
+      "size_match_ratio": 0.9397,
+      "front_wheel_box": [
+        594,
+        621,
+        992,
+        1014
+      ],
+      "back_wheel_box": [
+        1168,
+        606,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 210,
+      "timestamp": 7.0787,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000210.jpg",
+      "front_wheel_conf": 0.9603,
+      "back_wheel_conf": 0.9608,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.9514,
+      "front_wheel_box": [
+        593,
+        622,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        607,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 211,
+      "timestamp": 7.1124,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000211.jpg",
+      "front_wheel_conf": 0.9598,
+      "back_wheel_conf": 0.9625,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.9513,
+      "front_wheel_box": [
+        593,
+        622,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 212,
+      "timestamp": 7.1461,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000212.jpg",
+      "front_wheel_conf": 0.9601,
+      "back_wheel_conf": 0.9622,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9781,
+      "size_match_ratio": 0.9514,
+      "front_wheel_box": [
+        593,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 213,
+      "timestamp": 7.1798,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000213.jpg",
+      "front_wheel_conf": 0.961,
+      "back_wheel_conf": 0.962,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9538,
+      "front_wheel_box": [
+        593,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1168,
+        608,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 214,
+      "timestamp": 7.2135,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000214.jpg",
+      "front_wheel_conf": 0.961,
+      "back_wheel_conf": 0.7914,
+      "front_squareness": 0.9771,
+      "back_squareness": 0.9732,
+      "size_match_ratio": 0.961,
+      "front_wheel_box": [
+        593,
+        621,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 215,
+      "timestamp": 7.2472,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000215.jpg",
+      "front_wheel_conf": 0.962,
+      "back_wheel_conf": 0.9575,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.9562,
+      "front_wheel_box": [
+        593,
+        622,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1170,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 216,
+      "timestamp": 7.2809,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000216.jpg",
+      "front_wheel_conf": 0.9624,
+      "back_wheel_conf": 0.9617,
+      "front_squareness": 0.977,
+      "back_squareness": 0.9732,
+      "size_match_ratio": 0.9513,
+      "front_wheel_box": [
+        594,
+        623,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1172,
+        607,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 217,
+      "timestamp": 7.3146,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000217.jpg",
+      "front_wheel_conf": 0.9625,
+      "back_wheel_conf": 0.9642,
+      "front_squareness": 0.9821,
+      "back_squareness": 0.9758,
+      "size_match_ratio": 0.935,
+      "front_wheel_box": [
+        594,
+        623,
+        992,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        605,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 218,
+      "timestamp": 7.3483,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000218.jpg",
+      "front_wheel_conf": 0.9618,
+      "back_wheel_conf": 0.9635,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.983,
+      "size_match_ratio": 0.9421,
+      "front_wheel_box": [
+        593,
+        622,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1167,
+        606,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 219,
+      "timestamp": 7.382,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000219.jpg",
+      "front_wheel_conf": 0.961,
+      "back_wheel_conf": 0.9622,
+      "front_squareness": 0.9797,
+      "back_squareness": 0.983,
+      "size_match_ratio": 0.9539,
+      "front_wheel_box": [
+        593,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1168,
+        606,
+        1572,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 220,
+      "timestamp": 7.4157,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000220.jpg",
+      "front_wheel_conf": 0.9613,
+      "back_wheel_conf": 0.9638,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9903,
+      "size_match_ratio": 0.9398,
+      "front_wheel_box": [
+        594,
+        621,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1165,
+        607,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 221,
+      "timestamp": 7.4494,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000221.jpg",
+      "front_wheel_conf": 0.9615,
+      "back_wheel_conf": 0.9636,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9902,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1166,
+        607,
+        1572,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 222,
+      "timestamp": 7.4831,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000222.jpg",
+      "front_wheel_conf": 0.9633,
+      "back_wheel_conf": 0.9625,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9878,
+      "size_match_ratio": 0.9467,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1167,
+        608,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 223,
+      "timestamp": 7.5169,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000223.jpg",
+      "front_wheel_conf": 0.964,
+      "back_wheel_conf": 0.9621,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9782,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        595,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        608,
+        1573,
+        1020
+      ]
+    },
+    {
+      "frame_idx": 224,
+      "timestamp": 7.5506,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000224.jpg",
+      "front_wheel_conf": 0.9472,
+      "back_wheel_conf": 0.9574,
+      "front_squareness": 0.9821,
+      "back_squareness": 0.9561,
+      "size_match_ratio": 0.9732,
+      "front_wheel_box": [
+        595,
+        622,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1180,
+        608,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 225,
+      "timestamp": 7.5843,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000225.jpg",
+      "front_wheel_conf": 0.9622,
+      "back_wheel_conf": 0.9524,
+      "front_squareness": 0.9821,
+      "back_squareness": 0.951,
+      "size_match_ratio": 0.983,
+      "front_wheel_box": [
+        595,
+        623,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1184,
+        610,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 226,
+      "timestamp": 7.618,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000226.jpg",
+      "front_wheel_conf": 0.9635,
+      "back_wheel_conf": 0.9586,
+      "front_squareness": 0.9821,
+      "back_squareness": 0.9461,
+      "size_match_ratio": 0.9881,
+      "front_wheel_box": [
+        596,
+        623,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1185,
+        610,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 227,
+      "timestamp": 7.6517,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000227.jpg",
+      "front_wheel_conf": 0.9623,
+      "back_wheel_conf": 0.9598,
+      "front_squareness": 0.9795,
+      "back_squareness": 0.9563,
+      "size_match_ratio": 0.9611,
+      "front_wheel_box": [
+        595,
+        623,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1177,
+        606,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 228,
+      "timestamp": 7.6854,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000228.jpg",
+      "front_wheel_conf": 0.9624,
+      "back_wheel_conf": 0.961,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9734,
+      "size_match_ratio": 0.9397,
+      "front_wheel_box": [
+        595,
+        622,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        605,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 229,
+      "timestamp": 7.7191,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000229.jpg",
+      "front_wheel_conf": 0.9627,
+      "back_wheel_conf": 0.9602,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.942,
+      "front_wheel_box": [
+        595,
+        621,
+        992,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        606,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 230,
+      "timestamp": 7.7528,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000230.jpg",
+      "front_wheel_conf": 0.9633,
+      "back_wheel_conf": 0.9619,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9804,
+      "size_match_ratio": 0.9537,
+      "front_wheel_box": [
+        595,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        609,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 231,
+      "timestamp": 7.7865,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000231.jpg",
+      "front_wheel_conf": 0.9637,
+      "back_wheel_conf": 0.9619,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9804,
+      "size_match_ratio": 0.9537,
+      "front_wheel_box": [
+        595,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        609,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 232,
+      "timestamp": 7.8202,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000232.jpg",
+      "front_wheel_conf": 0.9422,
+      "back_wheel_conf": 0.963,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9877,
+      "size_match_ratio": 0.9489,
+      "front_wheel_box": [
+        595,
+        622,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1168,
+        610,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 233,
+      "timestamp": 7.8539,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000233.jpg",
+      "front_wheel_conf": 0.7425,
+      "back_wheel_conf": 0.9625,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.9466,
+      "front_wheel_box": [
+        595,
+        622,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 234,
+      "timestamp": 7.8876,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000234.jpg",
+      "front_wheel_conf": 0.9634,
+      "back_wheel_conf": 0.963,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.978,
+      "size_match_ratio": 0.9633,
+      "front_wheel_box": [
+        594,
+        621,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        609,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 235,
+      "timestamp": 7.9213,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000235.jpg",
+      "front_wheel_conf": 0.9611,
+      "back_wheel_conf": 0.8982,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9732,
+      "size_match_ratio": 0.9562,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 236,
+      "timestamp": 7.9551,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000236.jpg",
+      "front_wheel_conf": 0.9612,
+      "back_wheel_conf": 0.962,
+      "front_squareness": 0.9821,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.949,
+      "front_wheel_box": [
+        595,
+        622,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        607,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 237,
+      "timestamp": 7.9888,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000237.jpg",
+      "front_wheel_conf": 0.9612,
+      "back_wheel_conf": 0.9637,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.983,
+      "size_match_ratio": 0.9396,
+      "front_wheel_box": [
+        594,
+        622,
+        992,
+        1014
+      ],
+      "back_wheel_box": [
+        1167,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 238,
+      "timestamp": 8.0225,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000238.jpg",
+      "front_wheel_conf": 0.9601,
+      "back_wheel_conf": 0.9641,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9879,
+      "size_match_ratio": 0.9351,
+      "front_wheel_box": [
+        594,
+        622,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1164,
+        606,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 239,
+      "timestamp": 8.0562,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000239.jpg",
+      "front_wheel_conf": 0.961,
+      "back_wheel_conf": 0.9632,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9854,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        594,
+        621,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1166,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 240,
+      "timestamp": 8.0899,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000240.jpg",
+      "front_wheel_conf": 0.9613,
+      "back_wheel_conf": 0.9635,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.949,
+      "front_wheel_box": [
+        594,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 241,
+      "timestamp": 8.1236,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000241.jpg",
+      "front_wheel_conf": 0.9615,
+      "back_wheel_conf": 0.9627,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.978,
+      "size_match_ratio": 0.9585,
+      "front_wheel_box": [
+        595,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        609,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 242,
+      "timestamp": 8.1573,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000242.jpg",
+      "front_wheel_conf": 0.962,
+      "back_wheel_conf": 0.9623,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9878,
+      "size_match_ratio": 0.949,
+      "front_wheel_box": [
+        595,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1168,
+        609,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 243,
+      "timestamp": 8.191,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000243.jpg",
+      "front_wheel_conf": 0.9626,
+      "back_wheel_conf": 0.9603,
+      "front_squareness": 0.9821,
+      "back_squareness": 0.978,
+      "size_match_ratio": 0.956,
+      "front_wheel_box": [
+        595,
+        622,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1172,
+        609,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 244,
+      "timestamp": 8.2247,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000244.jpg",
+      "front_wheel_conf": 0.9498,
+      "back_wheel_conf": 0.9583,
+      "front_squareness": 0.9821,
+      "back_squareness": 0.961,
+      "size_match_ratio": 0.9682,
+      "front_wheel_box": [
+        595,
+        622,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1177,
+        609,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 245,
+      "timestamp": 8.2584,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000245.jpg",
+      "front_wheel_conf": 0.9613,
+      "back_wheel_conf": 0.9513,
+      "front_squareness": 0.9795,
+      "back_squareness": 0.9409,
+      "size_match_ratio": 0.9941,
+      "front_wheel_box": [
+        595,
+        623,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1189,
+        612,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 246,
+      "timestamp": 8.2921,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000246.jpg",
+      "front_wheel_conf": 0.9322,
+      "back_wheel_conf": 0.9606,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9459,
+      "size_match_ratio": 0.9957,
+      "front_wheel_box": [
+        596,
+        622,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1185,
+        610,
+        1570,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 247,
+      "timestamp": 8.3258,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000247.jpg",
+      "front_wheel_conf": 0.9644,
+      "back_wheel_conf": 0.9608,
+      "front_squareness": 0.9821,
+      "back_squareness": 0.9659,
+      "size_match_ratio": 0.9586,
+      "front_wheel_box": [
+        595,
+        622,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1174,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 248,
+      "timestamp": 8.3596,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000248.jpg",
+      "front_wheel_conf": 0.9629,
+      "back_wheel_conf": 0.9623,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9733,
+      "size_match_ratio": 0.9491,
+      "front_wheel_box": [
+        595,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        605,
+        1571,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 249,
+      "timestamp": 8.3933,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000249.jpg",
+      "front_wheel_conf": 0.9602,
+      "back_wheel_conf": 0.9573,
+      "front_squareness": 0.9949,
+      "back_squareness": 0.9734,
+      "size_match_ratio": 0.935,
+      "front_wheel_box": [
+        595,
+        621,
+        990,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        605,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 250,
+      "timestamp": 8.427,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000250.jpg",
+      "front_wheel_conf": 0.9603,
+      "back_wheel_conf": 0.9597,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.949,
+      "front_wheel_box": [
+        594,
+        622,
+        992,
+        1015
+      ],
+      "back_wheel_box": [
+        1170,
+        609,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 251,
+      "timestamp": 8.4607,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000251.jpg",
+      "front_wheel_conf": 0.9599,
+      "back_wheel_conf": 0.9608,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9585,
+      "front_wheel_box": [
+        593,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        609,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 252,
+      "timestamp": 8.4944,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000252.jpg",
+      "front_wheel_conf": 0.96,
+      "back_wheel_conf": 0.9621,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9853,
+      "size_match_ratio": 0.9561,
+      "front_wheel_box": [
+        594,
+        621,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1168,
+        609,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 253,
+      "timestamp": 8.5281,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000253.jpg",
+      "front_wheel_conf": 0.9598,
+      "back_wheel_conf": 0.9622,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9538,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1168,
+        608,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 254,
+      "timestamp": 8.5618,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000254.jpg",
+      "front_wheel_conf": 0.9598,
+      "back_wheel_conf": 0.9541,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.9539,
+      "front_wheel_box": [
+        594,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 255,
+      "timestamp": 8.5955,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000255.jpg",
+      "front_wheel_conf": 0.9602,
+      "back_wheel_conf": 0.9454,
+      "front_squareness": 0.9797,
+      "back_squareness": 0.9636,
+      "size_match_ratio": 0.9684,
+      "front_wheel_box": [
+        593,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1171,
+        605,
+        1568,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 256,
+      "timestamp": 8.6292,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000256.jpg",
+      "front_wheel_conf": 0.9609,
+      "back_wheel_conf": 0.9626,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9685,
+      "size_match_ratio": 0.9564,
+      "front_wheel_box": [
+        593,
+        621,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1171,
+        605,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 257,
+      "timestamp": 8.6629,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000257.jpg",
+      "front_wheel_conf": 0.961,
+      "back_wheel_conf": 0.9635,
+      "front_squareness": 0.9924,
+      "back_squareness": 0.9806,
+      "size_match_ratio": 0.9397,
+      "front_wheel_box": [
+        594,
+        621,
+        991,
+        1015
+      ],
+      "back_wheel_box": [
+        1168,
+        606,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 258,
+      "timestamp": 8.6966,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000258.jpg",
+      "front_wheel_conf": 0.9605,
+      "back_wheel_conf": 0.9622,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9854,
+      "size_match_ratio": 0.9398,
+      "front_wheel_box": [
+        594,
+        622,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1166,
+        606,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 259,
+      "timestamp": 8.7303,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000259.jpg",
+      "front_wheel_conf": 0.9596,
+      "back_wheel_conf": 0.9618,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9879,
+      "size_match_ratio": 0.9353,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1163,
+        605,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 260,
+      "timestamp": 8.764,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000260.jpg",
+      "front_wheel_conf": 0.9609,
+      "back_wheel_conf": 0.9629,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9879,
+      "size_match_ratio": 0.9399,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1165,
+        606,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 261,
+      "timestamp": 8.7978,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000261.jpg",
+      "front_wheel_conf": 0.9613,
+      "back_wheel_conf": 0.9624,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.983,
+      "size_match_ratio": 0.9491,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1168,
+        607,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 262,
+      "timestamp": 8.8315,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000262.jpg",
+      "front_wheel_conf": 0.9611,
+      "back_wheel_conf": 0.9608,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9878,
+      "size_match_ratio": 0.9445,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1167,
+        608,
+        1573,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 263,
+      "timestamp": 8.8652,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000263.jpg",
+      "front_wheel_conf": 0.9624,
+      "back_wheel_conf": 0.9583,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9635,
+      "size_match_ratio": 0.9634,
+      "front_wheel_box": [
+        595,
+        622,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1176,
+        609,
+        1572,
+        1020
+      ]
+    },
+    {
+      "frame_idx": 264,
+      "timestamp": 8.8989,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000264.jpg",
+      "front_wheel_conf": 0.9627,
+      "back_wheel_conf": 0.9499,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9534,
+      "size_match_ratio": 0.993,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1182,
+        610,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 265,
+      "timestamp": 8.9326,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000265.jpg",
+      "front_wheel_conf": 0.9628,
+      "back_wheel_conf": 0.9557,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9436,
+      "size_match_ratio": 0.9933,
+      "front_wheel_box": [
+        595,
+        622,
+        992,
+        1015
+      ],
+      "back_wheel_box": [
+        1186,
+        610,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 266,
+      "timestamp": 8.9663,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000266.jpg",
+      "front_wheel_conf": 0.9618,
+      "back_wheel_conf": 0.9595,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9586,
+      "size_match_ratio": 0.9683,
+      "front_wheel_box": [
+        595,
+        622,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1177,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 267,
+      "timestamp": 9.0,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000267.jpg",
+      "front_wheel_conf": 0.9618,
+      "back_wheel_conf": 0.9616,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.9491,
+      "front_wheel_box": [
+        595,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 268,
+      "timestamp": 9.0337,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000268.jpg",
+      "front_wheel_conf": 0.9608,
+      "back_wheel_conf": 0.9613,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9806,
+      "size_match_ratio": 0.9421,
+      "front_wheel_box": [
+        594,
+        620,
+        992,
+        1014
+      ],
+      "back_wheel_box": [
+        1168,
+        606,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 269,
+      "timestamp": 9.0674,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000269.jpg",
+      "front_wheel_conf": 0.9601,
+      "back_wheel_conf": 0.9562,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.9491,
+      "front_wheel_box": [
+        594,
+        621,
+        992,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        607,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 270,
+      "timestamp": 9.1011,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000270.jpg",
+      "front_wheel_conf": 0.9608,
+      "back_wheel_conf": 0.9619,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9537,
+      "front_wheel_box": [
+        593,
+        622,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        609,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 271,
+      "timestamp": 9.1348,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000271.jpg",
+      "front_wheel_conf": 0.9602,
+      "back_wheel_conf": 0.9621,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9781,
+      "size_match_ratio": 0.9538,
+      "front_wheel_box": [
+        593,
+        622,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 272,
+      "timestamp": 9.1685,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000272.jpg",
+      "front_wheel_conf": 0.9611,
+      "back_wheel_conf": 0.962,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.9491,
+      "front_wheel_box": [
+        593,
+        621,
+        992,
+        1015
+      ],
+      "back_wheel_box": [
+        1168,
+        608,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 273,
+      "timestamp": 9.2022,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000273.jpg",
+      "front_wheel_conf": 0.9609,
+      "back_wheel_conf": 0.9632,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.9539,
+      "front_wheel_box": [
+        593,
+        621,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1170,
+        607,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 274,
+      "timestamp": 9.236,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000274.jpg",
+      "front_wheel_conf": 0.9611,
+      "back_wheel_conf": 0.8685,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9708,
+      "size_match_ratio": 0.9659,
+      "front_wheel_box": [
+        593,
+        620,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1173,
+        607,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 275,
+      "timestamp": 9.2697,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000275.jpg",
+      "front_wheel_conf": 0.9606,
+      "back_wheel_conf": 0.9625,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9734,
+      "size_match_ratio": 0.9469,
+      "front_wheel_box": [
+        594,
+        620,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        606,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 276,
+      "timestamp": 9.3034,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000276.jpg",
+      "front_wheel_conf": 0.9603,
+      "back_wheel_conf": 0.9635,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9806,
+      "size_match_ratio": 0.9446,
+      "front_wheel_box": [
+        593,
+        620,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1166,
+        606,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 277,
+      "timestamp": 9.3371,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000277.jpg",
+      "front_wheel_conf": 0.9599,
+      "back_wheel_conf": 0.9624,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9783,
+      "size_match_ratio": 0.9401,
+      "front_wheel_box": [
+        593,
+        620,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1165,
+        604,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 278,
+      "timestamp": 9.3708,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000278.jpg",
+      "front_wheel_conf": 0.9603,
+      "back_wheel_conf": 0.962,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9831,
+      "size_match_ratio": 0.9423,
+      "front_wheel_box": [
+        593,
+        620,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1166,
+        606,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 279,
+      "timestamp": 9.4045,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000279.jpg",
+      "front_wheel_conf": 0.9605,
+      "back_wheel_conf": 0.9619,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.983,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        594,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1168,
+        607,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 280,
+      "timestamp": 9.4382,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000280.jpg",
+      "front_wheel_conf": 0.9602,
+      "back_wheel_conf": 0.9607,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9927,
+      "size_match_ratio": 0.9284,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1162,
+        606,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 281,
+      "timestamp": 9.4719,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000281.jpg",
+      "front_wheel_conf": 0.9611,
+      "back_wheel_conf": 0.9597,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9782,
+      "size_match_ratio": 0.9468,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        607,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 282,
+      "timestamp": 9.5056,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000282.jpg",
+      "front_wheel_conf": 0.6707,
+      "back_wheel_conf": 0.957,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9684,
+      "size_match_ratio": 0.9635,
+      "front_wheel_box": [
+        595,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1174,
+        608,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 283,
+      "timestamp": 9.5393,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000283.jpg",
+      "front_wheel_conf": 0.9011,
+      "back_wheel_conf": 0.9524,
+      "front_squareness": 0.9668,
+      "back_squareness": 0.9584,
+      "size_match_ratio": 0.9853,
+      "front_wheel_box": [
+        592,
+        621,
+        996,
+        1012
+      ],
+      "back_wheel_box": [
+        1179,
+        609,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 284,
+      "timestamp": 9.573,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000284.jpg",
+      "front_wheel_conf": 0.9,
+      "back_wheel_conf": 0.9585,
+      "front_squareness": 0.9872,
+      "back_squareness": 0.9535,
+      "size_match_ratio": 0.9756,
+      "front_wheel_box": [
+        596,
+        622,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1181,
+        610,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 285,
+      "timestamp": 9.6067,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000285.jpg",
+      "front_wheel_conf": 0.9588,
+      "back_wheel_conf": 0.9588,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9611,
+      "size_match_ratio": 0.9708,
+      "front_wheel_box": [
+        595,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1176,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 286,
+      "timestamp": 9.6404,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000286.jpg",
+      "front_wheel_conf": 0.9224,
+      "back_wheel_conf": 0.9617,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9709,
+      "size_match_ratio": 0.9515,
+      "front_wheel_box": [
+        595,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        606,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 287,
+      "timestamp": 9.6742,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000287.jpg",
+      "front_wheel_conf": 0.9637,
+      "back_wheel_conf": 0.9622,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9734,
+      "size_match_ratio": 0.9445,
+      "front_wheel_box": [
+        595,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        605,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 288,
+      "timestamp": 9.7079,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000288.jpg",
+      "front_wheel_conf": 0.961,
+      "back_wheel_conf": 0.9603,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9734,
+      "size_match_ratio": 0.9421,
+      "front_wheel_box": [
+        594,
+        621,
+        992,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        605,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 289,
+      "timestamp": 9.7416,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000289.jpg",
+      "front_wheel_conf": 0.9612,
+      "back_wheel_conf": 0.9614,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.978,
+      "size_match_ratio": 0.9514,
+      "front_wheel_box": [
+        594,
+        621,
+        992,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        608,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 290,
+      "timestamp": 9.7753,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000290.jpg",
+      "front_wheel_conf": 0.9601,
+      "back_wheel_conf": 0.9609,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9804,
+      "size_match_ratio": 0.9609,
+      "front_wheel_box": [
+        593,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        609,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 291,
+      "timestamp": 9.809,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000291.jpg",
+      "front_wheel_conf": 0.9607,
+      "back_wheel_conf": 0.9617,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9781,
+      "size_match_ratio": 0.9563,
+      "front_wheel_box": [
+        593,
+        621,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 292,
+      "timestamp": 9.8427,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000292.jpg",
+      "front_wheel_conf": 0.9596,
+      "back_wheel_conf": 0.9605,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9732,
+      "size_match_ratio": 0.9562,
+      "front_wheel_box": [
+        593,
+        620,
+        992,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        608,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 293,
+      "timestamp": 9.8764,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000293.jpg",
+      "front_wheel_conf": 0.9614,
+      "back_wheel_conf": 0.9533,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9732,
+      "size_match_ratio": 0.9658,
+      "front_wheel_box": [
+        594,
+        619,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1172,
+        608,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 294,
+      "timestamp": 9.9101,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000294.jpg",
+      "front_wheel_conf": 0.9626,
+      "back_wheel_conf": 0.8234,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9709,
+      "size_match_ratio": 0.9539,
+      "front_wheel_box": [
+        594,
+        620,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        606,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 295,
+      "timestamp": 9.9438,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000295.jpg",
+      "front_wheel_conf": 0.9625,
+      "back_wheel_conf": 0.9617,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9732,
+      "size_match_ratio": 0.9538,
+      "front_wheel_box": [
+        594,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 296,
+      "timestamp": 9.9775,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000296.jpg",
+      "front_wheel_conf": 0.962,
+      "back_wheel_conf": 0.9631,
+      "front_squareness": 0.9872,
+      "back_squareness": 0.9758,
+      "size_match_ratio": 0.935,
+      "front_wheel_box": [
+        594,
+        622,
+        991,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        605,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 297,
+      "timestamp": 10.0112,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000297.jpg",
+      "front_wheel_conf": 0.9616,
+      "back_wheel_conf": 0.9622,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9831,
+      "size_match_ratio": 0.9306,
+      "front_wheel_box": [
+        594,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1165,
+        605,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 298,
+      "timestamp": 10.0449,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000298.jpg",
+      "front_wheel_conf": 0.9603,
+      "back_wheel_conf": 0.961,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9758,
+      "size_match_ratio": 0.9445,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1168,
+        605,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 299,
+      "timestamp": 10.0787,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000299.jpg",
+      "front_wheel_conf": 0.9608,
+      "back_wheel_conf": 0.9624,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9782,
+      "size_match_ratio": 0.9516,
+      "front_wheel_box": [
+        593,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1168,
+        607,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 300,
+      "timestamp": 10.1124,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000300.jpg",
+      "front_wheel_conf": 0.96,
+      "back_wheel_conf": 0.9603,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9781,
+      "size_match_ratio": 0.9515,
+      "front_wheel_box": [
+        594,
+        620,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        607,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 301,
+      "timestamp": 10.1461,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000301.jpg",
+      "front_wheel_conf": 0.9606,
+      "back_wheel_conf": 0.9595,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.983,
+      "size_match_ratio": 0.9469,
+      "front_wheel_box": [
+        593,
+        619,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1168,
+        607,
+        1573,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 302,
+      "timestamp": 10.1798,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000302.jpg",
+      "front_wheel_conf": 0.9611,
+      "back_wheel_conf": 0.9599,
+      "front_squareness": 0.9899,
+      "back_squareness": 0.9734,
+      "size_match_ratio": 0.9493,
+      "front_wheel_box": [
+        594,
+        619,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        607,
+        1573,
+        1020
+      ]
+    },
+    {
+      "frame_idx": 303,
+      "timestamp": 10.2135,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000303.jpg",
+      "front_wheel_conf": 0.9613,
+      "back_wheel_conf": 0.956,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9634,
+      "size_match_ratio": 0.9756,
+      "front_wheel_box": [
+        594,
+        619,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1177,
+        608,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 304,
+      "timestamp": 10.2472,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000304.jpg",
+      "front_wheel_conf": 0.9618,
+      "back_wheel_conf": 0.9521,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9484,
+      "size_match_ratio": 0.9968,
+      "front_wheel_box": [
+        594,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1185,
+        611,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 305,
+      "timestamp": 10.2809,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000305.jpg",
+      "front_wheel_conf": 0.9627,
+      "back_wheel_conf": 0.96,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9413,
+      "size_match_ratio": 0.9984,
+      "front_wheel_box": [
+        594,
+        620,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1185,
+        609,
+        1570,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 306,
+      "timestamp": 10.3146,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000306.jpg",
+      "front_wheel_conf": 0.9634,
+      "back_wheel_conf": 0.9595,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9612,
+      "size_match_ratio": 0.9635,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1175,
+        606,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 307,
+      "timestamp": 10.3483,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000307.jpg",
+      "front_wheel_conf": 0.9637,
+      "back_wheel_conf": 0.9617,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9709,
+      "size_match_ratio": 0.9539,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        606,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 308,
+      "timestamp": 10.382,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000308.jpg",
+      "front_wheel_conf": 0.9625,
+      "back_wheel_conf": 0.9602,
+      "front_squareness": 0.9924,
+      "back_squareness": 0.9782,
+      "size_match_ratio": 0.9373,
+      "front_wheel_box": [
+        595,
+        621,
+        991,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        606,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 309,
+      "timestamp": 10.4157,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000309.jpg",
+      "front_wheel_conf": 0.9637,
+      "back_wheel_conf": 0.9613,
+      "front_squareness": 0.9872,
+      "back_squareness": 0.978,
+      "size_match_ratio": 0.9466,
+      "front_wheel_box": [
+        595,
+        622,
+        992,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        608,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 310,
+      "timestamp": 10.4494,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000310.jpg",
+      "front_wheel_conf": 0.9621,
+      "back_wheel_conf": 0.9621,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9537,
+      "front_wheel_box": [
+        594,
+        622,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        609,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 311,
+      "timestamp": 10.4831,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000311.jpg",
+      "front_wheel_conf": 0.9609,
+      "back_wheel_conf": 0.962,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.949,
+      "front_wheel_box": [
+        594,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1168,
+        608,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 312,
+      "timestamp": 10.5169,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000312.jpg",
+      "front_wheel_conf": 0.9604,
+      "back_wheel_conf": 0.9631,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.9514,
+      "front_wheel_box": [
+        594,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 313,
+      "timestamp": 10.5506,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000313.jpg",
+      "front_wheel_conf": 0.96,
+      "back_wheel_conf": 0.9487,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.978,
+      "size_match_ratio": 0.9609,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        608,
+        1571,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 314,
+      "timestamp": 10.5843,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000314.jpg",
+      "front_wheel_conf": 0.9596,
+      "back_wheel_conf": 0.9643,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.978,
+      "size_match_ratio": 0.9561,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        608,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 315,
+      "timestamp": 10.618,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000315.jpg",
+      "front_wheel_conf": 0.9605,
+      "back_wheel_conf": 0.9635,
+      "front_squareness": 0.9949,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9443,
+      "front_wheel_box": [
+        595,
+        620,
+        991,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 316,
+      "timestamp": 10.6517,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000316.jpg",
+      "front_wheel_conf": 0.9609,
+      "back_wheel_conf": 0.9637,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9854,
+      "size_match_ratio": 0.9398,
+      "front_wheel_box": [
+        594,
+        621,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1166,
+        606,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 317,
+      "timestamp": 10.6854,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000317.jpg",
+      "front_wheel_conf": 0.9604,
+      "back_wheel_conf": 0.9617,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.983,
+      "size_match_ratio": 0.9421,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1166,
+        606,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 318,
+      "timestamp": 10.7191,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000318.jpg",
+      "front_wheel_conf": 0.9609,
+      "back_wheel_conf": 0.9627,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9976,
+      "size_match_ratio": 0.9373,
+      "front_wheel_box": [
+        595,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1164,
+        608,
+        1572,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 319,
+      "timestamp": 10.7528,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000319.jpg",
+      "front_wheel_conf": 0.9598,
+      "back_wheel_conf": 0.9602,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9927,
+      "size_match_ratio": 0.9397,
+      "front_wheel_box": [
+        594,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1165,
+        608,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 320,
+      "timestamp": 10.7865,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000320.jpg",
+      "front_wheel_conf": 0.9595,
+      "back_wheel_conf": 0.9602,
+      "front_squareness": 0.9899,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9468,
+      "front_wheel_box": [
+        594,
+        619,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1164,
+        610,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 321,
+      "timestamp": 10.8202,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000321.jpg",
+      "front_wheel_conf": 0.96,
+      "back_wheel_conf": 0.9579,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9951,
+      "size_match_ratio": 0.9285,
+      "front_wheel_box": [
+        594,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1159,
+        608,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 322,
+      "timestamp": 10.8539,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000322.jpg",
+      "front_wheel_conf": 0.961,
+      "back_wheel_conf": 0.9576,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.978,
+      "size_match_ratio": 0.9562,
+      "front_wheel_box": [
+        595,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        609,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 323,
+      "timestamp": 10.8876,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000323.jpg",
+      "front_wheel_conf": 0.9631,
+      "back_wheel_conf": 0.9539,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9485,
+      "size_match_ratio": 0.9956,
+      "front_wheel_box": [
+        595,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1184,
+        611,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 324,
+      "timestamp": 10.9213,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000324.jpg",
+      "front_wheel_conf": 0.9637,
+      "back_wheel_conf": 0.9592,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9438,
+      "size_match_ratio": 0.9908,
+      "front_wheel_box": [
+        595,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1185,
+        609,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 325,
+      "timestamp": 10.9551,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000325.jpg",
+      "front_wheel_conf": 0.9637,
+      "back_wheel_conf": 0.9604,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9659,
+      "size_match_ratio": 0.9611,
+      "front_wheel_box": [
+        595,
+        620,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1174,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 326,
+      "timestamp": 10.9888,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000326.jpg",
+      "front_wheel_conf": 0.9622,
+      "back_wheel_conf": 0.9623,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        595,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        606,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 327,
+      "timestamp": 11.0225,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000327.jpg",
+      "front_wheel_conf": 0.9621,
+      "back_wheel_conf": 0.9605,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.9514,
+      "front_wheel_box": [
+        595,
+        620,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 328,
+      "timestamp": 11.0562,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000328.jpg",
+      "front_wheel_conf": 0.9606,
+      "back_wheel_conf": 0.9597,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.978,
+      "size_match_ratio": 0.9537,
+      "front_wheel_box": [
+        595,
+        621,
+        992,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        609,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 329,
+      "timestamp": 11.0899,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000329.jpg",
+      "front_wheel_conf": 0.9618,
+      "back_wheel_conf": 0.9614,
+      "front_squareness": 0.977,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9561,
+      "front_wheel_box": [
+        594,
+        622,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        609,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 330,
+      "timestamp": 11.1236,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000330.jpg",
+      "front_wheel_conf": 0.9629,
+      "back_wheel_conf": 0.9617,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9709,
+      "size_match_ratio": 0.9516,
+      "front_wheel_box": [
+        594,
+        621,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        606,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 331,
+      "timestamp": 11.1573,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000331.jpg",
+      "front_wheel_conf": 0.9629,
+      "back_wheel_conf": 0.9631,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9734,
+      "size_match_ratio": 0.9468,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        606,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 332,
+      "timestamp": 11.191,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000332.jpg",
+      "front_wheel_conf": 0.9611,
+      "back_wheel_conf": 0.9561,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.9586,
+      "front_wheel_box": [
+        594,
+        620,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 333,
+      "timestamp": 11.2247,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000333.jpg",
+      "front_wheel_conf": 0.9619,
+      "back_wheel_conf": 0.946,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 0.9586,
+      "front_wheel_box": [
+        595,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        608,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 334,
+      "timestamp": 11.2584,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000334.jpg",
+      "front_wheel_conf": 0.9615,
+      "back_wheel_conf": 0.9637,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.942,
+      "front_wheel_box": [
+        595,
+        621,
+        992,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 335,
+      "timestamp": 11.2921,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000335.jpg",
+      "front_wheel_conf": 0.9612,
+      "back_wheel_conf": 0.9634,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.983,
+      "size_match_ratio": 0.9398,
+      "front_wheel_box": [
+        594,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1167,
+        607,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 336,
+      "timestamp": 11.3258,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000336.jpg",
+      "front_wheel_conf": 0.9609,
+      "back_wheel_conf": 0.9618,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9854,
+      "size_match_ratio": 0.9515,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1167,
+        609,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 337,
+      "timestamp": 11.3596,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000337.jpg",
+      "front_wheel_conf": 0.9616,
+      "back_wheel_conf": 0.9632,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9902,
+      "size_match_ratio": 0.9514,
+      "front_wheel_box": [
+        594,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1167,
+        610,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 338,
+      "timestamp": 11.3933,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000338.jpg",
+      "front_wheel_conf": 0.9602,
+      "back_wheel_conf": 0.9633,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9902,
+      "size_match_ratio": 0.9514,
+      "front_wheel_box": [
+        594,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1167,
+        610,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 339,
+      "timestamp": 11.427,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000339.jpg",
+      "front_wheel_conf": 0.96,
+      "back_wheel_conf": 0.958,
+      "front_squareness": 0.9797,
+      "back_squareness": 0.9804,
+      "size_match_ratio": 0.9287,
+      "front_wheel_box": [
+        593,
+        620,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1156,
+        610,
+        1573,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 340,
+      "timestamp": 11.4607,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000340.jpg",
+      "front_wheel_conf": 0.9596,
+      "back_wheel_conf": 0.9599,
+      "front_squareness": 0.9771,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9562,
+      "front_wheel_box": [
+        593,
+        621,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        609,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 341,
+      "timestamp": 11.4944,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000341.jpg",
+      "front_wheel_conf": 0.9618,
+      "back_wheel_conf": 0.9521,
+      "front_squareness": 0.9797,
+      "back_squareness": 0.973,
+      "size_match_ratio": 0.9827,
+      "front_wheel_box": [
+        593,
+        620,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1175,
+        611,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 342,
+      "timestamp": 11.5281,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000342.jpg",
+      "front_wheel_conf": 0.9481,
+      "back_wheel_conf": 0.9539,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9533,
+      "size_match_ratio": 0.993,
+      "front_wheel_box": [
+        594,
+        620,
+        992,
+        1014
+      ],
+      "back_wheel_box": [
+        1182,
+        611,
+        1570,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 343,
+      "timestamp": 11.5618,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000343.jpg",
+      "front_wheel_conf": 0.9549,
+      "back_wheel_conf": 0.9613,
+      "front_squareness": 0.9694,
+      "back_squareness": 0.9682,
+      "size_match_ratio": 0.9778,
+      "front_wheel_box": [
+        592,
+        620,
+        996,
+        1012
+      ],
+      "back_wheel_box": [
+        1175,
+        609,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 344,
+      "timestamp": 11.5955,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000344.jpg",
+      "front_wheel_conf": 0.9542,
+      "back_wheel_conf": 0.9624,
+      "front_squareness": 0.9719,
+      "back_squareness": 0.9756,
+      "size_match_ratio": 0.9584,
+      "front_wheel_box": [
+        593,
+        621,
+        995,
+        1012
+      ],
+      "back_wheel_box": [
+        1171,
+        608,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 345,
+      "timestamp": 11.6292,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000345.jpg",
+      "front_wheel_conf": 0.9558,
+      "back_wheel_conf": 0.9623,
+      "front_squareness": 0.977,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.9538,
+      "front_wheel_box": [
+        593,
+        620,
+        994,
+        1012
+      ],
+      "back_wheel_box": [
+        1170,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 346,
+      "timestamp": 11.6629,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000346.jpg",
+      "front_wheel_conf": 0.9563,
+      "back_wheel_conf": 0.9625,
+      "front_squareness": 0.977,
+      "back_squareness": 0.978,
+      "size_match_ratio": 0.9561,
+      "front_wheel_box": [
+        593,
+        620,
+        994,
+        1012
+      ],
+      "back_wheel_box": [
+        1170,
+        608,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 347,
+      "timestamp": 11.6966,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000347.jpg",
+      "front_wheel_conf": 0.9566,
+      "back_wheel_conf": 0.9507,
+      "front_squareness": 0.9719,
+      "back_squareness": 0.9828,
+      "size_match_ratio": 0.9656,
+      "front_wheel_box": [
+        592,
+        620,
+        995,
+        1012
+      ],
+      "back_wheel_box": [
+        1171,
+        610,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 348,
+      "timestamp": 11.7303,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000348.jpg",
+      "front_wheel_conf": 0.9574,
+      "back_wheel_conf": 0.9614,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.949,
+      "front_wheel_box": [
+        595,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1168,
+        609,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 349,
+      "timestamp": 11.764,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000349.jpg",
+      "front_wheel_conf": 0.962,
+      "back_wheel_conf": 0.8418,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9781,
+      "size_match_ratio": 0.9514,
+      "front_wheel_box": [
+        594,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 350,
+      "timestamp": 11.7978,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000350.jpg",
+      "front_wheel_conf": 0.9608,
+      "back_wheel_conf": 0.825,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9781,
+      "size_match_ratio": 0.9539,
+      "front_wheel_box": [
+        594,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 351,
+      "timestamp": 11.8315,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000351.jpg",
+      "front_wheel_conf": 0.9598,
+      "back_wheel_conf": 0.9484,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9684,
+      "size_match_ratio": 0.961,
+      "front_wheel_box": [
+        595,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        606,
+        1568,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 352,
+      "timestamp": 11.8652,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000352.jpg",
+      "front_wheel_conf": 0.9592,
+      "back_wheel_conf": 0.9631,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9684,
+      "size_match_ratio": 0.9539,
+      "front_wheel_box": [
+        595,
+        620,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1172,
+        606,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 353,
+      "timestamp": 11.8989,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000353.jpg",
+      "front_wheel_conf": 0.9599,
+      "back_wheel_conf": 0.9635,
+      "front_squareness": 0.9924,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.9396,
+      "front_wheel_box": [
+        595,
+        621,
+        991,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        607,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 354,
+      "timestamp": 11.9326,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000354.jpg",
+      "front_wheel_conf": 0.9592,
+      "back_wheel_conf": 0.9632,
+      "front_squareness": 0.9924,
+      "back_squareness": 0.9806,
+      "size_match_ratio": 0.935,
+      "front_wheel_box": [
+        595,
+        622,
+        991,
+        1015
+      ],
+      "back_wheel_box": [
+        1168,
+        606,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 355,
+      "timestamp": 11.9663,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000355.jpg",
+      "front_wheel_conf": 0.9583,
+      "back_wheel_conf": 0.9615,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9902,
+      "size_match_ratio": 0.9396,
+      "front_wheel_box": [
+        595,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1165,
+        608,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 356,
+      "timestamp": 12.0,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000356.jpg",
+      "front_wheel_conf": 0.9598,
+      "back_wheel_conf": 0.9651,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.983,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        595,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1167,
+        608,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 357,
+      "timestamp": 12.0337,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000357.jpg",
+      "front_wheel_conf": 0.9601,
+      "back_wheel_conf": 0.964,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9927,
+      "size_match_ratio": 0.9467,
+      "front_wheel_box": [
+        595,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1166,
+        609,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 358,
+      "timestamp": 12.0674,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000358.jpg",
+      "front_wheel_conf": 0.9612,
+      "back_wheel_conf": 0.9601,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9927,
+      "size_match_ratio": 0.9376,
+      "front_wheel_box": [
+        594,
+        620,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1161,
+        610,
+        1573,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 359,
+      "timestamp": 12.1011,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000359.jpg",
+      "front_wheel_conf": 0.9393,
+      "back_wheel_conf": 0.9608,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9514,
+      "front_wheel_box": [
+        595,
+        621,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        609,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 360,
+      "timestamp": 12.1348,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000360.jpg",
+      "front_wheel_conf": 0.9549,
+      "back_wheel_conf": 0.9534,
+      "front_squareness": 0.9667,
+      "back_squareness": 0.9852,
+      "size_match_ratio": 0.9678,
+      "front_wheel_box": [
+        593,
+        622,
+        996,
+        1012
+      ],
+      "back_wheel_box": [
+        1172,
+        612,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 361,
+      "timestamp": 12.1685,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000361.jpg",
+      "front_wheel_conf": 0.9512,
+      "back_wheel_conf": 0.9583,
+      "front_squareness": 0.977,
+      "back_squareness": 0.9509,
+      "size_match_ratio": 0.993,
+      "front_wheel_box": [
+        593,
+        621,
+        993,
+        1012
+      ],
+      "back_wheel_box": [
+        1184,
+        612,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 362,
+      "timestamp": 12.2022,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000362.jpg",
+      "front_wheel_conf": 0.9547,
+      "back_wheel_conf": 0.9608,
+      "front_squareness": 0.9693,
+      "back_squareness": 0.9634,
+      "size_match_ratio": 0.973,
+      "front_wheel_box": [
+        593,
+        621,
+        996,
+        1012
+      ],
+      "back_wheel_box": [
+        1176,
+        609,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 363,
+      "timestamp": 12.236,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000363.jpg",
+      "front_wheel_conf": 0.9556,
+      "back_wheel_conf": 0.9627,
+      "front_squareness": 0.9744,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.9513,
+      "front_wheel_box": [
+        594,
+        621,
+        995,
+        1012
+      ],
+      "back_wheel_box": [
+        1170,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 364,
+      "timestamp": 12.2697,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000364.jpg",
+      "front_wheel_conf": 0.9312,
+      "back_wheel_conf": 0.9418,
+      "front_squareness": 0.9924,
+      "back_squareness": 0.9708,
+      "size_match_ratio": 0.949,
+      "front_wheel_box": [
+        596,
+        622,
+        992,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        606,
+        1568,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 365,
+      "timestamp": 12.3034,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000365.jpg",
+      "front_wheel_conf": 0.8035,
+      "back_wheel_conf": 0.8764,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9685,
+      "size_match_ratio": 0.9492,
+      "front_wheel_box": [
+        596,
+        621,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1168,
+        605,
+        1568,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 366,
+      "timestamp": 12.3371,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000366.jpg",
+      "front_wheel_conf": 0.9605,
+      "back_wheel_conf": 0.9528,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9877,
+      "size_match_ratio": 0.9632,
+      "front_wheel_box": [
+        595,
+        622,
+        995,
+        1016
+      ],
+      "back_wheel_box": [
+        1170,
+        612,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 367,
+      "timestamp": 12.3708,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000367.jpg",
+      "front_wheel_conf": 0.9619,
+      "back_wheel_conf": 0.9532,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9902,
+      "size_match_ratio": 0.9561,
+      "front_wheel_box": [
+        595,
+        622,
+        996,
+        1015
+      ],
+      "back_wheel_box": [
+        1168,
+        611,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 368,
+      "timestamp": 12.4045,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000368.jpg",
+      "front_wheel_conf": 0.9614,
+      "back_wheel_conf": 0.8988,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9877,
+      "size_match_ratio": 0.9536,
+      "front_wheel_box": [
+        595,
+        623,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1168,
+        611,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 369,
+      "timestamp": 12.4382,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000369.jpg",
+      "front_wheel_conf": 0.9612,
+      "back_wheel_conf": 0.9644,
+      "front_squareness": 0.9797,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.961,
+      "front_wheel_box": [
+        594,
+        621,
+        996,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        609,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 370,
+      "timestamp": 12.4719,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000370.jpg",
+      "front_wheel_conf": 0.9606,
+      "back_wheel_conf": 0.9403,
+      "front_squareness": 0.9797,
+      "back_squareness": 0.9853,
+      "size_match_ratio": 0.9609,
+      "front_wheel_box": [
+        594,
+        622,
+        996,
+        1016
+      ],
+      "back_wheel_box": [
+        1169,
+        609,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 371,
+      "timestamp": 12.5056,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000371.jpg",
+      "front_wheel_conf": 0.9602,
+      "back_wheel_conf": 0.9558,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9732,
+      "size_match_ratio": 0.9586,
+      "front_wheel_box": [
+        595,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        607,
+        1569,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 372,
+      "timestamp": 12.5393,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000372.jpg",
+      "front_wheel_conf": 0.9598,
+      "back_wheel_conf": 0.9305,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9733,
+      "size_match_ratio": 0.9467,
+      "front_wheel_box": [
+        595,
+        622,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1171,
+        607,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 373,
+      "timestamp": 12.573,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000373.jpg",
+      "front_wheel_conf": 0.9602,
+      "back_wheel_conf": 0.9635,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.942,
+      "front_wheel_box": [
+        595,
+        622,
+        992,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        607,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 374,
+      "timestamp": 12.6067,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000374.jpg",
+      "front_wheel_conf": 0.9598,
+      "back_wheel_conf": 0.9648,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9831,
+      "size_match_ratio": 0.9352,
+      "front_wheel_box": [
+        595,
+        621,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1166,
+        606,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 375,
+      "timestamp": 12.6404,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000375.jpg",
+      "front_wheel_conf": 0.9615,
+      "back_wheel_conf": 0.9633,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.9562,
+      "front_wheel_box": [
+        595,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        609,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 376,
+      "timestamp": 12.6742,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000376.jpg",
+      "front_wheel_conf": 0.9627,
+      "back_wheel_conf": 0.9623,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9878,
+      "size_match_ratio": 0.9562,
+      "front_wheel_box": [
+        594,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1168,
+        610,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 377,
+      "timestamp": 12.7079,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000377.jpg",
+      "front_wheel_conf": 0.9612,
+      "back_wheel_conf": 0.961,
+      "front_squareness": 0.9797,
+      "back_squareness": 0.9951,
+      "size_match_ratio": 0.9515,
+      "front_wheel_box": [
+        594,
+        621,
+        996,
+        1015
+      ],
+      "back_wheel_box": [
+        1164,
+        611,
+        1573,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 378,
+      "timestamp": 12.7416,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000378.jpg",
+      "front_wheel_conf": 0.962,
+      "back_wheel_conf": 0.9606,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9878,
+      "size_match_ratio": 0.9309,
+      "front_wheel_box": [
+        595,
+        620,
+        996,
+        1015
+      ],
+      "back_wheel_box": [
+        1158,
+        610,
+        1573,
+        1020
+      ]
+    },
+    {
+      "frame_idx": 379,
+      "timestamp": 12.7753,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000379.jpg",
+      "front_wheel_conf": 0.9626,
+      "back_wheel_conf": 0.9618,
+      "front_squareness": 0.9821,
+      "back_squareness": 0.9951,
+      "size_match_ratio": 0.9305,
+      "front_wheel_box": [
+        596,
+        623,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1164,
+        609,
+        1573,
+        1020
+      ]
+    },
+    {
+      "frame_idx": 380,
+      "timestamp": 12.809,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000380.jpg",
+      "front_wheel_conf": 0.9628,
+      "back_wheel_conf": 0.9555,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9681,
+      "size_match_ratio": 0.9681,
+      "front_wheel_box": [
+        596,
+        623,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1177,
+        612,
+        1572,
+        1020
+      ]
+    },
+    {
+      "frame_idx": 381,
+      "timestamp": 12.8427,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000381.jpg",
+      "front_wheel_conf": 0.9626,
+      "back_wheel_conf": 0.9533,
+      "front_squareness": 0.9872,
+      "back_squareness": 0.9581,
+      "size_match_ratio": 0.9804,
+      "front_wheel_box": [
+        596,
+        624,
+        992,
+        1015
+      ],
+      "back_wheel_box": [
+        1182,
+        613,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 382,
+      "timestamp": 12.8764,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000382.jpg",
+      "front_wheel_conf": 0.9625,
+      "back_wheel_conf": 0.7516,
+      "front_squareness": 0.9821,
+      "back_squareness": 0.9439,
+      "size_match_ratio": 0.9857,
+      "front_wheel_box": [
+        596,
+        623,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1180,
+        608,
+        1567,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 383,
+      "timestamp": 12.9101,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000383.jpg",
+      "front_wheel_conf": 0.9643,
+      "back_wheel_conf": 0.9631,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.978,
+      "size_match_ratio": 0.9538,
+      "front_wheel_box": [
+        596,
+        622,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1171,
+        609,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 384,
+      "timestamp": 12.9438,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000384.jpg",
+      "front_wheel_conf": 0.9643,
+      "back_wheel_conf": 0.9226,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9781,
+      "size_match_ratio": 0.9538,
+      "front_wheel_box": [
+        595,
+        622,
+        996,
+        1015
+      ],
+      "back_wheel_box": [
+        1170,
+        608,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 385,
+      "timestamp": 12.9775,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000385.jpg",
+      "front_wheel_conf": 0.9622,
+      "back_wheel_conf": 0.8801,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9854,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        595,
+        621,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1167,
+        608,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 386,
+      "timestamp": 13.0112,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000386.jpg",
+      "front_wheel_conf": 0.9618,
+      "back_wheel_conf": 0.9587,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9877,
+      "size_match_ratio": 0.9632,
+      "front_wheel_box": [
+        595,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1170,
+        612,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 387,
+      "timestamp": 13.0449,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000387.jpg",
+      "front_wheel_conf": 0.961,
+      "back_wheel_conf": 0.9624,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.983,
+      "size_match_ratio": 0.9491,
+      "front_wheel_box": [
+        595,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1168,
+        608,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 388,
+      "timestamp": 13.0787,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000388.jpg",
+      "front_wheel_conf": 0.9603,
+      "back_wheel_conf": 0.9387,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9639,
+      "size_match_ratio": 0.9518,
+      "front_wheel_box": [
+        594,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        603,
+        1569,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 389,
+      "timestamp": 13.1124,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000389.jpg",
+      "front_wheel_conf": 0.9617,
+      "back_wheel_conf": 0.9581,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9782,
+      "size_match_ratio": 0.954,
+      "front_wheel_box": [
+        595,
+        620,
+        996,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        607,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 390,
+      "timestamp": 13.1461,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000390.jpg",
+      "front_wheel_conf": 0.9618,
+      "back_wheel_conf": 0.9615,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9683,
+      "size_match_ratio": 0.9682,
+      "front_wheel_box": [
+        595,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1171,
+        607,
+        1568,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 391,
+      "timestamp": 13.1798,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000391.jpg",
+      "front_wheel_conf": 0.9597,
+      "back_wheel_conf": 0.7702,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.9491,
+      "front_wheel_box": [
+        595,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1171,
+        608,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 392,
+      "timestamp": 13.2135,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000392.jpg",
+      "front_wheel_conf": 0.9596,
+      "back_wheel_conf": 0.9645,
+      "front_squareness": 0.9924,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.949,
+      "front_wheel_box": [
+        595,
+        621,
+        992,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 393,
+      "timestamp": 13.2472,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000393.jpg",
+      "front_wheel_conf": 0.9602,
+      "back_wheel_conf": 0.9643,
+      "front_squareness": 0.9924,
+      "back_squareness": 0.9806,
+      "size_match_ratio": 0.9399,
+      "front_wheel_box": [
+        595,
+        620,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1167,
+        606,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 394,
+      "timestamp": 13.2809,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000394.jpg",
+      "front_wheel_conf": 0.9602,
+      "back_wheel_conf": 0.9628,
+      "front_squareness": 0.9899,
+      "back_squareness": 0.983,
+      "size_match_ratio": 0.9492,
+      "front_wheel_box": [
+        595,
+        620,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1167,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 395,
+      "timestamp": 13.3146,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000395.jpg",
+      "front_wheel_conf": 0.9601,
+      "back_wheel_conf": 0.9616,
+      "front_squareness": 0.9771,
+      "back_squareness": 0.9853,
+      "size_match_ratio": 0.9632,
+      "front_wheel_box": [
+        594,
+        622,
+        996,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        610,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 396,
+      "timestamp": 13.3483,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000396.jpg",
+      "front_wheel_conf": 0.9347,
+      "back_wheel_conf": 0.9638,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.983,
+      "size_match_ratio": 0.9491,
+      "front_wheel_box": [
+        594,
+        621,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1167,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 397,
+      "timestamp": 13.382,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000397.jpg",
+      "front_wheel_conf": 0.9587,
+      "back_wheel_conf": 0.961,
+      "front_squareness": 0.9797,
+      "back_squareness": 0.9878,
+      "size_match_ratio": 0.9586,
+      "front_wheel_box": [
+        594,
+        621,
+        996,
+        1015
+      ],
+      "back_wheel_box": [
+        1167,
+        609,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 398,
+      "timestamp": 13.4157,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000398.jpg",
+      "front_wheel_conf": 0.9599,
+      "back_wheel_conf": 0.9603,
+      "front_squareness": 0.9771,
+      "back_squareness": 0.9927,
+      "size_match_ratio": 0.9468,
+      "front_wheel_box": [
+        594,
+        622,
+        996,
+        1015
+      ],
+      "back_wheel_box": [
+        1165,
+        609,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 399,
+      "timestamp": 13.4494,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000399.jpg",
+      "front_wheel_conf": 0.9611,
+      "back_wheel_conf": 0.9636,
+      "front_squareness": 0.9797,
+      "back_squareness": 0.9733,
+      "size_match_ratio": 0.9587,
+      "front_wheel_box": [
+        594,
+        621,
+        996,
+        1015
+      ],
+      "back_wheel_box": [
+        1171,
+        608,
+        1572,
+        1020
+      ]
+    },
+    {
+      "frame_idx": 400,
+      "timestamp": 13.4831,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000400.jpg",
+      "front_wheel_conf": 0.9549,
+      "back_wheel_conf": 0.9638,
+      "front_squareness": 0.972,
+      "back_squareness": 0.9659,
+      "size_match_ratio": 0.9779,
+      "front_wheel_box": [
+        593,
+        619,
+        997,
+        1012
+      ],
+      "back_wheel_box": [
+        1175,
+        610,
+        1571,
+        1020
+      ]
+    },
+    {
+      "frame_idx": 401,
+      "timestamp": 13.5169,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000401.jpg",
+      "front_wheel_conf": 0.9562,
+      "back_wheel_conf": 0.9632,
+      "front_squareness": 0.972,
+      "back_squareness": 0.9633,
+      "size_match_ratio": 0.9853,
+      "front_wheel_box": [
+        593,
+        620,
+        997,
+        1013
+      ],
+      "back_wheel_box": [
+        1177,
+        610,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 402,
+      "timestamp": 13.5506,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000402.jpg",
+      "front_wheel_conf": 0.9613,
+      "back_wheel_conf": 0.9585,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.951,
+      "size_match_ratio": 0.9905,
+      "front_wheel_box": [
+        595,
+        622,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1182,
+        610,
+        1570,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 403,
+      "timestamp": 13.5843,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000403.jpg",
+      "front_wheel_conf": 0.9647,
+      "back_wheel_conf": 0.8092,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9462,
+      "size_match_ratio": 0.9907,
+      "front_wheel_box": [
+        596,
+        622,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1184,
+        609,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 404,
+      "timestamp": 13.618,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000404.jpg",
+      "front_wheel_conf": 0.9403,
+      "back_wheel_conf": 0.9609,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9635,
+      "size_match_ratio": 0.9635,
+      "front_wheel_box": [
+        596,
+        621,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1175,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 405,
+      "timestamp": 13.6517,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000405.jpg",
+      "front_wheel_conf": 0.962,
+      "back_wheel_conf": 0.9639,
+      "front_squareness": 0.977,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.9538,
+      "front_wheel_box": [
+        594,
+        622,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        606,
+        1571,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 406,
+      "timestamp": 13.6854,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000406.jpg",
+      "front_wheel_conf": 0.9601,
+      "back_wheel_conf": 0.9614,
+      "front_squareness": 0.9744,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.9465,
+      "front_wheel_box": [
+        594,
+        625,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 407,
+      "timestamp": 13.7191,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000407.jpg",
+      "front_wheel_conf": 0.9604,
+      "back_wheel_conf": 0.9611,
+      "front_squareness": 0.9744,
+      "back_squareness": 0.978,
+      "size_match_ratio": 0.9535,
+      "front_wheel_box": [
+        594,
+        625,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1171,
+        610,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 408,
+      "timestamp": 13.7528,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000408.jpg",
+      "front_wheel_conf": 0.9599,
+      "back_wheel_conf": 0.9605,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9804,
+      "size_match_ratio": 0.9609,
+      "front_wheel_box": [
+        594,
+        622,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1170,
+        610,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 409,
+      "timestamp": 13.7865,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000409.jpg",
+      "front_wheel_conf": 0.9616,
+      "back_wheel_conf": 0.963,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9538,
+      "front_wheel_box": [
+        595,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        609,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 410,
+      "timestamp": 13.8202,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000410.jpg",
+      "front_wheel_conf": 0.9611,
+      "back_wheel_conf": 0.6777,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9538,
+      "front_wheel_box": [
+        595,
+        621,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 411,
+      "timestamp": 13.8539,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000411.jpg",
+      "front_wheel_conf": 0.9611,
+      "back_wheel_conf": 0.9385,
+      "front_squareness": 0.9821,
+      "back_squareness": 0.9637,
+      "size_match_ratio": 0.9467,
+      "front_wheel_box": [
+        596,
+        624,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1171,
+        605,
+        1569,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 412,
+      "timestamp": 13.8876,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000412.jpg",
+      "front_wheel_conf": 0.9597,
+      "back_wheel_conf": 0.9324,
+      "front_squareness": 0.9872,
+      "back_squareness": 0.9684,
+      "size_match_ratio": 0.9467,
+      "front_wheel_box": [
+        596,
+        623,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1172,
+        607,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 413,
+      "timestamp": 13.9213,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000413.jpg",
+      "front_wheel_conf": 0.9601,
+      "back_wheel_conf": 0.9637,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.9373,
+      "front_wheel_box": [
+        596,
+        623,
+        992,
+        1015
+      ],
+      "back_wheel_box": [
+        1170,
+        607,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 414,
+      "timestamp": 13.9551,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000414.jpg",
+      "front_wheel_conf": 0.9606,
+      "back_wheel_conf": 0.9635,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9854,
+      "size_match_ratio": 0.9326,
+      "front_wheel_box": [
+        596,
+        623,
+        992,
+        1015
+      ],
+      "back_wheel_box": [
+        1167,
+        608,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 415,
+      "timestamp": 13.9888,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000415.jpg",
+      "front_wheel_conf": 0.959,
+      "back_wheel_conf": 0.9608,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9781,
+      "size_match_ratio": 0.9491,
+      "front_wheel_box": [
+        595,
+        621,
+        993,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 416,
+      "timestamp": 14.0225,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000416.jpg",
+      "front_wheel_conf": 0.961,
+      "back_wheel_conf": 0.9629,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9854,
+      "size_match_ratio": 0.9491,
+      "front_wheel_box": [
+        595,
+        621,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1167,
+        609,
+        1571,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 417,
+      "timestamp": 14.0562,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000417.jpg",
+      "front_wheel_conf": 0.9597,
+      "back_wheel_conf": 0.9618,
+      "front_squareness": 0.9797,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9586,
+      "front_wheel_box": [
+        594,
+        621,
+        996,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        609,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 418,
+      "timestamp": 14.0899,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000418.jpg",
+      "front_wheel_conf": 0.9579,
+      "back_wheel_conf": 0.9618,
+      "front_squareness": 0.9746,
+      "back_squareness": 0.9878,
+      "size_match_ratio": 0.9538,
+      "front_wheel_box": [
+        593,
+        622,
+        996,
+        1015
+      ],
+      "back_wheel_box": [
+        1167,
+        609,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 419,
+      "timestamp": 14.1236,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000419.jpg",
+      "front_wheel_conf": 0.9591,
+      "back_wheel_conf": 0.9603,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9903,
+      "size_match_ratio": 0.9375,
+      "front_wheel_box": [
+        594,
+        622,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1164,
+        608,
+        1572,
+        1020
+      ]
+    },
+    {
+      "frame_idx": 420,
+      "timestamp": 14.1573,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000420.jpg",
+      "front_wheel_conf": 0.9611,
+      "back_wheel_conf": 0.9591,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9878,
+      "size_match_ratio": 0.9537,
+      "front_wheel_box": [
+        595,
+        622,
+        996,
+        1015
+      ],
+      "back_wheel_box": [
+        1168,
+        610,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 421,
+      "timestamp": 14.191,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000421.jpg",
+      "front_wheel_conf": 0.9619,
+      "back_wheel_conf": 0.9582,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9583,
+      "size_match_ratio": 0.9879,
+      "front_wheel_box": [
+        595,
+        620,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1180,
+        610,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 422,
+      "timestamp": 14.2247,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000422.jpg",
+      "front_wheel_conf": 0.9548,
+      "back_wheel_conf": 0.9532,
+      "front_squareness": 0.9796,
+      "back_squareness": 0.9438,
+      "size_match_ratio": 0.9982,
+      "front_wheel_box": [
+        593,
+        619,
+        994,
+        1012
+      ],
+      "back_wheel_box": [
+        1185,
+        609,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 423,
+      "timestamp": 14.2584,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000423.jpg",
+      "front_wheel_conf": 0.9556,
+      "back_wheel_conf": 0.9597,
+      "front_squareness": 0.9719,
+      "back_squareness": 0.966,
+      "size_match_ratio": 0.9634,
+      "front_wheel_box": [
+        593,
+        620,
+        996,
+        1012
+      ],
+      "back_wheel_box": [
+        1174,
+        606,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 424,
+      "timestamp": 14.2921,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000424.jpg",
+      "front_wheel_conf": 0.9545,
+      "back_wheel_conf": 0.9514,
+      "front_squareness": 0.9746,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.9563,
+      "front_wheel_box": [
+        593,
+        619,
+        996,
+        1012
+      ],
+      "back_wheel_box": [
+        1170,
+        606,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 425,
+      "timestamp": 14.3258,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000425.jpg",
+      "front_wheel_conf": 0.9448,
+      "back_wheel_conf": 0.9576,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9758,
+      "size_match_ratio": 0.9422,
+      "front_wheel_box": [
+        595,
+        620,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        605,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 426,
+      "timestamp": 14.3596,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000426.jpg",
+      "front_wheel_conf": 0.9624,
+      "back_wheel_conf": 0.961,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9514,
+      "front_wheel_box": [
+        595,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 427,
+      "timestamp": 14.3933,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000427.jpg",
+      "front_wheel_conf": 0.9606,
+      "back_wheel_conf": 0.961,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9804,
+      "size_match_ratio": 0.9657,
+      "front_wheel_box": [
+        595,
+        620,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1172,
+        610,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 428,
+      "timestamp": 14.427,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000428.jpg",
+      "front_wheel_conf": 0.9598,
+      "back_wheel_conf": 0.963,
+      "front_squareness": 0.9797,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9633,
+      "front_wheel_box": [
+        594,
+        620,
+        996,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        609,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 429,
+      "timestamp": 14.4607,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000429.jpg",
+      "front_wheel_conf": 0.9589,
+      "back_wheel_conf": 0.9635,
+      "front_squareness": 0.9797,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.9563,
+      "front_wheel_box": [
+        594,
+        620,
+        996,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        607,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 430,
+      "timestamp": 14.4944,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000430.jpg",
+      "front_wheel_conf": 0.9611,
+      "back_wheel_conf": 0.9329,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9638,
+      "size_match_ratio": 0.9589,
+      "front_wheel_box": [
+        595,
+        619,
+        996,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        603,
+        1569,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 431,
+      "timestamp": 14.5281,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000431.jpg",
+      "front_wheel_conf": 0.9596,
+      "back_wheel_conf": 0.9454,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9637,
+      "size_match_ratio": 0.9564,
+      "front_wheel_box": [
+        596,
+        620,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        604,
+        1568,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 432,
+      "timestamp": 14.5618,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000432.jpg",
+      "front_wheel_conf": 0.9594,
+      "back_wheel_conf": 0.9326,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9588,
+      "size_match_ratio": 0.9539,
+      "front_wheel_box": [
+        596,
+        622,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1172,
+        605,
+        1568,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 433,
+      "timestamp": 14.5955,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000433.jpg",
+      "front_wheel_conf": 0.9615,
+      "back_wheel_conf": 0.9634,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.971,
+      "size_match_ratio": 0.928,
+      "front_wheel_box": [
+        596,
+        623,
+        991,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        605,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 434,
+      "timestamp": 14.6292,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000434.jpg",
+      "front_wheel_conf": 0.9598,
+      "back_wheel_conf": 0.9633,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9806,
+      "size_match_ratio": 0.928,
+      "front_wheel_box": [
+        596,
+        623,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1167,
+        606,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 435,
+      "timestamp": 14.6629,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000435.jpg",
+      "front_wheel_conf": 0.9594,
+      "back_wheel_conf": 0.9607,
+      "front_squareness": 0.9847,
+      "back_squareness": 0.9757,
+      "size_match_ratio": 0.942,
+      "front_wheel_box": [
+        596,
+        622,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1169,
+        606,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 436,
+      "timestamp": 14.6966,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000436.jpg",
+      "front_wheel_conf": 0.9594,
+      "back_wheel_conf": 0.9629,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9902,
+      "size_match_ratio": 0.9396,
+      "front_wheel_box": [
+        596,
+        621,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1166,
+        608,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 437,
+      "timestamp": 14.7303,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000437.jpg",
+      "front_wheel_conf": 0.9594,
+      "back_wheel_conf": 0.9617,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9854,
+      "size_match_ratio": 0.9515,
+      "front_wheel_box": [
+        595,
+        620,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1168,
+        608,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 438,
+      "timestamp": 14.764,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000438.jpg",
+      "front_wheel_conf": 0.9599,
+      "back_wheel_conf": 0.9604,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9878,
+      "size_match_ratio": 0.9586,
+      "front_wheel_box": [
+        594,
+        619,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1168,
+        609,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 439,
+      "timestamp": 14.7978,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000439.jpg",
+      "front_wheel_conf": 0.9602,
+      "back_wheel_conf": 0.9579,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9976,
+      "size_match_ratio": 0.9354,
+      "front_wheel_box": [
+        594,
+        619,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1162,
+        607,
+        1573,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 440,
+      "timestamp": 14.8315,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000440.jpg",
+      "front_wheel_conf": 0.9597,
+      "back_wheel_conf": 0.9604,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9684,
+      "size_match_ratio": 0.9635,
+      "front_wheel_box": [
+        594,
+        619,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1173,
+        607,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 441,
+      "timestamp": 14.8652,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000441.jpg",
+      "front_wheel_conf": 0.961,
+      "back_wheel_conf": 0.9516,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.951,
+      "size_match_ratio": 0.9981,
+      "front_wheel_box": [
+        595,
+        619,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1183,
+        610,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 442,
+      "timestamp": 14.8989,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000442.jpg",
+      "front_wheel_conf": 0.961,
+      "back_wheel_conf": 0.9565,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9389,
+      "size_match_ratio": 0.999,
+      "front_wheel_box": [
+        595,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1187,
+        609,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 443,
+      "timestamp": 14.9326,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000443.jpg",
+      "front_wheel_conf": 0.9615,
+      "back_wheel_conf": 0.9601,
+      "front_squareness": 0.9848,
+      "back_squareness": 0.9562,
+      "size_match_ratio": 0.9757,
+      "front_wheel_box": [
+        595,
+        620,
+        995,
+        1014
+      ],
+      "back_wheel_box": [
+        1178,
+        607,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 444,
+      "timestamp": 14.9663,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000444.jpg",
+      "front_wheel_conf": 0.9585,
+      "back_wheel_conf": 0.9606,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9684,
+      "size_match_ratio": 0.9563,
+      "front_wheel_box": [
+        595,
+        620,
+        994,
+        1014
+      ],
+      "back_wheel_box": [
+        1172,
+        606,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 445,
+      "timestamp": 15.0,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000445.jpg",
+      "front_wheel_conf": 0.9619,
+      "back_wheel_conf": 0.9619,
+      "front_squareness": 0.9924,
+      "back_squareness": 0.9781,
+      "size_match_ratio": 0.9419,
+      "front_wheel_box": [
+        595,
+        621,
+        991,
+        1014
+      ],
+      "back_wheel_box": [
+        1170,
+        607,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 446,
+      "timestamp": 15.0337,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000446.jpg",
+      "front_wheel_conf": 0.8988,
+      "back_wheel_conf": 0.9557,
+      "front_squareness": 0.977,
+      "back_squareness": 0.9805,
+      "size_match_ratio": 0.9537,
+      "front_wheel_box": [
+        593,
+        620,
+        994,
+        1012
+      ],
+      "back_wheel_box": [
+        1170,
+        608,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 447,
+      "timestamp": 15.0674,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000447.jpg",
+      "front_wheel_conf": 0.9544,
+      "back_wheel_conf": 0.9608,
+      "front_squareness": 0.9771,
+      "back_squareness": 0.9804,
+      "size_match_ratio": 0.9681,
+      "front_wheel_box": [
+        593,
+        619,
+        995,
+        1012
+      ],
+      "back_wheel_box": [
+        1172,
+        611,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 448,
+      "timestamp": 15.1011,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000448.jpg",
+      "front_wheel_conf": 0.9533,
+      "back_wheel_conf": 0.9634,
+      "front_squareness": 0.9746,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9633,
+      "front_wheel_box": [
+        593,
+        619,
+        996,
+        1012
+      ],
+      "back_wheel_box": [
+        1170,
+        610,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 449,
+      "timestamp": 15.1348,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000449.jpg",
+      "front_wheel_conf": 0.955,
+      "back_wheel_conf": 0.9445,
+      "front_squareness": 0.9746,
+      "back_squareness": 0.9782,
+      "size_match_ratio": 0.9539,
+      "front_wheel_box": [
+        593,
+        619,
+        996,
+        1012
+      ],
+      "back_wheel_box": [
+        1169,
+        607,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 450,
+      "timestamp": 15.1685,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000450.jpg",
+      "front_wheel_conf": 0.9552,
+      "back_wheel_conf": 0.9372,
+      "front_squareness": 0.9719,
+      "back_squareness": 0.9639,
+      "size_match_ratio": 0.9517,
+      "front_wheel_box": [
+        593,
+        620,
+        996,
+        1012
+      ],
+      "back_wheel_box": [
+        1169,
+        603,
+        1569,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 451,
+      "timestamp": 15.2022,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000451.jpg",
+      "front_wheel_conf": 0.9603,
+      "back_wheel_conf": 0.9572,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9612,
+      "size_match_ratio": 0.9636,
+      "front_wheel_box": [
+        595,
+        621,
+        994,
+        1015
+      ],
+      "back_wheel_box": [
+        1172,
+        605,
+        1568,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 452,
+      "timestamp": 15.236,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000452.jpg",
+      "front_wheel_conf": 0.9576,
+      "back_wheel_conf": 0.942,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9635,
+      "size_match_ratio": 0.961,
+      "front_wheel_box": [
+        595,
+        621,
+        993,
+        1014
+      ],
+      "back_wheel_box": [
+        1172,
+        606,
+        1568,
+        1017
+      ]
+    },
+    {
+      "frame_idx": 453,
+      "timestamp": 15.2697,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000453.jpg",
+      "front_wheel_conf": 0.9587,
+      "back_wheel_conf": 0.9636,
+      "front_squareness": 0.9898,
+      "back_squareness": 0.9733,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        595,
+        622,
+        992,
+        1015
+      ],
+      "back_wheel_box": [
+        1171,
+        607,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 454,
+      "timestamp": 15.3034,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000454.jpg",
+      "front_wheel_conf": 0.9593,
+      "back_wheel_conf": 0.9627,
+      "front_squareness": 0.9924,
+      "back_squareness": 0.9806,
+      "size_match_ratio": 0.935,
+      "front_wheel_box": [
+        595,
+        622,
+        991,
+        1015
+      ],
+      "back_wheel_box": [
+        1168,
+        607,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 455,
+      "timestamp": 15.3371,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000455.jpg",
+      "front_wheel_conf": 0.9612,
+      "back_wheel_conf": 0.9618,
+      "front_squareness": 0.9873,
+      "back_squareness": 0.9758,
+      "size_match_ratio": 0.9493,
+      "front_wheel_box": [
+        595,
+        620,
+        995,
+        1015
+      ],
+      "back_wheel_box": [
+        1169,
+        606,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 456,
+      "timestamp": 15.3708,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000456.jpg",
+      "front_wheel_conf": 0.9417,
+      "back_wheel_conf": 0.9625,
+      "front_squareness": 0.972,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9609,
+      "front_wheel_box": [
+        593,
+        620,
+        997,
+        1013
+      ],
+      "back_wheel_box": [
+        1169,
+        608,
+        1572,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 457,
+      "timestamp": 15.4045,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000457.jpg",
+      "front_wheel_conf": 0.9539,
+      "back_wheel_conf": 0.9628,
+      "front_squareness": 0.9772,
+      "back_squareness": 0.9878,
+      "size_match_ratio": 0.9516,
+      "front_wheel_box": [
+        593,
+        619,
+        996,
+        1013
+      ],
+      "back_wheel_box": [
+        1166,
+        608,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 458,
+      "timestamp": 15.4382,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000458.jpg",
+      "front_wheel_conf": 0.9529,
+      "back_wheel_conf": 0.9622,
+      "front_squareness": 0.9746,
+      "back_squareness": 0.9902,
+      "size_match_ratio": 0.9609,
+      "front_wheel_box": [
+        593,
+        619,
+        997,
+        1013
+      ],
+      "back_wheel_box": [
+        1166,
+        609,
+        1571,
+        1018
+      ]
+    },
+    {
+      "frame_idx": 459,
+      "timestamp": 15.4719,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000459.jpg",
+      "front_wheel_conf": 0.9538,
+      "back_wheel_conf": 0.9628,
+      "front_squareness": 0.9746,
+      "back_squareness": 0.9878,
+      "size_match_ratio": 0.931,
+      "front_wheel_box": [
+        593,
+        619,
+        997,
+        1013
+      ],
+      "back_wheel_box": [
+        1156,
+        608,
+        1572,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 460,
+      "timestamp": 15.5056,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000460.jpg",
+      "front_wheel_conf": 0.9542,
+      "back_wheel_conf": 0.9639,
+      "front_squareness": 0.9746,
+      "back_squareness": 0.9734,
+      "size_match_ratio": 0.9541,
+      "front_wheel_box": [
+        593,
+        619,
+        997,
+        1013
+      ],
+      "back_wheel_box": [
+        1169,
+        607,
+        1572,
+        1021
+      ]
+    },
+    {
+      "frame_idx": 461,
+      "timestamp": 15.5393,
+      "frame_file": "output/jacka60/jacka60_selected_frames/frame_000461.jpg",
+      "front_wheel_conf": 0.955,
+      "back_wheel_conf": 0.9648,
+      "front_squareness": 0.9746,
+      "back_squareness": 0.9732,
+      "size_match_ratio": 0.973,
+      "front_wheel_box": [
+        593,
+        619,
+        997,
+        1013
+      ],
+      "back_wheel_box": [
+        1173,
+        609,
+        1572,
+        1019
+      ]
+    }
+  ],
+  "metrics": {
+    "frames_processed": 2022,
+    "frames_selected": 390,
+    "total_bursts": 37,
+    "selection_rate": 0.1929,
+    "avg_confidence": 0.9531,
+    "elapsed_sec": 134.77
+  }
+}

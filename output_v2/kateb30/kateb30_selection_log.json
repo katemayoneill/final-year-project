@@ -1,0 +1,922 @@
+{
+  "video": "videos/kateb30.mp4",
+  "model": "models/best.pt",
+  "fps": 29.666666666666668,
+  "total_frames": 316,
+  "selected_frames": [
+    {
+      "frame_idx": 207,
+      "timestamp": 6.9775,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000207.jpg",
+      "front_wheel_conf": 0.9464,
+      "back_wheel_conf": 0.9429,
+      "front_squareness": 0.916,
+      "back_squareness": 0.8696,
+      "size_match_ratio": 0.8852,
+      "front_wheel_box": [
+        1293,
+        807,
+        1533,
+        1069
+      ],
+      "back_wheel_box": [
+        1651,
+        809,
+        1871,
+        1062
+      ],
+      "cyclist_box": [
+        1285,
+        411,
+        1874,
+        1072
+      ]
+    },
+    {
+      "frame_idx": 208,
+      "timestamp": 7.0112,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000208.jpg",
+      "front_wheel_conf": 0.94,
+      "back_wheel_conf": 0.9344,
+      "front_squareness": 0.9321,
+      "back_squareness": 0.874,
+      "size_match_ratio": 0.8615,
+      "front_wheel_box": [
+        1263,
+        806,
+        1510,
+        1071
+      ],
+      "back_wheel_box": [
+        1635,
+        811,
+        1857,
+        1065
+      ],
+      "cyclist_box": [
+        1253,
+        405,
+        1861,
+        1074
+      ]
+    },
+    {
+      "frame_idx": 209,
+      "timestamp": 7.0449,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000209.jpg",
+      "front_wheel_conf": 0.9446,
+      "back_wheel_conf": 0.9512,
+      "front_squareness": 0.9401,
+      "back_squareness": 0.9077,
+      "size_match_ratio": 0.9156,
+      "front_wheel_box": [
+        1231,
+        805,
+        1482,
+        1072
+      ],
+      "back_wheel_box": [
+        1606,
+        809,
+        1842,
+        1069
+      ],
+      "cyclist_box": [
+        1226,
+        399,
+        1843,
+        1075
+      ]
+    },
+    {
+      "frame_idx": 210,
+      "timestamp": 7.0787,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000210.jpg",
+      "front_wheel_conf": 0.9571,
+      "back_wheel_conf": 0.9511,
+      "front_squareness": 0.9591,
+      "back_squareness": 0.943,
+      "size_match_ratio": 0.9398,
+      "front_wheel_box": [
+        1196,
+        802,
+        1454,
+        1071
+      ],
+      "back_wheel_box": [
+        1575,
+        807,
+        1823,
+        1070
+      ],
+      "cyclist_box": [
+        1189,
+        389,
+        1827,
+        1074
+      ]
+    },
+    {
+      "frame_idx": 211,
+      "timestamp": 7.1124,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000211.jpg",
+      "front_wheel_conf": 0.938,
+      "back_wheel_conf": 0.9478,
+      "front_squareness": 0.9708,
+      "back_squareness": 0.97,
+      "size_match_ratio": 0.9488,
+      "front_wheel_box": [
+        1160,
+        798,
+        1426,
+        1072
+      ],
+      "back_wheel_box": [
+        1545,
+        805,
+        1804,
+        1072
+      ],
+      "cyclist_box": [
+        1153,
+        385,
+        1806,
+        1075
+      ]
+    },
+    {
+      "frame_idx": 212,
+      "timestamp": 7.1461,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000212.jpg",
+      "front_wheel_conf": 0.9455,
+      "back_wheel_conf": 0.9515,
+      "front_squareness": 0.9606,
+      "back_squareness": 0.9889,
+      "size_match_ratio": 0.9713,
+      "front_wheel_box": [
+        1123,
+        792,
+        1391,
+        1071
+      ],
+      "back_wheel_box": [
+        1512,
+        803,
+        1780,
+        1074
+      ],
+      "cyclist_box": [
+        1120,
+        382,
+        1785,
+        1076
+      ]
+    },
+    {
+      "frame_idx": 213,
+      "timestamp": 7.1798,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000213.jpg",
+      "front_wheel_conf": 0.953,
+      "back_wheel_conf": 0.9505,
+      "front_squareness": 0.9821,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9679,
+      "front_wheel_box": [
+        1083,
+        789,
+        1358,
+        1069
+      ],
+      "back_wheel_box": [
+        1485,
+        800,
+        1758,
+        1073
+      ],
+      "cyclist_box": [
+        1080,
+        377,
+        1762,
+        1074
+      ]
+    },
+    {
+      "frame_idx": 214,
+      "timestamp": 7.2135,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000214.jpg",
+      "front_wheel_conf": 0.959,
+      "back_wheel_conf": 0.9523,
+      "front_squareness": 0.9893,
+      "back_squareness": 0.9716,
+      "size_match_ratio": 0.9891,
+      "front_wheel_box": [
+        1044,
+        787,
+        1322,
+        1068
+      ],
+      "back_wheel_box": [
+        1457,
+        794,
+        1731,
+        1076
+      ],
+      "cyclist_box": [
+        1041,
+        366,
+        1735,
+        1075
+      ]
+    },
+    {
+      "frame_idx": 215,
+      "timestamp": 7.2472,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000215.jpg",
+      "front_wheel_conf": 0.9561,
+      "back_wheel_conf": 0.9502,
+      "front_squareness": 0.9965,
+      "back_squareness": 0.9893,
+      "size_match_ratio": 0.9719,
+      "front_wheel_box": [
+        1007,
+        783,
+        1289,
+        1066
+      ],
+      "back_wheel_box": [
+        1427,
+        796,
+        1704,
+        1076
+      ],
+      "cyclist_box": [
+        1003,
+        359,
+        1712,
+        1077
+      ]
+    },
+    {
+      "frame_idx": 216,
+      "timestamp": 7.2809,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000216.jpg",
+      "front_wheel_conf": 0.9565,
+      "back_wheel_conf": 0.9518,
+      "front_squareness": 0.9895,
+      "back_squareness": 0.9788,
+      "size_match_ratio": 0.9685,
+      "front_wheel_box": [
+        969,
+        774,
+        1252,
+        1060
+      ],
+      "back_wheel_box": [
+        1400,
+        791,
+        1677,
+        1074
+      ],
+      "cyclist_box": [
+        969,
+        359,
+        1681,
+        1074
+      ]
+    },
+    {
+      "frame_idx": 217,
+      "timestamp": 7.3146,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000217.jpg",
+      "front_wheel_conf": 0.9484,
+      "back_wheel_conf": 0.955,
+      "front_squareness": 0.9965,
+      "back_squareness": 0.993,
+      "size_match_ratio": 0.9758,
+      "front_wheel_box": [
+        928,
+        770,
+        1216,
+        1057
+      ],
+      "back_wheel_box": [
+        1365,
+        786,
+        1648,
+        1071
+      ],
+      "cyclist_box": [
+        925,
+        340,
+        1650,
+        1070
+      ]
+    },
+    {
+      "frame_idx": 218,
+      "timestamp": 7.3483,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000218.jpg",
+      "front_wheel_conf": 0.9469,
+      "back_wheel_conf": 0.9604,
+      "front_squareness": 0.9896,
+      "back_squareness": 0.9965,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        893,
+        765,
+        1179,
+        1054
+      ],
+      "back_wheel_box": [
+        1329,
+        780,
+        1616,
+        1068
+      ],
+      "cyclist_box": [
+        890,
+        332,
+        1625,
+        1070
+      ]
+    },
+    {
+      "frame_idx": 219,
+      "timestamp": 7.382,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000219.jpg",
+      "front_wheel_conf": 0.9404,
+      "back_wheel_conf": 0.9432,
+      "front_squareness": 0.9895,
+      "back_squareness": 0.9795,
+      "size_match_ratio": 0.9565,
+      "front_wheel_box": [
+        854,
+        761,
+        1144,
+        1048
+      ],
+      "back_wheel_box": [
+        1291,
+        776,
+        1589,
+        1068
+      ],
+      "cyclist_box": [
+        850,
+        309,
+        1590,
+        1071
+      ]
+    },
+    {
+      "frame_idx": 220,
+      "timestamp": 7.4157,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000220.jpg",
+      "front_wheel_conf": 0.9488,
+      "back_wheel_conf": 0.9534,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9899,
+      "size_match_ratio": 0.963,
+      "front_wheel_box": [
+        818,
+        752,
+        1107,
+        1041
+      ],
+      "back_wheel_box": [
+        1258,
+        771,
+        1551,
+        1067
+      ],
+      "cyclist_box": [
+        814,
+        315,
+        1554,
+        1069
+      ]
+    },
+    {
+      "frame_idx": 221,
+      "timestamp": 7.4494,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000221.jpg",
+      "front_wheel_conf": 0.9397,
+      "back_wheel_conf": 0.9545,
+      "front_squareness": 0.9931,
+      "back_squareness": 0.9933,
+      "size_match_ratio": 0.9467,
+      "front_wheel_box": [
+        782,
+        747,
+        1069,
+        1036
+      ],
+      "back_wheel_box": [
+        1222,
+        766,
+        1517,
+        1063
+      ],
+      "cyclist_box": [
+        779,
+        309,
+        1527,
+        1063
+      ]
+    },
+    {
+      "frame_idx": 222,
+      "timestamp": 7.4831,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000222.jpg",
+      "front_wheel_conf": 0.9518,
+      "back_wheel_conf": 0.9581,
+      "front_squareness": 0.9965,
+      "back_squareness": 0.9966,
+      "size_match_ratio": 0.9466,
+      "front_wheel_box": [
+        745,
+        740,
+        1032,
+        1028
+      ],
+      "back_wheel_box": [
+        1188,
+        763,
+        1483,
+        1059
+      ],
+      "cyclist_box": [
+        742,
+        298,
+        1489,
+        1063
+      ]
+    },
+    {
+      "frame_idx": 223,
+      "timestamp": 7.5169,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000223.jpg",
+      "front_wheel_conf": 0.9556,
+      "back_wheel_conf": 0.958,
+      "front_squareness": 0.9965,
+      "back_squareness": 0.9966,
+      "size_match_ratio": 0.9277,
+      "front_wheel_box": [
+        712,
+        734,
+        1000,
+        1021
+      ],
+      "back_wheel_box": [
+        1150,
+        757,
+        1449,
+        1055
+      ],
+      "cyclist_box": [
+        709,
+        301,
+        1456,
+        1057
+      ]
+    },
+    {
+      "frame_idx": 224,
+      "timestamp": 7.5506,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000224.jpg",
+      "front_wheel_conf": 0.9556,
+      "back_wheel_conf": 0.9464,
+      "front_squareness": 0.9826,
+      "back_squareness": 0.9933,
+      "size_match_ratio": 0.9114,
+      "front_wheel_box": [
+        682,
+        727,
+        964,
+        1014
+      ],
+      "back_wheel_box": [
+        1115,
+        752,
+        1412,
+        1051
+      ],
+      "cyclist_box": [
+        682,
+        295,
+        1419,
+        1052
+      ]
+    },
+    {
+      "frame_idx": 225,
+      "timestamp": 7.5843,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000225.jpg",
+      "front_wheel_conf": 0.9513,
+      "back_wheel_conf": 0.9519,
+      "front_squareness": 0.9653,
+      "back_squareness": 0.9932,
+      "size_match_ratio": 0.9077,
+      "front_wheel_box": [
+        652,
+        719,
+        930,
+        1007
+      ],
+      "back_wheel_box": [
+        1081,
+        748,
+        1379,
+        1044
+      ],
+      "cyclist_box": [
+        648,
+        283,
+        1383,
+        1049
+      ]
+    },
+    {
+      "frame_idx": 226,
+      "timestamp": 7.618,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000226.jpg",
+      "front_wheel_conf": 0.9488,
+      "back_wheel_conf": 0.9529,
+      "front_squareness": 0.9858,
+      "back_squareness": 0.99,
+      "size_match_ratio": 0.8795,
+      "front_wheel_box": [
+        626,
+        713,
+        903,
+        994
+      ],
+      "back_wheel_box": [
+        1051,
+        739,
+        1347,
+        1038
+      ],
+      "cyclist_box": [
+        622,
+        283,
+        1350,
+        1043
+      ]
+    },
+    {
+      "frame_idx": 227,
+      "timestamp": 7.6517,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000227.jpg",
+      "front_wheel_conf": 0.9494,
+      "back_wheel_conf": 0.9533,
+      "front_squareness": 0.9609,
+      "back_squareness": 0.9864,
+      "size_match_ratio": 0.8838,
+      "front_wheel_box": [
+        600,
+        707,
+        870,
+        988
+      ],
+      "back_wheel_box": [
+        1021,
+        734,
+        1312,
+        1029
+      ],
+      "cyclist_box": [
+        598,
+        280,
+        1316,
+        1034
+      ]
+    },
+    {
+      "frame_idx": 228,
+      "timestamp": 7.6854,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000228.jpg",
+      "front_wheel_conf": 0.9534,
+      "back_wheel_conf": 0.9608,
+      "front_squareness": 0.9532,
+      "back_squareness": 0.9862,
+      "size_match_ratio": 0.8882,
+      "front_wheel_box": [
+        577,
+        700,
+        842,
+        978
+      ],
+      "back_wheel_box": [
+        990,
+        731,
+        1276,
+        1021
+      ],
+      "cyclist_box": [
+        571,
+        276,
+        1283,
+        1019
+      ]
+    },
+    {
+      "frame_idx": 229,
+      "timestamp": 7.7191,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000229.jpg",
+      "front_wheel_conf": 0.951,
+      "back_wheel_conf": 0.9473,
+      "front_squareness": 0.9348,
+      "back_squareness": 0.9898,
+      "size_match_ratio": 0.8323,
+      "front_wheel_box": [
+        554,
+        693,
+        812,
+        969
+      ],
+      "back_wheel_box": [
+        955,
+        719,
+        1246,
+        1013
+      ],
+      "cyclist_box": [
+        551,
+        275,
+        1247,
+        1013
+      ]
+    },
+    {
+      "frame_idx": 230,
+      "timestamp": 7.7528,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000230.jpg",
+      "front_wheel_conf": 0.9613,
+      "back_wheel_conf": 0.9552,
+      "front_squareness": 0.9341,
+      "back_squareness": 0.9555,
+      "size_match_ratio": 0.8545,
+      "front_wheel_box": [
+        534,
+        687,
+        789,
+        960
+      ],
+      "back_wheel_box": [
+        930,
+        716,
+        1209,
+        1008
+      ],
+      "cyclist_box": [
+        530,
+        270,
+        1217,
+        1007
+      ]
+    },
+    {
+      "frame_idx": 231,
+      "timestamp": 7.7865,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000231.jpg",
+      "front_wheel_conf": 0.9452,
+      "back_wheel_conf": 0.9548,
+      "front_squareness": 0.9366,
+      "back_squareness": 0.9652,
+      "size_match_ratio": 0.8461,
+      "front_wheel_box": [
+        516,
+        680,
+        767,
+        948
+      ],
+      "back_wheel_box": [
+        902,
+        709,
+        1179,
+        996
+      ],
+      "cyclist_box": [
+        510,
+        270,
+        1184,
+        993
+      ]
+    },
+    {
+      "frame_idx": 232,
+      "timestamp": 7.8202,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000232.jpg",
+      "front_wheel_conf": 0.9496,
+      "back_wheel_conf": 0.9554,
+      "front_squareness": 0.928,
+      "back_squareness": 0.9716,
+      "size_match_ratio": 0.8371,
+      "front_wheel_box": [
+        501,
+        673,
+        746,
+        937
+      ],
+      "back_wheel_box": [
+        876,
+        703,
+        1150,
+        985
+      ],
+      "cyclist_box": [
+        491,
+        267,
+        1153,
+        985
+      ]
+    },
+    {
+      "frame_idx": 233,
+      "timestamp": 7.8539,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000233.jpg",
+      "front_wheel_conf": 0.9546,
+      "back_wheel_conf": 0.9533,
+      "front_squareness": 0.9228,
+      "back_squareness": 0.9711,
+      "size_match_ratio": 0.8307,
+      "front_wheel_box": [
+        485,
+        668,
+        724,
+        927
+      ],
+      "back_wheel_box": [
+        850,
+        697,
+        1119,
+        974
+      ],
+      "cyclist_box": [
+        480,
+        267,
+        1123,
+        973
+      ]
+    },
+    {
+      "frame_idx": 234,
+      "timestamp": 7.8876,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000234.jpg",
+      "front_wheel_conf": 0.9458,
+      "back_wheel_conf": 0.9534,
+      "front_squareness": 0.8927,
+      "back_squareness": 0.9498,
+      "size_match_ratio": 0.8225,
+      "front_wheel_box": [
+        473,
+        659,
+        706,
+        920
+      ],
+      "back_wheel_box": [
+        827,
+        688,
+        1092,
+        967
+      ],
+      "cyclist_box": [
+        467,
+        267,
+        1096,
+        967
+      ]
+    },
+    {
+      "frame_idx": 235,
+      "timestamp": 7.9213,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000235.jpg",
+      "front_wheel_conf": 0.9564,
+      "back_wheel_conf": 0.9535,
+      "front_squareness": 0.8902,
+      "back_squareness": 0.92,
+      "size_match_ratio": 0.832,
+      "front_wheel_box": [
+        464,
+        654,
+        691,
+        909
+      ],
+      "back_wheel_box": [
+        811,
+        684,
+        1064,
+        959
+      ],
+      "cyclist_box": [
+        458,
+        272,
+        1068,
+        964
+      ]
+    },
+    {
+      "frame_idx": 236,
+      "timestamp": 7.9551,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000236.jpg",
+      "front_wheel_conf": 0.8061,
+      "back_wheel_conf": 0.9537,
+      "front_squareness": 0.873,
+      "back_squareness": 0.9044,
+      "size_match_ratio": 0.8286,
+      "front_wheel_box": [
+        454,
+        649,
+        674,
+        901
+      ],
+      "back_wheel_box": [
+        792,
+        678,
+        1038,
+        950
+      ],
+      "cyclist_box": [
+        448,
+        266,
+        1040,
+        952
+      ]
+    },
+    {
+      "frame_idx": 237,
+      "timestamp": 7.9888,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000237.jpg",
+      "front_wheel_conf": 0.9446,
+      "back_wheel_conf": 0.9525,
+      "front_squareness": 0.8699,
+      "back_squareness": 0.9094,
+      "size_match_ratio": 0.8243,
+      "front_wheel_box": [
+        448,
+        643,
+        662,
+        889
+      ],
+      "back_wheel_box": [
+        774,
+        672,
+        1015,
+        937
+      ],
+      "cyclist_box": [
+        442,
+        263,
+        1018,
+        945
+      ]
+    },
+    {
+      "frame_idx": 238,
+      "timestamp": 8.0225,
+      "frame_file": "output_v2/kateb30/kateb30_selected_frames/frame_000238.jpg",
+      "front_wheel_conf": 0.9452,
+      "back_wheel_conf": 0.9435,
+      "front_squareness": 0.8636,
+      "back_squareness": 0.9046,
+      "size_match_ratio": 0.8145,
+      "front_wheel_box": [
+        444,
+        638,
+        653,
+        880
+      ],
+      "back_wheel_box": [
+        758,
+        666,
+        995,
+        928
+      ],
+      "cyclist_box": [
+        437,
+        265,
+        998,
+        936
+      ]
+    }
+  ],
+  "selected_bursts": [
+    {
+      "burst_id": 0,
+      "quality_score": 18.4512,
+      "frame_idx_start": 207,
+      "frame_idx_end": 238,
+      "frame_count": 32
+    }
+  ],
+  "metrics": {
+    "frames_processed": 316,
+    "frames_selected": 32,
+    "total_bursts": 1,
+    "bursts_selected": 1,
+    "selection_rate": 0.1013,
+    "avg_confidence": 0.9484,
+    "elapsed_sec": 16.37
+  }
+}

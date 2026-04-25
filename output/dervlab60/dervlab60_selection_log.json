@@ -1,0 +1,4152 @@
+{
+  "video": "videos/dervlab60.MP4",
+  "model": "models/best.pt",
+  "fps": 59.96829171621086,
+  "total_frames": 1513,
+  "selected_frames": [
+    {
+      "frame_idx": 1320,
+      "timestamp": 22.0116,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001320.jpg",
+      "front_wheel_conf": 0.904,
+      "back_wheel_conf": 0.9102,
+      "front_squareness": 0.9118,
+      "back_squareness": 0.8571,
+      "size_match_ratio": 0.9962,
+      "front_wheel_box": [
+        399,
+        219,
+        430,
+        253
+      ],
+      "back_wheel_box": [
+        441,
+        217,
+        471,
+        252
+      ]
+    },
+    {
+      "frame_idx": 1321,
+      "timestamp": 22.0283,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001321.jpg",
+      "front_wheel_conf": 0.9054,
+      "back_wheel_conf": 0.913,
+      "front_squareness": 0.9412,
+      "back_squareness": 0.8571,
+      "size_match_ratio": 0.9651,
+      "front_wheel_box": [
+        398,
+        219,
+        430,
+        253
+      ],
+      "back_wheel_box": [
+        441,
+        217,
+        471,
+        252
+      ]
+    },
+    {
+      "frame_idx": 1322,
+      "timestamp": 22.045,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001322.jpg",
+      "front_wheel_conf": 0.9102,
+      "back_wheel_conf": 0.9167,
+      "front_squareness": 0.9412,
+      "back_squareness": 0.8857,
+      "size_match_ratio": 0.9972,
+      "front_wheel_box": [
+        398,
+        219,
+        430,
+        253
+      ],
+      "back_wheel_box": [
+        440,
+        217,
+        471,
+        252
+      ]
+    },
+    {
+      "frame_idx": 1323,
+      "timestamp": 22.0617,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001323.jpg",
+      "front_wheel_conf": 0.9144,
+      "back_wheel_conf": 0.9211,
+      "front_squareness": 0.9118,
+      "back_squareness": 0.8857,
+      "size_match_ratio": 0.9714,
+      "front_wheel_box": [
+        398,
+        219,
+        429,
+        253
+      ],
+      "back_wheel_box": [
+        440,
+        217,
+        471,
+        252
+      ]
+    },
+    {
+      "frame_idx": 1324,
+      "timestamp": 22.0783,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001324.jpg",
+      "front_wheel_conf": 0.9196,
+      "back_wheel_conf": 0.9288,
+      "front_squareness": 0.9706,
+      "back_squareness": 0.8857,
+      "size_match_ratio": 0.967,
+      "front_wheel_box": [
+        397,
+        219,
+        430,
+        253
+      ],
+      "back_wheel_box": [
+        440,
+        217,
+        471,
+        252
+      ]
+    },
+    {
+      "frame_idx": 1325,
+      "timestamp": 22.095,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001325.jpg",
+      "front_wheel_conf": 0.9193,
+      "back_wheel_conf": 0.7305,
+      "front_squareness": 1.0,
+      "back_squareness": 0.8857,
+      "size_match_ratio": 0.9386,
+      "front_wheel_box": [
+        396,
+        219,
+        430,
+        253
+      ],
+      "back_wheel_box": [
+        440,
+        217,
+        471,
+        252
+      ]
+    },
+    {
+      "frame_idx": 1326,
+      "timestamp": 22.1117,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001326.jpg",
+      "front_wheel_conf": 0.9214,
+      "back_wheel_conf": 0.905,
+      "front_squareness": 0.9429,
+      "back_squareness": 0.8857,
+      "size_match_ratio": 0.9394,
+      "front_wheel_box": [
+        396,
+        218,
+        429,
+        253
+      ],
+      "back_wheel_box": [
+        440,
+        217,
+        471,
+        252
+      ]
+    },
+    {
+      "frame_idx": 1327,
+      "timestamp": 22.1284,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001327.jpg",
+      "front_wheel_conf": 0.9214,
+      "back_wheel_conf": 0.8979,
+      "front_squareness": 0.9714,
+      "back_squareness": 0.8857,
+      "size_match_ratio": 0.9118,
+      "front_wheel_box": [
+        395,
+        218,
+        429,
+        253
+      ],
+      "back_wheel_box": [
+        440,
+        217,
+        471,
+        252
+      ]
+    },
+    {
+      "frame_idx": 1328,
+      "timestamp": 22.145,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001328.jpg",
+      "front_wheel_conf": 0.9169,
+      "back_wheel_conf": 0.8964,
+      "front_squareness": 0.9706,
+      "back_squareness": 0.9143,
+      "size_match_ratio": 0.9412,
+      "front_wheel_box": [
+        394,
+        219,
+        429,
+        253
+      ],
+      "back_wheel_box": [
+        439,
+        217,
+        471,
+        252
+      ]
+    },
+    {
+      "frame_idx": 1329,
+      "timestamp": 22.1617,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001329.jpg",
+      "front_wheel_conf": 0.9236,
+      "back_wheel_conf": 0.8883,
+      "front_squareness": 0.9714,
+      "back_squareness": 0.9429,
+      "size_match_ratio": 0.9706,
+      "front_wheel_box": [
+        394,
+        219,
+        428,
+        254
+      ],
+      "back_wheel_box": [
+        438,
+        217,
+        471,
+        252
+      ]
+    },
+    {
+      "frame_idx": 1330,
+      "timestamp": 22.1784,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001330.jpg",
+      "front_wheel_conf": 0.925,
+      "back_wheel_conf": 0.8882,
+      "front_squareness": 0.9714,
+      "back_squareness": 0.9167,
+      "size_match_ratio": 0.9983,
+      "front_wheel_box": [
+        393,
+        219,
+        427,
+        254
+      ],
+      "back_wheel_box": [
+        437,
+        217,
+        470,
+        253
+      ]
+    },
+    {
+      "frame_idx": 1331,
+      "timestamp": 22.1951,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001331.jpg",
+      "front_wheel_conf": 0.9269,
+      "back_wheel_conf": 0.8876,
+      "front_squareness": 0.9714,
+      "back_squareness": 0.9143,
+      "size_match_ratio": 0.9412,
+      "front_wheel_box": [
+        392,
+        219,
+        426,
+        254
+      ],
+      "back_wheel_box": [
+        438,
+        218,
+        470,
+        253
+      ]
+    },
+    {
+      "frame_idx": 1332,
+      "timestamp": 22.2117,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001332.jpg",
+      "front_wheel_conf": 0.9288,
+      "back_wheel_conf": 0.897,
+      "front_squareness": 0.9714,
+      "back_squareness": 0.9429,
+      "size_match_ratio": 0.9706,
+      "front_wheel_box": [
+        392,
+        219,
+        426,
+        254
+      ],
+      "back_wheel_box": [
+        437,
+        218,
+        470,
+        253
+      ]
+    },
+    {
+      "frame_idx": 1333,
+      "timestamp": 22.2284,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001333.jpg",
+      "front_wheel_conf": 0.9243,
+      "back_wheel_conf": 0.8951,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9429,
+      "size_match_ratio": 0.9429,
+      "front_wheel_box": [
+        391,
+        219,
+        426,
+        254
+      ],
+      "back_wheel_box": [
+        437,
+        218,
+        470,
+        253
+      ]
+    },
+    {
+      "frame_idx": 1334,
+      "timestamp": 22.2451,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001334.jpg",
+      "front_wheel_conf": 0.9229,
+      "back_wheel_conf": 0.8996,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9429,
+      "size_match_ratio": 0.9429,
+      "front_wheel_box": [
+        391,
+        219,
+        426,
+        254
+      ],
+      "back_wheel_box": [
+        437,
+        218,
+        470,
+        253
+      ]
+    },
+    {
+      "frame_idx": 1335,
+      "timestamp": 22.2618,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001335.jpg",
+      "front_wheel_conf": 0.9201,
+      "back_wheel_conf": 0.9074,
+      "front_squareness": 0.9714,
+      "back_squareness": 0.9429,
+      "size_match_ratio": 0.9706,
+      "front_wheel_box": [
+        391,
+        219,
+        425,
+        254
+      ],
+      "back_wheel_box": [
+        436,
+        218,
+        469,
+        253
+      ]
+    },
+    {
+      "frame_idx": 1336,
+      "timestamp": 22.2784,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001336.jpg",
+      "front_wheel_conf": 0.9186,
+      "back_wheel_conf": 0.918,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9429,
+      "size_match_ratio": 0.9429,
+      "front_wheel_box": [
+        390,
+        219,
+        425,
+        254
+      ],
+      "back_wheel_box": [
+        436,
+        218,
+        469,
+        253
+      ]
+    },
+    {
+      "frame_idx": 1337,
+      "timestamp": 22.2951,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001337.jpg",
+      "front_wheel_conf": 0.9194,
+      "back_wheel_conf": 0.9192,
+      "front_squareness": 0.9722,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9175,
+      "front_wheel_box": [
+        390,
+        219,
+        425,
+        255
+      ],
+      "back_wheel_box": [
+        436,
+        219,
+        470,
+        253
+      ]
+    },
+    {
+      "frame_idx": 1338,
+      "timestamp": 22.3118,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001338.jpg",
+      "front_wheel_conf": 0.9161,
+      "back_wheel_conf": 0.9158,
+      "front_squareness": 0.9722,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9175,
+      "front_wheel_box": [
+        390,
+        219,
+        425,
+        255
+      ],
+      "back_wheel_box": [
+        436,
+        219,
+        470,
+        253
+      ]
+    },
+    {
+      "frame_idx": 1339,
+      "timestamp": 22.3285,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001339.jpg",
+      "front_wheel_conf": 0.9171,
+      "back_wheel_conf": 0.9184,
+      "front_squareness": 0.9722,
+      "back_squareness": 0.9714,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        390,
+        219,
+        425,
+        255
+      ],
+      "back_wheel_box": [
+        436,
+        218,
+        470,
+        253
+      ]
+    },
+    {
+      "frame_idx": 1340,
+      "timestamp": 22.3451,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001340.jpg",
+      "front_wheel_conf": 0.921,
+      "back_wheel_conf": 0.9193,
+      "front_squareness": 0.9722,
+      "back_squareness": 0.9429,
+      "size_match_ratio": 0.9167,
+      "front_wheel_box": [
+        390,
+        219,
+        425,
+        255
+      ],
+      "back_wheel_box": [
+        437,
+        218,
+        470,
+        253
+      ]
+    },
+    {
+      "frame_idx": 1341,
+      "timestamp": 22.3618,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001341.jpg",
+      "front_wheel_conf": 0.9207,
+      "back_wheel_conf": 0.9138,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9429,
+      "size_match_ratio": 0.9429,
+      "front_wheel_box": [
+        390,
+        219,
+        425,
+        254
+      ],
+      "back_wheel_box": [
+        437,
+        218,
+        470,
+        253
+      ]
+    },
+    {
+      "frame_idx": 1342,
+      "timestamp": 22.3785,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001342.jpg",
+      "front_wheel_conf": 0.9172,
+      "back_wheel_conf": 0.9149,
+      "front_squareness": 0.9714,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.9722,
+      "front_wheel_box": [
+        390,
+        219,
+        424,
+        254
+      ],
+      "back_wheel_box": [
+        436,
+        218,
+        470,
+        254
+      ]
+    },
+    {
+      "frame_idx": 1343,
+      "timestamp": 22.3952,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001343.jpg",
+      "front_wheel_conf": 0.9127,
+      "back_wheel_conf": 0.9144,
+      "front_squareness": 0.9714,
+      "back_squareness": 0.9167,
+      "size_match_ratio": 0.9983,
+      "front_wheel_box": [
+        390,
+        219,
+        424,
+        254
+      ],
+      "back_wheel_box": [
+        437,
+        218,
+        470,
+        254
+      ]
+    },
+    {
+      "frame_idx": 1344,
+      "timestamp": 22.4118,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001344.jpg",
+      "front_wheel_conf": 0.915,
+      "back_wheel_conf": 0.9179,
+      "front_squareness": 0.9714,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.9722,
+      "front_wheel_box": [
+        390,
+        219,
+        424,
+        254
+      ],
+      "back_wheel_box": [
+        436,
+        218,
+        470,
+        254
+      ]
+    },
+    {
+      "frame_idx": 1345,
+      "timestamp": 22.4285,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001345.jpg",
+      "front_wheel_conf": 0.9121,
+      "back_wheel_conf": 0.9172,
+      "front_squareness": 0.9714,
+      "back_squareness": 0.9167,
+      "size_match_ratio": 0.9983,
+      "front_wheel_box": [
+        390,
+        219,
+        424,
+        254
+      ],
+      "back_wheel_box": [
+        437,
+        218,
+        470,
+        254
+      ]
+    },
+    {
+      "frame_idx": 1346,
+      "timestamp": 22.4452,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001346.jpg",
+      "front_wheel_conf": 0.9117,
+      "back_wheel_conf": 0.9154,
+      "front_squareness": 0.9714,
+      "back_squareness": 0.9722,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        390,
+        219,
+        424,
+        254
+      ],
+      "back_wheel_box": [
+        435,
+        218,
+        470,
+        254
+      ]
+    },
+    {
+      "frame_idx": 1347,
+      "timestamp": 22.4619,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001347.jpg",
+      "front_wheel_conf": 0.9074,
+      "back_wheel_conf": 0.9144,
+      "front_squareness": 0.9722,
+      "back_squareness": 0.9722,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        389,
+        219,
+        424,
+        255
+      ],
+      "back_wheel_box": [
+        435,
+        218,
+        470,
+        254
+      ]
+    },
+    {
+      "frame_idx": 1348,
+      "timestamp": 22.4785,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001348.jpg",
+      "front_wheel_conf": 0.9091,
+      "back_wheel_conf": 0.9139,
+      "front_squareness": 0.9722,
+      "back_squareness": 0.9722,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        389,
+        219,
+        424,
+        255
+      ],
+      "back_wheel_box": [
+        435,
+        218,
+        470,
+        254
+      ]
+    },
+    {
+      "frame_idx": 1349,
+      "timestamp": 22.4952,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001349.jpg",
+      "front_wheel_conf": 0.9078,
+      "back_wheel_conf": 0.9146,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.9722,
+      "size_match_ratio": 0.9714,
+      "front_wheel_box": [
+        389,
+        219,
+        423,
+        255
+      ],
+      "back_wheel_box": [
+        435,
+        218,
+        470,
+        254
+      ]
+    },
+    {
+      "frame_idx": 1350,
+      "timestamp": 22.5119,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001350.jpg",
+      "front_wheel_conf": 0.9077,
+      "back_wheel_conf": 0.9159,
+      "front_squareness": 0.9714,
+      "back_squareness": 0.9459,
+      "size_match_ratio": 0.9189,
+      "front_wheel_box": [
+        389,
+        220,
+        423,
+        255
+      ],
+      "back_wheel_box": [
+        435,
+        218,
+        470,
+        255
+      ]
+    },
+    {
+      "frame_idx": 1351,
+      "timestamp": 22.5286,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001351.jpg",
+      "front_wheel_conf": 0.9029,
+      "back_wheel_conf": 0.9161,
+      "front_squareness": 0.9714,
+      "back_squareness": 0.9722,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        389,
+        220,
+        423,
+        255
+      ],
+      "back_wheel_box": [
+        435,
+        219,
+        470,
+        255
+      ]
+    },
+    {
+      "frame_idx": 1352,
+      "timestamp": 22.5452,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001352.jpg",
+      "front_wheel_conf": 0.9015,
+      "back_wheel_conf": 0.9143,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9189,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        388,
+        219,
+        424,
+        256
+      ],
+      "back_wheel_box": [
+        436,
+        218,
+        470,
+        255
+      ]
+    },
+    {
+      "frame_idx": 1353,
+      "timestamp": 22.5619,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001353.jpg",
+      "front_wheel_conf": 0.8971,
+      "back_wheel_conf": 0.9131,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.9189,
+      "front_wheel_box": [
+        388,
+        219,
+        424,
+        256
+      ],
+      "back_wheel_box": [
+        436,
+        219,
+        470,
+        255
+      ]
+    },
+    {
+      "frame_idx": 1354,
+      "timestamp": 22.5786,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001354.jpg",
+      "front_wheel_conf": 0.8965,
+      "back_wheel_conf": 0.9128,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        388,
+        220,
+        424,
+        256
+      ],
+      "back_wheel_box": [
+        436,
+        219,
+        470,
+        255
+      ]
+    },
+    {
+      "frame_idx": 1355,
+      "timestamp": 22.5953,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001355.jpg",
+      "front_wheel_conf": 0.9017,
+      "back_wheel_conf": 0.9157,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.9189,
+      "front_wheel_box": [
+        388,
+        219,
+        424,
+        256
+      ],
+      "back_wheel_box": [
+        436,
+        219,
+        470,
+        255
+      ]
+    },
+    {
+      "frame_idx": 1356,
+      "timestamp": 22.6119,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001356.jpg",
+      "front_wheel_conf": 0.8889,
+      "back_wheel_conf": 0.9162,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9167,
+      "size_match_ratio": 0.9167,
+      "front_wheel_box": [
+        388,
+        220,
+        424,
+        256
+      ],
+      "back_wheel_box": [
+        437,
+        219,
+        470,
+        255
+      ]
+    },
+    {
+      "frame_idx": 1357,
+      "timestamp": 22.6286,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001357.jpg",
+      "front_wheel_conf": 0.8919,
+      "back_wheel_conf": 0.9107,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9167,
+      "size_match_ratio": 0.9167,
+      "front_wheel_box": [
+        388,
+        220,
+        424,
+        256
+      ],
+      "back_wheel_box": [
+        437,
+        219,
+        470,
+        255
+      ]
+    },
+    {
+      "frame_idx": 1358,
+      "timestamp": 22.6453,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001358.jpg",
+      "front_wheel_conf": 0.8945,
+      "back_wheel_conf": 0.9022,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9143,
+      "size_match_ratio": 0.8642,
+      "front_wheel_box": [
+        388,
+        220,
+        424,
+        256
+      ],
+      "back_wheel_box": [
+        438,
+        220,
+        470,
+        255
+      ]
+    },
+    {
+      "frame_idx": 1359,
+      "timestamp": 22.662,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001359.jpg",
+      "front_wheel_conf": 0.8997,
+      "back_wheel_conf": 0.9047,
+      "front_squareness": 1.0,
+      "back_squareness": 0.8889,
+      "size_match_ratio": 0.8889,
+      "front_wheel_box": [
+        388,
+        220,
+        424,
+        256
+      ],
+      "back_wheel_box": [
+        438,
+        219,
+        470,
+        255
+      ]
+    },
+    {
+      "frame_idx": 1360,
+      "timestamp": 22.6787,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001360.jpg",
+      "front_wheel_conf": 0.9042,
+      "back_wheel_conf": 0.9039,
+      "front_squareness": 0.9722,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.9714,
+      "front_wheel_box": [
+        388,
+        220,
+        423,
+        256
+      ],
+      "back_wheel_box": [
+        437,
+        219,
+        471,
+        255
+      ]
+    },
+    {
+      "frame_idx": 1361,
+      "timestamp": 22.6953,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001361.jpg",
+      "front_wheel_conf": 0.8941,
+      "back_wheel_conf": 0.8971,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9722,
+      "size_match_ratio": 0.9459,
+      "front_wheel_box": [
+        388,
+        220,
+        424,
+        257
+      ],
+      "back_wheel_box": [
+        436,
+        219,
+        471,
+        255
+      ]
+    },
+    {
+      "frame_idx": 1362,
+      "timestamp": 22.712,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001362.jpg",
+      "front_wheel_conf": 0.8909,
+      "back_wheel_conf": 0.8901,
+      "front_squareness": 0.9189,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.973,
+      "front_wheel_box": [
+        389,
+        220,
+        423,
+        257
+      ],
+      "back_wheel_box": [
+        437,
+        219,
+        471,
+        255
+      ]
+    },
+    {
+      "frame_idx": 1363,
+      "timestamp": 22.7287,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001363.jpg",
+      "front_wheel_conf": 0.891,
+      "back_wheel_conf": 0.8954,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.9452,
+      "front_wheel_box": [
+        388,
+        220,
+        423,
+        257
+      ],
+      "back_wheel_box": [
+        437,
+        219,
+        471,
+        255
+      ]
+    },
+    {
+      "frame_idx": 1364,
+      "timestamp": 22.7454,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001364.jpg",
+      "front_wheel_conf": 0.9014,
+      "back_wheel_conf": 0.9044,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9459,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        388,
+        220,
+        423,
+        257
+      ],
+      "back_wheel_box": [
+        436,
+        219,
+        471,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1365,
+      "timestamp": 22.762,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001365.jpg",
+      "front_wheel_conf": 0.9033,
+      "back_wheel_conf": 0.9082,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.973,
+      "size_match_ratio": 0.9722,
+      "front_wheel_box": [
+        388,
+        220,
+        423,
+        257
+      ],
+      "back_wheel_box": [
+        435,
+        219,
+        471,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1366,
+      "timestamp": 22.7787,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001366.jpg",
+      "front_wheel_conf": 0.8985,
+      "back_wheel_conf": 0.9154,
+      "front_squareness": 0.9459,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9459,
+      "front_wheel_box": [
+        388,
+        220,
+        423,
+        257
+      ],
+      "back_wheel_box": [
+        434,
+        219,
+        471,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1367,
+      "timestamp": 22.7954,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001367.jpg",
+      "front_wheel_conf": 0.7596,
+      "back_wheel_conf": 0.9186,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.973,
+      "size_match_ratio": 0.9722,
+      "front_wheel_box": [
+        387,
+        220,
+        422,
+        257
+      ],
+      "back_wheel_box": [
+        434,
+        219,
+        470,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1368,
+      "timestamp": 22.8121,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001368.jpg",
+      "front_wheel_conf": 0.8786,
+      "back_wheel_conf": 0.9198,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.973,
+      "size_match_ratio": 0.9189,
+      "front_wheel_box": [
+        387,
+        221,
+        421,
+        257
+      ],
+      "back_wheel_box": [
+        434,
+        219,
+        470,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1369,
+      "timestamp": 22.8287,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001369.jpg",
+      "front_wheel_conf": 0.8838,
+      "back_wheel_conf": 0.9181,
+      "front_squareness": 0.9722,
+      "back_squareness": 0.973,
+      "size_match_ratio": 0.9459,
+      "front_wheel_box": [
+        386,
+        221,
+        421,
+        257
+      ],
+      "back_wheel_box": [
+        434,
+        219,
+        470,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1370,
+      "timestamp": 22.8454,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001370.jpg",
+      "front_wheel_conf": 0.8839,
+      "back_wheel_conf": 0.9161,
+      "front_squareness": 0.9189,
+      "back_squareness": 0.9737,
+      "size_match_ratio": 0.8947,
+      "front_wheel_box": [
+        386,
+        220,
+        420,
+        257
+      ],
+      "back_wheel_box": [
+        433,
+        219,
+        470,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1371,
+      "timestamp": 22.8621,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001371.jpg",
+      "front_wheel_conf": 0.8926,
+      "back_wheel_conf": 0.9187,
+      "front_squareness": 0.9459,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9459,
+      "front_wheel_box": [
+        385,
+        220,
+        420,
+        257
+      ],
+      "back_wheel_box": [
+        432,
+        219,
+        469,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1372,
+      "timestamp": 22.8788,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001372.jpg",
+      "front_wheel_conf": 0.8937,
+      "back_wheel_conf": 0.9184,
+      "front_squareness": 1.0,
+      "back_squareness": 0.973,
+      "size_match_ratio": 0.973,
+      "front_wheel_box": [
+        384,
+        221,
+        420,
+        257
+      ],
+      "back_wheel_box": [
+        433,
+        219,
+        469,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1373,
+      "timestamp": 22.8954,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001373.jpg",
+      "front_wheel_conf": 0.9068,
+      "back_wheel_conf": 0.9237,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9459,
+      "size_match_ratio": 0.9722,
+      "front_wheel_box": [
+        383,
+        220,
+        419,
+        257
+      ],
+      "back_wheel_box": [
+        433,
+        219,
+        468,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1374,
+      "timestamp": 22.9121,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001374.jpg",
+      "front_wheel_conf": 0.9077,
+      "back_wheel_conf": 0.9237,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.9189,
+      "front_wheel_box": [
+        383,
+        220,
+        419,
+        257
+      ],
+      "back_wheel_box": [
+        433,
+        220,
+        467,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1375,
+      "timestamp": 22.9288,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001375.jpg",
+      "front_wheel_conf": 0.9069,
+      "back_wheel_conf": 0.9238,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9722,
+      "size_match_ratio": 0.9459,
+      "front_wheel_box": [
+        383,
+        220,
+        419,
+        257
+      ],
+      "back_wheel_box": [
+        432,
+        220,
+        467,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1376,
+      "timestamp": 22.9455,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001376.jpg",
+      "front_wheel_conf": 0.9101,
+      "back_wheel_conf": 0.9276,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9722,
+      "size_match_ratio": 0.9204,
+      "front_wheel_box": [
+        382,
+        220,
+        419,
+        257
+      ],
+      "back_wheel_box": [
+        432,
+        220,
+        467,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1377,
+      "timestamp": 22.9621,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001377.jpg",
+      "front_wheel_conf": 0.9124,
+      "back_wheel_conf": 0.9269,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.8941,
+      "front_wheel_box": [
+        382,
+        220,
+        419,
+        257
+      ],
+      "back_wheel_box": [
+        432,
+        220,
+        466,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1378,
+      "timestamp": 22.9788,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001378.jpg",
+      "front_wheel_conf": 0.9125,
+      "back_wheel_conf": 0.925,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.9189,
+      "front_wheel_box": [
+        382,
+        220,
+        418,
+        257
+      ],
+      "back_wheel_box": [
+        432,
+        220,
+        466,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1379,
+      "timestamp": 22.9955,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001379.jpg",
+      "front_wheel_conf": 0.9148,
+      "back_wheel_conf": 0.9242,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.8941,
+      "front_wheel_box": [
+        381,
+        220,
+        418,
+        257
+      ],
+      "back_wheel_box": [
+        432,
+        220,
+        466,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1380,
+      "timestamp": 23.0122,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001380.jpg",
+      "front_wheel_conf": 0.9166,
+      "back_wheel_conf": 0.9218,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9722,
+      "size_match_ratio": 0.9459,
+      "front_wheel_box": [
+        381,
+        220,
+        417,
+        257
+      ],
+      "back_wheel_box": [
+        431,
+        220,
+        466,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1381,
+      "timestamp": 23.0288,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001381.jpg",
+      "front_wheel_conf": 0.9131,
+      "back_wheel_conf": 0.9166,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9189,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        381,
+        220,
+        417,
+        257
+      ],
+      "back_wheel_box": [
+        431,
+        220,
+        465,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1382,
+      "timestamp": 23.0455,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001382.jpg",
+      "front_wheel_conf": 0.9091,
+      "back_wheel_conf": 0.9157,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9189,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        380,
+        220,
+        416,
+        257
+      ],
+      "back_wheel_box": [
+        430,
+        220,
+        464,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1383,
+      "timestamp": 23.0622,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001383.jpg",
+      "front_wheel_conf": 0.9067,
+      "back_wheel_conf": 0.9139,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9189,
+      "size_match_ratio": 0.9714,
+      "front_wheel_box": [
+        380,
+        220,
+        415,
+        257
+      ],
+      "back_wheel_box": [
+        430,
+        220,
+        464,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1384,
+      "timestamp": 23.0789,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001384.jpg",
+      "front_wheel_conf": 0.9012,
+      "back_wheel_conf": 0.9122,
+      "front_squareness": 0.973,
+      "back_squareness": 0.8919,
+      "size_match_ratio": 0.9167,
+      "front_wheel_box": [
+        379,
+        220,
+        415,
+        257
+      ],
+      "back_wheel_box": [
+        430,
+        220,
+        463,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1385,
+      "timestamp": 23.0955,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001385.jpg",
+      "front_wheel_conf": 0.8949,
+      "back_wheel_conf": 0.9196,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9211,
+      "size_match_ratio": 0.9737,
+      "front_wheel_box": [
+        379,
+        220,
+        414,
+        257
+      ],
+      "back_wheel_box": [
+        428,
+        219,
+        463,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1386,
+      "timestamp": 23.1122,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001386.jpg",
+      "front_wheel_conf": 0.8934,
+      "back_wheel_conf": 0.9207,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9474,
+      "size_match_ratio": 0.9466,
+      "front_wheel_box": [
+        379,
+        220,
+        414,
+        257
+      ],
+      "back_wheel_box": [
+        427,
+        219,
+        463,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1387,
+      "timestamp": 23.1289,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001387.jpg",
+      "front_wheel_conf": 0.9001,
+      "back_wheel_conf": 0.8173,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.9452,
+      "front_wheel_box": [
+        379,
+        220,
+        414,
+        257
+      ],
+      "back_wheel_box": [
+        428,
+        220,
+        462,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1388,
+      "timestamp": 23.1456,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001388.jpg",
+      "front_wheel_conf": 0.9048,
+      "back_wheel_conf": 0.8861,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9189,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        378,
+        220,
+        414,
+        257
+      ],
+      "back_wheel_box": [
+        428,
+        219,
+        462,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1389,
+      "timestamp": 23.1622,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001389.jpg",
+      "front_wheel_conf": 0.9022,
+      "back_wheel_conf": 0.8869,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.9452,
+      "front_wheel_box": [
+        378,
+        220,
+        413,
+        257
+      ],
+      "back_wheel_box": [
+        428,
+        220,
+        462,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1390,
+      "timestamp": 23.1789,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001390.jpg",
+      "front_wheel_conf": 0.9109,
+      "back_wheel_conf": 0.9049,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9459,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        378,
+        220,
+        413,
+        257
+      ],
+      "back_wheel_box": [
+        427,
+        220,
+        462,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1391,
+      "timestamp": 23.1956,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001391.jpg",
+      "front_wheel_conf": 0.8971,
+      "back_wheel_conf": 0.885,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9722,
+      "size_match_ratio": 0.973,
+      "front_wheel_box": [
+        378,
+        220,
+        413,
+        257
+      ],
+      "back_wheel_box": [
+        427,
+        220,
+        462,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1392,
+      "timestamp": 23.2123,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001392.jpg",
+      "front_wheel_conf": 0.89,
+      "back_wheel_conf": 0.8825,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9722,
+      "size_match_ratio": 0.973,
+      "front_wheel_box": [
+        378,
+        220,
+        413,
+        257
+      ],
+      "back_wheel_box": [
+        427,
+        220,
+        462,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1393,
+      "timestamp": 23.2289,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001393.jpg",
+      "front_wheel_conf": 0.8863,
+      "back_wheel_conf": 0.868,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9722,
+      "size_match_ratio": 0.973,
+      "front_wheel_box": [
+        378,
+        220,
+        413,
+        257
+      ],
+      "back_wheel_box": [
+        427,
+        220,
+        462,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1394,
+      "timestamp": 23.2456,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001394.jpg",
+      "front_wheel_conf": 0.8908,
+      "back_wheel_conf": 0.8778,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9722,
+      "size_match_ratio": 0.973,
+      "front_wheel_box": [
+        378,
+        220,
+        413,
+        257
+      ],
+      "back_wheel_box": [
+        427,
+        220,
+        462,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1395,
+      "timestamp": 23.2623,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001395.jpg",
+      "front_wheel_conf": 0.8859,
+      "back_wheel_conf": 0.8781,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.9452,
+      "front_wheel_box": [
+        378,
+        220,
+        413,
+        257
+      ],
+      "back_wheel_box": [
+        428,
+        220,
+        462,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1396,
+      "timestamp": 23.279,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001396.jpg",
+      "front_wheel_conf": 0.8718,
+      "back_wheel_conf": 0.8597,
+      "front_squareness": 0.9722,
+      "back_squareness": 0.9167,
+      "size_match_ratio": 0.9429,
+      "front_wheel_box": [
+        378,
+        221,
+        413,
+        257
+      ],
+      "back_wheel_box": [
+        428,
+        220,
+        461,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1397,
+      "timestamp": 23.2956,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001397.jpg",
+      "front_wheel_conf": 0.8766,
+      "back_wheel_conf": 0.8692,
+      "front_squareness": 0.9722,
+      "back_squareness": 0.9167,
+      "size_match_ratio": 0.9429,
+      "front_wheel_box": [
+        378,
+        221,
+        413,
+        257
+      ],
+      "back_wheel_box": [
+        428,
+        220,
+        461,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1398,
+      "timestamp": 23.3123,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001398.jpg",
+      "front_wheel_conf": 0.8624,
+      "back_wheel_conf": 0.872,
+      "front_squareness": 0.9722,
+      "back_squareness": 0.9167,
+      "size_match_ratio": 0.9429,
+      "front_wheel_box": [
+        377,
+        221,
+        412,
+        257
+      ],
+      "back_wheel_box": [
+        428,
+        220,
+        461,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1399,
+      "timestamp": 23.329,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001399.jpg",
+      "front_wheel_conf": 0.8248,
+      "back_wheel_conf": 0.8651,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9167,
+      "size_match_ratio": 0.9174,
+      "front_wheel_box": [
+        377,
+        220,
+        412,
+        257
+      ],
+      "back_wheel_box": [
+        428,
+        220,
+        461,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1400,
+      "timestamp": 23.3457,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001400.jpg",
+      "front_wheel_conf": 0.8759,
+      "back_wheel_conf": 0.8726,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.9167,
+      "size_match_ratio": 0.9706,
+      "front_wheel_box": [
+        377,
+        221,
+        411,
+        257
+      ],
+      "back_wheel_box": [
+        428,
+        220,
+        461,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1401,
+      "timestamp": 23.3623,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001401.jpg",
+      "front_wheel_conf": 0.8925,
+      "back_wheel_conf": 0.8656,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.9167,
+      "size_match_ratio": 0.9706,
+      "front_wheel_box": [
+        377,
+        221,
+        411,
+        257
+      ],
+      "back_wheel_box": [
+        428,
+        220,
+        461,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1402,
+      "timestamp": 23.379,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001402.jpg",
+      "front_wheel_conf": 0.8884,
+      "back_wheel_conf": 0.8655,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        377,
+        221,
+        411,
+        257
+      ],
+      "back_wheel_box": [
+        427,
+        220,
+        461,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1403,
+      "timestamp": 23.3957,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001403.jpg",
+      "front_wheel_conf": 0.8892,
+      "back_wheel_conf": 0.8726,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.9722,
+      "size_match_ratio": 0.9714,
+      "front_wheel_box": [
+        377,
+        221,
+        411,
+        257
+      ],
+      "back_wheel_box": [
+        426,
+        220,
+        461,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1404,
+      "timestamp": 23.4124,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001404.jpg",
+      "front_wheel_conf": 0.8894,
+      "back_wheel_conf": 0.8757,
+      "front_squareness": 0.9722,
+      "back_squareness": 0.9189,
+      "size_match_ratio": 0.9984,
+      "front_wheel_box": [
+        376,
+        221,
+        411,
+        257
+      ],
+      "back_wheel_box": [
+        426,
+        219,
+        460,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1405,
+      "timestamp": 23.429,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001405.jpg",
+      "front_wheel_conf": 0.8927,
+      "back_wheel_conf": 0.885,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.9189,
+      "size_match_ratio": 0.973,
+      "front_wheel_box": [
+        376,
+        221,
+        410,
+        257
+      ],
+      "back_wheel_box": [
+        426,
+        219,
+        460,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1406,
+      "timestamp": 23.4457,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001406.jpg",
+      "front_wheel_conf": 0.8977,
+      "back_wheel_conf": 0.8906,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.9722,
+      "size_match_ratio": 0.9714,
+      "front_wheel_box": [
+        376,
+        221,
+        410,
+        257
+      ],
+      "back_wheel_box": [
+        425,
+        220,
+        460,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1407,
+      "timestamp": 23.4624,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001407.jpg",
+      "front_wheel_conf": 0.895,
+      "back_wheel_conf": 0.8961,
+      "front_squareness": 0.9189,
+      "back_squareness": 0.973,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        376,
+        220,
+        410,
+        257
+      ],
+      "back_wheel_box": [
+        424,
+        219,
+        460,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1408,
+      "timestamp": 23.4791,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001408.jpg",
+      "front_wheel_conf": 0.8996,
+      "back_wheel_conf": 0.8932,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.973,
+      "size_match_ratio": 0.9722,
+      "front_wheel_box": [
+        375,
+        220,
+        410,
+        257
+      ],
+      "back_wheel_box": [
+        423,
+        219,
+        459,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1409,
+      "timestamp": 23.4958,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001409.jpg",
+      "front_wheel_conf": 0.9048,
+      "back_wheel_conf": 0.9039,
+      "front_squareness": 0.9459,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9459,
+      "front_wheel_box": [
+        374,
+        220,
+        409,
+        257
+      ],
+      "back_wheel_box": [
+        422,
+        219,
+        459,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1410,
+      "timestamp": 23.5124,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001410.jpg",
+      "front_wheel_conf": 0.9081,
+      "back_wheel_conf": 0.9088,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9737,
+      "size_match_ratio": 0.9474,
+      "front_wheel_box": [
+        373,
+        220,
+        409,
+        257
+      ],
+      "back_wheel_box": [
+        422,
+        219,
+        459,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1411,
+      "timestamp": 23.5291,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001411.jpg",
+      "front_wheel_conf": 0.9121,
+      "back_wheel_conf": 0.9099,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9737,
+      "size_match_ratio": 0.9211,
+      "front_wheel_box": [
+        373,
+        220,
+        408,
+        257
+      ],
+      "back_wheel_box": [
+        421,
+        219,
+        458,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1412,
+      "timestamp": 23.5458,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001412.jpg",
+      "front_wheel_conf": 0.9062,
+      "back_wheel_conf": 0.9073,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9211,
+      "size_match_ratio": 0.9985,
+      "front_wheel_box": [
+        372,
+        220,
+        408,
+        257
+      ],
+      "back_wheel_box": [
+        422,
+        219,
+        457,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1413,
+      "timestamp": 23.5625,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001413.jpg",
+      "front_wheel_conf": 0.9043,
+      "back_wheel_conf": 0.9171,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9474,
+      "size_match_ratio": 0.9737,
+      "front_wheel_box": [
+        372,
+        220,
+        408,
+        257
+      ],
+      "back_wheel_box": [
+        421,
+        219,
+        457,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1414,
+      "timestamp": 23.5791,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001414.jpg",
+      "front_wheel_conf": 0.905,
+      "back_wheel_conf": 0.9188,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9474,
+      "size_match_ratio": 0.9993,
+      "front_wheel_box": [
+        371,
+        220,
+        408,
+        257
+      ],
+      "back_wheel_box": [
+        420,
+        219,
+        456,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1415,
+      "timestamp": 23.5958,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001415.jpg",
+      "front_wheel_conf": 0.9067,
+      "back_wheel_conf": 0.9047,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9211,
+      "size_match_ratio": 0.9985,
+      "front_wheel_box": [
+        371,
+        220,
+        407,
+        257
+      ],
+      "back_wheel_box": [
+        421,
+        219,
+        456,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1416,
+      "timestamp": 23.6125,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001416.jpg",
+      "front_wheel_conf": 0.9046,
+      "back_wheel_conf": 0.9093,
+      "front_squareness": 0.973,
+      "back_squareness": 0.973,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        371,
+        220,
+        407,
+        257
+      ],
+      "back_wheel_box": [
+        420,
+        219,
+        456,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1417,
+      "timestamp": 23.6292,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001417.jpg",
+      "front_wheel_conf": 0.9021,
+      "back_wheel_conf": 0.9067,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9459,
+      "size_match_ratio": 0.9722,
+      "front_wheel_box": [
+        371,
+        220,
+        407,
+        257
+      ],
+      "back_wheel_box": [
+        420,
+        220,
+        455,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1418,
+      "timestamp": 23.6458,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001418.jpg",
+      "front_wheel_conf": 0.9004,
+      "back_wheel_conf": 0.9063,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9459,
+      "size_match_ratio": 0.9722,
+      "front_wheel_box": [
+        371,
+        220,
+        407,
+        257
+      ],
+      "back_wheel_box": [
+        420,
+        220,
+        455,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1419,
+      "timestamp": 23.6625,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001419.jpg",
+      "front_wheel_conf": 0.9043,
+      "back_wheel_conf": 0.9091,
+      "front_squareness": 0.9474,
+      "back_squareness": 0.9189,
+      "size_match_ratio": 0.9196,
+      "front_wheel_box": [
+        371,
+        219,
+        407,
+        257
+      ],
+      "back_wheel_box": [
+        421,
+        220,
+        455,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1420,
+      "timestamp": 23.6792,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001420.jpg",
+      "front_wheel_conf": 0.9078,
+      "back_wheel_conf": 0.9119,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9459,
+      "size_match_ratio": 0.9722,
+      "front_wheel_box": [
+        371,
+        220,
+        407,
+        257
+      ],
+      "back_wheel_box": [
+        421,
+        220,
+        456,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1421,
+      "timestamp": 23.6959,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001421.jpg",
+      "front_wheel_conf": 0.9058,
+      "back_wheel_conf": 0.9148,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.9189,
+      "front_wheel_box": [
+        371,
+        220,
+        407,
+        257
+      ],
+      "back_wheel_box": [
+        422,
+        220,
+        456,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1422,
+      "timestamp": 23.7125,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001422.jpg",
+      "front_wheel_conf": 0.9058,
+      "back_wheel_conf": 0.9206,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9459,
+      "size_match_ratio": 0.9722,
+      "front_wheel_box": [
+        371,
+        220,
+        407,
+        257
+      ],
+      "back_wheel_box": [
+        421,
+        219,
+        456,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1423,
+      "timestamp": 23.7292,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001423.jpg",
+      "front_wheel_conf": 0.9035,
+      "back_wheel_conf": 0.9209,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9459,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        372,
+        220,
+        407,
+        257
+      ],
+      "back_wheel_box": [
+        421,
+        219,
+        456,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1424,
+      "timestamp": 23.7459,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001424.jpg",
+      "front_wheel_conf": 0.9099,
+      "back_wheel_conf": 0.9244,
+      "front_squareness": 0.9474,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9993,
+      "front_wheel_box": [
+        371,
+        219,
+        407,
+        257
+      ],
+      "back_wheel_box": [
+        419,
+        219,
+        456,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1425,
+      "timestamp": 23.7626,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001425.jpg",
+      "front_wheel_conf": 0.9143,
+      "back_wheel_conf": 0.9228,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9737,
+      "size_match_ratio": 0.9218,
+      "front_wheel_box": [
+        371,
+        220,
+        407,
+        256
+      ],
+      "back_wheel_box": [
+        419,
+        219,
+        456,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1426,
+      "timestamp": 23.7792,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001426.jpg",
+      "front_wheel_conf": 0.9151,
+      "back_wheel_conf": 0.9286,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9744,
+      "size_match_ratio": 0.8745,
+      "front_wheel_box": [
+        371,
+        220,
+        407,
+        256
+      ],
+      "back_wheel_box": [
+        418,
+        218,
+        456,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1427,
+      "timestamp": 23.7959,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001427.jpg",
+      "front_wheel_conf": 0.8604,
+      "back_wheel_conf": 0.9299,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9487,
+      "size_match_ratio": 0.8981,
+      "front_wheel_box": [
+        370,
+        220,
+        406,
+        256
+      ],
+      "back_wheel_box": [
+        418,
+        218,
+        455,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1428,
+      "timestamp": 23.8126,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001428.jpg",
+      "front_wheel_conf": 0.9155,
+      "back_wheel_conf": 0.9203,
+      "front_squareness": 0.973,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9224,
+      "front_wheel_box": [
+        370,
+        220,
+        406,
+        257
+      ],
+      "back_wheel_box": [
+        417,
+        219,
+        455,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1429,
+      "timestamp": 23.8293,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001429.jpg",
+      "front_wheel_conf": 0.918,
+      "back_wheel_conf": 0.921,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9737,
+      "size_match_ratio": 0.9211,
+      "front_wheel_box": [
+        370,
+        220,
+        405,
+        257
+      ],
+      "back_wheel_box": [
+        417,
+        219,
+        454,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1430,
+      "timestamp": 23.8459,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001430.jpg",
+      "front_wheel_conf": 0.9145,
+      "back_wheel_conf": 0.9273,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9474,
+      "size_match_ratio": 0.9737,
+      "front_wheel_box": [
+        369,
+        220,
+        405,
+        257
+      ],
+      "back_wheel_box": [
+        417,
+        219,
+        453,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1431,
+      "timestamp": 23.8626,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001431.jpg",
+      "front_wheel_conf": 0.9129,
+      "back_wheel_conf": 0.9041,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9722,
+      "size_match_ratio": 0.973,
+      "front_wheel_box": [
+        369,
+        220,
+        404,
+        257
+      ],
+      "back_wheel_box": [
+        417,
+        220,
+        452,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1432,
+      "timestamp": 23.8793,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001432.jpg",
+      "front_wheel_conf": 0.9184,
+      "back_wheel_conf": 0.8965,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9459,
+      "size_match_ratio": 0.9992,
+      "front_wheel_box": [
+        369,
+        221,
+        405,
+        257
+      ],
+      "back_wheel_box": [
+        417,
+        220,
+        452,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1433,
+      "timestamp": 23.896,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001433.jpg",
+      "front_wheel_conf": 0.9125,
+      "back_wheel_conf": 0.8849,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9189,
+      "size_match_ratio": 0.9707,
+      "front_wheel_box": [
+        368,
+        221,
+        404,
+        257
+      ],
+      "back_wheel_box": [
+        417,
+        220,
+        451,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1434,
+      "timestamp": 23.9126,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001434.jpg",
+      "front_wheel_conf": 0.8984,
+      "back_wheel_conf": 0.8738,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9459,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        368,
+        220,
+        403,
+        257
+      ],
+      "back_wheel_box": [
+        416,
+        220,
+        451,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1435,
+      "timestamp": 23.9293,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001435.jpg",
+      "front_wheel_conf": 0.8875,
+      "back_wheel_conf": 0.8875,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.9189,
+      "front_wheel_box": [
+        367,
+        220,
+        403,
+        257
+      ],
+      "back_wheel_box": [
+        416,
+        220,
+        450,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1436,
+      "timestamp": 23.946,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001436.jpg",
+      "front_wheel_conf": 0.8846,
+      "back_wheel_conf": 0.8973,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.9189,
+      "front_wheel_box": [
+        367,
+        220,
+        403,
+        257
+      ],
+      "back_wheel_box": [
+        416,
+        220,
+        450,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1437,
+      "timestamp": 23.9627,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001437.jpg",
+      "front_wheel_conf": 0.8723,
+      "back_wheel_conf": 0.9001,
+      "front_squareness": 0.9459,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.9452,
+      "front_wheel_box": [
+        366,
+        220,
+        401,
+        257
+      ],
+      "back_wheel_box": [
+        416,
+        220,
+        450,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1438,
+      "timestamp": 23.9793,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001438.jpg",
+      "front_wheel_conf": 0.8882,
+      "back_wheel_conf": 0.9011,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.9722,
+      "size_match_ratio": 0.9714,
+      "front_wheel_box": [
+        367,
+        221,
+        401,
+        257
+      ],
+      "back_wheel_box": [
+        415,
+        220,
+        450,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1439,
+      "timestamp": 23.996,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001439.jpg",
+      "front_wheel_conf": 0.8845,
+      "back_wheel_conf": 0.9079,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        366,
+        221,
+        400,
+        257
+      ],
+      "back_wheel_box": [
+        415,
+        220,
+        449,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1440,
+      "timestamp": 24.0127,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001440.jpg",
+      "front_wheel_conf": 0.8852,
+      "back_wheel_conf": 0.9099,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        366,
+        221,
+        400,
+        257
+      ],
+      "back_wheel_box": [
+        415,
+        220,
+        449,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1441,
+      "timestamp": 24.0294,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001441.jpg",
+      "front_wheel_conf": 0.8867,
+      "back_wheel_conf": 0.9133,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.9189,
+      "size_match_ratio": 0.973,
+      "front_wheel_box": [
+        366,
+        221,
+        400,
+        257
+      ],
+      "back_wheel_box": [
+        415,
+        220,
+        449,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1442,
+      "timestamp": 24.046,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001442.jpg",
+      "front_wheel_conf": 0.883,
+      "back_wheel_conf": 0.9163,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        366,
+        221,
+        400,
+        257
+      ],
+      "back_wheel_box": [
+        414,
+        220,
+        448,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1443,
+      "timestamp": 24.0627,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001443.jpg",
+      "front_wheel_conf": 0.8835,
+      "back_wheel_conf": 0.9179,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.9459,
+      "size_match_ratio": 0.9452,
+      "front_wheel_box": [
+        366,
+        221,
+        400,
+        257
+      ],
+      "back_wheel_box": [
+        413,
+        220,
+        448,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1444,
+      "timestamp": 24.0794,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001444.jpg",
+      "front_wheel_conf": 0.8789,
+      "back_wheel_conf": 0.9144,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.9459,
+      "size_match_ratio": 0.9452,
+      "front_wheel_box": [
+        366,
+        221,
+        400,
+        257
+      ],
+      "back_wheel_box": [
+        414,
+        220,
+        449,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1445,
+      "timestamp": 24.0961,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001445.jpg",
+      "front_wheel_conf": 0.8754,
+      "back_wheel_conf": 0.9162,
+      "front_squareness": 0.9167,
+      "back_squareness": 0.973,
+      "size_match_ratio": 0.8919,
+      "front_wheel_box": [
+        367,
+        221,
+        400,
+        257
+      ],
+      "back_wheel_box": [
+        413,
+        220,
+        449,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1446,
+      "timestamp": 24.1127,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001446.jpg",
+      "front_wheel_conf": 0.9095,
+      "back_wheel_conf": 0.9183,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.973,
+      "size_match_ratio": 0.9189,
+      "front_wheel_box": [
+        367,
+        221,
+        401,
+        257
+      ],
+      "back_wheel_box": [
+        413,
+        220,
+        449,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1447,
+      "timestamp": 24.1294,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001447.jpg",
+      "front_wheel_conf": 0.9066,
+      "back_wheel_conf": 0.9125,
+      "front_squareness": 0.9444,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.8941,
+      "front_wheel_box": [
+        368,
+        221,
+        402,
+        257
+      ],
+      "back_wheel_box": [
+        413,
+        220,
+        450,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1448,
+      "timestamp": 24.1461,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001448.jpg",
+      "front_wheel_conf": 0.9148,
+      "back_wheel_conf": 0.9108,
+      "front_squareness": 1.0,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.8948,
+      "front_wheel_box": [
+        368,
+        222,
+        403,
+        257
+      ],
+      "back_wheel_box": [
+        413,
+        220,
+        450,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1449,
+      "timestamp": 24.1628,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001449.jpg",
+      "front_wheel_conf": 0.9119,
+      "back_wheel_conf": 0.9111,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.973,
+      "size_match_ratio": 0.9189,
+      "front_wheel_box": [
+        369,
+        221,
+        403,
+        257
+      ],
+      "back_wheel_box": [
+        414,
+        220,
+        450,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1450,
+      "timestamp": 24.1794,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001450.jpg",
+      "front_wheel_conf": 0.916,
+      "back_wheel_conf": 0.9067,
+      "front_squareness": 0.9714,
+      "back_squareness": 0.9459,
+      "size_match_ratio": 0.9189,
+      "front_wheel_box": [
+        369,
+        222,
+        403,
+        257
+      ],
+      "back_wheel_box": [
+        415,
+        220,
+        450,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1451,
+      "timestamp": 24.1961,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001451.jpg",
+      "front_wheel_conf": 0.9165,
+      "back_wheel_conf": 0.8999,
+      "front_squareness": 0.9167,
+      "back_squareness": 0.9189,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        370,
+        221,
+        403,
+        257
+      ],
+      "back_wheel_box": [
+        416,
+        220,
+        450,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1452,
+      "timestamp": 24.2128,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001452.jpg",
+      "front_wheel_conf": 0.9188,
+      "back_wheel_conf": 0.8984,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.973,
+      "size_match_ratio": 0.9189,
+      "front_wheel_box": [
+        370,
+        221,
+        404,
+        257
+      ],
+      "back_wheel_box": [
+        415,
+        220,
+        451,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1453,
+      "timestamp": 24.2295,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001453.jpg",
+      "front_wheel_conf": 0.9237,
+      "back_wheel_conf": 0.9001,
+      "front_squareness": 0.9722,
+      "back_squareness": 0.9459,
+      "size_match_ratio": 0.973,
+      "front_wheel_box": [
+        370,
+        221,
+        405,
+        257
+      ],
+      "back_wheel_box": [
+        416,
+        220,
+        451,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1454,
+      "timestamp": 24.2461,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001454.jpg",
+      "front_wheel_conf": 0.9231,
+      "back_wheel_conf": 0.8937,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.9189,
+      "size_match_ratio": 0.973,
+      "front_wheel_box": [
+        371,
+        221,
+        405,
+        257
+      ],
+      "back_wheel_box": [
+        417,
+        220,
+        451,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1455,
+      "timestamp": 24.2628,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001455.jpg",
+      "front_wheel_conf": 0.9207,
+      "back_wheel_conf": 0.8865,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        371,
+        221,
+        405,
+        257
+      ],
+      "back_wheel_box": [
+        417,
+        220,
+        451,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1456,
+      "timestamp": 24.2795,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001456.jpg",
+      "front_wheel_conf": 0.9181,
+      "back_wheel_conf": 0.8856,
+      "front_squareness": 0.9167,
+      "back_squareness": 0.9714,
+      "size_match_ratio": 0.9983,
+      "front_wheel_box": [
+        371,
+        221,
+        404,
+        257
+      ],
+      "back_wheel_box": [
+        417,
+        221,
+        451,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1457,
+      "timestamp": 24.2962,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001457.jpg",
+      "front_wheel_conf": 0.9161,
+      "back_wheel_conf": 0.8884,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.9143,
+      "size_match_ratio": 0.915,
+      "front_wheel_box": [
+        370,
+        221,
+        404,
+        257
+      ],
+      "back_wheel_box": [
+        418,
+        221,
+        450,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1458,
+      "timestamp": 24.3128,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001458.jpg",
+      "front_wheel_conf": 0.9216,
+      "back_wheel_conf": 0.8945,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.9143,
+      "size_match_ratio": 0.915,
+      "front_wheel_box": [
+        370,
+        221,
+        404,
+        257
+      ],
+      "back_wheel_box": [
+        418,
+        221,
+        450,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1459,
+      "timestamp": 24.3295,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001459.jpg",
+      "front_wheel_conf": 0.917,
+      "back_wheel_conf": 0.8918,
+      "front_squareness": 0.9722,
+      "back_squareness": 0.8857,
+      "size_match_ratio": 0.8611,
+      "front_wheel_box": [
+        369,
+        221,
+        404,
+        257
+      ],
+      "back_wheel_box": [
+        418,
+        221,
+        449,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1460,
+      "timestamp": 24.3462,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001460.jpg",
+      "front_wheel_conf": 0.9128,
+      "back_wheel_conf": 0.8833,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.8857,
+      "size_match_ratio": 0.8864,
+      "front_wheel_box": [
+        369,
+        221,
+        403,
+        257
+      ],
+      "back_wheel_box": [
+        418,
+        221,
+        449,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1461,
+      "timestamp": 24.3629,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001461.jpg",
+      "front_wheel_conf": 0.9114,
+      "back_wheel_conf": 0.8957,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.8857,
+      "size_match_ratio": 0.8864,
+      "front_wheel_box": [
+        368,
+        221,
+        402,
+        257
+      ],
+      "back_wheel_box": [
+        417,
+        221,
+        448,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1462,
+      "timestamp": 24.3796,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001462.jpg",
+      "front_wheel_conf": 0.915,
+      "back_wheel_conf": 0.9142,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        367,
+        221,
+        401,
+        257
+      ],
+      "back_wheel_box": [
+        414,
+        220,
+        448,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1463,
+      "timestamp": 24.3962,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001463.jpg",
+      "front_wheel_conf": 0.8509,
+      "back_wheel_conf": 0.918,
+      "front_squareness": 0.9143,
+      "back_squareness": 0.9167,
+      "size_match_ratio": 0.9428,
+      "front_wheel_box": [
+        368,
+        222,
+        400,
+        257
+      ],
+      "back_wheel_box": [
+        413,
+        220,
+        446,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1464,
+      "timestamp": 24.4129,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001464.jpg",
+      "front_wheel_conf": 0.8726,
+      "back_wheel_conf": 0.915,
+      "front_squareness": 0.9143,
+      "back_squareness": 0.9722,
+      "size_match_ratio": 0.8889,
+      "front_wheel_box": [
+        367,
+        221,
+        399,
+        256
+      ],
+      "back_wheel_box": [
+        411,
+        220,
+        446,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1465,
+      "timestamp": 24.4296,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001465.jpg",
+      "front_wheel_conf": 0.8777,
+      "back_wheel_conf": 0.9186,
+      "front_squareness": 0.9167,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.9706,
+      "front_wheel_box": [
+        366,
+        221,
+        399,
+        257
+      ],
+      "back_wheel_box": [
+        411,
+        221,
+        445,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1466,
+      "timestamp": 24.4463,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001466.jpg",
+      "front_wheel_conf": 0.8907,
+      "back_wheel_conf": 0.9164,
+      "front_squareness": 0.9167,
+      "back_squareness": 0.9459,
+      "size_match_ratio": 0.9174,
+      "front_wheel_box": [
+        365,
+        221,
+        398,
+        257
+      ],
+      "back_wheel_box": [
+        409,
+        220,
+        444,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1467,
+      "timestamp": 24.4629,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001467.jpg",
+      "front_wheel_conf": 0.9034,
+      "back_wheel_conf": 0.9223,
+      "front_squareness": 0.8919,
+      "back_squareness": 0.9189,
+      "size_match_ratio": 0.9706,
+      "front_wheel_box": [
+        364,
+        220,
+        397,
+        257
+      ],
+      "back_wheel_box": [
+        408,
+        220,
+        442,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1468,
+      "timestamp": 24.4796,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001468.jpg",
+      "front_wheel_conf": 0.9106,
+      "back_wheel_conf": 0.8829,
+      "front_squareness": 0.9167,
+      "back_squareness": 0.9167,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        363,
+        221,
+        396,
+        257
+      ],
+      "back_wheel_box": [
+        408,
+        220,
+        441,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1469,
+      "timestamp": 24.4963,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001469.jpg",
+      "front_wheel_conf": 0.9151,
+      "back_wheel_conf": 0.8678,
+      "front_squareness": 0.9143,
+      "back_squareness": 0.9429,
+      "size_match_ratio": 0.9697,
+      "front_wheel_box": [
+        363,
+        221,
+        395,
+        256
+      ],
+      "back_wheel_box": [
+        407,
+        221,
+        440,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1470,
+      "timestamp": 24.513,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001470.jpg",
+      "front_wheel_conf": 0.9157,
+      "back_wheel_conf": 0.868,
+      "front_squareness": 0.9143,
+      "back_squareness": 0.9714,
+      "size_match_ratio": 0.9412,
+      "front_wheel_box": [
+        362,
+        221,
+        394,
+        256
+      ],
+      "back_wheel_box": [
+        406,
+        221,
+        440,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1471,
+      "timestamp": 24.5296,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001471.jpg",
+      "front_wheel_conf": 0.9054,
+      "back_wheel_conf": 0.8733,
+      "front_squareness": 0.9167,
+      "back_squareness": 0.9714,
+      "size_match_ratio": 0.9983,
+      "front_wheel_box": [
+        361,
+        221,
+        394,
+        257
+      ],
+      "back_wheel_box": [
+        405,
+        221,
+        439,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1472,
+      "timestamp": 24.5463,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001472.jpg",
+      "front_wheel_conf": 0.9005,
+      "back_wheel_conf": 0.8805,
+      "front_squareness": 0.9143,
+      "back_squareness": 0.9143,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        361,
+        221,
+        393,
+        256
+      ],
+      "back_wheel_box": [
+        406,
+        221,
+        438,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1473,
+      "timestamp": 24.563,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001473.jpg",
+      "front_wheel_conf": 0.8921,
+      "back_wheel_conf": 0.8975,
+      "front_squareness": 0.8649,
+      "back_squareness": 0.9143,
+      "size_match_ratio": 0.9459,
+      "front_wheel_box": [
+        360,
+        220,
+        392,
+        257
+      ],
+      "back_wheel_box": [
+        405,
+        221,
+        437,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1474,
+      "timestamp": 24.5797,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001474.jpg",
+      "front_wheel_conf": 0.882,
+      "back_wheel_conf": 0.9001,
+      "front_squareness": 0.8649,
+      "back_squareness": 0.9429,
+      "size_match_ratio": 0.9755,
+      "front_wheel_box": [
+        359,
+        220,
+        391,
+        257
+      ],
+      "back_wheel_box": [
+        404,
+        221,
+        437,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1475,
+      "timestamp": 24.5963,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001475.jpg",
+      "front_wheel_conf": 0.8827,
+      "back_wheel_conf": 0.9028,
+      "front_squareness": 0.8889,
+      "back_squareness": 0.9429,
+      "size_match_ratio": 0.9974,
+      "front_wheel_box": [
+        358,
+        221,
+        390,
+        257
+      ],
+      "back_wheel_box": [
+        403,
+        221,
+        436,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1476,
+      "timestamp": 24.613,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001476.jpg",
+      "front_wheel_conf": 0.7547,
+      "back_wheel_conf": 0.9019,
+      "front_squareness": 0.9118,
+      "back_squareness": 0.9143,
+      "size_match_ratio": 0.9411,
+      "front_wheel_box": [
+        358,
+        222,
+        389,
+        256
+      ],
+      "back_wheel_box": [
+        403,
+        221,
+        435,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1477,
+      "timestamp": 24.6297,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001477.jpg",
+      "front_wheel_conf": 0.8946,
+      "back_wheel_conf": 0.8998,
+      "front_squareness": 0.8571,
+      "back_squareness": 0.9143,
+      "size_match_ratio": 0.9375,
+      "front_wheel_box": [
+        358,
+        221,
+        388,
+        256
+      ],
+      "back_wheel_box": [
+        402,
+        221,
+        434,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1478,
+      "timestamp": 24.6464,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001478.jpg",
+      "front_wheel_conf": 0.8986,
+      "back_wheel_conf": 0.8979,
+      "front_squareness": 0.8857,
+      "back_squareness": 0.8857,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        357,
+        221,
+        388,
+        256
+      ],
+      "back_wheel_box": [
+        402,
+        221,
+        433,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1479,
+      "timestamp": 24.663,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001479.jpg",
+      "front_wheel_conf": 0.8993,
+      "back_wheel_conf": 0.9007,
+      "front_squareness": 0.8857,
+      "back_squareness": 0.8857,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        357,
+        221,
+        388,
+        256
+      ],
+      "back_wheel_box": [
+        401,
+        221,
+        432,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1480,
+      "timestamp": 24.6797,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001480.jpg",
+      "front_wheel_conf": 0.9002,
+      "back_wheel_conf": 0.8983,
+      "front_squareness": 0.8857,
+      "back_squareness": 0.8857,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        357,
+        221,
+        388,
+        256
+      ],
+      "back_wheel_box": [
+        401,
+        221,
+        432,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1481,
+      "timestamp": 24.6964,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001481.jpg",
+      "front_wheel_conf": 0.8977,
+      "back_wheel_conf": 0.899,
+      "front_squareness": 0.8857,
+      "back_squareness": 0.8857,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        357,
+        221,
+        388,
+        256
+      ],
+      "back_wheel_box": [
+        401,
+        221,
+        432,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1482,
+      "timestamp": 24.7131,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001482.jpg",
+      "front_wheel_conf": 0.8981,
+      "back_wheel_conf": 0.8974,
+      "front_squareness": 0.9118,
+      "back_squareness": 0.8889,
+      "size_match_ratio": 0.9149,
+      "front_wheel_box": [
+        357,
+        222,
+        388,
+        256
+      ],
+      "back_wheel_box": [
+        400,
+        221,
+        432,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1483,
+      "timestamp": 24.7297,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001483.jpg",
+      "front_wheel_conf": 0.8917,
+      "back_wheel_conf": 0.8898,
+      "front_squareness": 0.9118,
+      "back_squareness": 0.8889,
+      "size_match_ratio": 0.9149,
+      "front_wheel_box": [
+        357,
+        222,
+        388,
+        256
+      ],
+      "back_wheel_box": [
+        400,
+        221,
+        432,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1484,
+      "timestamp": 24.7464,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001484.jpg",
+      "front_wheel_conf": 0.8901,
+      "back_wheel_conf": 0.8861,
+      "front_squareness": 0.8824,
+      "back_squareness": 0.8611,
+      "size_match_ratio": 0.914,
+      "front_wheel_box": [
+        358,
+        222,
+        388,
+        256
+      ],
+      "back_wheel_box": [
+        401,
+        221,
+        432,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1485,
+      "timestamp": 24.7631,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001485.jpg",
+      "front_wheel_conf": 0.8914,
+      "back_wheel_conf": 0.8872,
+      "front_squareness": 0.8824,
+      "back_squareness": 0.8611,
+      "size_match_ratio": 0.914,
+      "front_wheel_box": [
+        358,
+        222,
+        388,
+        256
+      ],
+      "back_wheel_box": [
+        401,
+        221,
+        432,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1486,
+      "timestamp": 24.7798,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001486.jpg",
+      "front_wheel_conf": 0.9,
+      "back_wheel_conf": 0.8864,
+      "front_squareness": 0.9118,
+      "back_squareness": 0.8857,
+      "size_match_ratio": 0.9714,
+      "front_wheel_box": [
+        358,
+        222,
+        389,
+        256
+      ],
+      "back_wheel_box": [
+        401,
+        222,
+        432,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1487,
+      "timestamp": 24.7964,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001487.jpg",
+      "front_wheel_conf": 0.903,
+      "back_wheel_conf": 0.8839,
+      "front_squareness": 0.9118,
+      "back_squareness": 0.8889,
+      "size_match_ratio": 0.9149,
+      "front_wheel_box": [
+        358,
+        222,
+        389,
+        256
+      ],
+      "back_wheel_box": [
+        400,
+        222,
+        432,
+        258
+      ]
+    },
+    {
+      "frame_idx": 1488,
+      "timestamp": 24.8131,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001488.jpg",
+      "front_wheel_conf": 0.8996,
+      "back_wheel_conf": 0.8757,
+      "front_squareness": 0.8824,
+      "back_squareness": 0.8611,
+      "size_match_ratio": 0.914,
+      "front_wheel_box": [
+        358,
+        222,
+        388,
+        256
+      ],
+      "back_wheel_box": [
+        400,
+        222,
+        431,
+        258
+      ]
+    },
+    {
+      "frame_idx": 1489,
+      "timestamp": 24.8298,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001489.jpg",
+      "front_wheel_conf": 0.9003,
+      "back_wheel_conf": 0.8805,
+      "front_squareness": 0.9118,
+      "back_squareness": 0.8611,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        357,
+        222,
+        388,
+        256
+      ],
+      "back_wheel_box": [
+        399,
+        222,
+        430,
+        258
+      ]
+    },
+    {
+      "frame_idx": 1490,
+      "timestamp": 24.8465,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001490.jpg",
+      "front_wheel_conf": 0.9005,
+      "back_wheel_conf": 0.8382,
+      "front_squareness": 0.8824,
+      "back_squareness": 0.8857,
+      "size_match_ratio": 0.9401,
+      "front_wheel_box": [
+        357,
+        223,
+        387,
+        257
+      ],
+      "back_wheel_box": [
+        399,
+        222,
+        430,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1491,
+      "timestamp": 24.8631,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001491.jpg",
+      "front_wheel_conf": 0.9032,
+      "back_wheel_conf": 0.8335,
+      "front_squareness": 0.9394,
+      "back_squareness": 0.9118,
+      "size_match_ratio": 0.9706,
+      "front_wheel_box": [
+        356,
+        223,
+        387,
+        256
+      ],
+      "back_wheel_box": [
+        398,
+        222,
+        429,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1492,
+      "timestamp": 24.8798,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001492.jpg",
+      "front_wheel_conf": 0.9121,
+      "back_wheel_conf": 0.8849,
+      "front_squareness": 0.9412,
+      "back_squareness": 0.9412,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        355,
+        223,
+        387,
+        257
+      ],
+      "back_wheel_box": [
+        397,
+        222,
+        429,
+        256
+      ]
+    },
+    {
+      "frame_idx": 1493,
+      "timestamp": 24.8965,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001493.jpg",
+      "front_wheel_conf": 0.903,
+      "back_wheel_conf": 0.898,
+      "front_squareness": 0.9412,
+      "back_squareness": 0.9143,
+      "size_match_ratio": 0.9714,
+      "front_wheel_box": [
+        354,
+        223,
+        386,
+        257
+      ],
+      "back_wheel_box": [
+        396,
+        222,
+        428,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1494,
+      "timestamp": 24.9132,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001494.jpg",
+      "front_wheel_conf": 0.9088,
+      "back_wheel_conf": 0.9003,
+      "front_squareness": 0.9412,
+      "back_squareness": 0.9143,
+      "size_match_ratio": 0.9714,
+      "front_wheel_box": [
+        353,
+        223,
+        385,
+        257
+      ],
+      "back_wheel_box": [
+        395,
+        222,
+        427,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1495,
+      "timestamp": 24.9298,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001495.jpg",
+      "front_wheel_conf": 0.9101,
+      "back_wheel_conf": 0.9115,
+      "front_squareness": 0.9412,
+      "back_squareness": 0.9429,
+      "size_match_ratio": 0.942,
+      "front_wheel_box": [
+        352,
+        222,
+        384,
+        256
+      ],
+      "back_wheel_box": [
+        394,
+        222,
+        427,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1496,
+      "timestamp": 24.9465,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001496.jpg",
+      "front_wheel_conf": 0.9117,
+      "back_wheel_conf": 0.9126,
+      "front_squareness": 0.9118,
+      "back_squareness": 0.9429,
+      "size_match_ratio": 0.9126,
+      "front_wheel_box": [
+        352,
+        222,
+        383,
+        256
+      ],
+      "back_wheel_box": [
+        393,
+        222,
+        426,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1497,
+      "timestamp": 24.9632,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001497.jpg",
+      "front_wheel_conf": 0.9114,
+      "back_wheel_conf": 0.9122,
+      "front_squareness": 0.9412,
+      "back_squareness": 0.9429,
+      "size_match_ratio": 0.942,
+      "front_wheel_box": [
+        351,
+        222,
+        383,
+        256
+      ],
+      "back_wheel_box": [
+        393,
+        222,
+        426,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1498,
+      "timestamp": 24.9799,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001498.jpg",
+      "front_wheel_conf": 0.9104,
+      "back_wheel_conf": 0.9129,
+      "front_squareness": 0.9412,
+      "back_squareness": 0.9143,
+      "size_match_ratio": 0.9714,
+      "front_wheel_box": [
+        351,
+        222,
+        383,
+        256
+      ],
+      "back_wheel_box": [
+        393,
+        222,
+        425,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1499,
+      "timestamp": 24.9965,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001499.jpg",
+      "front_wheel_conf": 0.9045,
+      "back_wheel_conf": 0.9149,
+      "front_squareness": 0.9118,
+      "back_squareness": 0.9429,
+      "size_match_ratio": 0.9126,
+      "front_wheel_box": [
+        351,
+        222,
+        382,
+        256
+      ],
+      "back_wheel_box": [
+        392,
+        222,
+        425,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1500,
+      "timestamp": 25.0132,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001500.jpg",
+      "front_wheel_conf": 0.9103,
+      "back_wheel_conf": 0.9192,
+      "front_squareness": 0.9118,
+      "back_squareness": 0.9143,
+      "size_match_ratio": 0.9411,
+      "front_wheel_box": [
+        351,
+        222,
+        382,
+        256
+      ],
+      "back_wheel_box": [
+        392,
+        222,
+        424,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1501,
+      "timestamp": 25.0299,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001501.jpg",
+      "front_wheel_conf": 0.903,
+      "back_wheel_conf": 0.9166,
+      "front_squareness": 0.9118,
+      "back_squareness": 0.8857,
+      "size_match_ratio": 0.9714,
+      "front_wheel_box": [
+        350,
+        222,
+        381,
+        256
+      ],
+      "back_wheel_box": [
+        392,
+        222,
+        423,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1502,
+      "timestamp": 25.0466,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001502.jpg",
+      "front_wheel_conf": 0.9002,
+      "back_wheel_conf": 0.9068,
+      "front_squareness": 0.9412,
+      "back_squareness": 0.9118,
+      "size_match_ratio": 0.9688,
+      "front_wheel_box": [
+        349,
+        222,
+        381,
+        256
+      ],
+      "back_wheel_box": [
+        392,
+        223,
+        423,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1503,
+      "timestamp": 25.0632,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001503.jpg",
+      "front_wheel_conf": 0.8345,
+      "back_wheel_conf": 0.9007,
+      "front_squareness": 0.9118,
+      "back_squareness": 0.8857,
+      "size_match_ratio": 0.9714,
+      "front_wheel_box": [
+        349,
+        222,
+        380,
+        256
+      ],
+      "back_wheel_box": [
+        391,
+        222,
+        422,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1504,
+      "timestamp": 25.0799,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001504.jpg",
+      "front_wheel_conf": 0.8479,
+      "back_wheel_conf": 0.8819,
+      "front_squareness": 0.9091,
+      "back_squareness": 0.8824,
+      "size_match_ratio": 0.9706,
+      "front_wheel_box": [
+        348,
+        223,
+        378,
+        256
+      ],
+      "back_wheel_box": [
+        391,
+        223,
+        421,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1505,
+      "timestamp": 25.0966,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001505.jpg",
+      "front_wheel_conf": 0.8896,
+      "back_wheel_conf": 0.8721,
+      "front_squareness": 0.9091,
+      "back_squareness": 0.8824,
+      "size_match_ratio": 0.9706,
+      "front_wheel_box": [
+        348,
+        223,
+        378,
+        256
+      ],
+      "back_wheel_box": [
+        390,
+        223,
+        420,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1506,
+      "timestamp": 25.1133,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001506.jpg",
+      "front_wheel_conf": 0.8941,
+      "back_wheel_conf": 0.8663,
+      "front_squareness": 0.9394,
+      "back_squareness": 0.8824,
+      "size_match_ratio": 0.9971,
+      "front_wheel_box": [
+        347,
+        223,
+        378,
+        256
+      ],
+      "back_wheel_box": [
+        390,
+        223,
+        420,
+        257
+      ]
+    },
+    {
+      "frame_idx": 1507,
+      "timestamp": 25.1299,
+      "frame_file": "output/dervlab60/dervlab60_selected_frames/frame_001507.jpg",
+      "front_wheel_conf": 0.8956,
+      "back_wheel_conf": 0.8772,
+      "front_squareness": 0.9394,
+      "back_squareness": 0.8824,
+      "size_match_ratio": 0.9971,
+      "front_wheel_box": [
+        347,
+        223,
+        378,
+        256
+      ],
+      "back_wheel_box": [
+        390,
+        223,
+        420,
+        257
+      ]
+    }
+  ],
+  "metrics": {
+    "frames_processed": 1513,
+    "frames_selected": 188,
+    "total_bursts": 48,
+    "selection_rate": 0.1243,
+    "avg_confidence": 0.9006,
+    "elapsed_sec": 72.6
+  }
+}

@@ -1,0 +1,118 @@
+
+── RPM Evaluation — Pipeline 1 vs Pipeline V2 ──────────────────────────
+Video       Cond   Grp    True      P1 Pred   P1 Err  P1 %    P2 Pred   P2 Err  P2 %  
+----------  -----  -----  --------  --------  ------  ------  --------  ------  ------
+alexa30     a      30         63.0      66.3     3.3    5.2%      63.9     0.9    1.4%
+alexa60     a      60         90.0      85.4    -4.6   -5.1%      90.1     0.1    0.1%
+alexb30     b      30         58.0      84.3    26.3   45.3%      73.8    15.8   27.2%
+alexb60     b      60         85.0     110.6    25.6   30.1%      90.8     5.8    6.8%
+dervlaa30   a      30         59.0      76.8    17.8   30.2%      59.1     0.1    0.2%
+dervlaa60   a      60         91.0      76.9   -14.1  -15.5%      90.4    -0.6   -0.7%
+dervlab30   b      30         67.0         —       —       —         —       —       —
+dervlab60   b      60         72.0      60.0   -12.0  -16.7%      83.7    11.7   16.3%
+hannaha30   a      30         47.0      59.7    12.7   27.0%      47.5     0.5    1.1%
+hannaha60   a      60         89.0      89.2     0.2    0.2%      89.2     0.2    0.2%
+hannahb30   b      30         54.0      62.1     8.1   15.0%      56.2     2.2    4.1%
+hannahb60   b      60         83.0      86.3     3.3    4.0%     104.1    21.1   25.4%
+jacka30     a      30         60.0      62.8     2.8    4.7%      57.5    -2.5   -4.2%
+jacka60     a      60         90.0      67.7   -22.3  -24.8%      90.0     0.0    0.0%
+jackb30     b      30         75.0         —       —       —     107.0    32.0   42.7%
+jackb60     b      60         67.0     104.8    37.8   56.4%      66.6    -0.4   -0.6%
+janea30     a      30         66.0      76.7    10.7   16.2%      65.5    -0.5   -0.8%
+janeb30     b      30         73.0      85.7    12.7   17.4%      55.4   -17.6  -24.1%
+jennya30    a      30         63.0      65.6     2.6    4.1%      62.9    -0.1   -0.2%
+jennya60    a      60         84.0      77.3    -6.7   -8.0%      83.8    -0.2   -0.2%
+jennyb30    b      30         74.0      86.3    12.3   16.6%      75.3     1.3    1.8%
+jennyb60    b      60         84.0      93.2     9.2   11.0%      90.8     6.8    8.1%
+katea30     a      30         63.0      87.0    24.0   38.1%      63.0     0.0    0.0%
+katea60     a      60         85.0      85.4     0.4    0.5%      85.4     0.4    0.5%
+kateb30     b      30         70.0      74.2     4.2    6.0%      68.5    -1.5   -2.1%
+kateb60     b      60         85.0         —       —       —         —       —       —
+liama30     a      30         54.0      58.5     4.5    8.3%      53.8    -0.2   -0.4%
+liama60     a      60         78.0      77.8    -0.2   -0.3%      77.7    -0.3   -0.4%
+liamb30     b      30         77.0      72.0    -5.0   -6.5%      81.4     4.4    5.7%
+liamb60     b      60         98.0      75.7   -22.3  -22.8%      98.6     0.6    0.6%
+paddya30    a      30         61.0      63.7     2.7    4.4%      61.0     0.0    0.0%
+paddya60    a      60         90.0      88.6    -1.4   -1.6%      89.7    -0.3   -0.3%
+paddyb30    b      30         64.0      91.7    27.7   43.3%      63.1    -0.9   -1.4%
+paddyb60    b      60         71.0      68.5    -2.5   -3.5%      83.7    12.7   17.9%
+romana30    a      30         60.0      59.9    -0.1   -0.2%      60.2     0.2    0.3%
+romana60    a      60         79.0      79.3     0.3    0.4%      79.0     0.0    0.0%
+romanb30    b      30         51.0         —       —       —         —       —       —
+romanb60    b      60         39.0         —       —       —         —       —       —
+
+── Aggregate — Pipeline 1 ──────────────────────────────────────────────
+  All                             n=33   MAE=10.3 RPM  RMSE=14.2 RPM  mean |%err|=14.8%
+  Condition a (trainer)           n=19   MAE=6.9 RPM  RMSE=10.2 RPM  mean |%err|=10.2%
+  Condition b (real-world)        n=14   MAE=14.9 RPM  RMSE=18.3 RPM  mean |%err|=21.0%
+  Group 30 (target: 60 RPM)       n=17   MAE=10.4 RPM  RMSE=13.5 RPM  mean |%err|=17.0%
+  Group 60 (target: 90 RPM)       n=16   MAE=10.2 RPM  RMSE=15.0 RPM  mean |%err|=12.5%
+  Method: peak_detection          n=31   MAE=10.7 RPM  RMSE=14.7 RPM  mean |%err|=15.5%
+  Method: autocorrelation         n=2    MAE=3.8 RPM  RMSE=3.8 RPM  mean |%err|=5.0%
+
+── Aggregate — Pipeline V2 ─────────────────────────────────────────────
+  All                             n=34   MAE=4.2 RPM  RMSE=8.5 RPM  mean |%err|=5.8%
+  Condition a (trainer)           n=19   MAE=0.4 RPM  RMSE=0.7 RPM  mean |%err|=0.6%
+  Condition b (real-world)        n=15   MAE=9.0 RPM  RMSE=12.7 RPM  mean |%err|=12.3%
+  Group 30 (target: 60 RPM)       n=18   MAE=4.5 RPM  RMSE=9.5 RPM  mean |%err|=6.5%
+  Group 60 (target: 90 RPM)       n=16   MAE=3.8 RPM  RMSE=7.2 RPM  mean |%err|=4.9%
+  Method: peak_detection          n=29   MAE=2.8 RPM  RMSE=6.1 RPM  mean |%err|=3.7%
+  Method: autocorrelation         n=5    MAE=12.4 RPM  RMSE=16.5 RPM  mean |%err|=17.4%
+
+  V2 vs V1 on 33 shared videos: improved=26, worse=5, same=2
+  Mean |error| reduction: 7.0 RPM (positive = V2 better)
+
+  P1 no output for: dervlab30, jackb30, kateb60, romanb30, romanb60
+  P2 no output for: dervlab30, kateb60, romanb30, romanb60
+
+── Seat Height Evaluation — Pipeline 1 ──────────────────────────────────
+Subject     Grp   Verdict (a)   Peak° (a)   Verdict (b)   Peak° (b)   Match
+----------  ----  ------------  ----------  ------------  ----------  -----
+alex        30    too_low            132.8  too_high           159.9  N    
+alex        60    too_low            131.6  too_high           162.6  N    
+dervla      30    too_high           176.3  too_high           178.2  Y    
+dervla      60    too_high           167.4  too_high           180.0  Y    
+hannah      30    too_high           168.5  optimal            149.4  N    
+hannah      60    too_low            132.0  too_low            136.4  Y    
+jack        30    optimal            155.0  too_high           172.1  N    
+jack        60    too_low            140.7  too_high           179.9  N    
+jane        30    too_high           159.9  too_high           180.0  Y    
+jenny       30    optimal            151.2  too_high           171.7  N    
+jenny       60    optimal            154.1  too_high           161.6  N    
+kate        30    too_low            140.2  optimal            154.4  N    
+kate        60    optimal            147.7  too_low            137.4  N    
+liam        30    too_low            133.9  too_high           179.1  N    
+liam        60    too_low            127.8  too_high           155.8  N    
+paddy       30    too_low            128.6  too_high           171.1  N    
+paddy       60    too_low            129.9  too_high           170.3  N    
+roman       30    optimal            150.0  optimal            151.7  Y    
+roman       60    too_low            143.2  optimal            154.0  N    
+
+  Verdict agreement: 5/19 (26%)
+  Peak angle delta (a vs b): mean=20.7°  max=45.2°
+
+── Seat Height Evaluation — Pipeline V2 ─────────────────────────────────
+Subject     Grp   Verdict (a)   Peak° (a)   Verdict (b)   Peak° (b)   Match
+----------  ----  ------------  ----------  ------------  ----------  -----
+alex        30    too_low            129.1  too_high           167.2  N    
+alex        60    too_low            127.5  too_high           176.2  N    
+dervla      30    too_high           159.4  too_high           171.7  Y    
+dervla      60    optimal            147.4  too_high           155.9  N    
+hannah      30    too_low            137.6  too_low            141.6  Y    
+hannah      60    too_low            129.0  too_low            127.7  Y    
+jack        30    too_low            135.3  too_high           164.1  N    
+jack        60    too_low            136.3  too_high           168.4  N    
+jane        30    optimal            153.1  too_high           161.8  N    
+jenny       30    optimal            146.7  too_high           159.3  N    
+jenny       60    optimal            147.0  too_high           159.4  N    
+kate        30    too_low            135.0  optimal            151.0  N    
+kate        60    too_low            138.3  too_low            136.8  Y    
+liam        30    too_low            128.8  optimal            147.5  N    
+liam        60    too_low            124.9  optimal            145.8  N    
+paddy       30    too_low            126.1  too_low            139.2  Y    
+paddy       60    too_low            127.5  too_low            139.4  Y    
+roman       30    too_low            144.0  optimal            147.7  N    
+roman       60    too_low            137.8  optimal            149.5  N    
+
+  Verdict agreement: 6/19 (32%)
+  Peak angle delta (a vs b): mean=16.1°  max=48.7°

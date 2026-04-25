@@ -1,0 +1,2546 @@
+{
+  "video": "videos/romanb60.MOV",
+  "model": "models/best.pt",
+  "fps": 59.28971962616822,
+  "total_frames": 1586,
+  "selected_frames": [
+    {
+      "frame_idx": 1163,
+      "timestamp": 19.6155,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001163.jpg",
+      "front_wheel_conf": 0.9435,
+      "back_wheel_conf": 0.893,
+      "front_squareness": 0.929,
+      "back_squareness": 0.8544,
+      "size_match_ratio": 0.9556,
+      "front_wheel_box": [
+        1223,
+        623,
+        1367,
+        778
+      ],
+      "back_wheel_box": [
+        1448,
+        622,
+        1583,
+        780
+      ],
+      "cyclist_box": [
+        1225,
+        379,
+        1578,
+        779
+      ]
+    },
+    {
+      "frame_idx": 1164,
+      "timestamp": 19.6324,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001164.jpg",
+      "front_wheel_conf": 0.9452,
+      "back_wheel_conf": 0.8879,
+      "front_squareness": 0.9295,
+      "back_squareness": 0.8544,
+      "size_match_ratio": 0.943,
+      "front_wheel_box": [
+        1219,
+        624,
+        1364,
+        780
+      ],
+      "back_wheel_box": [
+        1447,
+        623,
+        1582,
+        781
+      ],
+      "cyclist_box": [
+        1222,
+        379,
+        1577,
+        779
+      ]
+    },
+    {
+      "frame_idx": 1165,
+      "timestamp": 19.6493,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001165.jpg",
+      "front_wheel_conf": 0.9413,
+      "back_wheel_conf": 0.8911,
+      "front_squareness": 0.9236,
+      "back_squareness": 0.8616,
+      "size_match_ratio": 0.9569,
+      "front_wheel_box": [
+        1217,
+        623,
+        1362,
+        780
+      ],
+      "back_wheel_box": [
+        1444,
+        622,
+        1581,
+        781
+      ],
+      "cyclist_box": [
+        1218,
+        378,
+        1576,
+        779
+      ]
+    },
+    {
+      "frame_idx": 1166,
+      "timestamp": 19.6661,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001166.jpg",
+      "front_wheel_conf": 0.9395,
+      "back_wheel_conf": 0.9278,
+      "front_squareness": 0.9359,
+      "back_squareness": 0.8742,
+      "size_match_ratio": 0.9704,
+      "front_wheel_box": [
+        1213,
+        624,
+        1359,
+        780
+      ],
+      "back_wheel_box": [
+        1441,
+        623,
+        1580,
+        782
+      ],
+      "cyclist_box": [
+        1213,
+        378,
+        1575,
+        779
+      ]
+    },
+    {
+      "frame_idx": 1167,
+      "timestamp": 19.683,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001167.jpg",
+      "front_wheel_conf": 0.9368,
+      "back_wheel_conf": 0.9274,
+      "front_squareness": 0.9295,
+      "back_squareness": 0.8734,
+      "size_match_ratio": 0.9639,
+      "front_wheel_box": [
+        1210,
+        624,
+        1355,
+        780
+      ],
+      "back_wheel_box": [
+        1440,
+        624,
+        1578,
+        782
+      ],
+      "cyclist_box": [
+        1209,
+        377,
+        1573,
+        780
+      ]
+    },
+    {
+      "frame_idx": 1168,
+      "timestamp": 19.6999,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001168.jpg",
+      "front_wheel_conf": 0.9338,
+      "back_wheel_conf": 0.9285,
+      "front_squareness": 0.9363,
+      "back_squareness": 0.8861,
+      "size_match_ratio": 0.9584,
+      "front_wheel_box": [
+        1206,
+        623,
+        1353,
+        780
+      ],
+      "back_wheel_box": [
+        1438,
+        623,
+        1578,
+        781
+      ],
+      "cyclist_box": [
+        1204,
+        372,
+        1573,
+        782
+      ]
+    },
+    {
+      "frame_idx": 1169,
+      "timestamp": 19.7167,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001169.jpg",
+      "front_wheel_conf": 0.9286,
+      "back_wheel_conf": 0.9528,
+      "front_squareness": 0.9363,
+      "back_squareness": 0.8987,
+      "size_match_ratio": 0.9721,
+      "front_wheel_box": [
+        1203,
+        624,
+        1350,
+        781
+      ],
+      "back_wheel_box": [
+        1434,
+        623,
+        1576,
+        781
+      ],
+      "cyclist_box": [
+        1200,
+        370,
+        1571,
+        782
+      ]
+    },
+    {
+      "frame_idx": 1170,
+      "timestamp": 19.7336,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001170.jpg",
+      "front_wheel_conf": 0.925,
+      "back_wheel_conf": 0.965,
+      "front_squareness": 0.9367,
+      "back_squareness": 0.9057,
+      "size_match_ratio": 0.9791,
+      "front_wheel_box": [
+        1200,
+        623,
+        1348,
+        781
+      ],
+      "back_wheel_box": [
+        1431,
+        623,
+        1575,
+        782
+      ],
+      "cyclist_box": [
+        1198,
+        369,
+        1570,
+        782
+      ]
+    },
+    {
+      "frame_idx": 1171,
+      "timestamp": 19.7505,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001171.jpg",
+      "front_wheel_conf": 0.922,
+      "back_wheel_conf": 0.9643,
+      "front_squareness": 0.9375,
+      "back_squareness": 0.9057,
+      "size_match_ratio": 0.954,
+      "front_wheel_box": [
+        1196,
+        622,
+        1346,
+        782
+      ],
+      "back_wheel_box": [
+        1429,
+        623,
+        1573,
+        782
+      ],
+      "cyclist_box": [
+        1193,
+        368,
+        1575,
+        788
+      ]
+    },
+    {
+      "frame_idx": 1172,
+      "timestamp": 19.7673,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001172.jpg",
+      "front_wheel_conf": 0.9214,
+      "back_wheel_conf": 0.965,
+      "front_squareness": 0.9434,
+      "back_squareness": 0.8827,
+      "size_match_ratio": 0.9713,
+      "front_wheel_box": [
+        1193,
+        623,
+        1343,
+        782
+      ],
+      "back_wheel_box": [
+        1428,
+        621,
+        1571,
+        783
+      ],
+      "cyclist_box": [
+        1189,
+        370,
+        1574,
+        787
+      ]
+    },
+    {
+      "frame_idx": 1173,
+      "timestamp": 19.7842,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001173.jpg",
+      "front_wheel_conf": 0.9203,
+      "back_wheel_conf": 0.9619,
+      "front_squareness": 0.962,
+      "back_squareness": 0.8834,
+      "size_match_ratio": 0.9773,
+      "front_wheel_box": [
+        1188,
+        624,
+        1340,
+        782
+      ],
+      "back_wheel_box": [
+        1425,
+        621,
+        1569,
+        784
+      ],
+      "cyclist_box": [
+        1184,
+        368,
+        1572,
+        787
+      ]
+    },
+    {
+      "frame_idx": 1174,
+      "timestamp": 19.8011,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001174.jpg",
+      "front_wheel_conf": 0.9207,
+      "back_wheel_conf": 0.9634,
+      "front_squareness": 0.9684,
+      "back_squareness": 0.8827,
+      "size_match_ratio": 0.9583,
+      "front_wheel_box": [
+        1184,
+        623,
+        1337,
+        781
+      ],
+      "back_wheel_box": [
+        1423,
+        621,
+        1566,
+        783
+      ],
+      "cyclist_box": [
+        1180,
+        367,
+        1568,
+        786
+      ]
+    },
+    {
+      "frame_idx": 1175,
+      "timestamp": 19.8179,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001175.jpg",
+      "front_wheel_conf": 0.9313,
+      "back_wheel_conf": 0.9632,
+      "front_squareness": 0.9623,
+      "back_squareness": 0.8834,
+      "size_match_ratio": 0.9649,
+      "front_wheel_box": [
+        1180,
+        622,
+        1333,
+        781
+      ],
+      "back_wheel_box": [
+        1421,
+        620,
+        1565,
+        783
+      ],
+      "cyclist_box": [
+        1175,
+        367,
+        1568,
+        786
+      ]
+    },
+    {
+      "frame_idx": 1176,
+      "timestamp": 19.8348,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001176.jpg",
+      "front_wheel_conf": 0.9365,
+      "back_wheel_conf": 0.9618,
+      "front_squareness": 0.9506,
+      "back_squareness": 0.8834,
+      "size_match_ratio": 0.9408,
+      "front_wheel_box": [
+        1176,
+        620,
+        1330,
+        782
+      ],
+      "back_wheel_box": [
+        1418,
+        621,
+        1562,
+        784
+      ],
+      "cyclist_box": [
+        1171,
+        366,
+        1564,
+        788
+      ]
+    },
+    {
+      "frame_idx": 1177,
+      "timestamp": 19.8517,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001177.jpg",
+      "front_wheel_conf": 0.9304,
+      "back_wheel_conf": 0.9627,
+      "front_squareness": 0.963,
+      "back_squareness": 0.8957,
+      "size_match_ratio": 0.9417,
+      "front_wheel_box": [
+        1171,
+        620,
+        1327,
+        782
+      ],
+      "back_wheel_box": [
+        1414,
+        622,
+        1560,
+        785
+      ],
+      "cyclist_box": [
+        1165,
+        364,
+        1561,
+        787
+      ]
+    },
+    {
+      "frame_idx": 1178,
+      "timestamp": 19.8685,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001178.jpg",
+      "front_wheel_conf": 0.9434,
+      "back_wheel_conf": 0.9538,
+      "front_squareness": 0.963,
+      "back_squareness": 0.8902,
+      "size_match_ratio": 0.9475,
+      "front_wheel_box": [
+        1168,
+        621,
+        1324,
+        783
+      ],
+      "back_wheel_box": [
+        1412,
+        622,
+        1558,
+        786
+      ],
+      "cyclist_box": [
+        1161,
+        370,
+        1559,
+        787
+      ]
+    },
+    {
+      "frame_idx": 1179,
+      "timestamp": 19.8854,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001179.jpg",
+      "front_wheel_conf": 0.9414,
+      "back_wheel_conf": 0.9655,
+      "front_squareness": 0.9689,
+      "back_squareness": 0.9202,
+      "size_match_ratio": 0.9735,
+      "front_wheel_box": [
+        1164,
+        622,
+        1320,
+        783
+      ],
+      "back_wheel_box": [
+        1407,
+        623,
+        1557,
+        786
+      ],
+      "cyclist_box": [
+        1156,
+        368,
+        1557,
+        787
+      ]
+    },
+    {
+      "frame_idx": 1180,
+      "timestamp": 19.9023,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001180.jpg",
+      "front_wheel_conf": 0.9365,
+      "back_wheel_conf": 0.9672,
+      "front_squareness": 0.9689,
+      "back_squareness": 0.9146,
+      "size_match_ratio": 0.9795,
+      "front_wheel_box": [
+        1159,
+        622,
+        1315,
+        783
+      ],
+      "back_wheel_box": [
+        1405,
+        623,
+        1555,
+        787
+      ],
+      "cyclist_box": [
+        1153,
+        367,
+        1555,
+        790
+      ]
+    },
+    {
+      "frame_idx": 1181,
+      "timestamp": 19.9191,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001181.jpg",
+      "front_wheel_conf": 0.9316,
+      "back_wheel_conf": 0.9682,
+      "front_squareness": 0.9753,
+      "back_squareness": 0.9152,
+      "size_match_ratio": 0.9734,
+      "front_wheel_box": [
+        1155,
+        621,
+        1313,
+        783
+      ],
+      "back_wheel_box": [
+        1403,
+        622,
+        1554,
+        787
+      ],
+      "cyclist_box": [
+        1150,
+        365,
+        1554,
+        790
+      ]
+    },
+    {
+      "frame_idx": 1182,
+      "timestamp": 19.936,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001182.jpg",
+      "front_wheel_conf": 0.927,
+      "back_wheel_conf": 0.9675,
+      "front_squareness": 0.9571,
+      "back_squareness": 0.9096,
+      "size_match_ratio": 0.9858,
+      "front_wheel_box": [
+        1152,
+        621,
+        1308,
+        784
+      ],
+      "back_wheel_box": [
+        1401,
+        621,
+        1552,
+        787
+      ],
+      "cyclist_box": [
+        1148,
+        363,
+        1552,
+        790
+      ]
+    },
+    {
+      "frame_idx": 1183,
+      "timestamp": 19.9529,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001183.jpg",
+      "front_wheel_conf": 0.9272,
+      "back_wheel_conf": 0.965,
+      "front_squareness": 0.9753,
+      "back_squareness": 0.8994,
+      "size_match_ratio": 0.9964,
+      "front_wheel_box": [
+        1148,
+        621,
+        1306,
+        783
+      ],
+      "back_wheel_box": [
+        1398,
+        619,
+        1550,
+        788
+      ],
+      "cyclist_box": [
+        1144,
+        361,
+        1549,
+        790
+      ]
+    },
+    {
+      "frame_idx": 1184,
+      "timestamp": 19.9697,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001184.jpg",
+      "front_wheel_conf": 0.9265,
+      "back_wheel_conf": 0.9621,
+      "front_squareness": 0.9755,
+      "back_squareness": 0.9059,
+      "size_match_ratio": 0.99,
+      "front_wheel_box": [
+        1144,
+        620,
+        1303,
+        783
+      ],
+      "back_wheel_box": [
+        1394,
+        618,
+        1548,
+        788
+      ],
+      "cyclist_box": [
+        1140,
+        359,
+        1548,
+        791
+      ]
+    },
+    {
+      "frame_idx": 1185,
+      "timestamp": 19.9866,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001185.jpg",
+      "front_wheel_conf": 0.9211,
+      "back_wheel_conf": 0.9578,
+      "front_squareness": 0.9816,
+      "back_squareness": 0.9128,
+      "size_match_ratio": 0.9658,
+      "front_wheel_box": [
+        1140,
+        620,
+        1300,
+        783
+      ],
+      "back_wheel_box": [
+        1390,
+        616,
+        1547,
+        788
+      ],
+      "cyclist_box": [
+        1137,
+        359,
+        1547,
+        791
+      ]
+    },
+    {
+      "frame_idx": 1186,
+      "timestamp": 20.0035,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001186.jpg",
+      "front_wheel_conf": 0.921,
+      "back_wheel_conf": 0.9531,
+      "front_squareness": 0.9758,
+      "back_squareness": 0.8966,
+      "size_match_ratio": 0.9787,
+      "front_wheel_box": [
+        1136,
+        618,
+        1297,
+        783
+      ],
+      "back_wheel_box": [
+        1388,
+        615,
+        1544,
+        789
+      ],
+      "cyclist_box": [
+        1132,
+        356,
+        1545,
+        791
+      ]
+    },
+    {
+      "frame_idx": 1187,
+      "timestamp": 20.0203,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001187.jpg",
+      "front_wheel_conf": 0.9249,
+      "back_wheel_conf": 0.9535,
+      "front_squareness": 0.9758,
+      "back_squareness": 0.908,
+      "size_match_ratio": 0.9663,
+      "front_wheel_box": [
+        1132,
+        618,
+        1293,
+        783
+      ],
+      "back_wheel_box": [
+        1385,
+        616,
+        1543,
+        790
+      ],
+      "cyclist_box": [
+        1128,
+        353,
+        1544,
+        792
+      ]
+    },
+    {
+      "frame_idx": 1188,
+      "timestamp": 20.0372,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001188.jpg",
+      "front_wheel_conf": 0.9298,
+      "back_wheel_conf": 0.9534,
+      "front_squareness": 0.9819,
+      "back_squareness": 0.9138,
+      "size_match_ratio": 0.978,
+      "front_wheel_box": [
+        1128,
+        617,
+        1291,
+        783
+      ],
+      "back_wheel_box": [
+        1381,
+        616,
+        1540,
+        790
+      ],
+      "cyclist_box": [
+        1124,
+        353,
+        1542,
+        792
+      ]
+    },
+    {
+      "frame_idx": 1189,
+      "timestamp": 20.0541,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001189.jpg",
+      "front_wheel_conf": 0.9376,
+      "back_wheel_conf": 0.9541,
+      "front_squareness": 0.9819,
+      "back_squareness": 0.924,
+      "size_match_ratio": 0.9985,
+      "front_wheel_box": [
+        1124,
+        616,
+        1287,
+        782
+      ],
+      "back_wheel_box": [
+        1380,
+        619,
+        1538,
+        790
+      ],
+      "cyclist_box": [
+        1120,
+        351,
+        1540,
+        792
+      ]
+    },
+    {
+      "frame_idx": 1190,
+      "timestamp": 20.0709,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001190.jpg",
+      "front_wheel_conf": 0.8423,
+      "back_wheel_conf": 0.9556,
+      "front_squareness": 0.976,
+      "back_squareness": 0.9191,
+      "size_match_ratio": 0.9896,
+      "front_wheel_box": [
+        1121,
+        616,
+        1284,
+        783
+      ],
+      "back_wheel_box": [
+        1378,
+        618,
+        1537,
+        791
+      ],
+      "cyclist_box": [
+        1116,
+        351,
+        1538,
+        793
+      ]
+    },
+    {
+      "frame_idx": 1191,
+      "timestamp": 20.0878,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001191.jpg",
+      "front_wheel_conf": 0.9488,
+      "back_wheel_conf": 0.9555,
+      "front_squareness": 0.9702,
+      "back_squareness": 0.9029,
+      "size_match_ratio": 0.9904,
+      "front_wheel_box": [
+        1119,
+        615,
+        1282,
+        783
+      ],
+      "back_wheel_box": [
+        1377,
+        616,
+        1535,
+        791
+      ],
+      "cyclist_box": [
+        1114,
+        352,
+        1537,
+        792
+      ]
+    },
+    {
+      "frame_idx": 1192,
+      "timestamp": 20.1047,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001192.jpg",
+      "front_wheel_conf": 0.9431,
+      "back_wheel_conf": 0.9549,
+      "front_squareness": 0.9706,
+      "back_squareness": 0.9143,
+      "size_match_ratio": 0.9982,
+      "front_wheel_box": [
+        1116,
+        614,
+        1281,
+        784
+      ],
+      "back_wheel_box": [
+        1375,
+        616,
+        1535,
+        791
+      ],
+      "cyclist_box": [
+        1110,
+        351,
+        1537,
+        793
+      ]
+    },
+    {
+      "frame_idx": 1193,
+      "timestamp": 20.1215,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001193.jpg",
+      "front_wheel_conf": 0.9357,
+      "back_wheel_conf": 0.9548,
+      "front_squareness": 0.9763,
+      "back_squareness": 0.9148,
+      "size_match_ratio": 0.9841,
+      "front_wheel_box": [
+        1113,
+        615,
+        1278,
+        784
+      ],
+      "back_wheel_box": [
+        1373,
+        616,
+        1534,
+        792
+      ],
+      "cyclist_box": [
+        1107,
+        350,
+        1536,
+        793
+      ]
+    },
+    {
+      "frame_idx": 1194,
+      "timestamp": 20.1384,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001194.jpg",
+      "front_wheel_conf": 0.9308,
+      "back_wheel_conf": 0.9525,
+      "front_squareness": 0.9765,
+      "back_squareness": 0.9101,
+      "size_match_ratio": 0.9786,
+      "front_wheel_box": [
+        1110,
+        615,
+        1276,
+        785
+      ],
+      "back_wheel_box": [
+        1371,
+        614,
+        1533,
+        792
+      ],
+      "cyclist_box": [
+        1105,
+        347,
+        1536,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1195,
+      "timestamp": 20.1553,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001195.jpg",
+      "front_wheel_conf": 0.9282,
+      "back_wheel_conf": 0.952,
+      "front_squareness": 0.9706,
+      "back_squareness": 0.9274,
+      "size_match_ratio": 0.944,
+      "front_wheel_box": [
+        1108,
+        615,
+        1273,
+        785
+      ],
+      "back_wheel_box": [
+        1367,
+        613,
+        1533,
+        792
+      ],
+      "cyclist_box": [
+        1103,
+        346,
+        1535,
+        793
+      ]
+    },
+    {
+      "frame_idx": 1196,
+      "timestamp": 20.1721,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001196.jpg",
+      "front_wheel_conf": 0.9281,
+      "back_wheel_conf": 0.9524,
+      "front_squareness": 0.9821,
+      "back_squareness": 0.9218,
+      "size_match_ratio": 0.9385,
+      "front_wheel_box": [
+        1105,
+        616,
+        1270,
+        784
+      ],
+      "back_wheel_box": [
+        1367,
+        613,
+        1532,
+        792
+      ],
+      "cyclist_box": [
+        1100,
+        346,
+        1535,
+        793
+      ]
+    },
+    {
+      "frame_idx": 1197,
+      "timestamp": 20.189,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001197.jpg",
+      "front_wheel_conf": 0.9247,
+      "back_wheel_conf": 0.9527,
+      "front_squareness": 0.9881,
+      "back_squareness": 0.9274,
+      "size_match_ratio": 0.9385,
+      "front_wheel_box": [
+        1102,
+        616,
+        1268,
+        784
+      ],
+      "back_wheel_box": [
+        1365,
+        614,
+        1531,
+        793
+      ],
+      "cyclist_box": [
+        1098,
+        345,
+        1534,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1198,
+      "timestamp": 20.2059,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001198.jpg",
+      "front_wheel_conf": 0.9274,
+      "back_wheel_conf": 0.9546,
+      "front_squareness": 0.9822,
+      "back_squareness": 0.9326,
+      "size_match_ratio": 0.9494,
+      "front_wheel_box": [
+        1099,
+        614,
+        1265,
+        783
+      ],
+      "back_wheel_box": [
+        1363,
+        615,
+        1529,
+        793
+      ],
+      "cyclist_box": [
+        1095,
+        343,
+        1533,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1199,
+      "timestamp": 20.2227,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001199.jpg",
+      "front_wheel_conf": 0.9268,
+      "back_wheel_conf": 0.956,
+      "front_squareness": 0.9651,
+      "back_squareness": 0.9382,
+      "size_match_ratio": 0.9605,
+      "front_wheel_box": [
+        1096,
+        613,
+        1262,
+        785
+      ],
+      "back_wheel_box": [
+        1360,
+        616,
+        1527,
+        794
+      ],
+      "cyclist_box": [
+        1093,
+        344,
+        1532,
+        795
+      ]
+    },
+    {
+      "frame_idx": 1200,
+      "timestamp": 20.2396,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001200.jpg",
+      "front_wheel_conf": 0.9248,
+      "back_wheel_conf": 0.9557,
+      "front_squareness": 0.9708,
+      "back_squareness": 0.9435,
+      "size_match_ratio": 0.9603,
+      "front_wheel_box": [
+        1093,
+        613,
+        1259,
+        784
+      ],
+      "back_wheel_box": [
+        1359,
+        617,
+        1526,
+        794
+      ],
+      "cyclist_box": [
+        1089,
+        344,
+        1531,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1201,
+      "timestamp": 20.2565,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001201.jpg",
+      "front_wheel_conf": 0.9247,
+      "back_wheel_conf": 0.9573,
+      "front_squareness": 0.9825,
+      "back_squareness": 0.933,
+      "size_match_ratio": 0.961,
+      "front_wheel_box": [
+        1090,
+        613,
+        1258,
+        784
+      ],
+      "back_wheel_box": [
+        1357,
+        614,
+        1524,
+        793
+      ],
+      "cyclist_box": [
+        1087,
+        349,
+        1528,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1202,
+      "timestamp": 20.2733,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001202.jpg",
+      "front_wheel_conf": 0.9275,
+      "back_wheel_conf": 0.9618,
+      "front_squareness": 0.9708,
+      "back_squareness": 0.9655,
+      "size_match_ratio": 0.9711,
+      "front_wheel_box": [
+        1087,
+        613,
+        1253,
+        784
+      ],
+      "back_wheel_box": [
+        1354,
+        619,
+        1522,
+        793
+      ],
+      "cyclist_box": [
+        1083,
+        350,
+        1525,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1203,
+      "timestamp": 20.2902,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001203.jpg",
+      "front_wheel_conf": 0.9255,
+      "back_wheel_conf": 0.9642,
+      "front_squareness": 0.9882,
+      "back_squareness": 0.9651,
+      "size_match_ratio": 0.9997,
+      "front_wheel_box": [
+        1084,
+        612,
+        1252,
+        782
+      ],
+      "back_wheel_box": [
+        1354,
+        620,
+        1520,
+        792
+      ],
+      "cyclist_box": [
+        1080,
+        345,
+        1525,
+        793
+      ]
+    },
+    {
+      "frame_idx": 1204,
+      "timestamp": 20.3071,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001204.jpg",
+      "front_wheel_conf": 0.9273,
+      "back_wheel_conf": 0.9611,
+      "front_squareness": 0.9941,
+      "back_squareness": 0.9711,
+      "size_match_ratio": 0.9885,
+      "front_wheel_box": [
+        1081,
+        612,
+        1250,
+        782
+      ],
+      "back_wheel_box": [
+        1351,
+        620,
+        1519,
+        793
+      ],
+      "cyclist_box": [
+        1077,
+        343,
+        1523,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1205,
+      "timestamp": 20.3239,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001205.jpg",
+      "front_wheel_conf": 0.9315,
+      "back_wheel_conf": 0.9612,
+      "front_squareness": 0.9826,
+      "back_squareness": 0.9769,
+      "size_match_ratio": 0.9942,
+      "front_wheel_box": [
+        1078,
+        611,
+        1247,
+        783
+      ],
+      "back_wheel_box": [
+        1348,
+        620,
+        1517,
+        793
+      ],
+      "cyclist_box": [
+        1073,
+        347,
+        1522,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1206,
+      "timestamp": 20.3408,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001206.jpg",
+      "front_wheel_conf": 0.9347,
+      "back_wheel_conf": 0.9579,
+      "front_squareness": 0.9883,
+      "back_squareness": 0.9829,
+      "size_match_ratio": 0.9601,
+      "front_wheel_box": [
+        1075,
+        612,
+        1244,
+        783
+      ],
+      "back_wheel_box": [
+        1344,
+        619,
+        1516,
+        794
+      ],
+      "cyclist_box": [
+        1070,
+        345,
+        1520,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1207,
+      "timestamp": 20.3577,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001207.jpg",
+      "front_wheel_conf": 0.9417,
+      "back_wheel_conf": 0.9566,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9661,
+      "size_match_ratio": 0.9661,
+      "front_wheel_box": [
+        1071,
+        611,
+        1242,
+        782
+      ],
+      "back_wheel_box": [
+        1342,
+        617,
+        1513,
+        794
+      ],
+      "cyclist_box": [
+        1067,
+        346,
+        1516,
+        793
+      ]
+    },
+    {
+      "frame_idx": 1208,
+      "timestamp": 20.3745,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001208.jpg",
+      "front_wheel_conf": 0.9432,
+      "back_wheel_conf": 0.9533,
+      "front_squareness": 0.9884,
+      "back_squareness": 0.95,
+      "size_match_ratio": 0.95,
+      "front_wheel_box": [
+        1069,
+        610,
+        1239,
+        782
+      ],
+      "back_wheel_box": [
+        1339,
+        615,
+        1510,
+        795
+      ],
+      "cyclist_box": [
+        1063,
+        343,
+        1513,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1209,
+      "timestamp": 20.3914,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001209.jpg",
+      "front_wheel_conf": 0.9357,
+      "back_wheel_conf": 0.9515,
+      "front_squareness": 0.9769,
+      "back_squareness": 0.9556,
+      "size_match_ratio": 0.9443,
+      "front_wheel_box": [
+        1065,
+        610,
+        1234,
+        783
+      ],
+      "back_wheel_box": [
+        1335,
+        614,
+        1507,
+        794
+      ],
+      "cyclist_box": [
+        1060,
+        339,
+        1509,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1210,
+      "timestamp": 20.4083,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001210.jpg",
+      "front_wheel_conf": 0.9228,
+      "back_wheel_conf": 0.9513,
+      "front_squareness": 0.9827,
+      "back_squareness": 0.9611,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        1061,
+        610,
+        1231,
+        783
+      ],
+      "back_wheel_box": [
+        1331,
+        615,
+        1504,
+        795
+      ],
+      "cyclist_box": [
+        1056,
+        341,
+        1506,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1211,
+      "timestamp": 20.4251,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001211.jpg",
+      "front_wheel_conf": 0.9282,
+      "back_wheel_conf": 0.9533,
+      "front_squareness": 0.9884,
+      "back_squareness": 0.9556,
+      "size_match_ratio": 0.9444,
+      "front_wheel_box": [
+        1057,
+        610,
+        1227,
+        782
+      ],
+      "back_wheel_box": [
+        1329,
+        615,
+        1501,
+        795
+      ],
+      "cyclist_box": [
+        1052,
+        335,
+        1503,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1212,
+      "timestamp": 20.442,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001212.jpg",
+      "front_wheel_conf": 0.9281,
+      "back_wheel_conf": 0.9553,
+      "front_squareness": 0.9769,
+      "back_squareness": 0.9497,
+      "size_match_ratio": 0.9608,
+      "front_wheel_box": [
+        1054,
+        609,
+        1223,
+        782
+      ],
+      "back_wheel_box": [
+        1327,
+        615,
+        1497,
+        794
+      ],
+      "cyclist_box": [
+        1050,
+        338,
+        1500,
+        793
+      ]
+    },
+    {
+      "frame_idx": 1213,
+      "timestamp": 20.4589,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001213.jpg",
+      "front_wheel_conf": 0.9276,
+      "back_wheel_conf": 0.9561,
+      "front_squareness": 0.9827,
+      "back_squareness": 0.9503,
+      "size_match_ratio": 0.9447,
+      "front_wheel_box": [
+        1048,
+        609,
+        1218,
+        782
+      ],
+      "back_wheel_box": [
+        1322,
+        614,
+        1494,
+        795
+      ],
+      "cyclist_box": [
+        1045,
+        332,
+        1496,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1214,
+      "timestamp": 20.4757,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001214.jpg",
+      "front_wheel_conf": 0.9305,
+      "back_wheel_conf": 0.9548,
+      "front_squareness": 0.9941,
+      "back_squareness": 0.9451,
+      "size_match_ratio": 0.9178,
+      "front_wheel_box": [
+        1044,
+        611,
+        1213,
+        781
+      ],
+      "back_wheel_box": [
+        1319,
+        614,
+        1491,
+        796
+      ],
+      "cyclist_box": [
+        1040,
+        333,
+        1493,
+        795
+      ]
+    },
+    {
+      "frame_idx": 1215,
+      "timestamp": 20.4926,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001215.jpg",
+      "front_wheel_conf": 0.9318,
+      "back_wheel_conf": 0.9531,
+      "front_squareness": 0.9884,
+      "back_squareness": 0.9457,
+      "size_match_ratio": 0.9133,
+      "front_wheel_box": [
+        1039,
+        610,
+        1209,
+        782
+      ],
+      "back_wheel_box": [
+        1313,
+        612,
+        1487,
+        796
+      ],
+      "cyclist_box": [
+        1033,
+        337,
+        1488,
+        796
+      ]
+    },
+    {
+      "frame_idx": 1216,
+      "timestamp": 20.5095,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001216.jpg",
+      "front_wheel_conf": 0.9313,
+      "back_wheel_conf": 0.9555,
+      "front_squareness": 0.9827,
+      "back_squareness": 0.956,
+      "size_match_ratio": 0.9287,
+      "front_wheel_box": [
+        1035,
+        608,
+        1205,
+        781
+      ],
+      "back_wheel_box": [
+        1310,
+        614,
+        1484,
+        796
+      ],
+      "cyclist_box": [
+        1028,
+        341,
+        1485,
+        796
+      ]
+    },
+    {
+      "frame_idx": 1217,
+      "timestamp": 20.5263,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001217.jpg",
+      "front_wheel_conf": 0.9334,
+      "back_wheel_conf": 0.9567,
+      "front_squareness": 0.9829,
+      "back_squareness": 0.9553,
+      "size_match_ratio": 0.9834,
+      "front_wheel_box": [
+        1030,
+        606,
+        1202,
+        781
+      ],
+      "back_wheel_box": [
+        1309,
+        616,
+        1480,
+        795
+      ],
+      "cyclist_box": [
+        1023,
+        335,
+        1481,
+        795
+      ]
+    },
+    {
+      "frame_idx": 1218,
+      "timestamp": 20.5432,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001218.jpg",
+      "front_wheel_conf": 0.9377,
+      "back_wheel_conf": 0.9621,
+      "front_squareness": 0.9828,
+      "back_squareness": 0.9663,
+      "size_match_ratio": 0.9718,
+      "front_wheel_box": [
+        1026,
+        607,
+        1197,
+        781
+      ],
+      "back_wheel_box": [
+        1304,
+        617,
+        1476,
+        795
+      ],
+      "cyclist_box": [
+        1019,
+        336,
+        1476,
+        796
+      ]
+    },
+    {
+      "frame_idx": 1219,
+      "timestamp": 20.5601,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001219.jpg",
+      "front_wheel_conf": 0.9422,
+      "back_wheel_conf": 0.9595,
+      "front_squareness": 0.9943,
+      "back_squareness": 0.9777,
+      "size_match_ratio": 0.961,
+      "front_wheel_box": [
+        1022,
+        607,
+        1195,
+        781
+      ],
+      "back_wheel_box": [
+        1298,
+        616,
+        1473,
+        795
+      ],
+      "cyclist_box": [
+        1019,
+        331,
+        1473,
+        796
+      ]
+    },
+    {
+      "frame_idx": 1220,
+      "timestamp": 20.5769,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001220.jpg",
+      "front_wheel_conf": 0.9458,
+      "back_wheel_conf": 0.9559,
+      "front_squareness": 0.9942,
+      "back_squareness": 0.9615,
+      "size_match_ratio": 0.9343,
+      "front_wheel_box": [
+        1019,
+        608,
+        1191,
+        781
+      ],
+      "back_wheel_box": [
+        1295,
+        614,
+        1470,
+        796
+      ],
+      "cyclist_box": [
+        1015,
+        329,
+        1471,
+        797
+      ]
+    },
+    {
+      "frame_idx": 1221,
+      "timestamp": 20.5938,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001221.jpg",
+      "front_wheel_conf": 0.9366,
+      "back_wheel_conf": 0.9524,
+      "front_squareness": 0.9942,
+      "back_squareness": 0.9565,
+      "size_match_ratio": 0.9082,
+      "front_wheel_box": [
+        1014,
+        609,
+        1185,
+        781
+      ],
+      "back_wheel_box": [
+        1290,
+        612,
+        1466,
+        796
+      ],
+      "cyclist_box": [
+        1011,
+        328,
+        1468,
+        796
+      ]
+    },
+    {
+      "frame_idx": 1222,
+      "timestamp": 20.6107,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001222.jpg",
+      "front_wheel_conf": 0.9319,
+      "back_wheel_conf": 0.9525,
+      "front_squareness": 0.9942,
+      "back_squareness": 0.9514,
+      "size_match_ratio": 0.9139,
+      "front_wheel_box": [
+        1010,
+        608,
+        1182,
+        781
+      ],
+      "back_wheel_box": [
+        1286,
+        612,
+        1462,
+        797
+      ],
+      "cyclist_box": [
+        1007,
+        331,
+        1463,
+        797
+      ]
+    },
+    {
+      "frame_idx": 1223,
+      "timestamp": 20.6275,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001223.jpg",
+      "front_wheel_conf": 0.9303,
+      "back_wheel_conf": 0.9519,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9563,
+      "size_match_ratio": 0.9238,
+      "front_wheel_box": [
+        1006,
+        608,
+        1178,
+        780
+      ],
+      "back_wheel_box": [
+        1283,
+        612,
+        1458,
+        795
+      ],
+      "cyclist_box": [
+        1002,
+        328,
+        1459,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1224,
+      "timestamp": 20.6444,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001224.jpg",
+      "front_wheel_conf": 0.9336,
+      "back_wheel_conf": 0.953,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9457,
+      "size_match_ratio": 0.924,
+      "front_wheel_box": [
+        1001,
+        607,
+        1173,
+        779
+      ],
+      "back_wheel_box": [
+        1281,
+        611,
+        1455,
+        795
+      ],
+      "cyclist_box": [
+        998,
+        325,
+        1455,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1225,
+      "timestamp": 20.6613,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001225.jpg",
+      "front_wheel_conf": 0.9328,
+      "back_wheel_conf": 0.953,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9511,
+      "size_match_ratio": 0.9188,
+      "front_wheel_box": [
+        997,
+        607,
+        1169,
+        779
+      ],
+      "back_wheel_box": [
+        1276,
+        611,
+        1451,
+        795
+      ],
+      "cyclist_box": [
+        994,
+        323,
+        1451,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1226,
+      "timestamp": 20.6781,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001226.jpg",
+      "front_wheel_conf": 0.9309,
+      "back_wheel_conf": 0.9523,
+      "front_squareness": 0.9942,
+      "back_squareness": 0.9676,
+      "size_match_ratio": 0.8986,
+      "front_wheel_box": [
+        993,
+        606,
+        1165,
+        779
+      ],
+      "back_wheel_box": [
+        1269,
+        610,
+        1448,
+        795
+      ],
+      "cyclist_box": [
+        990,
+        317,
+        1448,
+        795
+      ]
+    },
+    {
+      "frame_idx": 1227,
+      "timestamp": 20.695,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001227.jpg",
+      "front_wheel_conf": 0.9287,
+      "back_wheel_conf": 0.9508,
+      "front_squareness": 0.9942,
+      "back_squareness": 0.9784,
+      "size_match_ratio": 0.8886,
+      "front_wheel_box": [
+        990,
+        606,
+        1162,
+        779
+      ],
+      "back_wheel_box": [
+        1264,
+        610,
+        1445,
+        795
+      ],
+      "cyclist_box": [
+        985,
+        322,
+        1445,
+        795
+      ]
+    },
+    {
+      "frame_idx": 1228,
+      "timestamp": 20.7119,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001228.jpg",
+      "front_wheel_conf": 0.926,
+      "back_wheel_conf": 0.9515,
+      "front_squareness": 0.9942,
+      "back_squareness": 0.9679,
+      "size_match_ratio": 0.8791,
+      "front_wheel_box": [
+        985,
+        606,
+        1158,
+        778
+      ],
+      "back_wheel_box": [
+        1261,
+        608,
+        1442,
+        795
+      ],
+      "cyclist_box": [
+        980,
+        324,
+        1443,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1229,
+      "timestamp": 20.7287,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001229.jpg",
+      "front_wheel_conf": 0.9349,
+      "back_wheel_conf": 0.9533,
+      "front_squareness": 0.9943,
+      "back_squareness": 0.9784,
+      "size_match_ratio": 0.9094,
+      "front_wheel_box": [
+        981,
+        604,
+        1155,
+        779
+      ],
+      "back_wheel_box": [
+        1258,
+        611,
+        1439,
+        796
+      ],
+      "cyclist_box": [
+        976,
+        325,
+        1439,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1230,
+      "timestamp": 20.7456,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001230.jpg",
+      "front_wheel_conf": 0.9382,
+      "back_wheel_conf": 0.9537,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9783,
+      "size_match_ratio": 0.9141,
+      "front_wheel_box": [
+        977,
+        604,
+        1151,
+        778
+      ],
+      "back_wheel_box": [
+        1256,
+        611,
+        1436,
+        795
+      ],
+      "cyclist_box": [
+        972,
+        323,
+        1437,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1231,
+      "timestamp": 20.7625,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001231.jpg",
+      "front_wheel_conf": 0.9417,
+      "back_wheel_conf": 0.9526,
+      "front_squareness": 0.9943,
+      "back_squareness": 0.973,
+      "size_match_ratio": 0.904,
+      "front_wheel_box": [
+        975,
+        604,
+        1148,
+        778
+      ],
+      "back_wheel_box": [
+        1253,
+        610,
+        1433,
+        795
+      ],
+      "cyclist_box": [
+        969,
+        323,
+        1435,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1232,
+      "timestamp": 20.7793,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001232.jpg",
+      "front_wheel_conf": 0.9451,
+      "back_wheel_conf": 0.9075,
+      "front_squareness": 0.9943,
+      "back_squareness": 0.9784,
+      "size_match_ratio": 0.9094,
+      "front_wheel_box": [
+        972,
+        603,
+        1146,
+        778
+      ],
+      "back_wheel_box": [
+        1249,
+        611,
+        1430,
+        796
+      ],
+      "cyclist_box": [
+        967,
+        323,
+        1433,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1233,
+      "timestamp": 20.7962,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001233.jpg",
+      "front_wheel_conf": 0.9505,
+      "back_wheel_conf": 0.955,
+      "front_squareness": 0.9831,
+      "back_squareness": 0.9837,
+      "size_match_ratio": 0.9248,
+      "front_wheel_box": [
+        971,
+        602,
+        1145,
+        779
+      ],
+      "back_wheel_box": [
+        1247,
+        611,
+        1428,
+        795
+      ],
+      "cyclist_box": [
+        965,
+        323,
+        1431,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1234,
+      "timestamp": 20.8131,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001234.jpg",
+      "front_wheel_conf": 0.9485,
+      "back_wheel_conf": 0.954,
+      "front_squareness": 0.9886,
+      "back_squareness": 0.973,
+      "size_match_ratio": 0.9092,
+      "front_wheel_box": [
+        969,
+        603,
+        1142,
+        778
+      ],
+      "back_wheel_box": [
+        1246,
+        610,
+        1426,
+        795
+      ],
+      "cyclist_box": [
+        963,
+        323,
+        1429,
+        793
+      ]
+    },
+    {
+      "frame_idx": 1235,
+      "timestamp": 20.8299,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001235.jpg",
+      "front_wheel_conf": 0.9436,
+      "back_wheel_conf": 0.9507,
+      "front_squareness": 0.9886,
+      "back_squareness": 0.9839,
+      "size_match_ratio": 0.8894,
+      "front_wheel_box": [
+        966,
+        603,
+        1139,
+        778
+      ],
+      "back_wheel_box": [
+        1241,
+        608,
+        1424,
+        794
+      ],
+      "cyclist_box": [
+        960,
+        323,
+        1427,
+        793
+      ]
+    },
+    {
+      "frame_idx": 1236,
+      "timestamp": 20.8468,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001236.jpg",
+      "front_wheel_conf": 0.9446,
+      "back_wheel_conf": 0.9517,
+      "front_squareness": 0.9886,
+      "back_squareness": 0.9841,
+      "size_match_ratio": 0.8612,
+      "front_wheel_box": [
+        965,
+        603,
+        1138,
+        778
+      ],
+      "back_wheel_box": [
+        1237,
+        606,
+        1423,
+        795
+      ],
+      "cyclist_box": [
+        959,
+        322,
+        1426,
+        793
+      ]
+    },
+    {
+      "frame_idx": 1237,
+      "timestamp": 20.8637,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001237.jpg",
+      "front_wheel_conf": 0.9419,
+      "back_wheel_conf": 0.9513,
+      "front_squareness": 0.983,
+      "back_squareness": 0.9841,
+      "size_match_ratio": 0.8391,
+      "front_wheel_box": [
+        963,
+        602,
+        1136,
+        778
+      ],
+      "back_wheel_box": [
+        1230,
+        606,
+        1422,
+        795
+      ],
+      "cyclist_box": [
+        957,
+        322,
+        1425,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1238,
+      "timestamp": 20.8805,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001238.jpg",
+      "front_wheel_conf": 0.935,
+      "back_wheel_conf": 0.9534,
+      "front_squareness": 0.9943,
+      "back_squareness": 0.9893,
+      "size_match_ratio": 0.8616,
+      "front_wheel_box": [
+        962,
+        603,
+        1136,
+        778
+      ],
+      "back_wheel_box": [
+        1232,
+        608,
+        1421,
+        795
+      ],
+      "cyclist_box": [
+        956,
+        321,
+        1424,
+        793
+      ]
+    },
+    {
+      "frame_idx": 1239,
+      "timestamp": 20.8974,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001239.jpg",
+      "front_wheel_conf": 0.9382,
+      "back_wheel_conf": 0.9524,
+      "front_squareness": 0.9887,
+      "back_squareness": 0.9841,
+      "size_match_ratio": 0.8536,
+      "front_wheel_box": [
+        959,
+        601,
+        1134,
+        778
+      ],
+      "back_wheel_box": [
+        1227,
+        606,
+        1419,
+        795
+      ],
+      "cyclist_box": [
+        954,
+        321,
+        1422,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1240,
+      "timestamp": 20.9142,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001240.jpg",
+      "front_wheel_conf": 0.931,
+      "back_wheel_conf": 0.955,
+      "front_squareness": 1.0,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.8751,
+      "front_wheel_box": [
+        958,
+        602,
+        1132,
+        776
+      ],
+      "back_wheel_box": [
+        1231,
+        608,
+        1417,
+        794
+      ],
+      "cyclist_box": [
+        953,
+        321,
+        1420,
+        793
+      ]
+    },
+    {
+      "frame_idx": 1241,
+      "timestamp": 20.9311,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001241.jpg",
+      "front_wheel_conf": 0.9351,
+      "back_wheel_conf": 0.9533,
+      "front_squareness": 0.9943,
+      "back_squareness": 0.9839,
+      "size_match_ratio": 0.8844,
+      "front_wheel_box": [
+        956,
+        602,
+        1129,
+        776
+      ],
+      "back_wheel_box": [
+        1231,
+        608,
+        1414,
+        794
+      ],
+      "cyclist_box": [
+        952,
+        321,
+        1417,
+        793
+      ]
+    },
+    {
+      "frame_idx": 1242,
+      "timestamp": 20.948,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001242.jpg",
+      "front_wheel_conf": 0.9376,
+      "back_wheel_conf": 0.9536,
+      "front_squareness": 0.9886,
+      "back_squareness": 0.9839,
+      "size_match_ratio": 0.8894,
+      "front_wheel_box": [
+        954,
+        600,
+        1127,
+        775
+      ],
+      "back_wheel_box": [
+        1230,
+        608,
+        1413,
+        794
+      ],
+      "cyclist_box": [
+        950,
+        321,
+        1415,
+        793
+      ]
+    },
+    {
+      "frame_idx": 1243,
+      "timestamp": 20.9648,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001243.jpg",
+      "front_wheel_conf": 0.9369,
+      "back_wheel_conf": 0.9536,
+      "front_squareness": 0.9773,
+      "back_squareness": 0.973,
+      "size_match_ratio": 0.9091,
+      "front_wheel_box": [
+        952,
+        599,
+        1124,
+        775
+      ],
+      "back_wheel_box": [
+        1230,
+        609,
+        1410,
+        794
+      ],
+      "cyclist_box": [
+        948,
+        319,
+        1412,
+        792
+      ]
+    },
+    {
+      "frame_idx": 1244,
+      "timestamp": 20.9817,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001244.jpg",
+      "front_wheel_conf": 0.939,
+      "back_wheel_conf": 0.9529,
+      "front_squareness": 0.983,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.8801,
+      "front_wheel_box": [
+        949,
+        599,
+        1122,
+        775
+      ],
+      "back_wheel_box": [
+        1222,
+        608,
+        1408,
+        794
+      ],
+      "cyclist_box": [
+        945,
+        318,
+        1411,
+        793
+      ]
+    },
+    {
+      "frame_idx": 1245,
+      "timestamp": 20.9986,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001245.jpg",
+      "front_wheel_conf": 0.9432,
+      "back_wheel_conf": 0.9551,
+      "front_squareness": 0.9829,
+      "back_squareness": 0.984,
+      "size_match_ratio": 0.8654,
+      "front_wheel_box": [
+        945,
+        598,
+        1117,
+        773
+      ],
+      "back_wheel_box": [
+        1220,
+        607,
+        1405,
+        795
+      ],
+      "cyclist_box": [
+        942,
+        319,
+        1408,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1246,
+      "timestamp": 21.0154,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001246.jpg",
+      "front_wheel_conf": 0.9429,
+      "back_wheel_conf": 0.9533,
+      "front_squareness": 0.983,
+      "back_squareness": 0.984,
+      "size_match_ratio": 0.8849,
+      "front_wheel_box": [
+        942,
+        597,
+        1115,
+        773
+      ],
+      "back_wheel_box": [
+        1217,
+        607,
+        1401,
+        794
+      ],
+      "cyclist_box": [
+        938,
+        317,
+        1404,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1247,
+      "timestamp": 21.0323,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001247.jpg",
+      "front_wheel_conf": 0.939,
+      "back_wheel_conf": 0.954,
+      "front_squareness": 0.9659,
+      "back_squareness": 0.9894,
+      "size_match_ratio": 0.8556,
+      "front_wheel_box": [
+        940,
+        596,
+        1110,
+        772
+      ],
+      "back_wheel_box": [
+        1212,
+        606,
+        1398,
+        794
+      ],
+      "cyclist_box": [
+        935,
+        315,
+        1401,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1248,
+      "timestamp": 21.0492,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001248.jpg",
+      "front_wheel_conf": 0.9377,
+      "back_wheel_conf": 0.9522,
+      "front_squareness": 0.9714,
+      "back_squareness": 0.984,
+      "size_match_ratio": 0.8554,
+      "front_wheel_box": [
+        937,
+        596,
+        1107,
+        771
+      ],
+      "back_wheel_box": [
+        1209,
+        606,
+        1394,
+        794
+      ],
+      "cyclist_box": [
+        931,
+        318,
+        1397,
+        795
+      ]
+    },
+    {
+      "frame_idx": 1249,
+      "timestamp": 21.066,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001249.jpg",
+      "front_wheel_conf": 0.9134,
+      "back_wheel_conf": 0.9533,
+      "front_squareness": 0.9716,
+      "back_squareness": 0.9841,
+      "size_match_ratio": 0.8561,
+      "front_wheel_box": [
+        933,
+        596,
+        1104,
+        772
+      ],
+      "back_wheel_box": [
+        1205,
+        606,
+        1391,
+        795
+      ],
+      "cyclist_box": [
+        927,
+        317,
+        1393,
+        796
+      ]
+    },
+    {
+      "frame_idx": 1250,
+      "timestamp": 21.0829,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001250.jpg",
+      "front_wheel_conf": 0.931,
+      "back_wheel_conf": 0.952,
+      "front_squareness": 0.9771,
+      "back_squareness": 0.9735,
+      "size_match_ratio": 0.8605,
+      "front_wheel_box": [
+        929,
+        596,
+        1100,
+        771
+      ],
+      "back_wheel_box": [
+        1204,
+        605,
+        1388,
+        794
+      ],
+      "cyclist_box": [
+        923,
+        320,
+        1390,
+        795
+      ]
+    },
+    {
+      "frame_idx": 1251,
+      "timestamp": 21.0998,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001251.jpg",
+      "front_wheel_conf": 0.9429,
+      "back_wheel_conf": 0.9534,
+      "front_squareness": 0.9771,
+      "back_squareness": 0.9892,
+      "size_match_ratio": 0.8744,
+      "front_wheel_box": [
+        927,
+        595,
+        1098,
+        770
+      ],
+      "back_wheel_box": [
+        1198,
+        607,
+        1382,
+        793
+      ],
+      "cyclist_box": [
+        923,
+        320,
+        1385,
+        794
+      ]
+    },
+    {
+      "frame_idx": 1252,
+      "timestamp": 21.1166,
+      "frame_file": "output_v2/romanb60/romanb60_selected_frames/frame_001252.jpg",
+      "front_wheel_conf": 0.9568,
+      "back_wheel_conf": 0.9531,
+      "front_squareness": 0.9716,
+      "back_squareness": 0.984,
+      "size_match_ratio": 0.8747,
+      "front_wheel_box": [
+        924,
+        594,
+        1095,
+        770
+      ],
+      "back_wheel_box": [
+        1194,
+        606,
+        1378,
+        793
+      ],
+      "cyclist_box": [
+        920,
+        321,
+        1380,
+        793
+      ]
+    }
+  ],
+  "selected_bursts": [
+    {
+      "burst_id": 0,
+      "quality_score": 33.6557,
+      "frame_idx_start": 1163,
+      "frame_idx_end": 1252,
+      "frame_count": 90
+    }
+  ],
+  "metrics": {
+    "frames_processed": 1586,
+    "frames_selected": 90,
+    "total_bursts": 10,
+    "bursts_selected": 1,
+    "selection_rate": 0.0567,
+    "avg_confidence": 0.9426,
+    "elapsed_sec": 81.16
+  }
+}

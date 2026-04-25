@@ -1,0 +1,2590 @@
+{
+  "video": "videos/hannahb30.mp4",
+  "model": "models/best.pt",
+  "fps": 59.0,
+  "total_frames": 1097,
+  "selected_frames": [
+    {
+      "frame_idx": 865,
+      "timestamp": 14.661,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000865.jpg",
+      "front_wheel_conf": 0.9467,
+      "back_wheel_conf": 0.9612,
+      "front_squareness": 0.931,
+      "back_squareness": 0.8523,
+      "size_match_ratio": 0.9366,
+      "front_wheel_box": [
+        590,
+        556,
+        752,
+        730
+      ],
+      "back_wheel_box": [
+        371,
+        544,
+        521,
+        720
+      ]
+    },
+    {
+      "frame_idx": 866,
+      "timestamp": 14.678,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000866.jpg",
+      "front_wheel_conf": 0.9415,
+      "back_wheel_conf": 0.9572,
+      "front_squareness": 0.92,
+      "back_squareness": 0.8933,
+      "size_match_ratio": 0.9955,
+      "front_wheel_box": [
+        595,
+        557,
+        756,
+        732
+      ],
+      "back_wheel_box": [
+        372,
+        544,
+        531,
+        722
+      ]
+    },
+    {
+      "frame_idx": 867,
+      "timestamp": 14.6949,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000867.jpg",
+      "front_wheel_conf": 0.9319,
+      "back_wheel_conf": 0.9603,
+      "front_squareness": 0.9257,
+      "back_squareness": 0.8764,
+      "size_match_ratio": 0.9795,
+      "front_wheel_box": [
+        600,
+        557,
+        762,
+        732
+      ],
+      "back_wheel_box": [
+        374,
+        545,
+        530,
+        723
+      ]
+    },
+    {
+      "frame_idx": 868,
+      "timestamp": 14.7119,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000868.jpg",
+      "front_wheel_conf": 0.9232,
+      "back_wheel_conf": 0.9597,
+      "front_squareness": 0.9143,
+      "back_squareness": 0.8596,
+      "size_match_ratio": 0.9726,
+      "front_wheel_box": [
+        605,
+        558,
+        765,
+        733
+      ],
+      "back_wheel_box": [
+        376,
+        546,
+        529,
+        724
+      ]
+    },
+    {
+      "frame_idx": 869,
+      "timestamp": 14.7288,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000869.jpg",
+      "front_wheel_conf": 0.9169,
+      "back_wheel_conf": 0.9526,
+      "front_squareness": 0.9257,
+      "back_squareness": 0.8864,
+      "size_match_ratio": 0.9685,
+      "front_wheel_box": [
+        608,
+        559,
+        770,
+        734
+      ],
+      "back_wheel_box": [
+        378,
+        548,
+        534,
+        724
+      ]
+    },
+    {
+      "frame_idx": 870,
+      "timestamp": 14.7458,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000870.jpg",
+      "front_wheel_conf": 0.9138,
+      "back_wheel_conf": 0.9501,
+      "front_squareness": 0.9375,
+      "back_squareness": 0.8701,
+      "size_match_ratio": 0.9386,
+      "front_wheel_box": [
+        611,
+        559,
+        776,
+        735
+      ],
+      "back_wheel_box": [
+        380,
+        548,
+        534,
+        725
+      ]
+    },
+    {
+      "frame_idx": 871,
+      "timestamp": 14.7627,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000871.jpg",
+      "front_wheel_conf": 0.9251,
+      "back_wheel_conf": 0.9515,
+      "front_squareness": 0.9322,
+      "back_squareness": 0.8644,
+      "size_match_ratio": 0.9273,
+      "front_wheel_box": [
+        615,
+        558,
+        780,
+        735
+      ],
+      "back_wheel_box": [
+        383,
+        549,
+        536,
+        726
+      ]
+    },
+    {
+      "frame_idx": 872,
+      "timestamp": 14.7797,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000872.jpg",
+      "front_wheel_conf": 0.9261,
+      "back_wheel_conf": 0.9525,
+      "front_squareness": 0.9379,
+      "back_squareness": 0.8701,
+      "size_match_ratio": 0.9277,
+      "front_wheel_box": [
+        618,
+        559,
+        784,
+        736
+      ],
+      "back_wheel_box": [
+        385,
+        550,
+        539,
+        727
+      ]
+    },
+    {
+      "frame_idx": 873,
+      "timestamp": 14.7966,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000873.jpg",
+      "front_wheel_conf": 0.9253,
+      "back_wheel_conf": 0.9481,
+      "front_squareness": 0.9322,
+      "back_squareness": 0.8827,
+      "size_match_ratio": 0.9684,
+      "front_wheel_box": [
+        624,
+        560,
+        789,
+        737
+      ],
+      "back_wheel_box": [
+        387,
+        549,
+        545,
+        728
+      ]
+    },
+    {
+      "frame_idx": 874,
+      "timestamp": 14.8136,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000874.jpg",
+      "front_wheel_conf": 0.9287,
+      "back_wheel_conf": 0.9535,
+      "front_squareness": 0.9489,
+      "back_squareness": 0.8944,
+      "size_match_ratio": 0.986,
+      "front_wheel_box": [
+        627,
+        561,
+        794,
+        737
+      ],
+      "back_wheel_box": [
+        390,
+        549,
+        551,
+        729
+      ]
+    },
+    {
+      "frame_idx": 875,
+      "timestamp": 14.8305,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000875.jpg",
+      "front_wheel_conf": 0.9333,
+      "back_wheel_conf": 0.9525,
+      "front_squareness": 0.9659,
+      "back_squareness": 0.9382,
+      "size_match_ratio": 0.9935,
+      "front_wheel_box": [
+        630,
+        562,
+        800,
+        738
+      ],
+      "back_wheel_box": [
+        393,
+        552,
+        560,
+        730
+      ]
+    },
+    {
+      "frame_idx": 876,
+      "timestamp": 14.8475,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000876.jpg",
+      "front_wheel_conf": 0.9408,
+      "back_wheel_conf": 0.9548,
+      "front_squareness": 0.9661,
+      "back_squareness": 0.9213,
+      "size_match_ratio": 0.9645,
+      "front_wheel_box": [
+        634,
+        562,
+        805,
+        739
+      ],
+      "back_wheel_box": [
+        397,
+        552,
+        561,
+        730
+      ]
+    },
+    {
+      "frame_idx": 877,
+      "timestamp": 14.8644,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000877.jpg",
+      "front_wheel_conf": 0.9354,
+      "back_wheel_conf": 0.9509,
+      "front_squareness": 0.9655,
+      "back_squareness": 0.9153,
+      "size_match_ratio": 0.9809,
+      "front_wheel_box": [
+        641,
+        565,
+        809,
+        739
+      ],
+      "back_wheel_box": [
+        399,
+        554,
+        561,
+        731
+      ]
+    },
+    {
+      "frame_idx": 878,
+      "timestamp": 14.8814,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000878.jpg",
+      "front_wheel_conf": 0.9193,
+      "back_wheel_conf": 0.9608,
+      "front_squareness": 0.9771,
+      "back_squareness": 0.9056,
+      "size_match_ratio": 0.9805,
+      "front_wheel_box": [
+        646,
+        565,
+        817,
+        740
+      ],
+      "back_wheel_box": [
+        404,
+        552,
+        567,
+        732
+      ]
+    },
+    {
+      "frame_idx": 879,
+      "timestamp": 14.8983,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000879.jpg",
+      "front_wheel_conf": 0.9182,
+      "back_wheel_conf": 0.9588,
+      "front_squareness": 0.9497,
+      "back_squareness": 0.9282,
+      "size_match_ratio": 0.9993,
+      "front_wheel_box": [
+        652,
+        563,
+        822,
+        742
+      ],
+      "back_wheel_box": [
+        406,
+        551,
+        574,
+        732
+      ]
+    },
+    {
+      "frame_idx": 880,
+      "timestamp": 14.9153,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000880.jpg",
+      "front_wheel_conf": 0.9233,
+      "back_wheel_conf": 0.9598,
+      "front_squareness": 0.9771,
+      "back_squareness": 0.8895,
+      "size_match_ratio": 0.9738,
+      "front_wheel_box": [
+        657,
+        566,
+        828,
+        741
+      ],
+      "back_wheel_box": [
+        411,
+        553,
+        572,
+        734
+      ]
+    },
+    {
+      "frame_idx": 881,
+      "timestamp": 14.9322,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000881.jpg",
+      "front_wheel_conf": 0.9229,
+      "back_wheel_conf": 0.9556,
+      "front_squareness": 0.9556,
+      "back_squareness": 0.9061,
+      "size_match_ratio": 0.9588,
+      "front_wheel_box": [
+        661,
+        562,
+        833,
+        742
+      ],
+      "back_wheel_box": [
+        415,
+        554,
+        579,
+        735
+      ]
+    },
+    {
+      "frame_idx": 882,
+      "timestamp": 14.9492,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000882.jpg",
+      "front_wheel_conf": 0.9236,
+      "back_wheel_conf": 0.9556,
+      "front_squareness": 0.9556,
+      "back_squareness": 0.8944,
+      "size_match_ratio": 0.936,
+      "front_wheel_box": [
+        668,
+        563,
+        840,
+        743
+      ],
+      "back_wheel_box": [
+        418,
+        556,
+        579,
+        736
+      ]
+    },
+    {
+      "frame_idx": 883,
+      "timestamp": 14.9661,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000883.jpg",
+      "front_wheel_conf": 0.924,
+      "back_wheel_conf": 0.9501,
+      "front_squareness": 0.956,
+      "back_squareness": 0.9066,
+      "size_match_ratio": 0.9483,
+      "front_wheel_box": [
+        672,
+        562,
+        846,
+        744
+      ],
+      "back_wheel_box": [
+        420,
+        556,
+        585,
+        738
+      ]
+    },
+    {
+      "frame_idx": 884,
+      "timestamp": 14.9831,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000884.jpg",
+      "front_wheel_conf": 0.9253,
+      "back_wheel_conf": 0.9475,
+      "front_squareness": 0.9615,
+      "back_squareness": 0.8859,
+      "size_match_ratio": 0.9417,
+      "front_wheel_box": [
+        679,
+        563,
+        854,
+        745
+      ],
+      "back_wheel_box": [
+        425,
+        556,
+        588,
+        740
+      ]
+    },
+    {
+      "frame_idx": 885,
+      "timestamp": 15.0,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000885.jpg",
+      "front_wheel_conf": 0.9355,
+      "back_wheel_conf": 0.9487,
+      "front_squareness": 0.9779,
+      "back_squareness": 0.9071,
+      "size_match_ratio": 0.9482,
+      "front_wheel_box": [
+        682,
+        565,
+        859,
+        746
+      ],
+      "back_wheel_box": [
+        430,
+        556,
+        596,
+        739
+      ]
+    },
+    {
+      "frame_idx": 886,
+      "timestamp": 15.0169,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000886.jpg",
+      "front_wheel_conf": 0.9327,
+      "back_wheel_conf": 0.9541,
+      "front_squareness": 0.9834,
+      "back_squareness": 0.9348,
+      "size_match_ratio": 0.9823,
+      "front_wheel_box": [
+        687,
+        565,
+        865,
+        746
+      ],
+      "back_wheel_box": [
+        434,
+        555,
+        606,
+        739
+      ]
+    },
+    {
+      "frame_idx": 887,
+      "timestamp": 15.0339,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000887.jpg",
+      "front_wheel_conf": 0.9301,
+      "back_wheel_conf": 0.9593,
+      "front_squareness": 0.9672,
+      "back_squareness": 0.9508,
+      "size_match_ratio": 0.9831,
+      "front_wheel_box": [
+        693,
+        565,
+        870,
+        748
+      ],
+      "back_wheel_box": [
+        438,
+        557,
+        612,
+        740
+      ]
+    },
+    {
+      "frame_idx": 888,
+      "timestamp": 15.0508,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000888.jpg",
+      "front_wheel_conf": 0.9321,
+      "back_wheel_conf": 0.9614,
+      "front_squareness": 0.9674,
+      "back_squareness": 0.9185,
+      "size_match_ratio": 0.9494,
+      "front_wheel_box": [
+        699,
+        565,
+        877,
+        749
+      ],
+      "back_wheel_box": [
+        442,
+        557,
+        611,
+        741
+      ]
+    },
+    {
+      "frame_idx": 889,
+      "timestamp": 15.0678,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000889.jpg",
+      "front_wheel_conf": 0.9284,
+      "back_wheel_conf": 0.96,
+      "front_squareness": 0.9568,
+      "back_squareness": 0.9037,
+      "size_match_ratio": 0.9651,
+      "front_wheel_box": [
+        705,
+        564,
+        882,
+        749
+      ],
+      "back_wheel_box": [
+        448,
+        555,
+        617,
+        742
+      ]
+    },
+    {
+      "frame_idx": 890,
+      "timestamp": 15.0847,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000890.jpg",
+      "front_wheel_conf": 0.9277,
+      "back_wheel_conf": 0.9552,
+      "front_squareness": 0.9628,
+      "back_squareness": 0.9043,
+      "size_match_ratio": 0.9392,
+      "front_wheel_box": [
+        709,
+        560,
+        890,
+        748
+      ],
+      "back_wheel_box": [
+        451,
+        555,
+        621,
+        743
+      ]
+    },
+    {
+      "frame_idx": 891,
+      "timestamp": 15.1017,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000891.jpg",
+      "front_wheel_conf": 0.928,
+      "back_wheel_conf": 0.9518,
+      "front_squareness": 0.9628,
+      "back_squareness": 0.9153,
+      "size_match_ratio": 0.9609,
+      "front_wheel_box": [
+        716,
+        560,
+        897,
+        748
+      ],
+      "back_wheel_box": [
+        453,
+        555,
+        626,
+        744
+      ]
+    },
+    {
+      "frame_idx": 892,
+      "timestamp": 15.1186,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000892.jpg",
+      "front_wheel_conf": 0.9321,
+      "back_wheel_conf": 0.9488,
+      "front_squareness": 0.9626,
+      "back_squareness": 0.9202,
+      "size_match_ratio": 0.9663,
+      "front_wheel_box": [
+        722,
+        560,
+        902,
+        747
+      ],
+      "back_wheel_box": [
+        457,
+        557,
+        630,
+        745
+      ]
+    },
+    {
+      "frame_idx": 893,
+      "timestamp": 15.1356,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000893.jpg",
+      "front_wheel_conf": 0.9345,
+      "back_wheel_conf": 0.9496,
+      "front_squareness": 0.9786,
+      "back_squareness": 0.9096,
+      "size_match_ratio": 0.9394,
+      "front_wheel_box": [
+        726,
+        563,
+        909,
+        750
+      ],
+      "back_wheel_box": [
+        462,
+        558,
+        633,
+        746
+      ]
+    },
+    {
+      "frame_idx": 894,
+      "timestamp": 15.1525,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000894.jpg",
+      "front_wheel_conf": 0.9314,
+      "back_wheel_conf": 0.9485,
+      "front_squareness": 0.9841,
+      "back_squareness": 0.9048,
+      "size_match_ratio": 0.9194,
+      "front_wheel_box": [
+        730,
+        561,
+        916,
+        750
+      ],
+      "back_wheel_box": [
+        465,
+        558,
+        636,
+        747
+      ]
+    },
+    {
+      "frame_idx": 895,
+      "timestamp": 15.1695,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000895.jpg",
+      "front_wheel_conf": 0.9306,
+      "back_wheel_conf": 0.9462,
+      "front_squareness": 0.9946,
+      "back_squareness": 0.9206,
+      "size_match_ratio": 0.9557,
+      "front_wheel_box": [
+        735,
+        564,
+        921,
+        749
+      ],
+      "back_wheel_box": [
+        468,
+        559,
+        642,
+        748
+      ]
+    },
+    {
+      "frame_idx": 896,
+      "timestamp": 15.1864,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000896.jpg",
+      "front_wheel_conf": 0.9283,
+      "back_wheel_conf": 0.9455,
+      "front_squareness": 0.9946,
+      "back_squareness": 0.9263,
+      "size_match_ratio": 0.9931,
+      "front_wheel_box": [
+        742,
+        565,
+        925,
+        749
+      ],
+      "back_wheel_box": [
+        472,
+        558,
+        648,
+        748
+      ]
+    },
+    {
+      "frame_idx": 897,
+      "timestamp": 15.2034,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000897.jpg",
+      "front_wheel_conf": 0.9265,
+      "back_wheel_conf": 0.9468,
+      "front_squareness": 0.9891,
+      "back_squareness": 0.9412,
+      "size_match_ratio": 0.9936,
+      "front_wheel_box": [
+        749,
+        566,
+        930,
+        749
+      ],
+      "back_wheel_box": [
+        477,
+        561,
+        653,
+        748
+      ]
+    },
+    {
+      "frame_idx": 898,
+      "timestamp": 15.2203,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000898.jpg",
+      "front_wheel_conf": 0.9284,
+      "back_wheel_conf": 0.9468,
+      "front_squareness": 0.989,
+      "back_squareness": 0.9418,
+      "size_match_ratio": 0.9954,
+      "front_wheel_box": [
+        754,
+        568,
+        938,
+        750
+      ],
+      "back_wheel_box": [
+        480,
+        560,
+        658,
+        749
+      ]
+    },
+    {
+      "frame_idx": 899,
+      "timestamp": 15.2373,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000899.jpg",
+      "front_wheel_conf": 0.9297,
+      "back_wheel_conf": 0.9474,
+      "front_squareness": 0.9892,
+      "back_squareness": 0.9468,
+      "size_match_ratio": 0.9885,
+      "front_wheel_box": [
+        759,
+        565,
+        942,
+        750
+      ],
+      "back_wheel_box": [
+        485,
+        560,
+        663,
+        748
+      ]
+    },
+    {
+      "frame_idx": 900,
+      "timestamp": 15.2542,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000900.jpg",
+      "front_wheel_conf": 0.9327,
+      "back_wheel_conf": 0.9484,
+      "front_squareness": 0.9892,
+      "back_squareness": 0.9372,
+      "size_match_ratio": 0.9902,
+      "front_wheel_box": [
+        766,
+        564,
+        949,
+        749
+      ],
+      "back_wheel_box": [
+        491,
+        559,
+        670,
+        750
+      ]
+    },
+    {
+      "frame_idx": 901,
+      "timestamp": 15.2712,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000901.jpg",
+      "front_wheel_conf": 0.937,
+      "back_wheel_conf": 0.9481,
+      "front_squareness": 0.9891,
+      "back_squareness": 0.9326,
+      "size_match_ratio": 0.964,
+      "front_wheel_box": [
+        772,
+        566,
+        954,
+        750
+      ],
+      "back_wheel_box": [
+        494,
+        558,
+        674,
+        751
+      ]
+    },
+    {
+      "frame_idx": 902,
+      "timestamp": 15.2881,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000902.jpg",
+      "front_wheel_conf": 0.9366,
+      "back_wheel_conf": 0.9485,
+      "front_squareness": 0.9946,
+      "back_squareness": 0.943,
+      "size_match_ratio": 0.9691,
+      "front_wheel_box": [
+        775,
+        565,
+        960,
+        749
+      ],
+      "back_wheel_box": [
+        497,
+        558,
+        679,
+        751
+      ]
+    },
+    {
+      "frame_idx": 903,
+      "timestamp": 15.3051,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000903.jpg",
+      "front_wheel_conf": 0.931,
+      "back_wheel_conf": 0.9488,
+      "front_squareness": 0.9891,
+      "back_squareness": 0.933,
+      "size_match_ratio": 0.9747,
+      "front_wheel_box": [
+        780,
+        564,
+        966,
+        748
+      ],
+      "back_wheel_box": [
+        501,
+        558,
+        682,
+        752
+      ]
+    },
+    {
+      "frame_idx": 904,
+      "timestamp": 15.322,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000904.jpg",
+      "front_wheel_conf": 0.9358,
+      "back_wheel_conf": 0.9498,
+      "front_squareness": 0.9838,
+      "back_squareness": 0.933,
+      "size_match_ratio": 0.9905,
+      "front_wheel_box": [
+        784,
+        564,
+        972,
+        749
+      ],
+      "back_wheel_box": [
+        505,
+        559,
+        686,
+        753
+      ]
+    },
+    {
+      "frame_idx": 905,
+      "timestamp": 15.339,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000905.jpg",
+      "front_wheel_conf": 0.9278,
+      "back_wheel_conf": 0.9469,
+      "front_squareness": 0.9837,
+      "back_squareness": 0.9337,
+      "size_match_ratio": 0.9593,
+      "front_wheel_box": [
+        788,
+        565,
+        975,
+        749
+      ],
+      "back_wheel_box": [
+        509,
+        557,
+        692,
+        753
+      ]
+    },
+    {
+      "frame_idx": 906,
+      "timestamp": 15.3559,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000906.jpg",
+      "front_wheel_conf": 0.9285,
+      "back_wheel_conf": 0.9484,
+      "front_squareness": 0.9839,
+      "back_squareness": 0.9442,
+      "size_match_ratio": 0.9289,
+      "front_wheel_box": [
+        795,
+        563,
+        978,
+        749
+      ],
+      "back_wheel_box": [
+        512,
+        557,
+        698,
+        754
+      ]
+    },
+    {
+      "frame_idx": 907,
+      "timestamp": 15.3729,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000907.jpg",
+      "front_wheel_conf": 0.9274,
+      "back_wheel_conf": 0.949,
+      "front_squareness": 1.0,
+      "back_squareness": 0.934,
+      "size_match_ratio": 0.934,
+      "front_wheel_box": [
+        800,
+        565,
+        984,
+        749
+      ],
+      "back_wheel_box": [
+        518,
+        558,
+        702,
+        755
+      ]
+    },
+    {
+      "frame_idx": 908,
+      "timestamp": 15.3898,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000908.jpg",
+      "front_wheel_conf": 0.9219,
+      "back_wheel_conf": 0.9464,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9394,
+      "size_match_ratio": 0.9193,
+      "front_wheel_box": [
+        805,
+        565,
+        989,
+        749
+      ],
+      "back_wheel_box": [
+        521,
+        557,
+        707,
+        755
+      ]
+    },
+    {
+      "frame_idx": 909,
+      "timestamp": 15.4068,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000909.jpg",
+      "front_wheel_conf": 0.9199,
+      "back_wheel_conf": 0.9391,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9353,
+      "size_match_ratio": 0.9057,
+      "front_wheel_box": [
+        810,
+        566,
+        995,
+        751
+      ],
+      "back_wheel_box": [
+        524,
+        554,
+        712,
+        755
+      ]
+    },
+    {
+      "frame_idx": 910,
+      "timestamp": 15.4237,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000910.jpg",
+      "front_wheel_conf": 0.9295,
+      "back_wheel_conf": 0.9365,
+      "front_squareness": 0.9725,
+      "back_squareness": 0.9163,
+      "size_match_ratio": 0.9014,
+      "front_wheel_box": [
+        814,
+        567,
+        1001,
+        749
+      ],
+      "back_wheel_box": [
+        531,
+        554,
+        717,
+        757
+      ]
+    },
+    {
+      "frame_idx": 911,
+      "timestamp": 15.4407,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000911.jpg",
+      "front_wheel_conf": 0.9357,
+      "back_wheel_conf": 0.941,
+      "front_squareness": 0.9891,
+      "back_squareness": 0.9254,
+      "size_match_ratio": 0.9154,
+      "front_wheel_box": [
+        820,
+        564,
+        1006,
+        748
+      ],
+      "back_wheel_box": [
+        535,
+        556,
+        721,
+        757
+      ]
+    },
+    {
+      "frame_idx": 912,
+      "timestamp": 15.4576,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000912.jpg",
+      "front_wheel_conf": 0.9342,
+      "back_wheel_conf": 0.9448,
+      "front_squareness": 0.9727,
+      "back_squareness": 0.925,
+      "size_match_ratio": 0.9298,
+      "front_wheel_box": [
+        823,
+        564,
+        1011,
+        747
+      ],
+      "back_wheel_box": [
+        540,
+        556,
+        725,
+        756
+      ]
+    },
+    {
+      "frame_idx": 913,
+      "timestamp": 15.4746,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000913.jpg",
+      "front_wheel_conf": 0.9323,
+      "back_wheel_conf": 0.9472,
+      "front_squareness": 0.9947,
+      "back_squareness": 0.935,
+      "size_match_ratio": 0.94,
+      "front_wheel_box": [
+        828,
+        561,
+        1016,
+        748
+      ],
+      "back_wheel_box": [
+        544,
+        556,
+        731,
+        756
+      ]
+    },
+    {
+      "frame_idx": 914,
+      "timestamp": 15.4915,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000914.jpg",
+      "front_wheel_conf": 0.933,
+      "back_wheel_conf": 0.9481,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9296,
+      "size_match_ratio": 0.96,
+      "front_wheel_box": [
+        834,
+        561,
+        1022,
+        749
+      ],
+      "back_wheel_box": [
+        549,
+        557,
+        734,
+        756
+      ]
+    },
+    {
+      "frame_idx": 915,
+      "timestamp": 15.5085,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000915.jpg",
+      "front_wheel_conf": 0.9341,
+      "back_wheel_conf": 0.9484,
+      "front_squareness": 0.9788,
+      "back_squareness": 0.9397,
+      "size_match_ratio": 0.9396,
+      "front_wheel_box": [
+        841,
+        559,
+        1026,
+        748
+      ],
+      "back_wheel_box": [
+        554,
+        557,
+        741,
+        756
+      ]
+    },
+    {
+      "frame_idx": 916,
+      "timestamp": 15.5254,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000916.jpg",
+      "front_wheel_conf": 0.9364,
+      "back_wheel_conf": 0.9477,
+      "front_squareness": 0.9635,
+      "back_squareness": 0.95,
+      "size_match_ratio": 0.9347,
+      "front_wheel_box": [
+        847,
+        559,
+        1032,
+        751
+      ],
+      "back_wheel_box": [
+        558,
+        556,
+        748,
+        756
+      ]
+    },
+    {
+      "frame_idx": 917,
+      "timestamp": 15.5424,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000917.jpg",
+      "front_wheel_conf": 0.9315,
+      "back_wheel_conf": 0.9482,
+      "front_squareness": 0.9583,
+      "back_squareness": 0.9646,
+      "size_match_ratio": 0.9342,
+      "front_wheel_box": [
+        852,
+        558,
+        1036,
+        750
+      ],
+      "back_wheel_box": [
+        562,
+        558,
+        753,
+        756
+      ]
+    },
+    {
+      "frame_idx": 918,
+      "timestamp": 15.5593,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000918.jpg",
+      "front_wheel_conf": 0.9271,
+      "back_wheel_conf": 0.9444,
+      "front_squareness": 0.9791,
+      "back_squareness": 0.9598,
+      "size_match_ratio": 0.9397,
+      "front_wheel_box": [
+        857,
+        559,
+        1044,
+        750
+      ],
+      "back_wheel_box": [
+        566,
+        558,
+        757,
+        757
+      ]
+    },
+    {
+      "frame_idx": 919,
+      "timestamp": 15.5763,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000919.jpg",
+      "front_wheel_conf": 0.9276,
+      "back_wheel_conf": 0.9423,
+      "front_squareness": 0.9791,
+      "back_squareness": 0.9645,
+      "size_match_ratio": 0.9542,
+      "front_wheel_box": [
+        862,
+        558,
+        1049,
+        749
+      ],
+      "back_wheel_box": [
+        575,
+        559,
+        765,
+        756
+      ]
+    },
+    {
+      "frame_idx": 920,
+      "timestamp": 15.5932,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000920.jpg",
+      "front_wheel_conf": 0.9333,
+      "back_wheel_conf": 0.9444,
+      "front_squareness": 0.9894,
+      "back_squareness": 0.9695,
+      "size_match_ratio": 0.9293,
+      "front_wheel_box": [
+        867,
+        561,
+        1053,
+        749
+      ],
+      "back_wheel_box": [
+        579,
+        559,
+        770,
+        756
+      ]
+    },
+    {
+      "frame_idx": 921,
+      "timestamp": 15.6102,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000921.jpg",
+      "front_wheel_conf": 0.9364,
+      "back_wheel_conf": 0.9468,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9592,
+      "size_match_ratio": 0.949,
+      "front_wheel_box": [
+        871,
+        562,
+        1058,
+        749
+      ],
+      "back_wheel_box": [
+        586,
+        559,
+        774,
+        755
+      ]
+    },
+    {
+      "frame_idx": 922,
+      "timestamp": 15.6271,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000922.jpg",
+      "front_wheel_conf": 0.9389,
+      "back_wheel_conf": 0.9487,
+      "front_squareness": 0.9947,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.9699,
+      "front_wheel_box": [
+        874,
+        561,
+        1064,
+        750
+      ],
+      "back_wheel_box": [
+        590,
+        557,
+        777,
+        755
+      ]
+    },
+    {
+      "frame_idx": 923,
+      "timestamp": 15.6441,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000923.jpg",
+      "front_wheel_conf": 0.9371,
+      "back_wheel_conf": 0.9455,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9492,
+      "size_match_ratio": 0.9697,
+      "front_wheel_box": [
+        880,
+        560,
+        1069,
+        749
+      ],
+      "back_wheel_box": [
+        595,
+        557,
+        782,
+        754
+      ]
+    },
+    {
+      "frame_idx": 924,
+      "timestamp": 15.661,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000924.jpg",
+      "front_wheel_conf": 0.934,
+      "back_wheel_conf": 0.9433,
+      "front_squareness": 0.9947,
+      "back_squareness": 0.9697,
+      "size_match_ratio": 0.9248,
+      "front_wheel_box": [
+        887,
+        561,
+        1074,
+        749
+      ],
+      "back_wheel_box": [
+        598,
+        557,
+        790,
+        755
+      ]
+    },
+    {
+      "frame_idx": 925,
+      "timestamp": 15.678,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000925.jpg",
+      "front_wheel_conf": 0.9315,
+      "back_wheel_conf": 0.9444,
+      "front_squareness": 0.9738,
+      "back_squareness": 0.96,
+      "size_match_ratio": 0.9252,
+      "front_wheel_box": [
+        893,
+        559,
+        1079,
+        750
+      ],
+      "back_wheel_box": [
+        605,
+        555,
+        797,
+        755
+      ]
+    },
+    {
+      "frame_idx": 926,
+      "timestamp": 15.6949,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000926.jpg",
+      "front_wheel_conf": 0.9292,
+      "back_wheel_conf": 0.9428,
+      "front_squareness": 0.9842,
+      "back_squareness": 0.9747,
+      "size_match_ratio": 0.9298,
+      "front_wheel_box": [
+        898,
+        559,
+        1085,
+        749
+      ],
+      "back_wheel_box": [
+        610,
+        556,
+        803,
+        754
+      ]
+    },
+    {
+      "frame_idx": 927,
+      "timestamp": 15.7119,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000927.jpg",
+      "front_wheel_conf": 0.929,
+      "back_wheel_conf": 0.9368,
+      "front_squareness": 0.9738,
+      "back_squareness": 0.9746,
+      "size_match_ratio": 0.9392,
+      "front_wheel_box": [
+        905,
+        558,
+        1091,
+        749
+      ],
+      "back_wheel_box": [
+        615,
+        558,
+        807,
+        755
+      ]
+    },
+    {
+      "frame_idx": 928,
+      "timestamp": 15.7288,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000928.jpg",
+      "front_wheel_conf": 0.9329,
+      "back_wheel_conf": 0.9357,
+      "front_squareness": 0.9946,
+      "back_squareness": 0.9695,
+      "size_match_ratio": 0.9145,
+      "front_wheel_box": [
+        910,
+        563,
+        1096,
+        748
+      ],
+      "back_wheel_box": [
+        620,
+        558,
+        811,
+        755
+      ]
+    },
+    {
+      "frame_idx": 929,
+      "timestamp": 15.7458,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000929.jpg",
+      "front_wheel_conf": 0.9354,
+      "back_wheel_conf": 0.9372,
+      "front_squareness": 0.9891,
+      "back_squareness": 0.945,
+      "size_match_ratio": 0.9054,
+      "front_wheel_box": [
+        915,
+        564,
+        1101,
+        748
+      ],
+      "back_wheel_box": [
+        630,
+        555,
+        819,
+        755
+      ]
+    },
+    {
+      "frame_idx": 930,
+      "timestamp": 15.7627,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000930.jpg",
+      "front_wheel_conf": 0.9357,
+      "back_wheel_conf": 0.944,
+      "front_squareness": 0.9891,
+      "back_squareness": 0.934,
+      "size_match_ratio": 0.9442,
+      "front_wheel_box": [
+        920,
+        564,
+        1106,
+        748
+      ],
+      "back_wheel_box": [
+        636,
+        557,
+        820,
+        754
+      ]
+    },
+    {
+      "frame_idx": 931,
+      "timestamp": 15.7797,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000931.jpg",
+      "front_wheel_conf": 0.9332,
+      "back_wheel_conf": 0.943,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9447,
+      "size_match_ratio": 0.9148,
+      "front_wheel_box": [
+        926,
+        563,
+        1111,
+        748
+      ],
+      "back_wheel_box": [
+        639,
+        556,
+        827,
+        755
+      ]
+    },
+    {
+      "frame_idx": 932,
+      "timestamp": 15.7966,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000932.jpg",
+      "front_wheel_conf": 0.9317,
+      "back_wheel_conf": 0.9459,
+      "front_squareness": 0.9945,
+      "back_squareness": 0.9447,
+      "size_match_ratio": 0.9,
+      "front_wheel_box": [
+        931,
+        565,
+        1115,
+        748
+      ],
+      "back_wheel_box": [
+        643,
+        556,
+        831,
+        755
+      ]
+    },
+    {
+      "frame_idx": 933,
+      "timestamp": 15.8136,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000933.jpg",
+      "front_wheel_conf": 0.933,
+      "back_wheel_conf": 0.9477,
+      "front_squareness": 0.9891,
+      "back_squareness": 0.9695,
+      "size_match_ratio": 0.89,
+      "front_wheel_box": [
+        936,
+        564,
+        1118,
+        748
+      ],
+      "back_wheel_box": [
+        646,
+        557,
+        837,
+        754
+      ]
+    },
+    {
+      "frame_idx": 934,
+      "timestamp": 15.8305,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000934.jpg",
+      "front_wheel_conf": 0.9352,
+      "back_wheel_conf": 0.947,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9497,
+      "size_match_ratio": 0.8854,
+      "front_wheel_box": [
+        941,
+        563,
+        1121,
+        748
+      ],
+      "back_wheel_box": [
+        652,
+        556,
+        841,
+        755
+      ]
+    },
+    {
+      "frame_idx": 935,
+      "timestamp": 15.8475,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000935.jpg",
+      "front_wheel_conf": 0.9347,
+      "back_wheel_conf": 0.9471,
+      "front_squareness": 0.9783,
+      "back_squareness": 0.9749,
+      "size_match_ratio": 0.8579,
+      "front_wheel_box": [
+        944,
+        563,
+        1124,
+        747
+      ],
+      "back_wheel_box": [
+        655,
+        556,
+        849,
+        755
+      ]
+    },
+    {
+      "frame_idx": 936,
+      "timestamp": 15.8644,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000936.jpg",
+      "front_wheel_conf": 0.9347,
+      "back_wheel_conf": 0.9452,
+      "front_squareness": 0.9783,
+      "back_squareness": 0.9552,
+      "size_match_ratio": 0.8582,
+      "front_wheel_box": [
+        948,
+        563,
+        1128,
+        747
+      ],
+      "back_wheel_box": [
+        659,
+        554,
+        851,
+        755
+      ]
+    },
+    {
+      "frame_idx": 937,
+      "timestamp": 15.8814,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000937.jpg",
+      "front_wheel_conf": 0.9304,
+      "back_wheel_conf": 0.9444,
+      "front_squareness": 0.989,
+      "back_squareness": 0.965,
+      "size_match_ratio": 0.8487,
+      "front_wheel_box": [
+        951,
+        564,
+        1131,
+        746
+      ],
+      "back_wheel_box": [
+        662,
+        555,
+        855,
+        755
+      ]
+    },
+    {
+      "frame_idx": 938,
+      "timestamp": 15.8983,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000938.jpg",
+      "front_wheel_conf": 0.9312,
+      "back_wheel_conf": 0.9425,
+      "front_squareness": 0.9944,
+      "back_squareness": 0.9698,
+      "size_match_ratio": 0.8389,
+      "front_wheel_box": [
+        955,
+        565,
+        1134,
+        745
+      ],
+      "back_wheel_box": [
+        665,
+        556,
+        858,
+        755
+      ]
+    },
+    {
+      "frame_idx": 939,
+      "timestamp": 15.9153,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000939.jpg",
+      "front_wheel_conf": 0.9293,
+      "back_wheel_conf": 0.9217,
+      "front_squareness": 0.9944,
+      "back_squareness": 0.9495,
+      "size_match_ratio": 0.8656,
+      "front_wheel_box": [
+        958,
+        566,
+        1138,
+        745
+      ],
+      "back_wheel_box": [
+        673,
+        557,
+        861,
+        755
+      ]
+    },
+    {
+      "frame_idx": 940,
+      "timestamp": 15.9322,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000940.jpg",
+      "front_wheel_conf": 0.9315,
+      "back_wheel_conf": 0.9363,
+      "front_squareness": 0.9831,
+      "back_squareness": 0.935,
+      "size_match_ratio": 0.8519,
+      "front_wheel_box": [
+        962,
+        567,
+        1142,
+        744
+      ],
+      "back_wheel_box": [
+        677,
+        555,
+        864,
+        755
+      ]
+    },
+    {
+      "frame_idx": 941,
+      "timestamp": 15.9492,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000941.jpg",
+      "front_wheel_conf": 0.9267,
+      "back_wheel_conf": 0.9448,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9545,
+      "size_match_ratio": 0.8467,
+      "front_wheel_box": [
+        967,
+        566,
+        1145,
+        744
+      ],
+      "back_wheel_box": [
+        681,
+        556,
+        870,
+        754
+      ]
+    },
+    {
+      "frame_idx": 942,
+      "timestamp": 15.9661,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000942.jpg",
+      "front_wheel_conf": 0.9305,
+      "back_wheel_conf": 0.9434,
+      "front_squareness": 0.9774,
+      "back_squareness": 0.9497,
+      "size_match_ratio": 0.8518,
+      "front_wheel_box": [
+        968,
+        567,
+        1149,
+        744
+      ],
+      "back_wheel_box": [
+        686,
+        556,
+        875,
+        755
+      ]
+    },
+    {
+      "frame_idx": 943,
+      "timestamp": 15.9831,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000943.jpg",
+      "front_wheel_conf": 0.9317,
+      "back_wheel_conf": 0.9472,
+      "front_squareness": 0.9888,
+      "back_squareness": 0.9394,
+      "size_match_ratio": 0.87,
+      "front_wheel_box": [
+        973,
+        567,
+        1153,
+        745
+      ],
+      "back_wheel_box": [
+        690,
+        556,
+        876,
+        754
+      ]
+    },
+    {
+      "frame_idx": 944,
+      "timestamp": 16.0,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000944.jpg",
+      "front_wheel_conf": 0.9304,
+      "back_wheel_conf": 0.9441,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9545,
+      "size_match_ratio": 0.8562,
+      "front_wheel_box": [
+        978,
+        565,
+        1157,
+        744
+      ],
+      "back_wheel_box": [
+        695,
+        557,
+        884,
+        755
+      ]
+    },
+    {
+      "frame_idx": 945,
+      "timestamp": 16.0169,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000945.jpg",
+      "front_wheel_conf": 0.9302,
+      "back_wheel_conf": 0.9442,
+      "front_squareness": 0.9779,
+      "back_squareness": 0.9545,
+      "size_match_ratio": 0.8561,
+      "front_wheel_box": [
+        984,
+        562,
+        1161,
+        743
+      ],
+      "back_wheel_box": [
+        701,
+        557,
+        890,
+        755
+      ]
+    },
+    {
+      "frame_idx": 946,
+      "timestamp": 16.0339,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000946.jpg",
+      "front_wheel_conf": 0.9249,
+      "back_wheel_conf": 0.9447,
+      "front_squareness": 0.9617,
+      "back_squareness": 0.9545,
+      "size_match_ratio": 0.8607,
+      "front_wheel_box": [
+        989,
+        560,
+        1165,
+        743
+      ],
+      "back_wheel_box": [
+        705,
+        556,
+        894,
+        754
+      ]
+    },
+    {
+      "frame_idx": 947,
+      "timestamp": 16.0508,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000947.jpg",
+      "front_wheel_conf": 0.9292,
+      "back_wheel_conf": 0.9433,
+      "front_squareness": 0.967,
+      "back_squareness": 0.9391,
+      "size_match_ratio": 0.8789,
+      "front_wheel_box": [
+        993,
+        560,
+        1169,
+        742
+      ],
+      "back_wheel_box": [
+        711,
+        557,
+        896,
+        754
+      ]
+    },
+    {
+      "frame_idx": 948,
+      "timestamp": 16.0678,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000948.jpg",
+      "front_wheel_conf": 0.9307,
+      "back_wheel_conf": 0.9396,
+      "front_squareness": 0.9613,
+      "back_squareness": 0.9293,
+      "size_match_ratio": 0.8645,
+      "front_wheel_box": [
+        997,
+        562,
+        1171,
+        743
+      ],
+      "back_wheel_box": [
+        717,
+        556,
+        901,
+        754
+      ]
+    },
+    {
+      "frame_idx": 949,
+      "timestamp": 16.0847,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000949.jpg",
+      "front_wheel_conf": 0.9333,
+      "back_wheel_conf": 0.841,
+      "front_squareness": 0.9609,
+      "back_squareness": 0.9036,
+      "size_match_ratio": 0.878,
+      "front_wheel_box": [
+        1001,
+        562,
+        1173,
+        741
+      ],
+      "back_wheel_box": [
+        726,
+        557,
+        904,
+        754
+      ]
+    },
+    {
+      "frame_idx": 950,
+      "timestamp": 16.1017,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000950.jpg",
+      "front_wheel_conf": 0.9338,
+      "back_wheel_conf": 0.9437,
+      "front_squareness": 0.9448,
+      "back_squareness": 0.9388,
+      "size_match_ratio": 0.8582,
+      "front_wheel_box": [
+        1006,
+        560,
+        1177,
+        741
+      ],
+      "back_wheel_box": [
+        728,
+        557,
+        912,
+        753
+      ]
+    },
+    {
+      "frame_idx": 951,
+      "timestamp": 16.1186,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000951.jpg",
+      "front_wheel_conf": 0.9397,
+      "back_wheel_conf": 0.9493,
+      "front_squareness": 0.9444,
+      "back_squareness": 0.934,
+      "size_match_ratio": 0.8442,
+      "front_wheel_box": [
+        1010,
+        562,
+        1180,
+        742
+      ],
+      "back_wheel_box": [
+        732,
+        556,
+        916,
+        753
+      ]
+    },
+    {
+      "frame_idx": 952,
+      "timestamp": 16.1356,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000952.jpg",
+      "front_wheel_conf": 0.9398,
+      "back_wheel_conf": 0.9475,
+      "front_squareness": 0.9503,
+      "back_squareness": 0.9538,
+      "size_match_ratio": 0.8583,
+      "front_wheel_box": [
+        1010,
+        560,
+        1182,
+        741
+      ],
+      "back_wheel_box": [
+        735,
+        557,
+        921,
+        752
+      ]
+    },
+    {
+      "frame_idx": 953,
+      "timestamp": 16.1525,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000953.jpg",
+      "front_wheel_conf": 0.9405,
+      "back_wheel_conf": 0.9468,
+      "front_squareness": 0.9341,
+      "back_squareness": 0.9433,
+      "size_match_ratio": 0.8715,
+      "front_wheel_box": [
+        1014,
+        560,
+        1184,
+        742
+      ],
+      "back_wheel_box": [
+        738,
+        558,
+        921,
+        752
+      ]
+    },
+    {
+      "frame_idx": 954,
+      "timestamp": 16.1695,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000954.jpg",
+      "front_wheel_conf": 0.9416,
+      "back_wheel_conf": 0.9479,
+      "front_squareness": 0.9341,
+      "back_squareness": 0.9482,
+      "size_match_ratio": 0.876,
+      "front_wheel_box": [
+        1016,
+        559,
+        1186,
+        741
+      ],
+      "back_wheel_box": [
+        742,
+        559,
+        925,
+        752
+      ]
+    },
+    {
+      "frame_idx": 955,
+      "timestamp": 16.1864,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000955.jpg",
+      "front_wheel_conf": 0.9367,
+      "back_wheel_conf": 0.9359,
+      "front_squareness": 0.9494,
+      "back_squareness": 0.9474,
+      "size_match_ratio": 0.8796,
+      "front_wheel_box": [
+        1019,
+        561,
+        1188,
+        739
+      ],
+      "back_wheel_box": [
+        748,
+        560,
+        928,
+        750
+      ]
+    },
+    {
+      "frame_idx": 956,
+      "timestamp": 16.2034,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000956.jpg",
+      "front_wheel_conf": 0.9375,
+      "back_wheel_conf": 0.9419,
+      "front_squareness": 0.9441,
+      "back_squareness": 0.9577,
+      "size_match_ratio": 0.8843,
+      "front_wheel_box": [
+        1022,
+        560,
+        1191,
+        739
+      ],
+      "back_wheel_box": [
+        752,
+        560,
+        933,
+        749
+      ]
+    },
+    {
+      "frame_idx": 957,
+      "timestamp": 16.2203,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000957.jpg",
+      "front_wheel_conf": 0.9362,
+      "back_wheel_conf": 0.9395,
+      "front_squareness": 0.9438,
+      "back_squareness": 0.9531,
+      "size_match_ratio": 0.8511,
+      "front_wheel_box": [
+        1025,
+        560,
+        1193,
+        738
+      ],
+      "back_wheel_box": [
+        755,
+        558,
+        938,
+        750
+      ]
+    },
+    {
+      "frame_idx": 958,
+      "timestamp": 16.2373,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000958.jpg",
+      "front_wheel_conf": 0.9323,
+      "back_wheel_conf": 0.9389,
+      "front_squareness": 0.9379,
+      "back_squareness": 0.943,
+      "size_match_ratio": 0.8365,
+      "front_wheel_box": [
+        1030,
+        560,
+        1196,
+        737
+      ],
+      "back_wheel_box": [
+        760,
+        557,
+        942,
+        750
+      ]
+    },
+    {
+      "frame_idx": 959,
+      "timestamp": 16.2542,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000959.jpg",
+      "front_wheel_conf": 0.9297,
+      "back_wheel_conf": 0.9419,
+      "front_squareness": 0.9205,
+      "back_squareness": 0.9323,
+      "size_match_ratio": 0.8296,
+      "front_wheel_box": [
+        1036,
+        561,
+        1198,
+        737
+      ],
+      "back_wheel_box": [
+        765,
+        558,
+        944,
+        750
+      ]
+    },
+    {
+      "frame_idx": 960,
+      "timestamp": 16.2712,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000960.jpg",
+      "front_wheel_conf": 0.9289,
+      "back_wheel_conf": 0.9384,
+      "front_squareness": 0.92,
+      "back_squareness": 0.9215,
+      "size_match_ratio": 0.8381,
+      "front_wheel_box": [
+        1039,
+        560,
+        1200,
+        735
+      ],
+      "back_wheel_box": [
+        771,
+        558,
+        947,
+        749
+      ]
+    },
+    {
+      "frame_idx": 961,
+      "timestamp": 16.2881,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000961.jpg",
+      "front_wheel_conf": 0.9317,
+      "back_wheel_conf": 0.9447,
+      "front_squareness": 0.9261,
+      "back_squareness": 0.9259,
+      "size_match_ratio": 0.8674,
+      "front_wheel_box": [
+        1041,
+        559,
+        1204,
+        735
+      ],
+      "back_wheel_box": [
+        776,
+        559,
+        951,
+        748
+      ]
+    },
+    {
+      "frame_idx": 962,
+      "timestamp": 16.3051,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000962.jpg",
+      "front_wheel_conf": 0.9308,
+      "back_wheel_conf": 0.9476,
+      "front_squareness": 0.9045,
+      "back_squareness": 0.9219,
+      "size_match_ratio": 0.8433,
+      "front_wheel_box": [
+        1046,
+        557,
+        1207,
+        735
+      ],
+      "back_wheel_box": [
+        782,
+        557,
+        959,
+        749
+      ]
+    },
+    {
+      "frame_idx": 963,
+      "timestamp": 16.322,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000963.jpg",
+      "front_wheel_conf": 0.9319,
+      "back_wheel_conf": 0.9472,
+      "front_squareness": 0.9091,
+      "back_squareness": 0.9263,
+      "size_match_ratio": 0.8421,
+      "front_wheel_box": [
+        1049,
+        558,
+        1209,
+        734
+      ],
+      "back_wheel_box": [
+        786,
+        557,
+        962,
+        747
+      ]
+    },
+    {
+      "frame_idx": 964,
+      "timestamp": 16.339,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000964.jpg",
+      "front_wheel_conf": 0.9313,
+      "back_wheel_conf": 0.9461,
+      "front_squareness": 0.9143,
+      "back_squareness": 0.9105,
+      "size_match_ratio": 0.8518,
+      "front_wheel_box": [
+        1052,
+        559,
+        1212,
+        734
+      ],
+      "back_wheel_box": [
+        791,
+        557,
+        964,
+        747
+      ]
+    },
+    {
+      "frame_idx": 965,
+      "timestamp": 16.3559,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000965.jpg",
+      "front_wheel_conf": 0.9323,
+      "back_wheel_conf": 0.9412,
+      "front_squareness": 0.9191,
+      "back_squareness": 0.9,
+      "size_match_ratio": 0.8466,
+      "front_wheel_box": [
+        1055,
+        560,
+        1214,
+        733
+      ],
+      "back_wheel_box": [
+        797,
+        555,
+        968,
+        745
+      ]
+    },
+    {
+      "frame_idx": 966,
+      "timestamp": 16.3729,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000966.jpg",
+      "front_wheel_conf": 0.9336,
+      "back_wheel_conf": 0.9416,
+      "front_squareness": 0.9138,
+      "back_squareness": 0.8889,
+      "size_match_ratio": 0.8713,
+      "front_wheel_box": [
+        1057,
+        559,
+        1216,
+        733
+      ],
+      "back_wheel_box": [
+        802,
+        557,
+        970,
+        746
+      ]
+    },
+    {
+      "frame_idx": 967,
+      "timestamp": 16.3898,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000967.jpg",
+      "front_wheel_conf": 0.9351,
+      "back_wheel_conf": 0.9431,
+      "front_squareness": 0.9195,
+      "back_squareness": 0.8989,
+      "size_match_ratio": 0.8762,
+      "front_wheel_box": [
+        1058,
+        558,
+        1218,
+        732
+      ],
+      "back_wheel_box": [
+        805,
+        558,
+        974,
+        746
+      ]
+    },
+    {
+      "frame_idx": 968,
+      "timestamp": 16.4068,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000968.jpg",
+      "front_wheel_conf": 0.9356,
+      "back_wheel_conf": 0.9427,
+      "front_squareness": 0.8966,
+      "back_squareness": 0.8936,
+      "size_match_ratio": 0.8594,
+      "front_wheel_box": [
+        1063,
+        558,
+        1219,
+        732
+      ],
+      "back_wheel_box": [
+        810,
+        556,
+        978,
+        744
+      ]
+    },
+    {
+      "frame_idx": 969,
+      "timestamp": 16.4237,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000969.jpg",
+      "front_wheel_conf": 0.9397,
+      "back_wheel_conf": 0.9397,
+      "front_squareness": 0.896,
+      "back_squareness": 0.9043,
+      "size_match_ratio": 0.839,
+      "front_wheel_box": [
+        1066,
+        558,
+        1221,
+        731
+      ],
+      "back_wheel_box": [
+        813,
+        557,
+        983,
+        745
+      ]
+    },
+    {
+      "frame_idx": 970,
+      "timestamp": 16.4407,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000970.jpg",
+      "front_wheel_conf": 0.9423,
+      "back_wheel_conf": 0.9419,
+      "front_squareness": 0.875,
+      "back_squareness": 0.9247,
+      "size_match_ratio": 0.8472,
+      "front_wheel_box": [
+        1067,
+        554,
+        1221,
+        730
+      ],
+      "back_wheel_box": [
+        815,
+        558,
+        987,
+        744
+      ]
+    },
+    {
+      "frame_idx": 971,
+      "timestamp": 16.4576,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000971.jpg",
+      "front_wheel_conf": 0.943,
+      "back_wheel_conf": 0.9433,
+      "front_squareness": 0.8814,
+      "back_squareness": 0.9043,
+      "size_match_ratio": 0.864,
+      "front_wheel_box": [
+        1067,
+        553,
+        1223,
+        730
+      ],
+      "back_wheel_box": [
+        820,
+        557,
+        990,
+        745
+      ]
+    },
+    {
+      "frame_idx": 972,
+      "timestamp": 16.4746,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000972.jpg",
+      "front_wheel_conf": 0.9468,
+      "back_wheel_conf": 0.9486,
+      "front_squareness": 0.8966,
+      "back_squareness": 0.914,
+      "size_match_ratio": 0.8584,
+      "front_wheel_box": [
+        1068,
+        554,
+        1224,
+        728
+      ],
+      "back_wheel_box": [
+        822,
+        557,
+        992,
+        743
+      ]
+    },
+    {
+      "frame_idx": 973,
+      "timestamp": 16.4915,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000973.jpg",
+      "front_wheel_conf": 0.9492,
+      "back_wheel_conf": 0.9518,
+      "front_squareness": 0.9017,
+      "back_squareness": 0.9189,
+      "size_match_ratio": 0.8581,
+      "front_wheel_box": [
+        1068,
+        554,
+        1224,
+        727
+      ],
+      "back_wheel_box": [
+        825,
+        558,
+        995,
+        743
+      ]
+    },
+    {
+      "frame_idx": 974,
+      "timestamp": 16.5085,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000974.jpg",
+      "front_wheel_conf": 0.9464,
+      "back_wheel_conf": 0.9537,
+      "front_squareness": 0.9017,
+      "back_squareness": 0.9071,
+      "size_match_ratio": 0.8884,
+      "front_wheel_box": [
+        1068,
+        553,
+        1224,
+        726
+      ],
+      "back_wheel_box": [
+        828,
+        559,
+        994,
+        742
+      ]
+    },
+    {
+      "frame_idx": 975,
+      "timestamp": 16.5254,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000975.jpg",
+      "front_wheel_conf": 0.9463,
+      "back_wheel_conf": 0.9568,
+      "front_squareness": 0.9064,
+      "back_squareness": 0.9071,
+      "size_match_ratio": 0.8725,
+      "front_wheel_box": [
+        1068,
+        555,
+        1223,
+        726
+      ],
+      "back_wheel_box": [
+        829,
+        559,
+        995,
+        742
+      ]
+    },
+    {
+      "frame_idx": 976,
+      "timestamp": 16.5424,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000976.jpg",
+      "front_wheel_conf": 0.9445,
+      "back_wheel_conf": 0.9549,
+      "front_squareness": 0.9281,
+      "back_squareness": 0.9222,
+      "size_match_ratio": 0.8663,
+      "front_wheel_box": [
+        1069,
+        558,
+        1224,
+        725
+      ],
+      "back_wheel_box": [
+        829,
+        560,
+        995,
+        740
+      ]
+    },
+    {
+      "frame_idx": 977,
+      "timestamp": 16.5593,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000977.jpg",
+      "front_wheel_conf": 0.9438,
+      "back_wheel_conf": 0.9121,
+      "front_squareness": 0.9277,
+      "back_squareness": 0.9066,
+      "size_match_ratio": 0.8513,
+      "front_wheel_box": [
+        1069,
+        559,
+        1223,
+        725
+      ],
+      "back_wheel_box": [
+        831,
+        558,
+        996,
+        740
+      ]
+    },
+    {
+      "frame_idx": 978,
+      "timestamp": 16.5763,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000978.jpg",
+      "front_wheel_conf": 0.9447,
+      "back_wheel_conf": 0.9587,
+      "front_squareness": 0.9157,
+      "back_squareness": 0.8907,
+      "size_match_ratio": 0.8459,
+      "front_wheel_box": [
+        1071,
+        558,
+        1223,
+        724
+      ],
+      "back_wheel_box": [
+        834,
+        557,
+        997,
+        740
+      ]
+    },
+    {
+      "frame_idx": 979,
+      "timestamp": 16.5932,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000979.jpg",
+      "front_wheel_conf": 0.9466,
+      "back_wheel_conf": 0.9553,
+      "front_squareness": 0.9268,
+      "back_squareness": 0.8859,
+      "size_match_ratio": 0.8312,
+      "front_wheel_box": [
+        1071,
+        559,
+        1223,
+        723
+      ],
+      "back_wheel_box": [
+        837,
+        556,
+        1000,
+        740
+      ]
+    },
+    {
+      "frame_idx": 980,
+      "timestamp": 16.6102,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000980.jpg",
+      "front_wheel_conf": 0.9389,
+      "back_wheel_conf": 0.9554,
+      "front_squareness": 0.9193,
+      "back_squareness": 0.8852,
+      "size_match_ratio": 0.8038,
+      "front_wheel_box": [
+        1075,
+        561,
+        1223,
+        722
+      ],
+      "back_wheel_box": [
+        839,
+        555,
+        1001,
+        738
+      ]
+    },
+    {
+      "frame_idx": 981,
+      "timestamp": 16.6271,
+      "frame_file": "output/hannahb30/hannahb30_selected_frames/frame_000981.jpg",
+      "front_wheel_conf": 0.9466,
+      "back_wheel_conf": 0.9532,
+      "front_squareness": 0.9068,
+      "back_squareness": 0.8791,
+      "size_match_ratio": 0.8072,
+      "front_wheel_box": [
+        1077,
+        561,
+        1223,
+        722
+      ],
+      "back_wheel_box": [
+        843,
+        556,
+        1003,
+        738
+      ]
+    }
+  ],
+  "metrics": {
+    "frames_processed": 1097,
+    "frames_selected": 117,
+    "total_bursts": 8,
+    "selection_rate": 0.1067,
+    "avg_confidence": 0.9395,
+    "elapsed_sec": 58.23
+  }
+}

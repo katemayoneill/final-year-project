@@ -1,0 +1,2172 @@
+{
+  "video": "videos/alexb30.mp4",
+  "model": "models/best.pt",
+  "fps": 59.0,
+  "total_frames": 1320,
+  "selected_frames": [
+    {
+      "frame_idx": 319,
+      "timestamp": 5.4068,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000319.jpg",
+      "front_wheel_conf": 0.9465,
+      "back_wheel_conf": 0.9283,
+      "front_squareness": 0.9059,
+      "back_squareness": 0.8706,
+      "size_match_ratio": 0.961,
+      "front_wheel_box": [
+        597,
+        558,
+        751,
+        728
+      ],
+      "back_wheel_box": [
+        381,
+        545,
+        529,
+        715
+      ]
+    },
+    {
+      "frame_idx": 320,
+      "timestamp": 5.4237,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000320.jpg",
+      "front_wheel_conf": 0.9422,
+      "back_wheel_conf": 0.9422,
+      "front_squareness": 0.9006,
+      "back_squareness": 0.8647,
+      "size_match_ratio": 0.949,
+      "front_wheel_box": [
+        602,
+        558,
+        756,
+        729
+      ],
+      "back_wheel_box": [
+        384,
+        547,
+        531,
+        717
+      ]
+    },
+    {
+      "frame_idx": 321,
+      "timestamp": 5.4407,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000321.jpg",
+      "front_wheel_conf": 0.9345,
+      "back_wheel_conf": 0.9465,
+      "front_squareness": 0.88,
+      "back_squareness": 0.8779,
+      "size_match_ratio": 0.9637,
+      "front_wheel_box": [
+        607,
+        555,
+        761,
+        730
+      ],
+      "back_wheel_box": [
+        386,
+        546,
+        537,
+        718
+      ]
+    },
+    {
+      "frame_idx": 322,
+      "timestamp": 5.4576,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000322.jpg",
+      "front_wheel_conf": 0.9243,
+      "back_wheel_conf": 0.9503,
+      "front_squareness": 0.9064,
+      "back_squareness": 0.8953,
+      "size_match_ratio": 0.9994,
+      "front_wheel_box": [
+        610,
+        560,
+        765,
+        731
+      ],
+      "back_wheel_box": [
+        388,
+        548,
+        542,
+        720
+      ]
+    },
+    {
+      "frame_idx": 323,
+      "timestamp": 5.4746,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000323.jpg",
+      "front_wheel_conf": 0.9264,
+      "back_wheel_conf": 0.9536,
+      "front_squareness": 0.9086,
+      "back_squareness": 0.8889,
+      "size_match_ratio": 0.9341,
+      "front_wheel_box": [
+        612,
+        557,
+        771,
+        732
+      ],
+      "back_wheel_box": [
+        390,
+        550,
+        542,
+        721
+      ]
+    },
+    {
+      "frame_idx": 324,
+      "timestamp": 5.4915,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000324.jpg",
+      "front_wheel_conf": 0.9219,
+      "back_wheel_conf": 0.9529,
+      "front_squareness": 0.9306,
+      "back_squareness": 0.883,
+      "size_match_ratio": 0.927,
+      "front_wheel_box": [
+        617,
+        560,
+        778,
+        733
+      ],
+      "back_wheel_box": [
+        392,
+        552,
+        543,
+        723
+      ]
+    },
+    {
+      "frame_idx": 325,
+      "timestamp": 5.5085,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000325.jpg",
+      "front_wheel_conf": 0.9251,
+      "back_wheel_conf": 0.9529,
+      "front_squareness": 0.9314,
+      "back_squareness": 0.8895,
+      "size_match_ratio": 0.9226,
+      "front_wheel_box": [
+        621,
+        560,
+        784,
+        735
+      ],
+      "back_wheel_box": [
+        395,
+        552,
+        548,
+        724
+      ]
+    },
+    {
+      "frame_idx": 326,
+      "timestamp": 5.5254,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000326.jpg",
+      "front_wheel_conf": 0.9245,
+      "back_wheel_conf": 0.9554,
+      "front_squareness": 0.9422,
+      "back_squareness": 0.9181,
+      "size_match_ratio": 0.9521,
+      "front_wheel_box": [
+        625,
+        562,
+        788,
+        735
+      ],
+      "back_wheel_box": [
+        396,
+        553,
+        553,
+        724
+      ]
+    },
+    {
+      "frame_idx": 327,
+      "timestamp": 5.5424,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000327.jpg",
+      "front_wheel_conf": 0.9286,
+      "back_wheel_conf": 0.9489,
+      "front_squareness": 0.9708,
+      "back_squareness": 0.9419,
+      "size_match_ratio": 0.9816,
+      "front_wheel_box": [
+        629,
+        565,
+        795,
+        736
+      ],
+      "back_wheel_box": [
+        399,
+        555,
+        561,
+        727
+      ]
+    },
+    {
+      "frame_idx": 328,
+      "timestamp": 5.5593,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000328.jpg",
+      "front_wheel_conf": 0.9357,
+      "back_wheel_conf": 0.9348,
+      "front_squareness": 0.9653,
+      "back_squareness": 0.9429,
+      "size_match_ratio": 0.9994,
+      "front_wheel_box": [
+        633,
+        564,
+        800,
+        737
+      ],
+      "back_wheel_box": [
+        402,
+        551,
+        567,
+        726
+      ]
+    },
+    {
+      "frame_idx": 329,
+      "timestamp": 5.5763,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000329.jpg",
+      "front_wheel_conf": 0.9383,
+      "back_wheel_conf": 0.9607,
+      "front_squareness": 0.9653,
+      "back_squareness": 0.9209,
+      "size_match_ratio": 0.9986,
+      "front_wheel_box": [
+        638,
+        564,
+        805,
+        737
+      ],
+      "back_wheel_box": [
+        405,
+        551,
+        568,
+        728
+      ]
+    },
+    {
+      "frame_idx": 330,
+      "timestamp": 5.5932,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000330.jpg",
+      "front_wheel_conf": 0.9327,
+      "back_wheel_conf": 0.9566,
+      "front_squareness": 0.9655,
+      "back_squareness": 0.9274,
+      "size_match_ratio": 0.9838,
+      "front_wheel_box": [
+        643,
+        564,
+        811,
+        738
+      ],
+      "back_wheel_box": [
+        406,
+        551,
+        572,
+        730
+      ]
+    },
+    {
+      "frame_idx": 331,
+      "timestamp": 5.6102,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000331.jpg",
+      "front_wheel_conf": 0.9245,
+      "back_wheel_conf": 0.956,
+      "front_squareness": 0.9711,
+      "back_squareness": 0.905,
+      "size_match_ratio": 0.9977,
+      "front_wheel_box": [
+        650,
+        566,
+        818,
+        739
+      ],
+      "back_wheel_box": [
+        409,
+        552,
+        571,
+        731
+      ]
+    },
+    {
+      "frame_idx": 332,
+      "timestamp": 5.6271,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000332.jpg",
+      "front_wheel_conf": 0.9242,
+      "back_wheel_conf": 0.9534,
+      "front_squareness": 0.9543,
+      "back_squareness": 0.9222,
+      "size_match_ratio": 0.9781,
+      "front_wheel_box": [
+        655,
+        565,
+        822,
+        740
+      ],
+      "back_wheel_box": [
+        411,
+        552,
+        577,
+        732
+      ]
+    },
+    {
+      "frame_idx": 333,
+      "timestamp": 5.6441,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000333.jpg",
+      "front_wheel_conf": 0.9302,
+      "back_wheel_conf": 0.9482,
+      "front_squareness": 0.9659,
+      "back_squareness": 0.9333,
+      "size_match_ratio": 0.9894,
+      "front_wheel_box": [
+        659,
+        565,
+        829,
+        741
+      ],
+      "back_wheel_box": [
+        414,
+        552,
+        582,
+        732
+      ]
+    },
+    {
+      "frame_idx": 334,
+      "timestamp": 5.661,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000334.jpg",
+      "front_wheel_conf": 0.9293,
+      "back_wheel_conf": 0.9486,
+      "front_squareness": 0.9659,
+      "back_squareness": 0.9337,
+      "size_match_ratio": 0.9781,
+      "front_wheel_box": [
+        663,
+        565,
+        833,
+        741
+      ],
+      "back_wheel_box": [
+        417,
+        553,
+        586,
+        734
+      ]
+    },
+    {
+      "frame_idx": 335,
+      "timestamp": 5.678,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000335.jpg",
+      "front_wheel_conf": 0.9222,
+      "back_wheel_conf": 0.9473,
+      "front_squareness": 0.9602,
+      "back_squareness": 0.9333,
+      "size_match_ratio": 0.9836,
+      "front_wheel_box": [
+        668,
+        566,
+        837,
+        742
+      ],
+      "back_wheel_box": [
+        419,
+        555,
+        587,
+        735
+      ]
+    },
+    {
+      "frame_idx": 336,
+      "timestamp": 5.6949,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000336.jpg",
+      "front_wheel_conf": 0.9184,
+      "back_wheel_conf": 0.9457,
+      "front_squareness": 0.9767,
+      "back_squareness": 0.9222,
+      "size_match_ratio": 0.9671,
+      "front_wheel_box": [
+        674,
+        569,
+        842,
+        741
+      ],
+      "back_wheel_box": [
+        422,
+        556,
+        588,
+        736
+      ]
+    },
+    {
+      "frame_idx": 337,
+      "timestamp": 5.7119,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000337.jpg",
+      "front_wheel_conf": 0.9254,
+      "back_wheel_conf": 0.9404,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9126,
+      "size_match_ratio": 0.9568,
+      "front_wheel_box": [
+        679,
+        571,
+        850,
+        742
+      ],
+      "back_wheel_box": [
+        426,
+        554,
+        593,
+        737
+      ]
+    },
+    {
+      "frame_idx": 338,
+      "timestamp": 5.7288,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000338.jpg",
+      "front_wheel_conf": 0.9232,
+      "back_wheel_conf": 0.9417,
+      "front_squareness": 0.9943,
+      "back_squareness": 0.9392,
+      "size_match_ratio": 0.9783,
+      "front_wheel_box": [
+        682,
+        569,
+        855,
+        743
+      ],
+      "back_wheel_box": [
+        430,
+        556,
+        600,
+        737
+      ]
+    },
+    {
+      "frame_idx": 339,
+      "timestamp": 5.7458,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000339.jpg",
+      "front_wheel_conf": 0.9308,
+      "back_wheel_conf": 0.9455,
+      "front_squareness": 0.9884,
+      "back_squareness": 0.9344,
+      "size_match_ratio": 0.9675,
+      "front_wheel_box": [
+        687,
+        570,
+        862,
+        743
+      ],
+      "back_wheel_box": [
+        433,
+        556,
+        604,
+        739
+      ]
+    },
+    {
+      "frame_idx": 340,
+      "timestamp": 5.7627,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000340.jpg",
+      "front_wheel_conf": 0.9276,
+      "back_wheel_conf": 0.9511,
+      "front_squareness": 0.9943,
+      "back_squareness": 0.929,
+      "size_match_ratio": 0.99,
+      "front_wheel_box": [
+        693,
+        569,
+        869,
+        744
+      ],
+      "back_wheel_box": [
+        438,
+        557,
+        608,
+        740
+      ]
+    },
+    {
+      "frame_idx": 341,
+      "timestamp": 5.7797,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000341.jpg",
+      "front_wheel_conf": 0.9302,
+      "back_wheel_conf": 0.9547,
+      "front_squareness": 0.9888,
+      "back_squareness": 0.9448,
+      "size_match_ratio": 0.988,
+      "front_wheel_box": [
+        700,
+        566,
+        876,
+        744
+      ],
+      "back_wheel_box": [
+        441,
+        560,
+        612,
+        741
+      ]
+    },
+    {
+      "frame_idx": 342,
+      "timestamp": 5.7966,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000342.jpg",
+      "front_wheel_conf": 0.923,
+      "back_wheel_conf": 0.8518,
+      "front_squareness": 0.9778,
+      "back_squareness": 0.9071,
+      "size_match_ratio": 0.9589,
+      "front_wheel_box": [
+        705,
+        565,
+        881,
+        745
+      ],
+      "back_wheel_box": [
+        448,
+        559,
+        614,
+        742
+      ]
+    },
+    {
+      "frame_idx": 343,
+      "timestamp": 5.8136,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000343.jpg",
+      "front_wheel_conf": 0.9258,
+      "back_wheel_conf": 0.9526,
+      "front_squareness": 0.9725,
+      "back_squareness": 0.9189,
+      "size_match_ratio": 0.9763,
+      "front_wheel_box": [
+        712,
+        566,
+        889,
+        748
+      ],
+      "back_wheel_box": [
+        453,
+        559,
+        623,
+        744
+      ]
+    },
+    {
+      "frame_idx": 344,
+      "timestamp": 5.8305,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000344.jpg",
+      "front_wheel_conf": 0.9284,
+      "back_wheel_conf": 0.9531,
+      "front_squareness": 0.9727,
+      "back_squareness": 0.9189,
+      "size_match_ratio": 0.9655,
+      "front_wheel_box": [
+        718,
+        566,
+        896,
+        749
+      ],
+      "back_wheel_box": [
+        457,
+        560,
+        627,
+        745
+      ]
+    },
+    {
+      "frame_idx": 345,
+      "timestamp": 5.8475,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000345.jpg",
+      "front_wheel_conf": 0.9257,
+      "back_wheel_conf": 0.9518,
+      "front_squareness": 0.9945,
+      "back_squareness": 0.9086,
+      "size_match_ratio": 0.9648,
+      "front_wheel_box": [
+        723,
+        568,
+        903,
+        749
+      ],
+      "back_wheel_box": [
+        463,
+        560,
+        632,
+        746
+      ]
+    },
+    {
+      "frame_idx": 346,
+      "timestamp": 5.8644,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000346.jpg",
+      "front_wheel_conf": 0.9285,
+      "back_wheel_conf": 0.9498,
+      "front_squareness": 0.9944,
+      "back_squareness": 0.9239,
+      "size_match_ratio": 0.9708,
+      "front_wheel_box": [
+        731,
+        570,
+        910,
+        750
+      ],
+      "back_wheel_box": [
+        468,
+        561,
+        638,
+        745
+      ]
+    },
+    {
+      "frame_idx": 347,
+      "timestamp": 5.8814,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000347.jpg",
+      "front_wheel_conf": 0.9273,
+      "back_wheel_conf": 0.9466,
+      "front_squareness": 0.9836,
+      "back_squareness": 0.9511,
+      "size_match_ratio": 0.9775,
+      "front_wheel_box": [
+        736,
+        567,
+        916,
+        750
+      ],
+      "back_wheel_box": [
+        472,
+        561,
+        647,
+        745
+      ]
+    },
+    {
+      "frame_idx": 348,
+      "timestamp": 5.8983,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000348.jpg",
+      "front_wheel_conf": 0.9302,
+      "back_wheel_conf": 0.9461,
+      "front_squareness": 0.9837,
+      "back_squareness": 0.9519,
+      "size_match_ratio": 0.9995,
+      "front_wheel_box": [
+        744,
+        565,
+        925,
+        749
+      ],
+      "back_wheel_box": [
+        476,
+        560,
+        654,
+        747
+      ]
+    },
+    {
+      "frame_idx": 349,
+      "timestamp": 5.9153,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000349.jpg",
+      "front_wheel_conf": 0.9295,
+      "back_wheel_conf": 0.9412,
+      "front_squareness": 0.9572,
+      "back_squareness": 0.9412,
+      "size_match_ratio": 0.9832,
+      "front_wheel_box": [
+        750,
+        563,
+        929,
+        750
+      ],
+      "back_wheel_box": [
+        482,
+        560,
+        658,
+        747
+      ]
+    },
+    {
+      "frame_idx": 350,
+      "timestamp": 5.9322,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000350.jpg",
+      "front_wheel_conf": 0.9276,
+      "back_wheel_conf": 0.9454,
+      "front_squareness": 0.9474,
+      "back_squareness": 0.9362,
+      "size_match_ratio": 0.9675,
+      "front_wheel_box": [
+        755,
+        562,
+        935,
+        752
+      ],
+      "back_wheel_box": [
+        486,
+        560,
+        662,
+        748
+      ]
+    },
+    {
+      "frame_idx": 351,
+      "timestamp": 5.9492,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000351.jpg",
+      "front_wheel_conf": 0.9291,
+      "back_wheel_conf": 0.9452,
+      "front_squareness": 0.9577,
+      "back_squareness": 0.9319,
+      "size_match_ratio": 0.9938,
+      "front_wheel_box": [
+        761,
+        563,
+        942,
+        752
+      ],
+      "back_wheel_box": [
+        492,
+        558,
+        670,
+        749
+      ]
+    },
+    {
+      "frame_idx": 352,
+      "timestamp": 5.9661,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000352.jpg",
+      "front_wheel_conf": 0.9313,
+      "back_wheel_conf": 0.9483,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9368,
+      "size_match_ratio": 0.9846,
+      "front_wheel_box": [
+        768,
+        566,
+        948,
+        751
+      ],
+      "back_wheel_box": [
+        496,
+        561,
+        674,
+        751
+      ]
+    },
+    {
+      "frame_idx": 353,
+      "timestamp": 5.9831,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000353.jpg",
+      "front_wheel_conf": 0.9313,
+      "back_wheel_conf": 0.9511,
+      "front_squareness": 0.9944,
+      "back_squareness": 0.9677,
+      "size_match_ratio": 0.9624,
+      "front_wheel_box": [
+        773,
+        572,
+        953,
+        751
+      ],
+      "back_wheel_box": [
+        499,
+        565,
+        679,
+        751
+      ]
+    },
+    {
+      "frame_idx": 354,
+      "timestamp": 6.0,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000354.jpg",
+      "front_wheel_conf": 0.9331,
+      "back_wheel_conf": 0.9494,
+      "front_squareness": 0.9777,
+      "back_squareness": 0.9415,
+      "size_match_ratio": 0.9844,
+      "front_wheel_box": [
+        778,
+        573,
+        961,
+        752
+      ],
+      "back_wheel_box": [
+        504,
+        564,
+        681,
+        752
+      ]
+    },
+    {
+      "frame_idx": 355,
+      "timestamp": 6.0169,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000355.jpg",
+      "front_wheel_conf": 0.9327,
+      "back_wheel_conf": 0.9477,
+      "front_squareness": 0.9777,
+      "back_squareness": 0.9263,
+      "size_match_ratio": 0.9796,
+      "front_wheel_box": [
+        784,
+        572,
+        967,
+        751
+      ],
+      "back_wheel_box": [
+        510,
+        562,
+        686,
+        752
+      ]
+    },
+    {
+      "frame_idx": 356,
+      "timestamp": 6.0339,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000356.jpg",
+      "front_wheel_conf": 0.9284,
+      "back_wheel_conf": 0.9457,
+      "front_squareness": 0.9891,
+      "back_squareness": 0.9524,
+      "size_match_ratio": 0.9844,
+      "front_wheel_box": [
+        791,
+        568,
+        973,
+        752
+      ],
+      "back_wheel_box": [
+        514,
+        564,
+        694,
+        753
+      ]
+    },
+    {
+      "frame_idx": 357,
+      "timestamp": 6.0508,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000357.jpg",
+      "front_wheel_conf": 0.9311,
+      "back_wheel_conf": 0.9434,
+      "front_squareness": 0.9891,
+      "back_squareness": 0.9424,
+      "size_match_ratio": 0.9741,
+      "front_wheel_box": [
+        797,
+        568,
+        979,
+        752
+      ],
+      "back_wheel_box": [
+        518,
+        563,
+        698,
+        754
+      ]
+    },
+    {
+      "frame_idx": 358,
+      "timestamp": 6.0678,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000358.jpg",
+      "front_wheel_conf": 0.9259,
+      "back_wheel_conf": 0.944,
+      "front_squareness": 0.9945,
+      "back_squareness": 0.9381,
+      "size_match_ratio": 0.933,
+      "front_wheel_box": [
+        803,
+        572,
+        985,
+        753
+      ],
+      "back_wheel_box": [
+        523,
+        561,
+        705,
+        755
+      ]
+    },
+    {
+      "frame_idx": 359,
+      "timestamp": 6.0847,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000359.jpg",
+      "front_wheel_conf": 0.9242,
+      "back_wheel_conf": 0.939,
+      "front_squareness": 0.9831,
+      "back_squareness": 0.9333,
+      "size_match_ratio": 0.9078,
+      "front_wheel_box": [
+        810,
+        574,
+        991,
+        752
+      ],
+      "back_wheel_box": [
+        528,
+        561,
+        710,
+        756
+      ]
+    },
+    {
+      "frame_idx": 360,
+      "timestamp": 6.1017,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000360.jpg",
+      "front_wheel_conf": 0.9262,
+      "back_wheel_conf": 0.9431,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9278,
+      "size_match_ratio": 0.9695,
+      "front_wheel_box": [
+        814,
+        568,
+        998,
+        752
+      ],
+      "back_wheel_box": [
+        536,
+        563,
+        716,
+        757
+      ]
+    },
+    {
+      "frame_idx": 361,
+      "timestamp": 6.1186,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000361.jpg",
+      "front_wheel_conf": 0.9303,
+      "back_wheel_conf": 0.9465,
+      "front_squareness": 0.9891,
+      "back_squareness": 0.9381,
+      "size_match_ratio": 0.9485,
+      "front_wheel_box": [
+        821,
+        566,
+        1003,
+        750
+      ],
+      "back_wheel_box": [
+        540,
+        563,
+        722,
+        757
+      ]
+    },
+    {
+      "frame_idx": 362,
+      "timestamp": 6.1356,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000362.jpg",
+      "front_wheel_conf": 0.9295,
+      "back_wheel_conf": 0.9507,
+      "front_squareness": 0.9834,
+      "back_squareness": 0.9433,
+      "size_match_ratio": 0.9381,
+      "front_wheel_box": [
+        825,
+        569,
+        1009,
+        750
+      ],
+      "back_wheel_box": [
+        544,
+        563,
+        727,
+        757
+      ]
+    },
+    {
+      "frame_idx": 363,
+      "timestamp": 6.1525,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000363.jpg",
+      "front_wheel_conf": 0.9288,
+      "back_wheel_conf": 0.9514,
+      "front_squareness": 0.9721,
+      "back_squareness": 0.9385,
+      "size_match_ratio": 0.923,
+      "front_wheel_box": [
+        828,
+        571,
+        1012,
+        750
+      ],
+      "back_wheel_box": [
+        547,
+        563,
+        730,
+        758
+      ]
+    },
+    {
+      "frame_idx": 364,
+      "timestamp": 6.1695,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000364.jpg",
+      "front_wheel_conf": 0.9253,
+      "back_wheel_conf": 0.9492,
+      "front_squareness": 0.9669,
+      "back_squareness": 0.9391,
+      "size_match_ratio": 0.9287,
+      "front_wheel_box": [
+        832,
+        570,
+        1019,
+        751
+      ],
+      "back_wheel_box": [
+        550,
+        562,
+        735,
+        759
+      ]
+    },
+    {
+      "frame_idx": 365,
+      "timestamp": 6.1864,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000365.jpg",
+      "front_wheel_conf": 0.9259,
+      "back_wheel_conf": 0.949,
+      "front_squareness": 0.9946,
+      "back_squareness": 0.9397,
+      "size_match_ratio": 0.9147,
+      "front_wheel_box": [
+        837,
+        567,
+        1022,
+        751
+      ],
+      "back_wheel_box": [
+        554,
+        560,
+        741,
+        759
+      ]
+    },
+    {
+      "frame_idx": 366,
+      "timestamp": 6.2034,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000366.jpg",
+      "front_wheel_conf": 0.9339,
+      "back_wheel_conf": 0.9473,
+      "front_squareness": 0.973,
+      "back_squareness": 0.9543,
+      "size_match_ratio": 0.8991,
+      "front_wheel_box": [
+        845,
+        566,
+        1025,
+        751
+      ],
+      "back_wheel_box": [
+        558,
+        562,
+        746,
+        759
+      ]
+    },
+    {
+      "frame_idx": 367,
+      "timestamp": 6.2203,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000367.jpg",
+      "front_wheel_conf": 0.9321,
+      "back_wheel_conf": 0.9465,
+      "front_squareness": 0.9785,
+      "back_squareness": 0.9545,
+      "size_match_ratio": 0.9046,
+      "front_wheel_box": [
+        848,
+        566,
+        1030,
+        752
+      ],
+      "back_wheel_box": [
+        562,
+        562,
+        751,
+        760
+      ]
+    },
+    {
+      "frame_idx": 368,
+      "timestamp": 6.2373,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000368.jpg",
+      "front_wheel_conf": 0.9326,
+      "back_wheel_conf": 0.9432,
+      "front_squareness": 0.9946,
+      "back_squareness": 0.949,
+      "size_match_ratio": 0.9236,
+      "front_wheel_box": [
+        853,
+        568,
+        1036,
+        752
+      ],
+      "back_wheel_box": [
+        567,
+        564,
+        753,
+        760
+      ]
+    },
+    {
+      "frame_idx": 369,
+      "timestamp": 6.2542,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000369.jpg",
+      "front_wheel_conf": 0.9307,
+      "back_wheel_conf": 0.9402,
+      "front_squareness": 0.9679,
+      "back_squareness": 0.9538,
+      "size_match_ratio": 0.9332,
+      "front_wheel_box": [
+        859,
+        565,
+        1040,
+        752
+      ],
+      "back_wheel_box": [
+        571,
+        564,
+        757,
+        759
+      ]
+    },
+    {
+      "frame_idx": 370,
+      "timestamp": 6.2712,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000370.jpg",
+      "front_wheel_conf": 0.9302,
+      "back_wheel_conf": 0.944,
+      "front_squareness": 0.9681,
+      "back_squareness": 0.9433,
+      "size_match_ratio": 0.9638,
+      "front_wheel_box": [
+        863,
+        563,
+        1045,
+        751
+      ],
+      "back_wheel_box": [
+        579,
+        566,
+        762,
+        760
+      ]
+    },
+    {
+      "frame_idx": 371,
+      "timestamp": 6.2881,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000371.jpg",
+      "front_wheel_conf": 0.9365,
+      "back_wheel_conf": 0.9458,
+      "front_squareness": 0.9733,
+      "back_squareness": 0.9536,
+      "size_match_ratio": 0.9483,
+      "front_wheel_box": [
+        868,
+        563,
+        1050,
+        750
+      ],
+      "back_wheel_box": [
+        582,
+        565,
+        767,
+        759
+      ]
+    },
+    {
+      "frame_idx": 372,
+      "timestamp": 6.3051,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000372.jpg",
+      "front_wheel_conf": 0.936,
+      "back_wheel_conf": 0.9494,
+      "front_squareness": 0.9839,
+      "back_squareness": 0.9388,
+      "size_match_ratio": 0.9438,
+      "front_wheel_box": [
+        872,
+        563,
+        1055,
+        749
+      ],
+      "back_wheel_box": [
+        588,
+        564,
+        772,
+        760
+      ]
+    },
+    {
+      "frame_idx": 373,
+      "timestamp": 6.322,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000373.jpg",
+      "front_wheel_conf": 0.9331,
+      "back_wheel_conf": 0.9493,
+      "front_squareness": 0.9945,
+      "back_squareness": 0.9534,
+      "size_match_ratio": 0.9379,
+      "front_wheel_box": [
+        876,
+        566,
+        1059,
+        748
+      ],
+      "back_wheel_box": [
+        592,
+        566,
+        776,
+        759
+      ]
+    },
+    {
+      "frame_idx": 374,
+      "timestamp": 6.339,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000374.jpg",
+      "front_wheel_conf": 0.9317,
+      "back_wheel_conf": 0.9529,
+      "front_squareness": 0.989,
+      "back_squareness": 0.9637,
+      "size_match_ratio": 0.9329,
+      "front_wheel_box": [
+        880,
+        567,
+        1064,
+        749
+      ],
+      "back_wheel_box": [
+        596,
+        566,
+        782,
+        759
+      ]
+    },
+    {
+      "frame_idx": 375,
+      "timestamp": 6.3559,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000375.jpg",
+      "front_wheel_conf": 0.9357,
+      "back_wheel_conf": 0.951,
+      "front_squareness": 0.9891,
+      "back_squareness": 0.9792,
+      "size_match_ratio": 0.9481,
+      "front_wheel_box": [
+        883,
+        565,
+        1069,
+        749
+      ],
+      "back_wheel_box": [
+        601,
+        567,
+        789,
+        759
+      ]
+    },
+    {
+      "frame_idx": 376,
+      "timestamp": 6.3729,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000376.jpg",
+      "front_wheel_conf": 0.9325,
+      "back_wheel_conf": 0.9466,
+      "front_squareness": 0.9838,
+      "back_squareness": 0.9898,
+      "size_match_ratio": 0.8855,
+      "front_wheel_box": [
+        891,
+        564,
+        1073,
+        749
+      ],
+      "back_wheel_box": [
+        606,
+        562,
+        800,
+        758
+      ]
+    },
+    {
+      "frame_idx": 377,
+      "timestamp": 6.3898,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000377.jpg",
+      "front_wheel_conf": 0.9295,
+      "back_wheel_conf": 0.9433,
+      "front_squareness": 0.9836,
+      "back_squareness": 0.9797,
+      "size_match_ratio": 0.8664,
+      "front_wheel_box": [
+        896,
+        566,
+        1076,
+        749
+      ],
+      "back_wheel_box": [
+        611,
+        562,
+        804,
+        759
+      ]
+    },
+    {
+      "frame_idx": 378,
+      "timestamp": 6.4068,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000378.jpg",
+      "front_wheel_conf": 0.9308,
+      "back_wheel_conf": 0.9406,
+      "front_squareness": 0.9677,
+      "back_squareness": 0.9744,
+      "size_match_ratio": 0.9036,
+      "front_wheel_box": [
+        900,
+        563,
+        1080,
+        749
+      ],
+      "back_wheel_box": [
+        616,
+        564,
+        806,
+        759
+      ]
+    },
+    {
+      "frame_idx": 379,
+      "timestamp": 6.4237,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000379.jpg",
+      "front_wheel_conf": 0.9235,
+      "back_wheel_conf": 0.9361,
+      "front_squareness": 0.9783,
+      "back_squareness": 0.9797,
+      "size_match_ratio": 0.8711,
+      "front_wheel_box": [
+        904,
+        564,
+        1084,
+        748
+      ],
+      "back_wheel_box": [
+        617,
+        562,
+        810,
+        759
+      ]
+    },
+    {
+      "frame_idx": 380,
+      "timestamp": 6.4407,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000380.jpg",
+      "front_wheel_conf": 0.9272,
+      "back_wheel_conf": 0.9335,
+      "front_squareness": 0.9836,
+      "back_squareness": 0.9745,
+      "size_match_ratio": 0.8799,
+      "front_wheel_box": [
+        908,
+        565,
+        1088,
+        748
+      ],
+      "back_wheel_box": [
+        624,
+        563,
+        815,
+        759
+      ]
+    },
+    {
+      "frame_idx": 381,
+      "timestamp": 6.4576,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000381.jpg",
+      "front_wheel_conf": 0.9328,
+      "back_wheel_conf": 0.9394,
+      "front_squareness": 0.9891,
+      "back_squareness": 0.9645,
+      "size_match_ratio": 0.8849,
+      "front_wheel_box": [
+        911,
+        565,
+        1092,
+        748
+      ],
+      "back_wheel_box": [
+        629,
+        562,
+        819,
+        759
+      ]
+    },
+    {
+      "frame_idx": 382,
+      "timestamp": 6.4746,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000382.jpg",
+      "front_wheel_conf": 0.9319,
+      "back_wheel_conf": 0.9397,
+      "front_squareness": 0.9887,
+      "back_squareness": 0.9444,
+      "size_match_ratio": 0.8557,
+      "front_wheel_box": [
+        916,
+        570,
+        1095,
+        747
+      ],
+      "back_wheel_box": [
+        632,
+        561,
+        819,
+        759
+      ]
+    },
+    {
+      "frame_idx": 383,
+      "timestamp": 6.4915,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000383.jpg",
+      "front_wheel_conf": 0.9348,
+      "back_wheel_conf": 0.9409,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9643,
+      "size_match_ratio": 0.8457,
+      "front_wheel_box": [
+        921,
+        570,
+        1098,
+        747
+      ],
+      "back_wheel_box": [
+        637,
+        562,
+        826,
+        758
+      ]
+    },
+    {
+      "frame_idx": 384,
+      "timestamp": 6.5085,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000384.jpg",
+      "front_wheel_conf": 0.931,
+      "back_wheel_conf": 0.9432,
+      "front_squareness": 0.9831,
+      "back_squareness": 0.9347,
+      "size_match_ratio": 0.8416,
+      "front_wheel_box": [
+        926,
+        569,
+        1101,
+        747
+      ],
+      "back_wheel_box": [
+        640,
+        559,
+        826,
+        758
+      ]
+    },
+    {
+      "frame_idx": 385,
+      "timestamp": 6.5254,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000385.jpg",
+      "front_wheel_conf": 0.9298,
+      "back_wheel_conf": 0.9447,
+      "front_squareness": 0.9944,
+      "back_squareness": 0.9495,
+      "size_match_ratio": 0.856,
+      "front_wheel_box": [
+        928,
+        568,
+        1106,
+        747
+      ],
+      "back_wheel_box": [
+        645,
+        561,
+        833,
+        759
+      ]
+    },
+    {
+      "frame_idx": 386,
+      "timestamp": 6.5424,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000386.jpg",
+      "front_wheel_conf": 0.9326,
+      "back_wheel_conf": 0.9471,
+      "front_squareness": 0.978,
+      "back_squareness": 0.9692,
+      "size_match_ratio": 0.879,
+      "front_wheel_box": [
+        932,
+        564,
+        1110,
+        746
+      ],
+      "back_wheel_box": [
+        649,
+        563,
+        838,
+        758
+      ]
+    },
+    {
+      "frame_idx": 387,
+      "timestamp": 6.5593,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000387.jpg",
+      "front_wheel_conf": 0.9317,
+      "back_wheel_conf": 0.9477,
+      "front_squareness": 0.9888,
+      "back_squareness": 0.9541,
+      "size_match_ratio": 0.8547,
+      "front_wheel_box": [
+        938,
+        566,
+        1114,
+        744
+      ],
+      "back_wheel_box": [
+        654,
+        562,
+        841,
+        758
+      ]
+    },
+    {
+      "frame_idx": 388,
+      "timestamp": 6.5763,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000388.jpg",
+      "front_wheel_conf": 0.9303,
+      "back_wheel_conf": 0.9464,
+      "front_squareness": 0.9944,
+      "back_squareness": 0.9541,
+      "size_match_ratio": 0.8596,
+      "front_wheel_box": [
+        941,
+        567,
+        1118,
+        745
+      ],
+      "back_wheel_box": [
+        658,
+        561,
+        845,
+        757
+      ]
+    },
+    {
+      "frame_idx": 389,
+      "timestamp": 6.5932,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000389.jpg",
+      "front_wheel_conf": 0.9266,
+      "back_wheel_conf": 0.9463,
+      "front_squareness": 0.9887,
+      "back_squareness": 0.9442,
+      "size_match_ratio": 0.8453,
+      "front_wheel_box": [
+        945,
+        567,
+        1120,
+        744
+      ],
+      "back_wheel_box": [
+        663,
+        560,
+        849,
+        757
+      ]
+    },
+    {
+      "frame_idx": 390,
+      "timestamp": 6.6102,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000390.jpg",
+      "front_wheel_conf": 0.9208,
+      "back_wheel_conf": 0.9418,
+      "front_squareness": 0.9825,
+      "back_squareness": 0.9439,
+      "size_match_ratio": 0.8206,
+      "front_wheel_box": [
+        950,
+        572,
+        1124,
+        743
+      ],
+      "back_wheel_box": [
+        668,
+        562,
+        853,
+        758
+      ]
+    },
+    {
+      "frame_idx": 391,
+      "timestamp": 6.6271,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000391.jpg",
+      "front_wheel_conf": 0.9238,
+      "back_wheel_conf": 0.9431,
+      "front_squareness": 0.983,
+      "back_squareness": 0.9239,
+      "size_match_ratio": 0.8492,
+      "front_wheel_box": [
+        954,
+        567,
+        1127,
+        743
+      ],
+      "back_wheel_box": [
+        675,
+        561,
+        857,
+        758
+      ]
+    },
+    {
+      "frame_idx": 392,
+      "timestamp": 6.6441,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000392.jpg",
+      "front_wheel_conf": 0.9207,
+      "back_wheel_conf": 0.9442,
+      "front_squareness": 0.9767,
+      "back_squareness": 0.9388,
+      "size_match_ratio": 0.8394,
+      "front_wheel_box": [
+        957,
+        571,
+        1133,
+        743
+      ],
+      "back_wheel_box": [
+        679,
+        561,
+        863,
+        757
+      ]
+    },
+    {
+      "frame_idx": 393,
+      "timestamp": 6.661,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000393.jpg",
+      "front_wheel_conf": 0.9283,
+      "back_wheel_conf": 0.9478,
+      "front_squareness": 0.9886,
+      "back_squareness": 0.9385,
+      "size_match_ratio": 0.8484,
+      "front_wheel_box": [
+        962,
+        567,
+        1135,
+        742
+      ],
+      "back_wheel_box": [
+        683,
+        562,
+        866,
+        757
+      ]
+    },
+    {
+      "frame_idx": 394,
+      "timestamp": 6.678,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000394.jpg",
+      "front_wheel_conf": 0.9266,
+      "back_wheel_conf": 0.9501,
+      "front_squareness": 0.9886,
+      "back_squareness": 0.9388,
+      "size_match_ratio": 0.8395,
+      "front_wheel_box": [
+        964,
+        567,
+        1137,
+        742
+      ],
+      "back_wheel_box": [
+        687,
+        561,
+        871,
+        757
+      ]
+    },
+    {
+      "frame_idx": 395,
+      "timestamp": 6.6949,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000395.jpg",
+      "front_wheel_conf": 0.9307,
+      "back_wheel_conf": 0.9506,
+      "front_squareness": 0.9885,
+      "back_squareness": 0.9485,
+      "size_match_ratio": 0.8384,
+      "front_wheel_box": [
+        966,
+        568,
+        1138,
+        742
+      ],
+      "back_wheel_box": [
+        689,
+        563,
+        873,
+        757
+      ]
+    },
+    {
+      "frame_idx": 396,
+      "timestamp": 6.7119,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000396.jpg",
+      "front_wheel_conf": 0.932,
+      "back_wheel_conf": 0.9497,
+      "front_squareness": 0.9884,
+      "back_squareness": 0.9381,
+      "size_match_ratio": 0.8379,
+      "front_wheel_box": [
+        970,
+        570,
+        1141,
+        743
+      ],
+      "back_wheel_box": [
+        693,
+        563,
+        875,
+        757
+      ]
+    },
+    {
+      "frame_idx": 397,
+      "timestamp": 6.7288,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000397.jpg",
+      "front_wheel_conf": 0.9281,
+      "back_wheel_conf": 0.9472,
+      "front_squareness": 0.9773,
+      "back_squareness": 0.9227,
+      "size_match_ratio": 0.8717,
+      "front_wheel_box": [
+        972,
+        567,
+        1144,
+        743
+      ],
+      "back_wheel_box": [
+        698,
+        563,
+        877,
+        757
+      ]
+    },
+    {
+      "frame_idx": 398,
+      "timestamp": 6.7458,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000398.jpg",
+      "front_wheel_conf": 0.9282,
+      "back_wheel_conf": 0.9457,
+      "front_squareness": 0.9663,
+      "back_squareness": 0.9381,
+      "size_match_ratio": 0.8671,
+      "front_wheel_box": [
+        975,
+        565,
+        1147,
+        743
+      ],
+      "back_wheel_box": [
+        702,
+        563,
+        884,
+        757
+      ]
+    },
+    {
+      "frame_idx": 399,
+      "timestamp": 6.7627,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000399.jpg",
+      "front_wheel_conf": 0.9298,
+      "back_wheel_conf": 0.9479,
+      "front_squareness": 0.9602,
+      "back_squareness": 0.9583,
+      "size_match_ratio": 0.8419,
+      "front_wheel_box": [
+        980,
+        566,
+        1149,
+        742
+      ],
+      "back_wheel_box": [
+        707,
+        564,
+        891,
+        756
+      ]
+    },
+    {
+      "frame_idx": 400,
+      "timestamp": 6.7797,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000400.jpg",
+      "front_wheel_conf": 0.9322,
+      "back_wheel_conf": 0.9472,
+      "front_squareness": 0.96,
+      "back_squareness": 0.9326,
+      "size_match_ratio": 0.8463,
+      "front_wheel_box": [
+        983,
+        566,
+        1151,
+        741
+      ],
+      "back_wheel_box": [
+        713,
+        562,
+        893,
+        755
+      ]
+    },
+    {
+      "frame_idx": 401,
+      "timestamp": 6.7966,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000401.jpg",
+      "front_wheel_conf": 0.9335,
+      "back_wheel_conf": 0.9461,
+      "front_squareness": 0.9438,
+      "back_squareness": 0.9378,
+      "size_match_ratio": 0.856,
+      "front_wheel_box": [
+        987,
+        564,
+        1155,
+        742
+      ],
+      "back_wheel_box": [
+        716,
+        562,
+        897,
+        755
+      ]
+    },
+    {
+      "frame_idx": 402,
+      "timestamp": 6.8136,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000402.jpg",
+      "front_wheel_conf": 0.9315,
+      "back_wheel_conf": 0.9415,
+      "front_squareness": 0.9435,
+      "back_squareness": 0.9531,
+      "size_match_ratio": 0.8413,
+      "front_wheel_box": [
+        991,
+        565,
+        1158,
+        742
+      ],
+      "back_wheel_box": [
+        719,
+        563,
+        902,
+        755
+      ]
+    },
+    {
+      "frame_idx": 403,
+      "timestamp": 6.8305,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000403.jpg",
+      "front_wheel_conf": 0.9296,
+      "back_wheel_conf": 0.9408,
+      "front_squareness": 0.9489,
+      "back_squareness": 0.9323,
+      "size_match_ratio": 0.8552,
+      "front_wheel_box": [
+        994,
+        565,
+        1161,
+        741
+      ],
+      "back_wheel_box": [
+        724,
+        562,
+        903,
+        754
+      ]
+    },
+    {
+      "frame_idx": 404,
+      "timestamp": 6.8475,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000404.jpg",
+      "front_wheel_conf": 0.9294,
+      "back_wheel_conf": 0.9462,
+      "front_squareness": 0.954,
+      "back_squareness": 0.9418,
+      "size_match_ratio": 0.8586,
+      "front_wheel_box": [
+        996,
+        566,
+        1162,
+        740
+      ],
+      "back_wheel_box": [
+        730,
+        564,
+        908,
+        753
+      ]
+    },
+    {
+      "frame_idx": 405,
+      "timestamp": 6.8644,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000405.jpg",
+      "front_wheel_conf": 0.9285,
+      "back_wheel_conf": 0.949,
+      "front_squareness": 0.9483,
+      "back_squareness": 0.9521,
+      "size_match_ratio": 0.8531,
+      "front_wheel_box": [
+        999,
+        566,
+        1164,
+        740
+      ],
+      "back_wheel_box": [
+        734,
+        564,
+        913,
+        752
+      ]
+    },
+    {
+      "frame_idx": 406,
+      "timestamp": 6.8814,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000406.jpg",
+      "front_wheel_conf": 0.9295,
+      "back_wheel_conf": 0.9451,
+      "front_squareness": 0.9653,
+      "back_squareness": 0.9415,
+      "size_match_ratio": 0.8682,
+      "front_wheel_box": [
+        1000,
+        566,
+        1167,
+        739
+      ],
+      "back_wheel_box": [
+        737,
+        564,
+        914,
+        752
+      ]
+    },
+    {
+      "frame_idx": 407,
+      "timestamp": 6.8983,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000407.jpg",
+      "front_wheel_conf": 0.9285,
+      "back_wheel_conf": 0.9415,
+      "front_squareness": 0.9593,
+      "back_squareness": 0.9412,
+      "size_match_ratio": 0.8623,
+      "front_wheel_box": [
+        1003,
+        566,
+        1168,
+        738
+      ],
+      "back_wheel_box": [
+        741,
+        565,
+        917,
+        752
+      ]
+    },
+    {
+      "frame_idx": 408,
+      "timestamp": 6.9153,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000408.jpg",
+      "front_wheel_conf": 0.9308,
+      "back_wheel_conf": 0.945,
+      "front_squareness": 0.9419,
+      "back_squareness": 0.9358,
+      "size_match_ratio": 0.8515,
+      "front_wheel_box": [
+        1007,
+        566,
+        1169,
+        738
+      ],
+      "back_wheel_box": [
+        743,
+        565,
+        918,
+        752
+      ]
+    },
+    {
+      "frame_idx": 409,
+      "timestamp": 6.9322,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000409.jpg",
+      "front_wheel_conf": 0.9324,
+      "back_wheel_conf": 0.9448,
+      "front_squareness": 0.9422,
+      "back_squareness": 0.9309,
+      "size_match_ratio": 0.8571,
+      "front_wheel_box": [
+        1007,
+        565,
+        1170,
+        738
+      ],
+      "back_wheel_box": [
+        746,
+        564,
+        921,
+        752
+      ]
+    },
+    {
+      "frame_idx": 410,
+      "timestamp": 6.9492,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000410.jpg",
+      "front_wheel_conf": 0.9305,
+      "back_wheel_conf": 0.943,
+      "front_squareness": 0.9364,
+      "back_squareness": 0.9202,
+      "size_match_ratio": 0.8617,
+      "front_wheel_box": [
+        1009,
+        565,
+        1171,
+        738
+      ],
+      "back_wheel_box": [
+        749,
+        565,
+        922,
+        753
+      ]
+    },
+    {
+      "frame_idx": 411,
+      "timestamp": 6.9661,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000411.jpg",
+      "front_wheel_conf": 0.9312,
+      "back_wheel_conf": 0.9444,
+      "front_squareness": 0.9302,
+      "back_squareness": 0.9149,
+      "size_match_ratio": 0.8511,
+      "front_wheel_box": [
+        1012,
+        565,
+        1172,
+        737
+      ],
+      "back_wheel_box": [
+        751,
+        564,
+        923,
+        752
+      ]
+    },
+    {
+      "frame_idx": 412,
+      "timestamp": 6.9831,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000412.jpg",
+      "front_wheel_conf": 0.934,
+      "back_wheel_conf": 0.9462,
+      "front_squareness": 0.9023,
+      "back_squareness": 0.9037,
+      "size_match_ratio": 0.8644,
+      "front_wheel_box": [
+        1015,
+        563,
+        1172,
+        737
+      ],
+      "back_wheel_box": [
+        754,
+        566,
+        923,
+        753
+      ]
+    },
+    {
+      "frame_idx": 413,
+      "timestamp": 7.0,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000413.jpg",
+      "front_wheel_conf": 0.9334,
+      "back_wheel_conf": 0.9406,
+      "front_squareness": 0.9012,
+      "back_squareness": 0.9344,
+      "size_match_ratio": 0.8519,
+      "front_wheel_box": [
+        1017,
+        565,
+        1172,
+        737
+      ],
+      "back_wheel_box": [
+        756,
+        569,
+        927,
+        752
+      ]
+    },
+    {
+      "frame_idx": 414,
+      "timestamp": 7.0169,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000414.jpg",
+      "front_wheel_conf": 0.9376,
+      "back_wheel_conf": 0.9397,
+      "front_squareness": 0.9064,
+      "back_squareness": 0.9096,
+      "size_match_ratio": 0.8245,
+      "front_wheel_box": [
+        1019,
+        565,
+        1174,
+        736
+      ],
+      "back_wheel_box": [
+        760,
+        564,
+        931,
+        752
+      ]
+    },
+    {
+      "frame_idx": 415,
+      "timestamp": 7.0339,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000415.jpg",
+      "front_wheel_conf": 0.9422,
+      "back_wheel_conf": 0.9432,
+      "front_squareness": 0.8947,
+      "back_squareness": 0.9,
+      "size_match_ratio": 0.8053,
+      "front_wheel_box": [
+        1021,
+        564,
+        1174,
+        735
+      ],
+      "back_wheel_box": [
+        764,
+        562,
+        935,
+        752
+      ]
+    },
+    {
+      "frame_idx": 416,
+      "timestamp": 7.0508,
+      "frame_file": "output/alexb30/alexb30_selected_frames/frame_000416.jpg",
+      "front_wheel_conf": 0.9408,
+      "back_wheel_conf": 0.9315,
+      "front_squareness": 0.9112,
+      "back_squareness": 0.9096,
+      "size_match_ratio": 0.8096,
+      "front_wheel_box": [
+        1022,
+        566,
+        1176,
+        735
+      ],
+      "back_wheel_box": [
+        767,
+        563,
+        938,
+        751
+      ]
+    }
+  ],
+  "metrics": {
+    "frames_processed": 1320,
+    "frames_selected": 98,
+    "total_bursts": 15,
+    "selection_rate": 0.0742,
+    "avg_confidence": 0.9375,
+    "elapsed_sec": 69.21
+  }
+}

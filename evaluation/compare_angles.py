@@ -18,6 +18,24 @@ import sys
 from pathlib import Path
 
 
+class _Tee:
+    """Write to both a stream and a file simultaneously."""
+    def __init__(self, stream, path):
+        self._stream = stream
+        self._file = open(path, "w")
+
+    def write(self, data):
+        self._stream.write(data)
+        self._file.write(data)
+
+    def flush(self):
+        self._stream.flush()
+        self._file.flush()
+
+    def close(self):
+        self._file.close()
+
+
 def parse_stem(stem):
     """Return (subject, condition, cadence_group) or (stem, '?', '?') on failure."""
     m = re.match(r"^([a-zA-Z]+)(a|b)(\d+)$", stem)
@@ -167,7 +185,14 @@ def main():
     parser = argparse.ArgumentParser(description="Compare angle measurements across both pipelines")
     parser.add_argument("--p1", default="output",    help="Pipeline 1 output root (default: output/)")
     parser.add_argument("--p2", default="output_v2", help="Pipeline V2 output root (default: output_v2/)")
+    parser.add_argument("--out", default="evaluation/compare_angles.txt",
+                        help="Write output to this file in addition to stdout (default: evaluation/compare_angles.txt)")
     args = parser.parse_args()
+
+    tee = None
+    if args.out:
+        tee = _Tee(sys.stdout, args.out)
+        sys.stdout = tee
 
     rows = []
     for root, label in [(args.p1, "p1"), (args.p2, "p2")]:
@@ -192,6 +217,11 @@ def main():
     elif len(pipelines) == 1:
         only = next(iter(pipelines))
         print(f"  (Only {only} data available — pipeline diff skipped)")
+
+    if tee:
+        sys.stdout = tee._stream
+        tee.close()
+        print(f"\nResults written to {args.out}")
 
 
 if __name__ == "__main__":

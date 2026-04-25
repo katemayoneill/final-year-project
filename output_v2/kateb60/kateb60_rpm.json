@@ -1,0 +1,102 @@
+{
+  "video": "videos/kateb60.mp4",
+  "direction": "left",
+  "knee_used": "left",
+  "cadence_rpm": null,
+  "cycle_count": 0,
+  "cycle_timestamps": [],
+  "cycle_periods_sec": [],
+  "std_dev_rpm": null,
+  "rpm_method": "peak_detection",
+  "per_run_rpms": [],
+  "best_run": {
+    "frame_idx_start": 143,
+    "frame_idx_end": 160,
+    "frame_count": 18,
+    "duration_sec": 0.57,
+    "total_runs": 1
+  },
+  "metrics": {
+    "frames_with_angle": 18,
+    "frames_in_best_run": 18,
+    "total_runs": 1,
+    "usable_runs": 0,
+    "peaks_found": 1,
+    "time_span_sec": 0.57
+  },
+  "angle_series": [
+    [
+      4.8202,
+      73.65
+    ],
+    [
+      4.8539,
+      76.06
+    ],
+    [
+      4.8876,
+      79.46
+    ],
+    [
+      4.9213,
+      83.84
+    ],
+    [
+      4.9551,
+      89.2
+    ],
+    [
+      4.9888,
+      95.54
+    ],
+    [
+      5.0225,
+      105.87
+    ],
+    [
+      5.0562,
+      115.27
+    ],
+    [
+      5.0899,
+      123.45
+    ],
+    [
+      5.1236,
+      130.19
+    ],
+    [
+      5.1573,
+      134.56
+    ],
+    [
+      5.191,
+      135.65
+    ],
+    [
+      5.2247,
+      132.92
+    ],
+    [
+      5.2584,
+      129.0
+    ],
+    [
+      5.2921,
+      122.74
+    ],
+    [
+      5.3258,
+      114.14
+    ],
+    [
+      5.3596,
+      103.2
+    ],
+    [
+      5.3933,
+      89.91
+    ]
+  ],
+  "peak_timestamps": []
+}

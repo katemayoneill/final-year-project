@@ -101,7 +101,7 @@ Each stage creates its output directory if it doesn't exist, so stages can be ru
 - **Model weights** are excluded from git (`.gitignore` ignores `/models`)
 - **Raw footage** (`videos/`) is gitignored — too large for git; transfer via R2
 - **runpodctl** is blocked on the college network — cannot use it for file transfer
-- **HTTP transfers** time out on large files — naive HTTP upload/download is not viable
+- **HTTP transfers from laptop** time out on large files — naive HTTP upload/download direct to laptop is not viable; use the login server instead (see File Transfer section)
 - Target workflow: upload input video to pod → run pipeline → retrieve output files
 
 ## File Transfer
@@ -120,6 +120,27 @@ python3 /app/infra/upload.py /tmp/<stem>.tar.gz output_v2
 rm /tmp/<stem>.tar.gz
 ```
 Extract locally with `tar -xzf <stem>.tar.gz`.
+
+**Preferred method for retrieving large output folders from the pod to the college drive:**
+Do NOT download via the CIFS mount on the laptop — write speed is ~2.6 MB/s and concurrent writes will freeze the system. Instead, use the college login server (`macneill.scss.tcd.ie`) which has direct fast access to the college drive:
+
+1. On the pod, tar the output directory (skip `-z` compression — JPEGs don't compress and it's much faster without):
+```bash
+tar -cf /app/data/output_v2.tar -C /app output_v2
+```
+2. Expose the pod's HTTP server (port 8000) via RunPod's proxy, then on the login server:
+```bash
+curl -o ~/fyp/final-year-project/output_v2.tar https://<pod-proxy-url>/data/output_v2.tar
+```
+3. Extract directly into the output directory:
+```bash
+tar -xf ~/fyp/final-year-project/output_v2.tar --strip-components=1 -C ~/fyp/final-year-project/output_v2/
+```
+
+**Downloading from R2 to the college drive:** Use `wget` on the login server with the R2 public URL — no Python/boto3 needed, and it runs at ~30 MB/s on the college network:
+```bash
+wget https://pub-<id>.r2.dev/<key>.tar.gz -O ~/fyp/final-year-project/<key>.tar.gz
+```
 
 **Pod storage layout:** pipeline outputs live in `/app/data/output_v2/` (the persistent network volume), not in `/app/output_v2/`. The container root (`/`) is a separate 20 GB overlay — keep it clear of large files.
 
@@ -517,6 +538,18 @@ Each script prints these on exit — quote directly in the report:
 | 3 (V2) | `knee_analysis.py` | frames with angle, runs total / usable, per-run frame range + duration + peak count + method, total peaks |
 | 3 (P1) / 4 (V2) | `seat_height.py` | knee angle count, mean, std dev, peak, peak_angle_method, verdict + detail string |
 | 4 (P1) / 5 (V2) | `rpm.py` | frames with angle, runs total / usable, per-run RPM, mean cadence RPM ± std dev, direction of travel, knee used, RPM method |
+
+## Mounting College Drive on Laptop
+
+The college network drive can be mounted via CIFS. Use `uid`/`gid` options so files appear owned by your local user — no sudo needed for reads/writes.
+
+```bash
+sudo mount -t cifs //taughtstore.scss.tcd.ie/oneilk10 -o "user=oneilk10,domain=itserv,vers=3.0,uid=$(id -u),gid=$(id -g)" ~/lab-computer/
+```
+
+- This does **not** change ownership on the server — files on the lab machine are unaffected
+- If the mount is busy on unmount, use `sudo umount -l ~/lab-computer` (lazy unmount)
+- The lab machine venv (`~/fyp/linux/`) won't work on the laptop — its Python binary is a symlink to the college machine's Python install. Use a local laptop venv instead (e.g. `fyp-venv`)
 
 ## Local Lab Machine Setup (msc-linux-sls-016)
 

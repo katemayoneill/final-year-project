@@ -33,6 +33,24 @@ import sys
 from pathlib import Path
 
 
+class _Tee:
+    """Write to both a stream and a file simultaneously."""
+    def __init__(self, stream, path):
+        self._stream = stream
+        self._file = open(path, "w")
+
+    def write(self, data):
+        self._stream.write(data)
+        self._file.write(data)
+
+    def flush(self):
+        self._stream.flush()
+        self._file.flush()
+
+    def close(self):
+        self._file.close()
+
+
 def find_json(stem, suffix, videos_root):
     """Search videos_root recursively for <stem><suffix>.json."""
     for path in Path(videos_root).rglob(f"{stem}{suffix}.json"):
@@ -358,7 +376,14 @@ def main():
                         help="Pipeline 1 output directory (default: output/)")
     parser.add_argument("--videos-v2", default="output_v2/",
                         help="Pipeline V2 output directory (default: output_v2/)")
+    parser.add_argument("--out",       default="evaluation/results.txt",
+                        help="Write output to this file in addition to stdout (default: evaluation/results.txt)")
     args = parser.parse_args()
+
+    tee = None
+    if args.out:
+        tee = _Tee(sys.stdout, args.out)
+        sys.stdout = tee
 
     if not os.path.exists(args.gt):
         sys.exit(f"Ground truth CSV not found: {args.gt}")
@@ -386,6 +411,11 @@ def main():
         rows = evaluate_rpm(gt, args.videos_v2)
         print_rpm_table(rows, label="Pipeline V2")
         evaluate_seat_height(args.videos_v2, label="Pipeline V2")
+
+    if tee:
+        sys.stdout = tee._stream
+        tee.close()
+        print(f"\nResults written to {args.out}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,3250 @@
+{
+  "video": "videos/paddyb60.MP4",
+  "model": "models/best.pt",
+  "fps": 59.9680170575693,
+  "total_frames": 750,
+  "selected_frames": [
+    {
+      "frame_idx": 483,
+      "timestamp": 8.0543,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000483.jpg",
+      "front_wheel_conf": 0.9135,
+      "back_wheel_conf": 0.9236,
+      "front_squareness": 0.95,
+      "back_squareness": 0.8718,
+      "size_match_ratio": 0.8724,
+      "front_wheel_box": [
+        413,
+        211,
+        451,
+        251
+      ],
+      "back_wheel_box": [
+        466,
+        211,
+        500,
+        250
+      ]
+    },
+    {
+      "frame_idx": 484,
+      "timestamp": 8.071,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000484.jpg",
+      "front_wheel_conf": 0.9194,
+      "back_wheel_conf": 0.9244,
+      "front_squareness": 0.9268,
+      "back_squareness": 0.875,
+      "size_match_ratio": 0.8986,
+      "front_wheel_box": [
+        413,
+        211,
+        451,
+        252
+      ],
+      "back_wheel_box": [
+        465,
+        210,
+        500,
+        250
+      ]
+    },
+    {
+      "frame_idx": 485,
+      "timestamp": 8.0876,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000485.jpg",
+      "front_wheel_conf": 0.91,
+      "back_wheel_conf": 0.9245,
+      "front_squareness": 0.9024,
+      "back_squareness": 0.878,
+      "size_match_ratio": 0.973,
+      "front_wheel_box": [
+        413,
+        211,
+        450,
+        252
+      ],
+      "back_wheel_box": [
+        464,
+        210,
+        500,
+        251
+      ]
+    },
+    {
+      "frame_idx": 486,
+      "timestamp": 8.1043,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000486.jpg",
+      "front_wheel_conf": 0.9186,
+      "back_wheel_conf": 0.9263,
+      "front_squareness": 0.9268,
+      "back_squareness": 0.878,
+      "size_match_ratio": 0.9474,
+      "front_wheel_box": [
+        412,
+        211,
+        450,
+        252
+      ],
+      "back_wheel_box": [
+        464,
+        210,
+        500,
+        251
+      ]
+    },
+    {
+      "frame_idx": 487,
+      "timestamp": 8.121,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000487.jpg",
+      "front_wheel_conf": 0.9221,
+      "back_wheel_conf": 0.9225,
+      "front_squareness": 0.9268,
+      "back_squareness": 0.9,
+      "size_match_ratio": 0.9243,
+      "front_wheel_box": [
+        412,
+        211,
+        450,
+        252
+      ],
+      "back_wheel_box": [
+        464,
+        211,
+        500,
+        251
+      ]
+    },
+    {
+      "frame_idx": 488,
+      "timestamp": 8.1377,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000488.jpg",
+      "front_wheel_conf": 0.9224,
+      "back_wheel_conf": 0.9229,
+      "front_squareness": 0.9286,
+      "back_squareness": 0.878,
+      "size_match_ratio": 0.9011,
+      "front_wheel_box": [
+        411,
+        211,
+        450,
+        253
+      ],
+      "back_wheel_box": [
+        464,
+        211,
+        500,
+        252
+      ]
+    },
+    {
+      "frame_idx": 489,
+      "timestamp": 8.1543,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000489.jpg",
+      "front_wheel_conf": 0.9243,
+      "back_wheel_conf": 0.9228,
+      "front_squareness": 0.9286,
+      "back_squareness": 0.9024,
+      "size_match_ratio": 0.9261,
+      "front_wheel_box": [
+        410,
+        211,
+        449,
+        253
+      ],
+      "back_wheel_box": [
+        463,
+        211,
+        500,
+        252
+      ]
+    },
+    {
+      "frame_idx": 490,
+      "timestamp": 8.171,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000490.jpg",
+      "front_wheel_conf": 0.9253,
+      "back_wheel_conf": 0.9257,
+      "front_squareness": 0.9286,
+      "back_squareness": 0.9268,
+      "size_match_ratio": 0.9512,
+      "front_wheel_box": [
+        410,
+        211,
+        449,
+        253
+      ],
+      "back_wheel_box": [
+        462,
+        211,
+        500,
+        252
+      ]
+    },
+    {
+      "frame_idx": 491,
+      "timestamp": 8.1877,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000491.jpg",
+      "front_wheel_conf": 0.9246,
+      "back_wheel_conf": 0.6366,
+      "front_squareness": 0.9286,
+      "back_squareness": 0.95,
+      "size_match_ratio": 0.928,
+      "front_wheel_box": [
+        410,
+        211,
+        449,
+        253
+      ],
+      "back_wheel_box": [
+        462,
+        212,
+        500,
+        252
+      ]
+    },
+    {
+      "frame_idx": 492,
+      "timestamp": 8.2044,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000492.jpg",
+      "front_wheel_conf": 0.9248,
+      "back_wheel_conf": 0.9335,
+      "front_squareness": 0.9302,
+      "back_squareness": 0.9048,
+      "size_match_ratio": 0.9279,
+      "front_wheel_box": [
+        409,
+        211,
+        449,
+        254
+      ],
+      "back_wheel_box": [
+        461,
+        211,
+        499,
+        253
+      ]
+    },
+    {
+      "frame_idx": 493,
+      "timestamp": 8.221,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000493.jpg",
+      "front_wheel_conf": 0.9251,
+      "back_wheel_conf": 0.9317,
+      "front_squareness": 0.9524,
+      "back_squareness": 0.9524,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        408,
+        212,
+        448,
+        254
+      ],
+      "back_wheel_box": [
+        459,
+        211,
+        499,
+        253
+      ]
+    },
+    {
+      "frame_idx": 494,
+      "timestamp": 8.2377,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000494.jpg",
+      "front_wheel_conf": 0.924,
+      "back_wheel_conf": 0.9298,
+      "front_squareness": 0.9524,
+      "back_squareness": 0.9286,
+      "size_match_ratio": 0.975,
+      "front_wheel_box": [
+        408,
+        212,
+        448,
+        254
+      ],
+      "back_wheel_box": [
+        460,
+        211,
+        499,
+        253
+      ]
+    },
+    {
+      "frame_idx": 495,
+      "timestamp": 8.2544,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000495.jpg",
+      "front_wheel_conf": 0.9226,
+      "back_wheel_conf": 0.9224,
+      "front_squareness": 0.9302,
+      "back_squareness": 0.9048,
+      "size_match_ratio": 0.9279,
+      "front_wheel_box": [
+        407,
+        212,
+        447,
+        255
+      ],
+      "back_wheel_box": [
+        460,
+        211,
+        498,
+        253
+      ]
+    },
+    {
+      "frame_idx": 496,
+      "timestamp": 8.2711,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000496.jpg",
+      "front_wheel_conf": 0.9205,
+      "back_wheel_conf": 0.9211,
+      "front_squareness": 0.9524,
+      "back_squareness": 0.9048,
+      "size_match_ratio": 0.95,
+      "front_wheel_box": [
+        406,
+        213,
+        446,
+        255
+      ],
+      "back_wheel_box": [
+        460,
+        212,
+        498,
+        254
+      ]
+    },
+    {
+      "frame_idx": 497,
+      "timestamp": 8.2878,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000497.jpg",
+      "front_wheel_conf": 0.9054,
+      "back_wheel_conf": 0.9222,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.9286,
+      "size_match_ratio": 0.9512,
+      "front_wheel_box": [
+        405,
+        213,
+        446,
+        255
+      ],
+      "back_wheel_box": [
+        459,
+        212,
+        498,
+        254
+      ]
+    },
+    {
+      "frame_idx": 498,
+      "timestamp": 8.3044,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000498.jpg",
+      "front_wheel_conf": 0.9111,
+      "back_wheel_conf": 0.9177,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9048,
+      "size_match_ratio": 0.9732,
+      "front_wheel_box": [
+        405,
+        214,
+        445,
+        255
+      ],
+      "back_wheel_box": [
+        459,
+        212,
+        497,
+        254
+      ]
+    },
+    {
+      "frame_idx": 499,
+      "timestamp": 8.3211,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000499.jpg",
+      "front_wheel_conf": 0.9138,
+      "back_wheel_conf": 0.923,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.907,
+      "size_match_ratio": 0.9779,
+      "front_wheel_box": [
+        404,
+        214,
+        444,
+        255
+      ],
+      "back_wheel_box": [
+        458,
+        212,
+        497,
+        255
+      ]
+    },
+    {
+      "frame_idx": 500,
+      "timestamp": 8.3378,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000500.jpg",
+      "front_wheel_conf": 0.9172,
+      "back_wheel_conf": 0.9263,
+      "front_squareness": 1.0,
+      "back_squareness": 0.907,
+      "size_match_ratio": 0.9976,
+      "front_wheel_box": [
+        403,
+        214,
+        444,
+        255
+      ],
+      "back_wheel_box": [
+        457,
+        212,
+        496,
+        255
+      ]
+    },
+    {
+      "frame_idx": 501,
+      "timestamp": 8.3545,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000501.jpg",
+      "front_wheel_conf": 0.9197,
+      "back_wheel_conf": 0.897,
+      "front_squareness": 1.0,
+      "back_squareness": 0.881,
+      "size_match_ratio": 0.9244,
+      "front_wheel_box": [
+        402,
+        215,
+        443,
+        256
+      ],
+      "back_wheel_box": [
+        458,
+        213,
+        495,
+        255
+      ]
+    },
+    {
+      "frame_idx": 502,
+      "timestamp": 8.3711,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000502.jpg",
+      "front_wheel_conf": 0.9174,
+      "back_wheel_conf": 0.9011,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.881,
+      "size_match_ratio": 0.9476,
+      "front_wheel_box": [
+        402,
+        215,
+        442,
+        256
+      ],
+      "back_wheel_box": [
+        457,
+        213,
+        494,
+        255
+      ]
+    },
+    {
+      "frame_idx": 503,
+      "timestamp": 8.3878,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000503.jpg",
+      "front_wheel_conf": 0.9113,
+      "back_wheel_conf": 0.9019,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9048,
+      "size_match_ratio": 0.9494,
+      "front_wheel_box": [
+        401,
+        215,
+        442,
+        256
+      ],
+      "back_wheel_box": [
+        456,
+        213,
+        494,
+        255
+      ]
+    },
+    {
+      "frame_idx": 504,
+      "timestamp": 8.4045,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000504.jpg",
+      "front_wheel_conf": 0.9098,
+      "back_wheel_conf": 0.9084,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.8837,
+      "size_match_ratio": 0.9489,
+      "front_wheel_box": [
+        400,
+        214,
+        441,
+        256
+      ],
+      "back_wheel_box": [
+        455,
+        213,
+        493,
+        256
+      ]
+    },
+    {
+      "frame_idx": 505,
+      "timestamp": 8.4212,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000505.jpg",
+      "front_wheel_conf": 0.9063,
+      "back_wheel_conf": 0.9106,
+      "front_squareness": 0.9535,
+      "back_squareness": 0.907,
+      "size_match_ratio": 0.9512,
+      "front_wheel_box": [
+        399,
+        214,
+        440,
+        257
+      ],
+      "back_wheel_box": [
+        454,
+        213,
+        493,
+        256
+      ]
+    },
+    {
+      "frame_idx": 506,
+      "timestamp": 8.4378,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000506.jpg",
+      "front_wheel_conf": 0.9054,
+      "back_wheel_conf": 0.9184,
+      "front_squareness": 0.9535,
+      "back_squareness": 0.9524,
+      "size_match_ratio": 0.9529,
+      "front_wheel_box": [
+        398,
+        214,
+        439,
+        257
+      ],
+      "back_wheel_box": [
+        453,
+        214,
+        493,
+        256
+      ]
+    },
+    {
+      "frame_idx": 507,
+      "timestamp": 8.4545,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000507.jpg",
+      "front_wheel_conf": 0.906,
+      "back_wheel_conf": 0.9219,
+      "front_squareness": 0.9302,
+      "back_squareness": 0.9535,
+      "size_match_ratio": 0.9756,
+      "front_wheel_box": [
+        398,
+        214,
+        438,
+        257
+      ],
+      "back_wheel_box": [
+        451,
+        214,
+        492,
+        257
+      ]
+    },
+    {
+      "frame_idx": 508,
+      "timestamp": 8.4712,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000508.jpg",
+      "front_wheel_conf": 0.8995,
+      "back_wheel_conf": 0.9258,
+      "front_squareness": 0.9524,
+      "back_squareness": 0.9767,
+      "size_match_ratio": 0.9302,
+      "front_wheel_box": [
+        397,
+        215,
+        437,
+        257
+      ],
+      "back_wheel_box": [
+        450,
+        214,
+        492,
+        257
+      ]
+    },
+    {
+      "frame_idx": 509,
+      "timestamp": 8.4879,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000509.jpg",
+      "front_wheel_conf": 0.8897,
+      "back_wheel_conf": 0.924,
+      "front_squareness": 0.9535,
+      "back_squareness": 0.9535,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        395,
+        215,
+        436,
+        258
+      ],
+      "back_wheel_box": [
+        450,
+        214,
+        491,
+        257
+      ]
+    },
+    {
+      "frame_idx": 510,
+      "timestamp": 8.5045,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000510.jpg",
+      "front_wheel_conf": 0.879,
+      "back_wheel_conf": 0.9265,
+      "front_squareness": 0.9767,
+      "back_squareness": 0.9767,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        394,
+        216,
+        436,
+        259
+      ],
+      "back_wheel_box": [
+        449,
+        214,
+        491,
+        257
+      ]
+    },
+    {
+      "frame_idx": 511,
+      "timestamp": 8.5212,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000511.jpg",
+      "front_wheel_conf": 0.9046,
+      "back_wheel_conf": 0.9259,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9762,
+      "size_match_ratio": 0.9762,
+      "front_wheel_box": [
+        394,
+        217,
+        435,
+        258
+      ],
+      "back_wheel_box": [
+        449,
+        215,
+        490,
+        257
+      ]
+    },
+    {
+      "frame_idx": 512,
+      "timestamp": 8.5379,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000512.jpg",
+      "front_wheel_conf": 0.8949,
+      "back_wheel_conf": 0.9241,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9524,
+      "size_match_ratio": 0.9994,
+      "front_wheel_box": [
+        393,
+        217,
+        434,
+        258
+      ],
+      "back_wheel_box": [
+        449,
+        216,
+        489,
+        258
+      ]
+    },
+    {
+      "frame_idx": 513,
+      "timestamp": 8.5546,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000513.jpg",
+      "front_wheel_conf": 0.9023,
+      "back_wheel_conf": 0.9225,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.907,
+      "size_match_ratio": 0.9739,
+      "front_wheel_box": [
+        392,
+        217,
+        433,
+        259
+      ],
+      "back_wheel_box": [
+        449,
+        216,
+        488,
+        259
+      ]
+    },
+    {
+      "frame_idx": 514,
+      "timestamp": 8.5712,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000514.jpg",
+      "front_wheel_conf": 0.9099,
+      "back_wheel_conf": 0.9137,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.9524,
+      "size_match_ratio": 0.9756,
+      "front_wheel_box": [
+        392,
+        218,
+        433,
+        260
+      ],
+      "back_wheel_box": [
+        448,
+        217,
+        488,
+        259
+      ]
+    },
+    {
+      "frame_idx": 515,
+      "timestamp": 8.5879,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000515.jpg",
+      "front_wheel_conf": 0.9081,
+      "back_wheel_conf": 0.9169,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.9524,
+      "size_match_ratio": 0.9756,
+      "front_wheel_box": [
+        391,
+        218,
+        432,
+        260
+      ],
+      "back_wheel_box": [
+        447,
+        217,
+        487,
+        259
+      ]
+    },
+    {
+      "frame_idx": 516,
+      "timestamp": 8.6046,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000516.jpg",
+      "front_wheel_conf": 0.9078,
+      "back_wheel_conf": 0.9044,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9302,
+      "size_match_ratio": 0.9988,
+      "front_wheel_box": [
+        390,
+        218,
+        432,
+        259
+      ],
+      "back_wheel_box": [
+        446,
+        217,
+        486,
+        260
+      ]
+    },
+    {
+      "frame_idx": 517,
+      "timestamp": 8.6213,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000517.jpg",
+      "front_wheel_conf": 0.9036,
+      "back_wheel_conf": 0.8878,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.9286,
+      "size_match_ratio": 0.9512,
+      "front_wheel_box": [
+        390,
+        218,
+        431,
+        260
+      ],
+      "back_wheel_box": [
+        446,
+        218,
+        485,
+        260
+      ]
+    },
+    {
+      "frame_idx": 518,
+      "timestamp": 8.6379,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000518.jpg",
+      "front_wheel_conf": 0.8996,
+      "back_wheel_conf": 0.8906,
+      "front_squareness": 0.9535,
+      "back_squareness": 0.9048,
+      "size_match_ratio": 0.9053,
+      "front_wheel_box": [
+        389,
+        218,
+        430,
+        261
+      ],
+      "back_wheel_box": [
+        446,
+        218,
+        484,
+        260
+      ]
+    },
+    {
+      "frame_idx": 519,
+      "timestamp": 8.6546,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000519.jpg",
+      "front_wheel_conf": 0.9066,
+      "back_wheel_conf": 0.9015,
+      "front_squareness": 0.9767,
+      "back_squareness": 0.907,
+      "size_match_ratio": 0.9286,
+      "front_wheel_box": [
+        388,
+        218,
+        430,
+        261
+      ],
+      "back_wheel_box": [
+        445,
+        218,
+        484,
+        261
+      ]
+    },
+    {
+      "frame_idx": 520,
+      "timestamp": 8.6713,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000520.jpg",
+      "front_wheel_conf": 0.9138,
+      "back_wheel_conf": 0.9153,
+      "front_squareness": 0.9535,
+      "back_squareness": 0.8837,
+      "size_match_ratio": 0.9268,
+      "front_wheel_box": [
+        387,
+        218,
+        428,
+        261
+      ],
+      "back_wheel_box": [
+        445,
+        218,
+        483,
+        261
+      ]
+    },
+    {
+      "frame_idx": 521,
+      "timestamp": 8.688,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000521.jpg",
+      "front_wheel_conf": 0.9149,
+      "back_wheel_conf": 0.9151,
+      "front_squareness": 1.0,
+      "back_squareness": 0.907,
+      "size_match_ratio": 0.9507,
+      "front_wheel_box": [
+        386,
+        219,
+        428,
+        261
+      ],
+      "back_wheel_box": [
+        444,
+        218,
+        483,
+        261
+      ]
+    },
+    {
+      "frame_idx": 522,
+      "timestamp": 8.7046,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000522.jpg",
+      "front_wheel_conf": 0.9068,
+      "back_wheel_conf": 0.9138,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9302,
+      "size_match_ratio": 0.9751,
+      "front_wheel_box": [
+        385,
+        219,
+        427,
+        261
+      ],
+      "back_wheel_box": [
+        443,
+        218,
+        483,
+        261
+      ]
+    },
+    {
+      "frame_idx": 523,
+      "timestamp": 8.7213,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000523.jpg",
+      "front_wheel_conf": 0.91,
+      "back_wheel_conf": 0.917,
+      "front_squareness": 0.9767,
+      "back_squareness": 0.907,
+      "size_match_ratio": 0.9286,
+      "front_wheel_box": [
+        384,
+        219,
+        426,
+        262
+      ],
+      "back_wheel_box": [
+        443,
+        218,
+        482,
+        261
+      ]
+    },
+    {
+      "frame_idx": 524,
+      "timestamp": 8.738,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000524.jpg",
+      "front_wheel_conf": 0.9035,
+      "back_wheel_conf": 0.9194,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.9302,
+      "size_match_ratio": 0.9988,
+      "front_wheel_box": [
+        384,
+        220,
+        425,
+        262
+      ],
+      "back_wheel_box": [
+        442,
+        219,
+        482,
+        262
+      ]
+    },
+    {
+      "frame_idx": 525,
+      "timestamp": 8.7547,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000525.jpg",
+      "front_wheel_conf": 0.9037,
+      "back_wheel_conf": 0.9174,
+      "front_squareness": 0.9767,
+      "back_squareness": 0.9535,
+      "size_match_ratio": 0.9762,
+      "front_wheel_box": [
+        383,
+        220,
+        425,
+        263
+      ],
+      "back_wheel_box": [
+        441,
+        219,
+        482,
+        262
+      ]
+    },
+    {
+      "frame_idx": 526,
+      "timestamp": 8.7713,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000526.jpg",
+      "front_wheel_conf": 0.8965,
+      "back_wheel_conf": 0.915,
+      "front_squareness": 0.9767,
+      "back_squareness": 0.9524,
+      "size_match_ratio": 0.9302,
+      "front_wheel_box": [
+        382,
+        220,
+        424,
+        263
+      ],
+      "back_wheel_box": [
+        441,
+        220,
+        481,
+        262
+      ]
+    },
+    {
+      "frame_idx": 527,
+      "timestamp": 8.788,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000527.jpg",
+      "front_wheel_conf": 0.8925,
+      "back_wheel_conf": 0.921,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9767,
+      "size_match_ratio": 0.9767,
+      "front_wheel_box": [
+        382,
+        221,
+        424,
+        263
+      ],
+      "back_wheel_box": [
+        439,
+        219,
+        481,
+        262
+      ]
+    },
+    {
+      "frame_idx": 528,
+      "timestamp": 8.8047,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000528.jpg",
+      "front_wheel_conf": 0.8921,
+      "back_wheel_conf": 0.9251,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9762,
+      "size_match_ratio": 0.9762,
+      "front_wheel_box": [
+        381,
+        221,
+        423,
+        263
+      ],
+      "back_wheel_box": [
+        439,
+        220,
+        480,
+        262
+      ]
+    },
+    {
+      "frame_idx": 529,
+      "timestamp": 8.8214,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000529.jpg",
+      "front_wheel_conf": 0.8996,
+      "back_wheel_conf": 0.9375,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9535,
+      "size_match_ratio": 0.9994,
+      "front_wheel_box": [
+        381,
+        221,
+        423,
+        263
+      ],
+      "back_wheel_box": [
+        438,
+        220,
+        479,
+        263
+      ]
+    },
+    {
+      "frame_idx": 530,
+      "timestamp": 8.838,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000530.jpg",
+      "front_wheel_conf": 0.9097,
+      "back_wheel_conf": 0.9357,
+      "front_squareness": 0.9524,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9524,
+      "front_wheel_box": [
+        381,
+        221,
+        421,
+        263
+      ],
+      "back_wheel_box": [
+        437,
+        221,
+        479,
+        263
+      ]
+    },
+    {
+      "frame_idx": 531,
+      "timestamp": 8.8547,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000531.jpg",
+      "front_wheel_conf": 0.9097,
+      "back_wheel_conf": 0.9345,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.9535,
+      "size_match_ratio": 0.9767,
+      "front_wheel_box": [
+        380,
+        222,
+        421,
+        264
+      ],
+      "back_wheel_box": [
+        437,
+        221,
+        478,
+        264
+      ]
+    },
+    {
+      "frame_idx": 532,
+      "timestamp": 8.8714,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000532.jpg",
+      "front_wheel_conf": 0.9108,
+      "back_wheel_conf": 0.9309,
+      "front_squareness": 1.0,
+      "back_squareness": 1.0,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        379,
+        222,
+        421,
+        264
+      ],
+      "back_wheel_box": [
+        436,
+        222,
+        478,
+        264
+      ]
+    },
+    {
+      "frame_idx": 533,
+      "timestamp": 8.8881,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000533.jpg",
+      "front_wheel_conf": 0.9101,
+      "back_wheel_conf": 0.929,
+      "front_squareness": 1.0,
+      "back_squareness": 1.0,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        378,
+        222,
+        421,
+        265
+      ],
+      "back_wheel_box": [
+        435,
+        222,
+        478,
+        265
+      ]
+    },
+    {
+      "frame_idx": 534,
+      "timestamp": 8.9047,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000534.jpg",
+      "front_wheel_conf": 0.9139,
+      "back_wheel_conf": 0.9259,
+      "front_squareness": 0.9767,
+      "back_squareness": 0.9535,
+      "size_match_ratio": 0.9762,
+      "front_wheel_box": [
+        378,
+        222,
+        420,
+        265
+      ],
+      "back_wheel_box": [
+        436,
+        222,
+        477,
+        265
+      ]
+    },
+    {
+      "frame_idx": 535,
+      "timestamp": 8.9214,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000535.jpg",
+      "front_wheel_conf": 0.9093,
+      "back_wheel_conf": 0.9273,
+      "front_squareness": 0.9767,
+      "back_squareness": 0.9767,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        378,
+        222,
+        420,
+        265
+      ],
+      "back_wheel_box": [
+        435,
+        222,
+        477,
+        265
+      ]
+    },
+    {
+      "frame_idx": 536,
+      "timestamp": 8.9381,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000536.jpg",
+      "front_wheel_conf": 0.911,
+      "back_wheel_conf": 0.9269,
+      "front_squareness": 0.9545,
+      "back_squareness": 0.9545,
+      "size_match_ratio": 1.0,
+      "front_wheel_box": [
+        378,
+        222,
+        420,
+        266
+      ],
+      "back_wheel_box": [
+        435,
+        222,
+        477,
+        266
+      ]
+    },
+    {
+      "frame_idx": 537,
+      "timestamp": 8.9548,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000537.jpg",
+      "front_wheel_conf": 0.917,
+      "back_wheel_conf": 0.8935,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9545,
+      "size_match_ratio": 0.9995,
+      "front_wheel_box": [
+        377,
+        223,
+        420,
+        266
+      ],
+      "back_wheel_box": [
+        435,
+        222,
+        477,
+        266
+      ]
+    },
+    {
+      "frame_idx": 538,
+      "timestamp": 8.9714,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000538.jpg",
+      "front_wheel_conf": 0.9181,
+      "back_wheel_conf": 0.8935,
+      "front_squareness": 0.9545,
+      "back_squareness": 0.9535,
+      "size_match_ratio": 0.954,
+      "front_wheel_box": [
+        377,
+        223,
+        419,
+        267
+      ],
+      "back_wheel_box": [
+        435,
+        223,
+        476,
+        266
+      ]
+    },
+    {
+      "frame_idx": 539,
+      "timestamp": 8.9881,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000539.jpg",
+      "front_wheel_conf": 0.9177,
+      "back_wheel_conf": 0.9183,
+      "front_squareness": 0.9773,
+      "back_squareness": 0.9535,
+      "size_match_ratio": 0.9318,
+      "front_wheel_box": [
+        376,
+        223,
+        419,
+        267
+      ],
+      "back_wheel_box": [
+        435,
+        223,
+        476,
+        266
+      ]
+    },
+    {
+      "frame_idx": 540,
+      "timestamp": 9.0048,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000540.jpg",
+      "front_wheel_conf": 0.9201,
+      "back_wheel_conf": 0.9022,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9767,
+      "size_match_ratio": 0.9767,
+      "front_wheel_box": [
+        376,
+        224,
+        419,
+        267
+      ],
+      "back_wheel_box": [
+        434,
+        223,
+        476,
+        266
+      ]
+    },
+    {
+      "frame_idx": 541,
+      "timestamp": 9.0215,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000541.jpg",
+      "front_wheel_conf": 0.9223,
+      "back_wheel_conf": 0.9069,
+      "front_squareness": 0.9767,
+      "back_squareness": 0.9535,
+      "size_match_ratio": 0.9762,
+      "front_wheel_box": [
+        376,
+        224,
+        418,
+        267
+      ],
+      "back_wheel_box": [
+        434,
+        223,
+        475,
+        266
+      ]
+    },
+    {
+      "frame_idx": 542,
+      "timestamp": 9.0382,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000542.jpg",
+      "front_wheel_conf": 0.92,
+      "back_wheel_conf": 0.895,
+      "front_squareness": 0.9535,
+      "back_squareness": 0.9318,
+      "size_match_ratio": 0.9773,
+      "front_wheel_box": [
+        376,
+        224,
+        417,
+        267
+      ],
+      "back_wheel_box": [
+        434,
+        223,
+        475,
+        267
+      ]
+    },
+    {
+      "frame_idx": 543,
+      "timestamp": 9.0548,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000543.jpg",
+      "front_wheel_conf": 0.9152,
+      "back_wheel_conf": 0.8807,
+      "front_squareness": 0.9767,
+      "back_squareness": 0.9524,
+      "size_match_ratio": 0.9302,
+      "front_wheel_box": [
+        375,
+        224,
+        417,
+        267
+      ],
+      "back_wheel_box": [
+        434,
+        224,
+        474,
+        266
+      ]
+    },
+    {
+      "frame_idx": 544,
+      "timestamp": 9.0715,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000544.jpg",
+      "front_wheel_conf": 0.9119,
+      "back_wheel_conf": 0.8862,
+      "front_squareness": 0.9767,
+      "back_squareness": 0.9535,
+      "size_match_ratio": 0.9762,
+      "front_wheel_box": [
+        375,
+        225,
+        417,
+        268
+      ],
+      "back_wheel_box": [
+        433,
+        224,
+        474,
+        267
+      ]
+    },
+    {
+      "frame_idx": 545,
+      "timestamp": 9.0882,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000545.jpg",
+      "front_wheel_conf": 0.9052,
+      "back_wheel_conf": 0.8836,
+      "front_squareness": 0.9535,
+      "back_squareness": 0.9767,
+      "size_match_ratio": 0.9762,
+      "front_wheel_box": [
+        375,
+        225,
+        416,
+        268
+      ],
+      "back_wheel_box": [
+        432,
+        224,
+        474,
+        267
+      ]
+    },
+    {
+      "frame_idx": 546,
+      "timestamp": 9.1049,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000546.jpg",
+      "front_wheel_conf": 0.9016,
+      "back_wheel_conf": 0.8859,
+      "front_squareness": 0.9535,
+      "back_squareness": 0.9302,
+      "size_match_ratio": 0.9756,
+      "front_wheel_box": [
+        374,
+        225,
+        415,
+        268
+      ],
+      "back_wheel_box": [
+        433,
+        225,
+        473,
+        268
+      ]
+    },
+    {
+      "frame_idx": 547,
+      "timestamp": 9.1215,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000547.jpg",
+      "front_wheel_conf": 0.8909,
+      "back_wheel_conf": 0.9047,
+      "front_squareness": 0.9767,
+      "back_squareness": 0.9535,
+      "size_match_ratio": 0.9762,
+      "front_wheel_box": [
+        373,
+        225,
+        415,
+        268
+      ],
+      "back_wheel_box": [
+        432,
+        225,
+        473,
+        268
+      ]
+    },
+    {
+      "frame_idx": 548,
+      "timestamp": 9.1382,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000548.jpg",
+      "front_wheel_conf": 0.8898,
+      "back_wheel_conf": 0.9152,
+      "front_squareness": 0.9767,
+      "back_squareness": 0.9302,
+      "size_match_ratio": 0.9524,
+      "front_wheel_box": [
+        373,
+        226,
+        415,
+        269
+      ],
+      "back_wheel_box": [
+        432,
+        225,
+        472,
+        268
+      ]
+    },
+    {
+      "frame_idx": 549,
+      "timestamp": 9.1549,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000549.jpg",
+      "front_wheel_conf": 0.9152,
+      "back_wheel_conf": 0.9122,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.9767,
+      "size_match_ratio": 0.9535,
+      "front_wheel_box": [
+        373,
+        227,
+        414,
+        269
+      ],
+      "back_wheel_box": [
+        430,
+        225,
+        472,
+        268
+      ]
+    },
+    {
+      "frame_idx": 550,
+      "timestamp": 9.1716,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000550.jpg",
+      "front_wheel_conf": 0.9142,
+      "back_wheel_conf": 0.9077,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9767,
+      "size_match_ratio": 0.9308,
+      "front_wheel_box": [
+        373,
+        227,
+        414,
+        268
+      ],
+      "back_wheel_box": [
+        430,
+        226,
+        472,
+        269
+      ]
+    },
+    {
+      "frame_idx": 551,
+      "timestamp": 9.1882,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000551.jpg",
+      "front_wheel_conf": 0.9127,
+      "back_wheel_conf": 0.9077,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.9767,
+      "size_match_ratio": 0.9535,
+      "front_wheel_box": [
+        373,
+        227,
+        414,
+        269
+      ],
+      "back_wheel_box": [
+        430,
+        226,
+        472,
+        269
+      ]
+    },
+    {
+      "frame_idx": 552,
+      "timestamp": 9.2049,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000552.jpg",
+      "front_wheel_conf": 0.9122,
+      "back_wheel_conf": 0.9145,
+      "front_squareness": 0.9524,
+      "back_squareness": 1.0,
+      "size_match_ratio": 0.9086,
+      "front_wheel_box": [
+        373,
+        227,
+        413,
+        269
+      ],
+      "back_wheel_box": [
+        429,
+        226,
+        472,
+        269
+      ]
+    },
+    {
+      "frame_idx": 553,
+      "timestamp": 9.2216,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000553.jpg",
+      "front_wheel_conf": 0.9144,
+      "back_wheel_conf": 0.9114,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9767,
+      "size_match_ratio": 0.9308,
+      "front_wheel_box": [
+        372,
+        228,
+        413,
+        269
+      ],
+      "back_wheel_box": [
+        429,
+        226,
+        471,
+        269
+      ]
+    },
+    {
+      "frame_idx": 554,
+      "timestamp": 9.2383,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000554.jpg",
+      "front_wheel_conf": 0.9151,
+      "back_wheel_conf": 0.9194,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9762,
+      "size_match_ratio": 0.9308,
+      "front_wheel_box": [
+        372,
+        228,
+        413,
+        269
+      ],
+      "back_wheel_box": [
+        428,
+        227,
+        471,
+        269
+      ]
+    },
+    {
+      "frame_idx": 555,
+      "timestamp": 9.2549,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000555.jpg",
+      "front_wheel_conf": 0.916,
+      "back_wheel_conf": 0.9247,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.9767,
+      "size_match_ratio": 0.9101,
+      "front_wheel_box": [
+        372,
+        228,
+        413,
+        270
+      ],
+      "back_wheel_box": [
+        427,
+        227,
+        471,
+        270
+      ]
+    },
+    {
+      "frame_idx": 556,
+      "timestamp": 9.2716,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000556.jpg",
+      "front_wheel_conf": 0.9184,
+      "back_wheel_conf": 0.9228,
+      "front_squareness": 0.9524,
+      "back_squareness": 0.9767,
+      "size_match_ratio": 0.8879,
+      "front_wheel_box": [
+        372,
+        228,
+        412,
+        270
+      ],
+      "back_wheel_box": [
+        427,
+        227,
+        471,
+        270
+      ]
+    },
+    {
+      "frame_idx": 557,
+      "timestamp": 9.2883,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000557.jpg",
+      "front_wheel_conf": 0.9222,
+      "back_wheel_conf": 0.9204,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.9545,
+      "size_match_ratio": 0.9318,
+      "front_wheel_box": [
+        371,
+        228,
+        412,
+        270
+      ],
+      "back_wheel_box": [
+        428,
+        227,
+        470,
+        271
+      ]
+    },
+    {
+      "frame_idx": 558,
+      "timestamp": 9.305,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000558.jpg",
+      "front_wheel_conf": 0.9262,
+      "back_wheel_conf": 0.924,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9545,
+      "size_match_ratio": 0.9096,
+      "front_wheel_box": [
+        371,
+        229,
+        412,
+        270
+      ],
+      "back_wheel_box": [
+        428,
+        227,
+        470,
+        271
+      ]
+    },
+    {
+      "frame_idx": 559,
+      "timestamp": 9.3216,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000559.jpg",
+      "front_wheel_conf": 0.9223,
+      "back_wheel_conf": 0.9198,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9767,
+      "size_match_ratio": 0.9308,
+      "front_wheel_box": [
+        371,
+        229,
+        412,
+        270
+      ],
+      "back_wheel_box": [
+        428,
+        228,
+        470,
+        271
+      ]
+    },
+    {
+      "frame_idx": 560,
+      "timestamp": 9.3383,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000560.jpg",
+      "front_wheel_conf": 0.9217,
+      "back_wheel_conf": 0.9224,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9767,
+      "size_match_ratio": 0.9767,
+      "front_wheel_box": [
+        370,
+        229,
+        412,
+        271
+      ],
+      "back_wheel_box": [
+        428,
+        228,
+        470,
+        271
+      ]
+    },
+    {
+      "frame_idx": 561,
+      "timestamp": 9.355,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000561.jpg",
+      "front_wheel_conf": 0.9169,
+      "back_wheel_conf": 0.9217,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9535,
+      "size_match_ratio": 0.9994,
+      "front_wheel_box": [
+        370,
+        229,
+        412,
+        271
+      ],
+      "back_wheel_box": [
+        428,
+        228,
+        469,
+        271
+      ]
+    },
+    {
+      "frame_idx": 562,
+      "timestamp": 9.3717,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000562.jpg",
+      "front_wheel_conf": 0.9234,
+      "back_wheel_conf": 0.9202,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9767,
+      "size_match_ratio": 0.9767,
+      "front_wheel_box": [
+        370,
+        229,
+        412,
+        271
+      ],
+      "back_wheel_box": [
+        427,
+        228,
+        469,
+        271
+      ]
+    },
+    {
+      "frame_idx": 563,
+      "timestamp": 9.3883,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000563.jpg",
+      "front_wheel_conf": 0.9228,
+      "back_wheel_conf": 0.9247,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9535,
+      "size_match_ratio": 0.9994,
+      "front_wheel_box": [
+        369,
+        229,
+        411,
+        271
+      ],
+      "back_wheel_box": [
+        427,
+        228,
+        468,
+        271
+      ]
+    },
+    {
+      "frame_idx": 564,
+      "timestamp": 9.405,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000564.jpg",
+      "front_wheel_conf": 0.9205,
+      "back_wheel_conf": 0.9277,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9545,
+      "size_match_ratio": 0.9545,
+      "front_wheel_box": [
+        369,
+        229,
+        411,
+        271
+      ],
+      "back_wheel_box": [
+        426,
+        228,
+        468,
+        272
+      ]
+    },
+    {
+      "frame_idx": 565,
+      "timestamp": 9.4217,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000565.jpg",
+      "front_wheel_conf": 0.9159,
+      "back_wheel_conf": 0.9236,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.9318,
+      "size_match_ratio": 0.9545,
+      "front_wheel_box": [
+        369,
+        229,
+        410,
+        271
+      ],
+      "back_wheel_box": [
+        426,
+        228,
+        467,
+        272
+      ]
+    },
+    {
+      "frame_idx": 566,
+      "timestamp": 9.4384,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000566.jpg",
+      "front_wheel_conf": 0.9154,
+      "back_wheel_conf": 0.9207,
+      "front_squareness": 0.9524,
+      "back_squareness": 0.9091,
+      "size_match_ratio": 0.9545,
+      "front_wheel_box": [
+        369,
+        229,
+        409,
+        271
+      ],
+      "back_wheel_box": [
+        426,
+        228,
+        466,
+        272
+      ]
+    },
+    {
+      "frame_idx": 567,
+      "timestamp": 9.455,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000567.jpg",
+      "front_wheel_conf": 0.9201,
+      "back_wheel_conf": 0.8868,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9048,
+      "size_match_ratio": 0.9494,
+      "front_wheel_box": [
+        368,
+        230,
+        409,
+        271
+      ],
+      "back_wheel_box": [
+        426,
+        229,
+        464,
+        271
+      ]
+    },
+    {
+      "frame_idx": 568,
+      "timestamp": 9.4717,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000568.jpg",
+      "front_wheel_conf": 0.9197,
+      "back_wheel_conf": 0.8922,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.8837,
+      "size_match_ratio": 0.9963,
+      "front_wheel_box": [
+        368,
+        230,
+        408,
+        271
+      ],
+      "back_wheel_box": [
+        426,
+        229,
+        464,
+        272
+      ]
+    },
+    {
+      "frame_idx": 569,
+      "timestamp": 9.4884,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000569.jpg",
+      "front_wheel_conf": 0.861,
+      "back_wheel_conf": 0.9018,
+      "front_squareness": 0.9535,
+      "back_squareness": 0.907,
+      "size_match_ratio": 0.9512,
+      "front_wheel_box": [
+        367,
+        229,
+        408,
+        272
+      ],
+      "back_wheel_box": [
+        425,
+        229,
+        464,
+        272
+      ]
+    },
+    {
+      "frame_idx": 570,
+      "timestamp": 9.5051,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000570.jpg",
+      "front_wheel_conf": 0.9264,
+      "back_wheel_conf": 0.905,
+      "front_squareness": 0.9524,
+      "back_squareness": 0.8837,
+      "size_match_ratio": 0.9726,
+      "front_wheel_box": [
+        367,
+        230,
+        407,
+        272
+      ],
+      "back_wheel_box": [
+        425,
+        229,
+        463,
+        272
+      ]
+    },
+    {
+      "frame_idx": 571,
+      "timestamp": 9.5217,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000571.jpg",
+      "front_wheel_conf": 0.9229,
+      "back_wheel_conf": 0.9131,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.907,
+      "size_match_ratio": 0.9739,
+      "front_wheel_box": [
+        366,
+        230,
+        407,
+        272
+      ],
+      "back_wheel_box": [
+        424,
+        229,
+        463,
+        272
+      ]
+    },
+    {
+      "frame_idx": 572,
+      "timestamp": 9.5384,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000572.jpg",
+      "front_wheel_conf": 0.9206,
+      "back_wheel_conf": 0.9119,
+      "front_squareness": 0.9524,
+      "back_squareness": 0.907,
+      "size_match_ratio": 0.9982,
+      "front_wheel_box": [
+        366,
+        230,
+        406,
+        272
+      ],
+      "back_wheel_box": [
+        423,
+        229,
+        462,
+        272
+      ]
+    },
+    {
+      "frame_idx": 573,
+      "timestamp": 9.5551,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000573.jpg",
+      "front_wheel_conf": 0.9178,
+      "back_wheel_conf": 0.9192,
+      "front_squareness": 0.9524,
+      "back_squareness": 0.9302,
+      "size_match_ratio": 0.9767,
+      "front_wheel_box": [
+        365,
+        230,
+        405,
+        272
+      ],
+      "back_wheel_box": [
+        422,
+        229,
+        462,
+        272
+      ]
+    },
+    {
+      "frame_idx": 574,
+      "timestamp": 9.5718,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000574.jpg",
+      "front_wheel_conf": 0.9193,
+      "back_wheel_conf": 0.9171,
+      "front_squareness": 0.9524,
+      "back_squareness": 0.9302,
+      "size_match_ratio": 0.9767,
+      "front_wheel_box": [
+        365,
+        230,
+        405,
+        272
+      ],
+      "back_wheel_box": [
+        422,
+        229,
+        462,
+        272
+      ]
+    },
+    {
+      "frame_idx": 575,
+      "timestamp": 9.5884,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000575.jpg",
+      "front_wheel_conf": 0.9188,
+      "back_wheel_conf": 0.9152,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.9302,
+      "size_match_ratio": 0.9988,
+      "front_wheel_box": [
+        364,
+        230,
+        405,
+        272
+      ],
+      "back_wheel_box": [
+        421,
+        229,
+        461,
+        272
+      ]
+    },
+    {
+      "frame_idx": 576,
+      "timestamp": 9.6051,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000576.jpg",
+      "front_wheel_conf": 0.9209,
+      "back_wheel_conf": 0.9208,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.9767,
+      "size_match_ratio": 0.9535,
+      "front_wheel_box": [
+        364,
+        230,
+        405,
+        272
+      ],
+      "back_wheel_box": [
+        419,
+        229,
+        461,
+        272
+      ]
+    },
+    {
+      "frame_idx": 577,
+      "timestamp": 9.6218,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000577.jpg",
+      "front_wheel_conf": 0.9061,
+      "back_wheel_conf": 0.9182,
+      "front_squareness": 0.9762,
+      "back_squareness": 0.9545,
+      "size_match_ratio": 0.9318,
+      "front_wheel_box": [
+        363,
+        230,
+        404,
+        272
+      ],
+      "back_wheel_box": [
+        419,
+        228,
+        461,
+        272
+      ]
+    },
+    {
+      "frame_idx": 578,
+      "timestamp": 9.6385,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000578.jpg",
+      "front_wheel_conf": 0.9152,
+      "back_wheel_conf": 0.9195,
+      "front_squareness": 0.9286,
+      "back_squareness": 0.9767,
+      "size_match_ratio": 0.907,
+      "front_wheel_box": [
+        364,
+        231,
+        403,
+        273
+      ],
+      "back_wheel_box": [
+        418,
+        229,
+        460,
+        272
+      ]
+    },
+    {
+      "frame_idx": 579,
+      "timestamp": 9.6551,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000579.jpg",
+      "front_wheel_conf": 0.9129,
+      "back_wheel_conf": 0.9226,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9545,
+      "size_match_ratio": 0.8874,
+      "front_wheel_box": [
+        363,
+        231,
+        403,
+        272
+      ],
+      "back_wheel_box": [
+        418,
+        229,
+        460,
+        273
+      ]
+    },
+    {
+      "frame_idx": 580,
+      "timestamp": 9.6718,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000580.jpg",
+      "front_wheel_conf": 0.91,
+      "back_wheel_conf": 0.9238,
+      "front_squareness": 0.9524,
+      "back_squareness": 0.9545,
+      "size_match_ratio": 0.9091,
+      "front_wheel_box": [
+        363,
+        231,
+        403,
+        273
+      ],
+      "back_wheel_box": [
+        418,
+        229,
+        460,
+        273
+      ]
+    },
+    {
+      "frame_idx": 581,
+      "timestamp": 9.6885,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000581.jpg",
+      "front_wheel_conf": 0.9093,
+      "back_wheel_conf": 0.9238,
+      "front_squareness": 0.9512,
+      "back_squareness": 0.9318,
+      "size_match_ratio": 0.8864,
+      "front_wheel_box": [
+        363,
+        232,
+        402,
+        273
+      ],
+      "back_wheel_box": [
+        418,
+        229,
+        459,
+        273
+      ]
+    },
+    {
+      "frame_idx": 582,
+      "timestamp": 9.7052,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000582.jpg",
+      "front_wheel_conf": 0.909,
+      "back_wheel_conf": 0.9346,
+      "front_squareness": 0.9512,
+      "back_squareness": 0.9767,
+      "size_match_ratio": 0.8854,
+      "front_wheel_box": [
+        363,
+        232,
+        402,
+        273
+      ],
+      "back_wheel_box": [
+        417,
+        230,
+        459,
+        273
+      ]
+    },
+    {
+      "frame_idx": 583,
+      "timestamp": 9.7218,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000583.jpg",
+      "front_wheel_conf": 0.9085,
+      "back_wheel_conf": 0.924,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9767,
+      "size_match_ratio": 0.9081,
+      "front_wheel_box": [
+        362,
+        232,
+        402,
+        273
+      ],
+      "back_wheel_box": [
+        417,
+        230,
+        459,
+        273
+      ]
+    },
+    {
+      "frame_idx": 584,
+      "timestamp": 9.7385,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000584.jpg",
+      "front_wheel_conf": 0.9126,
+      "back_wheel_conf": 0.9353,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9767,
+      "size_match_ratio": 0.9081,
+      "front_wheel_box": [
+        362,
+        232,
+        402,
+        273
+      ],
+      "back_wheel_box": [
+        416,
+        230,
+        458,
+        273
+      ]
+    },
+    {
+      "frame_idx": 585,
+      "timestamp": 9.7552,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000585.jpg",
+      "front_wheel_conf": 0.9168,
+      "back_wheel_conf": 0.935,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9767,
+      "size_match_ratio": 0.9081,
+      "front_wheel_box": [
+        362,
+        232,
+        402,
+        273
+      ],
+      "back_wheel_box": [
+        416,
+        231,
+        458,
+        274
+      ]
+    },
+    {
+      "frame_idx": 586,
+      "timestamp": 9.7719,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000586.jpg",
+      "front_wheel_conf": 0.9169,
+      "back_wheel_conf": 0.9308,
+      "front_squareness": 0.9512,
+      "back_squareness": 0.9535,
+      "size_match_ratio": 0.907,
+      "front_wheel_box": [
+        362,
+        232,
+        401,
+        273
+      ],
+      "back_wheel_box": [
+        416,
+        231,
+        457,
+        274
+      ]
+    },
+    {
+      "frame_idx": 587,
+      "timestamp": 9.7886,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000587.jpg",
+      "front_wheel_conf": 0.9197,
+      "back_wheel_conf": 0.9298,
+      "front_squareness": 0.9512,
+      "back_squareness": 0.9535,
+      "size_match_ratio": 0.907,
+      "front_wheel_box": [
+        362,
+        232,
+        401,
+        273
+      ],
+      "back_wheel_box": [
+        416,
+        231,
+        457,
+        274
+      ]
+    },
+    {
+      "frame_idx": 588,
+      "timestamp": 9.8052,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000588.jpg",
+      "front_wheel_conf": 0.9193,
+      "back_wheel_conf": 0.9272,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9535,
+      "size_match_ratio": 0.9075,
+      "front_wheel_box": [
+        361,
+        233,
+        401,
+        273
+      ],
+      "back_wheel_box": [
+        415,
+        231,
+        456,
+        274
+      ]
+    },
+    {
+      "frame_idx": 589,
+      "timestamp": 9.8219,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000589.jpg",
+      "front_wheel_conf": 0.9192,
+      "back_wheel_conf": 0.9196,
+      "front_squareness": 0.975,
+      "back_squareness": 0.9318,
+      "size_match_ratio": 0.8647,
+      "front_wheel_box": [
+        361,
+        233,
+        400,
+        273
+      ],
+      "back_wheel_box": [
+        414,
+        230,
+        455,
+        274
+      ]
+    },
+    {
+      "frame_idx": 590,
+      "timestamp": 9.8386,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000590.jpg",
+      "front_wheel_conf": 0.9212,
+      "back_wheel_conf": 0.8881,
+      "front_squareness": 0.9512,
+      "back_squareness": 0.907,
+      "size_match_ratio": 0.9535,
+      "front_wheel_box": [
+        361,
+        232,
+        400,
+        273
+      ],
+      "back_wheel_box": [
+        415,
+        231,
+        454,
+        274
+      ]
+    },
+    {
+      "frame_idx": 591,
+      "timestamp": 9.8553,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000591.jpg",
+      "front_wheel_conf": 0.9163,
+      "back_wheel_conf": 0.8757,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9286,
+      "size_match_ratio": 0.9988,
+      "front_wheel_box": [
+        360,
+        232,
+        400,
+        273
+      ],
+      "back_wheel_box": [
+        414,
+        232,
+        453,
+        274
+      ]
+    },
+    {
+      "frame_idx": 592,
+      "timestamp": 9.8719,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000592.jpg",
+      "front_wheel_conf": 0.9205,
+      "back_wheel_conf": 0.8885,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9286,
+      "size_match_ratio": 0.9988,
+      "front_wheel_box": [
+        360,
+        233,
+        400,
+        274
+      ],
+      "back_wheel_box": [
+        413,
+        232,
+        452,
+        274
+      ]
+    },
+    {
+      "frame_idx": 593,
+      "timestamp": 9.8886,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000593.jpg",
+      "front_wheel_conf": 0.9269,
+      "back_wheel_conf": 0.9065,
+      "front_squareness": 0.9512,
+      "back_squareness": 0.9524,
+      "size_match_ratio": 0.9518,
+      "front_wheel_box": [
+        360,
+        233,
+        399,
+        274
+      ],
+      "back_wheel_box": [
+        412,
+        232,
+        452,
+        274
+      ]
+    },
+    {
+      "frame_idx": 594,
+      "timestamp": 9.9053,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000594.jpg",
+      "front_wheel_conf": 0.9259,
+      "back_wheel_conf": 0.9052,
+      "front_squareness": 0.9512,
+      "back_squareness": 0.9762,
+      "size_match_ratio": 0.9286,
+      "front_wheel_box": [
+        359,
+        233,
+        398,
+        274
+      ],
+      "back_wheel_box": [
+        411,
+        232,
+        452,
+        274
+      ]
+    },
+    {
+      "frame_idx": 595,
+      "timestamp": 9.922,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000595.jpg",
+      "front_wheel_conf": 0.9251,
+      "back_wheel_conf": 0.9092,
+      "front_squareness": 0.9512,
+      "back_squareness": 0.9535,
+      "size_match_ratio": 0.907,
+      "front_wheel_box": [
+        359,
+        233,
+        398,
+        274
+      ],
+      "back_wheel_box": [
+        410,
+        231,
+        451,
+        274
+      ]
+    },
+    {
+      "frame_idx": 596,
+      "timestamp": 9.9386,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000596.jpg",
+      "front_wheel_conf": 0.9234,
+      "back_wheel_conf": 0.9145,
+      "front_squareness": 0.9756,
+      "back_squareness": 0.9318,
+      "size_match_ratio": 0.9091,
+      "front_wheel_box": [
+        358,
+        233,
+        398,
+        274
+      ],
+      "back_wheel_box": [
+        410,
+        231,
+        451,
+        275
+      ]
+    },
+    {
+      "frame_idx": 597,
+      "timestamp": 9.9553,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000597.jpg",
+      "front_wheel_conf": 0.9265,
+      "back_wheel_conf": 0.8787,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9524,
+      "size_match_ratio": 0.9524,
+      "front_wheel_box": [
+        358,
+        234,
+        398,
+        274
+      ],
+      "back_wheel_box": [
+        410,
+        232,
+        450,
+        274
+      ]
+    },
+    {
+      "frame_idx": 598,
+      "timestamp": 9.972,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000598.jpg",
+      "front_wheel_conf": 0.9248,
+      "back_wheel_conf": 0.9236,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9286,
+      "size_match_ratio": 0.9768,
+      "front_wheel_box": [
+        357,
+        234,
+        397,
+        274
+      ],
+      "back_wheel_box": [
+        410,
+        232,
+        449,
+        274
+      ]
+    },
+    {
+      "frame_idx": 599,
+      "timestamp": 9.9887,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000599.jpg",
+      "front_wheel_conf": 0.9181,
+      "back_wheel_conf": 0.8816,
+      "front_squareness": 0.975,
+      "back_squareness": 0.9535,
+      "size_match_ratio": 0.8849,
+      "front_wheel_box": [
+        357,
+        234,
+        396,
+        274
+      ],
+      "back_wheel_box": [
+        408,
+        231,
+        449,
+        274
+      ]
+    },
+    {
+      "frame_idx": 600,
+      "timestamp": 10.0053,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000600.jpg",
+      "front_wheel_conf": 0.9152,
+      "back_wheel_conf": 0.9314,
+      "front_squareness": 0.975,
+      "back_squareness": 0.9302,
+      "size_match_ratio": 0.907,
+      "front_wheel_box": [
+        356,
+        234,
+        395,
+        274
+      ],
+      "back_wheel_box": [
+        408,
+        231,
+        448,
+        274
+      ]
+    },
+    {
+      "frame_idx": 601,
+      "timestamp": 10.022,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000601.jpg",
+      "front_wheel_conf": 0.9083,
+      "back_wheel_conf": 0.9358,
+      "front_squareness": 1.0,
+      "back_squareness": 0.9302,
+      "size_match_ratio": 0.9302,
+      "front_wheel_box": [
+        355,
+        234,
+        395,
+        274
+      ],
+      "back_wheel_box": [
+        407,
+        231,
+        447,
+        274
+      ]
+    },
+    {
+      "frame_idx": 602,
+      "timestamp": 10.0387,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000602.jpg",
+      "front_wheel_conf": 0.9066,
+      "back_wheel_conf": 0.9312,
+      "front_squareness": 0.975,
+      "back_squareness": 0.9524,
+      "size_match_ratio": 0.9286,
+      "front_wheel_box": [
+        355,
+        234,
+        394,
+        274
+      ],
+      "back_wheel_box": [
+        406,
+        232,
+        446,
+        274
+      ]
+    },
+    {
+      "frame_idx": 603,
+      "timestamp": 10.0554,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000603.jpg",
+      "front_wheel_conf": 0.8972,
+      "back_wheel_conf": 0.9272,
+      "front_squareness": 0.975,
+      "back_squareness": 0.9524,
+      "size_match_ratio": 0.9286,
+      "front_wheel_box": [
+        354,
+        234,
+        393,
+        274
+      ],
+      "back_wheel_box": [
+        405,
+        232,
+        445,
+        274
+      ]
+    },
+    {
+      "frame_idx": 604,
+      "timestamp": 10.072,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000604.jpg",
+      "front_wheel_conf": 0.9123,
+      "back_wheel_conf": 0.9273,
+      "front_squareness": 0.9744,
+      "back_squareness": 0.9302,
+      "size_match_ratio": 0.8616,
+      "front_wheel_box": [
+        354,
+        235,
+        392,
+        274
+      ],
+      "back_wheel_box": [
+        405,
+        232,
+        445,
+        275
+      ]
+    },
+    {
+      "frame_idx": 605,
+      "timestamp": 10.0887,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000605.jpg",
+      "front_wheel_conf": 0.9152,
+      "back_wheel_conf": 0.9266,
+      "front_squareness": 0.9487,
+      "back_squareness": 0.9512,
+      "size_match_ratio": 0.9024,
+      "front_wheel_box": [
+        354,
+        235,
+        391,
+        274
+      ],
+      "back_wheel_box": [
+        405,
+        233,
+        444,
+        274
+      ]
+    },
+    {
+      "frame_idx": 606,
+      "timestamp": 10.1054,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000606.jpg",
+      "front_wheel_conf": 0.9177,
+      "back_wheel_conf": 0.8913,
+      "front_squareness": 0.9744,
+      "back_squareness": 0.925,
+      "size_match_ratio": 0.9987,
+      "front_wheel_box": [
+        353,
+        235,
+        391,
+        274
+      ],
+      "back_wheel_box": [
+        406,
+        234,
+        443,
+        274
+      ]
+    },
+    {
+      "frame_idx": 607,
+      "timestamp": 10.1221,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000607.jpg",
+      "front_wheel_conf": 0.9211,
+      "back_wheel_conf": 0.8887,
+      "front_squareness": 0.9487,
+      "back_squareness": 0.925,
+      "size_match_ratio": 0.975,
+      "front_wheel_box": [
+        353,
+        235,
+        390,
+        274
+      ],
+      "back_wheel_box": [
+        405,
+        234,
+        442,
+        274
+      ]
+    },
+    {
+      "frame_idx": 608,
+      "timestamp": 10.1387,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000608.jpg",
+      "front_wheel_conf": 0.9231,
+      "back_wheel_conf": 0.8964,
+      "front_squareness": 0.9487,
+      "back_squareness": 0.9268,
+      "size_match_ratio": 0.9262,
+      "front_wheel_box": [
+        353,
+        235,
+        390,
+        274
+      ],
+      "back_wheel_box": [
+        404,
+        233,
+        442,
+        274
+      ]
+    },
+    {
+      "frame_idx": 609,
+      "timestamp": 10.1554,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000609.jpg",
+      "front_wheel_conf": 0.9232,
+      "back_wheel_conf": 0.8975,
+      "front_squareness": 0.9744,
+      "back_squareness": 0.9024,
+      "size_match_ratio": 0.9769,
+      "front_wheel_box": [
+        352,
+        235,
+        390,
+        274
+      ],
+      "back_wheel_box": [
+        404,
+        233,
+        441,
+        274
+      ]
+    },
+    {
+      "frame_idx": 610,
+      "timestamp": 10.1721,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000610.jpg",
+      "front_wheel_conf": 0.9244,
+      "back_wheel_conf": 0.8996,
+      "front_squareness": 0.9744,
+      "back_squareness": 0.9268,
+      "size_match_ratio": 0.9512,
+      "front_wheel_box": [
+        352,
+        235,
+        390,
+        274
+      ],
+      "back_wheel_box": [
+        403,
+        233,
+        441,
+        274
+      ]
+    },
+    {
+      "frame_idx": 611,
+      "timestamp": 10.1888,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000611.jpg",
+      "front_wheel_conf": 0.9233,
+      "back_wheel_conf": 0.8965,
+      "front_squareness": 0.9744,
+      "back_squareness": 0.9024,
+      "size_match_ratio": 0.9769,
+      "front_wheel_box": [
+        352,
+        235,
+        390,
+        274
+      ],
+      "back_wheel_box": [
+        404,
+        233,
+        441,
+        274
+      ]
+    },
+    {
+      "frame_idx": 612,
+      "timestamp": 10.2054,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000612.jpg",
+      "front_wheel_conf": 0.9183,
+      "back_wheel_conf": 0.8949,
+      "front_squareness": 0.9487,
+      "back_squareness": 0.925,
+      "size_match_ratio": 0.975,
+      "front_wheel_box": [
+        353,
+        235,
+        390,
+        274
+      ],
+      "back_wheel_box": [
+        404,
+        234,
+        441,
+        274
+      ]
+    },
+    {
+      "frame_idx": 613,
+      "timestamp": 10.2221,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000613.jpg",
+      "front_wheel_conf": 0.9133,
+      "back_wheel_conf": 0.8926,
+      "front_squareness": 0.9487,
+      "back_squareness": 0.878,
+      "size_match_ratio": 0.9776,
+      "front_wheel_box": [
+        353,
+        235,
+        390,
+        274
+      ],
+      "back_wheel_box": [
+        405,
+        233,
+        441,
+        274
+      ]
+    },
+    {
+      "frame_idx": 614,
+      "timestamp": 10.2388,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000614.jpg",
+      "front_wheel_conf": 0.9093,
+      "back_wheel_conf": 0.8903,
+      "front_squareness": 0.9737,
+      "back_squareness": 0.878,
+      "size_match_ratio": 0.9526,
+      "front_wheel_box": [
+        354,
+        235,
+        391,
+        273
+      ],
+      "back_wheel_box": [
+        405,
+        233,
+        441,
+        274
+      ]
+    },
+    {
+      "frame_idx": 615,
+      "timestamp": 10.2555,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000615.jpg",
+      "front_wheel_conf": 0.9079,
+      "back_wheel_conf": 0.8843,
+      "front_squareness": 0.9474,
+      "back_squareness": 0.9231,
+      "size_match_ratio": 0.9744,
+      "front_wheel_box": [
+        355,
+        235,
+        391,
+        273
+      ],
+      "back_wheel_box": [
+        405,
+        234,
+        441,
+        273
+      ]
+    },
+    {
+      "frame_idx": 616,
+      "timestamp": 10.2721,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000616.jpg",
+      "front_wheel_conf": 0.9108,
+      "back_wheel_conf": 0.8818,
+      "front_squareness": 0.9211,
+      "back_squareness": 0.878,
+      "size_match_ratio": 0.9011,
+      "front_wheel_box": [
+        356,
+        235,
+        391,
+        273
+      ],
+      "back_wheel_box": [
+        405,
+        233,
+        441,
+        274
+      ]
+    },
+    {
+      "frame_idx": 617,
+      "timestamp": 10.2888,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000617.jpg",
+      "front_wheel_conf": 0.8604,
+      "back_wheel_conf": 0.8847,
+      "front_squareness": 0.9231,
+      "back_squareness": 0.9024,
+      "size_match_ratio": 0.9255,
+      "front_wheel_box": [
+        356,
+        234,
+        392,
+        273
+      ],
+      "back_wheel_box": [
+        405,
+        233,
+        442,
+        274
+      ]
+    },
+    {
+      "frame_idx": 618,
+      "timestamp": 10.3055,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000618.jpg",
+      "front_wheel_conf": 0.8449,
+      "back_wheel_conf": 0.8927,
+      "front_squareness": 0.9231,
+      "back_squareness": 0.9024,
+      "size_match_ratio": 0.9255,
+      "front_wheel_box": [
+        356,
+        234,
+        392,
+        273
+      ],
+      "back_wheel_box": [
+        405,
+        233,
+        442,
+        274
+      ]
+    },
+    {
+      "frame_idx": 619,
+      "timestamp": 10.3222,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000619.jpg",
+      "front_wheel_conf": 0.8932,
+      "back_wheel_conf": 0.8884,
+      "front_squareness": 0.9231,
+      "back_squareness": 0.878,
+      "size_match_ratio": 0.9512,
+      "front_wheel_box": [
+        356,
+        234,
+        392,
+        273
+      ],
+      "back_wheel_box": [
+        405,
+        233,
+        441,
+        274
+      ]
+    },
+    {
+      "frame_idx": 620,
+      "timestamp": 10.3388,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000620.jpg",
+      "front_wheel_conf": 0.8902,
+      "back_wheel_conf": 0.8853,
+      "front_squareness": 0.9231,
+      "back_squareness": 0.878,
+      "size_match_ratio": 0.9512,
+      "front_wheel_box": [
+        356,
+        234,
+        392,
+        273
+      ],
+      "back_wheel_box": [
+        405,
+        233,
+        441,
+        274
+      ]
+    },
+    {
+      "frame_idx": 621,
+      "timestamp": 10.3555,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000621.jpg",
+      "front_wheel_conf": 0.8913,
+      "back_wheel_conf": 0.8847,
+      "front_squareness": 0.8974,
+      "back_squareness": 0.9,
+      "size_match_ratio": 0.9479,
+      "front_wheel_box": [
+        356,
+        234,
+        391,
+        273
+      ],
+      "back_wheel_box": [
+        405,
+        233,
+        441,
+        273
+      ]
+    },
+    {
+      "frame_idx": 622,
+      "timestamp": 10.3722,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000622.jpg",
+      "front_wheel_conf": 0.8093,
+      "back_wheel_conf": 0.8932,
+      "front_squareness": 0.8974,
+      "back_squareness": 0.875,
+      "size_match_ratio": 0.975,
+      "front_wheel_box": [
+        356,
+        234,
+        391,
+        273
+      ],
+      "back_wheel_box": [
+        405,
+        233,
+        440,
+        273
+      ]
+    },
+    {
+      "frame_idx": 623,
+      "timestamp": 10.3889,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000623.jpg",
+      "front_wheel_conf": 0.9086,
+      "back_wheel_conf": 0.8956,
+      "front_squareness": 0.9211,
+      "back_squareness": 0.9,
+      "size_match_ratio": 0.9236,
+      "front_wheel_box": [
+        356,
+        235,
+        391,
+        273
+      ],
+      "back_wheel_box": [
+        404,
+        233,
+        440,
+        273
+      ]
+    },
+    {
+      "frame_idx": 624,
+      "timestamp": 10.4055,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000624.jpg",
+      "front_wheel_conf": 0.9025,
+      "back_wheel_conf": 0.8988,
+      "front_squareness": 0.8947,
+      "back_squareness": 0.875,
+      "size_match_ratio": 0.9229,
+      "front_wheel_box": [
+        356,
+        235,
+        390,
+        273
+      ],
+      "back_wheel_box": [
+        404,
+        233,
+        439,
+        273
+      ]
+    },
+    {
+      "frame_idx": 625,
+      "timestamp": 10.4222,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000625.jpg",
+      "front_wheel_conf": 0.9059,
+      "back_wheel_conf": 0.9014,
+      "front_squareness": 0.8947,
+      "back_squareness": 0.9,
+      "size_match_ratio": 0.8972,
+      "front_wheel_box": [
+        356,
+        235,
+        390,
+        273
+      ],
+      "back_wheel_box": [
+        403,
+        233,
+        439,
+        273
+      ]
+    },
+    {
+      "frame_idx": 626,
+      "timestamp": 10.4389,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000626.jpg",
+      "front_wheel_conf": 0.9097,
+      "back_wheel_conf": 0.9101,
+      "front_squareness": 0.8947,
+      "back_squareness": 0.9,
+      "size_match_ratio": 0.8972,
+      "front_wheel_box": [
+        355,
+        235,
+        389,
+        273
+      ],
+      "back_wheel_box": [
+        402,
+        233,
+        438,
+        273
+      ]
+    },
+    {
+      "frame_idx": 627,
+      "timestamp": 10.4556,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000627.jpg",
+      "front_wheel_conf": 0.9145,
+      "back_wheel_conf": 0.9137,
+      "front_squareness": 0.9211,
+      "back_squareness": 0.875,
+      "size_match_ratio": 0.95,
+      "front_wheel_box": [
+        354,
+        235,
+        389,
+        273
+      ],
+      "back_wheel_box": [
+        402,
+        233,
+        437,
+        273
+      ]
+    },
+    {
+      "frame_idx": 628,
+      "timestamp": 10.4722,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000628.jpg",
+      "front_wheel_conf": 0.9196,
+      "back_wheel_conf": 0.9114,
+      "front_squareness": 0.9211,
+      "back_squareness": 0.875,
+      "size_match_ratio": 0.95,
+      "front_wheel_box": [
+        353,
+        235,
+        388,
+        273
+      ],
+      "back_wheel_box": [
+        401,
+        233,
+        436,
+        273
+      ]
+    },
+    {
+      "frame_idx": 629,
+      "timestamp": 10.4889,
+      "frame_file": "output/paddyb60/paddyb60_selected_frames/frame_000629.jpg",
+      "front_wheel_conf": 0.924,
+      "back_wheel_conf": 0.9062,
+      "front_squareness": 0.8947,
+      "back_squareness": 0.8537,
+      "size_match_ratio": 0.9003,
+      "front_wheel_box": [
+        353,
+        235,
+        387,
+        273
+      ],
+      "back_wheel_box": [
+        400,
+        233,
+        435,
+        274
+      ]
+    }
+  ],
+  "metrics": {
+    "frames_processed": 750,
+    "frames_selected": 147,
+    "total_bursts": 28,
+    "selection_rate": 0.196,
+    "avg_confidence": 0.9109,
+    "elapsed_sec": 35.66
+  }
+}

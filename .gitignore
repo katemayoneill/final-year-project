@@ -5,20 +5,22 @@
 kaggle.json
 .env
 
-# Raw video footage (large files)
+# Raw video footage
 videos/
 *.MOV
 
-# Pipeline outputs (one sub-directory per video)
-output/
-output_v2/
+# Large pipeline output files — JSON intermediates are tracked
+*_selected_frames/
+*_preprocessing_steps/
+*_final.mp4
 
-# Large generated video files in samples/
+# Large files in samples/
 samples/**/*.mp4
 samples/**/*.MOV
 
-# Temporary pipeline output archives
+# Archives
 *.tar.gz
+*.tar
 
 # Generated docs
 *.html
