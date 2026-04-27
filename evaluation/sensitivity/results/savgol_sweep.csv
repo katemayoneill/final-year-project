@@ -1,0 +1,6 @@
+window,mean_peaks_per_video,rpm_mae,rpm_n,seat_height_agree,seat_height_total,seat_height_agree_pct,mean_inter_peak_std
+7,2.53,13.39,16,14,19,73.7,0.2028
+9,2.32,10.93,16,15,19,78.9,0.193
+11,2.26,8.99,15,15,19,78.9,0.1407
+13,2.11,10.07,16,15,19,78.9,0.1188
+15,2.11,10.29,16,15,19,78.9,0.1149

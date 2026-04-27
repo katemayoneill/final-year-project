@@ -9,6 +9,14 @@ A cycling posture analysis system for real-world smartphone footage of a cyclist
 
 **Core computational insight:** YOLO side-angle gating runs at ~30fps on CPU; OpenPose takes ~1–2s per frame on GPU. Selecting only good side-angle frames (e.g. 67 from 900) reduces OpenPose calls ~13×.
 
+## Stack
+- **OpenPose** (`pyopenpose`) — Body25 model, 25-joint pose estimation
+- **YOLO** (`ultralytics`) — Person + bicycle detection; custom model `yolo26s.pt` used by wheel-detection scripts
+- **OpenCV** — Video I/O, annotation
+- **NumPy** — Kalman filter, angle maths (law of cosines)
+- **Docker** — Base: `nvidia/cuda:11.8.0-cudnn8-devel-ubuntu22.04`
+- **RunPod** — GPU cloud deployment target
+
 ## Pipelines
 
 There are two parallel pipelines. **Pipeline 1** is the stable baseline; **Pipeline V2** is the working copy used for experiments and improvements. Run both on the same video and compare outputs.
@@ -65,9 +73,13 @@ smartphone_video.mp4
   │
   → seat_height.py        → output_v2/<stem>/<stem>_assessment.json
   │   (Reads keypoints.json for per-frame angles + knee_analysis.json
-  │   for validated bottom-of-stroke peaks)
-  │   Peak angle = mean across peaks from all runs with >=2 detected
-  │   peaks; falls back to max() if no run has >=2 peaks
+  │   for peak selection)
+  │   peak_mean  : used when >=10 validated peaks exist across usable runs
+  │               (long/trainer recordings with many complete cycles)
+  │   smooth_p80 : 80th percentile of the SG-smoothed angle series; used
+  │               for short real-world pass-by windows with <10 peaks —
+  │               clips perspective-distortion inflation without trainer data
+  │   max_fallback: raw max if knee_analysis.json absent
   │
   → rpm.py                → output_v2/<stem>/<stem>_rpm.json
   │   (Reads knee_analysis.json only)
@@ -79,89 +91,6 @@ smartphone_video.mp4
 ```
 
 Each stage creates its output directory if it doesn't exist, so stages can be run standalone without the runner. Each stage also outputs intermediate files so stages can be re-run independently and evaluated in isolation for the report.
-
-## Stack
-- **OpenPose** (`pyopenpose`) — Body25 model, 25-joint pose estimation
-- **YOLO** (`ultralytics`) — Person + bicycle detection; custom model `yolo26s.pt` used by wheel-detection scripts
-- **OpenCV** — Video I/O, annotation
-- **NumPy** — Kalman filter, angle maths (law of cosines)
-- **Docker** — Base: `nvidia/cuda:11.8.0-cudnn8-devel-ubuntu22.04`
-- **RunPod** — GPU cloud deployment target
-
-## Docker Image
-- `infra/Dockerfile` — build config; `infra/DOCKER_HUB.md` — push/pull instructions
-- CUDA 11.8 + cuDNN 8 on Ubuntu 22.04
-- OpenPose compiled from source with Python bindings (`BUILD_PYTHON=ON`), cuDNN + CUDA enabled
-- GPU architectures: 60, 61, 62, 70, 72, 75, 80, 86, 89, 90
-- On startup: run `infra/startup.sh` — installs Python deps (torch for **cu124** — RTX 4090 pods have CUDA 12.4 driver, cu121/cu13 builds fail CUDA init), then fetches `download_scripts.py` from R2 via `download.py`, then pulls all pipeline scripts to `/app`
-- OpenPose models in `/openpose/models/` — baked into the image at build time via `COPY models/`; NOT in git (too large)
-- Scripts are NOT bundled in the image — pulled from R2 at startup so updates don't require a rebuild
-
-## Key Constraints
-- **Model weights** are excluded from git (`.gitignore` ignores `/models`)
-- **Raw footage** (`videos/`) is gitignored — too large for git; transfer via R2
-- **runpodctl** is blocked on the college network — cannot use it for file transfer
-- **HTTP transfers from laptop** time out on large files — naive HTTP upload/download direct to laptop is not viable; use the login server instead (see File Transfer section)
-- Target workflow: upload input video to pod → run pipeline → retrieve output files
-
-## File Transfer
-Large files are transferred via **Cloudflare R2** (S3-compatible, HTTPS/port 443):
-- `infra/upload.py <src1> [src2 ...] <r2_folder>` — uploads files or directories to R2 under the given folder prefix; directories are walked recursively; last argument is always the R2 folder
-- `infra/download.py <key> [dest]` — downloads a single file from R2
-- `infra/upload_scripts.py` — uploads all pipeline scripts to R2 under `scripts/` prefix; run locally after any script change
-- `infra/download_scripts.py [dest_dir]` — downloads all pipeline scripts from R2; run on pod to get latest versions
-- Credentials via `.env`: `R2_ENDPOINT`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`
-- `boto3.upload_file` handles multipart automatically — suitable for large videos
-
-**Uploading output folders from the pod:** tar the directory first to avoid per-file HTTP overhead (hundreds of JPEGs = hundreds of round-trips):
-```bash
-tar -czf /tmp/<stem>.tar.gz -C /app/data/output_v2 <stem>
-python3 /app/infra/upload.py /tmp/<stem>.tar.gz output_v2
-rm /tmp/<stem>.tar.gz
-```
-Extract locally with `tar -xzf <stem>.tar.gz`.
-
-**Preferred method for retrieving large output folders from the pod to the college drive:**
-Do NOT download via the CIFS mount on the laptop — write speed is ~2.6 MB/s and concurrent writes will freeze the system. Instead, use the college login server (`macneill.scss.tcd.ie`) which has direct fast access to the college drive:
-
-1. On the pod, tar the output directory (skip `-z` compression — JPEGs don't compress and it's much faster without):
-```bash
-tar -cf /app/data/output_v2.tar -C /app output_v2
-```
-2. Expose the pod's HTTP server (port 8000) via RunPod's proxy, then on the login server:
-```bash
-curl -o ~/fyp/final-year-project/output_v2.tar https://<pod-proxy-url>/data/output_v2.tar
-```
-3. Extract directly into the output directory:
-```bash
-tar -xf ~/fyp/final-year-project/output_v2.tar --strip-components=1 -C ~/fyp/final-year-project/output_v2/
-```
-
-**Downloading from R2 to the college drive:** Use `wget` on the login server with the R2 public URL — no Python/boto3 needed, and it runs at ~30 MB/s on the college network:
-```bash
-wget https://pub-<id>.r2.dev/<key>.tar.gz -O ~/fyp/final-year-project/<key>.tar.gz
-```
-
-**Pod storage layout:** pipeline outputs live in `/app/data/output_v2/` (the persistent network volume), not in `/app/output_v2/`. The container root (`/`) is a separate 20 GB overlay — keep it clear of large files.
-
-### Pod setup workflow
-1. On first pod start, `infra/download.py` and `.env` must already be in `/app` (paste via web terminal or bake into image)
-2. `infra/startup.sh` uses `download.py` to fetch `download_scripts.py` from R2, then runs it to pull all other scripts
-3. After that, re-running `infra/startup.sh` always gets the latest script versions from R2
-
-### Updating scripts
-```bash
-# Local — after editing any pipeline script:
-python3 infra/upload_scripts.py
-
-# Pod — to pull latest without restarting:
-python3 /app/download_scripts.py
-```
-
-### Pod operation tips
-- **Use Ctrl+C to interrupt a run, not Ctrl+Z.** Ctrl+Z suspends the process but leaves it alive in memory, holding the GPU CUDA/cuDNN context. Any subsequent OpenPose run will fail with `CUDNN_STATUS_NOT_INITIALIZED` because the GPU is already claimed by the suspended process.
-- **If `CUDNN_STATUS_NOT_INITIALIZED` appears:** there is a stale Python process holding the GPU. Fix: `pkill -9 -f python3`, then retry.
-- **Multiple SSH sessions are safe** — each SSH connection is independent. You can monitor GPU usage (`nvidia-smi -l 1`) in one terminal while the pipeline runs in another. Do not run two OpenPose stages simultaneously as they will conflict on the GPU.
 
 ## Directory Structure
 
@@ -290,9 +219,28 @@ All pipeline_v2 scripts import shared helpers from **`pipeline_v2/utils.py`** (`
 | `side_angle_select.py` | video.mp4 | selection_log.json + frame images | **Quality-weighted burst selection**: scores each burst as `len × mean_squareness × mean_size_ratio × mean_normalised_cyclist_height`; keeps all bursts scoring ≥ `QUALITY_FRACTION` (50%) of best burst with ≥ `MIN_BURST_FRAMES` (5); adds `selected_bursts` metadata to log; also saves `cyclist_box` per frame |
 | `pose_estimate.py` | selection_log.json | keypoints.json | **ROI crop to cyclist box, CLAHE, unsharp mask, square pad, net_resolution=656x368; keypoints transformed back to original-frame coordinates; step montages saved to `_preprocessing_steps/`**; if a selected frame has no `cyclist_box` (YOLO detected wheels but not cyclist class), estimates crop from wheel positions + median h/w aspect ratio of frames that do have a box — preserves scale rather than skipping; estimated box drawn in yellow in montage vs green for detected |
 | `knee_analysis.py` *(V2 only)* | keypoints.json | knee_analysis.json | **Per-burst direction detection** from wheel x-positions (`load_direction_map`); knee selected independently per burst so opposing-direction bursts in the same clip are handled correctly; camera-facing knee selection; **processes every contiguous run independently** — Savitzky-Golay smoothing, adaptive-prominence peak detection (scipy), autocorrelation fallback per run; outputs `runs[]` array + aggregated `peaks` + `angle_series` at top level for downstream compat |
-| `seat_height.py` | keypoints.json (+ knee_analysis.json auto-read) | assessment.json | Per-frame angles same as P1; **peak = mean of all peaks from runs with ≥2 detected peaks; falls back to max() if no run has ≥2 peaks; adds `peak_angle_method` field** |
+| `seat_height.py` | keypoints.json (+ knee_analysis.json auto-read) | assessment.json | Per-frame angles same as P1; **adaptive peak selection: `peak_mean` (mean of validated bottom-of-stroke peaks) when ≥`PEAK_MEAN_MIN_PEAKS` (10) peaks exist — reliable for long trainer recordings; `smooth_p80` (80th percentile of SG-smoothed angle series from knee_analysis runs) for short real-world pass-by windows with <10 peaks — clips perspective-distortion inflation without requiring trainer reference data; `max_fallback` if knee_analysis absent; `peak_angle_method` field records which was used** |
 | `rpm.py` | knee_analysis.json | rpm.json | **Pools all inter-peak periods from every run with ≥2 peaks → single mean cadence RPM**; autocorr fallback from first run with a valid period; adds `per_run_rpms` list; forwards aggregated angle_series + peak_timestamps for annotate |
 | `annotate_output.py` | video + 3 JSONs | _final.mp4 | **nvenc → libx264 fallback** on encode failure; graph layout pre-computed once before render loop |
+
+### Model classes
+`best.pt` has exactly three classes: `cyclist`, `front_wheel`, `back_wheel`.
+
+The `front_wheel` / `back_wheel` separation serves two purposes:
+1. Side-angle gating — both wheels must be visible and near-square
+2. Direction of travel detection — if `front_wheel` center x > `back_wheel` center x the cyclist moves right; used by `knee_analysis.py` (V2) / `rpm.py` (P1) to select the camera-facing (non-occluded) knee: moving right → right knee; moving left → left knee. In V2, direction is computed **per burst** (`load_direction_map`) so opposing-direction bursts within a single clip are handled correctly; top-level `direction`/`knee_used` in the output reflect the longest burst
+
+### Seat height thresholds
+- `too_low`  : peak knee extension < 145° (seat too low — power loss, knee stress)
+- `optimal`  : 145° ≤ peak ≤ 155°
+- `too_high` : peak knee extension > 155° (over-extension risk)
+
+Peak extension:
+- **Pipeline 1** — maximum knee angle across all selected frames (`max()`)
+- **Pipeline V2** — adaptive selection via `peak_angle_method`:
+  - `peak_mean` — mean of validated bottom-of-stroke angles from all usable runs; used when ≥10 total validated peaks exist (typical of long trainer recordings with many complete cycles)
+  - `smooth_p80` — 80th percentile of the Savitzky-Golay smoothed angle series concatenated across all runs; used for short real-world pass-by windows (<10 peaks). Clips the inflated tail caused by perspective distortion without requiring trainer reference data. Evaluated against trainer videos as reference: 79% verdict agreement vs 32% for the previous `max_fallback`
+  - `max_fallback` — raw `max()` of per-frame series; used only when `knee_analysis.json` is absent
 
 ### Intermediate file schemas
 
@@ -431,7 +379,7 @@ All pipeline_v2 scripts import shared helpers from **`pipeline_v2/utils.py`** (`
     "knee_angle_mean": 111.26,
     "knee_angle_std": 28.62,
     "knee_angle_peak": 162.7,
-    "peak_angle_method": "peak_mean",   // V2 only: "peak_mean" | "max_fallback"
+    "peak_angle_method": "peak_mean",   // V2 only: "peak_mean" | "smooth_p80" | "max_fallback"
     "optimal_range": [145.0, 155.0],
     "verdict": "too_high",
     "verdict_detail": "Peak knee extension 162.7° exceeds 155.0°. ..."
@@ -474,21 +422,19 @@ All pipeline_v2 scripts import shared helpers from **`pipeline_v2/utils.py`** (`
 
 `rpm_method` is `"peak_detection"` when any run has ≥2 peaks; `"autocorrelation"` when no run has ≥2 peaks but at least one run produced a valid autocorrelation period. When `"autocorrelation"` is used, `cycle_timestamps` is `[]` and `cycle_periods_sec` contains one estimated period. In V2, `cadence_rpm` is the mean over all pooled inter-peak periods across all usable runs (not just the longest run).
 
-### Model classes
-`best.pt` has exactly three classes: `cyclist`, `front_wheel`, `back_wheel`.
+### Evaluation metrics
+Each script prints these on exit — quote directly in the report:
 
-The `front_wheel` / `back_wheel` separation serves two purposes:
-1. Side-angle gating — both wheels must be visible and near-square
-2. Direction of travel detection — if `front_wheel` center x > `back_wheel` center x the cyclist moves right; used by `knee_analysis.py` (V2) / `rpm.py` (P1) to select the camera-facing (non-occluded) knee: moving right → right knee; moving left → left knee. In V2, direction is computed **per burst** (`load_direction_map`) so opposing-direction bursts within a single clip are handled correctly; top-level `direction`/`knee_used` in the output reflect the longest burst
+| Stage | Script | Metrics printed |
+|---|---|---|
+| 1 | `side_angle_select.py` (P1) | frames processed, bursts found, frames selected (longest burst), selection rate, avg confidence, elapsed time |
+| 1 | `side_angle_select.py` (V2) | frames processed, total bursts found, bursts selected (with quality threshold), per-burst frame range + score, total frames selected, selection rate, avg confidence, elapsed time |
+| 2 | `pose_estimate.py` | frames processed, avg inference time/frame, per-joint avg confidence |
+| 3 (V2) | `knee_analysis.py` | frames with angle, runs total / usable, per-run frame range + duration + peak count + method, total peaks |
+| 3 (P1) / 4 (V2) | `seat_height.py` | knee angle count, mean, std dev, peak, peak_angle_method, verdict + detail string |
+| 4 (P1) / 5 (V2) | `rpm.py` | frames with angle, runs total / usable, per-run RPM, mean cadence RPM ± std dev, direction of travel, knee used, RPM method |
 
-### Seat height thresholds
-- `too_low`  : peak knee extension < 145° (seat too low — power loss, knee stress)
-- `optimal`  : 145° ≤ peak ≤ 155°
-- `too_high` : peak knee extension > 155° (over-extension risk)
-
-Peak extension:
-- **Pipeline 1** — maximum knee angle across all selected frames (`max()`)
-- **Pipeline V2** — mean of validated bottom-of-stroke angles from all runs with ≥2 detected peaks in `knee_analysis.py`; falls back to `max()` if no run has ≥2 peaks (`peak_angle_method` field records which was used)
+## Experiment Scripts
 
 ### Wheel-detection research scripts
 Standalone experimental scripts for the report's wheel-detection comparison chapter.
@@ -527,56 +473,6 @@ python3 experiments/inference_benchmarks/infer_opt3_skip.py  <video.mp4>
 python3 experiments/inference_benchmarks/infer_opt4_all.py   <video.mp4>
 ```
 
-## Pipeline Script Evaluation Metrics
-Each script prints these on exit — quote directly in the report:
-
-| Stage | Script | Metrics printed |
-|---|---|---|
-| 1 | `side_angle_select.py` (P1) | frames processed, bursts found, frames selected (longest burst), selection rate, avg confidence, elapsed time |
-| 1 | `side_angle_select.py` (V2) | frames processed, total bursts found, bursts selected (with quality threshold), per-burst frame range + score, total frames selected, selection rate, avg confidence, elapsed time |
-| 2 | `pose_estimate.py` | frames processed, avg inference time/frame, per-joint avg confidence |
-| 3 (V2) | `knee_analysis.py` | frames with angle, runs total / usable, per-run frame range + duration + peak count + method, total peaks |
-| 3 (P1) / 4 (V2) | `seat_height.py` | knee angle count, mean, std dev, peak, peak_angle_method, verdict + detail string |
-| 4 (P1) / 5 (V2) | `rpm.py` | frames with angle, runs total / usable, per-run RPM, mean cadence RPM ± std dev, direction of travel, knee used, RPM method |
-
-## Mounting College Drive on Laptop
-
-The college network drive can be mounted via CIFS. Use `uid`/`gid` options so files appear owned by your local user — no sudo needed for reads/writes.
-
-```bash
-sudo mount -t cifs //taughtstore.scss.tcd.ie/oneilk10 -o "user=oneilk10,domain=itserv,vers=3.0,uid=$(id -u),gid=$(id -g)" ~/lab-computer/
-```
-
-- This does **not** change ownership on the server — files on the lab machine are unaffected
-- If the mount is busy on unmount, use `sudo umount -l ~/lab-computer` (lazy unmount)
-- The lab machine venv (`~/fyp/linux/`) won't work on the laptop — its Python binary is a symlink to the college machine's Python install. Use a local laptop venv instead (e.g. `fyp-venv`)
-
-## Local Lab Machine Setup (msc-linux-sls-016)
-
-The pipeline runs directly on the lab machine without Docker. It has an NVIDIA RTX A4000 (16GB, sm_86) with CUDA 12.6.
-
-### Environment
-- OpenPose built from source at `~/openpose/build/`
-- Python venv at `~/fyp/linux/` — activate with `source ~/fyp/linux/bin/activate`
-- cuDNN installed via pip (`nvidia-cudnn-cu12`) at `~/fyp/linux/lib/python3.12/site-packages/nvidia/cudnn/`
-- Models at `~/openpose/models/` (copied from `~/fyp/final-year-project/models/`)
-- `~/.bashrc` sets PYTHONPATH, LD_LIBRARY_PATH, and activates the venv automatically
-
-### Required env vars (set in ~/.bashrc)
-```bash
-export PYTHONPATH=/users/ugrad/oneilk10/openpose/build/python/openpose:$PYTHONPATH
-export LD_LIBRARY_PATH=/users/ugrad/oneilk10/openpose/build/src/openpose:/users/ugrad/oneilk10/fyp/linux/lib/python3.12/site-packages/nvidia/cudnn/lib:$LD_LIBRARY_PATH
-export OPENPOSE_MODELS=/users/ugrad/oneilk10/openpose/models/
-```
-
-`OPENPOSE_MODELS` is critical — `pose_estimate.py` defaults to `/openpose/models/` (the Docker path) and silently returns empty keypoints if it isn't set.
-
-### Build notes
-- pybind11 submodule updated to v2.11.1 (bundled v2.3 incompatible with Python 3.12)
-- Line in `CMakeLists.txt` that resets pybind11 submodule was commented out to prevent it reverting
-- `3rdparty/caffe/src/caffe/util/io.cpp` patched: `SetTotalBytesLimit` call reduced to 1 argument (protobuf 3.21+ compatibility)
-- Body25 model must be a valid download — a corrupted `pose_iter_584000.caffemodel` causes silent no-detection
-
 ## Evaluation Pipeline
 
 Ground truth for RPM is measured manually in **Kinovea** from the `a` (trainer/controlled) videos.
@@ -587,6 +483,7 @@ Ground truth for RPM is measured manually in **Kinovea** from the `a` (trainer/c
 - `evaluation/ground_truth.csv` — one row per video: `video,true_rpm`. Fill in Kinovea RPM values here.
 - `evaluation/evaluate.py` — runs both evaluations and prints a report table. Automatically detects which pipeline output directories exist and shows a side-by-side comparison when both are present.
 - `evaluation/compare_angles.py` — cross-video angle consistency comparison across both pipelines.
+- `evaluation/angle_ceiling_eval.py` — trainer-independent peak selection strategy evaluation. For each subject with paired a/b videos in `output_v2/`, compares `current_v2`, `smooth_max`, `smooth_p80`–`smooth_p95`, and `raw_p80`–`raw_p95` against the a-condition verdict as reference. Shows per-subject peak angles, verdict agreement counts, and correction of inflated `too_high` readings. Run with `python3 evaluation/angle_ceiling_eval.py [--v2 output_v2/]`.
 
 ### Usage
 ```bash
@@ -628,6 +525,123 @@ Three sections, missing files skipped silently:
 2. **Within-subject consistency** — min–max peak angle range per subject per pipeline; should be small since the same bike is used across all recordings for each subject
 3. **Pipeline diff** — for stems present in both `output/` and `output_v2/`, shows peak angle delta and verdict change side by side (populated once V2 assessments exist)
 
+## Infrastructure & Deployment
+
+### Docker Image
+- `infra/Dockerfile` — build config; `infra/DOCKER_HUB.md` — push/pull instructions
+- CUDA 11.8 + cuDNN 8 on Ubuntu 22.04
+- OpenPose compiled from source with Python bindings (`BUILD_PYTHON=ON`), cuDNN + CUDA enabled
+- GPU architectures: 60, 61, 62, 70, 72, 75, 80, 86, 89, 90
+- On startup: run `infra/startup.sh` — installs Python deps (torch for **cu124** — RTX 4090 pods have CUDA 12.4 driver, cu121/cu13 builds fail CUDA init), then fetches `download_scripts.py` from R2 via `download.py`, then pulls all pipeline scripts to `/app`
+- OpenPose models in `/openpose/models/` — baked into the image at build time via `COPY models/`; NOT in git (too large)
+- Scripts are NOT bundled in the image — pulled from R2 at startup so updates don't require a rebuild
+
+### Key Constraints
+- **Model weights** are excluded from git (`.gitignore` ignores `/models`)
+- **Raw footage** (`videos/`) is gitignored — too large for git; transfer via R2
+- **runpodctl** is blocked on the college network — cannot use it for file transfer
+- **HTTP transfers from laptop** time out on large files — naive HTTP upload/download direct to laptop is not viable; use the login server instead (see File Transfer section)
+- Target workflow: upload input video to pod → run pipeline → retrieve output files
+
+### File Transfer
+Large files are transferred via **Cloudflare R2** (S3-compatible, HTTPS/port 443):
+- `infra/upload.py <src1> [src2 ...] <r2_folder>` — uploads files or directories to R2 under the given folder prefix; directories are walked recursively; last argument is always the R2 folder
+- `infra/download.py <key> [dest]` — downloads a single file from R2
+- `infra/upload_scripts.py` — uploads all pipeline scripts to R2 under `scripts/` prefix; run locally after any script change
+- `infra/download_scripts.py [dest_dir]` — downloads all pipeline scripts from R2; run on pod to get latest versions
+- Credentials via `.env`: `R2_ENDPOINT`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`
+- `boto3.upload_file` handles multipart automatically — suitable for large videos
+
+**Uploading output folders from the pod:** tar the directory first to avoid per-file HTTP overhead (hundreds of JPEGs = hundreds of round-trips):
+```bash
+tar -czf /tmp/<stem>.tar.gz -C /app/data/output_v2 <stem>
+python3 /app/infra/upload.py /tmp/<stem>.tar.gz output_v2
+rm /tmp/<stem>.tar.gz
+```
+Extract locally with `tar -xzf <stem>.tar.gz`.
+
+**Preferred method for retrieving large output folders from the pod to the college drive:**
+Do NOT download via the CIFS mount on the laptop — write speed is ~2.6 MB/s and concurrent writes will freeze the system. Instead, use the college login server (`macneill.scss.tcd.ie`) which has direct fast access to the college drive:
+
+1. On the pod, tar the output directory (skip `-z` compression — JPEGs don't compress and it's much faster without):
+```bash
+tar -cf /app/data/output_v2.tar -C /app output_v2
+```
+2. Expose the pod's HTTP server (port 8000) via RunPod's proxy, then on the login server:
+```bash
+curl -o ~/fyp/final-year-project/output_v2.tar https://<pod-proxy-url>/data/output_v2.tar
+```
+3. Extract directly into the output directory:
+```bash
+tar -xf ~/fyp/final-year-project/output_v2.tar --strip-components=1 -C ~/fyp/final-year-project/output_v2/
+```
+
+**Downloading from R2 to the college drive:** Use `wget` on the login server with the R2 public URL — no Python/boto3 needed, and it runs at ~30 MB/s on the college network:
+```bash
+wget https://pub-<id>.r2.dev/<key>.tar.gz -O ~/fyp/final-year-project/<key>.tar.gz
+```
+
+**Pod storage layout:** pipeline outputs live in `/app/data/output_v2/` (the persistent network volume), not in `/app/output_v2/`. The container root (`/`) is a separate 20 GB overlay — keep it clear of large files.
+
+### Pod Setup & Operation
+
+**Setup workflow:**
+1. On first pod start, `infra/download.py` and `.env` must already be in `/app` (paste via web terminal or bake into image)
+2. `infra/startup.sh` uses `download.py` to fetch `download_scripts.py` from R2, then runs it to pull all other scripts
+3. After that, re-running `infra/startup.sh` always gets the latest script versions from R2
+
+**Updating scripts:**
+```bash
+# Local — after editing any pipeline script:
+python3 infra/upload_scripts.py
+
+# Pod — to pull latest without restarting:
+python3 /app/download_scripts.py
+```
+
+**Operation tips:**
+- **Use Ctrl+C to interrupt a run, not Ctrl+Z.** Ctrl+Z suspends the process but leaves it alive in memory, holding the GPU CUDA/cuDNN context. Any subsequent OpenPose run will fail with `CUDNN_STATUS_NOT_INITIALIZED` because the GPU is already claimed by the suspended process.
+- **If `CUDNN_STATUS_NOT_INITIALIZED` appears:** there is a stale Python process holding the GPU. Fix: `pkill -9 -f python3`, then retry.
+- **Multiple SSH sessions are safe** — each SSH connection is independent. You can monitor GPU usage (`nvidia-smi -l 1`) in one terminal while the pipeline runs in another. Do not run two OpenPose stages simultaneously as they will conflict on the GPU.
+
+### Local Lab Machine Setup (msc-linux-sls-016)
+
+The pipeline runs directly on the lab machine without Docker. It has an NVIDIA RTX A4000 (16GB, sm_86) with CUDA 12.6.
+
+**Environment:**
+- OpenPose built from source at `~/openpose/build/`
+- Python venv at `~/fyp/linux/` — activate with `source ~/fyp/linux/bin/activate`
+- cuDNN installed via pip (`nvidia-cudnn-cu12`) at `~/fyp/linux/lib/python3.12/site-packages/nvidia/cudnn/`
+- Models at `~/openpose/models/` (copied from `~/fyp/final-year-project/models/`)
+- `~/.bashrc` sets PYTHONPATH, LD_LIBRARY_PATH, and activates the venv automatically
+
+**Required env vars (set in ~/.bashrc):**
+```bash
+export PYTHONPATH=/users/ugrad/oneilk10/openpose/build/python/openpose:$PYTHONPATH
+export LD_LIBRARY_PATH=/users/ugrad/oneilk10/openpose/build/src/openpose:/users/ugrad/oneilk10/fyp/linux/lib/python3.12/site-packages/nvidia/cudnn/lib:$LD_LIBRARY_PATH
+export OPENPOSE_MODELS=/users/ugrad/oneilk10/openpose/models/
+```
+
+`OPENPOSE_MODELS` is critical — `pose_estimate.py` defaults to `/openpose/models/` (the Docker path) and silently returns empty keypoints if it isn't set.
+
+**Build notes:**
+- pybind11 submodule updated to v2.11.1 (bundled v2.3 incompatible with Python 3.12)
+- Line in `CMakeLists.txt` that resets pybind11 submodule was commented out to prevent it reverting
+- `3rdparty/caffe/src/caffe/util/io.cpp` patched: `SetTotalBytesLimit` call reduced to 1 argument (protobuf 3.21+ compatibility)
+- Body25 model must be a valid download — a corrupted `pose_iter_584000.caffemodel` causes silent no-detection
+
+### Mounting College Drive on Laptop
+
+The college network drive can be mounted via CIFS. Use `uid`/`gid` options so files appear owned by your local user — no sudo needed for reads/writes.
+
+```bash
+sudo mount -t cifs //taughtstore.scss.tcd.ie/oneilk10 -o "user=oneilk10,domain=itserv,vers=3.0,uid=$(id -u),gid=$(id -g)" ~/lab-computer/
+```
+
+- This does **not** change ownership on the server — files on the lab machine are unaffected
+- If the mount is busy on unmount, use `sudo umount -l ~/lab-computer` (lazy unmount)
+- The lab machine venv (`~/fyp/linux/`) won't work on the laptop — its Python binary is a symlink to the college machine's Python install. Use a local laptop venv instead (e.g. `fyp-venv`)
+
 ## Documentation
 
 All pipeline scripts (`pipeline/` and `pipeline_v2/`) follow standard Python best practices:
@@ -663,6 +677,92 @@ python3 -m pydoc pipeline.rpm | pandoc -f plain -o pipeline.rpm.pdf
   - [x] CLAHE on LAB L-channel for variable outdoor lighting
   - [x] Pad crop to square before resizing to net_resolution (avoid aspect ratio distortion)
   - [x] Tune net_resolution — using `656x368`
+- [x] Improve real-world seat height peak selection — `smooth_p80` (80th percentile of SG-smoothed series) replaces `max_fallback` for short pass-by windows (<10 peaks); raises a/b verdict agreement from 32% → 79% on the 19-subject dataset without requiring trainer reference data. `peak_mean` retained for long recordings (≥10 validated peaks). See `evaluation/angle_ceiling_eval.py`.
+
+## Evaluation Findings & Implementation Notes
+
+This section records what was learned from systematic evaluation of the final V2 implementation across the full 10-subject dataset. All figures are from the `output_v2/` outputs with the final `smooth_p80` seat height implementation.
+
+### RPM evaluation results (V2 final)
+
+**Overall:** MAE = 4.2 RPM, RMSE = 8.5 RPM, mean |%err| = 5.8% (n=34)
+
+**By condition:**
+- Trainer `a`: MAE = 0.4 RPM, RMSE = 0.7 RPM, mean |%err| = 0.6% (n=19) — near-perfect
+- Real-world `b`: MAE = 9.0 RPM, RMSE = 12.7 RPM, mean |%err| = 12.3% (n=15)
+
+**V2 vs P1:** improved on 26/33 shared videos; mean |error| reduction = 7.0 RPM
+
+**Best individual real-world results:** jackb60 (0.4 RPM, 0.6%), liamb60 (0.6 RPM, 0.6%), paddyb30 (0.9 RPM, 1.4%), jennyb30 (1.3 RPM, 1.8%), kateb30 (1.5 RPM, 2.1%)
+
+**No output:** dervlab30, kateb60, romanb30, romanb60 — all have very short or low-quality selection windows. romanb60 has true RPM = 39, extremely low; the pipeline is not validated below ~50 RPM.
+
+**Autocorrelation fallback:** In V2, the 5 videos using autocorrelation have MAE = 12.4 RPM vs 2.8 RPM for peak_detection. The fallback fires on the hard cases (short windows, few peaks) — the higher error reflects difficulty, not method weakness.
+
+### Seat height evaluation results (V2 final with smooth_p80)
+
+**Verdict agreement (b vs a reference): 15/19 (79%)** — up from 6/19 (32%) with the original max_fallback, and from 10/19 (53%) with raw_p90.
+
+**4 remaining mismatches:**
+- `dervla30`: trainer = too_high (159.4°), real-world = optimal (147.6°) — smooth_p80 slightly clips dervla's genuinely high extension
+- `jack60`: trainer = too_low (136.3°), real-world = too_high (157.5°) — severe pervasive perspective distortion, smooth_p80 cannot correct it
+- `jane30`: trainer = optimal (153.1°), real-world = too_high (165.5°) — jane's real-world window has uniformly high angles
+- `jenny60`: trainer = optimal (147.0°), real-world = too_low (144.6°) — 0.4° below the threshold, purely borderline
+
+**Trainer consistency (grp30 vs grp60, same subject, same bike):**
+- 8/10 subjects give identical verdicts across cadence conditions
+- Mean peak delta = 3.91°, median = 2.48°
+- Outliers: dervla (11.9°, different verdicts — inflated peaks in grp30 recording), roman (6.3°, same verdict — genuine biomechanical effect: lower cadence → slightly more extension at bottom of stroke), hannah (8.6°, same verdict — outlier peaks at start of grp30 recording)
+- Best consistency: jenny (0.3°), jane (0.7°), jack (1.0°)
+
+### Peak angle method — why smooth_p80 works
+
+The key insight from systematic comparison of strategies on the b-condition angle series:
+
+- `smooth_max` is worse than baseline (16% agreement) — smoothing alone doesn't fix the inflated peak; sustained perspective distortion is not single-frame noise
+- `raw_p90` reaches 53% — clips the top 10% of raw frames but raw noise limits precision
+- `smooth_p80` reaches 79% — the SG smoothing first removes frame-to-frame jitter, then p80 clips the remaining inflated tail from perspective distortion
+- `smooth_p80` is not suitable for long trainer recordings (1500+ frames, 50+ full cycles): p80 of the full oscillating distribution lands at mid-stroke (~126°), not at bottom-of-stroke (~138°)
+- **Hybrid solution implemented:** `peak_mean` when ≥ 10 validated peaks exist (trainer/long recordings), `smooth_p80` otherwise (real-world pass-by). The 10-peak threshold cleanly separates all trainer videos (48–156 peaks) from all real-world videos (0–8 peaks) in this dataset.
+
+### Filming condition analysis (three groups)
+
+Subjects were filmed in three distinct real-world conditions that have a measurable impact on pipeline performance:
+
+**Group 1 — jenny, kate, roman (close-up, good lighting, single pass)**
+- 1 burst per video, 1 run, all going in one direction (left)
+- Very short windows: 18–90 frames (0.3–1.5 seconds)
+- Consequence: 3/6 videos produce no RPM (roman all three, kateb60) — window too short to observe a complete cycle at 60–90 RPM
+- When RPM works, it is accurate: jennyb30 1.8%, kateb30 2.1%
+- Seat height is the most reliable of the three groups: clean close-up keypoints, low distortion
+- RPM MAE (real-world, n=3): 3.2
+
+**Group 2 — hannah, alex (straight road, further away, two passes — out and back)**
+- 2 bursts selected for 3/4 videos, one per pass, both directions observed
+- Longer windows: 37–117 frames per burst, up to 226 total selected frames
+- The two-pass design is the ideal use case for V2's multi-burst architecture — bursts from each direction are processed independently with the correct knee selected per direction
+- 100% seat height verdict agreement (all subjects firmly too_low, so robust to noise)
+- RPM is inconsistent: hannahb30 4.1% (good), alexb30 27% (bad). Alex's runs both fall back to autocorrelation despite decent frame counts — the further distance produces noisier keypoints with lower peak detectability
+- RPM MAE (real-world, n=4): 11.2
+
+**Group 3 — dervla, jack, jane, liam, paddy (cement sports pitch, many directions)**
+- Most bursts found per video (up to 78 for jackb60) — cycling in loops produces many qualifying moments
+- Selected burst counts range from 1 to 4; knee_analysis runs from 1 to 4
+- Best individual results in the dataset come from this group: jackb60 (0.4 RPM, 0.6%), liamb60 (0.6 RPM, 0.6%), paddyb30 (0.9 RPM, 1.4%)
+- Worst results also in this group: jackb30 (32 RPM, 43%) — two runs both use autocorrelation fallback; janeb30 (17.6 RPM, 24%)
+- liamb30 produces the most selected frames in the dataset (397, 30.7% selection rate) with 4 bursts and 6 peaks in the main run — the pitch's repeated passes effectively extend the observation window
+- Seat height agreement 6/9 (67%) — the three failures (dervla30, jack60, jane30) are all from this group; direction changes and variable camera-subject distances increase perspective distortion
+- RPM MAE (real-world, n=8): 10.0
+
+### Key limitations to address in the report
+
+1. **Short observation windows** are the primary constraint on RPM accuracy in Groups 1 and 2. At 60–90 RPM, a sub-1-second window may contain fewer than one complete cycle. No algorithmic improvement can compensate for insufficient signal — widening the selection window is the correct mitigation.
+2. **Perspective distortion** affects real-world angle measurements even after side-angle gating. `smooth_p80` mitigates it substantially but cannot fully correct cases where distortion is pervasive across the entire burst (jack60 seat height). True mitigation requires better orthogonal camera positioning or 3D pose estimation.
+3. **Very low cadence** (romanb60 true RPM = 39) causes total pipeline failure — no output produced. The system is not validated below ~50 RPM.
+4. **Trainer consistency outliers** (dervla 11.9°, roman 6.3°) — dervla's grp30 recording contains a burst of inflated peaks at the start that pull the mean up; roman's 6.3° gap reflects a genuine biomechanical effect (lower cadence → more extension at bottom of stroke, documented in cycling literature).
+5. **Clothing — dark and/or baggy trousers worn by many subjects.** Two distinct effects:
+   - *Dark clothing*: reduces contrast between the leg and background, lowering OpenPose keypoint confidence at the knee and ankle. Frames with low-confidence detections are partially filtered by `CONF_MIN` but borderline-confidence joints still contribute noisy angle estimates.
+   - *Baggy trousers*: the fabric surface occludes the actual joint centre. OpenPose detects the visible surface of the clothing, not the underlying skeletal landmark, introducing a systematic offset in knee position. This biases the Hip→Knee→Ankle angle — typically under-estimating extension because the detected knee position sits proud of the actual joint. This is a likely contributor to the consistent `too_low` verdicts seen across many subjects and may partly explain why real-world peak angles tend to be lower than expected for some subjects even after `smooth_p80` correction. In a controlled biomechanics study, subjects would wear fitted, high-contrast clothing (e.g., tight lycra with reflective markers). For real-world deployment this cannot be assumed — future work should investigate confidence-weighted angle estimation or clothing-aware keypoint correction.
 
 ## Final Year Project Report
 A detailed written report is required covering approach and findings. It should document:

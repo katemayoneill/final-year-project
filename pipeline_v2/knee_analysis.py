@@ -1,14 +1,8 @@
 #!/usr/bin/env python3
 """
-Pipeline V2 — Stage 3: Knee angle cycle analysis.
-Builds the camera-facing knee angle time series from keypoints, detects pedal
-cycle peaks (bottom of stroke) independently for every contiguous run, and emits
-per-run results plus aggregated series + peaks for consumption by seat_height.py
-(Stage 4) and rpm.py (Stage 5).
-
-Single source of truth for: direction detection, knee selection, smoothing,
-peak detection, and autocorrelation fallback. Stages 4 and 5 read this output
-rather than repeating the analysis independently.
+Pipeline V2 Stage 3: knee angle cycle analysis.
+Builds the camera-facing knee angle series from keypoints, detects pedal cycle
+peaks per contiguous run, and writes knee_analysis.json.
 
 Usage: python3 knee_analysis.py <video_keypoints.json>
 Output: output_v2/<stem>/<stem>_knee_analysis.json
@@ -24,12 +18,12 @@ try:
     import numpy as _np
     SCIPY_AVAILABLE = True
 except ImportError:
-    print("Warning: scipy not installed — falling back to simple moving average and manual peak detection")
+    print("Warning: scipy not installed -- falling back to simple moving average and manual peak detection")
     SCIPY_AVAILABLE = False
 
-PEAK_PROMINENCE       = 20.0   # degrees — minimum rise above neighbouring troughs
+PEAK_PROMINENCE       = 20.0   # degrees -- minimum rise above neighbouring troughs
 CONTIGUOUS_GAP_FRAMES = 30     # max frame-index gap within one contiguous run (~0.5s at 60fps)
-SMOOTH_WINDOW         = 5      # frames — moving-average window (fallback only)
+SMOOTH_WINDOW         = 5      # frames -- moving-average window (fallback only)
 MAX_CADENCE_RPM       = 130    # physical upper bound
 
 SAVGOL_WINDOW = 11
@@ -40,7 +34,7 @@ L_HIP, L_KNEE, L_ANKLE = 12, 13, 14
 
 
 def smooth(angles):
-    """Savitzky-Golay filter (scipy) when available; else simple centred moving average."""
+    """Savitzky-Golay filter; falls back to centred moving average."""
     if SCIPY_AVAILABLE and len(angles) >= SAVGOL_WINDOW:
         return list(savgol_filter(angles, window_length=SAVGOL_WINDOW, polyorder=SAVGOL_ORDER))
     if SMOOTH_WINDOW <= 1 or len(angles) < SMOOTH_WINDOW:
@@ -55,7 +49,7 @@ def smooth(angles):
 
 
 def detect_peaks(angles, timestamps):
-    """Return indices of local maxima with adaptive prominence and minimum inter-peak gap."""
+    """Returns indices of local maxima with adaptive prominence and min inter-peak gap."""
     min_gap_sec = 60.0 / MAX_CADENCE_RPM
 
     if SCIPY_AVAILABLE and len(angles) >= 3:
@@ -86,7 +80,7 @@ def detect_peaks(angles, timestamps):
 
 
 def split_into_runs(series, gap):
-    """Split (frame_idx, timestamp, angle) triples into contiguous runs."""
+    """Splits (frame_idx, timestamp, angle) triples into contiguous runs."""
     if not series:
         return []
     runs = []
@@ -102,11 +96,11 @@ def split_into_runs(series, gap):
 
 
 def _direction_from_entries(entries):
-    """Return 'left' or 'right' from median front_wheel vs back_wheel x-centre across entries."""
+    """Returns 'left' or 'right' from median front/back wheel x-positions."""
     deltas = []
     for entry in entries:
-        fb = entry.get("front_wheel_box")
-        bb = entry.get("back_wheel_box")
+        fb = entry.get("fw_box")
+        bb = entry.get("bw_box")
         if fb and bb:
             fx = (fb[0] + fb[2]) / 2
             bx = (bb[0] + bb[2]) / 2
@@ -118,18 +112,10 @@ def _direction_from_entries(entries):
 
 
 def load_direction_map(log_path):
-    """
-    Load the selection log and return (global_direction, frame_direction_map).
+    """Returns (global_direction, frame_direction_map) from the selection log.
 
-    When the log contains selected_bursts metadata, direction is computed
-    independently per burst so that opposing-direction bursts in the same clip
-    are handled correctly. Falls back to a single global median when burst
-    metadata is absent.
-
-    Returns:
-        global_direction: direction of the longest burst, or global median.
-        frame_direction_map: dict mapping frame_idx → direction string.
-                             Empty when per-burst data is unavailable.
+    Per-burst direction is computed when selected_bursts metadata is present;
+    falls back to a single global median otherwise.
     """
     try:
         with open(log_path) as f:
@@ -153,7 +139,7 @@ def load_direction_map(log_path):
         if fi is None:
             continue
         for b in bursts:
-            if b["frame_idx_start"] <= fi <= b["frame_idx_end"]:
+            if b["start_frame_idx"] <= fi <= b["end_frame_idx"]:
                 burst_entries[b["burst_id"]].append(entry)
                 break
 
@@ -165,7 +151,7 @@ def load_direction_map(log_path):
         if fi is None:
             continue
         for b in bursts:
-            if b["frame_idx_start"] <= fi <= b["frame_idx_end"]:
+            if b["start_frame_idx"] <= fi <= b["end_frame_idx"]:
                 frame_direction_map[fi] = burst_directions.get(b["burst_id"])
                 break
 
@@ -177,14 +163,14 @@ def load_direction_map(log_path):
 
 
 def direction_to_joints(direction):
-    """Map direction string to (primary_joints, fallback_joints, knee_name)."""
+    """Maps direction string to (primary_joints, fallback_joints, knee_name)."""
     if direction == "right":
         return (R_HIP, R_KNEE, R_ANKLE), (L_HIP, L_KNEE, L_ANKLE), "right"
     return (L_HIP, L_KNEE, L_ANKLE), (R_HIP, R_KNEE, R_ANKLE), "left"
 
 
 def autocorrelation_period(timestamps, smoothed_angles):
-    """Return dominant period in seconds via normalised autocorrelation, or None."""
+    """Returns dominant period in seconds via normalised autocorrelation, or None."""
     if not SCIPY_AVAILABLE or len(smoothed_angles) < 10:
         return None
     signal = _np.array(smoothed_angles, dtype=float)
@@ -211,10 +197,7 @@ def autocorrelation_period(timestamps, smoothed_angles):
 
 
 def analyse_run(run_id, run):
-    """
-    Process one contiguous run: smooth angles, detect peaks, autocorr fallback.
-    Returns a run result dict.
-    """
+    """Smooths and finds peaks for one contiguous run; returns a result dict."""
     frame_indices = [s[0] for s in run]
     timestamps    = [s[1] for s in run]
     raw_angles    = [s[2] for s in run]
@@ -254,7 +237,7 @@ def analyse_run(run_id, run):
 
 
 def main():
-    """Parse arguments, build knee angle series, detect pedal cycle peaks per run, write knee_analysis.json."""
+    """Builds knee angle series, detects peaks per run, writes knee_analysis.json."""
     if len(sys.argv) < 2:
         print("Usage: python3 knee_analysis.py <video_keypoints.json>")
         sys.exit(1)
@@ -276,11 +259,11 @@ def main():
     if direction:
         unique_dirs = set(frame_direction_map.values()) - {None}
         if len(unique_dirs) > 1:
-            print(f"Direction of travel    : per-burst {sorted(unique_dirs)}  →  knee selected per burst")
+            print(f"Direction of travel    : per-burst {sorted(unique_dirs)}  (knee selected per burst)")
         else:
-            print(f"Direction of travel    : {direction}  →  using {knee_used} knee (camera-facing side)")
+            print(f"Direction of travel    : {direction}  (using {knee_used} knee, camera-facing side)")
     else:
-        print("Direction of travel    : unknown — defaulting to left knee")
+        print("Direction of travel    : unknown -- defaulting to left knee")
 
     # Build (frame_idx, timestamp, raw_angle) time series, selecting the correct
     # knee per frame using per-burst direction when available.
@@ -312,9 +295,9 @@ def main():
     run_results = [analyse_run(i, run) for i, run in enumerate(runs)]
 
     # Aggregate for top-level fields consumed by rpm.py and annotate_output.py
-    all_peaks       = [p for r in run_results for p in r["peaks"]]
+    all_peaks        = [p for r in run_results for p in r["peaks"]]
     all_angle_series = [pt for r in run_results for pt in r["angle_series"]]
-    usable_runs     = [r for r in run_results if len(r["peaks"]) >= 2]
+    usable_runs      = [r for r in run_results if len(r["peaks"]) >= 2]
 
     # best_run: longest run, kept for backward compat
     best_run_result = max(run_results, key=lambda r: r["frame_count"]) if run_results else {}
@@ -358,10 +341,10 @@ def main():
     print(f"Runs (total / usable)  : {m['total_runs']} / {m['usable_runs']}")
     for r in run_results:
         n_peaks = len(r["peaks"])
-        usable  = "✓" if n_peaks >= 2 else "–"
-        print(f"  Run {r['run_id']}  [{usable}]  : frames {r['frame_idx_start']}–{r['frame_idx_end']}  ({r['frame_count']} frames, {r['duration_sec']}s)  {n_peaks} peaks  [{r['peak_method']}]")
+        usable  = "ok" if n_peaks >= 2 else "-"
+        print(f"  Run {r['run_id']}  [{usable}]  : frames {r['frame_idx_start']}-{r['frame_idx_end']}  ({r['frame_count']} frames, {r['duration_sec']}s)  {n_peaks} peaks  [{r['peak_method']}]")
     print(f"Total peaks            : {m['peaks_found']}")
-    print(f"Knee analysis saved    → {out_path}")
+    print(f"Knee analysis saved    : {out_path}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,172 @@
+
+╔══════════════════════════════════════════════════════════════════╗
+║          COMPREHENSIVE PIPELINE V2 EVALUATION REPORT            ║
+╚══════════════════════════════════════════════════════════════════╝
+
+── 1. DATASET OVERVIEW ─────────────────────────────────────────────────────
+  Subjects          : 10  (alex, dervla, hannah, jack, jane, jenny, kate, liam, paddy, roman)
+  Total videos      : 39  (a=20  b=19  no_output=0)
+  Cadence groups    : 30 (target 60 RPM) / 60 (target 90 RPM)
+  Filming groups    :
+    Group 1: jenny, kate, roman — close-up, good lighting, single pass
+    Group 2: alex, hannah — straight road, further away, two passes (out + back)
+    Group 3: dervla, jack, jane, liam, paddy — sports pitch, cycling in multiple directions
+
+── 2. RPM ACCURACY ─────────────────────────────────────────────────────────
+
+  Per-video (real-world b, sorted by |error|):
+  Video          Grp   FG    True    Pred  |Err|   %err  Method
+  --------------------------------------------------------------
+  jackb60        60    3       67    66.6    0.4   0.6%  peak_detection
+  liamb60        60    3       98    98.6    0.6   0.6%  peak_detection
+  paddyb30       30    3       64    63.1    0.9   1.4%  peak_detection
+  jennyb30       30    1       74    75.3    1.3   1.8%  peak_detection
+  kateb30        30    1       70    68.5    1.5   2.1%  autocorrelation
+  hannahb30      30    2       54    56.2    2.2   4.1%  peak_detection
+  liamb30        30    3       77    81.4    4.4   5.7%  peak_detection
+  alexb60        60    2       85    90.8    5.8   6.8%  autocorrelation
+  jennyb60       60    1       84    90.8    6.8   8.1%  autocorrelation
+  dervlab60      60    3       72    83.7   11.7  16.3%  peak_detection
+  paddyb60       60    3       71    83.7   12.7  17.9%  peak_detection
+  alexb30        30    2       58    73.8   15.8  27.2%  autocorrelation
+  janeb30        30    3       73    55.4   17.6  24.1%  peak_detection
+  hannahb60      60    2       83   104.1   21.1  25.4%  peak_detection
+  jackb30        30    3       75   107.0   32.0  42.7%  autocorrelation
+  dervlab30      30    3       67       —      —      —   no output
+  kateb60        60    1       85       —      —      —   no output
+  romanb30       30    1       51       —      —      —   no output
+  romanb60       60    1       39       —      —      —   no output
+
+  Aggregate breakdown:
+  Subset                                 n     MAE    RMSE   mean%err
+  ------------------------------------------------------------
+  All b (real-world)                    15     9.0    12.7      12.3%
+  All a (trainer)                       19     0.4     0.7       0.6%
+  b — cadence group 30                   8     9.5    14.2      13.6%
+  b — cadence group 60                   7     8.4    10.8      10.8%
+  b — peak_detection                    10     7.3    10.4       9.8%
+  b — autocorrelation                    5    12.4    16.5      17.4%
+  b — Group 1 (close-up)                 3     3.2     4.1       4.0%
+  b — Group 2 (straight road)            4    11.2    13.5      15.9%
+  b — Group 3 (sports pitch)             8    10.0    14.4      13.7%
+
+── 3. RPM: PIPELINE 1 vs PIPELINE V2 ──────────────────────────────────────
+
+  Video           True       P1  P1err       V2  V2err  Better
+  ------------------------------------------------------------
+  alexb30           58     84.3   26.3     73.8   15.8  V2 ✓
+  alexb60           85    110.6   25.6     90.8    5.8  V2 ✓
+  dervlab60         72     60.0   12.0     83.7   11.7  =
+  hannahb30         54     62.1    8.1     56.2    2.2  V2 ✓
+  hannahb60         83     86.3    3.3    104.1   21.1  P1
+  jackb60           67    104.8   37.8     66.6    0.4  V2 ✓
+  janeb30           73     85.7   12.7     55.4   17.6  P1
+  jennyb30          74     86.3   12.3     75.3    1.3  V2 ✓
+  jennyb60          84     93.2    9.2     90.8    6.8  V2 ✓
+  kateb30           70     74.2    4.2     68.5    1.5  V2 ✓
+  liamb30           77     72.0    5.0     81.4    4.4  V2 ✓
+  liamb60           98     75.7   22.3     98.6    0.6  V2 ✓
+  paddyb30          64     91.7   27.7     63.1    0.9  V2 ✓
+  paddyb60          71     68.5    2.5     83.7   12.7  P1
+
+  Shared videos: 14  V2 better: 10  P1 better: 3  same: 1
+  P1 MAE=14.9  V2 MAE=7.3  reduction=7.6 RPM
+
+── 4. SEAT HEIGHT: TRAINER CONSISTENCY (a30 vs a60) ───────────────────────
+
+  Subject     peak_a30 v_a30     peak_a60 v_a60       Δ°  same?
+  ----------------------------------------------------------
+  alex          129.06 low         127.49 low       1.57  ✓
+  dervla        159.38 HIGH        147.44 OPT      11.94  ✗
+  hannah        137.55 low         128.98 low       8.57  ✓
+  jack          135.31 low         136.34 low       1.03  ✓
+  jane          153.06 OPT         152.36 OPT       0.70  ✓
+  jenny         146.72 OPT         147.02 OPT       0.30  ✓
+  kate          134.97 low         138.35 low       3.38  ✓
+  liam          128.81 low         124.88 low       3.93  ✓
+  paddy         126.06 low         127.51 low       1.45  ✓
+  roman         144.04 low         137.78 low       6.26  ✓
+
+  Peak delta: mean=3.91°  median=2.48°  min=0.30°  max=11.94°
+  Same verdict: 9/10
+
+── 5. SEAT HEIGHT: a/b VERDICT AGREEMENT ──────────────────────────────────
+
+  Subject    Grp   FG    a_peak  b_peak    Δ°  a_v      b_v      match
+  -----------------------------------------------------------------
+  alex       30    2      129.1   133.4   4.3  too_low  too_low  ✓
+  alex       60    2      127.5   138.1  10.6  too_low  too_low  ✓
+  dervla     30    3      159.4   147.6  11.8  too_high optimal  ✗
+  dervla     60    3      147.4   150.7   3.3  optimal  optimal  ✓
+  hannah     30    2      137.6   133.2   4.4  too_low  too_low  ✓
+  hannah     60    2      129.0   121.5   7.4  too_low  too_low  ✓
+  jack       30    3      135.3   142.4   7.1  too_low  too_low  ✓
+  jack       60    3      136.3   157.5  21.2  too_low  too_high ✗
+  jane       30    3      153.1   165.5  12.4  optimal  too_high ✗
+  jenny      30    1      146.7   152.4   5.7  optimal  optimal  ✓
+  jenny      60    1      147.0   144.6   2.4  optimal  too_low  ✗
+  kate       30    1      135.0   143.2   8.2  too_low  too_low  ✓
+  kate       60    1      138.3   129.7   8.6  too_low  too_low  ✓
+  liam       30    3      128.8   132.8   3.9  too_low  too_low  ✓
+  liam       60    3      124.9   135.3  10.4  too_low  too_low  ✓
+  paddy      30    3      126.1   129.7   3.6  too_low  too_low  ✓
+  paddy      60    3      127.5   128.1   0.5  too_low  too_low  ✓
+  roman      30    1      144.0   133.0  11.0  too_low  too_low  ✓
+  roman      60    1      137.8   136.8   1.0  too_low  too_low  ✓
+
+  Overall agreement: 15/19 (79%)
+
+  By filming group:
+    Group 1 (jenny, kate, roman): 5/6 (83%)
+    Group 2 (alex, hannah): 4/4 (100%)
+    Group 3 (dervla, jack, jane, liam, paddy): 6/9 (67%)
+
+── 6. PEAK ANGLE METHOD DISTRIBUTION ──────────────────────────────────────
+
+  Trainer (a):
+    peak_mean             20 videos
+  Real-world (b):
+    smooth_p80            19 videos
+
+── 7. FRAME SELECTION STATISTICS (real-world b) ───────────────────────────
+
+  Video          FG    Selected   Total    Rate  Bursts   Runs  Peaks
+  ------------------------------------------------------------
+  jennyb30       1           82     947    8.7%       1      1      2
+  jennyb60       1           64     826    7.7%       1      1      1
+  kateb30        1           32     316   10.1%       1      1      0
+  kateb60        1           18     271    6.6%       1      1      1
+  romanb30       1           32     477    6.7%       1      1      0
+  romanb60       1           90    1586    5.7%       1      1      1
+  Group 1 mean               53     737    7.2%
+
+  alexb30        2          135    1320   10.2%       2      2      1
+  alexb60        2          104    1191    8.7%       2      2      1
+  hannahb30      2          226    1097   20.6%       2      2      3
+  hannahb60      2           61     548   11.1%       1      1      2
+  Group 2 mean              131    1039   12.7%
+
+  dervlab30      3          126    1148   11.0%       3      3      1
+  dervlab60      3          371    1513   24.5%       2      2      5
+  jackb30        3          116     782   14.8%       2      2      2
+  jackb60        3          152    2112    7.2%       1      1      2
+  janeb30        3          197    1202   16.4%       1      1      2
+  liamb30        3          397    1294   30.7%       4      3      8
+  liamb60        3          271    1828   14.8%       4      4      5
+  paddyb30       3          211    2099   10.1%       1      1      3
+  paddyb60       3          147     750   19.6%       1      1      3
+  Group 3 mean              220    1414   15.6%
+
+── 8. FAILURE CASES (no RPM output) ───────────────────────────────────────
+
+  Real-world videos with no RPM output:
+    dervlab30       selected=126  peaks=1  true_rpm=67.0
+    kateb60         selected=18  peaks=1  true_rpm=85.0
+    romanb30        selected=32  peaks=0  true_rpm=51.0
+    romanb60        selected=90  peaks=1  true_rpm=39.0
+
+  Note: romanb30/b60, kateb60 fail due to very short selection windows
+  (<32 frames, <1s). romanb60 true RPM=39 — outside validated range (~50+ RPM).
+
+── END OF REPORT ───────────────────────────────────────────────────────────
+

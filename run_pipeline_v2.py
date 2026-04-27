@@ -18,6 +18,7 @@ import time
 
 PYTHON = sys.executable
 HERE   = os.path.dirname(os.path.abspath(__file__))
+P2     = os.path.join(HERE, "pipeline_v2")
 
 
 def run(label, cmd):
@@ -69,7 +70,7 @@ print(f"Output dir     : output_v2/{stem}/")
 
 # ── Stage 1: side-angle selection ──────────────────────────────────────────
 run("Pipeline V2 — Stage 1: Side-angle frame selection",
-    [PYTHON, os.path.join(HERE, "pipeline_v2", "side_angle_select.py"), video, model])
+    [PYTHON, os.path.join(P2, "side_angle_select.py"), video, model])
 
 log = load(log_path)
 m   = log["metrics"]
@@ -84,7 +85,7 @@ if m['frames_selected'] == 0:
 
 # ── Stage 2: OpenPose pose estimation ──────────────────────────────────────
 run("Pipeline V2 — Stage 2: Pose estimation (OpenPose)",
-    [PYTHON, os.path.join(HERE, "pipeline_v2", "pose_estimate.py"), log_path])
+    [PYTHON, os.path.join(P2, "pose_estimate.py"), log_path])
 
 kp = load(kp_path)
 m  = kp["metrics"]
@@ -103,21 +104,21 @@ for j in key_joints:
 
 # ── Stage 3: knee cycle analysis ───────────────────────────────────────────
 run("Pipeline V2 — Stage 3: Knee cycle analysis",
-    [PYTHON, os.path.join(HERE, "pipeline_v2", "knee_analysis.py"), kp_path])
+    [PYTHON, os.path.join(P2, "knee_analysis.py"), kp_path])
 
 ka = load(ka_path)
 km = ka["metrics"]
 print_section("Knee cycle analysis")
 print(f"  Direction              : {ka.get('direction', 'unknown')}  →  {ka.get('knee_used', '?')} knee")
 print(f"  Frames with angle      : {km['frames_with_angle']}")
-print(f"  Contiguous runs        : {ka['best_run']['total_runs']}  (best run: {ka['best_run']['frame_count']} frames, {ka['best_run']['duration_sec']}s)")
+print(f"  Contiguous runs        : {km['total_runs']}  (best run: {ka['best_run']['frame_count']} frames, {ka['best_run']['duration_sec']}s)")
 print(f"  Peaks detected         : {km['peaks_found']}  [method: {ka['peak_method']}]")
 if ka.get("autocorr_period_sec"):
     print(f"  Autocorr period        : {ka['autocorr_period_sec']}s")
 
 # ── Stage 4: seat height assessment ────────────────────────────────────────
 run("Pipeline V2 — Stage 4: Seat height assessment",
-    [PYTHON, os.path.join(HERE, "pipeline_v2", "seat_height.py"), kp_path])
+    [PYTHON, os.path.join(P2, "seat_height.py"), kp_path])
 
 assess = load(assessment_path)
 s      = assess["summary"]
@@ -126,14 +127,13 @@ print(f"  Frames with knee angles : {s['knee_angles_count']}")
 print(f"  Mean knee angle         : {s['knee_angle_mean']}°")
 print(f"  Std deviation           : {s['knee_angle_std']}°")
 print(f"  Peak extension          : {s['knee_angle_peak']}°  [{s.get('peak_angle_method', '?')}]  (optimal: {s['optimal_range'][0]}–{s['optimal_range'][1]}°)")
-verdict_symbols = {"optimal": "✓", "too_high": "↑", "too_low": "↓", "insufficient_data": "?"}
-sym = verdict_symbols.get(s["verdict"], "?")
+sym = {"optimal": "✓", "too_high": "↑", "too_low": "↓"}.get(s["verdict"], "?")
 print(f"  Verdict                 : {sym}  {s['verdict'].upper()}")
 print(f"  Detail                  : {s['verdict_detail']}")
 
 # ── Stage 5: RPM ───────────────────────────────────────────────────────────
 run("Pipeline V2 — Stage 5: RPM / cadence",
-    [PYTHON, os.path.join(HERE, "pipeline_v2", "rpm.py"), ka_path])
+    [PYTHON, os.path.join(P2, "rpm.py"), ka_path])
 
 rpm = load(rpm_path)
 m   = rpm["metrics"]
@@ -151,7 +151,7 @@ else:
 
 # ── Stage 6: annotate output video ─────────────────────────────────────────
 run("Pipeline V2 — Stage 6: Annotate output video",
-    [PYTHON, os.path.join(HERE, "pipeline_v2", "annotate_output.py"),
+    [PYTHON, os.path.join(P2, "annotate_output.py"),
      video, kp_path, assessment_path, rpm_path])
 
 # ── Final summary ───────────────────────────────────────────────────────────
@@ -166,7 +166,7 @@ print(f"  Assessment       : {assessment_path}")
 print(f"  RPM data         : {rpm_path}")
 print(f"  Annotated output : {final_path}")
 print()
-print(f"  Seat height      : {assess['summary']['verdict'].upper()} — {assess['summary']['verdict_detail']}")
+print(f"  Seat height      : {s['verdict'].upper()} — {s['verdict_detail']}")
 if rpm["cadence_rpm"] is not None:
     print(f"  Cadence          : {rpm['cadence_rpm']} RPM")
 else:

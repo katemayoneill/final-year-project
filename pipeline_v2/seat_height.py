@@ -1,28 +1,29 @@
 #!/usr/bin/env python3
 """
-Pipeline V2 — Stage 4: Seat height assessment from keypoints.
-Per-frame: computes Hip→Knee→Ankle and Shoulder→Hip→Knee angles for both sides.
-Summary peak: mean of validated bottom-of-stroke angles from knee_analysis.json
-(Stage 3). Falls back to max(knee_angles) if fewer than 2 peaks were detected.
+stage 4: seat height assessment from keypoints.
+Reads keypoints.json and knee_analysis.json; selects peak angle
+via peak_mean, smooth_p80, or max_fallback depending on available data.
 
-Optimal knee angle at bottom of stroke: 145–155 degrees
-  too_low  : peak < 145 (seat too low — power loss, knee stress)
-  optimal  : 145 <= peak <= 155
-  too_high : peak > 155 (seat too high — over-extension risk)
+  peak_mean   -- mean of validated peaks; used when >= PEAK_MEAN_MIN_PEAKS exist
+  smooth_p80  -- 80th percentile of SG-smoothed series; used for short pass-by windows
+  max_fallback -- raw max; used only when knee_analysis.json is absent
+
+Optimal knee angle at bottom of stroke: 145-155 degrees.
 
 Usage: python3 seat_height.py <video_keypoints.json>
 Output: output_v2/<stem>/<stem>_assessment.json
 """
 import json
-import math
 import os
 import sys
 
-from utils import calc_angle, video_stem
+import numpy as np
 
-KNEE_OPTIMAL_LOW  = 145.0
-KNEE_OPTIMAL_HIGH = 155.0
-CONF_MIN          = 0.1
+from utils import calc_angle, get_xy, video_stem
+
+KNEE_OPTIMAL_LOW    = 145.0
+KNEE_OPTIMAL_HIGH   = 155.0
+PEAK_MEAN_MIN_PEAKS = 10   # min validated peaks to trust peak_mean over smooth_p80
 
 JOINT = {
     "Nose": 0, "Neck": 1,
@@ -37,17 +38,8 @@ JOINT = {
 }
 
 
-def get_joint(keypoints, name):
-    """Return (x, y) for named joint if confidence >= CONF_MIN and position is valid, else None."""
-    idx = JOINT[name]
-    if not keypoints or idx >= len(keypoints):
-        return None
-    x, y, c = keypoints[idx]
-    return (x, y) if c >= CONF_MIN and x > 0 and y > 0 else None
-
-
 def main():
-    """Parse arguments, assess seat height using knee_analysis peaks, write assessment.json."""
+    """Assesses seat height from keypoints and knee_analysis peaks; writes assessment.json."""
     if len(sys.argv) < 2:
         print("Usage: python3 seat_height.py <video_keypoints.json>")
         sys.exit(1)
@@ -73,12 +65,12 @@ def main():
         direction = ka.get("direction")
         knee_used = ka.get("knee_used", "right")
     except FileNotFoundError:
-        print("Warning: knee_analysis.json not found — run knee_analysis.py first for accurate peak detection")
+        print("Warning: knee_analysis.json not found -- run knee_analysis.py first for accurate peak detection")
 
     if direction:
-        print(f"Direction of travel    : {direction}  →  using {knee_used} knee (camera-facing side)")
+        print(f"Direction of travel    : {direction}  (using {knee_used} knee, camera-facing side)")
     else:
-        print("Direction of travel    : unknown — defaulting to right knee")
+        print("Direction of travel    : unknown -- defaulting to right knee")
 
     # Per-frame angle computation for all joints (both sides, used by annotate_output.py)
     frames_out      = []
@@ -87,14 +79,14 @@ def main():
     for entry in data["frames"]:
         kp = entry.get("keypoints", [])
 
-        r_hip   = get_joint(kp, "RHip")
-        r_knee  = get_joint(kp, "RKnee")
-        r_ankle = get_joint(kp, "RAnkle")
-        l_hip   = get_joint(kp, "LHip")
-        l_knee  = get_joint(kp, "LKnee")
-        l_ankle = get_joint(kp, "LAnkle")
-        r_sh    = get_joint(kp, "RShoulder")
-        l_sh    = get_joint(kp, "LShoulder")
+        r_hip   = get_xy(kp, JOINT["RHip"])
+        r_knee  = get_xy(kp, JOINT["RKnee"])
+        r_ankle = get_xy(kp, JOINT["RAnkle"])
+        l_hip   = get_xy(kp, JOINT["LHip"])
+        l_knee  = get_xy(kp, JOINT["LKnee"])
+        l_ankle = get_xy(kp, JOINT["LAnkle"])
+        r_sh    = get_xy(kp, JOINT["RShoulder"])
+        l_sh    = get_xy(kp, JOINT["LShoulder"])
 
         r_knee_angle = calc_angle(r_hip, r_knee, r_ankle) if r_hip and r_knee and r_ankle else None
         l_knee_angle = calc_angle(l_hip, l_knee, l_ankle) if l_hip and l_knee and l_ankle else None
@@ -114,9 +106,13 @@ def main():
         if camera_angle is not None:
             knee_angles_all.append(camera_angle)
 
-    # Peak angle: mean across validated bottom-of-stroke peaks from all runs that
-    # have >= 2 detected peaks. Falls back to max() of raw series when no run
-    # has enough peaks for confident cycle detection.
+    # Peak angle selection strategy (requires knee_analysis.json):
+    #
+    #   peak_mean  -- used when >= PEAK_MEAN_MIN_PEAKS validated peaks exist.
+    #                 Reliable for long recordings (trainer) with many full cycles.
+    #   smooth_p80 -- 80th percentile of the smoothed series; used for short
+    #                 real-world pass-by windows where few peaks are detected.
+    #   max_fallback -- used only when knee_analysis.json is absent.
     peak_angle        = None
     peak_angle_method = "insufficient_data"
 
@@ -127,10 +123,18 @@ def main():
             if len(run.get("peaks", [])) >= 2
             for p in run["peaks"]
         ]
-        if usable_peaks:
-            peak_angles       = [p["angle"] for p in usable_peaks]
-            peak_angle        = sum(peak_angles) / len(peak_angles)
+        smoothed_angles = [
+            ang
+            for run in ka.get("runs", [])
+            for _, ang in run.get("angle_series", [])
+        ]
+
+        if len(usable_peaks) >= PEAK_MEAN_MIN_PEAKS:
+            peak_angle        = sum(p["angle"] for p in usable_peaks) / len(usable_peaks)
             peak_angle_method = "peak_mean"
+        elif smoothed_angles:
+            peak_angle        = float(np.percentile(smoothed_angles, 80))
+            peak_angle_method = "smooth_p80"
 
     if peak_angle is None and knee_angles_all:
         peak_angle        = max(knee_angles_all)
@@ -142,28 +146,28 @@ def main():
     std_angle      = None
 
     if knee_angles_all:
-        mean_angle = sum(knee_angles_all) / len(knee_angles_all)
-        variance   = sum((a - mean_angle) ** 2 for a in knee_angles_all) / len(knee_angles_all)
-        std_angle  = math.sqrt(variance)
+        arr        = np.array(knee_angles_all)
+        mean_angle = float(arr.mean())
+        std_angle  = float(arr.std())
 
     if peak_angle is not None:
         if peak_angle < KNEE_OPTIMAL_LOW:
             verdict = "too_low"
             verdict_detail = (
                 f"Peak knee extension {peak_angle:.1f}° is below {KNEE_OPTIMAL_LOW}°. "
-                "Seat is likely too low — raise saddle height."
+                "Seat is likely too low -- raise saddle height."
             )
         elif peak_angle > KNEE_OPTIMAL_HIGH:
             verdict = "too_high"
             verdict_detail = (
                 f"Peak knee extension {peak_angle:.1f}° exceeds {KNEE_OPTIMAL_HIGH}°. "
-                "Seat is likely too high — risk of over-extension, lower saddle height."
+                "Seat is likely too high -- risk of over-extension, lower saddle height."
             )
         else:
             verdict = "optimal"
             verdict_detail = (
                 f"Peak knee extension {peak_angle:.1f}° is within the optimal range "
-                f"({KNEE_OPTIMAL_LOW}–{KNEE_OPTIMAL_HIGH}°)."
+                f"({KNEE_OPTIMAL_LOW}-{KNEE_OPTIMAL_HIGH}°)."
             )
 
     output = {
@@ -191,7 +195,7 @@ def main():
     print(f"Peak extension          : {s['knee_angle_peak']}°  [{peak_angle_method}]")
     print(f"Verdict                 : {s['verdict'].upper()}")
     print(f"Detail                  : {s['verdict_detail']}")
-    print(f"Assessment saved        → {out_path}")
+    print(f"Assessment saved        : {out_path}")
 
 
 if __name__ == "__main__":

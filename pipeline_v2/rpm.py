@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 """
-Pipeline V2 — Stage 5: RPM (cadence) from knee cycle analysis.
-Reads validated pedal cycle peaks from knee_analysis.json (Stage 3). For each
-run with >= 2 peaks, computes inter-peak periods; all periods are pooled and
-averaged to give a single cadence RPM. Falls back to autocorrelation from the
-first run that has a valid autocorr period when no run has >= 2 peaks.
+Pipeline V2 Stage 5: cadence RPM from knee_analysis.json.
+Pools inter-peak periods from all usable runs; falls back to autocorrelation
+when no run has >= 2 peaks.
 
 Usage: python3 rpm.py <video_knee_analysis.json>
 Output: output_v2/<stem>/<stem>_rpm.json
@@ -18,7 +16,7 @@ from utils import video_stem
 
 
 def main():
-    """Parse arguments, compute cadence RPM from knee_analysis runs, write rpm.json."""
+    """Computes cadence RPM from knee_analysis peaks or autocorrelation; writes rpm.json."""
     if len(sys.argv) < 2:
         print("Usage: python3 rpm.py <video_knee_analysis.json>")
         sys.exit(1)
@@ -38,9 +36,9 @@ def main():
     run_info  = ka.get("best_run", {})
 
     if direction:
-        print(f"Direction of travel    : {direction}  →  using {knee_used} knee (camera-facing side)")
+        print(f"Direction of travel    : {direction}  (using {knee_used} knee, camera-facing side)")
     else:
-        print("Direction of travel    : unknown — defaulting to right knee")
+        print("Direction of travel    : unknown -- defaulting to right knee")
 
     # Collect inter-peak periods from every run that has >= 2 peaks
     all_periods  = []
@@ -130,12 +128,12 @@ def main():
         parts = ", ".join(f"{r['rpm']} RPM (run {r['run_id']}, {r['peak_count']} peaks)" for r in per_run_rpms)
         print(f"Per-run RPM            : {parts}")
     if cadence_rpm is not None:
-        suffix = f"  ±{std_dev_rpm}" if std_dev_rpm else ""
+        suffix = f"  +/-{std_dev_rpm}" if std_dev_rpm else ""
         label  = "mean across runs" if len(per_run_rpms) > 1 else peak_method
         print(f"Cadence                : {cadence_rpm} RPM{suffix}  [{label}]")
     else:
         print("Cadence                : insufficient data (need >= 2 peaks or clear autocorrelation period)")
-    print(f"RPM saved              → {out_path}")
+    print(f"RPM saved              : {out_path}")
 
 
 if __name__ == "__main__":

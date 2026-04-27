@@ -1,0 +1,8 @@
+threshold,b_using_peak_mean,b_using_smooth_p80,a_using_peak_mean,a_using_smooth_p80,total_agreement,agreement_pct
+3,5,14,20,0,12,63.2
+5,1,18,20,0,14,73.7
+8,0,19,20,0,15,78.9
+10,0,19,20,0,15,78.9
+12,0,19,20,0,15,78.9
+15,0,19,20,0,15,78.9
+20,0,19,19,1,15,78.9

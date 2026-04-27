@@ -1,18 +1,9 @@
 #!/usr/bin/env python3
 """
-Pipeline V2 — Stage 2: Pose estimation on selected frames.
-Reads frame images listed in selection_log.json, runs OpenPose on each,
-and saves 25-joint Body25 keypoints to keypoints.json.
-
-Preprocessing applied before OpenPose (vs Pipeline 1 baseline):
-  1. ROI crop to YOLO cyclist bounding box
-  2. CLAHE on LAB L-channel (lighting normalisation)
-  3. Unsharp mask (counteracts lateral motion blur)
-  4. Square-pad before inference (preserves aspect ratio)
-  5. net_resolution=656x368 (better joint localisation on small subjects)
-
-Keypoints are transformed back to original-frame coordinates so downstream
-stages (seat_height, rpm, annotate_output) work without modification.
+Pipeline V2 Stage 2: pose estimation on selected frames.
+Reads frame images from selection_log.json and runs OpenPose with preprocessing:
+ROI crop, CLAHE, unsharp mask, square pad. Transforms keypoints back to
+original-frame coordinates.
 
 Usage: python3 pose_estimate.py <video_selection_log.json>
 Output: output_v2/<stem>/<stem>_keypoints.json
@@ -54,7 +45,7 @@ JOINT_NAMES = [
 
 
 def median_cyclist_aspect(entries):
-    """Return median height/width ratio from entries that have a cyclist_box."""
+    """Returns median height/width ratio from entries that have a cyclist_box."""
     ratios = []
     for e in entries:
         box = e.get("cyclist_box")
@@ -69,9 +60,9 @@ def median_cyclist_aspect(entries):
 
 
 def estimate_cyclist_box(entry, aspect):
-    """Estimate cyclist box from wheel positions + known aspect ratio when cyclist_box is missing."""
-    fw_box = entry["front_wheel_box"]
-    bw_box = entry["back_wheel_box"]
+    """Estimates cyclist box from wheel positions when cyclist_box is missing."""
+    fw_box = entry["fw_box"]
+    bw_box = entry["bw_box"]
     x_left       = min(fw_box[0], bw_box[0])
     x_right      = max(fw_box[2], bw_box[2])
     wheel_bottom = max(fw_box[3], bw_box[3])
@@ -81,7 +72,7 @@ def estimate_cyclist_box(entry, aspect):
 
 
 def compute_roi(box, frame_h, frame_w):
-    """Return (x1, y1, x2, y2) padded crop region from [cx1, cy1, cx2, cy2] box."""
+    """Returns padded crop region (x1, y1, x2, y2) from a cyclist box."""
     cx1, cy1, cx2, cy2 = box
     margin = int(0.05 * max(cx2 - cx1, cy2 - cy1))
     x1 = max(0, cx1 - margin)
@@ -92,7 +83,7 @@ def compute_roi(box, frame_h, frame_w):
 
 
 def apply_clahe(img):
-    """CLAHE on the L channel of LAB colour space."""
+    """Applies CLAHE to LAB L-channel; returns result."""
     lab = cv2.cvtColor(img, cv2.COLOR_BGR2LAB)
     l, a, b = cv2.split(lab)
     clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
@@ -101,13 +92,13 @@ def apply_clahe(img):
 
 
 def apply_unsharp(img, strength=0.5):
-    """Unsharp mask to counteract motion blur."""
+    """Applies unsharp mask to counteract lateral motion blur; returns result."""
     blur = cv2.GaussianBlur(img, (0, 0), 3)
     return cv2.addWeighted(img, 1.0 + strength, blur, -strength, 0)
 
 
 def square_pad(img):
-    """Pad img to square with black bars. Returns (padded, pad_left, pad_top)."""
+    """Pads img to a square; returns (padded, pad_left, pad_top)."""
     h, w = img.shape[:2]
     s = max(h, w)
     pad_top  = (s - h) // 2
@@ -120,7 +111,7 @@ def square_pad(img):
 
 
 def make_panel(img, label):
-    """Resize img to STEP_H height and attach a white label bar below it."""
+    """Resizes img to STEP_H height and attaches a label bar below; returns panel."""
     h, w = img.shape[:2]
     new_w = max(1, int(w * STEP_H / h))
     panel = cv2.resize(img, (new_w, STEP_H), interpolation=cv2.INTER_AREA)
@@ -133,9 +124,9 @@ def make_panel(img, label):
 
 
 def save_step_montage(steps, out_path):
-    """
-    steps: list of (label, img) in pipeline order.
-    Saves a horizontal strip with labelled panels to out_path.
+    """Saves a horizontal strip of labelled preprocessing panels to out_path.
+
+    steps: list of (label, img) pairs in pipeline order.
     """
     panels = [make_panel(img, label) for label, img in steps]
     montage = np.hstack(panels)
@@ -143,7 +134,7 @@ def save_step_montage(steps, out_path):
 
 
 def main():
-    """Parse arguments, run OpenPose with preprocessing on selected frames, write keypoints.json."""
+    """Runs OpenPose with preprocessing on selected frames; writes keypoints.json."""
     if len(sys.argv) < 2:
         print("Usage: python3 pose_estimate.py <video_selection_log.json>")
         sys.exit(1)
@@ -187,7 +178,7 @@ def main():
             print(f"  [WARN] No cyclist_box for frame {entry['frame_idx']}, estimating from wheel boxes")
         cyclist_box = entry["cyclist_box"] if has_cyclist_box else estimate_cyclist_box(entry, fallback_aspect)
 
-        # Step 1 — original frame with box highlighted (green=detected, yellow=estimated)
+        # Step 1 -- original frame with box highlighted (green=detected, yellow=estimated)
         x1, y1, x2, y2 = compute_roi(cyclist_box, fh, fw)
         annotated = frame.copy()
         cx1, cy1, cx2, cy2 = cyclist_box
@@ -196,16 +187,16 @@ def main():
         cv2.rectangle(annotated, (cx1, cy1), (cx2, cy2), box_colour, 3)
         step_original = annotated
 
-        # Step 2 — ROI crop (raw)
+        # Step 2 -- ROI crop (raw)
         crop_raw = frame[y1:y2, x1:x2].copy()
 
-        # Step 3 — after CLAHE
+        # Step 3 -- after CLAHE
         crop_clahe = apply_clahe(crop_raw)
 
-        # Step 4 — after unsharp mask
+        # Step 4 -- after unsharp mask
         crop_sharp = apply_unsharp(crop_clahe)
 
-        # Step 5 — square padded (what OpenPose sees)
+        # Step 5 -- square padded (what OpenPose sees)
         padded, pad_left, pad_top = square_pad(crop_sharp)
 
         save_step_montage(
@@ -232,7 +223,7 @@ def main():
             kp = datum.poseKeypoints[0]
             for j, name in enumerate(JOINT_NAMES):
                 px, py, c = float(kp[j][0]), float(kp[j][1]), float(kp[j][2])
-                # Transform back: padded-square coords → crop coords → original-frame coords
+                # Transform back: padded-square coords -> crop coords -> original-frame coords
                 ox = px - pad_left + x1
                 oy = py - pad_top  + y1
                 keypoints.append([round(ox, 2), round(oy, 2), round(c, 4)])
@@ -283,8 +274,8 @@ def main():
     m = output["metrics"]
     print(f"Frames processed   : {m['frames_processed']}")
     print(f"Avg inference time : {m['avg_inference_time_ms']}ms/frame")
-    print(f"Step montages      → {steps_dir}/")
-    print(f"Keypoints saved    → {out_path}")
+    print(f"Step montages      : {steps_dir}/")
+    print(f"Keypoints saved    : {out_path}")
 
 
 if __name__ == "__main__":

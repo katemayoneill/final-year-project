@@ -662,13 +662,13 @@
     "knee_angles_count": 82,
     "knee_angle_mean": 123.49,
     "knee_angle_std": 27.48,
-    "knee_angle_peak": 159.28,
-    "peak_angle_method": "peak_mean",
+    "knee_angle_peak": 152.44,
+    "peak_angle_method": "smooth_p80",
     "optimal_range": [
       145.0,
       155.0
     ],
-    "verdict": "too_high",
-    "verdict_detail": "Peak knee extension 159.3\u00b0 exceeds 155.0\u00b0. Seat is likely too high \u2014 risk of over-extension, lower saddle height."
+    "verdict": "optimal",
+    "verdict_detail": "Peak knee extension 152.4\u00b0 is within the optimal range (145.0\u2013155.0\u00b0)."
   }
 }
