@@ -94,25 +94,25 @@ roman       60    too_low            143.2  optimal            154.0  N
 ── Seat Height Evaluation — Pipeline V2 ─────────────────────────────────
 Subject     Grp   Verdict (a)   Peak° (a)   Verdict (b)   Peak° (b)   Match
 ----------  ----  ------------  ----------  ------------  ----------  -----
-alex        30    too_low            129.1  too_high           167.2  N    
-alex        60    too_low            127.5  too_high           176.2  N    
-dervla      30    too_high           159.4  too_high           171.7  Y    
-dervla      60    optimal            147.4  too_high           155.9  N    
-hannah      30    too_low            137.6  too_low            141.6  Y    
-hannah      60    too_low            129.0  too_low            127.7  Y    
-jack        30    too_low            135.3  too_high           164.1  N    
-jack        60    too_low            136.3  too_high           168.4  N    
-jane        30    optimal            153.1  too_high           161.8  N    
-jenny       30    optimal            146.7  too_high           159.3  N    
-jenny       60    optimal            147.0  too_high           159.4  N    
-kate        30    too_low            135.0  optimal            151.0  N    
-kate        60    too_low            138.3  too_low            136.8  Y    
-liam        30    too_low            128.8  optimal            147.5  N    
-liam        60    too_low            124.9  optimal            145.8  N    
-paddy       30    too_low            126.1  too_low            139.2  Y    
-paddy       60    too_low            127.5  too_low            139.4  Y    
-roman       30    too_low            144.0  optimal            147.7  N    
-roman       60    too_low            137.8  optimal            149.5  N    
+alex        30    too_low            129.1  too_low            133.4  Y    
+alex        60    too_low            127.5  too_low            138.1  Y    
+dervla      30    too_high           159.4  optimal            147.6  N    
+dervla      60    optimal            147.4  optimal            150.7  Y    
+hannah      30    too_low            137.6  too_low            133.2  Y    
+hannah      60    too_low            129.0  too_low            121.5  Y    
+jack        30    too_low            135.3  too_low            142.4  Y    
+jack        60    too_low            136.3  too_high           157.5  N    
+jane        30    optimal            153.1  too_high           165.5  N    
+jenny       30    optimal            146.7  optimal            152.4  Y    
+jenny       60    optimal            147.0  too_low            144.6  N    
+kate        30    too_low            135.0  too_low            143.2  Y    
+kate        60    too_low            138.3  too_low            129.7  Y    
+liam        30    too_low            128.8  too_low            132.8  Y    
+liam        60    too_low            124.9  too_low            135.3  Y    
+paddy       30    too_low            126.1  too_low            129.7  Y    
+paddy       60    too_low            127.5  too_low            128.1  Y    
+roman       30    too_low            144.0  too_low            133.0  Y    
+roman       60    too_low            137.8  too_low            136.8  Y    
 
-  Verdict agreement: 6/19 (32%)
-  Peak angle delta (a vs b): mean=16.1°  max=48.7°
+  Verdict agreement: 15/19 (79%)
+  Peak angle delta (a vs b): mean=7.3°  max=21.2°

@@ -807,13 +807,7 @@
       "frame_idx_end": 1762,
       "frame_count": 32,
       "duration_sec": 0.52,
-      "peaks": [
-        {
-          "frame_idx": 1755,
-          "timestamp": 29.266,
-          "angle": 136.14
-        }
-      ],
+      "peaks": [],
       "peak_method": "peak_detection",
       "autocorr_period_sec": null,
       "angle_series": [
@@ -975,11 +969,6 @@
       "frame_idx": 1100,
       "timestamp": 18.3434,
       "angle": 142.63
-    },
-    {
-      "frame_idx": 1755,
-      "timestamp": 29.266,
-      "angle": 136.14
     }
   ],
   "peak_method": "peak_detection",
@@ -1858,7 +1847,7 @@
     "frames_with_angle": 217,
     "total_runs": 4,
     "usable_runs": 2,
-    "peaks_found": 5,
+    "peaks_found": 4,
     "time_span_sec": 4.24
   }
 }

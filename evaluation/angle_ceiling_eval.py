@@ -23,6 +23,7 @@ Usage:
 
 import argparse
 import json
+import math
 import os
 import re
 import sys
@@ -34,6 +35,9 @@ import numpy as np
 OPTIMAL_LOW  = 145.0
 OPTIMAL_HIGH = 155.0
 PERCENTILES  = [80, 85, 90, 92, 95]
+CONF_MIN     = 0.1
+
+_JOINT = {"RHip": 9, "RKnee": 10, "RAnkle": 11, "LHip": 12, "LKnee": 13, "LAnkle": 14}
 
 
 def verdict(deg):
@@ -62,19 +66,47 @@ def parse_stem(stem):
 
 
 def load_data(v2_dir, stem):
-    """Load assessment + knee_analysis for a stem. Returns None if either missing."""
+    """Load assessment, knee_analysis, and keypoints for a stem. Returns None if assessment or knee_analysis missing."""
     base = os.path.join(v2_dir, stem)
-    ap = os.path.join(base, f"{stem}_assessment.json")
-    kp = os.path.join(base, f"{stem}_knee_analysis.json")
-    if not os.path.exists(ap) or not os.path.exists(kp):
+    ap  = os.path.join(base, f"{stem}_assessment.json")
+    kap = os.path.join(base, f"{stem}_knee_analysis.json")
+    kpp = os.path.join(base, f"{stem}_keypoints.json")
+    if not os.path.exists(ap) or not os.path.exists(kap):
         return None
-    return load_json(ap), load_json(kp)
+    kp_data = load_json(kpp) if os.path.exists(kpp) else None
+    return load_json(ap), load_json(kap), kp_data
 
 
-def get_raw_angles(assess, knee):
-    """Per-frame raw angle series for the given knee from assessment.json."""
-    key = f"{knee}_knee_angle"
-    return np.array([fr[key] for fr in assess["frames"] if fr.get(key) is not None], dtype=float)
+def _get_xy(kp, idx):
+    if idx < len(kp) and kp[idx][2] >= CONF_MIN:
+        return (kp[idx][0], kp[idx][1])
+    return None
+
+
+def _calc_angle(a, b, c):
+    ax, ay = a[0] - b[0], a[1] - b[1]
+    cx, cy = c[0] - b[0], c[1] - b[1]
+    mag = math.sqrt(ax**2 + ay**2) * math.sqrt(cx**2 + cy**2)
+    if mag == 0:
+        return None
+    return math.degrees(math.acos(max(-1.0, min(1.0, (ax*cx + ay*cy) / mag))))
+
+
+def get_raw_angles(kp_data, knee):
+    """Per-frame raw angle series for the given knee computed from keypoints.json."""
+    if kp_data is None:
+        return np.array([], dtype=float)
+    side   = "R" if knee == "right" else "L"
+    hi, ki, ai = _JOINT[side + "Hip"], _JOINT[side + "Knee"], _JOINT[side + "Ankle"]
+    angles = []
+    for frame in kp_data["frames"]:
+        kp = frame.get("keypoints", [])
+        h, k, a = _get_xy(kp, hi), _get_xy(kp, ki), _get_xy(kp, ai)
+        if h and k and a:
+            ang = _calc_angle(h, k, a)
+            if ang is not None:
+                angles.append(ang)
+    return np.array(angles, dtype=float)
 
 
 def get_smoothed_angles(knee_data):
@@ -89,12 +121,12 @@ def get_smoothed_angles(knee_data):
     return np.array(angles, dtype=float) if angles else np.array([], dtype=float)
 
 
-def compute_strategies(assess, knee_data):
+def compute_strategies(assess, knee_data, kp_data=None):
     """
     Return a dict of peak values for every strategy, keyed by strategy name.
     """
     knee     = knee_data.get("knee_used", "right")
-    raw      = get_raw_angles(assess, knee)
+    raw      = get_raw_angles(kp_data, knee)
     smoothed = get_smoothed_angles(knee_data)
     current  = assess["summary"].get("knee_angle_peak")
 
@@ -134,7 +166,7 @@ def run(v2_dir):
         for a_stem in sorted(conds["a"]):
             data = load_data(v2_dir, a_stem)
             if data:
-                peak = data[0]["summary"].get("knee_angle_peak")
+                peak = data[0]["summary"].get("knee_angle_peak")  # data[0] is assess
                 if peak is not None:
                     a_ref_verdict = verdict(peak)
                     break
@@ -143,8 +175,8 @@ def run(v2_dir):
             data = load_data(v2_dir, b_stem)
             if data is None:
                 continue
-            assess, knee_data = data
-            strategies = compute_strategies(assess, knee_data)
+            assess, knee_data, kp_data = data
+            strategies = compute_strategies(assess, knee_data, kp_data)
 
             if strategy_order is None:
                 strategy_order = list(strategies.keys())

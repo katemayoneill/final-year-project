@@ -1,3 +1,7 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
 # Final Year Project — Cycling Posture Analysis
 
 ## Project Overview
@@ -50,7 +54,7 @@ smartphone_video.mp4
 **Pipeline V2 (6 stages):**
 ```
 smartphone_video.mp4
-  → side_angle_select.py  → output_v2/<stem>/<stem>_selected_frames/
+  → side_angle.py         → output_v2/<stem>/<stem>_selected_frames/
   │                          output_v2/<stem>/<stem>_selection_log.json
   │   (YOLO on every frame — cheap, runs locally or on pod)
   │   Detects when both wheels visible + near-square aspect ratio;
@@ -72,14 +76,12 @@ smartphone_video.mp4
   │   array + aggregated peaks + angle_series
   │
   → seat_height.py        → output_v2/<stem>/<stem>_assessment.json
-  │   (Reads keypoints.json for per-frame angles + knee_analysis.json
-  │   for peak selection)
+  │   (Reads knee_analysis.json only — no keypoints re-read)
   │   peak_mean  : used when >=10 validated peaks exist across usable runs
   │               (long/trainer recordings with many complete cycles)
   │   smooth_p80 : 80th percentile of the SG-smoothed angle series; used
   │               for short real-world pass-by windows with <10 peaks —
   │               clips perspective-distortion inflation without trainer data
-  │   max_fallback: raw max if knee_analysis.json absent
   │
   → rpm.py                → output_v2/<stem>/<stem>_rpm.json
   │   (Reads knee_analysis.json only)
@@ -178,7 +180,7 @@ python3 pipeline/annotate_output.py  <video.mp4>  output/<stem>/<stem>_keypoints
 
 **Pipeline V2 — individual stages:**
 ```bash
-python3 pipeline_v2/side_angle_select.py  <video.mp4> [best.pt]
+python3 pipeline_v2/side_angle.py  <video.mp4> [best.pt]
 # → output_v2/<stem>/<stem>_selected_frames/  +  output_v2/<stem>/<stem>_selection_log.json
 
 python3 pipeline_v2/pose_estimate.py  output_v2/<stem>/<stem>_selection_log.json
@@ -187,8 +189,8 @@ python3 pipeline_v2/pose_estimate.py  output_v2/<stem>/<stem>_selection_log.json
 python3 pipeline_v2/knee_analysis.py  output_v2/<stem>/<stem>_keypoints.json
 # → output_v2/<stem>/<stem>_knee_analysis.json
 
-python3 pipeline_v2/seat_height.py  output_v2/<stem>/<stem>_keypoints.json
-# → output_v2/<stem>/<stem>_assessment.json  (auto-reads knee_analysis.json from same dir)
+python3 pipeline_v2/seat_height.py  output_v2/<stem>/<stem>_knee_analysis.json
+# → output_v2/<stem>/<stem>_assessment.json
 
 python3 pipeline_v2/rpm.py  output_v2/<stem>/<stem>_knee_analysis.json
 # → output_v2/<stem>/<stem>_rpm.json
@@ -215,11 +217,11 @@ All pipeline_v2 scripts import shared helpers from **`pipeline_v2/utils.py`** (`
 
 | Script | Input | Output | Key logic / V2 changes |
 |---|---|---|---|
-| `utils.py` *(V2 only)* | — | — | Shared helpers: `CONF_MIN`, `calc_angle`, `get_xy`, `video_stem`, `print_progress` |
-| `side_angle_select.py` | video.mp4 | selection_log.json + frame images | **Quality-weighted burst selection**: scores each burst as `len × mean_squareness × mean_size_ratio × mean_normalised_cyclist_height`; keeps all bursts scoring ≥ `QUALITY_FRACTION` (50%) of best burst with ≥ `MIN_BURST_FRAMES` (5); adds `selected_bursts` metadata to log; also saves `cyclist_box` per frame |
+| `utils.py` *(V2 only)* | — | — | Shared helpers: `CONF_MIN`, `calc_angle`, `get_xy`, `video_stem`, `print_progress` — note: `seat_height.py` only imports `video_stem` |
+| `side_angle.py` | video.mp4 | selection_log.json + frame images | **Quality-weighted burst selection**: scores each burst as `len × mean_squareness × mean_size_ratio × mean_normalised_cyclist_height`; keeps all bursts scoring ≥ `QUALITY_FRACTION` (50%) of best burst with ≥ `MIN_BURST_FRAMES` (5); adds `selected_bursts` metadata to log; also saves `cyclist_box` per frame |
 | `pose_estimate.py` | selection_log.json | keypoints.json | **ROI crop to cyclist box, CLAHE, unsharp mask, square pad, net_resolution=656x368; keypoints transformed back to original-frame coordinates; step montages saved to `_preprocessing_steps/`**; if a selected frame has no `cyclist_box` (YOLO detected wheels but not cyclist class), estimates crop from wheel positions + median h/w aspect ratio of frames that do have a box — preserves scale rather than skipping; estimated box drawn in yellow in montage vs green for detected |
-| `knee_analysis.py` *(V2 only)* | keypoints.json | knee_analysis.json | **Per-burst direction detection** from wheel x-positions (`load_direction_map`); knee selected independently per burst so opposing-direction bursts in the same clip are handled correctly; camera-facing knee selection; **processes every contiguous run independently** — Savitzky-Golay smoothing, adaptive-prominence peak detection (scipy), autocorrelation fallback per run; outputs `runs[]` array + aggregated `peaks` + `angle_series` at top level for downstream compat |
-| `seat_height.py` | keypoints.json (+ knee_analysis.json auto-read) | assessment.json | Per-frame angles same as P1; **adaptive peak selection: `peak_mean` (mean of validated bottom-of-stroke peaks) when ≥`PEAK_MEAN_MIN_PEAKS` (10) peaks exist — reliable for long trainer recordings; `smooth_p80` (80th percentile of SG-smoothed angle series from knee_analysis runs) for short real-world pass-by windows with <10 peaks — clips perspective-distortion inflation without requiring trainer reference data; `max_fallback` if knee_analysis absent; `peak_angle_method` field records which was used** |
+| `knee_analysis.py` *(V2 only)* | keypoints.json | knee_analysis.json | **Per-burst direction detection** from wheel x-positions (`load_direction_map`); knee selected independently per burst so opposing-direction bursts in the same clip are handled correctly; camera-facing knee selection; **processes every contiguous run independently** — Savitzky-Golay smoothing (`SAVGOL_WINDOW=11`), adaptive-prominence peak detection with `PEAK_PROMINENCE=25.0°` floor (scipy), autocorrelation fallback per run; outputs `runs[]` array + aggregated `peaks` + `angle_series` at top level for downstream compat |
+| `seat_height.py` | knee_analysis.json | assessment.json | **Reads knee_analysis.json only — no keypoints re-read; adaptive peak selection: `peak_mean` (mean of validated bottom-of-stroke peaks) when ≥`PEAK_MEAN_MIN_PEAKS` (10) peaks exist — reliable for long trainer recordings; `smooth_p80` (80th percentile of SG-smoothed angle series from knee_analysis runs) for short real-world pass-by windows with <10 peaks; `peak_angle_method` field records which was used; mean/std in summary derived from smoothed angle series** |
 | `rpm.py` | knee_analysis.json | rpm.json | **Pools all inter-peak periods from every run with ≥2 peaks → single mean cadence RPM**; autocorr fallback from first run with a valid period; adds `per_run_rpms` list; forwards aggregated angle_series + peak_timestamps for annotate |
 | `annotate_output.py` | video + 3 JSONs | _final.mp4 | **nvenc → libx264 fallback** on encode failure; graph layout pre-computed once before render loop |
 
@@ -239,8 +241,7 @@ Peak extension:
 - **Pipeline 1** — maximum knee angle across all selected frames (`max()`)
 - **Pipeline V2** — adaptive selection via `peak_angle_method`:
   - `peak_mean` — mean of validated bottom-of-stroke angles from all usable runs; used when ≥10 total validated peaks exist (typical of long trainer recordings with many complete cycles)
-  - `smooth_p80` — 80th percentile of the Savitzky-Golay smoothed angle series concatenated across all runs; used for short real-world pass-by windows (<10 peaks). Clips the inflated tail caused by perspective distortion without requiring trainer reference data. Evaluated against trainer videos as reference: 79% verdict agreement vs 32% for the previous `max_fallback`
-  - `max_fallback` — raw `max()` of per-frame series; used only when `knee_analysis.json` is absent
+  - `smooth_p80` — 80th percentile of the Savitzky-Golay smoothed angle series concatenated across all runs; used for short real-world pass-by windows (<10 peaks). Clips the inflated tail caused by perspective distortion without requiring trainer reference data. Evaluated against trainer videos as reference: 79% verdict agreement vs 53% for raw_p90.
 
 ### Intermediate file schemas
 
@@ -261,8 +262,10 @@ Peak extension:
       "front_squareness": 0.9823,
       "back_squareness": 0.9711,
       "size_match_ratio": 0.9542,
-      "front_wheel_box": [x1, y1, x2, y2],
-      "back_wheel_box":  [x1, y1, x2, y2],
+      "front_wheel_box": [x1, y1, x2, y2],  // P1 only
+      "back_wheel_box":  [x1, y1, x2, y2],  // P1 only
+      "fw_box":          [x1, y1, x2, y2],  // V2 only
+      "bw_box":          [x1, y1, x2, y2],  // V2 only
       "cyclist_box":     [x1, y1, x2, y2]   // V2 only
     }
   ],
@@ -270,8 +273,8 @@ Peak extension:
     {
       "burst_id": 0,
       "quality_score": 3.142,
-      "frame_idx_start": 321,
-      "frame_idx_end": 393,
+      "start_frame_idx": 321,
+      "end_frame_idx": 393,
       "frame_count": 73
     }
   ],
@@ -358,13 +361,16 @@ Peak extension:
 }
 ```
 
-`runs[].peak_method` is `"peak_detection"` when ≥2 peaks found in that run; `"autocorrelation"` when the autocorrelation fallback succeeded for that run. `peaks[].angle` is the raw (unsmoothed) knee angle at each detected bottom-of-stroke frame. `rpm.py` and `seat_height.py` consume `runs[]` directly; `annotate_output.py` uses the top-level `peaks` and `angle_series`.
+`runs[].peak_method` is `"peak_detection"` when ≥2 peaks found in that run; `"autocorrelation"` when the autocorrelation fallback succeeded for that run. `peaks[].angle` is the raw (unsmoothed) knee angle at each detected bottom-of-stroke frame. `rpm.py` and `seat_height.py` both consume `runs[]` directly (seat_height takes knee_analysis.json as its sole input); `annotate_output.py` uses the top-level `peaks` and `angle_series`.
 
 **`<video>_assessment.json`** — output of Stage 3 (P1) / Stage 4 (V2)
+
+Pipeline 1 format includes a `frames[]` array with per-frame knee and hip angles. V2 omits `frames[]` — all angle data lives in `knee_analysis.json`.
+
 ```json
 {
   "video": "alexb60.MOV",
-  "frames": [
+  "frames": [                          // Pipeline 1 only
     {
       "frame_idx": 321,
       "timestamp": 5.4149,
@@ -375,11 +381,11 @@ Peak extension:
     }
   ],
   "summary": {
-    "knee_angles_count": 73,
-    "knee_angle_mean": 111.26,
-    "knee_angle_std": 28.62,
+    "knee_angles_count": 73,           // V2: from knee_analysis metrics.frames_with_angle
+    "knee_angle_mean": 111.26,         // V2: mean of smoothed angle series
+    "knee_angle_std": 28.62,           // V2: std of smoothed angle series
     "knee_angle_peak": 162.7,
-    "peak_angle_method": "peak_mean",   // V2 only: "peak_mean" | "smooth_p80" | "max_fallback"
+    "peak_angle_method": "peak_mean",  // V2: "peak_mean" | "smooth_p80"
     "optimal_range": [145.0, 155.0],
     "verdict": "too_high",
     "verdict_detail": "Peak knee extension 162.7° exceeds 155.0°. ..."
@@ -428,7 +434,7 @@ Each script prints these on exit — quote directly in the report:
 | Stage | Script | Metrics printed |
 |---|---|---|
 | 1 | `side_angle_select.py` (P1) | frames processed, bursts found, frames selected (longest burst), selection rate, avg confidence, elapsed time |
-| 1 | `side_angle_select.py` (V2) | frames processed, total bursts found, bursts selected (with quality threshold), per-burst frame range + score, total frames selected, selection rate, avg confidence, elapsed time |
+| 1 | `side_angle.py` (V2) | frames processed, total bursts found, bursts selected (with quality threshold), per-burst frame range + score, total frames selected, selection rate, avg confidence, elapsed time |
 | 2 | `pose_estimate.py` | frames processed, avg inference time/frame, per-joint avg confidence |
 | 3 (V2) | `knee_analysis.py` | frames with angle, runs total / usable, per-run frame range + duration + peak count + method, total peaks |
 | 3 (P1) / 4 (V2) | `seat_height.py` | knee angle count, mean, std dev, peak, peak_angle_method, verdict + detail string |
@@ -481,17 +487,42 @@ Ground truth for RPM is measured manually in **Kinovea** from the `a` (trainer/c
 
 ### Files
 - `evaluation/ground_truth.csv` — one row per video: `video,true_rpm`. Fill in Kinovea RPM values here.
+- `evaluation/full_eval.py` — **comprehensive V2 evaluation report** (8 sections): dataset overview, RPM accuracy by condition/group/method, P1 vs V2 RPM comparison, trainer internal consistency (a30 vs a60), a/b seat-height verdict agreement by filming group, peak-angle method distribution, frame selection statistics, and failure cases. Output tee'd to `evaluation/full_eval.txt`. Use this for the report; `evaluate.py` is an older narrower summary.
 - `evaluation/evaluate.py` — runs both evaluations and prints a report table. Automatically detects which pipeline output directories exist and shows a side-by-side comparison when both are present.
 - `evaluation/compare_angles.py` — cross-video angle consistency comparison across both pipelines.
-- `evaluation/angle_ceiling_eval.py` — trainer-independent peak selection strategy evaluation. For each subject with paired a/b videos in `output_v2/`, compares `current_v2`, `smooth_max`, `smooth_p80`–`smooth_p95`, and `raw_p80`–`raw_p95` against the a-condition verdict as reference. Shows per-subject peak angles, verdict agreement counts, and correction of inflated `too_high` readings. Run with `python3 evaluation/angle_ceiling_eval.py [--v2 output_v2/]`.
+- `evaluation/angle_ceiling_eval.py` — trainer-independent peak selection strategy evaluation. For each subject with paired a/b videos in `output_v2/`, compares `current_v2`, `smooth_max`, `smooth_p80`–`smooth_p95`, and `raw_p80`–`raw_p95` against the a-condition verdict as reference. Raw angles computed directly from `keypoints.json` (not from `assessment.json`). Shows per-subject peak angles, verdict agreement counts, and correction of inflated `too_high` readings. Run with `python3 evaluation/angle_ceiling_eval.py [--v2 output_v2/]`.
+
+### Sensitivity Sweeps
+Scripts in `evaluation/sensitivity/` vary individual hyperparameters and report RPM MAE + seat-height agreement; results saved to `evaluation/sensitivity/results/`. All reconstruct raw angles from `_keypoints.json` — no OpenPose re-run needed.
+
+| Script | Parameter swept | Values |
+|---|---|---|
+| `sweep_savgol.py` | Savitzky-Golay window (`SAVGOL_WINDOW`) | 7, 9, 11, 13, 15 |
+| `sweep_prominence.py` | Minimum adaptive peak prominence (`PEAK_PROMINENCE`) | 10, 15, 20, 25, 30° |
+| `sweep_quality_fraction.py` | Burst keep threshold (`QUALITY_FRACTION`) | 0.5–1.0 (raising only; lowering requires re-running YOLO) |
+| `sweep_square_tol.py` | Wheel squareness gate (`SQUARE_TOL`) | 0.08, 0.10, 0.12, 0.15 (simulated from logs); 0.18 requires YOLO re-run |
+| `sweep_percentile.py` | Percentile used in `smooth_pN` strategy | varies |
+| `sweep_peak_threshold.py` | Peak detection threshold | varies |
+
+```bash
+python3 evaluation/sensitivity/sweep_savgol.py        [--v2 output_v2/] [--gt evaluation/ground_truth.csv]
+python3 evaluation/sensitivity/sweep_prominence.py    [--v2 output_v2/] [--gt evaluation/ground_truth.csv]
+python3 evaluation/sensitivity/sweep_quality_fraction.py [--v2 output_v2/] [--gt evaluation/ground_truth.csv]
+python3 evaluation/sensitivity/sweep_square_tol.py    [--v2 output_v2/] [--gt evaluation/ground_truth.csv]
+```
+
+`evaluation/sensitivity/preprocessing_ablation_visual.py` — qualitative only (no numerical ablation). Selects representative preprocessing montage frames from `_preprocessing_steps/` and copies them into `evaluation/sensitivity/results/preprocessing_examples/` for inclusion in the report. Run with `python3 evaluation/sensitivity/preprocessing_ablation_visual.py [--v2 output_v2/]`.
 
 ### Usage
 ```bash
-# From project root (auto-detects output/ and output_v2/):
-python3 evaluation/evaluate.py
+# Comprehensive evaluation (preferred for report — 8-section output):
+python3 evaluation/full_eval.py
 
 # Optional overrides:
-python3 evaluation/evaluate.py --gt evaluation/ground_truth.csv --videos output/ --videos-v2 output_v2/
+python3 evaluation/full_eval.py --v2 output_v2/ --v1 output/ --gt evaluation/ground_truth.csv
+
+# Narrower side-by-side P1/V2 comparison:
+python3 evaluation/evaluate.py
 
 # Angle consistency comparison across all videos and both pipelines:
 python3 evaluation/compare_angles.py
@@ -672,7 +703,7 @@ python3 -m pydoc pipeline.rpm | pandoc -f plain -o pipeline.rpm.pdf
 - [x] Sinusoidal extrapolation for missing bottom-of-stroke — considered, rejected. Unreliable on the short/noisy windows where it would be needed; acknowledged as a known limitation in the report instead.
 - [x] Fill in evaluation/ground_truth.csv with Kinovea RPM measurements
 - [x] Preprocessing experiments in Pipeline V2 (`pipeline_v2/pose_estimate.py`) — keep Pipeline 1 as baseline for comparison:
-  - [x] ROI crop to YOLO cyclist bounding box — `side_angle_select.py` now saves `cyclist_box`; `pose_estimate.py` crops to it
+  - [x] ROI crop to YOLO cyclist bounding box — `side_angle.py` now saves `cyclist_box`; `pose_estimate.py` crops to it
   - [x] Motion deblur / unsharp mask to counteract lateral motion blur from pass-by footage
   - [x] CLAHE on LAB L-channel for variable outdoor lighting
   - [x] Pad crop to square before resizing to net_resolution (avoid aspect ratio distortion)
@@ -682,6 +713,14 @@ python3 -m pydoc pipeline.rpm | pandoc -f plain -o pipeline.rpm.pdf
 ## Evaluation Findings & Implementation Notes
 
 This section records what was learned from systematic evaluation of the final V2 implementation across the full 10-subject dataset. All figures are from the `output_v2/` outputs with the final `smooth_p80` seat height implementation.
+
+### Hyperparameter tuning decisions
+
+**`PEAK_PROMINENCE` (knee_analysis.py): changed 20.0 → 25.0°**
+Prominence sweep showed monotonic RPM MAE improvement from 10° (MAE 9.06) to 30° (MAE 7.49) with seat-height verdict agreement constant at 79% across the entire range and no change in coverage (n=15 throughout). 25° chosen over 30° because mean peaks/video drops to 2.00 at 30° — only one inter-peak period per video on average, giving zero noise averaging and making any single misdetected peak catastrophic. At 25°: MAE 8.52, mean peaks 2.11, same n=15 and 79% SH agreement as production.
+
+**`SQUARE_TOL` (side_angle.py): kept at 0.15**
+Tightening from 0.15 to 0.08/0.10/0.12 was evaluated post-hoc from stored per-frame squareness values in selection logs (0.18 cannot be simulated without re-running YOLO). Results: tol=0.08 drops RPM coverage from 15 to 7 videos; tol=0.10 gives 11 videos; tol=0.12 reaches 14 videos with SH agreement improving to 16/19 but RPM MAE worsening from 8.99 to 9.72. No tighter threshold improves RPM MAE by ≥0.5 RPM while maintaining ≥14 coverage — 0.15 is the best operating point. Perspective-distortion mismatches in seat height are not caused by off-axis frames that a stricter gate would reject.
 
 ### RPM evaluation results (V2 final)
 

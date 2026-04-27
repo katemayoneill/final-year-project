@@ -8,18 +8,18 @@
       "frame_idx": 656,
       "timestamp": 10.9388,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000656.jpg",
-      "front_wheel_conf": 0.901,
-      "back_wheel_conf": 0.9057,
-      "front_squareness": 0.9697,
-      "back_squareness": 0.8857,
-      "size_match_ratio": 0.9733,
-      "front_wheel_box": [
+      "fw_conf": 0.901,
+      "bw_conf": 0.9057,
+      "fw_squareness": 0.9697,
+      "bw_squareness": 0.8857,
+      "wheel_size_ratio": 0.9733,
+      "fw_box": [
         379,
         236,
         411,
         269
       ],
-      "back_wheel_box": [
+      "bw_box": [
         425,
         235,
         456,
@@ -36,18 +36,18 @@
       "frame_idx": 657,
       "timestamp": 10.9555,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000657.jpg",
-      "front_wheel_conf": 0.8997,
-      "back_wheel_conf": 0.906,
-      "front_squareness": 0.9697,
-      "back_squareness": 0.8857,
-      "size_match_ratio": 0.9733,
-      "front_wheel_box": [
+      "fw_conf": 0.8997,
+      "bw_conf": 0.906,
+      "fw_squareness": 0.9697,
+      "bw_squareness": 0.8857,
+      "wheel_size_ratio": 0.9733,
+      "fw_box": [
         379,
         236,
         411,
         269
       ],
-      "back_wheel_box": [
+      "bw_box": [
         425,
         235,
         456,
@@ -64,18 +64,18 @@
       "frame_idx": 658,
       "timestamp": 10.9721,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000658.jpg",
-      "front_wheel_conf": 0.8991,
-      "back_wheel_conf": 0.9062,
-      "front_squareness": 0.9697,
-      "back_squareness": 0.9143,
-      "size_match_ratio": 0.9429,
-      "front_wheel_box": [
+      "fw_conf": 0.8991,
+      "bw_conf": 0.9062,
+      "fw_squareness": 0.9697,
+      "bw_squareness": 0.9143,
+      "wheel_size_ratio": 0.9429,
+      "fw_box": [
         379,
         236,
         411,
         269
       ],
-      "back_wheel_box": [
+      "bw_box": [
         424,
         235,
         456,
@@ -92,18 +92,18 @@
       "frame_idx": 659,
       "timestamp": 10.9888,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000659.jpg",
-      "front_wheel_conf": 0.9023,
-      "back_wheel_conf": 0.9041,
-      "front_squareness": 0.9697,
-      "back_squareness": 0.9143,
-      "size_match_ratio": 0.9429,
-      "front_wheel_box": [
+      "fw_conf": 0.9023,
+      "bw_conf": 0.9041,
+      "fw_squareness": 0.9697,
+      "bw_squareness": 0.9143,
+      "wheel_size_ratio": 0.9429,
+      "fw_box": [
         379,
         236,
         411,
         269
       ],
-      "back_wheel_box": [
+      "bw_box": [
         424,
         235,
         456,
@@ -120,18 +120,18 @@
       "frame_idx": 660,
       "timestamp": 11.0055,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000660.jpg",
-      "front_wheel_conf": 0.9008,
-      "back_wheel_conf": 0.9039,
-      "front_squareness": 0.9697,
-      "back_squareness": 0.8857,
-      "size_match_ratio": 0.9733,
-      "front_wheel_box": [
+      "fw_conf": 0.9008,
+      "bw_conf": 0.9039,
+      "fw_squareness": 0.9697,
+      "bw_squareness": 0.8857,
+      "wheel_size_ratio": 0.9733,
+      "fw_box": [
         379,
         236,
         411,
         269
       ],
-      "back_wheel_box": [
+      "bw_box": [
         424,
         235,
         455,
@@ -148,18 +148,18 @@
       "frame_idx": 661,
       "timestamp": 11.0222,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000661.jpg",
-      "front_wheel_conf": 0.9026,
-      "back_wheel_conf": 0.8993,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9143,
-      "size_match_ratio": 0.9143,
-      "front_wheel_box": [
+      "fw_conf": 0.9026,
+      "bw_conf": 0.8993,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9143,
+      "wheel_size_ratio": 0.9143,
+      "fw_box": [
         379,
         237,
         411,
         269
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         235,
         455,
@@ -176,18 +176,18 @@
       "frame_idx": 662,
       "timestamp": 11.0388,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000662.jpg",
-      "front_wheel_conf": 0.8328,
-      "back_wheel_conf": 0.8892,
-      "front_squareness": 0.9697,
-      "back_squareness": 0.9143,
-      "size_match_ratio": 0.9429,
-      "front_wheel_box": [
+      "fw_conf": 0.8328,
+      "bw_conf": 0.8892,
+      "fw_squareness": 0.9697,
+      "bw_squareness": 0.9143,
+      "wheel_size_ratio": 0.9429,
+      "fw_box": [
         378,
         236,
         410,
         269
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         235,
         455,
@@ -204,18 +204,18 @@
       "frame_idx": 663,
       "timestamp": 11.0555,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000663.jpg",
-      "front_wheel_conf": 0.913,
-      "back_wheel_conf": 0.8798,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.8857,
-      "size_match_ratio": 0.8848,
-      "front_wheel_box": [
+      "fw_conf": 0.913,
+      "bw_conf": 0.8798,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.8857,
+      "wheel_size_ratio": 0.8848,
+      "fw_box": [
         379,
         237,
         409,
         269
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         235,
         454,
@@ -232,18 +232,18 @@
       "frame_idx": 664,
       "timestamp": 11.0722,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000664.jpg",
-      "front_wheel_conf": 0.9033,
-      "back_wheel_conf": 0.8834,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.8857,
-      "size_match_ratio": 0.8848,
-      "front_wheel_box": [
+      "fw_conf": 0.9033,
+      "bw_conf": 0.8834,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.8857,
+      "wheel_size_ratio": 0.8848,
+      "fw_box": [
         379,
         237,
         409,
         269
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         235,
         454,
@@ -260,18 +260,18 @@
       "frame_idx": 665,
       "timestamp": 11.0889,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000665.jpg",
-      "front_wheel_conf": 0.9025,
-      "back_wheel_conf": 0.8896,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.8889,
-      "size_match_ratio": 0.888,
-      "front_wheel_box": [
+      "fw_conf": 0.9025,
+      "bw_conf": 0.8896,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.8889,
+      "wheel_size_ratio": 0.888,
+      "fw_box": [
         378,
         237,
         409,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         422,
         235,
         454,
@@ -288,18 +288,18 @@
       "frame_idx": 666,
       "timestamp": 11.1055,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000666.jpg",
-      "front_wheel_conf": 0.9006,
-      "back_wheel_conf": 0.8917,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.9143,
-      "size_match_ratio": 0.9134,
-      "front_wheel_box": [
+      "fw_conf": 0.9006,
+      "bw_conf": 0.8917,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.9143,
+      "wheel_size_ratio": 0.9134,
+      "fw_box": [
         378,
         237,
         409,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         422,
         236,
         454,
@@ -316,18 +316,18 @@
       "frame_idx": 667,
       "timestamp": 11.1222,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000667.jpg",
-      "front_wheel_conf": 0.9014,
-      "back_wheel_conf": 0.8955,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9143,
-      "size_match_ratio": 0.8857,
-      "front_wheel_box": [
+      "fw_conf": 0.9014,
+      "bw_conf": 0.8955,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9143,
+      "wheel_size_ratio": 0.8857,
+      "fw_box": [
         378,
         238,
         409,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         422,
         236,
         454,
@@ -344,18 +344,18 @@
       "frame_idx": 668,
       "timestamp": 11.1389,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000668.jpg",
-      "front_wheel_conf": 0.8947,
-      "back_wheel_conf": 0.8907,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9118,
-      "size_match_ratio": 0.9412,
-      "front_wheel_box": [
+      "fw_conf": 0.8947,
+      "bw_conf": 0.8907,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9118,
+      "wheel_size_ratio": 0.9412,
+      "fw_box": [
         378,
         238,
         409,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         422,
         237,
         453,
@@ -372,18 +372,18 @@
       "frame_idx": 669,
       "timestamp": 11.1556,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000669.jpg",
-      "front_wheel_conf": 0.892,
-      "back_wheel_conf": 0.8991,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9118,
-      "size_match_ratio": 0.9412,
-      "front_wheel_box": [
+      "fw_conf": 0.892,
+      "bw_conf": 0.8991,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9118,
+      "wheel_size_ratio": 0.9412,
+      "fw_box": [
         378,
         238,
         409,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         422,
         237,
         453,
@@ -400,18 +400,18 @@
       "frame_idx": 670,
       "timestamp": 11.1722,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000670.jpg",
-      "front_wheel_conf": 0.8979,
-      "back_wheel_conf": 0.8962,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.8857,
-      "size_match_ratio": 0.9143,
-      "front_wheel_box": [
+      "fw_conf": 0.8979,
+      "bw_conf": 0.8962,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.8857,
+      "wheel_size_ratio": 0.9143,
+      "fw_box": [
         378,
         238,
         409,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         422,
         236,
         453,
@@ -428,18 +428,18 @@
       "frame_idx": 671,
       "timestamp": 11.1889,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000671.jpg",
-      "front_wheel_conf": 0.8968,
-      "back_wheel_conf": 0.8954,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.9118,
-      "size_match_ratio": 0.9706,
-      "front_wheel_box": [
+      "fw_conf": 0.8968,
+      "bw_conf": 0.8954,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.9118,
+      "wheel_size_ratio": 0.9706,
+      "fw_box": [
         378,
         238,
         409,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         422,
         237,
         453,
@@ -456,18 +456,18 @@
       "frame_idx": 672,
       "timestamp": 11.2056,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000672.jpg",
-      "front_wheel_conf": 0.8994,
-      "back_wheel_conf": 0.8932,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.9118,
-      "size_match_ratio": 0.9706,
-      "front_wheel_box": [
+      "fw_conf": 0.8994,
+      "bw_conf": 0.8932,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.9118,
+      "wheel_size_ratio": 0.9706,
+      "fw_box": [
         378,
         238,
         409,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         237,
         452,
@@ -484,18 +484,18 @@
       "frame_idx": 673,
       "timestamp": 11.2223,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000673.jpg",
-      "front_wheel_conf": 0.9,
-      "back_wheel_conf": 0.8897,
-      "front_squareness": 0.9697,
-      "back_squareness": 0.9118,
-      "size_match_ratio": 0.9981,
-      "front_wheel_box": [
+      "fw_conf": 0.9,
+      "bw_conf": 0.8897,
+      "fw_squareness": 0.9697,
+      "bw_squareness": 0.9118,
+      "wheel_size_ratio": 0.9981,
+      "fw_box": [
         377,
         238,
         409,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         237,
         452,
@@ -512,18 +512,18 @@
       "frame_idx": 674,
       "timestamp": 11.2389,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000674.jpg",
-      "front_wheel_conf": 0.8998,
-      "back_wheel_conf": 0.896,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.9118,
-      "size_match_ratio": 0.9706,
-      "front_wheel_box": [
+      "fw_conf": 0.8998,
+      "bw_conf": 0.896,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.9118,
+      "wheel_size_ratio": 0.9706,
+      "fw_box": [
         377,
         238,
         408,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         237,
         452,
@@ -540,18 +540,18 @@
       "frame_idx": 675,
       "timestamp": 11.2556,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000675.jpg",
-      "front_wheel_conf": 0.8995,
-      "back_wheel_conf": 0.8973,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.9118,
-      "size_match_ratio": 0.9706,
-      "front_wheel_box": [
+      "fw_conf": 0.8995,
+      "bw_conf": 0.8973,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.9118,
+      "wheel_size_ratio": 0.9706,
+      "fw_box": [
         377,
         238,
         408,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         237,
         452,
@@ -568,18 +568,18 @@
       "frame_idx": 676,
       "timestamp": 11.2723,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000676.jpg",
-      "front_wheel_conf": 0.9011,
-      "back_wheel_conf": 0.9017,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.9118,
-      "size_match_ratio": 0.9706,
-      "front_wheel_box": [
+      "fw_conf": 0.9011,
+      "bw_conf": 0.9017,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.9118,
+      "wheel_size_ratio": 0.9706,
+      "fw_box": [
         377,
         238,
         408,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         237,
         452,
@@ -596,18 +596,18 @@
       "frame_idx": 677,
       "timestamp": 11.289,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000677.jpg",
-      "front_wheel_conf": 0.8997,
-      "back_wheel_conf": 0.9045,
-      "front_squareness": 0.9118,
-      "back_squareness": 0.8857,
-      "size_match_ratio": 0.9714,
-      "front_wheel_box": [
+      "fw_conf": 0.8997,
+      "bw_conf": 0.9045,
+      "fw_squareness": 0.9118,
+      "bw_squareness": 0.8857,
+      "wheel_size_ratio": 0.9714,
+      "fw_box": [
         377,
         238,
         408,
         272
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         237,
         452,
@@ -624,18 +624,18 @@
       "frame_idx": 678,
       "timestamp": 11.3056,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000678.jpg",
-      "front_wheel_conf": 0.902,
-      "back_wheel_conf": 0.9075,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.8857,
-      "size_match_ratio": 0.9429,
-      "front_wheel_box": [
+      "fw_conf": 0.902,
+      "bw_conf": 0.9075,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.8857,
+      "wheel_size_ratio": 0.9429,
+      "fw_box": [
         377,
         238,
         408,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         420,
         237,
         451,
@@ -652,18 +652,18 @@
       "frame_idx": 679,
       "timestamp": 11.3223,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000679.jpg",
-      "front_wheel_conf": 0.9044,
-      "back_wheel_conf": 0.907,
-      "front_squareness": 0.9091,
-      "back_squareness": 0.8857,
-      "size_match_ratio": 0.9124,
-      "front_wheel_box": [
+      "fw_conf": 0.9044,
+      "bw_conf": 0.907,
+      "fw_squareness": 0.9091,
+      "bw_squareness": 0.8857,
+      "wheel_size_ratio": 0.9124,
+      "fw_box": [
         377,
         238,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         420,
         237,
         451,
@@ -680,18 +680,18 @@
       "frame_idx": 680,
       "timestamp": 11.339,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000680.jpg",
-      "front_wheel_conf": 0.905,
-      "back_wheel_conf": 0.9085,
-      "front_squareness": 0.9091,
-      "back_squareness": 0.8857,
-      "size_match_ratio": 0.9124,
-      "front_wheel_box": [
+      "fw_conf": 0.905,
+      "bw_conf": 0.9085,
+      "fw_squareness": 0.9091,
+      "bw_squareness": 0.8857,
+      "wheel_size_ratio": 0.9124,
+      "fw_box": [
         377,
         238,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         420,
         237,
         451,
@@ -708,18 +708,18 @@
       "frame_idx": 681,
       "timestamp": 11.3557,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000681.jpg",
-      "front_wheel_conf": 0.9099,
-      "back_wheel_conf": 0.9099,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.8857,
-      "size_match_ratio": 0.9429,
-      "front_wheel_box": [
+      "fw_conf": 0.9099,
+      "bw_conf": 0.9099,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.8857,
+      "wheel_size_ratio": 0.9429,
+      "fw_box": [
         376,
         238,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         420,
         237,
         451,
@@ -736,18 +736,18 @@
       "frame_idx": 682,
       "timestamp": 11.3723,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000682.jpg",
-      "front_wheel_conf": 0.9089,
-      "back_wheel_conf": 0.8771,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.8857,
-      "size_match_ratio": 0.9429,
-      "front_wheel_box": [
+      "fw_conf": 0.9089,
+      "bw_conf": 0.8771,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.8857,
+      "wheel_size_ratio": 0.9429,
+      "fw_box": [
         376,
         238,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         420,
         237,
         451,
@@ -764,18 +764,18 @@
       "frame_idx": 683,
       "timestamp": 11.389,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000683.jpg",
-      "front_wheel_conf": 0.9121,
-      "back_wheel_conf": 0.8814,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.9143,
-      "size_match_ratio": 0.9134,
-      "front_wheel_box": [
+      "fw_conf": 0.9121,
+      "bw_conf": 0.8814,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.9143,
+      "wheel_size_ratio": 0.9134,
+      "fw_box": [
         376,
         238,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         419,
         237,
         451,
@@ -792,18 +792,18 @@
       "frame_idx": 684,
       "timestamp": 11.4057,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000684.jpg",
-      "front_wheel_conf": 0.9153,
-      "back_wheel_conf": 0.8708,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.9143,
-      "size_match_ratio": 0.9134,
-      "front_wheel_box": [
+      "fw_conf": 0.9153,
+      "bw_conf": 0.8708,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.9143,
+      "wheel_size_ratio": 0.9134,
+      "fw_box": [
         376,
         238,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         419,
         237,
         451,
@@ -820,18 +820,18 @@
       "frame_idx": 685,
       "timestamp": 11.4224,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000685.jpg",
-      "front_wheel_conf": 0.9183,
-      "back_wheel_conf": 0.8828,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9118,
-      "size_match_ratio": 0.9412,
-      "front_wheel_box": [
+      "fw_conf": 0.9183,
+      "bw_conf": 0.8828,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9118,
+      "wheel_size_ratio": 0.9412,
+      "fw_box": [
         376,
         239,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         419,
         238,
         450,
@@ -848,18 +848,18 @@
       "frame_idx": 686,
       "timestamp": 11.439,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000686.jpg",
-      "front_wheel_conf": 0.9194,
-      "back_wheel_conf": 0.8815,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.8857,
-      "size_match_ratio": 0.9143,
-      "front_wheel_box": [
+      "fw_conf": 0.9194,
+      "bw_conf": 0.8815,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.8857,
+      "wheel_size_ratio": 0.9143,
+      "fw_box": [
         376,
         239,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         419,
         238,
         450,
@@ -876,18 +876,18 @@
       "frame_idx": 687,
       "timestamp": 11.4557,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000687.jpg",
-      "front_wheel_conf": 0.915,
-      "back_wheel_conf": 0.8893,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.9143,
-      "size_match_ratio": 0.9134,
-      "front_wheel_box": [
+      "fw_conf": 0.915,
+      "bw_conf": 0.8893,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.9143,
+      "wheel_size_ratio": 0.9134,
+      "fw_box": [
         376,
         238,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         418,
         238,
         450,
@@ -904,18 +904,18 @@
       "frame_idx": 688,
       "timestamp": 11.4724,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000688.jpg",
-      "front_wheel_conf": 0.9126,
-      "back_wheel_conf": 0.8913,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.8889,
-      "size_match_ratio": 0.888,
-      "front_wheel_box": [
+      "fw_conf": 0.9126,
+      "bw_conf": 0.8913,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.8889,
+      "wheel_size_ratio": 0.888,
+      "fw_box": [
         376,
         238,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         418,
         237,
         450,
@@ -932,18 +932,18 @@
       "frame_idx": 689,
       "timestamp": 11.4891,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000689.jpg",
-      "front_wheel_conf": 0.9174,
-      "back_wheel_conf": 0.8945,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.9143,
-      "size_match_ratio": 0.9134,
-      "front_wheel_box": [
+      "fw_conf": 0.9174,
+      "bw_conf": 0.8945,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.9143,
+      "wheel_size_ratio": 0.9134,
+      "fw_box": [
         376,
         238,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         418,
         237,
         450,
@@ -960,18 +960,18 @@
       "frame_idx": 690,
       "timestamp": 11.5057,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000690.jpg",
-      "front_wheel_conf": 0.9161,
-      "back_wheel_conf": 0.8961,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.9143,
-      "size_match_ratio": 0.9134,
-      "front_wheel_box": [
+      "fw_conf": 0.9161,
+      "bw_conf": 0.8961,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.9143,
+      "wheel_size_ratio": 0.9134,
+      "fw_box": [
         376,
         238,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         418,
         237,
         450,
@@ -988,18 +988,18 @@
       "frame_idx": 691,
       "timestamp": 11.5224,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000691.jpg",
-      "front_wheel_conf": 0.918,
-      "back_wheel_conf": 0.9006,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.9429,
-      "size_match_ratio": 0.8857,
-      "front_wheel_box": [
+      "fw_conf": 0.918,
+      "bw_conf": 0.9006,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.9429,
+      "wheel_size_ratio": 0.8857,
+      "fw_box": [
         376,
         238,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         417,
         238,
         450,
@@ -1016,18 +1016,18 @@
       "frame_idx": 692,
       "timestamp": 11.5391,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000692.jpg",
-      "front_wheel_conf": 0.9188,
-      "back_wheel_conf": 0.9022,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.9429,
-      "size_match_ratio": 0.8857,
-      "front_wheel_box": [
+      "fw_conf": 0.9188,
+      "bw_conf": 0.9022,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.9429,
+      "wheel_size_ratio": 0.8857,
+      "fw_box": [
         376,
         238,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         417,
         238,
         450,
@@ -1044,18 +1044,18 @@
       "frame_idx": 693,
       "timestamp": 11.5558,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000693.jpg",
-      "front_wheel_conf": 0.9214,
-      "back_wheel_conf": 0.9,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.9706,
-      "size_match_ratio": 0.9118,
-      "front_wheel_box": [
+      "fw_conf": 0.9214,
+      "bw_conf": 0.9,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.9706,
+      "wheel_size_ratio": 0.9118,
+      "fw_box": [
         376,
         238,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         417,
         238,
         450,
@@ -1072,18 +1072,18 @@
       "frame_idx": 694,
       "timestamp": 11.5724,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000694.jpg",
-      "front_wheel_conf": 0.9187,
-      "back_wheel_conf": 0.8964,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9706,
-      "size_match_ratio": 0.8841,
-      "front_wheel_box": [
+      "fw_conf": 0.9187,
+      "bw_conf": 0.8964,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9706,
+      "wheel_size_ratio": 0.8841,
+      "fw_box": [
         376,
         239,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         417,
         238,
         450,
@@ -1100,18 +1100,18 @@
       "frame_idx": 695,
       "timestamp": 11.5891,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000695.jpg",
-      "front_wheel_conf": 0.9178,
-      "back_wheel_conf": 0.893,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9706,
-      "size_match_ratio": 0.8556,
-      "front_wheel_box": [
+      "fw_conf": 0.9178,
+      "bw_conf": 0.893,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9706,
+      "wheel_size_ratio": 0.8556,
+      "fw_box": [
         377,
         239,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         417,
         238,
         450,
@@ -1128,18 +1128,18 @@
       "frame_idx": 696,
       "timestamp": 11.6058,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000696.jpg",
-      "front_wheel_conf": 0.914,
-      "back_wheel_conf": 0.8857,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9412,
-      "size_match_ratio": 0.8824,
-      "front_wheel_box": [
+      "fw_conf": 0.914,
+      "bw_conf": 0.8857,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9412,
+      "wheel_size_ratio": 0.8824,
+      "fw_box": [
         377,
         239,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         418,
         238,
         450,
@@ -1156,18 +1156,18 @@
       "frame_idx": 697,
       "timestamp": 11.6225,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000697.jpg",
-      "front_wheel_conf": 0.9123,
-      "back_wheel_conf": 0.8844,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9697,
-      "size_match_ratio": 0.9091,
-      "front_wheel_box": [
+      "fw_conf": 0.9123,
+      "bw_conf": 0.8844,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9697,
+      "wheel_size_ratio": 0.9091,
+      "fw_box": [
         377,
         239,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         418,
         239,
         450,
@@ -1184,18 +1184,18 @@
       "frame_idx": 698,
       "timestamp": 11.6391,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000698.jpg",
-      "front_wheel_conf": 0.9114,
-      "back_wheel_conf": 0.8792,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9384,
-      "front_wheel_box": [
+      "fw_conf": 0.9114,
+      "bw_conf": 0.8792,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9384,
+      "fw_box": [
         377,
         239,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         418,
         239,
         449,
@@ -1212,18 +1212,18 @@
       "frame_idx": 699,
       "timestamp": 11.6558,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000699.jpg",
-      "front_wheel_conf": 0.9111,
-      "back_wheel_conf": 0.8798,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9384,
-      "front_wheel_box": [
+      "fw_conf": 0.9111,
+      "bw_conf": 0.8798,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9384,
+      "fw_box": [
         377,
         239,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         418,
         239,
         449,
@@ -1240,18 +1240,18 @@
       "frame_idx": 700,
       "timestamp": 11.6725,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000700.jpg",
-      "front_wheel_conf": 0.9128,
-      "back_wheel_conf": 0.8846,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9697,
-      "front_wheel_box": [
+      "fw_conf": 0.9128,
+      "bw_conf": 0.8846,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9697,
+      "fw_box": [
         377,
         239,
         408,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         418,
         239,
         449,
@@ -1268,18 +1268,18 @@
       "frame_idx": 701,
       "timestamp": 11.6892,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000701.jpg",
-      "front_wheel_conf": 0.9137,
-      "back_wheel_conf": 0.8873,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9697,
-      "front_wheel_box": [
+      "fw_conf": 0.9137,
+      "bw_conf": 0.8873,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9697,
+      "fw_box": [
         377,
         239,
         408,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         418,
         239,
         449,
@@ -1296,18 +1296,18 @@
       "frame_idx": 702,
       "timestamp": 11.7058,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000702.jpg",
-      "front_wheel_conf": 0.9126,
-      "back_wheel_conf": 0.8917,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9697,
-      "size_match_ratio": 0.9394,
-      "front_wheel_box": [
+      "fw_conf": 0.9126,
+      "bw_conf": 0.8917,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9697,
+      "wheel_size_ratio": 0.9394,
+      "fw_box": [
         377,
         239,
         408,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         418,
         239,
         450,
@@ -1324,18 +1324,18 @@
       "frame_idx": 703,
       "timestamp": 11.7225,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000703.jpg",
-      "front_wheel_conf": 0.908,
-      "back_wheel_conf": 0.8965,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9697,
-      "size_match_ratio": 0.9394,
-      "front_wheel_box": [
+      "fw_conf": 0.908,
+      "bw_conf": 0.8965,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9697,
+      "wheel_size_ratio": 0.9394,
+      "fw_box": [
         377,
         239,
         408,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         418,
         239,
         450,
@@ -1352,18 +1352,18 @@
       "frame_idx": 704,
       "timestamp": 11.7392,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000704.jpg",
-      "front_wheel_conf": 0.9082,
-      "back_wheel_conf": 0.8912,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9697,
-      "front_wheel_box": [
+      "fw_conf": 0.9082,
+      "bw_conf": 0.8912,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9697,
+      "fw_box": [
         377,
         239,
         408,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         419,
         239,
         450,
@@ -1380,18 +1380,18 @@
       "frame_idx": 705,
       "timestamp": 11.7559,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000705.jpg",
-      "front_wheel_conf": 0.9058,
-      "back_wheel_conf": 0.8889,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9697,
-      "front_wheel_box": [
+      "fw_conf": 0.9058,
+      "bw_conf": 0.8889,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9697,
+      "fw_box": [
         377,
         239,
         408,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         419,
         239,
         450,
@@ -1408,18 +1408,18 @@
       "frame_idx": 706,
       "timestamp": 11.7725,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000706.jpg",
-      "front_wheel_conf": 0.9032,
-      "back_wheel_conf": 0.8881,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9384,
-      "front_wheel_box": [
+      "fw_conf": 0.9032,
+      "bw_conf": 0.8881,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9384,
+      "fw_box": [
         378,
         239,
         408,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         419,
         239,
         450,
@@ -1436,18 +1436,18 @@
       "frame_idx": 707,
       "timestamp": 11.7892,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000707.jpg",
-      "front_wheel_conf": 0.9023,
-      "back_wheel_conf": 0.8905,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9697,
-      "front_wheel_box": [
+      "fw_conf": 0.9023,
+      "bw_conf": 0.8905,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9697,
+      "fw_box": [
         378,
         239,
         408,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         420,
         239,
         450,
@@ -1464,18 +1464,18 @@
       "frame_idx": 708,
       "timestamp": 11.8059,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000708.jpg",
-      "front_wheel_conf": 0.9038,
-      "back_wheel_conf": 0.8953,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9697,
-      "front_wheel_box": [
+      "fw_conf": 0.9038,
+      "bw_conf": 0.8953,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9697,
+      "fw_box": [
         378,
         239,
         408,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         420,
         239,
         450,
@@ -1492,18 +1492,18 @@
       "frame_idx": 709,
       "timestamp": 11.8226,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000709.jpg",
-      "front_wheel_conf": 0.8996,
-      "back_wheel_conf": 0.8927,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9384,
-      "front_wheel_box": [
+      "fw_conf": 0.8996,
+      "bw_conf": 0.8927,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9384,
+      "fw_box": [
         378,
         239,
         408,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         420,
         239,
         451,
@@ -1520,18 +1520,18 @@
       "frame_idx": 710,
       "timestamp": 11.8392,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000710.jpg",
-      "front_wheel_conf": 0.8977,
-      "back_wheel_conf": 0.8849,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9384,
-      "front_wheel_box": [
+      "fw_conf": 0.8977,
+      "bw_conf": 0.8849,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9384,
+      "fw_box": [
         378,
         239,
         408,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         420,
         239,
         451,
@@ -1548,18 +1548,18 @@
       "frame_idx": 711,
       "timestamp": 11.8559,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000711.jpg",
-      "front_wheel_conf": 0.8988,
-      "back_wheel_conf": 0.8902,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9384,
-      "front_wheel_box": [
+      "fw_conf": 0.8988,
+      "bw_conf": 0.8902,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9384,
+      "fw_box": [
         378,
         239,
         408,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         420,
         239,
         451,
@@ -1576,18 +1576,18 @@
       "frame_idx": 712,
       "timestamp": 11.8726,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000712.jpg",
-      "front_wheel_conf": 0.8975,
-      "back_wheel_conf": 0.8891,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.8788,
-      "size_match_ratio": 0.9969,
-      "front_wheel_box": [
+      "fw_conf": 0.8975,
+      "bw_conf": 0.8891,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.8788,
+      "wheel_size_ratio": 0.9969,
+      "fw_box": [
         378,
         239,
         408,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         239,
         450,
@@ -1604,18 +1604,18 @@
       "frame_idx": 713,
       "timestamp": 11.8893,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000713.jpg",
-      "front_wheel_conf": 0.896,
-      "back_wheel_conf": 0.8805,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9697,
-      "front_wheel_box": [
+      "fw_conf": 0.896,
+      "bw_conf": 0.8805,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9697,
+      "fw_box": [
         378,
         239,
         408,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         420,
         239,
         450,
@@ -1632,18 +1632,18 @@
       "frame_idx": 714,
       "timestamp": 11.9059,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000714.jpg",
-      "front_wheel_conf": 0.8961,
-      "back_wheel_conf": 0.8792,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.8788,
-      "size_match_ratio": 0.9969,
-      "front_wheel_box": [
+      "fw_conf": 0.8961,
+      "bw_conf": 0.8792,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.8788,
+      "wheel_size_ratio": 0.9969,
+      "fw_box": [
         378,
         239,
         408,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         239,
         450,
@@ -1660,18 +1660,18 @@
       "frame_idx": 715,
       "timestamp": 11.9226,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000715.jpg",
-      "front_wheel_conf": 0.903,
-      "back_wheel_conf": 0.8902,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.903,
+      "bw_conf": 0.8902,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         378,
         239,
         408,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         420,
         240,
         450,
@@ -1688,18 +1688,18 @@
       "frame_idx": 716,
       "timestamp": 11.9393,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000716.jpg",
-      "front_wheel_conf": 0.9124,
-      "back_wheel_conf": 0.9092,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9707,
-      "front_wheel_box": [
+      "fw_conf": 0.9124,
+      "bw_conf": 0.9092,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9707,
+      "fw_box": [
         377,
         239,
         408,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         420,
         239,
         450,
@@ -1716,18 +1716,18 @@
       "frame_idx": 717,
       "timestamp": 11.956,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000717.jpg",
-      "front_wheel_conf": 0.9111,
-      "back_wheel_conf": 0.9104,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9394,
-      "front_wheel_box": [
+      "fw_conf": 0.9111,
+      "bw_conf": 0.9104,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9394,
+      "fw_box": [
         377,
         239,
         407,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         419,
         239,
         449,
@@ -1744,18 +1744,18 @@
       "frame_idx": 718,
       "timestamp": 11.9726,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000718.jpg",
-      "front_wheel_conf": 0.9104,
-      "back_wheel_conf": 0.9122,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9697,
-      "front_wheel_box": [
+      "fw_conf": 0.9104,
+      "bw_conf": 0.9122,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9697,
+      "fw_box": [
         377,
         239,
         407,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         419,
         239,
         449,
@@ -1772,18 +1772,18 @@
       "frame_idx": 719,
       "timestamp": 11.9893,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000719.jpg",
-      "front_wheel_conf": 0.9165,
-      "back_wheel_conf": 0.9069,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9394,
-      "front_wheel_box": [
+      "fw_conf": 0.9165,
+      "bw_conf": 0.9069,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9394,
+      "fw_box": [
         377,
         239,
         407,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         419,
         239,
         449,
@@ -1800,18 +1800,18 @@
       "frame_idx": 720,
       "timestamp": 12.006,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000720.jpg",
-      "front_wheel_conf": 0.9161,
-      "back_wheel_conf": 0.9078,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9707,
-      "front_wheel_box": [
+      "fw_conf": 0.9161,
+      "bw_conf": 0.9078,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9707,
+      "fw_box": [
         376,
         239,
         407,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         419,
         239,
         449,
@@ -1828,18 +1828,18 @@
       "frame_idx": 721,
       "timestamp": 12.0227,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000721.jpg",
-      "front_wheel_conf": 0.9127,
-      "back_wheel_conf": 0.9107,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9697,
-      "front_wheel_box": [
+      "fw_conf": 0.9127,
+      "bw_conf": 0.9107,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9697,
+      "fw_box": [
         376,
         239,
         406,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         418,
         239,
         448,
@@ -1856,18 +1856,18 @@
       "frame_idx": 722,
       "timestamp": 12.0393,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000722.jpg",
-      "front_wheel_conf": 0.9135,
-      "back_wheel_conf": 0.9108,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9688,
-      "front_wheel_box": [
+      "fw_conf": 0.9135,
+      "bw_conf": 0.9108,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9688,
+      "fw_box": [
         376,
         239,
         406,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         418,
         240,
         448,
@@ -1884,18 +1884,18 @@
       "frame_idx": 723,
       "timestamp": 12.056,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000723.jpg",
-      "front_wheel_conf": 0.8907,
-      "back_wheel_conf": 0.916,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9062,
-      "size_match_ratio": 0.9978,
-      "front_wheel_box": [
+      "fw_conf": 0.8907,
+      "bw_conf": 0.916,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9062,
+      "wheel_size_ratio": 0.9978,
+      "fw_box": [
         376,
         239,
         406,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         419,
         240,
         448,
@@ -1912,18 +1912,18 @@
       "frame_idx": 724,
       "timestamp": 12.0727,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000724.jpg",
-      "front_wheel_conf": 0.903,
-      "back_wheel_conf": 0.9146,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.999,
-      "front_wheel_box": [
+      "fw_conf": 0.903,
+      "bw_conf": 0.9146,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.999,
+      "fw_box": [
         375,
         239,
         406,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         418,
         240,
         448,
@@ -1940,18 +1940,18 @@
       "frame_idx": 725,
       "timestamp": 12.0894,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000725.jpg",
-      "front_wheel_conf": 0.8877,
-      "back_wheel_conf": 0.9188,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9688,
-      "front_wheel_box": [
+      "fw_conf": 0.8877,
+      "bw_conf": 0.9188,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9688,
+      "fw_box": [
         375,
         239,
         405,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         417,
         240,
         447,
@@ -1968,18 +1968,18 @@
       "frame_idx": 726,
       "timestamp": 12.106,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000726.jpg",
-      "front_wheel_conf": 0.9119,
-      "back_wheel_conf": 0.913,
-      "front_squareness": 0.9062,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9374,
-      "front_wheel_box": [
+      "fw_conf": 0.9119,
+      "bw_conf": 0.913,
+      "fw_squareness": 0.9062,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9374,
+      "fw_box": [
         375,
         238,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         417,
         239,
         447,
@@ -1996,18 +1996,18 @@
       "frame_idx": 727,
       "timestamp": 12.1227,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000727.jpg",
-      "front_wheel_conf": 0.9023,
-      "back_wheel_conf": 0.9159,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9394,
-      "front_wheel_box": [
+      "fw_conf": 0.9023,
+      "bw_conf": 0.9159,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9394,
+      "fw_box": [
         374,
         239,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         417,
         239,
         447,
@@ -2024,18 +2024,18 @@
       "frame_idx": 728,
       "timestamp": 12.1394,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000728.jpg",
-      "front_wheel_conf": 0.9167,
-      "back_wheel_conf": 0.9125,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9384,
-      "front_wheel_box": [
+      "fw_conf": 0.9167,
+      "bw_conf": 0.9125,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9384,
+      "fw_box": [
         374,
         238,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         416,
         239,
         447,
@@ -2052,18 +2052,18 @@
       "frame_idx": 729,
       "timestamp": 12.1561,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000729.jpg",
-      "front_wheel_conf": 0.9177,
-      "back_wheel_conf": 0.9126,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9697,
-      "front_wheel_box": [
+      "fw_conf": 0.9177,
+      "bw_conf": 0.9126,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9697,
+      "fw_box": [
         374,
         238,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         416,
         239,
         446,
@@ -2080,18 +2080,18 @@
       "frame_idx": 730,
       "timestamp": 12.1727,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000730.jpg",
-      "front_wheel_conf": 0.9173,
-      "back_wheel_conf": 0.9111,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9697,
-      "front_wheel_box": [
+      "fw_conf": 0.9173,
+      "bw_conf": 0.9111,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9697,
+      "fw_box": [
         374,
         238,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         416,
         239,
         446,
@@ -2108,18 +2108,18 @@
       "frame_idx": 731,
       "timestamp": 12.1894,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000731.jpg",
-      "front_wheel_conf": 0.9174,
-      "back_wheel_conf": 0.9114,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9697,
-      "front_wheel_box": [
+      "fw_conf": 0.9174,
+      "bw_conf": 0.9114,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9697,
+      "fw_box": [
         374,
         238,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         416,
         239,
         446,
@@ -2136,18 +2136,18 @@
       "frame_idx": 732,
       "timestamp": 12.2061,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000732.jpg",
-      "front_wheel_conf": 0.9146,
-      "back_wheel_conf": 0.9181,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9146,
+      "bw_conf": 0.9181,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         374,
         238,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         416,
         239,
         446,
@@ -2164,18 +2164,18 @@
       "frame_idx": 733,
       "timestamp": 12.2228,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000733.jpg",
-      "front_wheel_conf": 0.9175,
-      "back_wheel_conf": 0.9103,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9175,
+      "bw_conf": 0.9103,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         374,
         238,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         416,
         239,
         446,
@@ -2192,18 +2192,18 @@
       "frame_idx": 734,
       "timestamp": 12.2394,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000734.jpg",
-      "front_wheel_conf": 0.9167,
-      "back_wheel_conf": 0.9077,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 0.9688,
-      "front_wheel_box": [
+      "fw_conf": 0.9167,
+      "bw_conf": 0.9077,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 0.9688,
+      "fw_box": [
         374,
         238,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         416,
         240,
         446,
@@ -2220,18 +2220,18 @@
       "frame_idx": 735,
       "timestamp": 12.2561,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000735.jpg",
-      "front_wheel_conf": 0.9151,
-      "back_wheel_conf": 0.9127,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9151,
+      "bw_conf": 0.9127,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         374,
         238,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         416,
         239,
         446,
@@ -2248,18 +2248,18 @@
       "frame_idx": 736,
       "timestamp": 12.2728,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000736.jpg",
-      "front_wheel_conf": 0.9156,
-      "back_wheel_conf": 0.9147,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9156,
+      "bw_conf": 0.9147,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         374,
         238,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         416,
         239,
         446,
@@ -2276,18 +2276,18 @@
       "frame_idx": 737,
       "timestamp": 12.2895,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000737.jpg",
-      "front_wheel_conf": 0.9173,
-      "back_wheel_conf": 0.9117,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9173,
+      "bw_conf": 0.9117,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         374,
         238,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         416,
         239,
         446,
@@ -2304,18 +2304,18 @@
       "frame_idx": 738,
       "timestamp": 12.3061,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000738.jpg",
-      "front_wheel_conf": 0.9151,
-      "back_wheel_conf": 0.9026,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9151,
+      "bw_conf": 0.9026,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         374,
         238,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         416,
         239,
         446,
@@ -2332,18 +2332,18 @@
       "frame_idx": 739,
       "timestamp": 12.3228,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000739.jpg",
-      "front_wheel_conf": 0.9154,
-      "back_wheel_conf": 0.9061,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9154,
+      "bw_conf": 0.9061,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         374,
         238,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         416,
         239,
         446,
@@ -2360,18 +2360,18 @@
       "frame_idx": 740,
       "timestamp": 12.3395,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000740.jpg",
-      "front_wheel_conf": 0.9174,
-      "back_wheel_conf": 0.9044,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9174,
+      "bw_conf": 0.9044,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         374,
         238,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         416,
         239,
         446,
@@ -2388,18 +2388,18 @@
       "frame_idx": 741,
       "timestamp": 12.3562,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000741.jpg",
-      "front_wheel_conf": 0.9177,
-      "back_wheel_conf": 0.9066,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9062,
-      "size_match_ratio": 0.9978,
-      "front_wheel_box": [
+      "fw_conf": 0.9177,
+      "bw_conf": 0.9066,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9062,
+      "wheel_size_ratio": 0.9978,
+      "fw_box": [
         374,
         239,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         417,
         239,
         446,
@@ -2416,18 +2416,18 @@
       "frame_idx": 742,
       "timestamp": 12.3728,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000742.jpg",
-      "front_wheel_conf": 0.9166,
-      "back_wheel_conf": 0.9058,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9062,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.9166,
+      "bw_conf": 0.9058,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9062,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         374,
         238,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         417,
         239,
         446,
@@ -2444,18 +2444,18 @@
       "frame_idx": 743,
       "timestamp": 12.3895,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000743.jpg",
-      "front_wheel_conf": 0.9148,
-      "back_wheel_conf": 0.9082,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 0.9688,
-      "front_wheel_box": [
+      "fw_conf": 0.9148,
+      "bw_conf": 0.9082,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 0.9688,
+      "fw_box": [
         374,
         238,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         416,
         239,
         446,
@@ -2472,18 +2472,18 @@
       "frame_idx": 744,
       "timestamp": 12.4062,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000744.jpg",
-      "front_wheel_conf": 0.915,
-      "back_wheel_conf": 0.9048,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 0.9688,
-      "front_wheel_box": [
+      "fw_conf": 0.915,
+      "bw_conf": 0.9048,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 0.9688,
+      "fw_box": [
         374,
         238,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         416,
         239,
         446,
@@ -2500,18 +2500,18 @@
       "frame_idx": 745,
       "timestamp": 12.4229,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000745.jpg",
-      "front_wheel_conf": 0.9178,
-      "back_wheel_conf": 0.9084,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 0.9688,
-      "front_wheel_box": [
+      "fw_conf": 0.9178,
+      "bw_conf": 0.9084,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 0.9688,
+      "fw_box": [
         374,
         238,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         416,
         239,
         446,
@@ -2528,18 +2528,18 @@
       "frame_idx": 746,
       "timestamp": 12.4395,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000746.jpg",
-      "front_wheel_conf": 0.9186,
-      "back_wheel_conf": 0.9064,
-      "front_squareness": 0.9062,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 0.9978,
-      "front_wheel_box": [
+      "fw_conf": 0.9186,
+      "bw_conf": 0.9064,
+      "fw_squareness": 0.9062,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 0.9978,
+      "fw_box": [
         375,
         238,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         416,
         239,
         446,
@@ -2556,18 +2556,18 @@
       "frame_idx": 747,
       "timestamp": 12.4562,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000747.jpg",
-      "front_wheel_conf": 0.9194,
-      "back_wheel_conf": 0.9074,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9194,
+      "bw_conf": 0.9074,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         375,
         239,
         404,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         417,
         239,
         446,
@@ -2584,18 +2584,18 @@
       "frame_idx": 748,
       "timestamp": 12.4729,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000748.jpg",
-      "front_wheel_conf": 0.9176,
-      "back_wheel_conf": 0.9116,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9989,
-      "front_wheel_box": [
+      "fw_conf": 0.9176,
+      "bw_conf": 0.9116,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9989,
+      "fw_box": [
         375,
         239,
         405,
         269
       ],
-      "back_wheel_box": [
+      "bw_box": [
         417,
         239,
         446,
@@ -2612,18 +2612,18 @@
       "frame_idx": 749,
       "timestamp": 12.4896,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000749.jpg",
-      "front_wheel_conf": 0.9186,
-      "back_wheel_conf": 0.9089,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.9186,
+      "bw_conf": 0.9089,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         375,
         238,
         405,
         269
       ],
-      "back_wheel_box": [
+      "bw_box": [
         417,
         239,
         446,
@@ -2640,18 +2640,18 @@
       "frame_idx": 750,
       "timestamp": 12.5062,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000750.jpg",
-      "front_wheel_conf": 0.9001,
-      "back_wheel_conf": 0.9136,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.9001,
+      "bw_conf": 0.9136,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         376,
         239,
         405,
         269
       ],
-      "back_wheel_box": [
+      "bw_box": [
         418,
         239,
         447,
@@ -2668,18 +2668,18 @@
       "frame_idx": 751,
       "timestamp": 12.5229,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000751.jpg",
-      "front_wheel_conf": 0.8335,
-      "back_wheel_conf": 0.9196,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9365,
-      "front_wheel_box": [
+      "fw_conf": 0.8335,
+      "bw_conf": 0.9196,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9365,
+      "fw_box": [
         376,
         239,
         406,
         269
       ],
-      "back_wheel_box": [
+      "bw_box": [
         417,
         238,
         448,
@@ -2696,18 +2696,18 @@
       "frame_idx": 752,
       "timestamp": 12.5396,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000752.jpg",
-      "front_wheel_conf": 0.6121,
-      "back_wheel_conf": 0.9238,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 0.9043,
-      "front_wheel_box": [
+      "fw_conf": 0.6121,
+      "bw_conf": 0.9238,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 0.9043,
+      "fw_box": [
         377,
         239,
         406,
         268
       ],
-      "back_wheel_box": [
+      "bw_box": [
         418,
         238,
         448,
@@ -2724,18 +2724,18 @@
       "frame_idx": 753,
       "timestamp": 12.5563,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000753.jpg",
-      "front_wheel_conf": 0.7894,
-      "back_wheel_conf": 0.9236,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.9043,
-      "front_wheel_box": [
+      "fw_conf": 0.7894,
+      "bw_conf": 0.9236,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.9043,
+      "fw_box": [
         377,
         239,
         406,
         268
       ],
-      "back_wheel_box": [
+      "bw_box": [
         417,
         239,
         448,
@@ -2752,18 +2752,18 @@
       "frame_idx": 754,
       "timestamp": 12.5729,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000754.jpg",
-      "front_wheel_conf": 0.7829,
-      "back_wheel_conf": 0.9208,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9344,
-      "front_wheel_box": [
+      "fw_conf": 0.7829,
+      "bw_conf": 0.9208,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9344,
+      "fw_box": [
         378,
         239,
         407,
         268
       ],
-      "back_wheel_box": [
+      "bw_box": [
         418,
         239,
         448,
@@ -2780,18 +2780,18 @@
       "frame_idx": 755,
       "timestamp": 12.5896,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000755.jpg",
-      "front_wheel_conf": 0.7746,
-      "back_wheel_conf": 0.9211,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9344,
-      "front_wheel_box": [
+      "fw_conf": 0.7746,
+      "bw_conf": 0.9211,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9344,
+      "fw_box": [
         378,
         239,
         407,
         268
       ],
-      "back_wheel_box": [
+      "bw_box": [
         418,
         239,
         448,
@@ -2808,18 +2808,18 @@
       "frame_idx": 756,
       "timestamp": 12.6063,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000756.jpg",
-      "front_wheel_conf": 0.8961,
-      "back_wheel_conf": 0.9088,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9344,
-      "front_wheel_box": [
+      "fw_conf": 0.8961,
+      "bw_conf": 0.9088,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9344,
+      "fw_box": [
         378,
         239,
         407,
         268
       ],
-      "back_wheel_box": [
+      "bw_box": [
         419,
         239,
         449,
@@ -2836,18 +2836,18 @@
       "frame_idx": 757,
       "timestamp": 12.623,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000757.jpg",
-      "front_wheel_conf": 0.9054,
-      "back_wheel_conf": 0.9038,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9344,
-      "front_wheel_box": [
+      "fw_conf": 0.9054,
+      "bw_conf": 0.9038,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9344,
+      "fw_box": [
         378,
         238,
         407,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         419,
         239,
         449,
@@ -2864,18 +2864,18 @@
       "frame_idx": 758,
       "timestamp": 12.6396,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000758.jpg",
-      "front_wheel_conf": 0.9081,
-      "back_wheel_conf": 0.8967,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9344,
-      "front_wheel_box": [
+      "fw_conf": 0.9081,
+      "bw_conf": 0.8967,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9344,
+      "fw_box": [
         379,
         238,
         408,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         419,
         238,
         449,
@@ -2892,18 +2892,18 @@
       "frame_idx": 759,
       "timestamp": 12.6563,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000759.jpg",
-      "front_wheel_conf": 0.9018,
-      "back_wheel_conf": 0.9244,
-      "front_squareness": 0.9655,
-      "back_squareness": 0.9655,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9018,
+      "bw_conf": 0.9244,
+      "fw_squareness": 0.9655,
+      "bw_squareness": 0.9655,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         379,
         238,
         409,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         420,
         239,
         450,
@@ -2920,18 +2920,18 @@
       "frame_idx": 760,
       "timestamp": 12.673,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000760.jpg",
-      "front_wheel_conf": 0.9018,
-      "back_wheel_conf": 0.9253,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9344,
-      "front_wheel_box": [
+      "fw_conf": 0.9018,
+      "bw_conf": 0.9253,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9344,
+      "fw_box": [
         380,
         238,
         409,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         420,
         238,
         450,
@@ -2948,18 +2948,18 @@
       "frame_idx": 761,
       "timestamp": 12.6897,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000761.jpg",
-      "front_wheel_conf": 0.899,
-      "back_wheel_conf": 0.9128,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.899,
+      "bw_conf": 0.9128,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         380,
         237,
         410,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         422,
         238,
         451,
@@ -2976,18 +2976,18 @@
       "frame_idx": 762,
       "timestamp": 12.7063,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000762.jpg",
-      "front_wheel_conf": 0.8987,
-      "back_wheel_conf": 0.902,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.8987,
+      "bw_conf": 0.902,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         381,
         237,
         410,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         237,
         452,
@@ -3004,18 +3004,18 @@
       "frame_idx": 763,
       "timestamp": 12.723,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000763.jpg",
-      "front_wheel_conf": 0.9006,
-      "back_wheel_conf": 0.907,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9006,
+      "bw_conf": 0.907,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         382,
         237,
         412,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         237,
         453,
@@ -3032,18 +3032,18 @@
       "frame_idx": 764,
       "timestamp": 12.7397,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000764.jpg",
-      "front_wheel_conf": 0.9027,
-      "back_wheel_conf": 0.9153,
-      "front_squareness": 0.9655,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.9027,
+      "bw_conf": 0.9153,
+      "fw_squareness": 0.9655,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         382,
         237,
         412,
         266
       ],
-      "back_wheel_box": [
+      "bw_box": [
         424,
         237,
         454,
@@ -3060,18 +3060,18 @@
       "frame_idx": 765,
       "timestamp": 12.7564,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000765.jpg",
-      "front_wheel_conf": 0.905,
-      "back_wheel_conf": 0.917,
-      "front_squareness": 0.9677,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.905,
+      "bw_conf": 0.917,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         383,
         236,
         413,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         425,
         237,
         455,
@@ -3088,18 +3088,18 @@
       "frame_idx": 766,
       "timestamp": 12.773,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000766.jpg",
-      "front_wheel_conf": 0.9097,
-      "back_wheel_conf": 0.9209,
-      "front_squareness": 0.9655,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.9097,
+      "bw_conf": 0.9209,
+      "fw_squareness": 0.9655,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         384,
         237,
         414,
         266
       ],
-      "back_wheel_box": [
+      "bw_box": [
         426,
         237,
         456,
@@ -3116,18 +3116,18 @@
       "frame_idx": 767,
       "timestamp": 12.7897,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000767.jpg",
-      "front_wheel_conf": 0.9096,
-      "back_wheel_conf": 0.9205,
-      "front_squareness": 0.9655,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.9096,
+      "bw_conf": 0.9205,
+      "fw_squareness": 0.9655,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         384,
         237,
         414,
         266
       ],
-      "back_wheel_box": [
+      "bw_box": [
         426,
         237,
         456,
@@ -3144,18 +3144,18 @@
       "frame_idx": 768,
       "timestamp": 12.8064,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000768.jpg",
-      "front_wheel_conf": 0.9153,
-      "back_wheel_conf": 0.9175,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.9355,
-      "front_wheel_box": [
+      "fw_conf": 0.9153,
+      "bw_conf": 0.9175,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.9355,
+      "fw_box": [
         384,
         237,
         415,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         427,
         237,
         456,
@@ -3172,18 +3172,18 @@
       "frame_idx": 769,
       "timestamp": 12.8231,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000769.jpg",
-      "front_wheel_conf": 0.9119,
-      "back_wheel_conf": 0.9198,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9119,
+      "bw_conf": 0.9198,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         385,
         237,
         415,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         427,
         237,
         457,
@@ -3200,18 +3200,18 @@
       "frame_idx": 770,
       "timestamp": 12.8397,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000770.jpg",
-      "front_wheel_conf": 0.9144,
-      "back_wheel_conf": 0.92,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9144,
+      "bw_conf": 0.92,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         385,
         237,
         415,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         427,
         237,
         457,
@@ -3228,18 +3228,18 @@
       "frame_idx": 771,
       "timestamp": 12.8564,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000771.jpg",
-      "front_wheel_conf": 0.9139,
-      "back_wheel_conf": 0.9244,
-      "front_squareness": 0.931,
-      "back_squareness": 0.9655,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.9139,
+      "bw_conf": 0.9244,
+      "fw_squareness": 0.931,
+      "bw_squareness": 0.9655,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         385,
         237,
         416,
         266
       ],
-      "back_wheel_box": [
+      "bw_box": [
         427,
         238,
         457,
@@ -3256,18 +3256,18 @@
       "frame_idx": 772,
       "timestamp": 12.8731,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000772.jpg",
-      "front_wheel_conf": 0.9097,
-      "back_wheel_conf": 0.9248,
-      "front_squareness": 0.931,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9989,
-      "front_wheel_box": [
+      "fw_conf": 0.9097,
+      "bw_conf": 0.9248,
+      "fw_squareness": 0.931,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9989,
+      "fw_box": [
         385,
         237,
         416,
         266
       ],
-      "back_wheel_box": [
+      "bw_box": [
         427,
         237,
         457,
@@ -3284,18 +3284,18 @@
       "frame_idx": 773,
       "timestamp": 12.8898,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000773.jpg",
-      "front_wheel_conf": 0.9112,
-      "back_wheel_conf": 0.9213,
-      "front_squareness": 0.931,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.9112,
+      "bw_conf": 0.9213,
+      "fw_squareness": 0.931,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         385,
         237,
         416,
         266
       ],
-      "back_wheel_box": [
+      "bw_box": [
         428,
         237,
         457,
@@ -3312,18 +3312,18 @@
       "frame_idx": 774,
       "timestamp": 12.9064,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000774.jpg",
-      "front_wheel_conf": 0.9122,
-      "back_wheel_conf": 0.9186,
-      "front_squareness": 0.8929,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9689,
-      "front_wheel_box": [
+      "fw_conf": 0.9122,
+      "bw_conf": 0.9186,
+      "fw_squareness": 0.8929,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9689,
+      "fw_box": [
         385,
         238,
         416,
         266
       ],
-      "back_wheel_box": [
+      "bw_box": [
         428,
         238,
         457,
@@ -3340,18 +3340,18 @@
       "frame_idx": 775,
       "timestamp": 12.9231,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000775.jpg",
-      "front_wheel_conf": 0.9113,
-      "back_wheel_conf": 0.9211,
-      "front_squareness": 0.9286,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9988,
-      "front_wheel_box": [
+      "fw_conf": 0.9113,
+      "bw_conf": 0.9211,
+      "fw_squareness": 0.9286,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9988,
+      "fw_box": [
         386,
         238,
         416,
         266
       ],
-      "back_wheel_box": [
+      "bw_box": [
         428,
         238,
         457,
@@ -3368,18 +3368,18 @@
       "frame_idx": 776,
       "timestamp": 12.9398,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000776.jpg",
-      "front_wheel_conf": 0.9118,
-      "back_wheel_conf": 0.9224,
-      "front_squareness": 0.931,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9355,
-      "front_wheel_box": [
+      "fw_conf": 0.9118,
+      "bw_conf": 0.9224,
+      "fw_squareness": 0.931,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9355,
+      "fw_box": [
         385,
         237,
         416,
         266
       ],
-      "back_wheel_box": [
+      "bw_box": [
         428,
         238,
         457,
@@ -3396,18 +3396,18 @@
       "frame_idx": 777,
       "timestamp": 12.9565,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000777.jpg",
-      "front_wheel_conf": 0.9102,
-      "back_wheel_conf": 0.9263,
-      "front_squareness": 0.9655,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9102,
+      "bw_conf": 0.9263,
+      "fw_squareness": 0.9655,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         385,
         237,
         415,
         266
       ],
-      "back_wheel_box": [
+      "bw_box": [
         428,
         237,
         457,
@@ -3424,18 +3424,18 @@
       "frame_idx": 778,
       "timestamp": 12.9731,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000778.jpg",
-      "front_wheel_conf": 0.9108,
-      "back_wheel_conf": 0.9258,
-      "front_squareness": 0.9655,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.9108,
+      "bw_conf": 0.9258,
+      "fw_squareness": 0.9655,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         385,
         237,
         415,
         266
       ],
-      "back_wheel_box": [
+      "bw_box": [
         427,
         237,
         457,
@@ -3452,18 +3452,18 @@
       "frame_idx": 779,
       "timestamp": 12.9898,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000779.jpg",
-      "front_wheel_conf": 0.9009,
-      "back_wheel_conf": 0.9317,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9009,
+      "bw_conf": 0.9317,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         385,
         237,
         415,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         427,
         237,
         457,
@@ -3480,18 +3480,18 @@
       "frame_idx": 780,
       "timestamp": 13.0065,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000780.jpg",
-      "front_wheel_conf": 0.9117,
-      "back_wheel_conf": 0.9236,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.9355,
-      "front_wheel_box": [
+      "fw_conf": 0.9117,
+      "bw_conf": 0.9236,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.9355,
+      "fw_box": [
         384,
         236,
         414,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         427,
         237,
         456,
@@ -3508,18 +3508,18 @@
       "frame_idx": 781,
       "timestamp": 13.0232,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000781.jpg",
-      "front_wheel_conf": 0.916,
-      "back_wheel_conf": 0.9237,
-      "front_squareness": 0.9655,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.916,
+      "bw_conf": 0.9237,
+      "fw_squareness": 0.9655,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         384,
         237,
         414,
         266
       ],
-      "back_wheel_box": [
+      "bw_box": [
         426,
         237,
         456,
@@ -3536,18 +3536,18 @@
       "frame_idx": 782,
       "timestamp": 13.0398,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000782.jpg",
-      "front_wheel_conf": 0.9144,
-      "back_wheel_conf": 0.9187,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9144,
+      "bw_conf": 0.9187,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         384,
         237,
         413,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         426,
         237,
         455,
@@ -3564,18 +3564,18 @@
       "frame_idx": 783,
       "timestamp": 13.0565,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000783.jpg",
-      "front_wheel_conf": 0.9101,
-      "back_wheel_conf": 0.9156,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.9101,
+      "bw_conf": 0.9156,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         383,
         237,
         413,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         426,
         237,
         455,
@@ -3592,18 +3592,18 @@
       "frame_idx": 784,
       "timestamp": 13.0732,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000784.jpg",
-      "front_wheel_conf": 0.9137,
-      "back_wheel_conf": 0.9172,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9137,
+      "bw_conf": 0.9172,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         383,
         237,
         413,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         425,
         237,
         455,
@@ -3620,18 +3620,18 @@
       "frame_idx": 785,
       "timestamp": 13.0899,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000785.jpg",
-      "front_wheel_conf": 0.9146,
-      "back_wheel_conf": 0.9152,
-      "front_squareness": 0.9655,
-      "back_squareness": 0.9333,
-      "size_match_ratio": 0.9655,
-      "front_wheel_box": [
+      "fw_conf": 0.9146,
+      "bw_conf": 0.9152,
+      "fw_squareness": 0.9655,
+      "bw_squareness": 0.9333,
+      "wheel_size_ratio": 0.9655,
+      "fw_box": [
         383,
         238,
         413,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         426,
         237,
         454,
@@ -3648,18 +3648,18 @@
       "frame_idx": 786,
       "timestamp": 13.1065,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000786.jpg",
-      "front_wheel_conf": 0.9118,
-      "back_wheel_conf": 0.9169,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.9118,
+      "bw_conf": 0.9169,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         383,
         238,
         412,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         425,
         237,
         454,
@@ -3676,18 +3676,18 @@
       "frame_idx": 787,
       "timestamp": 13.1232,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000787.jpg",
-      "front_wheel_conf": 0.911,
-      "back_wheel_conf": 0.9165,
-      "front_squareness": 0.9655,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.911,
+      "bw_conf": 0.9165,
+      "fw_squareness": 0.9655,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         382,
         238,
         412,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         425,
         237,
         454,
@@ -3704,18 +3704,18 @@
       "frame_idx": 788,
       "timestamp": 13.1399,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000788.jpg",
-      "front_wheel_conf": 0.9105,
-      "back_wheel_conf": 0.9144,
-      "front_squareness": 0.9655,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.9105,
+      "bw_conf": 0.9144,
+      "fw_squareness": 0.9655,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         382,
         238,
         412,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         424,
         237,
         454,
@@ -3732,18 +3732,18 @@
       "frame_idx": 789,
       "timestamp": 13.1566,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000789.jpg",
-      "front_wheel_conf": 0.9063,
-      "back_wheel_conf": 0.9184,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9063,
+      "bw_conf": 0.9184,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         382,
         237,
         412,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         424,
         237,
         454,
@@ -3760,18 +3760,18 @@
       "frame_idx": 790,
       "timestamp": 13.1732,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000790.jpg",
-      "front_wheel_conf": 0.8983,
-      "back_wheel_conf": 0.9274,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.8983,
+      "bw_conf": 0.9274,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         382,
         237,
         412,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         424,
         237,
         453,
@@ -3788,18 +3788,18 @@
       "frame_idx": 791,
       "timestamp": 13.1899,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000791.jpg",
-      "front_wheel_conf": 0.9097,
-      "back_wheel_conf": 0.9238,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.9097,
+      "bw_conf": 0.9238,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         382,
         237,
         412,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         424,
         237,
         453,
@@ -3816,18 +3816,18 @@
       "frame_idx": 792,
       "timestamp": 13.2066,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000792.jpg",
-      "front_wheel_conf": 0.9067,
-      "back_wheel_conf": 0.9212,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.9067,
+      "bw_conf": 0.9212,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         382,
         238,
         411,
         267
       ],
-      "back_wheel_box": [
+      "bw_box": [
         424,
         237,
         453,
@@ -3844,18 +3844,18 @@
       "frame_idx": 793,
       "timestamp": 13.2233,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000793.jpg",
-      "front_wheel_conf": 0.9049,
-      "back_wheel_conf": 0.9217,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9049,
+      "bw_conf": 0.9217,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         382,
         238,
         411,
         268
       ],
-      "back_wheel_box": [
+      "bw_box": [
         424,
         237,
         453,
@@ -3872,18 +3872,18 @@
       "frame_idx": 794,
       "timestamp": 13.2399,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000794.jpg",
-      "front_wheel_conf": 0.9073,
-      "back_wheel_conf": 0.9217,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9655,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.9073,
+      "bw_conf": 0.9217,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9655,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         381,
         238,
         411,
         268
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         238,
         453,
@@ -3900,18 +3900,18 @@
       "frame_idx": 795,
       "timestamp": 13.2566,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000795.jpg",
-      "front_wheel_conf": 0.911,
-      "back_wheel_conf": 0.9241,
-      "front_squareness": 0.9667,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.911,
+      "bw_conf": 0.9241,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         381,
         238,
         410,
         268
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         238,
         452,
@@ -3928,18 +3928,18 @@
       "frame_idx": 796,
       "timestamp": 13.2733,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000796.jpg",
-      "front_wheel_conf": 0.9084,
-      "back_wheel_conf": 0.9247,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9084,
+      "bw_conf": 0.9247,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         381,
         238,
         410,
         268
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         238,
         452,
@@ -3956,18 +3956,18 @@
       "frame_idx": 797,
       "timestamp": 13.29,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000797.jpg",
-      "front_wheel_conf": 0.9079,
-      "back_wheel_conf": 0.922,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9079,
+      "bw_conf": 0.922,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         381,
         238,
         410,
         268
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         238,
         452,
@@ -3984,18 +3984,18 @@
       "frame_idx": 798,
       "timestamp": 13.3066,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000798.jpg",
-      "front_wheel_conf": 0.9063,
-      "back_wheel_conf": 0.9226,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.9063,
+      "bw_conf": 0.9226,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         380,
         239,
         410,
         269
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         238,
         452,
@@ -4012,18 +4012,18 @@
       "frame_idx": 799,
       "timestamp": 13.3233,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000799.jpg",
-      "front_wheel_conf": 0.9038,
-      "back_wheel_conf": 0.919,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9038,
+      "bw_conf": 0.919,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         381,
         239,
         410,
         269
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         238,
         452,
@@ -4040,18 +4040,18 @@
       "frame_idx": 800,
       "timestamp": 13.34,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000800.jpg",
-      "front_wheel_conf": 0.8982,
-      "back_wheel_conf": 0.9174,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.8982,
+      "bw_conf": 0.9174,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         380,
         239,
         410,
         269
       ],
-      "back_wheel_box": [
+      "bw_box": [
         422,
         238,
         451,
@@ -4068,18 +4068,18 @@
       "frame_idx": 801,
       "timestamp": 13.3567,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000801.jpg",
-      "front_wheel_conf": 0.9019,
-      "back_wheel_conf": 0.9227,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9344,
-      "front_wheel_box": [
+      "fw_conf": 0.9019,
+      "bw_conf": 0.9227,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9344,
+      "fw_box": [
         380,
         239,
         410,
         269
       ],
-      "back_wheel_box": [
+      "bw_box": [
         422,
         239,
         451,
@@ -4096,18 +4096,18 @@
       "frame_idx": 802,
       "timestamp": 13.3733,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000802.jpg",
-      "front_wheel_conf": 0.8971,
-      "back_wheel_conf": 0.9196,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8971,
+      "bw_conf": 0.9196,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         380,
         239,
         410,
         269
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         238,
         451,
@@ -4124,18 +4124,18 @@
       "frame_idx": 803,
       "timestamp": 13.39,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000803.jpg",
-      "front_wheel_conf": 0.8893,
-      "back_wheel_conf": 0.9248,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9655,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.8893,
+      "bw_conf": 0.9248,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9655,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         380,
         239,
         410,
         269
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         239,
         451,
@@ -4152,18 +4152,18 @@
       "frame_idx": 804,
       "timestamp": 13.4067,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000804.jpg",
-      "front_wheel_conf": 0.8235,
-      "back_wheel_conf": 0.9199,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.8235,
+      "bw_conf": 0.9199,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         380,
         240,
         409,
         269
       ],
-      "back_wheel_box": [
+      "bw_box": [
         422,
         239,
         451,
@@ -4180,18 +4180,18 @@
       "frame_idx": 805,
       "timestamp": 13.4234,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000805.jpg",
-      "front_wheel_conf": 0.8778,
-      "back_wheel_conf": 0.9142,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8778,
+      "bw_conf": 0.9142,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         380,
         240,
         409,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         422,
         239,
         451,
@@ -4208,18 +4208,18 @@
       "frame_idx": 806,
       "timestamp": 13.44,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000806.jpg",
-      "front_wheel_conf": 0.872,
-      "back_wheel_conf": 0.9181,
-      "front_squareness": 0.9667,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.872,
+      "bw_conf": 0.9181,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         380,
         240,
         409,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         239,
         451,
@@ -4236,18 +4236,18 @@
       "frame_idx": 807,
       "timestamp": 13.4567,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000807.jpg",
-      "front_wheel_conf": 0.7187,
-      "back_wheel_conf": 0.9136,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.7187,
+      "bw_conf": 0.9136,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         380,
         240,
         409,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         422,
         239,
         451,
@@ -4264,18 +4264,18 @@
       "frame_idx": 808,
       "timestamp": 13.4734,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000808.jpg",
-      "front_wheel_conf": 0.8432,
-      "back_wheel_conf": 0.9119,
-      "front_squareness": 0.9667,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.8432,
+      "bw_conf": 0.9119,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         380,
         240,
         409,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         239,
         451,
@@ -4292,18 +4292,18 @@
       "frame_idx": 809,
       "timestamp": 13.4901,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000809.jpg",
-      "front_wheel_conf": 0.845,
-      "back_wheel_conf": 0.9101,
-      "front_squareness": 0.9667,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.845,
+      "bw_conf": 0.9101,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         380,
         240,
         409,
         270
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         239,
         451,
@@ -4320,18 +4320,18 @@
       "frame_idx": 810,
       "timestamp": 13.5067,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000810.jpg",
-      "front_wheel_conf": 0.8825,
-      "back_wheel_conf": 0.9114,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.8825,
+      "bw_conf": 0.9114,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         380,
         240,
         410,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         422,
         239,
         451,
@@ -4348,18 +4348,18 @@
       "frame_idx": 811,
       "timestamp": 13.5234,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000811.jpg",
-      "front_wheel_conf": 0.8737,
-      "back_wheel_conf": 0.907,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.9333,
-      "front_wheel_box": [
+      "fw_conf": 0.8737,
+      "bw_conf": 0.907,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.9333,
+      "fw_box": [
         380,
         240,
         410,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         239,
         451,
@@ -4376,18 +4376,18 @@
       "frame_idx": 812,
       "timestamp": 13.5401,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000812.jpg",
-      "front_wheel_conf": 0.871,
-      "back_wheel_conf": 0.9064,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.9333,
-      "front_wheel_box": [
+      "fw_conf": 0.871,
+      "bw_conf": 0.9064,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.9333,
+      "fw_box": [
         380,
         240,
         410,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         239,
         451,
@@ -4404,18 +4404,18 @@
       "frame_idx": 813,
       "timestamp": 13.5568,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000813.jpg",
-      "front_wheel_conf": 0.8693,
-      "back_wheel_conf": 0.9069,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.9977,
-      "front_wheel_box": [
+      "fw_conf": 0.8693,
+      "bw_conf": 0.9069,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.9977,
+      "fw_box": [
         381,
         241,
         410,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         239,
         451,
@@ -4432,18 +4432,18 @@
       "frame_idx": 814,
       "timestamp": 13.5734,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000814.jpg",
-      "front_wheel_conf": 0.868,
-      "back_wheel_conf": 0.9039,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.868,
+      "bw_conf": 0.9039,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         381,
         241,
         410,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         239,
         452,
@@ -4460,18 +4460,18 @@
       "frame_idx": 815,
       "timestamp": 13.5901,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000815.jpg",
-      "front_wheel_conf": 0.8646,
-      "back_wheel_conf": 0.9039,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.8646,
+      "bw_conf": 0.9039,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         381,
         241,
         410,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         239,
         452,
@@ -4488,18 +4488,18 @@
       "frame_idx": 816,
       "timestamp": 13.6068,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000816.jpg",
-      "front_wheel_conf": 0.8635,
-      "back_wheel_conf": 0.9006,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.8635,
+      "bw_conf": 0.9006,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         381,
         241,
         410,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         240,
         452,
@@ -4516,18 +4516,18 @@
       "frame_idx": 817,
       "timestamp": 13.6235,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000817.jpg",
-      "front_wheel_conf": 0.8696,
-      "back_wheel_conf": 0.8997,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.8696,
+      "bw_conf": 0.8997,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         381,
         241,
         410,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         240,
         452,
@@ -4544,18 +4544,18 @@
       "frame_idx": 818,
       "timestamp": 13.6401,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000818.jpg",
-      "front_wheel_conf": 0.8693,
-      "back_wheel_conf": 0.9004,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.8693,
+      "bw_conf": 0.9004,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         381,
         241,
         410,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         240,
         452,
@@ -4572,18 +4572,18 @@
       "frame_idx": 819,
       "timestamp": 13.6568,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000819.jpg",
-      "front_wheel_conf": 0.8685,
-      "back_wheel_conf": 0.9022,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.8685,
+      "bw_conf": 0.9022,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         381,
         241,
         410,
         271
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         240,
         452,
@@ -4600,18 +4600,18 @@
       "frame_idx": 820,
       "timestamp": 13.6735,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000820.jpg",
-      "front_wheel_conf": 0.8667,
-      "back_wheel_conf": 0.901,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8667,
+      "bw_conf": 0.901,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         381,
         241,
         410,
         272
       ],
-      "back_wheel_box": [
+      "bw_box": [
         423,
         240,
         452,
@@ -4628,18 +4628,18 @@
       "frame_idx": 821,
       "timestamp": 13.6902,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000821.jpg",
-      "front_wheel_conf": 0.8771,
-      "back_wheel_conf": 0.9064,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8771,
+      "bw_conf": 0.9064,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         381,
         242,
         410,
         272
       ],
-      "back_wheel_box": [
+      "bw_box": [
         422,
         241,
         451,
@@ -4656,18 +4656,18 @@
       "frame_idx": 822,
       "timestamp": 13.7068,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000822.jpg",
-      "front_wheel_conf": 0.8757,
-      "back_wheel_conf": 0.913,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.8757,
+      "bw_conf": 0.913,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         381,
         241,
         410,
         272
       ],
-      "back_wheel_box": [
+      "bw_box": [
         422,
         241,
         451,
@@ -4684,18 +4684,18 @@
       "frame_idx": 823,
       "timestamp": 13.7235,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000823.jpg",
-      "front_wheel_conf": 0.8692,
-      "back_wheel_conf": 0.9132,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8692,
+      "bw_conf": 0.9132,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         381,
         242,
         410,
         272
       ],
-      "back_wheel_box": [
+      "bw_box": [
         422,
         241,
         451,
@@ -4712,18 +4712,18 @@
       "frame_idx": 824,
       "timestamp": 13.7402,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000824.jpg",
-      "front_wheel_conf": 0.8702,
-      "back_wheel_conf": 0.9135,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8702,
+      "bw_conf": 0.9135,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         381,
         242,
         410,
         272
       ],
-      "back_wheel_box": [
+      "bw_box": [
         422,
         241,
         451,
@@ -4740,18 +4740,18 @@
       "frame_idx": 825,
       "timestamp": 13.7569,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000825.jpg",
-      "front_wheel_conf": 0.8618,
-      "back_wheel_conf": 0.9118,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.8618,
+      "bw_conf": 0.9118,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         380,
         242,
         410,
         272
       ],
-      "back_wheel_box": [
+      "bw_box": [
         422,
         241,
         451,
@@ -4768,18 +4768,18 @@
       "frame_idx": 826,
       "timestamp": 13.7735,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000826.jpg",
-      "front_wheel_conf": 0.8701,
-      "back_wheel_conf": 0.9222,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.8701,
+      "bw_conf": 0.9222,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         380,
         242,
         410,
         272
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         241,
         451,
@@ -4796,18 +4796,18 @@
       "frame_idx": 827,
       "timestamp": 13.7902,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000827.jpg",
-      "front_wheel_conf": 0.8705,
-      "back_wheel_conf": 0.9211,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8705,
+      "bw_conf": 0.9211,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         380,
         242,
         410,
         273
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         241,
         451,
@@ -4824,18 +4824,18 @@
       "frame_idx": 828,
       "timestamp": 13.8069,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000828.jpg",
-      "front_wheel_conf": 0.8712,
-      "back_wheel_conf": 0.9244,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8712,
+      "bw_conf": 0.9244,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         380,
         242,
         410,
         273
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         241,
         451,
@@ -4852,18 +4852,18 @@
       "frame_idx": 829,
       "timestamp": 13.8236,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000829.jpg",
-      "front_wheel_conf": 0.8663,
-      "back_wheel_conf": 0.8824,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.8663,
+      "bw_conf": 0.8824,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         380,
         242,
         410,
         273
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         241,
         450,
@@ -4880,18 +4880,18 @@
       "frame_idx": 830,
       "timestamp": 13.8402,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000830.jpg",
-      "front_wheel_conf": 0.8214,
-      "back_wheel_conf": 0.8995,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.8214,
+      "bw_conf": 0.8995,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         380,
         242,
         410,
         273
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         241,
         450,
@@ -4908,18 +4908,18 @@
       "frame_idx": 831,
       "timestamp": 13.8569,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000831.jpg",
-      "front_wheel_conf": 0.7913,
-      "back_wheel_conf": 0.8901,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.9355,
-      "front_wheel_box": [
+      "fw_conf": 0.7913,
+      "bw_conf": 0.8901,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.9355,
+      "fw_box": [
         380,
         242,
         410,
         273
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         242,
         450,
@@ -4936,18 +4936,18 @@
       "frame_idx": 832,
       "timestamp": 13.8736,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000832.jpg",
-      "front_wheel_conf": 0.8911,
-      "back_wheel_conf": 0.9071,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8911,
+      "bw_conf": 0.9071,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         380,
         243,
         409,
         274
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         241,
         450,
@@ -4964,18 +4964,18 @@
       "frame_idx": 833,
       "timestamp": 13.8903,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000833.jpg",
-      "front_wheel_conf": 0.8901,
-      "back_wheel_conf": 0.9102,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8901,
+      "bw_conf": 0.9102,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         380,
         243,
         409,
         274
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         241,
         450,
@@ -4992,18 +4992,18 @@
       "frame_idx": 834,
       "timestamp": 13.9069,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000834.jpg",
-      "front_wheel_conf": 0.891,
-      "back_wheel_conf": 0.912,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.891,
+      "bw_conf": 0.912,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         380,
         243,
         409,
         274
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         241,
         450,
@@ -5020,18 +5020,18 @@
       "frame_idx": 835,
       "timestamp": 13.9236,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000835.jpg",
-      "front_wheel_conf": 0.8957,
-      "back_wheel_conf": 0.9157,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8957,
+      "bw_conf": 0.9157,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         380,
         243,
         409,
         274
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         241,
         450,
@@ -5043,18 +5043,18 @@
       "frame_idx": 836,
       "timestamp": 13.9403,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000836.jpg",
-      "front_wheel_conf": 0.7743,
-      "back_wheel_conf": 0.9076,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9062,
-      "size_match_ratio": 0.9978,
-      "front_wheel_box": [
+      "fw_conf": 0.7743,
+      "bw_conf": 0.9076,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9062,
+      "wheel_size_ratio": 0.9978,
+      "fw_box": [
         380,
         243,
         410,
         274
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         241,
         450,
@@ -5071,18 +5071,18 @@
       "frame_idx": 837,
       "timestamp": 13.957,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000837.jpg",
-      "front_wheel_conf": 0.8211,
-      "back_wheel_conf": 0.9029,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9062,
-      "size_match_ratio": 0.9355,
-      "front_wheel_box": [
+      "fw_conf": 0.8211,
+      "bw_conf": 0.9029,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9062,
+      "wheel_size_ratio": 0.9355,
+      "fw_box": [
         379,
         242,
         410,
         274
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         241,
         450,
@@ -5099,18 +5099,18 @@
       "frame_idx": 838,
       "timestamp": 13.9736,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000838.jpg",
-      "front_wheel_conf": 0.7928,
-      "back_wheel_conf": 0.8941,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9062,
-      "size_match_ratio": 0.9375,
-      "front_wheel_box": [
+      "fw_conf": 0.7928,
+      "bw_conf": 0.8941,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9062,
+      "wheel_size_ratio": 0.9375,
+      "fw_box": [
         380,
         244,
         409,
         274
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         241,
         450,
@@ -5127,18 +5127,18 @@
       "frame_idx": 839,
       "timestamp": 13.9903,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000839.jpg",
-      "front_wheel_conf": 0.8064,
-      "back_wheel_conf": 0.8948,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.9977,
-      "front_wheel_box": [
+      "fw_conf": 0.8064,
+      "bw_conf": 0.8948,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.9977,
+      "fw_box": [
         380,
         244,
         409,
         274
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         242,
         449,
@@ -5155,18 +5155,18 @@
       "frame_idx": 840,
       "timestamp": 14.007,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000840.jpg",
-      "front_wheel_conf": 0.818,
-      "back_wheel_conf": 0.8953,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.818,
+      "bw_conf": 0.8953,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         380,
         244,
         409,
         274
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         242,
         450,
@@ -5183,18 +5183,18 @@
       "frame_idx": 841,
       "timestamp": 14.0237,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000841.jpg",
-      "front_wheel_conf": 0.8804,
-      "back_wheel_conf": 0.8976,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.875,
-      "size_match_ratio": 0.9967,
-      "front_wheel_box": [
+      "fw_conf": 0.8804,
+      "bw_conf": 0.8976,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.875,
+      "wheel_size_ratio": 0.9967,
+      "fw_box": [
         380,
         244,
         409,
         275
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         241,
         449,
@@ -5211,18 +5211,18 @@
       "frame_idx": 842,
       "timestamp": 14.0403,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000842.jpg",
-      "front_wheel_conf": 0.8902,
-      "back_wheel_conf": 0.903,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.9655,
-      "front_wheel_box": [
+      "fw_conf": 0.8902,
+      "bw_conf": 0.903,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.9655,
+      "fw_box": [
         380,
         244,
         409,
         275
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         242,
         449,
@@ -5239,18 +5239,18 @@
       "frame_idx": 843,
       "timestamp": 14.057,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000843.jpg",
-      "front_wheel_conf": 0.8999,
-      "back_wheel_conf": 0.8983,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.9655,
-      "front_wheel_box": [
+      "fw_conf": 0.8999,
+      "bw_conf": 0.8983,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.9655,
+      "fw_box": [
         380,
         244,
         409,
         275
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         242,
         449,
@@ -5267,18 +5267,18 @@
       "frame_idx": 844,
       "timestamp": 14.0737,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000844.jpg",
-      "front_wheel_conf": 0.8967,
-      "back_wheel_conf": 0.8915,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.9655,
-      "front_wheel_box": [
+      "fw_conf": 0.8967,
+      "bw_conf": 0.8915,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.9655,
+      "fw_box": [
         380,
         244,
         409,
         275
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         242,
         449,
@@ -5295,18 +5295,18 @@
       "frame_idx": 845,
       "timestamp": 14.0904,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000845.jpg",
-      "front_wheel_conf": 0.8421,
-      "back_wheel_conf": 0.8959,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.9977,
-      "front_wheel_box": [
+      "fw_conf": 0.8421,
+      "bw_conf": 0.8959,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.9977,
+      "fw_box": [
         380,
         245,
         409,
         275
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         242,
         449,
@@ -5323,18 +5323,18 @@
       "frame_idx": 846,
       "timestamp": 14.107,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000846.jpg",
-      "front_wheel_conf": 0.9002,
-      "back_wheel_conf": 0.8893,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.9655,
-      "front_wheel_box": [
+      "fw_conf": 0.9002,
+      "bw_conf": 0.8893,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.9655,
+      "fw_box": [
         380,
         244,
         409,
         275
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         242,
         449,
@@ -5351,18 +5351,18 @@
       "frame_idx": 847,
       "timestamp": 14.1237,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000847.jpg",
-      "front_wheel_conf": 0.7228,
-      "back_wheel_conf": 0.8785,
-      "front_squareness": 0.875,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.9688,
-      "front_wheel_box": [
+      "fw_conf": 0.7228,
+      "bw_conf": 0.8785,
+      "fw_squareness": 0.875,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.9688,
+      "fw_box": [
         380,
         244,
         408,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         242,
         449,
@@ -5379,18 +5379,18 @@
       "frame_idx": 848,
       "timestamp": 14.1404,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000848.jpg",
-      "front_wheel_conf": 0.8525,
-      "back_wheel_conf": 0.8755,
-      "front_squareness": 0.9032,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8525,
+      "bw_conf": 0.8755,
+      "fw_squareness": 0.9032,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         380,
         245,
         408,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         242,
         449,
@@ -5407,18 +5407,18 @@
       "frame_idx": 849,
       "timestamp": 14.1571,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000849.jpg",
-      "front_wheel_conf": 0.8849,
-      "back_wheel_conf": 0.8752,
-      "front_squareness": 0.9032,
-      "back_squareness": 0.875,
-      "size_match_ratio": 0.9688,
-      "front_wheel_box": [
+      "fw_conf": 0.8849,
+      "bw_conf": 0.8752,
+      "fw_squareness": 0.9032,
+      "bw_squareness": 0.875,
+      "wheel_size_ratio": 0.9688,
+      "fw_box": [
         380,
         245,
         408,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         242,
         449,
@@ -5435,18 +5435,18 @@
       "frame_idx": 850,
       "timestamp": 14.1737,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000850.jpg",
-      "front_wheel_conf": 0.8939,
-      "back_wheel_conf": 0.874,
-      "front_squareness": 0.871,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.9643,
-      "front_wheel_box": [
+      "fw_conf": 0.8939,
+      "bw_conf": 0.874,
+      "fw_squareness": 0.871,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.9643,
+      "fw_box": [
         380,
         245,
         407,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         243,
         449,
@@ -5463,18 +5463,18 @@
       "frame_idx": 851,
       "timestamp": 14.1904,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000851.jpg",
-      "front_wheel_conf": 0.8934,
-      "back_wheel_conf": 0.8707,
-      "front_squareness": 0.871,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.9643,
-      "front_wheel_box": [
+      "fw_conf": 0.8934,
+      "bw_conf": 0.8707,
+      "fw_squareness": 0.871,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.9643,
+      "fw_box": [
         380,
         245,
         407,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         243,
         449,
@@ -5491,18 +5491,18 @@
       "frame_idx": 852,
       "timestamp": 14.2071,
       "frame_file": "output_v2/janeb30/janeb30_selected_frames/frame_000852.jpg",
-      "front_wheel_conf": 0.9059,
-      "back_wheel_conf": 0.8726,
-      "front_squareness": 0.9,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.9332,
-      "front_wheel_box": [
+      "fw_conf": 0.9059,
+      "bw_conf": 0.8726,
+      "fw_squareness": 0.9,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.9332,
+      "fw_box": [
         380,
         246,
         407,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         243,
         449,
@@ -5520,8 +5520,8 @@
     {
       "burst_id": 0,
       "quality_score": 31.0216,
-      "frame_idx_start": 656,
-      "frame_idx_end": 852,
+      "start_frame_idx": 656,
+      "end_frame_idx": 852,
       "frame_count": 197
     }
   ],
@@ -5532,6 +5532,6 @@
     "bursts_selected": 1,
     "selection_rate": 0.1639,
     "avg_confidence": 0.8984,
-    "elapsed_sec": 59.12
+    "elapsed_sec": 57.77
   }
 }

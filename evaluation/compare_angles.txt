@@ -3,106 +3,106 @@
 Subject     Video           Pipe  Cond   Grp   Peak°    Mean°    Std     N      Verdict   
 ----------  --------------  ----  -----  ----  -------  -------  ------  -----  ----------
 alex        alexa30         p1    a      30      132.8     97.1    22.2   1245  too_low   
-alex        alexa30         p2    a      30      129.1     96.7    22.4   1916  too_low   
+alex        alexa30         p2    a      30      129.1     96.7    22.1   1916  too_low   
 alex        alexa60         p1    a      60      131.6     97.9    22.4   1890  too_low   
-alex        alexa60         p2    a      60      127.5     97.3    22.4   1890  too_low   
+alex        alexa60         p2    a      60      127.5     97.4    21.6   1891  too_low   
 alex        alexb30         p1    b      30      159.9    109.9    27.3     98  too_high  
-alex        alexb30         p2    b      30      167.2    115.7    26.7    133  too_high  
+alex        alexb30         p2    b      30      133.4    105.4    26.4    135  too_low   
 alex        alexb60         p1    b      60      162.6    111.5    28.6     73  too_high  
-alex        alexb60         p2    b      60      176.2    118.0    28.3    104  too_high  
+alex        alexb60         p2    b      60      138.1    108.6    26.4    104  too_low   
 
 dervla      dervlaa30       p1    a      30      176.3    115.9    29.6   2536  too_high  
-dervla      dervlaa30       p2    a      30      159.4    117.1    29.5   2526  too_high  
+dervla      dervlaa30       p2    a      30      159.4    117.0    28.3   2552  too_high  
 dervla      dervlaa60       p1    a      60      167.4    111.9    27.7   3206  too_high  
-dervla      dervlaa60       p2    a      60      147.4    112.1    27.3   3205  optimal   
+dervla      dervlaa60       p2    a      60      147.4    112.1    26.4   3206  optimal   
 dervla      dervlab30       p1    b      30      178.2    134.1    26.0     53  too_high  
-dervla      dervlab30       p2    b      30      171.7    125.5    32.2     65  too_high  
+dervla      dervlab30       p2    b      30      147.6    125.6    20.9     73  optimal   
 dervla      dervlab60       p1    b      60      180.0    152.5    18.1    183  too_high  
-dervla      dervlab60       p2    b      60      155.9    135.9    28.6    123  too_high  
+dervla      dervlab60       p2    b      60      150.7    135.9    18.5    136  optimal   
 
 hannah      hannaha30       p1    a      30      168.5    105.5    25.4   1449  too_high  
-hannah      hannaha30       p2    a      30      137.6    104.8    24.4   2446  too_low   
+hannah      hannaha30       p2    a      30      137.6    104.8    24.2   2446  too_low   
 hannah      hannaha60       p1    a      60      132.0     98.1    21.1   1789  too_low   
-hannah      hannaha60       p2    a      60      129.0     98.3    21.2   1789  too_low   
+hannah      hannaha60       p2    a      60      129.0     98.3    20.6   1789  too_low   
 hannah      hannahb30       p1    b      30      149.4    101.4    27.1    117  optimal   
-hannah      hannahb30       p2    b      30      141.6    105.8    26.1    196  too_low   
+hannah      hannahb30       p2    b      30      133.2    105.3    24.9    226  too_low   
 hannah      hannahb60       p1    b      60      136.4     97.6    22.9     61  too_low   
-hannah      hannahb60       p2    b      60      127.7     96.7    23.1     61  too_low   
+hannah      hannahb60       p2    b      60      121.5     96.6    22.0     61  too_low   
 
 jack        jacka30         p1    a      30      155.0    105.6    24.9    638  optimal   
-jack        jacka30         p2    a      30      135.3    103.8    23.0   1497  too_low   
+jack        jacka30         p2    a      30      135.3    103.8    22.8   1497  too_low   
 jack        jacka60         p1    a      60      140.7    102.8    22.8    390  too_low   
-jack        jacka60         p2    a      60      136.3    102.5    22.9    390  too_low   
+jack        jacka60         p2    a      60      136.3    102.5    22.1    390  too_low   
 jack        jackb30         p1    b      30      172.1    131.0    24.7     61  too_high  
-jack        jackb30         p2    b      30      164.1    122.8    26.4     96  too_high  
+jack        jackb30         p2    b      30      142.4    119.1    24.9    112  too_low   
 jack        jackb60         p1    b      60      179.9    146.9    22.7    152  too_high  
-jack        jackb60         p2    b      60      168.4    140.1    23.1    101  too_high  
+jack        jackb60         p2    b      60      157.5    141.1    16.2    109  too_high  
 
 jane        janea30         p1    a      30      159.9    110.6    26.1   1868  too_high  
-jane        janea30         p2    a      30      153.1    110.9    25.3   1879  optimal   
+jane        janea30         p2    a      30      153.1    110.9    24.6   1895  optimal   
 jane        janea60         p1    a      60      160.9    110.5    25.9   1871  too_high  
-jane        janea60         p2    a      60      152.4    110.8    25.1   1882  optimal   
+jane        janea60         p2    a      60      152.4    110.7    24.4   1895  optimal   
 jane        janeb30         p1    b      30      180.0    161.5    15.2    196  too_high  
-jane        janeb30         p2    b      30      161.8    142.5    37.0     34  too_high  
+jane        janeb30         p2    b      30      165.5    141.8    25.0     44  too_high  
 
 jenny       jennya30        p1    a      30      151.2    106.8    25.1   2079  optimal   
-jenny       jennya30        p2    a      30      146.7    107.4    25.4   2078  optimal   
+jenny       jennya30        p2    a      30      146.7    107.4    25.1   2079  optimal   
 jenny       jennya60        p1    a      60      154.1    107.3    25.4   1241  optimal   
-jenny       jennya60        p2    a      60      147.0    107.8    25.4   1240  optimal   
+jenny       jennya60        p2    a      60      147.0    107.8    24.8   1241  optimal   
 jenny       jennyb30        p1    b      30      171.7    124.4    28.1     82  too_high  
-jenny       jennyb30        p2    b      30      159.3    123.5    27.5     82  too_high  
+jenny       jennyb30        p2    b      30      152.4    123.5    27.4     82  optimal   
 jenny       jennyb60        p1    b      60      161.6    115.4    27.6     64  too_high  
-jenny       jennyb60        p2    b      60      159.4    114.5    26.9     64  too_high  
+jenny       jennyb60        p2    b      60      144.6    114.5    26.7     64  too_low   
 
 kate        katea30         p1    a      30      140.2    100.0    23.4   1533  too_low   
-kate        katea30         p2    a      30      135.0     99.7    23.2   1533  too_low   
+kate        katea30         p2    a      30      135.0     99.7    23.0   1533  too_low   
 kate        katea60         p1    a      60      147.7    104.6    23.5   1798  optimal   
-kate        katea60         p2    a      60      138.3    104.6    23.0   1797  too_low   
+kate        katea60         p2    a      60      138.3    104.6    22.4   1798  too_low   
 kate        kateb30         p1    b      30      154.4    115.0    28.4     32  optimal   
-kate        kateb30         p2    b      30      151.0    114.8    28.2     32  optimal   
+kate        kateb30         p2    b      30      143.2    114.8    27.9     32  too_low   
 kate        kateb60         p1    b      60      137.4    107.5    21.6     18  too_low   
-kate        kateb60         p2    b      60      136.8    107.2    21.6     18  too_low   
+kate        kateb60         p2    b      60      129.7    107.5    21.1     18  too_low   
 
 liam        liama30         p1    a      30      133.9     97.7    20.7   1911  too_low   
-liam        liama30         p2    a      30      128.8     98.1    20.7   1911  too_low   
+liam        liama30         p2    a      30      128.8     98.1    20.6   1911  too_low   
 liam        liama60         p1    a      60      127.8     97.1    19.4   1803  too_low   
-liam        liama60         p2    a      60      124.9     97.6    19.6   1813  too_low   
+liam        liama60         p2    a      60      124.9     97.6    19.2   1813  too_low   
 liam        liamb30         p1    b      30      179.1    139.4    20.1    150  too_high  
-liam        liamb30         p2    b      30      147.5    113.7    21.5    304  optimal   
+liam        liamb30         p2    b      30      132.8    116.0    17.7    314  too_low   
 liam        liamb60         p1    b      60      155.8    116.7    16.7    110  too_high  
-liam        liamb60         p2    b      60      145.8    119.5    22.8    208  optimal   
+liam        liamb60         p2    b      60      135.3    117.2    20.9    217  too_low   
 
 paddy       paddya30        p1    a      30      128.6     98.6    19.1   2297  too_low   
-paddy       paddya30        p2    a      30      126.1     99.4    19.0   2294  too_low   
+paddy       paddya30        p2    a      30      126.1     99.4    18.8   2299  too_low   
 paddy       paddya60        p1    a      60      129.9     98.4    19.3   2023  too_low   
-paddy       paddya60        p2    a      60      127.5     99.5    19.3   2022  too_low   
+paddy       paddya60        p2    a      60      127.5     99.6    18.7   2023  too_low   
 paddy       paddyb30        p1    b      30      171.1    120.9    24.8    211  too_high  
-paddy       paddyb30        p2    b      30      139.2    108.1    23.4    179  too_low   
+paddy       paddyb30        p2    b      30      129.7    108.3    20.6    182  too_low   
 paddy       paddyb60        p1    b      60      170.3    122.2    21.5    147  too_high  
-paddy       paddyb60        p2    b      60      139.4    110.2    20.0    116  too_low   
+paddy       paddyb60        p2    b      60      128.1    111.0    16.0    121  too_low   
 
 roman       romana30        p1    a      30      150.0    107.0    24.6   1872  optimal   
-roman       romana30        p2    a      30      144.0    106.3    25.1   1872  too_low   
+roman       romana30        p2    a      30      144.0    106.3    24.9   1872  too_low   
 roman       romana60        p1    a      60      143.2    103.9    23.6   1797  too_low   
-roman       romana60        p2    a      60      137.8    103.0    24.0   1797  too_low   
+roman       romana60        p2    a      60      137.8    103.0    23.5   1797  too_low   
 roman       romanb30        p1    b      30      151.7    106.1    26.0     32  optimal   
-roman       romanb30        p2    b      30      147.7    105.1    25.2     32  optimal   
+roman       romanb30        p2    b      30      133.0    105.0    25.1     32  too_low   
 roman       romanb60        p1    b      60      154.0    111.6    22.4     90  optimal   
-roman       romanb60        p2    b      60      149.5    109.5    23.6     90  optimal   
+roman       romanb60        p2    b      60      136.8    109.5    23.5     90  too_low   
 
 ── Within-subject consistency (peak angle range) ───────────────────────────
 Subject     Pipeline p1             Pipeline p2           
 ----------  ----------------------  ----------------------
-alex        131.6–162.6°  (range 31.0°)  127.5–176.2°  (range 48.7°)
-dervla      167.4–180.0°  (range 12.6°)  147.4–171.7°  (range 24.3°)
-hannah      132.0–168.5°  (range 36.4°)  127.7–141.6°  (range 13.8°)
-jack        140.7–179.9°  (range 39.2°)  135.3–168.4°  (range 33.1°)
-jane        159.9–180.0°  (range 20.1°)  152.4–161.8°  (range 9.5°)
-jenny       151.2–171.7°  (range 20.4°)  146.7–159.4°  (range 12.7°)
-kate        137.4–154.4°  (range 17.0°)  135.0–151.0°  (range 16.0°)
-liam        127.8–179.1°  (range 51.3°)  124.9–147.5°  (range 22.6°)
-paddy       128.6–171.1°  (range 42.6°)  126.1–139.4°  (range 13.4°)
-roman       143.2–154.0°  (range 10.8°)  137.8–149.5°  (range 11.7°)
+alex        131.6–162.6°  (range 31.0°)  127.5–138.1°  (range 10.6°)
+dervla      167.4–180.0°  (range 12.6°)  147.4–159.4°  (range 11.9°)
+hannah      132.0–168.5°  (range 36.4°)  121.5–137.6°  (range 16.0°)
+jack        140.7–179.9°  (range 39.2°)  135.3–157.5°  (range 22.2°)
+jane        159.9–180.0°  (range 20.1°)  152.4–165.5°  (range 13.1°)
+jenny       151.2–171.7°  (range 20.4°)  144.6–152.4°  (range 7.9°)
+kate        137.4–154.4°  (range 17.0°)  129.7–143.2°  (range 13.5°)
+liam        127.8–179.1°  (range 51.3°)  124.9–135.3°  (range 10.4°)
+paddy       128.6–171.1°  (range 42.6°)  126.1–129.7°  (range 3.6°)
+roman       143.2–154.0°  (range 10.8°)  133.0–144.0°  (range 11.0°)
 
 
 ── Pipeline diff (p1 vs p2) ─────────────────────────────────────
@@ -110,42 +110,42 @@ Video           Peak p1   Peak p2   Δ peak   Verd p1   Verd p2
 --------------  --------  --------  -------  --------  --------
 alexa30            132.8     129.1     -3.8  too_low   too_low 
 alexa60            131.6     127.5     -4.1  too_low   too_low 
-alexb30            159.9     167.2     +7.3  too_high  too_high
-alexb60            162.6     176.2    +13.6  too_high  too_high
+alexb30            159.9     133.4    -26.5  too_high  too_low 
+alexb60            162.6     138.1    -24.5  too_high  too_low 
 dervlaa30          176.3     159.4    -17.0  too_high  too_high
 dervlaa60          167.4     147.4    -20.0  too_high  optimal 
-dervlab30          178.2     171.7     -6.4  too_high  too_high
-dervlab60          180.0     155.9    -24.1  too_high  too_high
+dervlab30          178.2     147.6    -30.6  too_high  optimal 
+dervlab60          180.0     150.7    -29.3  too_high  optimal 
 hannaha30          168.5     137.6    -30.9  too_high  too_low 
 hannaha60          132.0     129.0     -3.1  too_low   too_low 
-hannahb30          149.4     141.6     -7.8  optimal   too_low 
-hannahb60          136.4     127.7     -8.7  too_low   too_low 
+hannahb30          149.4     133.2    -16.2  optimal   too_low 
+hannahb60          136.4     121.5    -14.9  too_low   too_low 
 jacka30            155.0     135.3    -19.7  optimal   too_low 
 jacka60            140.7     136.3     -4.3  too_low   too_low 
-jackb30            172.1     164.1     -7.9  too_high  too_high
-jackb60            179.9     168.4    -11.5  too_high  too_high
+jackb30            172.1     142.4    -29.7  too_high  too_low 
+jackb60            179.9     157.5    -22.4  too_high  too_high
 janea30            159.9     153.1     -6.9  too_high  optimal 
 janea60            160.9     152.4     -8.5  too_high  optimal 
-janeb30            180.0     161.8    -18.2  too_high  too_high
+janeb30            180.0     165.5    -14.5  too_high  too_high
 jennya30           151.2     146.7     -4.5  optimal   optimal 
 jennya60           154.1     147.0     -7.1  optimal   optimal 
-jennyb30           171.7     159.3    -12.4  too_high  too_high
-jennyb60           161.6     159.4     -2.2  too_high  too_high
+jennyb30           171.7     152.4    -19.2  too_high  optimal 
+jennyb60           161.6     144.6    -17.0  too_high  too_low 
 katea30            140.2     135.0     -5.2  too_low   too_low 
 katea60            147.7     138.3     -9.3  optimal   too_low 
-kateb30            154.4     151.0     -3.4  optimal   optimal 
-kateb60            137.4     136.8     -0.6  too_low   too_low 
+kateb30            154.4     143.2    -11.2  optimal   too_low 
+kateb60            137.4     129.7     -7.7  too_low   too_low 
 liama30            133.9     128.8     -5.1  too_low   too_low 
 liama60            127.8     124.9     -2.9  too_low   too_low 
-liamb30            179.1     147.5    -31.6  too_high  optimal 
-liamb60            155.8     145.8     -9.9  too_high  optimal 
+liamb30            179.1     132.8    -46.3  too_high  too_low 
+liamb60            155.8     135.3    -20.5  too_high  too_low 
 paddya30           128.6     126.1     -2.5  too_low   too_low 
 paddya60           129.9     127.5     -2.4  too_low   too_low 
-paddyb30           171.1     139.2    -31.9  too_high  too_low 
-paddyb60           170.3     139.4    -30.9  too_high  too_low 
+paddyb30           171.1     129.7    -41.4  too_high  too_low 
+paddyb60           170.3     128.1    -42.2  too_high  too_low 
 romana30           150.0     144.0     -6.0  optimal   too_low 
 romana60           143.2     137.8     -5.4  too_low   too_low 
-romanb30           151.7     147.7     -4.0  optimal   optimal 
-romanb60           154.0     149.5     -4.5  optimal   optimal 
+romanb30           151.7     133.0    -18.6  optimal   too_low 
+romanb60           154.0     136.8    -17.2  optimal   too_low 
 
-  Δ peak: mean=10.4°  max=31.9°  n=39
+  Δ peak: mean=15.9°  max=46.3°  n=39

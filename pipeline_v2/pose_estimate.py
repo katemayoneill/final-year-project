@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
 """
-Pipeline V2 Stage 2: pose estimation on selected frames.
-Reads frame images from selection_log.json and runs OpenPose with preprocessing:
-ROI crop, CLAHE, unsharp mask, square pad. Transforms keypoints back to
-original-frame coordinates.
+stage 2: pose estimation on selected frames.
 
-Usage: python3 pose_estimate.py <video_selection_log.json>
+usage: python3 pose_estimate.py <video_selection_log.json>
 Output: output_v2/<stem>/<stem>_keypoints.json
          output_v2/<stem>/<stem>_preprocessing_steps/
 """
@@ -25,15 +22,29 @@ except ImportError:
     import pyopenpose as op
 
 OPENPOSE_MODELS = os.environ.get("OPENPOSE_MODELS", "/openpose/models/")
-NET_RESOLUTION  = "656x368"
+NET_RESOLUTION = "656x368"
 
-STEP_H      = 400   # height each panel is resized to in the montage
-LABEL_H     = 28    # pixel height of the label bar beneath each panel
-LABEL_FONT  = cv2.FONT_HERSHEY_SIMPLEX
+CLAHE_CLIP_LIMIT = 2.0
+CLAHE_TILE_GRID = (8, 8)
+
+UNSHARP_SIGMA = 3
+UNSHARP_STRENGTH = 0.5
+
+ROI_MARGIN_FRAC = 0.05
+
+APPROX_HW = 2.0
+
+STEP_H = 400
+LABEL_H = 28 
+LABEL_FONT = cv2.FONT_HERSHEY_SIMPLEX
 LABEL_SCALE = 0.55
 LABEL_THICK = 1
 
-JOINT_NAMES = [
+COLOUR_CYCLIST = (0, 255, 0)
+COLOUR_NO_CYCLIST = (0, 0, 255)
+
+
+JOINTS = [
     "Nose", "Neck", "RShoulder", "RElbow", "RWrist",
     "LShoulder", "LElbow", "LWrist", "MidHip",
     "RHip", "RKnee", "RAnkle",
@@ -44,37 +55,37 @@ JOINT_NAMES = [
 ]
 
 
-def median_cyclist_aspect(entries):
-    """Returns median height/width ratio from entries that have a cyclist_box."""
+def median_cyclist_hw(frames):
+    """return median height/width ratio from frames that have a cyclist."""
     ratios = []
-    for e in entries:
-        box = e.get("cyclist_box")
+    for f in frames:
+        box = f.get("cyclist_box")
         if box:
             w = box[2] - box[0]
             h = box[3] - box[1]
             if w > 0:
                 ratios.append(h / w)
     if not ratios:
-        return 2.0
+        return APPROX_HW
     return sorted(ratios)[len(ratios) // 2]
 
 
 def estimate_cyclist_box(entry, aspect):
-    """Estimates cyclist box from wheel positions when cyclist_box is missing."""
+    """estimate cyclist box from wheel positions when yolo fails to detect cyclist."""
     fw_box = entry["fw_box"]
     bw_box = entry["bw_box"]
-    x_left       = min(fw_box[0], bw_box[0])
-    x_right      = max(fw_box[2], bw_box[2])
+    x_left = min(fw_box[0], bw_box[0])
+    x_right = max(fw_box[2], bw_box[2])
     wheel_bottom = max(fw_box[3], bw_box[3])
-    est_width    = x_right - x_left
-    est_height   = int(est_width * aspect)
-    return [x_left, wheel_bottom - est_height, x_right, wheel_bottom]
+    width = x_right - x_left
+    height = int(width * aspect)
+    return [x_left, wheel_bottom - height, x_right, wheel_bottom]
 
 
 def compute_roi(box, frame_h, frame_w):
-    """Returns padded crop region (x1, y1, x2, y2) from a cyclist box."""
+    """return padded crop region for a cyclist box."""
     cx1, cy1, cx2, cy2 = box
-    margin = int(0.05 * max(cx2 - cx1, cy2 - cy1))
+    margin = int(ROI_MARGIN_FRAC * max(cx2 - cx1, cy2 - cy1))
     x1 = max(0, cx1 - margin)
     y1 = max(0, cy1 - margin)
     x2 = min(frame_w, cx2 + margin)
@@ -83,22 +94,22 @@ def compute_roi(box, frame_h, frame_w):
 
 
 def apply_clahe(img):
-    """Applies CLAHE to LAB L-channel; returns result."""
+    """apply CLAHE to LAB L-channel."""
     lab = cv2.cvtColor(img, cv2.COLOR_BGR2LAB)
     l, a, b = cv2.split(lab)
-    clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
+    clahe = cv2.createCLAHE(clipLimit=CLAHE_CLIP_LIMIT, tileGridSize=CLAHE_TILE_GRID)
     l = clahe.apply(l)
     return cv2.cvtColor(cv2.merge([l, a, b]), cv2.COLOR_LAB2BGR)
 
 
-def apply_unsharp(img, strength=0.5):
-    """Applies unsharp mask to counteract lateral motion blur; returns result."""
-    blur = cv2.GaussianBlur(img, (0, 0), 3)
+def apply_unsharp(img, strength=UNSHARP_STRENGTH):
+    """apply unsharp mask."""
+    blur = cv2.GaussianBlur(img, (0, 0), UNSHARP_SIGMA)
     return cv2.addWeighted(img, 1.0 + strength, blur, -strength, 0)
 
 
 def square_pad(img):
-    """Pads img to a square; returns (padded, pad_left, pad_top)."""
+    """pad img to a square."""
     h, w = img.shape[:2]
     s = max(h, w)
     pad_top  = (s - h) // 2
@@ -111,7 +122,7 @@ def square_pad(img):
 
 
 def make_panel(img, label):
-    """Resizes img to STEP_H height and attaches a label bar below; returns panel."""
+    """return panel image used in preprocessin montage."""
     h, w = img.shape[:2]
     new_w = max(1, int(w * STEP_H / h))
     panel = cv2.resize(img, (new_w, STEP_H), interpolation=cv2.INTER_AREA)
@@ -124,30 +135,27 @@ def make_panel(img, label):
 
 
 def save_step_montage(steps, out_path):
-    """Saves a horizontal strip of labelled preprocessing panels to out_path.
-
-    steps: list of (label, img) pairs in pipeline order.
-    """
+    """save horizontal strip of labelled preprocessing panels to out path."""
     panels = [make_panel(img, label) for label, img in steps]
     montage = np.hstack(panels)
     cv2.imwrite(out_path, montage)
 
 
 def main():
-    """Runs OpenPose with preprocessing on selected frames; writes keypoints.json."""
+    """run OpenPose with preprocessing on selected frames; write keypoints.json."""
     if len(sys.argv) < 2:
-        print("Usage: python3 pose_estimate.py <video_selection_log.json>")
+        print("usage: python3 pose_estimate.py <video_selection_log.json>")
         sys.exit(1)
 
     log_path = sys.argv[1]
     with open(log_path) as f:
         log = json.load(f)
 
-    stem      = video_stem(log_path, "_selection_log")
-    out_dir   = os.path.join("output_v2", stem)
+    stem = video_stem(log_path, "_selection_log")
+    out_dir = os.path.join("output_v2", stem)
     os.makedirs(out_dir, exist_ok=True)
-    base      = os.path.join(out_dir, stem)
-    out_path  = base + "_keypoints.json"
+    base = os.path.join(out_dir, stem)
+    out_path = base + "_keypoints.json"
     steps_dir = base + "_preprocessing_steps"
     os.makedirs(steps_dir, exist_ok=True)
 
@@ -156,74 +164,69 @@ def main():
     wrapper.configure(params)
     wrapper.start()
     all_entries = log["selected_frames"]
-    fallback_aspect = median_cyclist_aspect(all_entries)
-    print(f"[Pipeline V2] OpenPose ready (net_resolution={NET_RESOLUTION}). Processing {len(all_entries)} frames...")
-    print(f"  Fallback cyclist aspect ratio (h/w): {fallback_aspect:.2f}")
+    approx_aspect = median_cyclist_hw(all_entries)
+    print(f"OpenPose ready (net_resolution={NET_RESOLUTION}). processing {len(all_entries)} frames....")
+    print(f"fallback cyclist aspect ratio (h/w): {approx_aspect:.2f}")
 
-    frames_out       = []
-    inference_times  = []
-    joint_conf_sums  = {name: 0.0 for name in JOINT_NAMES}
+    frames_out = []
+    inference_times = []
+    joint_conf_sums = {name: 0.0 for name in JOINTS}
     joint_conf_count = 0
 
     for i, entry in enumerate(all_entries):
         frame = cv2.imread(entry["frame_file"])
         if frame is None:
-            print(f"  [WARN] Could not read {entry['frame_file']}, skipping")
+            print(f"[SKIP] couldn't read {entry['frame_file']}")
             continue
 
         fh, fw = frame.shape[:2]
 
         has_cyclist_box = bool(entry.get("cyclist_box"))
         if not has_cyclist_box:
-            print(f"  [WARN] No cyclist_box for frame {entry['frame_idx']}, estimating from wheel boxes")
-        cyclist_box = entry["cyclist_box"] if has_cyclist_box else estimate_cyclist_box(entry, fallback_aspect)
+            print(f"[NO CYCLIST] no cyclist_box for frame {entry['frame_idx']}, estimating from wheel boxes")
+        cyclist_box = entry["cyclist_box"] if has_cyclist_box else estimate_cyclist_box(entry, approx_aspect)
 
-        # Step 1 -- original frame with box highlighted (green=detected, yellow=estimated)
         x1, y1, x2, y2 = compute_roi(cyclist_box, fh, fw)
         annotated = frame.copy()
         cx1, cy1, cx2, cy2 = cyclist_box
-        box_colour  = (0, 255, 0) if has_cyclist_box else (0, 200, 255)
-        step1_label = "1. Original + cyclist box" if has_cyclist_box else "1. Original + estimated box"
+        box_colour  =  COLOUR_CYCLIST if has_cyclist_box else COLOUR_NO_CYCLIST
+        step1_label = "1. original + cyclist box" if has_cyclist_box else "1. original + estimated box"
         cv2.rectangle(annotated, (cx1, cy1), (cx2, cy2), box_colour, 3)
         step_original = annotated
 
-        # Step 2 -- ROI crop (raw)
-        crop_raw = frame[y1:y2, x1:x2].copy()
+        crop = frame[y1:y2, x1:x2].copy()
 
-        # Step 3 -- after CLAHE
-        crop_clahe = apply_clahe(crop_raw)
+        crop_clahe = apply_clahe(crop)
 
-        # Step 4 -- after unsharp mask
         crop_sharp = apply_unsharp(crop_clahe)
 
-        # Step 5 -- square padded (what OpenPose sees)
         padded, pad_left, pad_top = square_pad(crop_sharp)
 
         save_step_montage(
             [
-                (step1_label,    step_original),
-                ("2. ROI crop",  crop_raw),
-                ("3. CLAHE",     crop_clahe),
+                (step1_label, step_original),
+                ("2. ROI crop", crop),
+                ("3. CLAHE", crop_clahe),
                 ("4. Unsharp mask", crop_sharp),
-                ("5. Square pad",   padded),
+                ("5. Square pad", padded),
             ],
             os.path.join(steps_dir, f"frame_{entry['frame_idx']:06d}_steps.jpg"),
         )
 
-        datum             = op.Datum()
+        datum = op.Datum()
         datum.cvInputData = padded
-        t0                = time.time()
+        t0 = time.time()
         wrapper.emplaceAndPop(op.VectorDatum([datum]))
         ms = (time.time() - t0) * 1000
         inference_times.append(ms)
 
-        keypoints  = []
+        keypoints = []
         joint_conf = {}
         if datum.poseKeypoints is not None and len(datum.poseKeypoints) > 0:
             kp = datum.poseKeypoints[0]
-            for j, name in enumerate(JOINT_NAMES):
+
+            for j, name in enumerate(JOINTS):
                 px, py, c = float(kp[j][0]), float(kp[j][1]), float(kp[j][2])
-                # Transform back: padded-square coords -> crop coords -> original-frame coords
                 ox = px - pad_left + x1
                 oy = py - pad_top  + y1
                 keypoints.append([round(ox, 2), round(oy, 2), round(c, 4)])
@@ -232,11 +235,11 @@ def main():
             joint_conf_count += 1
 
         frames_out.append({
-            "frame_idx":         entry["frame_idx"],
-            "timestamp":         entry["timestamp"],
-            "frame_file":        entry["frame_file"],
+            "frame_idx": entry["frame_idx"],
+            "timestamp": entry["timestamp"],
+            "frame_file": entry["frame_file"],
             "inference_time_ms": round(ms, 1),
-            "keypoints":         keypoints,
+            "keypoints": keypoints,
             "joint_confidences": joint_conf,
         })
 
@@ -247,22 +250,22 @@ def main():
     avg_infer = sum(inference_times) / len(inference_times) if inference_times else 0
 
     avg_joint_conf = (
-        {name: round(joint_conf_sums[name] / joint_conf_count, 4) for name in JOINT_NAMES}
+        {name: round(joint_conf_sums[name] / joint_conf_count, 4) for name in JOINTS}
         if joint_conf_count > 0 else {}
     )
 
     output = {
-        "video":  log["video"],
+        "video": log["video"],
         "frames": frames_out,
         "metrics": {
-            "frames_processed":      len(frames_out),
+            "frames_processed": len(frames_out),
             "avg_inference_time_ms": round(avg_infer, 1),
-            "avg_joint_confidence":  avg_joint_conf,
+            "avg_joint_confidence": avg_joint_conf,
             "preprocessing": {
-                "roi_crop":       True,
-                "clahe":          True,
-                "unsharp_mask":   True,
-                "square_pad":     True,
+                "roi_crop": True,
+                "clahe": True,
+                "unsharp_mask": True,
+                "square_pad": True,
                 "net_resolution": NET_RESOLUTION,
             },
         }
@@ -272,10 +275,10 @@ def main():
         json.dump(output, f, indent=2)
 
     m = output["metrics"]
-    print(f"Frames processed   : {m['frames_processed']}")
-    print(f"Avg inference time : {m['avg_inference_time_ms']}ms/frame")
-    print(f"Step montages      : {steps_dir}/")
-    print(f"Keypoints saved    : {out_path}")
+    print(f"frames processed: {m['frames_processed']}")
+    print(f"averag inference time: {m['avg_inference_time_ms']}ms/frame")
+    print(f"step montages: {steps_dir}/")
+    print(f"keypoints saved: {out_path}")
 
 
 if __name__ == "__main__":

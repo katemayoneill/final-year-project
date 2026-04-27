@@ -82,8 +82,8 @@ def load_gt(gt_path):
 def run_in_bursts(run, kept_bursts):
     """True if run's frame range falls entirely within any kept burst."""
     for b in kept_bursts:
-        if (run["frame_idx_start"] >= b["frame_idx_start"] and
-                run["frame_idx_end"] <= b["frame_idx_end"]):
+        if (run["frame_idx_start"] >= b["start_frame_idx"] and
+                run["frame_idx_end"] <= b["end_frame_idx"]):
             return True
     return False
 

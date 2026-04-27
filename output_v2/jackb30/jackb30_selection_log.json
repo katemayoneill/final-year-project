@@ -8,18 +8,18 @@
       "frame_idx": 257,
       "timestamp": 4.2855,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000257.jpg",
-      "front_wheel_conf": 0.9248,
-      "back_wheel_conf": 0.9459,
-      "front_squareness": 0.9726,
-      "back_squareness": 0.8919,
-      "size_match_ratio": 0.9423,
-      "front_wheel_box": [
+      "fw_conf": 0.9248,
+      "bw_conf": 0.9459,
+      "fw_squareness": 0.9726,
+      "bw_squareness": 0.8919,
+      "wheel_size_ratio": 0.9423,
+      "fw_box": [
         439,
         270,
         510,
         343
       ],
-      "back_wheel_box": [
+      "bw_box": [
         539,
         268,
         605,
@@ -36,18 +36,18 @@
       "frame_idx": 258,
       "timestamp": 4.3022,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000258.jpg",
-      "front_wheel_conf": 0.9191,
-      "back_wheel_conf": 0.9514,
-      "front_squareness": 0.9726,
-      "back_squareness": 0.8684,
-      "size_match_ratio": 0.9678,
-      "front_wheel_box": [
+      "fw_conf": 0.9191,
+      "bw_conf": 0.9514,
+      "fw_squareness": 0.9726,
+      "bw_squareness": 0.8684,
+      "wheel_size_ratio": 0.9678,
+      "fw_box": [
         435,
         271,
         506,
         344
       ],
-      "back_wheel_box": [
+      "bw_box": [
         536,
         267,
         602,
@@ -59,18 +59,18 @@
       "frame_idx": 259,
       "timestamp": 4.3189,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000259.jpg",
-      "front_wheel_conf": 0.9238,
-      "back_wheel_conf": 0.9552,
-      "front_squareness": 0.9863,
-      "back_squareness": 0.8816,
-      "size_match_ratio": 0.9688,
-      "front_wheel_box": [
+      "fw_conf": 0.9238,
+      "bw_conf": 0.9552,
+      "fw_squareness": 0.9863,
+      "bw_squareness": 0.8816,
+      "wheel_size_ratio": 0.9688,
+      "fw_box": [
         432,
         272,
         504,
         345
       ],
-      "back_wheel_box": [
+      "bw_box": [
         533,
         267,
         600,
@@ -87,18 +87,18 @@
       "frame_idx": 260,
       "timestamp": 4.3355,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000260.jpg",
-      "front_wheel_conf": 0.9379,
-      "back_wheel_conf": 0.9568,
-      "front_squareness": 0.9726,
-      "back_squareness": 0.8947,
-      "size_match_ratio": 0.9971,
-      "front_wheel_box": [
+      "fw_conf": 0.9379,
+      "bw_conf": 0.9568,
+      "fw_squareness": 0.9726,
+      "bw_squareness": 0.8947,
+      "wheel_size_ratio": 0.9971,
+      "fw_box": [
         429,
         272,
         500,
         345
       ],
-      "back_wheel_box": [
+      "bw_box": [
         530,
         268,
         598,
@@ -115,18 +115,18 @@
       "frame_idx": 261,
       "timestamp": 4.3522,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000261.jpg",
-      "front_wheel_conf": 0.9369,
-      "back_wheel_conf": 0.9544,
-      "front_squareness": 0.9865,
-      "back_squareness": 0.8816,
-      "size_match_ratio": 0.9426,
-      "front_wheel_box": [
+      "fw_conf": 0.9369,
+      "bw_conf": 0.9544,
+      "fw_squareness": 0.9865,
+      "bw_squareness": 0.8816,
+      "wheel_size_ratio": 0.9426,
+      "fw_box": [
         425,
         272,
         498,
         346
       ],
-      "back_wheel_box": [
+      "bw_box": [
         528,
         268,
         595,
@@ -143,18 +143,18 @@
       "frame_idx": 262,
       "timestamp": 4.3689,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000262.jpg",
-      "front_wheel_conf": 0.938,
-      "back_wheel_conf": 0.9563,
-      "front_squareness": 0.9863,
-      "back_squareness": 0.9079,
-      "size_match_ratio": 0.9977,
-      "front_wheel_box": [
+      "fw_conf": 0.938,
+      "bw_conf": 0.9563,
+      "fw_squareness": 0.9863,
+      "bw_squareness": 0.9079,
+      "wheel_size_ratio": 0.9977,
+      "fw_box": [
         423,
         273,
         495,
         346
       ],
-      "back_wheel_box": [
+      "bw_box": [
         525,
         269,
         594,
@@ -171,18 +171,18 @@
       "frame_idx": 263,
       "timestamp": 4.3856,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000263.jpg",
-      "front_wheel_conf": 0.9298,
-      "back_wheel_conf": 0.9461,
-      "front_squareness": 0.9733,
-      "back_squareness": 0.9211,
-      "size_match_ratio": 0.9717,
-      "front_wheel_box": [
+      "fw_conf": 0.9298,
+      "bw_conf": 0.9461,
+      "fw_squareness": 0.9733,
+      "bw_squareness": 0.9211,
+      "wheel_size_ratio": 0.9717,
+      "fw_box": [
         420,
         272,
         493,
         347
       ],
-      "back_wheel_box": [
+      "bw_box": [
         521,
         269,
         591,
@@ -199,18 +199,18 @@
       "frame_idx": 264,
       "timestamp": 4.4023,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000264.jpg",
-      "front_wheel_conf": 0.9349,
-      "back_wheel_conf": 0.9382,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9211,
-      "size_match_ratio": 0.9715,
-      "front_wheel_box": [
+      "fw_conf": 0.9349,
+      "bw_conf": 0.9382,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9211,
+      "wheel_size_ratio": 0.9715,
+      "fw_box": [
         416,
         274,
         490,
         348
       ],
-      "back_wheel_box": [
+      "bw_box": [
         519,
         270,
         589,
@@ -227,18 +227,18 @@
       "frame_idx": 265,
       "timestamp": 4.4189,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000265.jpg",
-      "front_wheel_conf": 0.9355,
-      "back_wheel_conf": 0.9364,
-      "front_squareness": 0.973,
-      "back_squareness": 0.9211,
-      "size_match_ratio": 0.9985,
-      "front_wheel_box": [
+      "fw_conf": 0.9355,
+      "bw_conf": 0.9364,
+      "fw_squareness": 0.973,
+      "bw_squareness": 0.9211,
+      "wheel_size_ratio": 0.9985,
+      "fw_box": [
         414,
         274,
         486,
         348
       ],
-      "back_wheel_box": [
+      "bw_box": [
         517,
         270,
         587,
@@ -255,18 +255,18 @@
       "frame_idx": 266,
       "timestamp": 4.4356,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000266.jpg",
-      "front_wheel_conf": 0.9402,
-      "back_wheel_conf": 0.9394,
-      "front_squareness": 0.9865,
-      "back_squareness": 0.8974,
-      "size_match_ratio": 0.9894,
-      "front_wheel_box": [
+      "fw_conf": 0.9402,
+      "bw_conf": 0.9394,
+      "fw_squareness": 0.9865,
+      "bw_squareness": 0.8974,
+      "wheel_size_ratio": 0.9894,
+      "fw_box": [
         411,
         274,
         484,
         348
       ],
-      "back_wheel_box": [
+      "bw_box": [
         515,
         269,
         585,
@@ -283,18 +283,18 @@
       "frame_idx": 267,
       "timestamp": 4.4523,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000267.jpg",
-      "front_wheel_conf": 0.8954,
-      "back_wheel_conf": 0.9418,
-      "front_squareness": 1.0,
-      "back_squareness": 0.8987,
-      "size_match_ratio": 0.9501,
-      "front_wheel_box": [
+      "fw_conf": 0.8954,
+      "bw_conf": 0.9418,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.8987,
+      "wheel_size_ratio": 0.9501,
+      "fw_box": [
         408,
         275,
         481,
         348
       ],
-      "back_wheel_box": [
+      "bw_box": [
         513,
         269,
         584,
@@ -311,18 +311,18 @@
       "frame_idx": 268,
       "timestamp": 4.469,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000268.jpg",
-      "front_wheel_conf": 0.9498,
-      "back_wheel_conf": 0.9449,
-      "front_squareness": 0.9867,
-      "back_squareness": 0.9114,
-      "size_match_ratio": 0.9757,
-      "front_wheel_box": [
+      "fw_conf": 0.9498,
+      "bw_conf": 0.9449,
+      "fw_squareness": 0.9867,
+      "bw_squareness": 0.9114,
+      "wheel_size_ratio": 0.9757,
+      "fw_box": [
         405,
         274,
         479,
         349
       ],
-      "back_wheel_box": [
+      "bw_box": [
         509,
         269,
         581,
@@ -339,18 +339,18 @@
       "frame_idx": 269,
       "timestamp": 4.4856,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000269.jpg",
-      "front_wheel_conf": 0.9455,
-      "back_wheel_conf": 0.9479,
-      "front_squareness": 0.9733,
-      "back_squareness": 0.9241,
-      "size_match_ratio": 0.9494,
-      "front_wheel_box": [
+      "fw_conf": 0.9455,
+      "bw_conf": 0.9479,
+      "fw_squareness": 0.9733,
+      "bw_squareness": 0.9241,
+      "wheel_size_ratio": 0.9494,
+      "fw_box": [
         402,
         274,
         475,
         349
       ],
-      "back_wheel_box": [
+      "bw_box": [
         506,
         270,
         579,
@@ -367,18 +367,18 @@
       "frame_idx": 270,
       "timestamp": 4.5023,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000270.jpg",
-      "front_wheel_conf": 0.7161,
-      "back_wheel_conf": 0.9553,
-      "front_squareness": 0.9867,
-      "back_squareness": 0.9114,
-      "size_match_ratio": 0.9757,
-      "front_wheel_box": [
+      "fw_conf": 0.7161,
+      "bw_conf": 0.9553,
+      "fw_squareness": 0.9867,
+      "bw_squareness": 0.9114,
+      "wheel_size_ratio": 0.9757,
+      "fw_box": [
         399,
         275,
         473,
         350
       ],
-      "back_wheel_box": [
+      "bw_box": [
         504,
         271,
         576,
@@ -395,18 +395,18 @@
       "frame_idx": 271,
       "timestamp": 4.519,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000271.jpg",
-      "front_wheel_conf": 0.6507,
-      "back_wheel_conf": 0.9415,
-      "front_squareness": 0.9868,
-      "back_squareness": 0.9359,
-      "size_match_ratio": 0.9989,
-      "front_wheel_box": [
+      "fw_conf": 0.6507,
+      "bw_conf": 0.9415,
+      "fw_squareness": 0.9868,
+      "bw_squareness": 0.9359,
+      "wheel_size_ratio": 0.9989,
+      "fw_box": [
         396,
         274,
         471,
         350
       ],
-      "back_wheel_box": [
+      "bw_box": [
         501,
         272,
         574,
@@ -423,18 +423,18 @@
       "frame_idx": 272,
       "timestamp": 4.5357,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000272.jpg",
-      "front_wheel_conf": 0.9502,
-      "back_wheel_conf": 0.9379,
-      "front_squareness": 0.9867,
-      "back_squareness": 0.9359,
-      "size_match_ratio": 0.9747,
-      "front_wheel_box": [
+      "fw_conf": 0.9502,
+      "bw_conf": 0.9379,
+      "fw_squareness": 0.9867,
+      "bw_squareness": 0.9359,
+      "wheel_size_ratio": 0.9747,
+      "fw_box": [
         393,
         275,
         467,
         350
       ],
-      "back_wheel_box": [
+      "bw_box": [
         499,
         272,
         572,
@@ -451,18 +451,18 @@
       "frame_idx": 273,
       "timestamp": 4.5523,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000273.jpg",
-      "front_wheel_conf": 0.9478,
-      "back_wheel_conf": 0.9409,
-      "front_squareness": 0.9737,
-      "back_squareness": 0.9367,
-      "size_match_ratio": 0.962,
-      "front_wheel_box": [
+      "fw_conf": 0.9478,
+      "bw_conf": 0.9409,
+      "fw_squareness": 0.9737,
+      "bw_squareness": 0.9367,
+      "wheel_size_ratio": 0.962,
+      "fw_box": [
         390,
         275,
         464,
         351
       ],
-      "back_wheel_box": [
+      "bw_box": [
         495,
         272,
         569,
@@ -479,18 +479,18 @@
       "frame_idx": 274,
       "timestamp": 4.569,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000274.jpg",
-      "front_wheel_conf": 0.9498,
-      "back_wheel_conf": 0.9428,
-      "front_squareness": 0.9868,
-      "back_squareness": 0.9487,
-      "size_match_ratio": 0.9875,
-      "front_wheel_box": [
+      "fw_conf": 0.9498,
+      "bw_conf": 0.9428,
+      "fw_squareness": 0.9868,
+      "bw_squareness": 0.9487,
+      "wheel_size_ratio": 0.9875,
+      "fw_box": [
         387,
         275,
         462,
         351
       ],
-      "back_wheel_box": [
+      "bw_box": [
         493,
         273,
         567,
@@ -507,18 +507,18 @@
       "frame_idx": 275,
       "timestamp": 4.5857,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000275.jpg",
-      "front_wheel_conf": 0.9483,
-      "back_wheel_conf": 0.9432,
-      "front_squareness": 0.9867,
-      "back_squareness": 0.9241,
-      "size_match_ratio": 0.9624,
-      "front_wheel_box": [
+      "fw_conf": 0.9483,
+      "bw_conf": 0.9432,
+      "fw_squareness": 0.9867,
+      "bw_squareness": 0.9241,
+      "wheel_size_ratio": 0.9624,
+      "fw_box": [
         385,
         276,
         459,
         351
       ],
-      "back_wheel_box": [
+      "bw_box": [
         492,
         273,
         565,
@@ -535,18 +535,18 @@
       "frame_idx": 276,
       "timestamp": 4.6024,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000276.jpg",
-      "front_wheel_conf": 0.9479,
-      "back_wheel_conf": 0.9465,
-      "front_squareness": 0.9868,
-      "back_squareness": 0.95,
-      "size_match_ratio": 0.9375,
-      "front_wheel_box": [
+      "fw_conf": 0.9479,
+      "bw_conf": 0.9465,
+      "fw_squareness": 0.9868,
+      "bw_squareness": 0.95,
+      "wheel_size_ratio": 0.9375,
+      "fw_box": [
         382,
         275,
         457,
         351
       ],
-      "back_wheel_box": [
+      "bw_box": [
         487,
         272,
         563,
@@ -563,18 +563,18 @@
       "frame_idx": 277,
       "timestamp": 4.619,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000277.jpg",
-      "front_wheel_conf": 0.9468,
-      "back_wheel_conf": 0.9456,
-      "front_squareness": 0.9867,
-      "back_squareness": 0.9259,
-      "size_match_ratio": 0.9136,
-      "front_wheel_box": [
+      "fw_conf": 0.9468,
+      "bw_conf": 0.9456,
+      "fw_squareness": 0.9867,
+      "bw_squareness": 0.9259,
+      "wheel_size_ratio": 0.9136,
+      "fw_box": [
         381,
         276,
         455,
         351
       ],
-      "back_wheel_box": [
+      "bw_box": [
         485,
         272,
         560,
@@ -591,18 +591,18 @@
       "frame_idx": 278,
       "timestamp": 4.6357,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000278.jpg",
-      "front_wheel_conf": 0.9533,
-      "back_wheel_conf": 0.9463,
-      "front_squareness": 0.9868,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.9628,
-      "front_wheel_box": [
+      "fw_conf": 0.9533,
+      "bw_conf": 0.9463,
+      "fw_squareness": 0.9868,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.9628,
+      "fw_box": [
         379,
         276,
         454,
         352
       ],
-      "back_wheel_box": [
+      "bw_box": [
         484,
         273,
         558,
@@ -619,18 +619,18 @@
       "frame_idx": 279,
       "timestamp": 4.6524,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000279.jpg",
-      "front_wheel_conf": 0.9497,
-      "back_wheel_conf": 0.9433,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9367,
-      "size_match_ratio": 0.988,
-      "front_wheel_box": [
+      "fw_conf": 0.9497,
+      "bw_conf": 0.9433,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9367,
+      "wheel_size_ratio": 0.988,
+      "fw_box": [
         376,
         276,
         452,
         352
       ],
-      "back_wheel_box": [
+      "bw_box": [
         481,
         274,
         555,
@@ -647,18 +647,18 @@
       "frame_idx": 280,
       "timestamp": 4.6691,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000280.jpg",
-      "front_wheel_conf": 0.9505,
-      "back_wheel_conf": 0.9384,
-      "front_squareness": 0.9737,
-      "back_squareness": 0.95,
-      "size_match_ratio": 0.925,
-      "front_wheel_box": [
+      "fw_conf": 0.9505,
+      "bw_conf": 0.9384,
+      "fw_squareness": 0.9737,
+      "bw_squareness": 0.95,
+      "wheel_size_ratio": 0.925,
+      "fw_box": [
         374,
         276,
         448,
         352
       ],
-      "back_wheel_box": [
+      "bw_box": [
         478,
         274,
         554,
@@ -675,18 +675,18 @@
       "frame_idx": 281,
       "timestamp": 4.6857,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000281.jpg",
-      "front_wheel_conf": 0.9493,
-      "back_wheel_conf": 0.9384,
-      "front_squareness": 0.9733,
-      "back_squareness": 0.962,
-      "size_match_ratio": 0.9119,
-      "front_wheel_box": [
+      "fw_conf": 0.9493,
+      "bw_conf": 0.9384,
+      "fw_squareness": 0.9733,
+      "bw_squareness": 0.962,
+      "wheel_size_ratio": 0.9119,
+      "fw_box": [
         372,
         277,
         445,
         352
       ],
-      "back_wheel_box": [
+      "bw_box": [
         475,
         275,
         551,
@@ -703,18 +703,18 @@
       "frame_idx": 282,
       "timestamp": 4.7024,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000282.jpg",
-      "front_wheel_conf": 0.9478,
-      "back_wheel_conf": 0.9425,
-      "front_squareness": 0.9733,
-      "back_squareness": 0.962,
-      "size_match_ratio": 0.9119,
-      "front_wheel_box": [
+      "fw_conf": 0.9478,
+      "bw_conf": 0.9425,
+      "fw_squareness": 0.9733,
+      "bw_squareness": 0.962,
+      "wheel_size_ratio": 0.9119,
+      "fw_box": [
         370,
         277,
         443,
         352
       ],
-      "back_wheel_box": [
+      "bw_box": [
         472,
         275,
         548,
@@ -731,18 +731,18 @@
       "frame_idx": 283,
       "timestamp": 4.7191,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000283.jpg",
-      "front_wheel_conf": 0.9484,
-      "back_wheel_conf": 0.9442,
-      "front_squareness": 0.9737,
-      "back_squareness": 0.9615,
-      "size_match_ratio": 0.9614,
-      "front_wheel_box": [
+      "fw_conf": 0.9484,
+      "bw_conf": 0.9442,
+      "fw_squareness": 0.9737,
+      "bw_squareness": 0.9615,
+      "wheel_size_ratio": 0.9614,
+      "fw_box": [
         367,
         276,
         441,
         352
       ],
-      "back_wheel_box": [
+      "bw_box": [
         471,
         276,
         546,
@@ -759,18 +759,18 @@
       "frame_idx": 284,
       "timestamp": 4.7358,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000284.jpg",
-      "front_wheel_conf": 0.9485,
-      "back_wheel_conf": 0.9412,
-      "front_squareness": 0.9474,
-      "back_squareness": 0.9494,
-      "size_match_ratio": 0.9235,
-      "front_wheel_box": [
+      "fw_conf": 0.9485,
+      "bw_conf": 0.9412,
+      "fw_squareness": 0.9474,
+      "bw_squareness": 0.9494,
+      "wheel_size_ratio": 0.9235,
+      "fw_box": [
         366,
         276,
         438,
         352
       ],
-      "back_wheel_box": [
+      "bw_box": [
         468,
         275,
         543,
@@ -787,18 +787,18 @@
       "frame_idx": 285,
       "timestamp": 4.7524,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000285.jpg",
-      "front_wheel_conf": 0.9499,
-      "back_wheel_conf": 0.9441,
-      "front_squareness": 0.9474,
-      "back_squareness": 0.9494,
-      "size_match_ratio": 0.9235,
-      "front_wheel_box": [
+      "fw_conf": 0.9499,
+      "bw_conf": 0.9441,
+      "fw_squareness": 0.9474,
+      "bw_squareness": 0.9494,
+      "wheel_size_ratio": 0.9235,
+      "fw_box": [
         363,
         276,
         435,
         352
       ],
-      "back_wheel_box": [
+      "bw_box": [
         465,
         275,
         540,
@@ -815,18 +815,18 @@
       "frame_idx": 286,
       "timestamp": 4.7691,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000286.jpg",
-      "front_wheel_conf": 0.8206,
-      "back_wheel_conf": 0.9469,
-      "front_squareness": 0.973,
-      "back_squareness": 0.9494,
-      "size_match_ratio": 0.8992,
-      "front_wheel_box": [
+      "fw_conf": 0.8206,
+      "bw_conf": 0.9469,
+      "fw_squareness": 0.973,
+      "bw_squareness": 0.9494,
+      "wheel_size_ratio": 0.8992,
+      "fw_box": [
         361,
         277,
         433,
         351
       ],
-      "back_wheel_box": [
+      "bw_box": [
         462,
         275,
         537,
@@ -843,18 +843,18 @@
       "frame_idx": 287,
       "timestamp": 4.7858,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000287.jpg",
-      "front_wheel_conf": 0.9552,
-      "back_wheel_conf": 0.9454,
-      "front_squareness": 0.9733,
-      "back_squareness": 0.9487,
-      "size_match_ratio": 0.9485,
-      "front_wheel_box": [
+      "fw_conf": 0.9552,
+      "bw_conf": 0.9454,
+      "fw_squareness": 0.9733,
+      "bw_squareness": 0.9487,
+      "wheel_size_ratio": 0.9485,
+      "fw_box": [
         359,
         276,
         432,
         351
       ],
-      "back_wheel_box": [
+      "bw_box": [
         460,
         276,
         534,
@@ -871,18 +871,18 @@
       "frame_idx": 288,
       "timestamp": 4.8025,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000288.jpg",
-      "front_wheel_conf": 0.9533,
-      "back_wheel_conf": 0.9375,
-      "front_squareness": 0.96,
-      "back_squareness": 0.961,
-      "size_match_ratio": 0.9477,
-      "front_wheel_box": [
+      "fw_conf": 0.9533,
+      "bw_conf": 0.9375,
+      "fw_squareness": 0.96,
+      "bw_squareness": 0.961,
+      "wheel_size_ratio": 0.9477,
+      "fw_box": [
         357,
         276,
         429,
         351
       ],
-      "back_wheel_box": [
+      "bw_box": [
         458,
         277,
         532,
@@ -899,18 +899,18 @@
       "frame_idx": 289,
       "timestamp": 4.8191,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000289.jpg",
-      "front_wheel_conf": 0.9499,
-      "back_wheel_conf": 0.9332,
-      "front_squareness": 0.9595,
-      "back_squareness": 0.9359,
-      "size_match_ratio": 0.9227,
-      "front_wheel_box": [
+      "fw_conf": 0.9499,
+      "bw_conf": 0.9332,
+      "fw_squareness": 0.9595,
+      "bw_squareness": 0.9359,
+      "wheel_size_ratio": 0.9227,
+      "fw_box": [
         355,
         277,
         426,
         351
       ],
-      "back_wheel_box": [
+      "bw_box": [
         455,
         276,
         528,
@@ -927,18 +927,18 @@
       "frame_idx": 290,
       "timestamp": 4.8358,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000290.jpg",
-      "front_wheel_conf": 0.9485,
-      "back_wheel_conf": 0.9324,
-      "front_squareness": 0.9459,
-      "back_squareness": 0.9487,
-      "size_match_ratio": 0.8974,
-      "front_wheel_box": [
+      "fw_conf": 0.9485,
+      "bw_conf": 0.9324,
+      "fw_squareness": 0.9459,
+      "bw_squareness": 0.9487,
+      "wheel_size_ratio": 0.8974,
+      "fw_box": [
         353,
         276,
         423,
         350
       ],
-      "back_wheel_box": [
+      "bw_box": [
         452,
         276,
         526,
@@ -955,18 +955,18 @@
       "frame_idx": 291,
       "timestamp": 4.8525,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000291.jpg",
-      "front_wheel_conf": 0.9489,
-      "back_wheel_conf": 0.9323,
-      "front_squareness": 0.9459,
-      "back_squareness": 0.9481,
-      "size_match_ratio": 0.9215,
-      "front_wheel_box": [
+      "fw_conf": 0.9489,
+      "bw_conf": 0.9323,
+      "fw_squareness": 0.9459,
+      "bw_squareness": 0.9481,
+      "wheel_size_ratio": 0.9215,
+      "fw_box": [
         352,
         276,
         422,
         350
       ],
-      "back_wheel_box": [
+      "bw_box": [
         451,
         276,
         524,
@@ -983,18 +983,18 @@
       "frame_idx": 292,
       "timestamp": 4.8692,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000292.jpg",
-      "front_wheel_conf": 0.9484,
-      "back_wheel_conf": 0.9341,
-      "front_squareness": 0.9726,
-      "back_squareness": 0.9359,
-      "size_match_ratio": 0.9103,
-      "front_wheel_box": [
+      "fw_conf": 0.9484,
+      "bw_conf": 0.9341,
+      "fw_squareness": 0.9726,
+      "bw_squareness": 0.9359,
+      "wheel_size_ratio": 0.9103,
+      "fw_box": [
         350,
         277,
         421,
         350
       ],
-      "back_wheel_box": [
+      "bw_box": [
         449,
         276,
         522,
@@ -1011,18 +1011,18 @@
       "frame_idx": 293,
       "timestamp": 4.8858,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000293.jpg",
-      "front_wheel_conf": 0.9488,
-      "back_wheel_conf": 0.9344,
-      "front_squareness": 0.9726,
-      "back_squareness": 0.9231,
-      "size_match_ratio": 0.9229,
-      "front_wheel_box": [
+      "fw_conf": 0.9488,
+      "bw_conf": 0.9344,
+      "fw_squareness": 0.9726,
+      "bw_squareness": 0.9231,
+      "wheel_size_ratio": 0.9229,
+      "fw_box": [
         348,
         276,
         419,
         349
       ],
-      "back_wheel_box": [
+      "bw_box": [
         448,
         275,
         520,
@@ -1039,18 +1039,18 @@
       "frame_idx": 294,
       "timestamp": 4.9025,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000294.jpg",
-      "front_wheel_conf": 0.9477,
-      "back_wheel_conf": 0.9386,
-      "front_squareness": 0.9583,
-      "back_squareness": 0.8974,
-      "size_match_ratio": 0.9099,
-      "front_wheel_box": [
+      "fw_conf": 0.9477,
+      "bw_conf": 0.9386,
+      "fw_squareness": 0.9583,
+      "bw_squareness": 0.8974,
+      "wheel_size_ratio": 0.9099,
+      "fw_box": [
         347,
         277,
         416,
         349
       ],
-      "back_wheel_box": [
+      "bw_box": [
         447,
         275,
         517,
@@ -1067,18 +1067,18 @@
       "frame_idx": 295,
       "timestamp": 4.9192,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000295.jpg",
-      "front_wheel_conf": 0.9475,
-      "back_wheel_conf": 0.9453,
-      "front_squareness": 0.9583,
-      "back_squareness": 0.8974,
-      "size_match_ratio": 0.9099,
-      "front_wheel_box": [
+      "fw_conf": 0.9475,
+      "bw_conf": 0.9453,
+      "fw_squareness": 0.9583,
+      "bw_squareness": 0.8974,
+      "wheel_size_ratio": 0.9099,
+      "fw_box": [
         346,
         277,
         415,
         349
       ],
-      "back_wheel_box": [
+      "bw_box": [
         445,
         275,
         515,
@@ -1095,18 +1095,18 @@
       "frame_idx": 296,
       "timestamp": 4.9359,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000296.jpg",
-      "front_wheel_conf": 0.9466,
-      "back_wheel_conf": 0.7965,
-      "front_squareness": 0.9583,
-      "back_squareness": 0.9342,
-      "size_match_ratio": 0.9207,
-      "front_wheel_box": [
+      "fw_conf": 0.9466,
+      "bw_conf": 0.7965,
+      "fw_squareness": 0.9583,
+      "bw_squareness": 0.9342,
+      "wheel_size_ratio": 0.9207,
+      "fw_box": [
         344,
         276,
         413,
         348
       ],
-      "back_wheel_box": [
+      "bw_box": [
         442,
         276,
         513,
@@ -1123,18 +1123,18 @@
       "frame_idx": 297,
       "timestamp": 4.9525,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000297.jpg",
-      "front_wheel_conf": 0.9446,
-      "back_wheel_conf": 0.937,
-      "front_squareness": 0.9583,
-      "back_squareness": 0.9211,
-      "size_match_ratio": 0.9338,
-      "front_wheel_box": [
+      "fw_conf": 0.9446,
+      "bw_conf": 0.937,
+      "fw_squareness": 0.9583,
+      "bw_squareness": 0.9211,
+      "wheel_size_ratio": 0.9338,
+      "fw_box": [
         343,
         276,
         412,
         348
       ],
-      "back_wheel_box": [
+      "bw_box": [
         441,
         276,
         511,
@@ -1151,18 +1151,18 @@
       "frame_idx": 298,
       "timestamp": 4.9692,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000298.jpg",
-      "front_wheel_conf": 0.9479,
-      "back_wheel_conf": 0.9295,
-      "front_squareness": 0.9718,
-      "back_squareness": 0.9079,
-      "size_match_ratio": 0.9342,
-      "front_wheel_box": [
+      "fw_conf": 0.9479,
+      "bw_conf": 0.9295,
+      "fw_squareness": 0.9718,
+      "bw_squareness": 0.9079,
+      "wheel_size_ratio": 0.9342,
+      "fw_box": [
         342,
         277,
         411,
         348
       ],
-      "back_wheel_box": [
+      "bw_box": [
         439,
         276,
         508,
@@ -1179,18 +1179,18 @@
       "frame_idx": 299,
       "timestamp": 4.9859,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000299.jpg",
-      "front_wheel_conf": 0.9319,
-      "back_wheel_conf": 0.9222,
-      "front_squareness": 0.9857,
-      "back_squareness": 0.9211,
-      "size_match_ratio": 0.9079,
-      "front_wheel_box": [
+      "fw_conf": 0.9319,
+      "bw_conf": 0.9222,
+      "fw_squareness": 0.9857,
+      "bw_squareness": 0.9211,
+      "wheel_size_ratio": 0.9079,
+      "fw_box": [
         340,
         277,
         409,
         347
       ],
-      "back_wheel_box": [
+      "bw_box": [
         436,
         276,
         506,
@@ -1207,18 +1207,18 @@
       "frame_idx": 300,
       "timestamp": 5.0026,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000300.jpg",
-      "front_wheel_conf": 0.9385,
-      "back_wheel_conf": 0.9283,
-      "front_squareness": 0.9437,
-      "back_squareness": 0.9342,
-      "size_match_ratio": 0.8816,
-      "front_wheel_box": [
+      "fw_conf": 0.9385,
+      "bw_conf": 0.9283,
+      "fw_squareness": 0.9437,
+      "bw_squareness": 0.9342,
+      "wheel_size_ratio": 0.8816,
+      "fw_box": [
         339,
         276,
         406,
         347
       ],
-      "back_wheel_box": [
+      "bw_box": [
         433,
         275,
         504,
@@ -1235,18 +1235,18 @@
       "frame_idx": 301,
       "timestamp": 5.0192,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000301.jpg",
-      "front_wheel_conf": 0.94,
-      "back_wheel_conf": 0.9305,
-      "front_squareness": 0.971,
-      "back_squareness": 0.9211,
-      "size_match_ratio": 0.869,
-      "front_wheel_box": [
+      "fw_conf": 0.94,
+      "bw_conf": 0.9305,
+      "fw_squareness": 0.971,
+      "bw_squareness": 0.9211,
+      "wheel_size_ratio": 0.869,
+      "fw_box": [
         338,
         277,
         405,
         346
       ],
-      "back_wheel_box": [
+      "bw_box": [
         432,
         275,
         502,
@@ -1258,18 +1258,18 @@
       "frame_idx": 302,
       "timestamp": 5.0359,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000302.jpg",
-      "front_wheel_conf": 0.9365,
-      "back_wheel_conf": 0.9299,
-      "front_squareness": 0.9429,
-      "back_squareness": 0.9211,
-      "size_match_ratio": 0.8684,
-      "front_wheel_box": [
+      "fw_conf": 0.9365,
+      "bw_conf": 0.9299,
+      "fw_squareness": 0.9429,
+      "bw_squareness": 0.9211,
+      "wheel_size_ratio": 0.8684,
+      "fw_box": [
         337,
         276,
         403,
         346
       ],
-      "back_wheel_box": [
+      "bw_box": [
         430,
         275,
         500,
@@ -1286,18 +1286,18 @@
       "frame_idx": 303,
       "timestamp": 5.0526,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000303.jpg",
-      "front_wheel_conf": 0.9387,
-      "back_wheel_conf": 0.9313,
-      "front_squareness": 0.9286,
-      "back_squareness": 0.8961,
-      "size_match_ratio": 0.8564,
-      "front_wheel_box": [
+      "fw_conf": 0.9387,
+      "bw_conf": 0.9313,
+      "fw_squareness": 0.9286,
+      "bw_squareness": 0.8961,
+      "wheel_size_ratio": 0.8564,
+      "fw_box": [
         337,
         276,
         402,
         346
       ],
-      "back_wheel_box": [
+      "bw_box": [
         429,
         274,
         498,
@@ -1309,18 +1309,18 @@
       "frame_idx": 304,
       "timestamp": 5.0693,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000304.jpg",
-      "front_wheel_conf": 0.9398,
-      "back_wheel_conf": 0.939,
-      "front_squareness": 0.9286,
-      "back_squareness": 0.8947,
-      "size_match_ratio": 0.8804,
-      "front_wheel_box": [
+      "fw_conf": 0.9398,
+      "bw_conf": 0.939,
+      "fw_squareness": 0.9286,
+      "bw_squareness": 0.8947,
+      "wheel_size_ratio": 0.8804,
+      "fw_box": [
         336,
         275,
         401,
         345
       ],
-      "back_wheel_box": [
+      "bw_box": [
         428,
         274,
         496,
@@ -1337,18 +1337,18 @@
       "frame_idx": 305,
       "timestamp": 5.0859,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000305.jpg",
-      "front_wheel_conf": 0.9333,
-      "back_wheel_conf": 0.9435,
-      "front_squareness": 0.942,
-      "back_squareness": 0.8947,
-      "size_match_ratio": 0.8678,
-      "front_wheel_box": [
+      "fw_conf": 0.9333,
+      "bw_conf": 0.9435,
+      "fw_squareness": 0.942,
+      "bw_squareness": 0.8947,
+      "wheel_size_ratio": 0.8678,
+      "fw_box": [
         335,
         276,
         400,
         345
       ],
-      "back_wheel_box": [
+      "bw_box": [
         426,
         274,
         494,
@@ -1365,18 +1365,18 @@
       "frame_idx": 306,
       "timestamp": 5.1026,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000306.jpg",
-      "front_wheel_conf": 0.9289,
-      "back_wheel_conf": 0.9472,
-      "front_squareness": 0.9143,
-      "back_squareness": 0.8933,
-      "size_match_ratio": 0.8915,
-      "front_wheel_box": [
+      "fw_conf": 0.9289,
+      "bw_conf": 0.9472,
+      "fw_squareness": 0.9143,
+      "bw_squareness": 0.8933,
+      "wheel_size_ratio": 0.8915,
+      "fw_box": [
         335,
         275,
         399,
         345
       ],
-      "back_wheel_box": [
+      "bw_box": [
         425,
         274,
         492,
@@ -1393,18 +1393,18 @@
       "frame_idx": 307,
       "timestamp": 5.1193,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000307.jpg",
-      "front_wheel_conf": 0.9296,
-      "back_wheel_conf": 0.9448,
-      "front_squareness": 0.8873,
-      "back_squareness": 0.8919,
-      "size_match_ratio": 0.9158,
-      "front_wheel_box": [
+      "fw_conf": 0.9296,
+      "bw_conf": 0.9448,
+      "fw_squareness": 0.8873,
+      "bw_squareness": 0.8919,
+      "wheel_size_ratio": 0.9158,
+      "fw_box": [
         334,
         274,
         397,
         345
       ],
-      "back_wheel_box": [
+      "bw_box": [
         424,
         275,
         490,
@@ -1421,18 +1421,18 @@
       "frame_idx": 308,
       "timestamp": 5.136,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000308.jpg",
-      "front_wheel_conf": 0.9292,
-      "back_wheel_conf": 0.7811,
-      "front_squareness": 0.8857,
-      "back_squareness": 0.9054,
-      "size_match_ratio": 0.8754,
-      "front_wheel_box": [
+      "fw_conf": 0.9292,
+      "bw_conf": 0.7811,
+      "fw_squareness": 0.8857,
+      "bw_squareness": 0.9054,
+      "wheel_size_ratio": 0.8754,
+      "fw_box": [
         334,
         274,
         396,
         344
       ],
-      "back_wheel_box": [
+      "bw_box": [
         422,
         275,
         489,
@@ -1449,18 +1449,18 @@
       "frame_idx": 309,
       "timestamp": 5.1526,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000309.jpg",
-      "front_wheel_conf": 0.9229,
-      "back_wheel_conf": 0.9298,
-      "front_squareness": 0.8841,
-      "back_squareness": 0.9041,
-      "size_match_ratio": 0.8736,
-      "front_wheel_box": [
+      "fw_conf": 0.9229,
+      "bw_conf": 0.9298,
+      "fw_squareness": 0.8841,
+      "bw_squareness": 0.9041,
+      "wheel_size_ratio": 0.8736,
+      "fw_box": [
         334,
         274,
         395,
         343
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         275,
         487,
@@ -1477,18 +1477,18 @@
       "frame_idx": 310,
       "timestamp": 5.1693,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000310.jpg",
-      "front_wheel_conf": 0.9224,
-      "back_wheel_conf": 0.9303,
-      "front_squareness": 0.8824,
-      "back_squareness": 0.8649,
-      "size_match_ratio": 0.8615,
-      "front_wheel_box": [
+      "fw_conf": 0.9224,
+      "bw_conf": 0.9303,
+      "fw_squareness": 0.8824,
+      "bw_squareness": 0.8649,
+      "wheel_size_ratio": 0.8615,
+      "fw_box": [
         334,
         274,
         394,
         342
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         274,
         485,
@@ -1505,18 +1505,18 @@
       "frame_idx": 311,
       "timestamp": 5.186,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000311.jpg",
-      "front_wheel_conf": 0.9225,
-      "back_wheel_conf": 0.9342,
-      "front_squareness": 0.8955,
-      "back_squareness": 0.8767,
-      "size_match_ratio": 0.8604,
-      "front_wheel_box": [
+      "fw_conf": 0.9225,
+      "bw_conf": 0.9342,
+      "fw_squareness": 0.8955,
+      "bw_squareness": 0.8767,
+      "wheel_size_ratio": 0.8604,
+      "fw_box": [
         334,
         274,
         394,
         341
       ],
-      "back_wheel_box": [
+      "bw_box": [
         420,
         274,
         484,
@@ -1533,18 +1533,18 @@
       "frame_idx": 721,
       "timestamp": 12.0228,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000721.jpg",
-      "front_wheel_conf": 0.913,
-      "back_wheel_conf": 0.8982,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.8696,
-      "size_match_ratio": 0.8519,
-      "front_wheel_box": [
+      "fw_conf": 0.913,
+      "bw_conf": 0.8982,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.8696,
+      "wheel_size_ratio": 0.8519,
+      "fw_box": [
         400,
         244,
         445,
         292
       ],
-      "back_wheel_box": [
+      "bw_box": [
         342,
         244,
         382,
@@ -1561,18 +1561,18 @@
       "frame_idx": 722,
       "timestamp": 12.0395,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000722.jpg",
-      "front_wheel_conf": 0.9169,
-      "back_wheel_conf": 0.9072,
-      "front_squareness": 0.9574,
-      "back_squareness": 0.8723,
-      "size_match_ratio": 0.9111,
-      "front_wheel_box": [
+      "fw_conf": 0.9169,
+      "bw_conf": 0.9072,
+      "fw_squareness": 0.9574,
+      "bw_squareness": 0.8723,
+      "wheel_size_ratio": 0.9111,
+      "fw_box": [
         401,
         245,
         446,
         292
       ],
-      "back_wheel_box": [
+      "bw_box": [
         343,
         244,
         384,
@@ -1589,18 +1589,18 @@
       "frame_idx": 723,
       "timestamp": 12.0562,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000723.jpg",
-      "front_wheel_conf": 0.8038,
-      "back_wheel_conf": 0.9101,
-      "front_squareness": 0.9583,
-      "back_squareness": 0.8936,
-      "size_match_ratio": 0.894,
-      "front_wheel_box": [
+      "fw_conf": 0.8038,
+      "bw_conf": 0.9101,
+      "fw_squareness": 0.9583,
+      "bw_squareness": 0.8936,
+      "wheel_size_ratio": 0.894,
+      "fw_box": [
         402,
         244,
         448,
         292
       ],
-      "back_wheel_box": [
+      "bw_box": [
         344,
         244,
         386,
@@ -1617,18 +1617,18 @@
       "frame_idx": 724,
       "timestamp": 12.0728,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000724.jpg",
-      "front_wheel_conf": 0.9152,
-      "back_wheel_conf": 0.9045,
-      "front_squareness": 0.9592,
-      "back_squareness": 0.9167,
-      "size_match_ratio": 0.9171,
-      "front_wheel_box": [
+      "fw_conf": 0.9152,
+      "bw_conf": 0.9045,
+      "fw_squareness": 0.9592,
+      "bw_squareness": 0.9167,
+      "wheel_size_ratio": 0.9171,
+      "fw_box": [
         403,
         244,
         450,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         344,
         243,
         388,
@@ -1645,18 +1645,18 @@
       "frame_idx": 725,
       "timestamp": 12.0895,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000725.jpg",
-      "front_wheel_conf": 0.9159,
-      "back_wheel_conf": 0.9044,
-      "front_squareness": 0.9796,
-      "back_squareness": 0.9167,
-      "size_match_ratio": 0.898,
-      "front_wheel_box": [
+      "fw_conf": 0.9159,
+      "bw_conf": 0.9044,
+      "fw_squareness": 0.9796,
+      "bw_squareness": 0.9167,
+      "wheel_size_ratio": 0.898,
+      "fw_box": [
         403,
         244,
         451,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         345,
         243,
         389,
@@ -1673,18 +1673,18 @@
       "frame_idx": 726,
       "timestamp": 12.1062,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000726.jpg",
-      "front_wheel_conf": 0.9203,
-      "back_wheel_conf": 0.907,
-      "front_squareness": 0.9796,
-      "back_squareness": 0.9167,
-      "size_match_ratio": 0.898,
-      "front_wheel_box": [
+      "fw_conf": 0.9203,
+      "bw_conf": 0.907,
+      "fw_squareness": 0.9796,
+      "bw_squareness": 0.9167,
+      "wheel_size_ratio": 0.898,
+      "fw_box": [
         404,
         244,
         452,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         346,
         243,
         390,
@@ -1701,18 +1701,18 @@
       "frame_idx": 727,
       "timestamp": 12.1229,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000727.jpg",
-      "front_wheel_conf": 0.9245,
-      "back_wheel_conf": 0.9104,
-      "front_squareness": 0.9592,
-      "back_squareness": 0.898,
-      "size_match_ratio": 0.9362,
-      "front_wheel_box": [
+      "fw_conf": 0.9245,
+      "bw_conf": 0.9104,
+      "fw_squareness": 0.9592,
+      "bw_squareness": 0.898,
+      "wheel_size_ratio": 0.9362,
+      "fw_box": [
         405,
         244,
         452,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         346,
         243,
         390,
@@ -1729,18 +1729,18 @@
       "frame_idx": 728,
       "timestamp": 12.1395,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000728.jpg",
-      "front_wheel_conf": 0.9262,
-      "back_wheel_conf": 0.9123,
-      "front_squareness": 0.9592,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9379,
-      "front_wheel_box": [
+      "fw_conf": 0.9262,
+      "bw_conf": 0.9123,
+      "fw_squareness": 0.9592,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9379,
+      "fw_box": [
         407,
         244,
         454,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         346,
         244,
         391,
@@ -1757,18 +1757,18 @@
       "frame_idx": 729,
       "timestamp": 12.1562,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000729.jpg",
-      "front_wheel_conf": 0.9242,
-      "back_wheel_conf": 0.9126,
-      "front_squareness": 0.9592,
-      "back_squareness": 0.9167,
-      "size_match_ratio": 0.9171,
-      "front_wheel_box": [
+      "fw_conf": 0.9242,
+      "bw_conf": 0.9126,
+      "fw_squareness": 0.9592,
+      "bw_squareness": 0.9167,
+      "wheel_size_ratio": 0.9171,
+      "fw_box": [
         407,
         244,
         454,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         347,
         244,
         391,
@@ -1785,18 +1785,18 @@
       "frame_idx": 730,
       "timestamp": 12.1729,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000730.jpg",
-      "front_wheel_conf": 0.9225,
-      "back_wheel_conf": 0.9101,
-      "front_squareness": 0.9796,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9184,
-      "front_wheel_box": [
+      "fw_conf": 0.9225,
+      "bw_conf": 0.9101,
+      "fw_squareness": 0.9796,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9184,
+      "fw_box": [
         408,
         244,
         456,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         347,
         244,
         392,
@@ -1813,18 +1813,18 @@
       "frame_idx": 731,
       "timestamp": 12.1896,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000731.jpg",
-      "front_wheel_conf": 0.9159,
-      "back_wheel_conf": 0.9067,
-      "front_squareness": 0.9592,
-      "back_squareness": 0.898,
-      "size_match_ratio": 0.9362,
-      "front_wheel_box": [
+      "fw_conf": 0.9159,
+      "bw_conf": 0.9067,
+      "fw_squareness": 0.9592,
+      "bw_squareness": 0.898,
+      "wheel_size_ratio": 0.9362,
+      "fw_box": [
         410,
         244,
         457,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         348,
         244,
         392,
@@ -1841,18 +1841,18 @@
       "frame_idx": 732,
       "timestamp": 12.2062,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000732.jpg",
-      "front_wheel_conf": 0.915,
-      "back_wheel_conf": 0.9118,
-      "front_squareness": 0.9592,
-      "back_squareness": 0.9184,
-      "size_match_ratio": 0.9574,
-      "front_wheel_box": [
+      "fw_conf": 0.915,
+      "bw_conf": 0.9118,
+      "fw_squareness": 0.9592,
+      "bw_squareness": 0.9184,
+      "wheel_size_ratio": 0.9574,
+      "fw_box": [
         411,
         244,
         458,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         349,
         244,
         394,
@@ -1869,18 +1869,18 @@
       "frame_idx": 733,
       "timestamp": 12.2229,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000733.jpg",
-      "front_wheel_conf": 0.9032,
-      "back_wheel_conf": 0.9134,
-      "front_squareness": 0.9796,
-      "back_squareness": 0.9184,
-      "size_match_ratio": 0.9375,
-      "front_wheel_box": [
+      "fw_conf": 0.9032,
+      "bw_conf": 0.9134,
+      "fw_squareness": 0.9796,
+      "bw_squareness": 0.9184,
+      "wheel_size_ratio": 0.9375,
+      "fw_box": [
         412,
         244,
         460,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         350,
         244,
         395,
@@ -1897,18 +1897,18 @@
       "frame_idx": 734,
       "timestamp": 12.2396,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000734.jpg",
-      "front_wheel_conf": 0.9152,
-      "back_wheel_conf": 0.8364,
-      "front_squareness": 0.98,
-      "back_squareness": 0.898,
-      "size_match_ratio": 0.88,
-      "front_wheel_box": [
+      "fw_conf": 0.9152,
+      "bw_conf": 0.8364,
+      "fw_squareness": 0.98,
+      "bw_squareness": 0.898,
+      "wheel_size_ratio": 0.88,
+      "fw_box": [
         413,
         244,
         462,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         351,
         244,
         395,
@@ -1925,18 +1925,18 @@
       "frame_idx": 735,
       "timestamp": 12.2563,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000735.jpg",
-      "front_wheel_conf": 0.9237,
-      "back_wheel_conf": 0.9223,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9184,
-      "size_match_ratio": 0.9184,
-      "front_wheel_box": [
+      "fw_conf": 0.9237,
+      "bw_conf": 0.9223,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9184,
+      "wheel_size_ratio": 0.9184,
+      "fw_box": [
         414,
         244,
         463,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         352,
         244,
         397,
@@ -1953,18 +1953,18 @@
       "frame_idx": 736,
       "timestamp": 12.2729,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000736.jpg",
-      "front_wheel_conf": 0.9287,
-      "back_wheel_conf": 0.925,
-      "front_squareness": 0.9796,
-      "back_squareness": 0.9184,
-      "size_match_ratio": 0.9375,
-      "front_wheel_box": [
+      "fw_conf": 0.9287,
+      "bw_conf": 0.925,
+      "fw_squareness": 0.9796,
+      "bw_squareness": 0.9184,
+      "wheel_size_ratio": 0.9375,
+      "fw_box": [
         416,
         244,
         464,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         353,
         244,
         398,
@@ -1981,18 +1981,18 @@
       "frame_idx": 737,
       "timestamp": 12.2896,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000737.jpg",
-      "front_wheel_conf": 0.9209,
-      "back_wheel_conf": 0.9271,
-      "front_squareness": 0.9796,
-      "back_squareness": 0.9184,
-      "size_match_ratio": 0.9375,
-      "front_wheel_box": [
+      "fw_conf": 0.9209,
+      "bw_conf": 0.9271,
+      "fw_squareness": 0.9796,
+      "bw_squareness": 0.9184,
+      "wheel_size_ratio": 0.9375,
+      "fw_box": [
         418,
         244,
         466,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         355,
         244,
         400,
@@ -2009,18 +2009,18 @@
       "frame_idx": 738,
       "timestamp": 12.3063,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000738.jpg",
-      "front_wheel_conf": 0.9141,
-      "back_wheel_conf": 0.92,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9184,
-      "size_match_ratio": 0.9184,
-      "front_wheel_box": [
+      "fw_conf": 0.9141,
+      "bw_conf": 0.92,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9184,
+      "wheel_size_ratio": 0.9184,
+      "fw_box": [
         419,
         244,
         468,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         356,
         244,
         401,
@@ -2037,18 +2037,18 @@
       "frame_idx": 739,
       "timestamp": 12.323,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000739.jpg",
-      "front_wheel_conf": 0.8667,
-      "back_wheel_conf": 0.9149,
-      "front_squareness": 1.0,
-      "back_squareness": 0.898,
-      "size_match_ratio": 0.898,
-      "front_wheel_box": [
+      "fw_conf": 0.8667,
+      "bw_conf": 0.9149,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.898,
+      "wheel_size_ratio": 0.898,
+      "fw_box": [
         421,
         245,
         470,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         358,
         244,
         402,
@@ -2065,18 +2065,18 @@
       "frame_idx": 740,
       "timestamp": 12.3396,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000740.jpg",
-      "front_wheel_conf": 0.9252,
-      "back_wheel_conf": 0.917,
-      "front_squareness": 0.9792,
-      "back_squareness": 0.898,
-      "size_match_ratio": 0.9167,
-      "front_wheel_box": [
+      "fw_conf": 0.9252,
+      "bw_conf": 0.917,
+      "fw_squareness": 0.9792,
+      "bw_squareness": 0.898,
+      "wheel_size_ratio": 0.9167,
+      "fw_box": [
         423,
         245,
         472,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         359,
         244,
         403,
@@ -2093,18 +2093,18 @@
       "frame_idx": 741,
       "timestamp": 12.3563,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000741.jpg",
-      "front_wheel_conf": 0.9289,
-      "back_wheel_conf": 0.8266,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9388,
-      "size_match_ratio": 0.9388,
-      "front_wheel_box": [
+      "fw_conf": 0.9289,
+      "bw_conf": 0.8266,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9388,
+      "wheel_size_ratio": 0.9388,
+      "fw_box": [
         424,
         245,
         473,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         360,
         244,
         406,
@@ -2116,18 +2116,18 @@
       "frame_idx": 742,
       "timestamp": 12.373,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000742.jpg",
-      "front_wheel_conf": 0.9285,
-      "back_wheel_conf": 0.8971,
-      "front_squareness": 0.9796,
-      "back_squareness": 0.9796,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9285,
+      "bw_conf": 0.8971,
+      "fw_squareness": 0.9796,
+      "bw_squareness": 0.9796,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         426,
         244,
         474,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         362,
         244,
         410,
@@ -2144,18 +2144,18 @@
       "frame_idx": 743,
       "timestamp": 12.3897,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000743.jpg",
-      "front_wheel_conf": 0.9267,
-      "back_wheel_conf": 0.909,
-      "front_squareness": 0.98,
-      "back_squareness": 0.94,
-      "size_match_ratio": 0.9592,
-      "front_wheel_box": [
+      "fw_conf": 0.9267,
+      "bw_conf": 0.909,
+      "fw_squareness": 0.98,
+      "bw_squareness": 0.94,
+      "wheel_size_ratio": 0.9592,
+      "fw_box": [
         427,
         244,
         476,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         363,
         244,
         410,
@@ -2172,18 +2172,18 @@
       "frame_idx": 744,
       "timestamp": 12.4063,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000744.jpg",
-      "front_wheel_conf": 0.9207,
-      "back_wheel_conf": 0.9262,
-      "front_squareness": 1.0,
-      "back_squareness": 0.94,
-      "size_match_ratio": 0.94,
-      "front_wheel_box": [
+      "fw_conf": 0.9207,
+      "bw_conf": 0.9262,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.94,
+      "wheel_size_ratio": 0.94,
+      "fw_box": [
         428,
         244,
         478,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         365,
         244,
         412,
@@ -2200,18 +2200,18 @@
       "frame_idx": 745,
       "timestamp": 12.423,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000745.jpg",
-      "front_wheel_conf": 0.9134,
-      "back_wheel_conf": 0.923,
-      "front_squareness": 1.0,
-      "back_squareness": 0.94,
-      "size_match_ratio": 0.94,
-      "front_wheel_box": [
+      "fw_conf": 0.9134,
+      "bw_conf": 0.923,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.94,
+      "wheel_size_ratio": 0.94,
+      "fw_box": [
         430,
         244,
         480,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         366,
         244,
         413,
@@ -2228,18 +2228,18 @@
       "frame_idx": 746,
       "timestamp": 12.4397,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000746.jpg",
-      "front_wheel_conf": 0.9232,
-      "back_wheel_conf": 0.9128,
-      "front_squareness": 0.98,
-      "back_squareness": 0.92,
-      "size_match_ratio": 0.9388,
-      "front_wheel_box": [
+      "fw_conf": 0.9232,
+      "bw_conf": 0.9128,
+      "fw_squareness": 0.98,
+      "bw_squareness": 0.92,
+      "wheel_size_ratio": 0.9388,
+      "fw_box": [
         433,
         244,
         482,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         368,
         244,
         414,
@@ -2256,18 +2256,18 @@
       "frame_idx": 747,
       "timestamp": 12.4564,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000747.jpg",
-      "front_wheel_conf": 0.9273,
-      "back_wheel_conf": 0.9233,
-      "front_squareness": 1.0,
-      "back_squareness": 0.96,
-      "size_match_ratio": 0.96,
-      "front_wheel_box": [
+      "fw_conf": 0.9273,
+      "bw_conf": 0.9233,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.96,
+      "wheel_size_ratio": 0.96,
+      "fw_box": [
         434,
         244,
         484,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         369,
         244,
         417,
@@ -2284,18 +2284,18 @@
       "frame_idx": 748,
       "timestamp": 12.473,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000748.jpg",
-      "front_wheel_conf": 0.9303,
-      "back_wheel_conf": 0.9048,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9412,
-      "size_match_ratio": 0.9792,
-      "front_wheel_box": [
+      "fw_conf": 0.9303,
+      "bw_conf": 0.9048,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9412,
+      "wheel_size_ratio": 0.9792,
+      "fw_box": [
         436,
         244,
         486,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         371,
         243,
         419,
@@ -2312,18 +2312,18 @@
       "frame_idx": 749,
       "timestamp": 12.4897,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000749.jpg",
-      "front_wheel_conf": 0.9237,
-      "back_wheel_conf": 0.903,
-      "front_squareness": 1.0,
-      "back_squareness": 0.96,
-      "size_match_ratio": 0.96,
-      "front_wheel_box": [
+      "fw_conf": 0.9237,
+      "bw_conf": 0.903,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.96,
+      "wheel_size_ratio": 0.96,
+      "fw_box": [
         438,
         244,
         488,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         373,
         244,
         421,
@@ -2340,18 +2340,18 @@
       "frame_idx": 750,
       "timestamp": 12.5064,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000750.jpg",
-      "front_wheel_conf": 0.9122,
-      "back_wheel_conf": 0.9162,
-      "front_squareness": 0.9804,
-      "back_squareness": 0.96,
-      "size_match_ratio": 0.9412,
-      "front_wheel_box": [
+      "fw_conf": 0.9122,
+      "bw_conf": 0.9162,
+      "fw_squareness": 0.9804,
+      "bw_squareness": 0.96,
+      "wheel_size_ratio": 0.9412,
+      "fw_box": [
         440,
         243,
         490,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         375,
         244,
         423,
@@ -2368,18 +2368,18 @@
       "frame_idx": 751,
       "timestamp": 12.5231,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000751.jpg",
-      "front_wheel_conf": 0.9273,
-      "back_wheel_conf": 0.9084,
-      "front_squareness": 0.98,
-      "back_squareness": 0.94,
-      "size_match_ratio": 0.9216,
-      "front_wheel_box": [
+      "fw_conf": 0.9273,
+      "bw_conf": 0.9084,
+      "fw_squareness": 0.98,
+      "bw_squareness": 0.94,
+      "wheel_size_ratio": 0.9216,
+      "fw_box": [
         442,
         244,
         493,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         377,
         244,
         424,
@@ -2396,18 +2396,18 @@
       "frame_idx": 752,
       "timestamp": 12.5397,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000752.jpg",
-      "front_wheel_conf": 0.9321,
-      "back_wheel_conf": 0.9096,
-      "front_squareness": 1.0,
-      "back_squareness": 0.94,
-      "size_match_ratio": 0.94,
-      "front_wheel_box": [
+      "fw_conf": 0.9321,
+      "bw_conf": 0.9096,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.94,
+      "wheel_size_ratio": 0.94,
+      "fw_box": [
         445,
         244,
         495,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         379,
         244,
         426,
@@ -2424,18 +2424,18 @@
       "frame_idx": 753,
       "timestamp": 12.5564,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000753.jpg",
-      "front_wheel_conf": 0.9315,
-      "back_wheel_conf": 0.8893,
-      "front_squareness": 0.9804,
-      "back_squareness": 0.96,
-      "size_match_ratio": 0.9412,
-      "front_wheel_box": [
+      "fw_conf": 0.9315,
+      "bw_conf": 0.8893,
+      "fw_squareness": 0.9804,
+      "bw_squareness": 0.96,
+      "wheel_size_ratio": 0.9412,
+      "fw_box": [
         446,
         243,
         496,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         380,
         244,
         428,
@@ -2452,18 +2452,18 @@
       "frame_idx": 754,
       "timestamp": 12.5731,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000754.jpg",
-      "front_wheel_conf": 0.9258,
-      "back_wheel_conf": 0.9115,
-      "front_squareness": 0.9804,
-      "back_squareness": 0.94,
-      "size_match_ratio": 0.9216,
-      "front_wheel_box": [
+      "fw_conf": 0.9258,
+      "bw_conf": 0.9115,
+      "fw_squareness": 0.9804,
+      "bw_squareness": 0.94,
+      "wheel_size_ratio": 0.9216,
+      "fw_box": [
         448,
         243,
         498,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         382,
         244,
         429,
@@ -2480,18 +2480,18 @@
       "frame_idx": 755,
       "timestamp": 12.5898,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000755.jpg",
-      "front_wheel_conf": 0.9121,
-      "back_wheel_conf": 0.9193,
-      "front_squareness": 0.9804,
-      "back_squareness": 0.92,
-      "size_match_ratio": 0.902,
-      "front_wheel_box": [
+      "fw_conf": 0.9121,
+      "bw_conf": 0.9193,
+      "fw_squareness": 0.9804,
+      "bw_squareness": 0.92,
+      "wheel_size_ratio": 0.902,
+      "fw_box": [
         450,
         243,
         500,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         384,
         244,
         430,
@@ -2508,18 +2508,18 @@
       "frame_idx": 756,
       "timestamp": 12.6064,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000756.jpg",
-      "front_wheel_conf": 0.8496,
-      "back_wheel_conf": 0.9187,
-      "front_squareness": 0.9804,
-      "back_squareness": 0.94,
-      "size_match_ratio": 0.9216,
-      "front_wheel_box": [
+      "fw_conf": 0.8496,
+      "bw_conf": 0.9187,
+      "fw_squareness": 0.9804,
+      "bw_squareness": 0.94,
+      "wheel_size_ratio": 0.9216,
+      "fw_box": [
         452,
         243,
         502,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         385,
         244,
         432,
@@ -2536,18 +2536,18 @@
       "frame_idx": 757,
       "timestamp": 12.6231,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000757.jpg",
-      "front_wheel_conf": 0.9227,
-      "back_wheel_conf": 0.9296,
-      "front_squareness": 0.9804,
-      "back_squareness": 0.94,
-      "size_match_ratio": 0.9216,
-      "front_wheel_box": [
+      "fw_conf": 0.9227,
+      "bw_conf": 0.9296,
+      "fw_squareness": 0.9804,
+      "bw_squareness": 0.94,
+      "wheel_size_ratio": 0.9216,
+      "fw_box": [
         454,
         243,
         504,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         386,
         244,
         433,
@@ -2564,18 +2564,18 @@
       "frame_idx": 758,
       "timestamp": 12.6398,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000758.jpg",
-      "front_wheel_conf": 0.9229,
-      "back_wheel_conf": 0.9265,
-      "front_squareness": 0.9804,
-      "back_squareness": 0.92,
-      "size_match_ratio": 0.902,
-      "front_wheel_box": [
+      "fw_conf": 0.9229,
+      "bw_conf": 0.9265,
+      "fw_squareness": 0.9804,
+      "bw_squareness": 0.92,
+      "wheel_size_ratio": 0.902,
+      "fw_box": [
         455,
         243,
         505,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         388,
         244,
         434,
@@ -2592,18 +2592,18 @@
       "frame_idx": 759,
       "timestamp": 12.6565,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000759.jpg",
-      "front_wheel_conf": 0.9278,
-      "back_wheel_conf": 0.928,
-      "front_squareness": 0.9804,
-      "back_squareness": 0.902,
-      "size_match_ratio": 0.92,
-      "front_wheel_box": [
+      "fw_conf": 0.9278,
+      "bw_conf": 0.928,
+      "fw_squareness": 0.9804,
+      "bw_squareness": 0.902,
+      "wheel_size_ratio": 0.92,
+      "fw_box": [
         456,
         243,
         506,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         389,
         243,
         435,
@@ -2620,18 +2620,18 @@
       "frame_idx": 760,
       "timestamp": 12.6731,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000760.jpg",
-      "front_wheel_conf": 0.9211,
-      "back_wheel_conf": 0.919,
-      "front_squareness": 1.0,
-      "back_squareness": 0.902,
-      "size_match_ratio": 0.902,
-      "front_wheel_box": [
+      "fw_conf": 0.9211,
+      "bw_conf": 0.919,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.902,
+      "wheel_size_ratio": 0.902,
+      "fw_box": [
         457,
         243,
         508,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         390,
         243,
         436,
@@ -2648,18 +2648,18 @@
       "frame_idx": 761,
       "timestamp": 12.6898,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000761.jpg",
-      "front_wheel_conf": 0.9086,
-      "back_wheel_conf": 0.8751,
-      "front_squareness": 0.9615,
-      "back_squareness": 0.902,
-      "size_match_ratio": 0.9023,
-      "front_wheel_box": [
+      "fw_conf": 0.9086,
+      "bw_conf": 0.8751,
+      "fw_squareness": 0.9615,
+      "bw_squareness": 0.902,
+      "wheel_size_ratio": 0.9023,
+      "fw_box": [
         459,
         242,
         509,
         294
       ],
-      "back_wheel_box": [
+      "bw_box": [
         392,
         243,
         438,
@@ -2676,18 +2676,18 @@
       "frame_idx": 762,
       "timestamp": 12.7065,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000762.jpg",
-      "front_wheel_conf": 0.9031,
-      "back_wheel_conf": 0.8923,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9216,
-      "size_match_ratio": 0.9588,
-      "front_wheel_box": [
+      "fw_conf": 0.9031,
+      "bw_conf": 0.8923,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9216,
+      "wheel_size_ratio": 0.9588,
+      "fw_box": [
         460,
         243,
         510,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         393,
         243,
         440,
@@ -2704,18 +2704,18 @@
       "frame_idx": 763,
       "timestamp": 12.7232,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000763.jpg",
-      "front_wheel_conf": 0.8705,
-      "back_wheel_conf": 0.9063,
-      "front_squareness": 0.9804,
-      "back_squareness": 0.9412,
-      "size_match_ratio": 0.96,
-      "front_wheel_box": [
+      "fw_conf": 0.8705,
+      "bw_conf": 0.9063,
+      "fw_squareness": 0.9804,
+      "bw_squareness": 0.9412,
+      "wheel_size_ratio": 0.96,
+      "fw_box": [
         462,
         242,
         512,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         395,
         243,
         443,
@@ -2732,18 +2732,18 @@
       "frame_idx": 764,
       "timestamp": 12.7398,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000764.jpg",
-      "front_wheel_conf": 0.918,
-      "back_wheel_conf": 0.9157,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9608,
-      "size_match_ratio": 0.9608,
-      "front_wheel_box": [
+      "fw_conf": 0.918,
+      "bw_conf": 0.9157,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9608,
+      "wheel_size_ratio": 0.9608,
+      "fw_box": [
         463,
         242,
         514,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         396,
         243,
         445,
@@ -2760,18 +2760,18 @@
       "frame_idx": 765,
       "timestamp": 12.7565,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000765.jpg",
-      "front_wheel_conf": 0.9209,
-      "back_wheel_conf": 0.9118,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9608,
-      "size_match_ratio": 0.9996,
-      "front_wheel_box": [
+      "fw_conf": 0.9209,
+      "bw_conf": 0.9118,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9608,
+      "wheel_size_ratio": 0.9996,
+      "fw_box": [
         465,
         243,
         515,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         397,
         243,
         446,
@@ -2788,18 +2788,18 @@
       "frame_idx": 766,
       "timestamp": 12.7732,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000766.jpg",
-      "front_wheel_conf": 0.9224,
-      "back_wheel_conf": 0.9029,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9608,
-      "size_match_ratio": 0.9996,
-      "front_wheel_box": [
+      "fw_conf": 0.9224,
+      "bw_conf": 0.9029,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9608,
+      "wheel_size_ratio": 0.9996,
+      "fw_box": [
         466,
         243,
         516,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         398,
         243,
         447,
@@ -2816,18 +2816,18 @@
       "frame_idx": 767,
       "timestamp": 12.7899,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000767.jpg",
-      "front_wheel_conf": 0.9261,
-      "back_wheel_conf": 0.8978,
-      "front_squareness": 0.9804,
-      "back_squareness": 0.9412,
-      "size_match_ratio": 0.96,
-      "front_wheel_box": [
+      "fw_conf": 0.9261,
+      "bw_conf": 0.8978,
+      "fw_squareness": 0.9804,
+      "bw_squareness": 0.9412,
+      "wheel_size_ratio": 0.96,
+      "fw_box": [
         467,
         242,
         517,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         400,
         243,
         448,
@@ -2844,18 +2844,18 @@
       "frame_idx": 768,
       "timestamp": 12.8065,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000768.jpg",
-      "front_wheel_conf": 0.9232,
-      "back_wheel_conf": 0.8941,
-      "front_squareness": 0.98,
-      "back_squareness": 0.9615,
-      "size_match_ratio": 0.9808,
-      "front_wheel_box": [
+      "fw_conf": 0.9232,
+      "bw_conf": 0.8941,
+      "fw_squareness": 0.98,
+      "bw_squareness": 0.9615,
+      "wheel_size_ratio": 0.9808,
+      "fw_box": [
         468,
         242,
         519,
         292
       ],
-      "back_wheel_box": [
+      "bw_box": [
         401,
         242,
         451,
@@ -2872,18 +2872,18 @@
       "frame_idx": 769,
       "timestamp": 12.8232,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000769.jpg",
-      "front_wheel_conf": 0.9098,
-      "back_wheel_conf": 0.9151,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9615,
-      "size_match_ratio": 0.9615,
-      "front_wheel_box": [
+      "fw_conf": 0.9098,
+      "bw_conf": 0.9151,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9615,
+      "wheel_size_ratio": 0.9615,
+      "fw_box": [
         470,
         242,
         520,
         292
       ],
-      "back_wheel_box": [
+      "bw_box": [
         403,
         242,
         453,
@@ -2900,18 +2900,18 @@
       "frame_idx": 770,
       "timestamp": 12.8399,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000770.jpg",
-      "front_wheel_conf": 0.9018,
-      "back_wheel_conf": 0.912,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9615,
-      "size_match_ratio": 0.9615,
-      "front_wheel_box": [
+      "fw_conf": 0.9018,
+      "bw_conf": 0.912,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9615,
+      "wheel_size_ratio": 0.9615,
+      "fw_box": [
         471,
         242,
         521,
         292
       ],
-      "back_wheel_box": [
+      "bw_box": [
         404,
         242,
         454,
@@ -2928,18 +2928,18 @@
       "frame_idx": 771,
       "timestamp": 12.8566,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000771.jpg",
-      "front_wheel_conf": 0.9013,
-      "back_wheel_conf": 0.9092,
-      "front_squareness": 0.9804,
-      "back_squareness": 0.9608,
-      "size_match_ratio": 0.98,
-      "front_wheel_box": [
+      "fw_conf": 0.9013,
+      "bw_conf": 0.9092,
+      "fw_squareness": 0.9804,
+      "bw_squareness": 0.9608,
+      "wheel_size_ratio": 0.98,
+      "fw_box": [
         473,
         242,
         523,
         293
       ],
-      "back_wheel_box": [
+      "bw_box": [
         406,
         242,
         455,
@@ -2956,18 +2956,18 @@
       "frame_idx": 772,
       "timestamp": 12.8732,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000772.jpg",
-      "front_wheel_conf": 0.9082,
-      "back_wheel_conf": 0.9055,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9608,
-      "size_match_ratio": 0.9608,
-      "front_wheel_box": [
+      "fw_conf": 0.9082,
+      "bw_conf": 0.9055,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9608,
+      "wheel_size_ratio": 0.9608,
+      "fw_box": [
         474,
         241,
         525,
         292
       ],
-      "back_wheel_box": [
+      "bw_box": [
         407,
         242,
         456,
@@ -2984,18 +2984,18 @@
       "frame_idx": 773,
       "timestamp": 12.8899,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000773.jpg",
-      "front_wheel_conf": 0.9115,
-      "back_wheel_conf": 0.9023,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9412,
-      "size_match_ratio": 0.9792,
-      "front_wheel_box": [
+      "fw_conf": 0.9115,
+      "bw_conf": 0.9023,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9412,
+      "wheel_size_ratio": 0.9792,
+      "fw_box": [
         476,
         242,
         526,
         292
       ],
-      "back_wheel_box": [
+      "bw_box": [
         409,
         242,
         457,
@@ -3012,18 +3012,18 @@
       "frame_idx": 774,
       "timestamp": 12.9066,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000774.jpg",
-      "front_wheel_conf": 0.9142,
-      "back_wheel_conf": 0.9169,
-      "front_squareness": 0.98,
-      "back_squareness": 0.9216,
-      "size_match_ratio": 0.9784,
-      "front_wheel_box": [
+      "fw_conf": 0.9142,
+      "bw_conf": 0.9169,
+      "fw_squareness": 0.98,
+      "bw_squareness": 0.9216,
+      "wheel_size_ratio": 0.9784,
+      "fw_box": [
         478,
         242,
         527,
         292
       ],
-      "back_wheel_box": [
+      "bw_box": [
         411,
         242,
         458,
@@ -3040,18 +3040,18 @@
       "frame_idx": 775,
       "timestamp": 12.9233,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000775.jpg",
-      "front_wheel_conf": 0.9077,
-      "back_wheel_conf": 0.9104,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9412,
-      "size_match_ratio": 0.9792,
-      "front_wheel_box": [
+      "fw_conf": 0.9077,
+      "bw_conf": 0.9104,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9412,
+      "wheel_size_ratio": 0.9792,
+      "fw_box": [
         479,
         242,
         529,
         292
       ],
-      "back_wheel_box": [
+      "bw_box": [
         412,
         242,
         460,
@@ -3068,18 +3068,18 @@
       "frame_idx": 776,
       "timestamp": 12.9399,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000776.jpg",
-      "front_wheel_conf": 0.9006,
-      "back_wheel_conf": 0.921,
-      "front_squareness": 0.9804,
-      "back_squareness": 0.9216,
-      "size_match_ratio": 0.94,
-      "front_wheel_box": [
+      "fw_conf": 0.9006,
+      "bw_conf": 0.921,
+      "fw_squareness": 0.9804,
+      "bw_squareness": 0.9216,
+      "wheel_size_ratio": 0.94,
+      "fw_box": [
         480,
         241,
         530,
         292
       ],
-      "back_wheel_box": [
+      "bw_box": [
         414,
         241,
         461,
@@ -3096,18 +3096,18 @@
       "frame_idx": 777,
       "timestamp": 12.9566,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000777.jpg",
-      "front_wheel_conf": 0.8916,
-      "back_wheel_conf": 0.9216,
-      "front_squareness": 0.9608,
-      "back_squareness": 0.9216,
-      "size_match_ratio": 0.9592,
-      "front_wheel_box": [
+      "fw_conf": 0.8916,
+      "bw_conf": 0.9216,
+      "fw_squareness": 0.9608,
+      "bw_squareness": 0.9216,
+      "wheel_size_ratio": 0.9592,
+      "fw_box": [
         482,
         241,
         531,
         292
       ],
-      "back_wheel_box": [
+      "bw_box": [
         416,
         241,
         463,
@@ -3124,18 +3124,18 @@
       "frame_idx": 778,
       "timestamp": 12.9733,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000778.jpg",
-      "front_wheel_conf": 0.9009,
-      "back_wheel_conf": 0.919,
-      "front_squareness": 0.9608,
-      "back_squareness": 0.902,
-      "size_match_ratio": 0.9388,
-      "front_wheel_box": [
+      "fw_conf": 0.9009,
+      "bw_conf": 0.919,
+      "fw_squareness": 0.9608,
+      "bw_squareness": 0.902,
+      "wheel_size_ratio": 0.9388,
+      "fw_box": [
         483,
         241,
         532,
         292
       ],
-      "back_wheel_box": [
+      "bw_box": [
         417,
         241,
         463,
@@ -3152,18 +3152,18 @@
       "frame_idx": 779,
       "timestamp": 12.99,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000779.jpg",
-      "front_wheel_conf": 0.9113,
-      "back_wheel_conf": 0.9135,
-      "front_squareness": 0.98,
-      "back_squareness": 0.9216,
-      "size_match_ratio": 0.9784,
-      "front_wheel_box": [
+      "fw_conf": 0.9113,
+      "bw_conf": 0.9135,
+      "fw_squareness": 0.98,
+      "bw_squareness": 0.9216,
+      "wheel_size_ratio": 0.9784,
+      "fw_box": [
         484,
         241,
         533,
         291
       ],
-      "back_wheel_box": [
+      "bw_box": [
         418,
         241,
         465,
@@ -3180,18 +3180,18 @@
       "frame_idx": 780,
       "timestamp": 13.0066,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000780.jpg",
-      "front_wheel_conf": 0.9087,
-      "back_wheel_conf": 0.9129,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9216,
-      "size_match_ratio": 0.9588,
-      "front_wheel_box": [
+      "fw_conf": 0.9087,
+      "bw_conf": 0.9129,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9216,
+      "wheel_size_ratio": 0.9588,
+      "fw_box": [
         484,
         241,
         534,
         291
       ],
-      "back_wheel_box": [
+      "bw_box": [
         419,
         241,
         466,
@@ -3208,18 +3208,18 @@
       "frame_idx": 781,
       "timestamp": 13.0233,
       "frame_file": "output_v2/jackb30/jackb30_selected_frames/frame_000781.jpg",
-      "front_wheel_conf": 0.9077,
-      "back_wheel_conf": 0.9048,
-      "front_squareness": 0.98,
-      "back_squareness": 0.9216,
-      "size_match_ratio": 0.9784,
-      "front_wheel_box": [
+      "fw_conf": 0.9077,
+      "bw_conf": 0.9048,
+      "fw_squareness": 0.98,
+      "bw_squareness": 0.9216,
+      "wheel_size_ratio": 0.9784,
+      "fw_box": [
         484,
         241,
         533,
         291
       ],
-      "back_wheel_box": [
+      "bw_box": [
         419,
         241,
         466,
@@ -3237,15 +3237,15 @@
     {
       "burst_id": 0,
       "quality_score": 19.4864,
-      "frame_idx_start": 257,
-      "frame_idx_end": 311,
+      "start_frame_idx": 257,
+      "end_frame_idx": 311,
       "frame_count": 55
     },
     {
       "burst_id": 1,
       "quality_score": 14.3515,
-      "frame_idx_start": 721,
-      "frame_idx_end": 781,
+      "start_frame_idx": 721,
+      "end_frame_idx": 781,
       "frame_count": 61
     }
   ],
@@ -3256,6 +3256,6 @@
     "bursts_selected": 2,
     "selection_rate": 0.1483,
     "avg_confidence": 0.9209,
-    "elapsed_sec": 34.53
+    "elapsed_sec": 37.11
   }
 }

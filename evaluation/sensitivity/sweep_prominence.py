@@ -143,7 +143,7 @@ def direction_from_log(log):
     def median_dir(entries):
         deltas = []
         for e in entries:
-            fb, bb = e.get("front_wheel_box"), e.get("back_wheel_box")
+            fb, bb = e.get("fw_box"), e.get("bw_box")
             if fb and bb:
                 deltas.append((fb[0] + fb[2]) / 2 - (bb[0] + bb[2]) / 2)
         if not deltas:
@@ -157,7 +157,7 @@ def direction_from_log(log):
     burst_dirs = {}
     for b in bursts:
         ents = [e for e in frames
-                if b["frame_idx_start"] <= e.get("frame_idx", -1) <= b["frame_idx_end"]]
+                if b["start_frame_idx"] <= e.get("frame_idx", -1) <= b["end_frame_idx"]]
         burst_dirs[b["burst_id"]] = median_dir(ents)
 
     frame_dir_map = {}
@@ -166,7 +166,7 @@ def direction_from_log(log):
         if fi is None:
             continue
         for b in bursts:
-            if b["frame_idx_start"] <= fi <= b["frame_idx_end"]:
+            if b["start_frame_idx"] <= fi <= b["end_frame_idx"]:
                 frame_dir_map[fi] = burst_dirs.get(b["burst_id"])
                 break
 

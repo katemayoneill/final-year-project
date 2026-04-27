@@ -1,155 +1,9 @@
 {
   "video": "videos/kateb60.mp4",
-  "frames": [
-    {
-      "frame_idx": 143,
-      "timestamp": 4.8202,
-      "right_knee_angle": 155.37,
-      "left_knee_angle": 79.74,
-      "right_hip_angle": 105.48,
-      "left_hip_angle": 83.77
-    },
-    {
-      "frame_idx": 144,
-      "timestamp": 4.8539,
-      "right_knee_angle": 148.92,
-      "left_knee_angle": 73.52,
-      "right_hip_angle": 107.81,
-      "left_hip_angle": 74.84
-    },
-    {
-      "frame_idx": 145,
-      "timestamp": 4.8876,
-      "right_knee_angle": 144.38,
-      "left_knee_angle": 74.97,
-      "right_hip_angle": 105.84,
-      "left_hip_angle": 69.68
-    },
-    {
-      "frame_idx": 146,
-      "timestamp": 4.9213,
-      "right_knee_angle": null,
-      "left_knee_angle": 81.2,
-      "right_hip_angle": 110.75,
-      "left_hip_angle": 66.79
-    },
-    {
-      "frame_idx": 147,
-      "timestamp": 4.9551,
-      "right_knee_angle": null,
-      "left_knee_angle": 87.86,
-      "right_hip_angle": null,
-      "left_hip_angle": 67.9
-    },
-    {
-      "frame_idx": 148,
-      "timestamp": 4.9888,
-      "right_knee_angle": null,
-      "left_knee_angle": 94.7,
-      "right_hip_angle": null,
-      "left_hip_angle": 69.53
-    },
-    {
-      "frame_idx": 149,
-      "timestamp": 5.0225,
-      "right_knee_angle": 103.8,
-      "left_knee_angle": 104.19,
-      "right_hip_angle": 92.21,
-      "left_hip_angle": 75.66
-    },
-    {
-      "frame_idx": 150,
-      "timestamp": 5.0562,
-      "right_knee_angle": null,
-      "left_knee_angle": 115.95,
-      "right_hip_angle": 42.7,
-      "left_hip_angle": 81.71
-    },
-    {
-      "frame_idx": 151,
-      "timestamp": 5.0899,
-      "right_knee_angle": null,
-      "left_knee_angle": 124.42,
-      "right_hip_angle": 90.71,
-      "left_hip_angle": 86.64
-    },
-    {
-      "frame_idx": 152,
-      "timestamp": 5.1236,
-      "right_knee_angle": null,
-      "left_knee_angle": 131.64,
-      "right_hip_angle": 93.65,
-      "left_hip_angle": 90.46
-    },
-    {
-      "frame_idx": 153,
-      "timestamp": 5.1573,
-      "right_knee_angle": 79.22,
-      "left_knee_angle": 136.81,
-      "right_hip_angle": 89.45,
-      "left_hip_angle": 96.61
-    },
-    {
-      "frame_idx": 154,
-      "timestamp": 5.191,
-      "right_knee_angle": 77.88,
-      "left_knee_angle": 133.93,
-      "right_hip_angle": 86.93,
-      "left_hip_angle": 97.93
-    },
-    {
-      "frame_idx": 155,
-      "timestamp": 5.2247,
-      "right_knee_angle": 73.37,
-      "left_knee_angle": 133.72,
-      "right_hip_angle": 84.71,
-      "left_hip_angle": 101.28
-    },
-    {
-      "frame_idx": 156,
-      "timestamp": 5.2584,
-      "right_knee_angle": 87.6,
-      "left_knee_angle": 129.79,
-      "right_hip_angle": 82.08,
-      "left_hip_angle": 100.77
-    },
-    {
-      "frame_idx": 157,
-      "timestamp": 5.2921,
-      "right_knee_angle": 93.21,
-      "left_knee_angle": 121.56,
-      "right_hip_angle": 85.16,
-      "left_hip_angle": 98.3
-    },
-    {
-      "frame_idx": 158,
-      "timestamp": 5.3258,
-      "right_knee_angle": 100.74,
-      "left_knee_angle": 111.18,
-      "right_hip_angle": 83.68,
-      "left_hip_angle": 94.36
-    },
-    {
-      "frame_idx": 159,
-      "timestamp": 5.3596,
-      "right_knee_angle": 101.66,
-      "left_knee_angle": 100.13,
-      "right_hip_angle": 90.48,
-      "left_hip_angle": 88.74
-    },
-    {
-      "frame_idx": 160,
-      "timestamp": 5.3933,
-      "right_knee_angle": 98.14,
-      "left_knee_angle": 94.17,
-      "right_hip_angle": 71.39,
-      "left_hip_angle": 87.34
-    }
-  ],
   "summary": {
     "knee_angles_count": 18,
-    "knee_angle_mean": 107.19,
-    "knee_angle_std": 21.55,
+    "knee_angle_mean": 107.48,
+    "knee_angle_std": 21.12,
     "knee_angle_peak": 129.71,
     "peak_angle_method": "smooth_p80",
     "optimal_range": [
@@ -157,6 +11,6 @@
       155.0
     ],
     "verdict": "too_low",
-    "verdict_detail": "Peak knee extension 129.7\u00b0 is below 145.0\u00b0. Seat is likely too low \u2014 raise saddle height."
+    "verdict_detail": "peak knee extension 129.7deg is below 145.0deg. raise the saddle!!"
   }
 }

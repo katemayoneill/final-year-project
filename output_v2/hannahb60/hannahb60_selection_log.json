@@ -8,18 +8,18 @@
       "frame_idx": 340,
       "timestamp": 5.7627,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000340.jpg",
-      "front_wheel_conf": 0.963,
-      "back_wheel_conf": 0.9561,
-      "front_squareness": 0.9581,
-      "back_squareness": 0.8514,
-      "size_match_ratio": 0.8102,
-      "front_wheel_box": [
+      "fw_conf": 0.963,
+      "bw_conf": 0.9561,
+      "fw_squareness": 0.9581,
+      "bw_squareness": 0.8514,
+      "wheel_size_ratio": 0.8102,
+      "fw_box": [
         1184,
         699,
         1481,
         1009
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1635,
         697,
         1887,
@@ -36,18 +36,18 @@
       "frame_idx": 341,
       "timestamp": 5.7797,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000341.jpg",
-      "front_wheel_conf": 0.954,
-      "back_wheel_conf": 0.9528,
-      "front_squareness": 0.9403,
-      "back_squareness": 0.8997,
-      "size_match_ratio": 0.8459,
-      "front_wheel_box": [
+      "fw_conf": 0.954,
+      "bw_conf": 0.9528,
+      "fw_squareness": 0.9403,
+      "bw_squareness": 0.8997,
+      "wheel_size_ratio": 0.8459,
+      "fw_box": [
         1166,
         697,
         1465,
         1015
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1613,
         696,
         1882,
@@ -64,18 +64,18 @@
       "frame_idx": 342,
       "timestamp": 5.7966,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000342.jpg",
-      "front_wheel_conf": 0.9558,
-      "back_wheel_conf": 0.9499,
-      "front_squareness": 0.9467,
-      "back_squareness": 0.904,
-      "size_match_ratio": 0.8558,
-      "front_wheel_box": [
+      "fw_conf": 0.9558,
+      "bw_conf": 0.9499,
+      "fw_squareness": 0.9467,
+      "bw_squareness": 0.904,
+      "wheel_size_ratio": 0.8558,
+      "fw_box": [
         1149,
         697,
         1451,
         1016
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1601,
         697,
         1874,
@@ -92,18 +92,18 @@
       "frame_idx": 343,
       "timestamp": 5.8136,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000343.jpg",
-      "front_wheel_conf": 0.9612,
-      "back_wheel_conf": 0.9505,
-      "front_squareness": 0.9531,
-      "back_squareness": 0.9023,
-      "size_match_ratio": 0.8713,
-      "front_wheel_box": [
+      "fw_conf": 0.9612,
+      "bw_conf": 0.9505,
+      "fw_squareness": 0.9531,
+      "bw_squareness": 0.9023,
+      "wheel_size_ratio": 0.8713,
+      "fw_box": [
         1129,
         697,
         1434,
         1017
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1589,
         696,
         1866,
@@ -120,18 +120,18 @@
       "frame_idx": 344,
       "timestamp": 5.8305,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000344.jpg",
-      "front_wheel_conf": 0.9519,
-      "back_wheel_conf": 0.9551,
-      "front_squareness": 0.9595,
-      "back_squareness": 0.8896,
-      "size_match_ratio": 0.8536,
-      "front_wheel_box": [
+      "fw_conf": 0.9519,
+      "bw_conf": 0.9551,
+      "fw_squareness": 0.9595,
+      "bw_squareness": 0.8896,
+      "wheel_size_ratio": 0.8536,
+      "fw_box": [
         1111,
         695,
         1419,
         1016
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1584,
         698,
         1858,
@@ -148,18 +148,18 @@
       "frame_idx": 345,
       "timestamp": 5.8475,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000345.jpg",
-      "front_wheel_conf": 0.9537,
-      "back_wheel_conf": 0.9513,
-      "front_squareness": 0.9628,
-      "back_squareness": 0.9196,
-      "size_match_ratio": 0.8854,
-      "front_wheel_box": [
+      "fw_conf": 0.9537,
+      "bw_conf": 0.9513,
+      "fw_squareness": 0.9628,
+      "bw_squareness": 0.9196,
+      "wheel_size_ratio": 0.8854,
+      "fw_box": [
         1093,
         693,
         1404,
         1016
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1560,
         697,
         1846,
@@ -176,18 +176,18 @@
       "frame_idx": 346,
       "timestamp": 5.8644,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000346.jpg",
-      "front_wheel_conf": 0.9584,
-      "back_wheel_conf": 0.9494,
-      "front_squareness": 0.963,
-      "back_squareness": 0.9425,
-      "size_match_ratio": 0.9134,
-      "front_wheel_box": [
+      "fw_conf": 0.9584,
+      "bw_conf": 0.9494,
+      "fw_squareness": 0.963,
+      "bw_squareness": 0.9425,
+      "wheel_size_ratio": 0.9134,
+      "fw_box": [
         1073,
         696,
         1385,
         1020
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1543,
         697,
         1838,
@@ -204,18 +204,18 @@
       "frame_idx": 347,
       "timestamp": 5.8814,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000347.jpg",
-      "front_wheel_conf": 0.9535,
-      "back_wheel_conf": 0.9548,
-      "front_squareness": 0.9692,
-      "back_squareness": 0.9423,
-      "size_match_ratio": 0.896,
-      "front_wheel_box": [
+      "fw_conf": 0.9535,
+      "bw_conf": 0.9548,
+      "fw_squareness": 0.9692,
+      "bw_squareness": 0.9423,
+      "wheel_size_ratio": 0.896,
+      "fw_box": [
         1054,
         697,
         1369,
         1022
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1532,
         700,
         1826,
@@ -232,18 +232,18 @@
       "frame_idx": 348,
       "timestamp": 5.8983,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000348.jpg",
-      "front_wheel_conf": 0.9682,
-      "back_wheel_conf": 0.9498,
-      "front_squareness": 0.9846,
-      "back_squareness": 0.9489,
-      "size_match_ratio": 0.8939,
-      "front_wheel_box": [
+      "fw_conf": 0.9682,
+      "bw_conf": 0.9498,
+      "fw_squareness": 0.9846,
+      "bw_squareness": 0.9489,
+      "wheel_size_ratio": 0.8939,
+      "fw_box": [
         1032,
         698,
         1352,
         1023
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1516,
         699,
         1813,
@@ -260,18 +260,18 @@
       "frame_idx": 349,
       "timestamp": 5.9153,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000349.jpg",
-      "front_wheel_conf": 0.9544,
-      "back_wheel_conf": 0.9508,
-      "front_squareness": 0.9786,
-      "back_squareness": 0.9464,
-      "size_match_ratio": 0.9088,
-      "front_wheel_box": [
+      "fw_conf": 0.9544,
+      "bw_conf": 0.9508,
+      "fw_squareness": 0.9786,
+      "bw_squareness": 0.9464,
+      "wheel_size_ratio": 0.9088,
+      "fw_box": [
         1014,
         697,
         1334,
         1024
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1504,
         698,
         1804,
@@ -288,18 +288,18 @@
       "frame_idx": 350,
       "timestamp": 5.9322,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000350.jpg",
-      "front_wheel_conf": 0.9603,
-      "back_wheel_conf": 0.9476,
-      "front_squareness": 0.9938,
-      "back_squareness": 0.9432,
-      "size_match_ratio": 0.9085,
-      "front_wheel_box": [
+      "fw_conf": 0.9603,
+      "bw_conf": 0.9476,
+      "fw_squareness": 0.9938,
+      "bw_squareness": 0.9432,
+      "wheel_size_ratio": 0.9085,
+      "fw_box": [
         994,
         698,
         1316,
         1022
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1491,
         698,
         1790,
@@ -316,18 +316,18 @@
       "frame_idx": 351,
       "timestamp": 5.9492,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000351.jpg",
-      "front_wheel_conf": 0.9584,
-      "back_wheel_conf": 0.9525,
-      "front_squareness": 0.9878,
-      "back_squareness": 0.9713,
-      "size_match_ratio": 0.9067,
-      "front_wheel_box": [
+      "fw_conf": 0.9584,
+      "bw_conf": 0.9525,
+      "fw_squareness": 0.9878,
+      "bw_squareness": 0.9713,
+      "wheel_size_ratio": 0.9067,
+      "fw_box": [
         973,
         697,
         1296,
         1024
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1471,
         702,
         1776,
@@ -344,18 +344,18 @@
       "frame_idx": 352,
       "timestamp": 5.9661,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000352.jpg",
-      "front_wheel_conf": 0.9533,
-      "back_wheel_conf": 0.9463,
-      "front_squareness": 0.9908,
-      "back_squareness": 0.9717,
-      "size_match_ratio": 0.9275,
-      "front_wheel_box": [
+      "fw_conf": 0.9533,
+      "bw_conf": 0.9463,
+      "fw_squareness": 0.9908,
+      "bw_squareness": 0.9717,
+      "wheel_size_ratio": 0.9275,
+      "fw_box": [
         954,
         696,
         1278,
         1023
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1453,
         700,
         1762,
@@ -372,18 +372,18 @@
       "frame_idx": 353,
       "timestamp": 5.9831,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000353.jpg",
-      "front_wheel_conf": 0.9687,
-      "back_wheel_conf": 0.9525,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9689,
-      "size_match_ratio": 0.9395,
-      "front_wheel_box": [
+      "fw_conf": 0.9687,
+      "bw_conf": 0.9525,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9689,
+      "wheel_size_ratio": 0.9395,
+      "fw_box": [
         931,
         697,
         1258,
         1024
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1435,
         698,
         1747,
@@ -400,18 +400,18 @@
       "frame_idx": 354,
       "timestamp": 6.0,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000354.jpg",
-      "front_wheel_conf": 0.9519,
-      "back_wheel_conf": 0.9523,
-      "front_squareness": 0.9939,
-      "back_squareness": 0.9689,
-      "size_match_ratio": 0.9453,
-      "front_wheel_box": [
+      "fw_conf": 0.9519,
+      "bw_conf": 0.9523,
+      "fw_squareness": 0.9939,
+      "bw_squareness": 0.9689,
+      "wheel_size_ratio": 0.9453,
+      "fw_box": [
         914,
         698,
         1239,
         1025
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1422,
         700,
         1734,
@@ -428,18 +428,18 @@
       "frame_idx": 355,
       "timestamp": 6.0169,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000355.jpg",
-      "front_wheel_conf": 0.9652,
-      "back_wheel_conf": 0.9507,
-      "front_squareness": 0.9969,
-      "back_squareness": 0.9876,
-      "size_match_ratio": 0.9665,
-      "front_wheel_box": [
+      "fw_conf": 0.9652,
+      "bw_conf": 0.9507,
+      "fw_squareness": 0.9969,
+      "bw_squareness": 0.9876,
+      "wheel_size_ratio": 0.9665,
+      "fw_box": [
         891,
         699,
         1217,
         1024
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1400,
         700,
         1718,
@@ -456,18 +456,18 @@
       "frame_idx": 356,
       "timestamp": 6.0339,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000356.jpg",
-      "front_wheel_conf": 0.9527,
-      "back_wheel_conf": 0.8549,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9969,
-      "size_match_ratio": 0.9608,
-      "front_wheel_box": [
+      "fw_conf": 0.9527,
+      "bw_conf": 0.8549,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9969,
+      "wheel_size_ratio": 0.9608,
+      "fw_box": [
         869,
         696,
         1197,
         1024
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1382,
         700,
         1703,
@@ -484,18 +484,18 @@
       "frame_idx": 357,
       "timestamp": 6.0508,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000357.jpg",
-      "front_wheel_conf": 0.9641,
-      "back_wheel_conf": 0.9545,
-      "front_squareness": 0.9939,
-      "back_squareness": 0.9938,
-      "size_match_ratio": 0.9637,
-      "front_wheel_box": [
+      "fw_conf": 0.9641,
+      "bw_conf": 0.9545,
+      "fw_squareness": 0.9939,
+      "bw_squareness": 0.9938,
+      "wheel_size_ratio": 0.9637,
+      "fw_box": [
         849,
         696,
         1178,
         1023
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1364,
         698,
         1685,
@@ -512,18 +512,18 @@
       "frame_idx": 358,
       "timestamp": 6.0678,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000358.jpg",
-      "front_wheel_conf": 0.9547,
-      "back_wheel_conf": 0.949,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9908,
-      "size_match_ratio": 0.967,
-      "front_wheel_box": [
+      "fw_conf": 0.9547,
+      "bw_conf": 0.949,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9908,
+      "wheel_size_ratio": 0.967,
+      "fw_box": [
         826,
         693,
         1157,
         1024
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1345,
         695,
         1669,
@@ -540,18 +540,18 @@
       "frame_idx": 359,
       "timestamp": 6.0847,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000359.jpg",
-      "front_wheel_conf": 0.9495,
-      "back_wheel_conf": 0.8506,
-      "front_squareness": 0.997,
-      "back_squareness": 0.9938,
-      "size_match_ratio": 0.9495,
-      "front_wheel_box": [
+      "fw_conf": 0.9495,
+      "bw_conf": 0.8506,
+      "fw_squareness": 0.997,
+      "bw_squareness": 0.9938,
+      "wheel_size_ratio": 0.9495,
+      "fw_box": [
         805,
         691,
         1138,
         1023
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1329,
         698,
         1652,
@@ -568,18 +568,18 @@
       "frame_idx": 360,
       "timestamp": 6.1017,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000360.jpg",
-      "front_wheel_conf": 0.9559,
-      "back_wheel_conf": 0.9521,
-      "front_squareness": 0.994,
-      "back_squareness": 0.9909,
-      "size_match_ratio": 0.9613,
-      "front_wheel_box": [
+      "fw_conf": 0.9559,
+      "bw_conf": 0.9521,
+      "fw_squareness": 0.994,
+      "bw_squareness": 0.9909,
+      "wheel_size_ratio": 0.9613,
+      "fw_box": [
         782,
         690,
         1116,
         1022
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1309,
         696,
         1634,
@@ -596,18 +596,18 @@
       "frame_idx": 361,
       "timestamp": 6.1186,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000361.jpg",
-      "front_wheel_conf": 0.9537,
-      "back_wheel_conf": 0.9503,
-      "front_squareness": 0.991,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9673,
-      "front_wheel_box": [
+      "fw_conf": 0.9537,
+      "bw_conf": 0.9503,
+      "fw_squareness": 0.991,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9673,
+      "fw_box": [
         764,
         688,
         1099,
         1020
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1289,
         696,
         1617,
@@ -624,18 +624,18 @@
       "frame_idx": 362,
       "timestamp": 6.1356,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000362.jpg",
-      "front_wheel_conf": 0.9552,
-      "back_wheel_conf": 0.9579,
-      "front_squareness": 0.9879,
-      "back_squareness": 0.9939,
-      "size_match_ratio": 0.9761,
-      "front_wheel_box": [
+      "fw_conf": 0.9552,
+      "bw_conf": 0.9579,
+      "fw_squareness": 0.9879,
+      "bw_squareness": 0.9939,
+      "wheel_size_ratio": 0.9761,
+      "fw_box": [
         745,
         686,
         1080,
         1017
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1269,
         697,
         1599,
@@ -652,18 +652,18 @@
       "frame_idx": 363,
       "timestamp": 6.1525,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000363.jpg",
-      "front_wheel_conf": 0.9526,
-      "back_wheel_conf": 0.9519,
-      "front_squareness": 0.991,
-      "back_squareness": 0.9878,
-      "size_match_ratio": 0.9792,
-      "front_wheel_box": [
+      "fw_conf": 0.9526,
+      "bw_conf": 0.9519,
+      "fw_squareness": 0.991,
+      "bw_squareness": 0.9878,
+      "wheel_size_ratio": 0.9792,
+      "fw_box": [
         723,
         685,
         1059,
         1018
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1250,
         697,
         1583,
@@ -680,18 +680,18 @@
       "frame_idx": 364,
       "timestamp": 6.1695,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000364.jpg",
-      "front_wheel_conf": 0.9573,
-      "back_wheel_conf": 0.9468,
-      "front_squareness": 0.991,
-      "back_squareness": 0.9728,
-      "size_match_ratio": 0.9883,
-      "front_wheel_box": [
+      "fw_conf": 0.9573,
+      "bw_conf": 0.9468,
+      "fw_squareness": 0.991,
+      "bw_squareness": 0.9728,
+      "wheel_size_ratio": 0.9883,
+      "fw_box": [
         708,
         685,
         1043,
         1017
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1228,
         695,
         1568,
@@ -708,18 +708,18 @@
       "frame_idx": 365,
       "timestamp": 6.1864,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000365.jpg",
-      "front_wheel_conf": 0.9594,
-      "back_wheel_conf": 0.9494,
-      "front_squareness": 0.997,
-      "back_squareness": 0.9848,
-      "size_match_ratio": 0.988,
-      "front_wheel_box": [
+      "fw_conf": 0.9594,
+      "bw_conf": 0.9494,
+      "fw_squareness": 0.997,
+      "bw_squareness": 0.9848,
+      "wheel_size_ratio": 0.988,
+      "fw_box": [
         687,
         681,
         1019,
         1014
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1214,
         696,
         1547,
@@ -736,18 +736,18 @@
       "frame_idx": 366,
       "timestamp": 6.2034,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000366.jpg",
-      "front_wheel_conf": 0.9534,
-      "back_wheel_conf": 0.9461,
-      "front_squareness": 0.997,
-      "back_squareness": 0.9878,
-      "size_match_ratio": 0.991,
-      "front_wheel_box": [
+      "fw_conf": 0.9534,
+      "bw_conf": 0.9461,
+      "fw_squareness": 0.997,
+      "bw_squareness": 0.9878,
+      "wheel_size_ratio": 0.991,
+      "fw_box": [
         669,
         678,
         1002,
         1010
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1196,
         695,
         1529,
@@ -764,18 +764,18 @@
       "frame_idx": 367,
       "timestamp": 6.2203,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000367.jpg",
-      "front_wheel_conf": 0.9559,
-      "back_wheel_conf": 0.9493,
-      "front_squareness": 0.9818,
-      "back_squareness": 0.9664,
-      "size_match_ratio": 0.9972,
-      "front_wheel_box": [
+      "fw_conf": 0.9559,
+      "bw_conf": 0.9493,
+      "fw_squareness": 0.9818,
+      "bw_squareness": 0.9664,
+      "wheel_size_ratio": 0.9972,
+      "fw_box": [
         649,
         679,
         984,
         1008
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1173,
         696,
         1511,
@@ -792,18 +792,18 @@
       "frame_idx": 368,
       "timestamp": 6.2373,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000368.jpg",
-      "front_wheel_conf": 0.9493,
-      "back_wheel_conf": 0.9483,
-      "front_squareness": 0.9879,
-      "back_squareness": 0.9787,
-      "size_match_ratio": 0.9909,
-      "front_wheel_box": [
+      "fw_conf": 0.9493,
+      "bw_conf": 0.9483,
+      "fw_squareness": 0.9879,
+      "bw_squareness": 0.9787,
+      "wheel_size_ratio": 0.9909,
+      "fw_box": [
         627,
         677,
         962,
         1008
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1156,
         694,
         1491,
@@ -820,18 +820,18 @@
       "frame_idx": 369,
       "timestamp": 6.2542,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000369.jpg",
-      "front_wheel_conf": 0.9497,
-      "back_wheel_conf": 0.9534,
-      "front_squareness": 0.9879,
-      "back_squareness": 0.991,
-      "size_match_ratio": 0.997,
-      "front_wheel_box": [
+      "fw_conf": 0.9497,
+      "bw_conf": 0.9534,
+      "fw_squareness": 0.9879,
+      "bw_squareness": 0.991,
+      "wheel_size_ratio": 0.997,
+      "fw_box": [
         611,
         675,
         946,
         1006
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1139,
         690,
         1474,
@@ -848,18 +848,18 @@
       "frame_idx": 370,
       "timestamp": 6.2712,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000370.jpg",
-      "front_wheel_conf": 0.9563,
-      "back_wheel_conf": 0.9488,
-      "front_squareness": 0.9878,
-      "back_squareness": 0.991,
-      "size_match_ratio": 0.9791,
-      "front_wheel_box": [
+      "fw_conf": 0.9563,
+      "bw_conf": 0.9488,
+      "fw_squareness": 0.9878,
+      "bw_squareness": 0.991,
+      "wheel_size_ratio": 0.9791,
+      "fw_box": [
         596,
         673,
         928,
         1001
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1120,
         690,
         1455,
@@ -876,18 +876,18 @@
       "frame_idx": 371,
       "timestamp": 6.2881,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000371.jpg",
-      "front_wheel_conf": 0.9526,
-      "back_wheel_conf": 0.9535,
-      "front_squareness": 0.9847,
-      "back_squareness": 0.982,
-      "size_match_ratio": 0.9617,
-      "front_wheel_box": [
+      "fw_conf": 0.9526,
+      "bw_conf": 0.9535,
+      "fw_squareness": 0.9847,
+      "bw_squareness": 0.982,
+      "wheel_size_ratio": 0.9617,
+      "fw_box": [
         578,
         672,
         910,
         999
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1100,
         687,
         1439,
@@ -904,18 +904,18 @@
       "frame_idx": 372,
       "timestamp": 6.3051,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000372.jpg",
-      "front_wheel_conf": 0.952,
-      "back_wheel_conf": 0.9261,
-      "front_squareness": 0.9595,
-      "back_squareness": 0.988,
-      "size_match_ratio": 0.9554,
-      "front_wheel_box": [
+      "fw_conf": 0.952,
+      "bw_conf": 0.9261,
+      "fw_squareness": 0.9595,
+      "bw_squareness": 0.988,
+      "wheel_size_ratio": 0.9554,
+      "fw_box": [
         564,
         673,
         898,
         994
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1084,
         687,
         1421,
@@ -932,18 +932,18 @@
       "frame_idx": 373,
       "timestamp": 6.322,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000373.jpg",
-      "front_wheel_conf": 0.9604,
-      "back_wheel_conf": 0.9492,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9819,
-      "size_match_ratio": 0.9525,
-      "front_wheel_box": [
+      "fw_conf": 0.9604,
+      "bw_conf": 0.9492,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9819,
+      "wheel_size_ratio": 0.9525,
+      "fw_box": [
         548,
         669,
         879,
         990
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1066,
         687,
         1403,
@@ -960,18 +960,18 @@
       "frame_idx": 374,
       "timestamp": 6.339,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000374.jpg",
-      "front_wheel_conf": 0.9598,
-      "back_wheel_conf": 0.9512,
-      "front_squareness": 0.9719,
-      "back_squareness": 0.9696,
-      "size_match_ratio": 0.944,
-      "front_wheel_box": [
+      "fw_conf": 0.9598,
+      "bw_conf": 0.9512,
+      "fw_squareness": 0.9719,
+      "bw_squareness": 0.9696,
+      "wheel_size_ratio": 0.944,
+      "fw_box": [
         536,
         667,
         865,
         987
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1050,
         686,
         1389,
@@ -988,18 +988,18 @@
       "frame_idx": 375,
       "timestamp": 6.3559,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000375.jpg",
-      "front_wheel_conf": 0.9517,
-      "back_wheel_conf": 0.9585,
-      "front_squareness": 0.9684,
-      "back_squareness": 0.9697,
-      "size_match_ratio": 0.9181,
-      "front_wheel_box": [
+      "fw_conf": 0.9517,
+      "bw_conf": 0.9585,
+      "fw_squareness": 0.9684,
+      "bw_squareness": 0.9697,
+      "wheel_size_ratio": 0.9181,
+      "fw_box": [
         524,
         665,
         850,
         981
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1034,
         682,
         1374,
@@ -1016,18 +1016,18 @@
       "frame_idx": 376,
       "timestamp": 6.3729,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000376.jpg",
-      "front_wheel_conf": 0.957,
-      "back_wheel_conf": 0.9453,
-      "front_squareness": 0.9651,
-      "back_squareness": 0.9848,
-      "size_match_ratio": 0.9402,
-      "front_wheel_box": [
+      "fw_conf": 0.957,
+      "bw_conf": 0.9453,
+      "fw_squareness": 0.9651,
+      "bw_squareness": 0.9848,
+      "wheel_size_ratio": 0.9402,
+      "fw_box": [
         511,
         661,
         837,
         976
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1022,
         682,
         1355,
@@ -1044,18 +1044,18 @@
       "frame_idx": 377,
       "timestamp": 6.3898,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000377.jpg",
-      "front_wheel_conf": 0.9671,
-      "back_wheel_conf": 0.9486,
-      "front_squareness": 0.9618,
-      "back_squareness": 0.9879,
-      "size_match_ratio": 0.9232,
-      "front_wheel_box": [
+      "fw_conf": 0.9671,
+      "bw_conf": 0.9486,
+      "fw_squareness": 0.9618,
+      "bw_squareness": 0.9879,
+      "wheel_size_ratio": 0.9232,
+      "fw_box": [
         497,
         660,
         823,
         974
       ],
-      "back_wheel_box": [
+      "bw_box": [
         1008,
         677,
         1343,
@@ -1072,18 +1072,18 @@
       "frame_idx": 378,
       "timestamp": 6.4068,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000378.jpg",
-      "front_wheel_conf": 0.951,
-      "back_wheel_conf": 0.9527,
-      "front_squareness": 0.965,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9314,
-      "front_wheel_box": [
+      "fw_conf": 0.951,
+      "bw_conf": 0.9527,
+      "fw_squareness": 0.965,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9314,
+      "fw_box": [
         485,
         658,
         810,
         972
       ],
-      "back_wheel_box": [
+      "bw_box": [
         996,
         675,
         1327,
@@ -1100,18 +1100,18 @@
       "frame_idx": 379,
       "timestamp": 6.4237,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000379.jpg",
-      "front_wheel_conf": 0.9514,
-      "back_wheel_conf": 0.9524,
-      "front_squareness": 0.9684,
-      "back_squareness": 0.997,
-      "size_match_ratio": 0.9488,
-      "front_wheel_box": [
+      "fw_conf": 0.9514,
+      "bw_conf": 0.9524,
+      "fw_squareness": 0.9684,
+      "bw_squareness": 0.997,
+      "wheel_size_ratio": 0.9488,
+      "fw_box": [
         474,
         655,
         800,
         971
       ],
-      "back_wheel_box": [
+      "bw_box": [
         981,
         673,
         1310,
@@ -1128,18 +1128,18 @@
       "frame_idx": 380,
       "timestamp": 6.4407,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000380.jpg",
-      "front_wheel_conf": 0.961,
-      "back_wheel_conf": 0.9534,
-      "front_squareness": 0.981,
-      "back_squareness": 0.9879,
-      "size_match_ratio": 0.9401,
-      "front_wheel_box": [
+      "fw_conf": 0.961,
+      "bw_conf": 0.9534,
+      "fw_squareness": 0.981,
+      "bw_squareness": 0.9879,
+      "wheel_size_ratio": 0.9401,
+      "fw_box": [
         464,
         654,
         786,
         970
       ],
-      "back_wheel_box": [
+      "bw_box": [
         968,
         671,
         1295,
@@ -1156,18 +1156,18 @@
       "frame_idx": 381,
       "timestamp": 6.4576,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000381.jpg",
-      "front_wheel_conf": 0.9613,
-      "back_wheel_conf": 0.9558,
-      "front_squareness": 0.9776,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9251,
-      "front_wheel_box": [
+      "fw_conf": 0.9613,
+      "bw_conf": 0.9558,
+      "fw_squareness": 0.9776,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9251,
+      "fw_box": [
         453,
         653,
         772,
         965
       ],
-      "back_wheel_box": [
+      "bw_box": [
         954,
         672,
         1282,
@@ -1184,18 +1184,18 @@
       "frame_idx": 382,
       "timestamp": 6.4746,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000382.jpg",
-      "front_wheel_conf": 0.9558,
-      "back_wheel_conf": 0.9566,
-      "front_squareness": 0.9904,
-      "back_squareness": 0.9939,
-      "size_match_ratio": 0.9248,
-      "front_wheel_box": [
+      "fw_conf": 0.9558,
+      "bw_conf": 0.9566,
+      "fw_squareness": 0.9904,
+      "bw_squareness": 0.9939,
+      "wheel_size_ratio": 0.9248,
+      "fw_box": [
         445,
         652,
         760,
         964
       ],
-      "back_wheel_box": [
+      "bw_box": [
         939,
         669,
         1264,
@@ -1212,18 +1212,18 @@
       "frame_idx": 383,
       "timestamp": 6.4915,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000383.jpg",
-      "front_wheel_conf": 0.9512,
-      "back_wheel_conf": 0.9591,
-      "front_squareness": 0.9807,
-      "back_squareness": 0.9908,
-      "size_match_ratio": 0.9363,
-      "front_wheel_box": [
+      "fw_conf": 0.9512,
+      "bw_conf": 0.9591,
+      "fw_squareness": 0.9807,
+      "bw_squareness": 0.9908,
+      "wheel_size_ratio": 0.9363,
+      "fw_box": [
         434,
         651,
         751,
         962
       ],
-      "back_wheel_box": [
+      "bw_box": [
         929,
         666,
         1252,
@@ -1240,18 +1240,18 @@
       "frame_idx": 384,
       "timestamp": 6.5085,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000384.jpg",
-      "front_wheel_conf": 0.9538,
-      "back_wheel_conf": 0.9583,
-      "front_squareness": 0.9771,
-      "back_squareness": 0.9878,
-      "size_match_ratio": 0.9068,
-      "front_wheel_box": [
+      "fw_conf": 0.9538,
+      "bw_conf": 0.9583,
+      "fw_squareness": 0.9771,
+      "bw_squareness": 0.9878,
+      "wheel_size_ratio": 0.9068,
+      "fw_box": [
         428,
         651,
         741,
         957
       ],
-      "back_wheel_box": [
+      "bw_box": [
         914,
         664,
         1237,
@@ -1268,18 +1268,18 @@
       "frame_idx": 385,
       "timestamp": 6.5254,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000385.jpg",
-      "front_wheel_conf": 0.9556,
-      "back_wheel_conf": 0.9522,
-      "front_squareness": 0.9836,
-      "back_squareness": 0.9969,
-      "size_match_ratio": 0.8924,
-      "front_wheel_box": [
+      "fw_conf": 0.9556,
+      "bw_conf": 0.9522,
+      "fw_squareness": 0.9836,
+      "bw_squareness": 0.9969,
+      "wheel_size_ratio": 0.8924,
+      "fw_box": [
         421,
         648,
         731,
         953
       ],
-      "back_wheel_box": [
+      "bw_box": [
         900,
         660,
         1225,
@@ -1296,18 +1296,18 @@
       "frame_idx": 386,
       "timestamp": 6.5424,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000386.jpg",
-      "front_wheel_conf": 0.8452,
-      "back_wheel_conf": 0.9442,
-      "front_squareness": 0.9901,
-      "back_squareness": 0.9938,
-      "size_match_ratio": 0.9055,
-      "front_wheel_box": [
+      "fw_conf": 0.8452,
+      "bw_conf": 0.9442,
+      "fw_squareness": 0.9901,
+      "bw_squareness": 0.9938,
+      "wheel_size_ratio": 0.9055,
+      "fw_box": [
         414,
         647,
         720,
         950
       ],
-      "back_wheel_box": [
+      "bw_box": [
         888,
         660,
         1207,
@@ -1324,18 +1324,18 @@
       "frame_idx": 387,
       "timestamp": 6.5593,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000387.jpg",
-      "front_wheel_conf": 0.9646,
-      "back_wheel_conf": 0.9565,
-      "front_squareness": 0.9934,
-      "back_squareness": 0.9875,
-      "size_match_ratio": 0.9079,
-      "front_wheel_box": [
+      "fw_conf": 0.9646,
+      "bw_conf": 0.9565,
+      "fw_squareness": 0.9934,
+      "bw_squareness": 0.9875,
+      "wheel_size_ratio": 0.9079,
+      "fw_box": [
         412,
         646,
         714,
         950
       ],
-      "back_wheel_box": [
+      "bw_box": [
         884,
         660,
         1200,
@@ -1352,18 +1352,18 @@
       "frame_idx": 388,
       "timestamp": 6.5763,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000388.jpg",
-      "front_wheel_conf": 0.9649,
-      "back_wheel_conf": 0.9536,
-      "front_squareness": 0.9933,
-      "back_squareness": 0.975,
-      "size_match_ratio": 0.8954,
-      "front_wheel_box": [
+      "fw_conf": 0.9649,
+      "bw_conf": 0.9536,
+      "fw_squareness": 0.9933,
+      "bw_squareness": 0.975,
+      "wheel_size_ratio": 0.8954,
+      "fw_box": [
         412,
         646,
         710,
         946
       ],
-      "back_wheel_box": [
+      "bw_box": [
         880,
         657,
         1192,
@@ -1380,18 +1380,18 @@
       "frame_idx": 389,
       "timestamp": 6.5932,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000389.jpg",
-      "front_wheel_conf": 0.9638,
-      "back_wheel_conf": 0.9531,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9906,
-      "size_match_ratio": 0.8747,
-      "front_wheel_box": [
+      "fw_conf": 0.9638,
+      "bw_conf": 0.9531,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9906,
+      "wheel_size_ratio": 0.8747,
+      "fw_box": [
         411,
         646,
         707,
         942
       ],
-      "back_wheel_box": [
+      "bw_box": [
         872,
         656,
         1187,
@@ -1408,18 +1408,18 @@
       "frame_idx": 390,
       "timestamp": 6.6102,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000390.jpg",
-      "front_wheel_conf": 0.9625,
-      "back_wheel_conf": 0.9502,
-      "front_squareness": 0.9966,
-      "back_squareness": 0.9843,
-      "size_match_ratio": 0.8718,
-      "front_wheel_box": [
+      "fw_conf": 0.9625,
+      "bw_conf": 0.9502,
+      "fw_squareness": 0.9966,
+      "bw_squareness": 0.9843,
+      "wheel_size_ratio": 0.8718,
+      "fw_box": [
         409,
         643,
         704,
         939
       ],
-      "back_wheel_box": [
+      "bw_box": [
         867,
         652,
         1181,
@@ -1436,18 +1436,18 @@
       "frame_idx": 391,
       "timestamp": 6.6271,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000391.jpg",
-      "front_wheel_conf": 0.9629,
-      "back_wheel_conf": 0.9555,
-      "front_squareness": 0.9932,
-      "back_squareness": 0.9969,
-      "size_match_ratio": 0.8574,
-      "front_wheel_box": [
+      "fw_conf": 0.9629,
+      "bw_conf": 0.9555,
+      "fw_squareness": 0.9932,
+      "bw_squareness": 0.9969,
+      "wheel_size_ratio": 0.8574,
+      "fw_box": [
         408,
         641,
         701,
         936
       ],
-      "back_wheel_box": [
+      "bw_box": [
         856,
         650,
         1173,
@@ -1464,18 +1464,18 @@
       "frame_idx": 392,
       "timestamp": 6.6441,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000392.jpg",
-      "front_wheel_conf": 0.9626,
-      "back_wheel_conf": 0.9575,
-      "front_squareness": 0.9829,
-      "back_squareness": 0.975,
-      "size_match_ratio": 0.8452,
-      "front_wheel_box": [
+      "fw_conf": 0.9626,
+      "bw_conf": 0.9575,
+      "fw_squareness": 0.9829,
+      "bw_squareness": 0.975,
+      "wheel_size_ratio": 0.8452,
+      "fw_box": [
         409,
         640,
         697,
         933
       ],
-      "back_wheel_box": [
+      "bw_box": [
         854,
         646,
         1166,
@@ -1492,18 +1492,18 @@
       "frame_idx": 393,
       "timestamp": 6.661,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000393.jpg",
-      "front_wheel_conf": 0.9645,
-      "back_wheel_conf": 0.9595,
-      "front_squareness": 0.9759,
-      "back_squareness": 0.9533,
-      "size_match_ratio": 0.8414,
-      "front_wheel_box": [
+      "fw_conf": 0.9645,
+      "bw_conf": 0.9595,
+      "fw_squareness": 0.9759,
+      "bw_squareness": 0.9533,
+      "wheel_size_ratio": 0.8414,
+      "fw_box": [
         408,
         637,
         692,
         928
       ],
-      "back_wheel_box": [
+      "bw_box": [
         852,
         643,
         1158,
@@ -1520,18 +1520,18 @@
       "frame_idx": 394,
       "timestamp": 6.678,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000394.jpg",
-      "front_wheel_conf": 0.965,
-      "back_wheel_conf": 0.9533,
-      "front_squareness": 0.9658,
-      "back_squareness": 0.9557,
-      "size_match_ratio": 0.8629,
-      "front_wheel_box": [
+      "fw_conf": 0.965,
+      "bw_conf": 0.9533,
+      "fw_squareness": 0.9658,
+      "bw_squareness": 0.9557,
+      "wheel_size_ratio": 0.8629,
+      "fw_box": [
         408,
         633,
         690,
         925
       ],
-      "back_wheel_box": [
+      "bw_box": [
         847,
         642,
         1149,
@@ -1548,18 +1548,18 @@
       "frame_idx": 395,
       "timestamp": 6.6949,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000395.jpg",
-      "front_wheel_conf": 0.9678,
-      "back_wheel_conf": 0.9541,
-      "front_squareness": 0.9653,
-      "back_squareness": 0.9614,
-      "size_match_ratio": 0.861,
-      "front_wheel_box": [
+      "fw_conf": 0.9678,
+      "bw_conf": 0.9541,
+      "fw_squareness": 0.9653,
+      "bw_squareness": 0.9614,
+      "wheel_size_ratio": 0.861,
+      "fw_box": [
         406,
         633,
         684,
         921
       ],
-      "back_wheel_box": [
+      "bw_box": [
         840,
         645,
         1139,
@@ -1576,18 +1576,18 @@
       "frame_idx": 396,
       "timestamp": 6.7119,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000396.jpg",
-      "front_wheel_conf": 0.9546,
-      "back_wheel_conf": 0.9547,
-      "front_squareness": 0.9614,
-      "back_squareness": 0.9643,
-      "size_match_ratio": 0.8537,
-      "front_wheel_box": [
+      "fw_conf": 0.9546,
+      "bw_conf": 0.9547,
+      "fw_squareness": 0.9614,
+      "bw_squareness": 0.9643,
+      "wheel_size_ratio": 0.8537,
+      "fw_box": [
         405,
         630,
         679,
         915
       ],
-      "back_wheel_box": [
+      "bw_box": [
         833,
         642,
         1130,
@@ -1604,18 +1604,18 @@
       "frame_idx": 397,
       "timestamp": 6.7288,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000397.jpg",
-      "front_wheel_conf": 0.9538,
-      "back_wheel_conf": 0.9548,
-      "front_squareness": 0.961,
-      "back_squareness": 0.9542,
-      "size_match_ratio": 0.8553,
-      "front_wheel_box": [
+      "fw_conf": 0.9538,
+      "bw_conf": 0.9548,
+      "fw_squareness": 0.961,
+      "bw_squareness": 0.9542,
+      "wheel_size_ratio": 0.8553,
+      "fw_box": [
         404,
         629,
         675,
         911
       ],
-      "back_wheel_box": [
+      "bw_box": [
         827,
         640,
         1119,
@@ -1632,18 +1632,18 @@
       "frame_idx": 398,
       "timestamp": 6.7458,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000398.jpg",
-      "front_wheel_conf": 0.9514,
-      "back_wheel_conf": 0.9536,
-      "front_squareness": 0.964,
-      "back_squareness": 0.9444,
-      "size_match_ratio": 0.8425,
-      "front_wheel_box": [
+      "fw_conf": 0.9514,
+      "bw_conf": 0.9536,
+      "fw_squareness": 0.964,
+      "bw_squareness": 0.9444,
+      "wheel_size_ratio": 0.8425,
+      "fw_box": [
         402,
         628,
         670,
         906
       ],
-      "back_wheel_box": [
+      "bw_box": [
         820,
         636,
         1109,
@@ -1660,18 +1660,18 @@
       "frame_idx": 399,
       "timestamp": 6.7627,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000399.jpg",
-      "front_wheel_conf": 0.9514,
-      "back_wheel_conf": 0.9497,
-      "front_squareness": 0.9529,
-      "back_squareness": 0.9539,
-      "size_match_ratio": 0.8234,
-      "front_wheel_box": [
+      "fw_conf": 0.9514,
+      "bw_conf": 0.9497,
+      "fw_squareness": 0.9529,
+      "bw_squareness": 0.9539,
+      "wheel_size_ratio": 0.8234,
+      "fw_box": [
         402,
         625,
         665,
         901
       ],
-      "back_wheel_box": [
+      "bw_box": [
         811,
         634,
         1101,
@@ -1688,18 +1688,18 @@
       "frame_idx": 400,
       "timestamp": 6.7797,
       "frame_file": "output_v2/hannahb60/hannahb60_selected_frames/frame_000400.jpg",
-      "front_wheel_conf": 0.9508,
-      "back_wheel_conf": 0.9538,
-      "front_squareness": 0.9382,
-      "back_squareness": 0.9568,
-      "size_match_ratio": 0.8185,
-      "front_wheel_box": [
+      "fw_conf": 0.9508,
+      "bw_conf": 0.9538,
+      "fw_squareness": 0.9382,
+      "bw_squareness": 0.9568,
+      "wheel_size_ratio": 0.8185,
+      "fw_box": [
         401,
         621,
         659,
         896
       ],
-      "back_wheel_box": [
+      "bw_box": [
         801,
         633,
         1089,
@@ -1717,8 +1717,8 @@
     {
       "burst_id": 0,
       "quality_score": 41.1404,
-      "frame_idx_start": 340,
-      "frame_idx_end": 400,
+      "start_frame_idx": 340,
+      "end_frame_idx": 400,
       "frame_count": 61
     }
   ],
@@ -1729,6 +1729,6 @@
     "bursts_selected": 1,
     "selection_rate": 0.1113,
     "avg_confidence": 0.952,
-    "elapsed_sec": 26.43
+    "elapsed_sec": 28.57
   }
 }

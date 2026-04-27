@@ -8,18 +8,18 @@
       "frame_idx": 617,
       "timestamp": 10.289,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000617.jpg",
-      "front_wheel_conf": 0.9575,
-      "back_wheel_conf": 0.9471,
-      "front_squareness": 0.9669,
-      "back_squareness": 0.8654,
-      "size_match_ratio": 0.894,
-      "front_wheel_box": [
+      "fw_conf": 0.9575,
+      "bw_conf": 0.9471,
+      "fw_squareness": 0.9669,
+      "bw_squareness": 0.8654,
+      "wheel_size_ratio": 0.894,
+      "fw_box": [
         323,
         303,
         479,
         454
       ],
-      "back_wheel_box": [
+      "bw_box": [
         543,
         285,
         678,
@@ -36,18 +36,18 @@
       "frame_idx": 618,
       "timestamp": 10.3056,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000618.jpg",
-      "front_wheel_conf": 0.9611,
-      "back_wheel_conf": 0.9544,
-      "front_squareness": 0.9539,
-      "back_squareness": 0.8839,
-      "size_match_ratio": 0.8786,
-      "front_wheel_box": [
+      "fw_conf": 0.9611,
+      "bw_conf": 0.9544,
+      "fw_squareness": 0.9539,
+      "bw_squareness": 0.8839,
+      "wheel_size_ratio": 0.8786,
+      "fw_box": [
         314,
         303,
         473,
         455
       ],
-      "back_wheel_box": [
+      "bw_box": [
         536,
         287,
         673,
@@ -64,18 +64,18 @@
       "frame_idx": 619,
       "timestamp": 10.3223,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000619.jpg",
-      "front_wheel_conf": 0.9568,
-      "back_wheel_conf": 0.9434,
-      "front_squareness": 0.9673,
-      "back_squareness": 0.9161,
-      "size_match_ratio": 0.9105,
-      "front_wheel_box": [
+      "fw_conf": 0.9568,
+      "bw_conf": 0.9434,
+      "fw_squareness": 0.9673,
+      "bw_squareness": 0.9161,
+      "wheel_size_ratio": 0.9105,
+      "fw_box": [
         306,
         303,
         464,
         456
       ],
-      "back_wheel_box": [
+      "bw_box": [
         526,
         288,
         668,
@@ -92,18 +92,18 @@
       "frame_idx": 620,
       "timestamp": 10.339,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000620.jpg",
-      "front_wheel_conf": 0.9558,
-      "back_wheel_conf": 0.9452,
-      "front_squareness": 0.9608,
-      "back_squareness": 0.9226,
-      "size_match_ratio": 0.9111,
-      "front_wheel_box": [
+      "fw_conf": 0.9558,
+      "bw_conf": 0.9452,
+      "fw_squareness": 0.9608,
+      "bw_squareness": 0.9226,
+      "wheel_size_ratio": 0.9111,
+      "fw_box": [
         297,
         303,
         456,
         456
       ],
-      "back_wheel_box": [
+      "bw_box": [
         520,
         290,
         663,
@@ -120,18 +120,18 @@
       "frame_idx": 621,
       "timestamp": 10.3557,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000621.jpg",
-      "front_wheel_conf": 0.9581,
-      "back_wheel_conf": 0.9526,
-      "front_squareness": 0.9608,
-      "back_squareness": 0.8981,
-      "size_match_ratio": 0.91,
-      "front_wheel_box": [
+      "fw_conf": 0.9581,
+      "bw_conf": 0.9526,
+      "fw_squareness": 0.9608,
+      "bw_squareness": 0.8981,
+      "wheel_size_ratio": 0.91,
+      "fw_box": [
         288,
         304,
         447,
         457
       ],
-      "back_wheel_box": [
+      "bw_box": [
         517,
         290,
         658,
@@ -148,18 +148,18 @@
       "frame_idx": 622,
       "timestamp": 10.3723,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000622.jpg",
-      "front_wheel_conf": 0.9554,
-      "back_wheel_conf": 0.9447,
-      "front_squareness": 0.9542,
-      "back_squareness": 0.9045,
-      "size_match_ratio": 0.9107,
-      "front_wheel_box": [
+      "fw_conf": 0.9554,
+      "bw_conf": 0.9447,
+      "fw_squareness": 0.9542,
+      "bw_squareness": 0.9045,
+      "wheel_size_ratio": 0.9107,
+      "fw_box": [
         280,
         304,
         440,
         457
       ],
-      "back_wheel_box": [
+      "bw_box": [
         509,
         291,
         651,
@@ -176,18 +176,18 @@
       "frame_idx": 623,
       "timestamp": 10.389,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000623.jpg",
-      "front_wheel_conf": 0.9601,
-      "back_wheel_conf": 0.951,
-      "front_squareness": 0.9542,
-      "back_squareness": 0.9177,
-      "size_match_ratio": 0.9359,
-      "front_wheel_box": [
+      "fw_conf": 0.9601,
+      "bw_conf": 0.951,
+      "fw_squareness": 0.9542,
+      "bw_squareness": 0.9177,
+      "wheel_size_ratio": 0.9359,
+      "fw_box": [
         272,
         304,
         432,
         457
       ],
-      "back_wheel_box": [
+      "bw_box": [
         502,
         292,
         647,
@@ -204,18 +204,18 @@
       "frame_idx": 624,
       "timestamp": 10.4057,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000624.jpg",
-      "front_wheel_conf": 0.9564,
-      "back_wheel_conf": 0.9482,
-      "front_squareness": 0.9673,
-      "back_squareness": 0.9193,
-      "size_match_ratio": 0.9857,
-      "front_wheel_box": [
+      "fw_conf": 0.9564,
+      "bw_conf": 0.9482,
+      "fw_squareness": 0.9673,
+      "bw_squareness": 0.9193,
+      "wheel_size_ratio": 0.9857,
+      "fw_box": [
         264,
         305,
         422,
         458
       ],
-      "back_wheel_box": [
+      "bw_box": [
         494,
         292,
         642,
@@ -232,18 +232,18 @@
       "frame_idx": 625,
       "timestamp": 10.4224,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000625.jpg",
-      "front_wheel_conf": 0.9544,
-      "back_wheel_conf": 0.9531,
-      "front_squareness": 0.9605,
-      "back_squareness": 0.95,
-      "size_match_ratio": 0.9875,
-      "front_wheel_box": [
+      "fw_conf": 0.9544,
+      "bw_conf": 0.9531,
+      "fw_squareness": 0.9605,
+      "bw_squareness": 0.95,
+      "wheel_size_ratio": 0.9875,
+      "fw_box": [
         257,
         306,
         415,
         458
       ],
-      "back_wheel_box": [
+      "bw_box": [
         483,
         294,
         635,
@@ -260,18 +260,18 @@
       "frame_idx": 626,
       "timestamp": 10.439,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000626.jpg",
-      "front_wheel_conf": 0.9588,
-      "back_wheel_conf": 0.9552,
-      "front_squareness": 0.9539,
-      "back_squareness": 0.963,
-      "size_match_ratio": 0.9563,
-      "front_wheel_box": [
+      "fw_conf": 0.9588,
+      "bw_conf": 0.9552,
+      "fw_squareness": 0.9539,
+      "bw_squareness": 0.963,
+      "wheel_size_ratio": 0.9563,
+      "fw_box": [
         249,
         306,
         408,
         458
       ],
-      "back_wheel_box": [
+      "bw_box": [
         474,
         293,
         630,
@@ -288,18 +288,18 @@
       "frame_idx": 627,
       "timestamp": 10.4557,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000627.jpg",
-      "front_wheel_conf": 0.9557,
-      "back_wheel_conf": 0.9536,
-      "front_squareness": 0.9603,
-      "back_squareness": 0.9573,
-      "size_match_ratio": 0.9207,
-      "front_wheel_box": [
+      "fw_conf": 0.9557,
+      "bw_conf": 0.9536,
+      "fw_squareness": 0.9603,
+      "bw_squareness": 0.9573,
+      "wheel_size_ratio": 0.9207,
+      "fw_box": [
         244,
         307,
         401,
         458
       ],
-      "back_wheel_box": [
+      "bw_box": [
         468,
         293,
         625,
@@ -316,18 +316,18 @@
       "frame_idx": 628,
       "timestamp": 10.4724,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000628.jpg",
-      "front_wheel_conf": 0.9584,
-      "back_wheel_conf": 0.9532,
-      "front_squareness": 0.9603,
-      "back_squareness": 0.9515,
-      "size_match_ratio": 0.9152,
-      "front_wheel_box": [
+      "fw_conf": 0.9584,
+      "bw_conf": 0.9532,
+      "fw_squareness": 0.9603,
+      "bw_squareness": 0.9515,
+      "wheel_size_ratio": 0.9152,
+      "fw_box": [
         239,
         306,
         396,
         457
       ],
-      "back_wheel_box": [
+      "bw_box": [
         462,
         293,
         619,
@@ -344,18 +344,18 @@
       "frame_idx": 629,
       "timestamp": 10.4891,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000629.jpg",
-      "front_wheel_conf": 0.9617,
-      "back_wheel_conf": 0.9558,
-      "front_squareness": 0.9733,
-      "back_squareness": 0.9639,
-      "size_match_ratio": 0.8697,
-      "front_wheel_box": [
+      "fw_conf": 0.9617,
+      "bw_conf": 0.9558,
+      "fw_squareness": 0.9733,
+      "bw_squareness": 0.9639,
+      "wheel_size_ratio": 0.8697,
+      "fw_box": [
         234,
         306,
         388,
         456
       ],
-      "back_wheel_box": [
+      "bw_box": [
         454,
         293,
         614,
@@ -372,18 +372,18 @@
       "frame_idx": 630,
       "timestamp": 10.5057,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000630.jpg",
-      "front_wheel_conf": 0.9599,
-      "back_wheel_conf": 0.9566,
-      "front_squareness": 0.9733,
-      "back_squareness": 0.9636,
-      "size_match_ratio": 0.8805,
-      "front_wheel_box": [
+      "fw_conf": 0.9599,
+      "bw_conf": 0.9566,
+      "fw_squareness": 0.9733,
+      "bw_squareness": 0.9636,
+      "wheel_size_ratio": 0.8805,
+      "fw_box": [
         229,
         306,
         383,
         456
       ],
-      "back_wheel_box": [
+      "bw_box": [
         450,
         294,
         609,
@@ -400,18 +400,18 @@
       "frame_idx": 631,
       "timestamp": 10.5224,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000631.jpg",
-      "front_wheel_conf": 0.9569,
-      "back_wheel_conf": 0.9576,
-      "front_squareness": 0.9868,
-      "back_squareness": 0.9756,
-      "size_match_ratio": 0.8804,
-      "front_wheel_box": [
+      "fw_conf": 0.9569,
+      "bw_conf": 0.9576,
+      "fw_squareness": 0.9868,
+      "bw_squareness": 0.9756,
+      "wheel_size_ratio": 0.8804,
+      "fw_box": [
         225,
         305,
         378,
         456
       ],
-      "back_wheel_box": [
+      "bw_box": [
         444,
         295,
         604,
@@ -428,18 +428,18 @@
       "frame_idx": 632,
       "timestamp": 10.5391,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000632.jpg",
-      "front_wheel_conf": 0.9557,
-      "back_wheel_conf": 0.9569,
-      "front_squareness": 0.9934,
-      "back_squareness": 0.9576,
-      "size_match_ratio": 0.8804,
-      "front_wheel_box": [
+      "fw_conf": 0.9557,
+      "bw_conf": 0.9569,
+      "fw_squareness": 0.9934,
+      "bw_squareness": 0.9576,
+      "wheel_size_ratio": 0.8804,
+      "fw_box": [
         222,
         304,
         374,
         455
       ],
-      "back_wheel_box": [
+      "bw_box": [
         441,
         294,
         599,
@@ -456,18 +456,18 @@
       "frame_idx": 633,
       "timestamp": 10.5558,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000633.jpg",
-      "front_wheel_conf": 0.9562,
-      "back_wheel_conf": 0.9583,
-      "front_squareness": 0.9865,
-      "back_squareness": 0.9458,
-      "size_match_ratio": 0.8518,
-      "front_wheel_box": [
+      "fw_conf": 0.9562,
+      "bw_conf": 0.9583,
+      "fw_squareness": 0.9865,
+      "bw_squareness": 0.9458,
+      "wheel_size_ratio": 0.8518,
+      "fw_box": [
         220,
         305,
         370,
         453
       ],
-      "back_wheel_box": [
+      "bw_box": [
         438,
         294,
         595,
@@ -484,18 +484,18 @@
       "frame_idx": 634,
       "timestamp": 10.5724,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000634.jpg",
-      "front_wheel_conf": 0.9618,
-      "back_wheel_conf": 0.9562,
-      "front_squareness": 0.9797,
-      "back_squareness": 0.9639,
-      "size_match_ratio": 0.8414,
-      "front_wheel_box": [
+      "fw_conf": 0.9618,
+      "bw_conf": 0.9562,
+      "fw_squareness": 0.9797,
+      "bw_squareness": 0.9639,
+      "wheel_size_ratio": 0.8414,
+      "fw_box": [
         216,
         304,
         367,
         452
       ],
-      "back_wheel_box": [
+      "bw_box": [
         429,
         294,
         589,
@@ -512,18 +512,18 @@
       "frame_idx": 635,
       "timestamp": 10.5891,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000635.jpg",
-      "front_wheel_conf": 0.9629,
-      "back_wheel_conf": 0.9517,
-      "front_squareness": 0.9932,
-      "back_squareness": 0.9515,
-      "size_match_ratio": 0.8398,
-      "front_wheel_box": [
+      "fw_conf": 0.9629,
+      "bw_conf": 0.9517,
+      "fw_squareness": 0.9932,
+      "bw_squareness": 0.9515,
+      "wheel_size_ratio": 0.8398,
+      "fw_box": [
         214,
         305,
         362,
         452
       ],
-      "back_wheel_box": [
+      "bw_box": [
         426,
         295,
         583,
@@ -540,18 +540,18 @@
       "frame_idx": 636,
       "timestamp": 10.6058,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000636.jpg",
-      "front_wheel_conf": 0.9588,
-      "back_wheel_conf": 0.7074,
-      "front_squareness": 0.9932,
-      "back_squareness": 0.9341,
-      "size_match_ratio": 0.8126,
-      "front_wheel_box": [
+      "fw_conf": 0.9588,
+      "bw_conf": 0.7074,
+      "fw_squareness": 0.9932,
+      "bw_squareness": 0.9341,
+      "wheel_size_ratio": 0.8126,
+      "fw_box": [
         212,
         304,
         357,
         450
       ],
-      "back_wheel_box": [
+      "bw_box": [
         422,
         293,
         578,
@@ -568,18 +568,18 @@
       "frame_idx": 869,
       "timestamp": 14.4913,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000869.jpg",
-      "front_wheel_conf": 0.8864,
-      "back_wheel_conf": 0.9175,
-      "front_squareness": 0.9333,
-      "back_squareness": 0.871,
-      "size_match_ratio": 0.9964,
-      "front_wheel_box": [
+      "fw_conf": 0.8864,
+      "bw_conf": 0.9175,
+      "fw_squareness": 0.9333,
+      "bw_squareness": 0.871,
+      "wheel_size_ratio": 0.9964,
+      "fw_box": [
         372,
         219,
         400,
         249
       ],
-      "back_wheel_box": [
+      "bw_box": [
         336,
         221,
         363,
@@ -596,18 +596,18 @@
       "frame_idx": 870,
       "timestamp": 14.5079,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000870.jpg",
-      "front_wheel_conf": 0.8823,
-      "back_wheel_conf": 0.9159,
-      "front_squareness": 0.9333,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.8823,
+      "bw_conf": 0.9159,
+      "fw_squareness": 0.9333,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         371,
         219,
         399,
         249
       ],
-      "back_wheel_box": [
+      "bw_box": [
         335,
         221,
         363,
@@ -624,18 +624,18 @@
       "frame_idx": 871,
       "timestamp": 14.5246,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000871.jpg",
-      "front_wheel_conf": 0.886,
-      "back_wheel_conf": 0.9122,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.875,
-      "size_match_ratio": 0.971,
-      "front_wheel_box": [
+      "fw_conf": 0.886,
+      "bw_conf": 0.9122,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.875,
+      "wheel_size_ratio": 0.971,
+      "fw_box": [
         370,
         219,
         399,
         249
       ],
-      "back_wheel_box": [
+      "bw_box": [
         334,
         221,
         362,
@@ -652,18 +652,18 @@
       "frame_idx": 872,
       "timestamp": 14.5413,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000872.jpg",
-      "front_wheel_conf": 0.8847,
-      "back_wheel_conf": 0.9068,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.875,
-      "size_match_ratio": 0.9634,
-      "front_wheel_box": [
+      "fw_conf": 0.8847,
+      "bw_conf": 0.9068,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.875,
+      "wheel_size_ratio": 0.9634,
+      "fw_box": [
         369,
         219,
         399,
         250
       ],
-      "back_wheel_box": [
+      "bw_box": [
         334,
         221,
         362,
@@ -680,18 +680,18 @@
       "frame_idx": 873,
       "timestamp": 14.558,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000873.jpg",
-      "front_wheel_conf": 0.895,
-      "back_wheel_conf": 0.9031,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.875,
-      "size_match_ratio": 0.9967,
-      "front_wheel_box": [
+      "fw_conf": 0.895,
+      "bw_conf": 0.9031,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.875,
+      "wheel_size_ratio": 0.9967,
+      "fw_box": [
         369,
         219,
         398,
         250
       ],
-      "back_wheel_box": [
+      "bw_box": [
         333,
         221,
         361,
@@ -708,18 +708,18 @@
       "frame_idx": 874,
       "timestamp": 14.5746,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000874.jpg",
-      "front_wheel_conf": 0.8036,
-      "back_wheel_conf": 0.9001,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.9062,
-      "size_match_ratio": 0.9688,
-      "front_wheel_box": [
+      "fw_conf": 0.8036,
+      "bw_conf": 0.9001,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.9062,
+      "wheel_size_ratio": 0.9688,
+      "fw_box": [
         369,
         219,
         398,
         250
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         221,
         361,
@@ -736,18 +736,18 @@
       "frame_idx": 875,
       "timestamp": 14.5913,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000875.jpg",
-      "front_wheel_conf": 0.8884,
-      "back_wheel_conf": 0.8975,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9062,
-      "size_match_ratio": 0.9375,
-      "front_wheel_box": [
+      "fw_conf": 0.8884,
+      "bw_conf": 0.8975,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9062,
+      "wheel_size_ratio": 0.9375,
+      "fw_box": [
         369,
         219,
         398,
         249
       ],
-      "back_wheel_box": [
+      "bw_box": [
         331,
         221,
         360,
@@ -764,18 +764,18 @@
       "frame_idx": 876,
       "timestamp": 14.608,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000876.jpg",
-      "front_wheel_conf": 0.8819,
-      "back_wheel_conf": 0.8931,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.9062,
-      "size_match_ratio": 0.9688,
-      "front_wheel_box": [
+      "fw_conf": 0.8819,
+      "bw_conf": 0.8931,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.9062,
+      "wheel_size_ratio": 0.9688,
+      "fw_box": [
         369,
         219,
         398,
         250
       ],
-      "back_wheel_box": [
+      "bw_box": [
         331,
         221,
         360,
@@ -792,18 +792,18 @@
       "frame_idx": 877,
       "timestamp": 14.6247,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000877.jpg",
-      "front_wheel_conf": 0.865,
-      "back_wheel_conf": 0.8909,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.875,
-      "size_match_ratio": 0.9967,
-      "front_wheel_box": [
+      "fw_conf": 0.865,
+      "bw_conf": 0.8909,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.875,
+      "wheel_size_ratio": 0.9967,
+      "fw_box": [
         369,
         219,
         398,
         250
       ],
-      "back_wheel_box": [
+      "bw_box": [
         331,
         221,
         359,
@@ -820,18 +820,18 @@
       "frame_idx": 878,
       "timestamp": 14.6413,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000878.jpg",
-      "front_wheel_conf": 0.8651,
-      "back_wheel_conf": 0.8905,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.8788,
-      "size_match_ratio": 0.9394,
-      "front_wheel_box": [
+      "fw_conf": 0.8651,
+      "bw_conf": 0.8905,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.8788,
+      "wheel_size_ratio": 0.9394,
+      "fw_box": [
         369,
         219,
         398,
         250
       ],
-      "back_wheel_box": [
+      "bw_box": [
         330,
         221,
         359,
@@ -848,18 +848,18 @@
       "frame_idx": 879,
       "timestamp": 14.658,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000879.jpg",
-      "front_wheel_conf": 0.8531,
-      "back_wheel_conf": 0.8779,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.8788,
-      "size_match_ratio": 0.9394,
-      "front_wheel_box": [
+      "fw_conf": 0.8531,
+      "bw_conf": 0.8779,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.8788,
+      "wheel_size_ratio": 0.9394,
+      "fw_box": [
         369,
         219,
         398,
         250
       ],
-      "back_wheel_box": [
+      "bw_box": [
         330,
         221,
         359,
@@ -876,18 +876,18 @@
       "frame_idx": 880,
       "timestamp": 14.6747,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000880.jpg",
-      "front_wheel_conf": 0.8075,
-      "back_wheel_conf": 0.8741,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9081,
-      "front_wheel_box": [
+      "fw_conf": 0.8075,
+      "bw_conf": 0.8741,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9081,
+      "fw_box": [
         369,
         219,
         398,
         250
       ],
-      "back_wheel_box": [
+      "bw_box": [
         330,
         221,
         360,
@@ -904,18 +904,18 @@
       "frame_idx": 881,
       "timestamp": 14.6914,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000881.jpg",
-      "front_wheel_conf": 0.859,
-      "back_wheel_conf": 0.8664,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9062,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.859,
+      "bw_conf": 0.8664,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9062,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         368,
         219,
         398,
         251
       ],
-      "back_wheel_box": [
+      "bw_box": [
         330,
         222,
         359,
@@ -932,18 +932,18 @@
       "frame_idx": 882,
       "timestamp": 14.708,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000882.jpg",
-      "front_wheel_conf": 0.8577,
-      "back_wheel_conf": 0.861,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.8577,
+      "bw_conf": 0.861,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         368,
         219,
         399,
         251
       ],
-      "back_wheel_box": [
+      "bw_box": [
         330,
         222,
         360,
@@ -960,18 +960,18 @@
       "frame_idx": 883,
       "timestamp": 14.7247,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000883.jpg",
-      "front_wheel_conf": 0.855,
-      "back_wheel_conf": 0.8643,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.855,
+      "bw_conf": 0.8643,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         369,
         219,
         399,
         251
       ],
-      "back_wheel_box": [
+      "bw_box": [
         330,
         222,
         360,
@@ -988,18 +988,18 @@
       "frame_idx": 884,
       "timestamp": 14.7414,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000884.jpg",
-      "front_wheel_conf": 0.8686,
-      "back_wheel_conf": 0.8719,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8686,
+      "bw_conf": 0.8719,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         369,
         219,
         399,
         251
       ],
-      "back_wheel_box": [
+      "bw_box": [
         330,
         222,
         360,
@@ -1016,18 +1016,18 @@
       "frame_idx": 885,
       "timestamp": 14.7581,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000885.jpg",
-      "front_wheel_conf": 0.8732,
-      "back_wheel_conf": 0.8811,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.8732,
+      "bw_conf": 0.8811,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         368,
         219,
         399,
         251
       ],
-      "back_wheel_box": [
+      "bw_box": [
         330,
         222,
         360,
@@ -1044,18 +1044,18 @@
       "frame_idx": 886,
       "timestamp": 14.7747,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000886.jpg",
-      "front_wheel_conf": 0.8731,
-      "back_wheel_conf": 0.8811,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8731,
+      "bw_conf": 0.8811,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         369,
         220,
         399,
         251
       ],
-      "back_wheel_box": [
+      "bw_box": [
         330,
         223,
         360,
@@ -1072,18 +1072,18 @@
       "frame_idx": 887,
       "timestamp": 14.7914,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000887.jpg",
-      "front_wheel_conf": 0.8747,
-      "back_wheel_conf": 0.8865,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8747,
+      "bw_conf": 0.8865,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         369,
         219,
         400,
         251
       ],
-      "back_wheel_box": [
+      "bw_box": [
         330,
         222,
         361,
@@ -1100,18 +1100,18 @@
       "frame_idx": 888,
       "timestamp": 14.8081,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000888.jpg",
-      "front_wheel_conf": 0.8923,
-      "back_wheel_conf": 0.894,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9697,
-      "front_wheel_box": [
+      "fw_conf": 0.8923,
+      "bw_conf": 0.894,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9697,
+      "fw_box": [
         369,
         220,
         400,
         252
       ],
-      "back_wheel_box": [
+      "bw_box": [
         330,
         222,
         361,
@@ -1128,18 +1128,18 @@
       "frame_idx": 889,
       "timestamp": 14.8248,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000889.jpg",
-      "front_wheel_conf": 0.911,
-      "back_wheel_conf": 0.9017,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9697,
-      "size_match_ratio": 0.9091,
-      "front_wheel_box": [
+      "fw_conf": 0.911,
+      "bw_conf": 0.9017,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9697,
+      "wheel_size_ratio": 0.9091,
+      "fw_box": [
         370,
         220,
         400,
         252
       ],
-      "back_wheel_box": [
+      "bw_box": [
         330,
         222,
         362,
@@ -1156,18 +1156,18 @@
       "frame_idx": 890,
       "timestamp": 14.8414,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000890.jpg",
-      "front_wheel_conf": 0.9123,
-      "back_wheel_conf": 0.9037,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9697,
-      "size_match_ratio": 0.9091,
-      "front_wheel_box": [
+      "fw_conf": 0.9123,
+      "bw_conf": 0.9037,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9697,
+      "wheel_size_ratio": 0.9091,
+      "fw_box": [
         370,
         220,
         400,
         252
       ],
-      "back_wheel_box": [
+      "bw_box": [
         330,
         222,
         362,
@@ -1184,18 +1184,18 @@
       "frame_idx": 891,
       "timestamp": 14.8581,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000891.jpg",
-      "front_wheel_conf": 0.9171,
-      "back_wheel_conf": 0.9046,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.998,
-      "front_wheel_box": [
+      "fw_conf": 0.9171,
+      "bw_conf": 0.9046,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.998,
+      "fw_box": [
         370,
         220,
         401,
         252
       ],
-      "back_wheel_box": [
+      "bw_box": [
         331,
         222,
         361,
@@ -1212,18 +1212,18 @@
       "frame_idx": 892,
       "timestamp": 14.8748,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000892.jpg",
-      "front_wheel_conf": 0.9202,
-      "back_wheel_conf": 0.908,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.999,
-      "front_wheel_box": [
+      "fw_conf": 0.9202,
+      "bw_conf": 0.908,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.999,
+      "fw_box": [
         370,
         220,
         402,
         252
       ],
-      "back_wheel_box": [
+      "bw_box": [
         331,
         222,
         362,
@@ -1240,18 +1240,18 @@
       "frame_idx": 893,
       "timestamp": 14.8915,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000893.jpg",
-      "front_wheel_conf": 0.9167,
-      "back_wheel_conf": 0.9041,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.999,
-      "front_wheel_box": [
+      "fw_conf": 0.9167,
+      "bw_conf": 0.9041,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.999,
+      "fw_box": [
         370,
         220,
         402,
         252
       ],
-      "back_wheel_box": [
+      "bw_box": [
         331,
         222,
         362,
@@ -1268,18 +1268,18 @@
       "frame_idx": 894,
       "timestamp": 14.9082,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000894.jpg",
-      "front_wheel_conf": 0.9168,
-      "back_wheel_conf": 0.9063,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9697,
-      "front_wheel_box": [
+      "fw_conf": 0.9168,
+      "bw_conf": 0.9063,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9697,
+      "fw_box": [
         371,
         221,
         402,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         331,
         222,
         362,
@@ -1296,18 +1296,18 @@
       "frame_idx": 895,
       "timestamp": 14.9248,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000895.jpg",
-      "front_wheel_conf": 0.9207,
-      "back_wheel_conf": 0.9231,
-      "front_squareness": 0.9333,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.9207,
+      "bw_conf": 0.9231,
+      "fw_squareness": 0.9333,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         371,
         223,
         403,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         223,
         363,
@@ -1324,18 +1324,18 @@
       "frame_idx": 896,
       "timestamp": 14.9415,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000896.jpg",
-      "front_wheel_conf": 0.9157,
-      "back_wheel_conf": 0.9245,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.9375,
-      "front_wheel_box": [
+      "fw_conf": 0.9157,
+      "bw_conf": 0.9245,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.9375,
+      "fw_box": [
         372,
         223,
         403,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         223,
         363,
@@ -1352,18 +1352,18 @@
       "frame_idx": 897,
       "timestamp": 14.9582,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000897.jpg",
-      "front_wheel_conf": 0.9065,
-      "back_wheel_conf": 0.9275,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.9375,
-      "front_wheel_box": [
+      "fw_conf": 0.9065,
+      "bw_conf": 0.9275,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.9375,
+      "fw_box": [
         372,
         223,
         403,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         223,
         363,
@@ -1380,18 +1380,18 @@
       "frame_idx": 898,
       "timestamp": 14.9749,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000898.jpg",
-      "front_wheel_conf": 0.8988,
-      "back_wheel_conf": 0.926,
-      "front_squareness": 0.931,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.9062,
-      "front_wheel_box": [
+      "fw_conf": 0.8988,
+      "bw_conf": 0.926,
+      "fw_squareness": 0.931,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.9062,
+      "fw_box": [
         372,
         224,
         403,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         223,
         363,
@@ -1408,18 +1408,18 @@
       "frame_idx": 899,
       "timestamp": 14.9915,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000899.jpg",
-      "front_wheel_conf": 0.9,
-      "back_wheel_conf": 0.9245,
-      "front_squareness": 0.931,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.9062,
-      "front_wheel_box": [
+      "fw_conf": 0.9,
+      "bw_conf": 0.9245,
+      "fw_squareness": 0.931,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.9062,
+      "fw_box": [
         373,
         224,
         404,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         223,
         363,
@@ -1436,18 +1436,18 @@
       "frame_idx": 900,
       "timestamp": 15.0082,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000900.jpg",
-      "front_wheel_conf": 0.9021,
-      "back_wheel_conf": 0.9205,
-      "front_squareness": 0.931,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9365,
-      "front_wheel_box": [
+      "fw_conf": 0.9021,
+      "bw_conf": 0.9205,
+      "fw_squareness": 0.931,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9365,
+      "fw_box": [
         373,
         224,
         404,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         224,
         362,
@@ -1464,18 +1464,18 @@
       "frame_idx": 901,
       "timestamp": 15.0249,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000901.jpg",
-      "front_wheel_conf": 0.904,
-      "back_wheel_conf": 0.9223,
-      "front_squareness": 0.931,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9365,
-      "front_wheel_box": [
+      "fw_conf": 0.904,
+      "bw_conf": 0.9223,
+      "fw_squareness": 0.931,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9365,
+      "fw_box": [
         373,
         224,
         404,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         224,
         362,
@@ -1492,18 +1492,18 @@
       "frame_idx": 902,
       "timestamp": 15.0416,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000902.jpg",
-      "front_wheel_conf": 0.8983,
-      "back_wheel_conf": 0.9202,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9688,
-      "front_wheel_box": [
+      "fw_conf": 0.8983,
+      "bw_conf": 0.9202,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9688,
+      "fw_box": [
         373,
         224,
         404,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         224,
         362,
@@ -1520,18 +1520,18 @@
       "frame_idx": 903,
       "timestamp": 15.0582,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000903.jpg",
-      "front_wheel_conf": 0.9004,
-      "back_wheel_conf": 0.9196,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9688,
-      "front_wheel_box": [
+      "fw_conf": 0.9004,
+      "bw_conf": 0.9196,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9688,
+      "fw_box": [
         373,
         224,
         404,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         333,
         224,
         363,
@@ -1548,18 +1548,18 @@
       "frame_idx": 904,
       "timestamp": 15.0749,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000904.jpg",
-      "front_wheel_conf": 0.8917,
-      "back_wheel_conf": 0.9188,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9062,
-      "size_match_ratio": 0.9978,
-      "front_wheel_box": [
+      "fw_conf": 0.8917,
+      "bw_conf": 0.9188,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9062,
+      "wheel_size_ratio": 0.9978,
+      "fw_box": [
         373,
         224,
         404,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         333,
         224,
         362,
@@ -1576,18 +1576,18 @@
       "frame_idx": 905,
       "timestamp": 15.0916,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000905.jpg",
-      "front_wheel_conf": 0.8815,
-      "back_wheel_conf": 0.9271,
-      "front_squareness": 0.931,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9365,
-      "front_wheel_box": [
+      "fw_conf": 0.8815,
+      "bw_conf": 0.9271,
+      "fw_squareness": 0.931,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9365,
+      "fw_box": [
         373,
         225,
         404,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         333,
         224,
         363,
@@ -1604,18 +1604,18 @@
       "frame_idx": 906,
       "timestamp": 15.1083,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000906.jpg",
-      "front_wheel_conf": 0.8276,
-      "back_wheel_conf": 0.926,
-      "front_squareness": 0.8966,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.8276,
+      "bw_conf": 0.926,
+      "fw_squareness": 0.8966,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         373,
         225,
         405,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         333,
         224,
         363,
@@ -1632,18 +1632,18 @@
       "frame_idx": 907,
       "timestamp": 15.1249,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000907.jpg",
-      "front_wheel_conf": 0.8714,
-      "back_wheel_conf": 0.9266,
-      "front_squareness": 0.931,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9081,
-      "front_wheel_box": [
+      "fw_conf": 0.8714,
+      "bw_conf": 0.9266,
+      "fw_squareness": 0.931,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9081,
+      "fw_box": [
         374,
         225,
         405,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         333,
         223,
         363,
@@ -1660,18 +1660,18 @@
       "frame_idx": 908,
       "timestamp": 15.1416,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000908.jpg",
-      "front_wheel_conf": 0.8628,
-      "back_wheel_conf": 0.9251,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9394,
-      "front_wheel_box": [
+      "fw_conf": 0.8628,
+      "bw_conf": 0.9251,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9394,
+      "fw_box": [
         374,
         225,
         405,
         255
       ],
-      "back_wheel_box": [
+      "bw_box": [
         333,
         224,
         363,
@@ -1688,18 +1688,18 @@
       "frame_idx": 909,
       "timestamp": 15.1583,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000909.jpg",
-      "front_wheel_conf": 0.8522,
-      "back_wheel_conf": 0.9086,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9091,
-      "front_wheel_box": [
+      "fw_conf": 0.8522,
+      "bw_conf": 0.9086,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9091,
+      "fw_box": [
         374,
         225,
         405,
         255
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         224,
         363,
@@ -1716,18 +1716,18 @@
       "frame_idx": 910,
       "timestamp": 15.175,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000910.jpg",
-      "front_wheel_conf": 0.9133,
-      "back_wheel_conf": 0.8859,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.9375,
-      "front_wheel_box": [
+      "fw_conf": 0.9133,
+      "bw_conf": 0.8859,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.9375,
+      "fw_box": [
         373,
         225,
         404,
         255
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         224,
         363,
@@ -1744,18 +1744,18 @@
       "frame_idx": 911,
       "timestamp": 15.1916,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000911.jpg",
-      "front_wheel_conf": 0.8558,
-      "back_wheel_conf": 0.9312,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8558,
+      "bw_conf": 0.9312,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         373,
         225,
         404,
         255
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         225,
         362,
@@ -1772,18 +1772,18 @@
       "frame_idx": 912,
       "timestamp": 15.2083,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000912.jpg",
-      "front_wheel_conf": 0.9036,
-      "back_wheel_conf": 0.9309,
-      "front_squareness": 0.9333,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.999,
-      "front_wheel_box": [
+      "fw_conf": 0.9036,
+      "bw_conf": 0.9309,
+      "fw_squareness": 0.9333,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.999,
+      "fw_box": [
         373,
         225,
         405,
         255
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         225,
         363,
@@ -1800,18 +1800,18 @@
       "frame_idx": 913,
       "timestamp": 15.225,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000913.jpg",
-      "front_wheel_conf": 0.9074,
-      "back_wheel_conf": 0.9318,
-      "front_squareness": 0.9333,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.9688,
-      "front_wheel_box": [
+      "fw_conf": 0.9074,
+      "bw_conf": 0.9318,
+      "fw_squareness": 0.9333,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.9688,
+      "fw_box": [
         373,
         225,
         405,
         255
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         226,
         363,
@@ -1828,18 +1828,18 @@
       "frame_idx": 914,
       "timestamp": 15.2417,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000914.jpg",
-      "front_wheel_conf": 0.8916,
-      "back_wheel_conf": 0.939,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.8916,
+      "bw_conf": 0.939,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         374,
         225,
         405,
         256
       ],
-      "back_wheel_box": [
+      "bw_box": [
         333,
         226,
         363,
@@ -1856,18 +1856,18 @@
       "frame_idx": 915,
       "timestamp": 15.2583,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000915.jpg",
-      "front_wheel_conf": 0.8979,
-      "back_wheel_conf": 0.9405,
-      "front_squareness": 0.931,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.8979,
+      "bw_conf": 0.9405,
+      "fw_squareness": 0.931,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         374,
         226,
         405,
         255
       ],
-      "back_wheel_box": [
+      "bw_box": [
         333,
         227,
         364,
@@ -1884,18 +1884,18 @@
       "frame_idx": 916,
       "timestamp": 15.275,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000916.jpg",
-      "front_wheel_conf": 0.8969,
-      "back_wheel_conf": 0.9398,
-      "front_squareness": 0.9333,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.999,
-      "front_wheel_box": [
+      "fw_conf": 0.8969,
+      "bw_conf": 0.9398,
+      "fw_squareness": 0.9333,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.999,
+      "fw_box": [
         374,
         225,
         406,
         255
       ],
-      "back_wheel_box": [
+      "bw_box": [
         333,
         226,
         364,
@@ -1912,18 +1912,18 @@
       "frame_idx": 917,
       "timestamp": 15.2917,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000917.jpg",
-      "front_wheel_conf": 0.8923,
-      "back_wheel_conf": 0.9415,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9365,
-      "front_wheel_box": [
+      "fw_conf": 0.8923,
+      "bw_conf": 0.9415,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9365,
+      "fw_box": [
         375,
         225,
         406,
         256
       ],
-      "back_wheel_box": [
+      "bw_box": [
         334,
         227,
         364,
@@ -1940,18 +1940,18 @@
       "frame_idx": 918,
       "timestamp": 15.3084,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000918.jpg",
-      "front_wheel_conf": 0.8981,
-      "back_wheel_conf": 0.9402,
-      "front_squareness": 0.9677,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.8981,
+      "bw_conf": 0.9402,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         376,
         225,
         406,
         256
       ],
-      "back_wheel_box": [
+      "bw_box": [
         334,
         227,
         364,
@@ -1968,18 +1968,18 @@
       "frame_idx": 919,
       "timestamp": 15.325,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000919.jpg",
-      "front_wheel_conf": 0.8984,
-      "back_wheel_conf": 0.9398,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8984,
+      "bw_conf": 0.9398,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         376,
         226,
         406,
         256
       ],
-      "back_wheel_box": [
+      "bw_box": [
         334,
         227,
         364,
@@ -1996,18 +1996,18 @@
       "frame_idx": 920,
       "timestamp": 15.3417,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000920.jpg",
-      "front_wheel_conf": 0.9002,
-      "back_wheel_conf": 0.9319,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9002,
+      "bw_conf": 0.9319,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         376,
         226,
         406,
         256
       ],
-      "back_wheel_box": [
+      "bw_box": [
         334,
         227,
         364,
@@ -2024,18 +2024,18 @@
       "frame_idx": 921,
       "timestamp": 15.3584,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000921.jpg",
-      "front_wheel_conf": 0.8971,
-      "back_wheel_conf": 0.9303,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8971,
+      "bw_conf": 0.9303,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         376,
         226,
         406,
         256
       ],
-      "back_wheel_box": [
+      "bw_box": [
         334,
         227,
         364,
@@ -2052,18 +2052,18 @@
       "frame_idx": 922,
       "timestamp": 15.3751,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000922.jpg",
-      "front_wheel_conf": 0.8885,
-      "back_wheel_conf": 0.9313,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8885,
+      "bw_conf": 0.9313,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         376,
         226,
         406,
         256
       ],
-      "back_wheel_box": [
+      "bw_box": [
         334,
         227,
         364,
@@ -2080,18 +2080,18 @@
       "frame_idx": 923,
       "timestamp": 15.3917,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000923.jpg",
-      "front_wheel_conf": 0.8866,
-      "back_wheel_conf": 0.9347,
-      "front_squareness": 0.9655,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.8866,
+      "bw_conf": 0.9347,
+      "fw_squareness": 0.9655,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         376,
         227,
         406,
         256
       ],
-      "back_wheel_box": [
+      "bw_box": [
         334,
         227,
         364,
@@ -2108,18 +2108,18 @@
       "frame_idx": 924,
       "timestamp": 15.4084,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000924.jpg",
-      "front_wheel_conf": 0.879,
-      "back_wheel_conf": 0.9353,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 0.9355,
-      "front_wheel_box": [
+      "fw_conf": 0.879,
+      "bw_conf": 0.9353,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 0.9355,
+      "fw_box": [
         377,
         227,
         406,
         257
       ],
-      "back_wheel_box": [
+      "bw_box": [
         334,
         227,
         364,
@@ -2136,18 +2136,18 @@
       "frame_idx": 925,
       "timestamp": 15.4251,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000925.jpg",
-      "front_wheel_conf": 0.8929,
-      "back_wheel_conf": 0.9402,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9365,
-      "front_wheel_box": [
+      "fw_conf": 0.8929,
+      "bw_conf": 0.9402,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9365,
+      "fw_box": [
         376,
         227,
         406,
         257
       ],
-      "back_wheel_box": [
+      "bw_box": [
         333,
         227,
         364,
@@ -2164,18 +2164,18 @@
       "frame_idx": 926,
       "timestamp": 15.4418,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000926.jpg",
-      "front_wheel_conf": 0.9059,
-      "back_wheel_conf": 0.9383,
-      "front_squareness": 0.9667,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.9059,
+      "bw_conf": 0.9383,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         375,
         227,
         406,
         257
       ],
-      "back_wheel_box": [
+      "bw_box": [
         333,
         227,
         364,
@@ -2192,18 +2192,18 @@
       "frame_idx": 927,
       "timestamp": 15.4585,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000927.jpg",
-      "front_wheel_conf": 0.9022,
-      "back_wheel_conf": 0.9322,
-      "front_squareness": 0.9677,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.9022,
+      "bw_conf": 0.9322,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         375,
         227,
         405,
         258
       ],
-      "back_wheel_box": [
+      "bw_box": [
         333,
         228,
         363,
@@ -2220,18 +2220,18 @@
       "frame_idx": 928,
       "timestamp": 15.4751,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000928.jpg",
-      "front_wheel_conf": 0.8967,
-      "back_wheel_conf": 0.9299,
-      "front_squareness": 0.9677,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.8967,
+      "bw_conf": 0.9299,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         375,
         227,
         405,
         258
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         228,
         363,
@@ -2248,18 +2248,18 @@
       "frame_idx": 929,
       "timestamp": 15.4918,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000929.jpg",
-      "front_wheel_conf": 0.9006,
-      "back_wheel_conf": 0.9265,
-      "front_squareness": 0.9677,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.9006,
+      "bw_conf": 0.9265,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         375,
         227,
         405,
         258
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         228,
         363,
@@ -2276,18 +2276,18 @@
       "frame_idx": 930,
       "timestamp": 15.5085,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000930.jpg",
-      "front_wheel_conf": 0.9004,
-      "back_wheel_conf": 0.9232,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.877,
-      "front_wheel_box": [
+      "fw_conf": 0.9004,
+      "bw_conf": 0.9232,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.877,
+      "fw_box": [
         375,
         228,
         404,
         258
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         228,
         363,
@@ -2304,18 +2304,18 @@
       "frame_idx": 931,
       "timestamp": 15.5252,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000931.jpg",
-      "front_wheel_conf": 0.9023,
-      "back_wheel_conf": 0.9148,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9688,
-      "front_wheel_box": [
+      "fw_conf": 0.9023,
+      "bw_conf": 0.9148,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9688,
+      "fw_box": [
         374,
         228,
         404,
         259
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         228,
         362,
@@ -2332,18 +2332,18 @@
       "frame_idx": 932,
       "timestamp": 15.5418,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000932.jpg",
-      "front_wheel_conf": 0.9022,
-      "back_wheel_conf": 0.9117,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.9022,
+      "bw_conf": 0.9117,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         374,
         228,
         404,
         260
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         228,
         363,
@@ -2360,18 +2360,18 @@
       "frame_idx": 933,
       "timestamp": 15.5585,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000933.jpg",
-      "front_wheel_conf": 0.9036,
-      "back_wheel_conf": 0.9128,
-      "front_squareness": 0.9062,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9062,
-      "front_wheel_box": [
+      "fw_conf": 0.9036,
+      "bw_conf": 0.9128,
+      "fw_squareness": 0.9062,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9062,
+      "fw_box": [
         374,
         228,
         403,
         260
       ],
-      "back_wheel_box": [
+      "bw_box": [
         331,
         228,
         363,
@@ -2388,18 +2388,18 @@
       "frame_idx": 934,
       "timestamp": 15.5752,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000934.jpg",
-      "front_wheel_conf": 0.9019,
-      "back_wheel_conf": 0.91,
-      "front_squareness": 0.9062,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9062,
-      "front_wheel_box": [
+      "fw_conf": 0.9019,
+      "bw_conf": 0.91,
+      "fw_squareness": 0.9062,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9062,
+      "fw_box": [
         374,
         228,
         403,
         260
       ],
-      "back_wheel_box": [
+      "bw_box": [
         331,
         228,
         363,
@@ -2416,18 +2416,18 @@
       "frame_idx": 935,
       "timestamp": 15.5919,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000935.jpg",
-      "front_wheel_conf": 0.9006,
-      "back_wheel_conf": 0.9093,
-      "front_squareness": 0.9062,
-      "back_squareness": 0.9697,
-      "size_match_ratio": 0.8788,
-      "front_wheel_box": [
+      "fw_conf": 0.9006,
+      "bw_conf": 0.9093,
+      "fw_squareness": 0.9062,
+      "bw_squareness": 0.9697,
+      "wheel_size_ratio": 0.8788,
+      "fw_box": [
         374,
         228,
         403,
         260
       ],
-      "back_wheel_box": [
+      "bw_box": [
         331,
         228,
         363,
@@ -2444,18 +2444,18 @@
       "frame_idx": 936,
       "timestamp": 15.6085,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000936.jpg",
-      "front_wheel_conf": 0.9021,
-      "back_wheel_conf": 0.9134,
-      "front_squareness": 0.9062,
-      "back_squareness": 0.9697,
-      "size_match_ratio": 0.8788,
-      "front_wheel_box": [
+      "fw_conf": 0.9021,
+      "bw_conf": 0.9134,
+      "fw_squareness": 0.9062,
+      "bw_squareness": 0.9697,
+      "wheel_size_ratio": 0.8788,
+      "fw_box": [
         374,
         228,
         403,
         260
       ],
-      "back_wheel_box": [
+      "bw_box": [
         331,
         228,
         363,
@@ -2472,18 +2472,18 @@
       "frame_idx": 937,
       "timestamp": 15.6252,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000937.jpg",
-      "front_wheel_conf": 0.9045,
-      "back_wheel_conf": 0.9169,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.9697,
-      "size_match_ratio": 0.8513,
-      "front_wheel_box": [
+      "fw_conf": 0.9045,
+      "bw_conf": 0.9169,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.9697,
+      "wheel_size_ratio": 0.8513,
+      "fw_box": [
         374,
         229,
         403,
         260
       ],
-      "back_wheel_box": [
+      "bw_box": [
         331,
         228,
         363,
@@ -2500,18 +2500,18 @@
       "frame_idx": 938,
       "timestamp": 15.6419,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000938.jpg",
-      "front_wheel_conf": 0.9063,
-      "back_wheel_conf": 0.9203,
-      "front_squareness": 0.9062,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.9355,
-      "front_wheel_box": [
+      "fw_conf": 0.9063,
+      "bw_conf": 0.9203,
+      "fw_squareness": 0.9062,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.9355,
+      "fw_box": [
         374,
         229,
         403,
         261
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         229,
         363,
@@ -2528,18 +2528,18 @@
       "frame_idx": 939,
       "timestamp": 15.6586,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000939.jpg",
-      "front_wheel_conf": 0.9044,
-      "back_wheel_conf": 0.9197,
-      "front_squareness": 0.9062,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.9355,
-      "front_wheel_box": [
+      "fw_conf": 0.9044,
+      "bw_conf": 0.9197,
+      "fw_squareness": 0.9062,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.9355,
+      "fw_box": [
         374,
         229,
         403,
         261
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         229,
         363,
@@ -2556,18 +2556,18 @@
       "frame_idx": 940,
       "timestamp": 15.6752,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000940.jpg",
-      "front_wheel_conf": 0.9035,
-      "back_wheel_conf": 0.9195,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.9035,
+      "bw_conf": 0.9195,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         373,
         229,
         403,
         261
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         229,
         363,
@@ -2584,18 +2584,18 @@
       "frame_idx": 941,
       "timestamp": 15.6919,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000941.jpg",
-      "front_wheel_conf": 0.9002,
-      "back_wheel_conf": 0.9169,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9384,
-      "front_wheel_box": [
+      "fw_conf": 0.9002,
+      "bw_conf": 0.9169,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9384,
+      "fw_box": [
         373,
         229,
         403,
         261
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         228,
         363,
@@ -2612,18 +2612,18 @@
       "frame_idx": 942,
       "timestamp": 15.7086,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000942.jpg",
-      "front_wheel_conf": 0.904,
-      "back_wheel_conf": 0.9191,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9384,
-      "front_wheel_box": [
+      "fw_conf": 0.904,
+      "bw_conf": 0.9191,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9384,
+      "fw_box": [
         373,
         229,
         403,
         261
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         228,
         363,
@@ -2640,18 +2640,18 @@
       "frame_idx": 943,
       "timestamp": 15.7253,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000943.jpg",
-      "front_wheel_conf": 0.9107,
-      "back_wheel_conf": 0.9277,
-      "front_squareness": 0.9062,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9071,
-      "front_wheel_box": [
+      "fw_conf": 0.9107,
+      "bw_conf": 0.9277,
+      "fw_squareness": 0.9062,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9071,
+      "fw_box": [
         374,
         229,
         403,
         261
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         228,
         363,
@@ -2668,18 +2668,18 @@
       "frame_idx": 944,
       "timestamp": 15.7419,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000944.jpg",
-      "front_wheel_conf": 0.9104,
-      "back_wheel_conf": 0.9291,
-      "front_squareness": 0.9062,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.9355,
-      "front_wheel_box": [
+      "fw_conf": 0.9104,
+      "bw_conf": 0.9291,
+      "fw_squareness": 0.9062,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.9355,
+      "fw_box": [
         374,
         229,
         403,
         261
       ],
-      "back_wheel_box": [
+      "bw_box": [
         332,
         229,
         363,
@@ -2696,18 +2696,18 @@
       "frame_idx": 945,
       "timestamp": 15.7586,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000945.jpg",
-      "front_wheel_conf": 0.9017,
-      "back_wheel_conf": 0.9209,
-      "front_squareness": 0.8788,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9969,
-      "front_wheel_box": [
+      "fw_conf": 0.9017,
+      "bw_conf": 0.9209,
+      "fw_squareness": 0.8788,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9969,
+      "fw_box": [
         374,
         229,
         403,
         262
       ],
-      "back_wheel_box": [
+      "bw_box": [
         333,
         229,
         363,
@@ -2724,18 +2724,18 @@
       "frame_idx": 946,
       "timestamp": 15.7753,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000946.jpg",
-      "front_wheel_conf": 0.896,
-      "back_wheel_conf": 0.9177,
-      "front_squareness": 0.9091,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.896,
+      "bw_conf": 0.9177,
+      "fw_squareness": 0.9091,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         374,
         229,
         404,
         262
       ],
-      "back_wheel_box": [
+      "bw_box": [
         333,
         229,
         363,
@@ -2752,18 +2752,18 @@
       "frame_idx": 947,
       "timestamp": 15.792,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000947.jpg",
-      "front_wheel_conf": 0.8962,
-      "back_wheel_conf": 0.9187,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9697,
-      "front_wheel_box": [
+      "fw_conf": 0.8962,
+      "bw_conf": 0.9187,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9697,
+      "fw_box": [
         374,
         230,
         404,
         262
       ],
-      "back_wheel_box": [
+      "bw_box": [
         333,
         229,
         363,
@@ -2780,18 +2780,18 @@
       "frame_idx": 948,
       "timestamp": 15.8086,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000948.jpg",
-      "front_wheel_conf": 0.8939,
-      "back_wheel_conf": 0.9214,
-      "front_squareness": 0.9062,
-      "back_squareness": 0.8788,
-      "size_match_ratio": 0.9697,
-      "front_wheel_box": [
+      "fw_conf": 0.8939,
+      "bw_conf": 0.9214,
+      "fw_squareness": 0.9062,
+      "bw_squareness": 0.8788,
+      "wheel_size_ratio": 0.9697,
+      "fw_box": [
         375,
         230,
         404,
         262
       ],
-      "back_wheel_box": [
+      "bw_box": [
         334,
         229,
         363,
@@ -2808,18 +2808,18 @@
       "frame_idx": 949,
       "timestamp": 15.8253,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000949.jpg",
-      "front_wheel_conf": 0.9014,
-      "back_wheel_conf": 0.9264,
-      "front_squareness": 0.9062,
-      "back_squareness": 0.8788,
-      "size_match_ratio": 0.9697,
-      "front_wheel_box": [
+      "fw_conf": 0.9014,
+      "bw_conf": 0.9264,
+      "fw_squareness": 0.9062,
+      "bw_squareness": 0.8788,
+      "wheel_size_ratio": 0.9697,
+      "fw_box": [
         375,
         230,
         404,
         262
       ],
-      "back_wheel_box": [
+      "bw_box": [
         334,
         229,
         363,
@@ -2836,18 +2836,18 @@
       "frame_idx": 950,
       "timestamp": 15.842,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000950.jpg",
-      "front_wheel_conf": 0.9069,
-      "back_wheel_conf": 0.9293,
-      "front_squareness": 0.9062,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9374,
-      "front_wheel_box": [
+      "fw_conf": 0.9069,
+      "bw_conf": 0.9293,
+      "fw_squareness": 0.9062,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9374,
+      "fw_box": [
         375,
         230,
         404,
         262
       ],
-      "back_wheel_box": [
+      "bw_box": [
         334,
         229,
         364,
@@ -2864,18 +2864,18 @@
       "frame_idx": 951,
       "timestamp": 15.8587,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000951.jpg",
-      "front_wheel_conf": 0.9085,
-      "back_wheel_conf": 0.9288,
-      "front_squareness": 0.9091,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9085,
+      "bw_conf": 0.9288,
+      "fw_squareness": 0.9091,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         375,
         229,
         405,
         262
       ],
-      "back_wheel_box": [
+      "bw_box": [
         334,
         229,
         364,
@@ -2892,18 +2892,18 @@
       "frame_idx": 952,
       "timestamp": 15.8753,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000952.jpg",
-      "front_wheel_conf": 0.9056,
-      "back_wheel_conf": 0.9313,
-      "front_squareness": 0.9091,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9056,
+      "bw_conf": 0.9313,
+      "fw_squareness": 0.9091,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         375,
         229,
         405,
         262
       ],
-      "back_wheel_box": [
+      "bw_box": [
         334,
         229,
         364,
@@ -2920,18 +2920,18 @@
       "frame_idx": 953,
       "timestamp": 15.892,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000953.jpg",
-      "front_wheel_conf": 0.8988,
-      "back_wheel_conf": 0.9267,
-      "front_squareness": 0.8824,
-      "back_squareness": 0.8788,
-      "size_match_ratio": 0.9382,
-      "front_wheel_box": [
+      "fw_conf": 0.8988,
+      "bw_conf": 0.9267,
+      "fw_squareness": 0.8824,
+      "bw_squareness": 0.8788,
+      "wheel_size_ratio": 0.9382,
+      "fw_box": [
         375,
         229,
         405,
         263
       ],
-      "back_wheel_box": [
+      "bw_box": [
         335,
         229,
         364,
@@ -2948,18 +2948,18 @@
       "frame_idx": 954,
       "timestamp": 15.9087,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000954.jpg",
-      "front_wheel_conf": 0.8972,
-      "back_wheel_conf": 0.924,
-      "front_squareness": 0.8824,
-      "back_squareness": 0.8529,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.8972,
+      "bw_conf": 0.924,
+      "fw_squareness": 0.8824,
+      "bw_squareness": 0.8529,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         375,
         229,
         405,
         263
       ],
-      "back_wheel_box": [
+      "bw_box": [
         335,
         229,
         364,
@@ -2976,18 +2976,18 @@
       "frame_idx": 955,
       "timestamp": 15.9254,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000955.jpg",
-      "front_wheel_conf": 0.9002,
-      "back_wheel_conf": 0.9251,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.9002,
+      "bw_conf": 0.9251,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         374,
         230,
         405,
         263
       ],
-      "back_wheel_box": [
+      "bw_box": [
         335,
         230,
         365,
@@ -3004,18 +3004,18 @@
       "frame_idx": 956,
       "timestamp": 15.942,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000956.jpg",
-      "front_wheel_conf": 0.8965,
-      "back_wheel_conf": 0.9221,
-      "front_squareness": 0.9091,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8965,
+      "bw_conf": 0.9221,
+      "fw_squareness": 0.9091,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         375,
         230,
         405,
         263
       ],
-      "back_wheel_box": [
+      "bw_box": [
         335,
         230,
         365,
@@ -3032,18 +3032,18 @@
       "frame_idx": 957,
       "timestamp": 15.9587,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000957.jpg",
-      "front_wheel_conf": 0.8946,
-      "back_wheel_conf": 0.9146,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.9697,
-      "front_wheel_box": [
+      "fw_conf": 0.8946,
+      "bw_conf": 0.9146,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.9697,
+      "fw_box": [
         375,
         230,
         406,
         263
       ],
-      "back_wheel_box": [
+      "bw_box": [
         335,
         230,
         366,
@@ -3060,18 +3060,18 @@
       "frame_idx": 958,
       "timestamp": 15.9754,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000958.jpg",
-      "front_wheel_conf": 0.8957,
-      "back_wheel_conf": 0.9102,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.8957,
+      "bw_conf": 0.9102,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         375,
         230,
         406,
         263
       ],
-      "back_wheel_box": [
+      "bw_box": [
         335,
         230,
         365,
@@ -3088,18 +3088,18 @@
       "frame_idx": 959,
       "timestamp": 15.9921,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000959.jpg",
-      "front_wheel_conf": 0.8973,
-      "back_wheel_conf": 0.9149,
-      "front_squareness": 0.9394,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.9697,
-      "front_wheel_box": [
+      "fw_conf": 0.8973,
+      "bw_conf": 0.9149,
+      "fw_squareness": 0.9394,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.9697,
+      "fw_box": [
         375,
         230,
         406,
         263
       ],
-      "back_wheel_box": [
+      "bw_box": [
         335,
         230,
         366,
@@ -3116,18 +3116,18 @@
       "frame_idx": 960,
       "timestamp": 16.0088,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000960.jpg",
-      "front_wheel_conf": 0.9001,
-      "back_wheel_conf": 0.9163,
-      "front_squareness": 0.9118,
-      "back_squareness": 0.9118,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9001,
+      "bw_conf": 0.9163,
+      "fw_squareness": 0.9118,
+      "bw_squareness": 0.9118,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         375,
         230,
         406,
         264
       ],
-      "back_wheel_box": [
+      "bw_box": [
         335,
         229,
         366,
@@ -3144,18 +3144,18 @@
       "frame_idx": 961,
       "timestamp": 16.0254,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000961.jpg",
-      "front_wheel_conf": 0.8945,
-      "back_wheel_conf": 0.9208,
-      "front_squareness": 0.9091,
-      "back_squareness": 0.9412,
-      "size_match_ratio": 0.9099,
-      "front_wheel_box": [
+      "fw_conf": 0.8945,
+      "bw_conf": 0.9208,
+      "fw_squareness": 0.9091,
+      "bw_squareness": 0.9412,
+      "wheel_size_ratio": 0.9099,
+      "fw_box": [
         376,
         231,
         406,
         264
       ],
-      "back_wheel_box": [
+      "bw_box": [
         335,
         229,
         367,
@@ -3172,18 +3172,18 @@
       "frame_idx": 962,
       "timestamp": 16.0421,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000962.jpg",
-      "front_wheel_conf": 0.8843,
-      "back_wheel_conf": 0.9186,
-      "front_squareness": 0.9091,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.8843,
+      "bw_conf": 0.9186,
+      "fw_squareness": 0.9091,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         377,
         231,
         407,
         264
       ],
-      "back_wheel_box": [
+      "bw_box": [
         336,
         230,
         367,
@@ -3200,18 +3200,18 @@
       "frame_idx": 963,
       "timestamp": 16.0588,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000963.jpg",
-      "front_wheel_conf": 0.8937,
-      "back_wheel_conf": 0.9241,
-      "front_squareness": 0.9091,
-      "back_squareness": 0.9118,
-      "size_match_ratio": 0.9393,
-      "front_wheel_box": [
+      "fw_conf": 0.8937,
+      "bw_conf": 0.9241,
+      "fw_squareness": 0.9091,
+      "bw_squareness": 0.9118,
+      "wheel_size_ratio": 0.9393,
+      "fw_box": [
         377,
         231,
         407,
         264
       ],
-      "back_wheel_box": [
+      "bw_box": [
         336,
         229,
         367,
@@ -3228,18 +3228,18 @@
       "frame_idx": 964,
       "timestamp": 16.0755,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000964.jpg",
-      "front_wheel_conf": 0.8992,
-      "back_wheel_conf": 0.9262,
-      "front_squareness": 0.9091,
-      "back_squareness": 0.9143,
-      "size_match_ratio": 0.8839,
-      "front_wheel_box": [
+      "fw_conf": 0.8992,
+      "bw_conf": 0.9262,
+      "fw_squareness": 0.9091,
+      "bw_squareness": 0.9143,
+      "wheel_size_ratio": 0.8839,
+      "fw_box": [
         377,
         231,
         407,
         264
       ],
-      "back_wheel_box": [
+      "bw_box": [
         336,
         229,
         368,
@@ -3256,18 +3256,18 @@
       "frame_idx": 965,
       "timestamp": 16.0921,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000965.jpg",
-      "front_wheel_conf": 0.897,
-      "back_wheel_conf": 0.9329,
-      "front_squareness": 0.8788,
-      "back_squareness": 0.8857,
-      "size_match_ratio": 0.882,
-      "front_wheel_box": [
+      "fw_conf": 0.897,
+      "bw_conf": 0.9329,
+      "fw_squareness": 0.8788,
+      "bw_squareness": 0.8857,
+      "wheel_size_ratio": 0.882,
+      "fw_box": [
         378,
         231,
         407,
         264
       ],
-      "back_wheel_box": [
+      "bw_box": [
         336,
         229,
         367,
@@ -3284,18 +3284,18 @@
       "frame_idx": 966,
       "timestamp": 16.1088,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000966.jpg",
-      "front_wheel_conf": 0.8903,
-      "back_wheel_conf": 0.9314,
-      "front_squareness": 0.8529,
-      "back_squareness": 0.9143,
-      "size_match_ratio": 0.8804,
-      "front_wheel_box": [
+      "fw_conf": 0.8903,
+      "bw_conf": 0.9314,
+      "fw_squareness": 0.8529,
+      "bw_squareness": 0.9143,
+      "wheel_size_ratio": 0.8804,
+      "fw_box": [
         378,
         231,
         407,
         265
       ],
-      "back_wheel_box": [
+      "bw_box": [
         336,
         229,
         368,
@@ -3312,18 +3312,18 @@
       "frame_idx": 967,
       "timestamp": 16.1255,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000967.jpg",
-      "front_wheel_conf": 0.8729,
-      "back_wheel_conf": 0.9201,
-      "front_squareness": 0.8529,
-      "back_squareness": 0.9118,
-      "size_match_ratio": 0.9355,
-      "front_wheel_box": [
+      "fw_conf": 0.8729,
+      "bw_conf": 0.9201,
+      "fw_squareness": 0.8529,
+      "bw_squareness": 0.9118,
+      "wheel_size_ratio": 0.9355,
+      "fw_box": [
         378,
         231,
         407,
         265
       ],
-      "back_wheel_box": [
+      "bw_box": [
         337,
         230,
         368,
@@ -3340,18 +3340,18 @@
       "frame_idx": 968,
       "timestamp": 16.1422,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000968.jpg",
-      "front_wheel_conf": 0.8708,
-      "back_wheel_conf": 0.9235,
-      "front_squareness": 0.8529,
-      "back_squareness": 0.9118,
-      "size_match_ratio": 0.9355,
-      "front_wheel_box": [
+      "fw_conf": 0.8708,
+      "bw_conf": 0.9235,
+      "fw_squareness": 0.8529,
+      "bw_squareness": 0.9118,
+      "wheel_size_ratio": 0.9355,
+      "fw_box": [
         378,
         231,
         407,
         265
       ],
-      "back_wheel_box": [
+      "bw_box": [
         337,
         230,
         368,
@@ -3368,18 +3368,18 @@
       "frame_idx": 969,
       "timestamp": 16.1588,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000969.jpg",
-      "front_wheel_conf": 0.864,
-      "back_wheel_conf": 0.9201,
-      "front_squareness": 0.8529,
-      "back_squareness": 0.8824,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.864,
+      "bw_conf": 0.9201,
+      "fw_squareness": 0.8529,
+      "bw_squareness": 0.8824,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         378,
         231,
         407,
         265
       ],
-      "back_wheel_box": [
+      "bw_box": [
         337,
         230,
         367,
@@ -3396,18 +3396,18 @@
       "frame_idx": 970,
       "timestamp": 16.1755,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000970.jpg",
-      "front_wheel_conf": 0.8646,
-      "back_wheel_conf": 0.9215,
-      "front_squareness": 0.8824,
-      "back_squareness": 0.8824,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8646,
+      "bw_conf": 0.9215,
+      "fw_squareness": 0.8824,
+      "bw_squareness": 0.8824,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         377,
         231,
         407,
         265
       ],
-      "back_wheel_box": [
+      "bw_box": [
         337,
         230,
         367,
@@ -3424,18 +3424,18 @@
       "frame_idx": 971,
       "timestamp": 16.1922,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000971.jpg",
-      "front_wheel_conf": 0.867,
-      "back_wheel_conf": 0.9222,
-      "front_squareness": 0.8824,
-      "back_squareness": 0.9118,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.867,
+      "bw_conf": 0.9222,
+      "fw_squareness": 0.8824,
+      "bw_squareness": 0.9118,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         377,
         231,
         407,
         265
       ],
-      "back_wheel_box": [
+      "bw_box": [
         336,
         230,
         367,
@@ -3452,18 +3452,18 @@
       "frame_idx": 972,
       "timestamp": 16.2089,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000972.jpg",
-      "front_wheel_conf": 0.867,
-      "back_wheel_conf": 0.9223,
-      "front_squareness": 0.8824,
-      "back_squareness": 0.9118,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.867,
+      "bw_conf": 0.9223,
+      "fw_squareness": 0.8824,
+      "bw_squareness": 0.9118,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         377,
         231,
         407,
         265
       ],
-      "back_wheel_box": [
+      "bw_box": [
         336,
         230,
         367,
@@ -3480,18 +3480,18 @@
       "frame_idx": 973,
       "timestamp": 16.2255,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000973.jpg",
-      "front_wheel_conf": 0.8769,
-      "back_wheel_conf": 0.9232,
-      "front_squareness": 0.8824,
-      "back_squareness": 0.9118,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.8769,
+      "bw_conf": 0.9232,
+      "fw_squareness": 0.8824,
+      "bw_squareness": 0.9118,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         377,
         231,
         407,
         265
       ],
-      "back_wheel_box": [
+      "bw_box": [
         336,
         230,
         367,
@@ -3508,18 +3508,18 @@
       "frame_idx": 974,
       "timestamp": 16.2422,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000974.jpg",
-      "front_wheel_conf": 0.8772,
-      "back_wheel_conf": 0.9204,
-      "front_squareness": 0.8824,
-      "back_squareness": 0.8824,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8772,
+      "bw_conf": 0.9204,
+      "fw_squareness": 0.8824,
+      "bw_squareness": 0.8824,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         377,
         231,
         407,
         265
       ],
-      "back_wheel_box": [
+      "bw_box": [
         336,
         230,
         366,
@@ -3536,18 +3536,18 @@
       "frame_idx": 975,
       "timestamp": 16.2589,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000975.jpg",
-      "front_wheel_conf": 0.8854,
-      "back_wheel_conf": 0.9262,
-      "front_squareness": 0.8571,
-      "back_squareness": 0.8571,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8854,
+      "bw_conf": 0.9262,
+      "fw_squareness": 0.8571,
+      "bw_squareness": 0.8571,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         377,
         231,
         407,
         266
       ],
-      "back_wheel_box": [
+      "bw_box": [
         336,
         230,
         366,
@@ -3564,18 +3564,18 @@
       "frame_idx": 976,
       "timestamp": 16.2756,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000976.jpg",
-      "front_wheel_conf": 0.8753,
-      "back_wheel_conf": 0.9117,
-      "front_squareness": 0.8571,
-      "back_squareness": 0.8571,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8753,
+      "bw_conf": 0.9117,
+      "fw_squareness": 0.8571,
+      "bw_squareness": 0.8571,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         377,
         231,
         407,
         266
       ],
-      "back_wheel_box": [
+      "bw_box": [
         336,
         230,
         366,
@@ -3592,18 +3592,18 @@
       "frame_idx": 977,
       "timestamp": 16.2922,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_000977.jpg",
-      "front_wheel_conf": 0.8743,
-      "back_wheel_conf": 0.9161,
-      "front_squareness": 0.8571,
-      "back_squareness": 0.8571,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8743,
+      "bw_conf": 0.9161,
+      "fw_squareness": 0.8571,
+      "bw_squareness": 0.8571,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         377,
         231,
         407,
         266
       ],
-      "back_wheel_box": [
+      "bw_box": [
         336,
         230,
         366,
@@ -3620,18 +3620,18 @@
       "frame_idx": 1039,
       "timestamp": 17.3261,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001039.jpg",
-      "front_wheel_conf": 0.9028,
-      "back_wheel_conf": 0.9069,
-      "front_squareness": 0.9487,
-      "back_squareness": 0.8718,
-      "size_match_ratio": 0.9189,
-      "front_wheel_box": [
+      "fw_conf": 0.9028,
+      "bw_conf": 0.9069,
+      "fw_squareness": 0.9487,
+      "bw_squareness": 0.8718,
+      "wheel_size_ratio": 0.9189,
+      "fw_box": [
         386,
         237,
         423,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         340,
         234,
         374,
@@ -3648,18 +3648,18 @@
       "frame_idx": 1040,
       "timestamp": 17.3428,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001040.jpg",
-      "front_wheel_conf": 0.9033,
-      "back_wheel_conf": 0.9114,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.8974,
-      "size_match_ratio": 0.9211,
-      "front_wheel_box": [
+      "fw_conf": 0.9033,
+      "bw_conf": 0.9114,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.8974,
+      "wheel_size_ratio": 0.9211,
+      "fw_box": [
         386,
         237,
         424,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         340,
         234,
         375,
@@ -3676,18 +3676,18 @@
       "frame_idx": 1041,
       "timestamp": 17.3595,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001041.jpg",
-      "front_wheel_conf": 0.91,
-      "back_wheel_conf": 0.9138,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.8718,
-      "size_match_ratio": 0.8947,
-      "front_wheel_box": [
+      "fw_conf": 0.91,
+      "bw_conf": 0.9138,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.8718,
+      "wheel_size_ratio": 0.8947,
+      "fw_box": [
         386,
         237,
         424,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         340,
         235,
         374,
@@ -3704,18 +3704,18 @@
       "frame_idx": 1042,
       "timestamp": 17.3762,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001042.jpg",
-      "front_wheel_conf": 0.9146,
-      "back_wheel_conf": 0.9169,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.8974,
-      "size_match_ratio": 0.9211,
-      "front_wheel_box": [
+      "fw_conf": 0.9146,
+      "bw_conf": 0.9169,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.8974,
+      "wheel_size_ratio": 0.9211,
+      "fw_box": [
         387,
         238,
         425,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         340,
         235,
         375,
@@ -3732,18 +3732,18 @@
       "frame_idx": 1043,
       "timestamp": 17.3928,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001043.jpg",
-      "front_wheel_conf": 0.9212,
-      "back_wheel_conf": 0.9202,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.9211,
-      "size_match_ratio": 0.8974,
-      "front_wheel_box": [
+      "fw_conf": 0.9212,
+      "bw_conf": 0.9202,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.9211,
+      "wheel_size_ratio": 0.8974,
+      "fw_box": [
         387,
         238,
         425,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         340,
         236,
         375,
@@ -3760,18 +3760,18 @@
       "frame_idx": 1044,
       "timestamp": 17.4095,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001044.jpg",
-      "front_wheel_conf": 0.9239,
-      "back_wheel_conf": 0.921,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.8974,
-      "size_match_ratio": 0.9211,
-      "front_wheel_box": [
+      "fw_conf": 0.9239,
+      "bw_conf": 0.921,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.8974,
+      "wheel_size_ratio": 0.9211,
+      "fw_box": [
         387,
         238,
         425,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         340,
         235,
         375,
@@ -3788,18 +3788,18 @@
       "frame_idx": 1045,
       "timestamp": 17.4262,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001045.jpg",
-      "front_wheel_conf": 0.9231,
-      "back_wheel_conf": 0.9222,
-      "front_squareness": 0.9487,
-      "back_squareness": 0.8947,
-      "size_match_ratio": 0.8954,
-      "front_wheel_box": [
+      "fw_conf": 0.9231,
+      "bw_conf": 0.9222,
+      "fw_squareness": 0.9487,
+      "bw_squareness": 0.8947,
+      "wheel_size_ratio": 0.8954,
+      "fw_box": [
         388,
         238,
         425,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         340,
         236,
         374,
@@ -3816,18 +3816,18 @@
       "frame_idx": 1046,
       "timestamp": 17.4429,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001046.jpg",
-      "front_wheel_conf": 0.9212,
-      "back_wheel_conf": 0.921,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9211,
-      "size_match_ratio": 0.8744,
-      "front_wheel_box": [
+      "fw_conf": 0.9212,
+      "bw_conf": 0.921,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9211,
+      "wheel_size_ratio": 0.8744,
+      "fw_box": [
         387,
         238,
         426,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         340,
         236,
         375,
@@ -3844,18 +3844,18 @@
       "frame_idx": 1047,
       "timestamp": 17.4595,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001047.jpg",
-      "front_wheel_conf": 0.915,
-      "back_wheel_conf": 0.9218,
-      "front_squareness": 1.0,
-      "back_squareness": 0.8947,
-      "size_match_ratio": 0.8494,
-      "front_wheel_box": [
+      "fw_conf": 0.915,
+      "bw_conf": 0.9218,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.8947,
+      "wheel_size_ratio": 0.8494,
+      "fw_box": [
         388,
         238,
         427,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         341,
         237,
         375,
@@ -3872,18 +3872,18 @@
       "frame_idx": 1048,
       "timestamp": 17.4762,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001048.jpg",
-      "front_wheel_conf": 0.9119,
-      "back_wheel_conf": 0.9244,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9211,
-      "size_match_ratio": 0.8744,
-      "front_wheel_box": [
+      "fw_conf": 0.9119,
+      "bw_conf": 0.9244,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9211,
+      "wheel_size_ratio": 0.8744,
+      "fw_box": [
         389,
         238,
         428,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         341,
         237,
         376,
@@ -3900,18 +3900,18 @@
       "frame_idx": 1049,
       "timestamp": 17.4929,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001049.jpg",
-      "front_wheel_conf": 0.9103,
-      "back_wheel_conf": 0.9205,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.9211,
-      "size_match_ratio": 0.8526,
-      "front_wheel_box": [
+      "fw_conf": 0.9103,
+      "bw_conf": 0.9205,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.9211,
+      "wheel_size_ratio": 0.8526,
+      "fw_box": [
         389,
         238,
         429,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         341,
         237,
         376,
@@ -3928,18 +3928,18 @@
       "frame_idx": 1050,
       "timestamp": 17.5096,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001050.jpg",
-      "front_wheel_conf": 0.9054,
-      "back_wheel_conf": 0.9237,
-      "front_squareness": 0.975,
-      "back_squareness": 0.9474,
-      "size_match_ratio": 0.8769,
-      "front_wheel_box": [
+      "fw_conf": 0.9054,
+      "bw_conf": 0.9237,
+      "fw_squareness": 0.975,
+      "bw_squareness": 0.9474,
+      "wheel_size_ratio": 0.8769,
+      "fw_box": [
         390,
         238,
         429,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         341,
         237,
         377,
@@ -3956,18 +3956,18 @@
       "frame_idx": 1051,
       "timestamp": 17.5262,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001051.jpg",
-      "front_wheel_conf": 0.8998,
-      "back_wheel_conf": 0.9226,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9474,
-      "size_match_ratio": 0.8994,
-      "front_wheel_box": [
+      "fw_conf": 0.8998,
+      "bw_conf": 0.9226,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9474,
+      "wheel_size_ratio": 0.8994,
+      "fw_box": [
         391,
         238,
         430,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         342,
         237,
         378,
@@ -3984,18 +3984,18 @@
       "frame_idx": 1052,
       "timestamp": 17.5429,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001052.jpg",
-      "front_wheel_conf": 0.9001,
-      "back_wheel_conf": 0.9222,
-      "front_squareness": 0.975,
-      "back_squareness": 0.9211,
-      "size_match_ratio": 0.8526,
-      "front_wheel_box": [
+      "fw_conf": 0.9001,
+      "bw_conf": 0.9222,
+      "fw_squareness": 0.975,
+      "bw_squareness": 0.9211,
+      "wheel_size_ratio": 0.8526,
+      "fw_box": [
         391,
         238,
         430,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         342,
         237,
         377,
@@ -4012,18 +4012,18 @@
       "frame_idx": 1053,
       "timestamp": 17.5596,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001053.jpg",
-      "front_wheel_conf": 0.9058,
-      "back_wheel_conf": 0.9213,
-      "front_squareness": 0.975,
-      "back_squareness": 0.9474,
-      "size_match_ratio": 0.8769,
-      "front_wheel_box": [
+      "fw_conf": 0.9058,
+      "bw_conf": 0.9213,
+      "fw_squareness": 0.975,
+      "bw_squareness": 0.9474,
+      "wheel_size_ratio": 0.8769,
+      "fw_box": [
         391,
         238,
         430,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         342,
         237,
         378,
@@ -4040,18 +4040,18 @@
       "frame_idx": 1054,
       "timestamp": 17.5763,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001054.jpg",
-      "front_wheel_conf": 0.902,
-      "back_wheel_conf": 0.92,
-      "front_squareness": 0.975,
-      "back_squareness": 0.9474,
-      "size_match_ratio": 0.8769,
-      "front_wheel_box": [
+      "fw_conf": 0.902,
+      "bw_conf": 0.92,
+      "fw_squareness": 0.975,
+      "bw_squareness": 0.9474,
+      "wheel_size_ratio": 0.8769,
+      "fw_box": [
         392,
         238,
         431,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         342,
         237,
         378,
@@ -4068,18 +4068,18 @@
       "frame_idx": 1055,
       "timestamp": 17.593,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001055.jpg",
-      "front_wheel_conf": 0.9009,
-      "back_wheel_conf": 0.9186,
-      "front_squareness": 0.975,
-      "back_squareness": 0.9487,
-      "size_match_ratio": 0.925,
-      "front_wheel_box": [
+      "fw_conf": 0.9009,
+      "bw_conf": 0.9186,
+      "fw_squareness": 0.975,
+      "bw_squareness": 0.9487,
+      "wheel_size_ratio": 0.925,
+      "fw_box": [
         392,
         238,
         431,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         342,
         237,
         379,
@@ -4096,18 +4096,18 @@
       "frame_idx": 1056,
       "timestamp": 17.6096,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001056.jpg",
-      "front_wheel_conf": 0.9006,
-      "back_wheel_conf": 0.9183,
-      "front_squareness": 1.0,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.973,
-      "front_wheel_box": [
+      "fw_conf": 0.9006,
+      "bw_conf": 0.9183,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.973,
+      "fw_box": [
         392,
         239,
         431,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         342,
         236,
         379,
@@ -4124,18 +4124,18 @@
       "frame_idx": 1057,
       "timestamp": 17.6263,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001057.jpg",
-      "front_wheel_conf": 0.8994,
-      "back_wheel_conf": 0.9161,
-      "front_squareness": 0.975,
-      "back_squareness": 0.9,
-      "size_match_ratio": 0.9231,
-      "front_wheel_box": [
+      "fw_conf": 0.8994,
+      "bw_conf": 0.9161,
+      "fw_squareness": 0.975,
+      "bw_squareness": 0.9,
+      "wheel_size_ratio": 0.9231,
+      "fw_box": [
         393,
         238,
         432,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         343,
         236,
         379,
@@ -4152,18 +4152,18 @@
       "frame_idx": 1058,
       "timestamp": 17.643,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001058.jpg",
-      "front_wheel_conf": 0.9006,
-      "back_wheel_conf": 0.9163,
-      "front_squareness": 0.975,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.9487,
-      "front_wheel_box": [
+      "fw_conf": 0.9006,
+      "bw_conf": 0.9163,
+      "fw_squareness": 0.975,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.9487,
+      "fw_box": [
         393,
         238,
         432,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         343,
         236,
         380,
@@ -4180,18 +4180,18 @@
       "frame_idx": 1059,
       "timestamp": 17.6597,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001059.jpg",
-      "front_wheel_conf": 0.8969,
-      "back_wheel_conf": 0.9163,
-      "front_squareness": 1.0,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.973,
-      "front_wheel_box": [
+      "fw_conf": 0.8969,
+      "bw_conf": 0.9163,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.973,
+      "fw_box": [
         394,
         239,
         433,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         344,
         236,
         381,
@@ -4208,18 +4208,18 @@
       "frame_idx": 1060,
       "timestamp": 17.6763,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001060.jpg",
-      "front_wheel_conf": 0.89,
-      "back_wheel_conf": 0.8112,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.95,
-      "size_match_ratio": 0.975,
-      "front_wheel_box": [
+      "fw_conf": 0.89,
+      "bw_conf": 0.8112,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.95,
+      "wheel_size_ratio": 0.975,
+      "fw_box": [
         395,
         239,
         433,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         344,
         236,
         382,
@@ -4236,18 +4236,18 @@
       "frame_idx": 1061,
       "timestamp": 17.693,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001061.jpg",
-      "front_wheel_conf": 0.8663,
-      "back_wheel_conf": 0.9075,
-      "front_squareness": 0.9756,
-      "back_squareness": 0.95,
-      "size_match_ratio": 0.9268,
-      "front_wheel_box": [
+      "fw_conf": 0.8663,
+      "bw_conf": 0.9075,
+      "fw_squareness": 0.9756,
+      "bw_squareness": 0.95,
+      "wheel_size_ratio": 0.9268,
+      "fw_box": [
         395,
         238,
         435,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         344,
         236,
         382,
@@ -4264,18 +4264,18 @@
       "frame_idx": 1062,
       "timestamp": 17.7097,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001062.jpg",
-      "front_wheel_conf": 0.903,
-      "back_wheel_conf": 0.9079,
-      "front_squareness": 0.9756,
-      "back_squareness": 0.95,
-      "size_match_ratio": 0.9268,
-      "front_wheel_box": [
+      "fw_conf": 0.903,
+      "bw_conf": 0.9079,
+      "fw_squareness": 0.9756,
+      "bw_squareness": 0.95,
+      "wheel_size_ratio": 0.9268,
+      "fw_box": [
         396,
         238,
         436,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         345,
         236,
         383,
@@ -4292,18 +4292,18 @@
       "frame_idx": 1063,
       "timestamp": 17.7264,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001063.jpg",
-      "front_wheel_conf": 0.9055,
-      "back_wheel_conf": 0.9114,
-      "front_squareness": 0.975,
-      "back_squareness": 0.95,
-      "size_match_ratio": 0.9744,
-      "front_wheel_box": [
+      "fw_conf": 0.9055,
+      "bw_conf": 0.9114,
+      "fw_squareness": 0.975,
+      "bw_squareness": 0.95,
+      "wheel_size_ratio": 0.9744,
+      "fw_box": [
         397,
         238,
         436,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         345,
         236,
         383,
@@ -4320,18 +4320,18 @@
       "frame_idx": 1064,
       "timestamp": 17.743,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001064.jpg",
-      "front_wheel_conf": 0.9038,
-      "back_wheel_conf": 0.9142,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9024,
-      "size_match_ratio": 0.9481,
-      "front_wheel_box": [
+      "fw_conf": 0.9038,
+      "bw_conf": 0.9142,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9024,
+      "wheel_size_ratio": 0.9481,
+      "fw_box": [
         397,
         238,
         437,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         346,
         236,
         383,
@@ -4348,18 +4348,18 @@
       "frame_idx": 1065,
       "timestamp": 17.7597,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001065.jpg",
-      "front_wheel_conf": 0.9003,
-      "back_wheel_conf": 0.9143,
-      "front_squareness": 0.9756,
-      "back_squareness": 0.9024,
-      "size_match_ratio": 0.925,
-      "front_wheel_box": [
+      "fw_conf": 0.9003,
+      "bw_conf": 0.9143,
+      "fw_squareness": 0.9756,
+      "bw_squareness": 0.9024,
+      "wheel_size_ratio": 0.925,
+      "fw_box": [
         398,
         238,
         438,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         347,
         236,
         384,
@@ -4376,18 +4376,18 @@
       "frame_idx": 1066,
       "timestamp": 17.7764,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001066.jpg",
-      "front_wheel_conf": 0.9036,
-      "back_wheel_conf": 0.9181,
-      "front_squareness": 0.975,
-      "back_squareness": 0.9268,
-      "size_match_ratio": 0.95,
-      "front_wheel_box": [
+      "fw_conf": 0.9036,
+      "bw_conf": 0.9181,
+      "fw_squareness": 0.975,
+      "bw_squareness": 0.9268,
+      "wheel_size_ratio": 0.95,
+      "fw_box": [
         398,
         239,
         439,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         347,
         236,
         385,
@@ -4404,18 +4404,18 @@
       "frame_idx": 1067,
       "timestamp": 17.7931,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001067.jpg",
-      "front_wheel_conf": 0.9011,
-      "back_wheel_conf": 0.9162,
-      "front_squareness": 1.0,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.8804,
-      "front_wheel_box": [
+      "fw_conf": 0.9011,
+      "bw_conf": 0.9162,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.8804,
+      "fw_box": [
         399,
         238,
         440,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         348,
         237,
         385,
@@ -4432,18 +4432,18 @@
       "frame_idx": 1068,
       "timestamp": 17.8097,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001068.jpg",
-      "front_wheel_conf": 0.8998,
-      "back_wheel_conf": 0.927,
-      "front_squareness": 0.9756,
-      "back_squareness": 0.95,
-      "size_match_ratio": 0.9268,
-      "front_wheel_box": [
+      "fw_conf": 0.8998,
+      "bw_conf": 0.927,
+      "fw_squareness": 0.9756,
+      "bw_squareness": 0.95,
+      "wheel_size_ratio": 0.9268,
+      "fw_box": [
         400,
         238,
         440,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         349,
         237,
         387,
@@ -4460,18 +4460,18 @@
       "frame_idx": 1069,
       "timestamp": 17.8264,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001069.jpg",
-      "front_wheel_conf": 0.9003,
-      "back_wheel_conf": 0.926,
-      "front_squareness": 0.9512,
-      "back_squareness": 0.95,
-      "size_match_ratio": 0.9506,
-      "front_wheel_box": [
+      "fw_conf": 0.9003,
+      "bw_conf": 0.926,
+      "fw_squareness": 0.9512,
+      "bw_squareness": 0.95,
+      "wheel_size_ratio": 0.9506,
+      "fw_box": [
         401,
         238,
         440,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         349,
         237,
         387,
@@ -4488,18 +4488,18 @@
       "frame_idx": 1070,
       "timestamp": 17.8431,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001070.jpg",
-      "front_wheel_conf": 0.8993,
-      "back_wheel_conf": 0.9242,
-      "front_squareness": 0.9512,
-      "back_squareness": 0.9487,
-      "size_match_ratio": 0.9024,
-      "front_wheel_box": [
+      "fw_conf": 0.8993,
+      "bw_conf": 0.9242,
+      "fw_squareness": 0.9512,
+      "bw_squareness": 0.9487,
+      "wheel_size_ratio": 0.9024,
+      "fw_box": [
         402,
         238,
         441,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         350,
         238,
         387,
@@ -4516,18 +4516,18 @@
       "frame_idx": 1071,
       "timestamp": 17.8598,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001071.jpg",
-      "front_wheel_conf": 0.8992,
-      "back_wheel_conf": 0.9267,
-      "front_squareness": 0.95,
-      "back_squareness": 0.9487,
-      "size_match_ratio": 0.9493,
-      "front_wheel_box": [
+      "fw_conf": 0.8992,
+      "bw_conf": 0.9267,
+      "fw_squareness": 0.95,
+      "bw_squareness": 0.9487,
+      "wheel_size_ratio": 0.9493,
+      "fw_box": [
         403,
         239,
         441,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         350,
         238,
         387,
@@ -4544,18 +4544,18 @@
       "frame_idx": 1072,
       "timestamp": 17.8764,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001072.jpg",
-      "front_wheel_conf": 0.8968,
-      "back_wheel_conf": 0.926,
-      "front_squareness": 0.975,
-      "back_squareness": 0.9231,
-      "size_match_ratio": 0.9,
-      "front_wheel_box": [
+      "fw_conf": 0.8968,
+      "bw_conf": 0.926,
+      "fw_squareness": 0.975,
+      "bw_squareness": 0.9231,
+      "wheel_size_ratio": 0.9,
+      "fw_box": [
         403,
         239,
         442,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         351,
         238,
         387,
@@ -4572,18 +4572,18 @@
       "frame_idx": 1073,
       "timestamp": 17.8931,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001073.jpg",
-      "front_wheel_conf": 0.8996,
-      "back_wheel_conf": 0.9276,
-      "front_squareness": 0.95,
-      "back_squareness": 0.9487,
-      "size_match_ratio": 0.9493,
-      "front_wheel_box": [
+      "fw_conf": 0.8996,
+      "bw_conf": 0.9276,
+      "fw_squareness": 0.95,
+      "bw_squareness": 0.9487,
+      "wheel_size_ratio": 0.9493,
+      "fw_box": [
         404,
         239,
         442,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         351,
         238,
         388,
@@ -4600,18 +4600,18 @@
       "frame_idx": 1074,
       "timestamp": 17.9098,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001074.jpg",
-      "front_wheel_conf": 0.8929,
-      "back_wheel_conf": 0.9291,
-      "front_squareness": 0.975,
-      "back_squareness": 0.95,
-      "size_match_ratio": 0.9744,
-      "front_wheel_box": [
+      "fw_conf": 0.8929,
+      "bw_conf": 0.9291,
+      "fw_squareness": 0.975,
+      "bw_squareness": 0.95,
+      "wheel_size_ratio": 0.9744,
+      "fw_box": [
         404,
         239,
         443,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         351,
         238,
         389,
@@ -4628,18 +4628,18 @@
       "frame_idx": 1075,
       "timestamp": 17.9265,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001075.jpg",
-      "front_wheel_conf": 0.8943,
-      "back_wheel_conf": 0.9296,
-      "front_squareness": 0.975,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.9487,
-      "front_wheel_box": [
+      "fw_conf": 0.8943,
+      "bw_conf": 0.9296,
+      "fw_squareness": 0.975,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.9487,
+      "fw_box": [
         404,
         239,
         443,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         352,
         238,
         389,
@@ -4656,18 +4656,18 @@
       "frame_idx": 1076,
       "timestamp": 17.9431,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001076.jpg",
-      "front_wheel_conf": 0.8891,
-      "back_wheel_conf": 0.9325,
-      "front_squareness": 0.975,
-      "back_squareness": 0.95,
-      "size_match_ratio": 0.9744,
-      "front_wheel_box": [
+      "fw_conf": 0.8891,
+      "bw_conf": 0.9325,
+      "fw_squareness": 0.975,
+      "bw_squareness": 0.95,
+      "wheel_size_ratio": 0.9744,
+      "fw_box": [
         404,
         239,
         443,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         352,
         238,
         390,
@@ -4684,18 +4684,18 @@
       "frame_idx": 1077,
       "timestamp": 17.9598,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001077.jpg",
-      "front_wheel_conf": 0.8928,
-      "back_wheel_conf": 0.9292,
-      "front_squareness": 0.95,
-      "back_squareness": 0.95,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8928,
+      "bw_conf": 0.9292,
+      "fw_squareness": 0.95,
+      "bw_squareness": 0.95,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         405,
         239,
         443,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         352,
         238,
         390,
@@ -4712,18 +4712,18 @@
       "frame_idx": 1078,
       "timestamp": 17.9765,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001078.jpg",
-      "front_wheel_conf": 0.8944,
-      "back_wheel_conf": 0.9315,
-      "front_squareness": 0.95,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.9737,
-      "front_wheel_box": [
+      "fw_conf": 0.8944,
+      "bw_conf": 0.9315,
+      "fw_squareness": 0.95,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.9737,
+      "fw_box": [
         405,
         239,
         443,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         353,
         238,
         390,
@@ -4740,18 +4740,18 @@
       "frame_idx": 1079,
       "timestamp": 17.9932,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001079.jpg",
-      "front_wheel_conf": 0.7888,
-      "back_wheel_conf": 0.9245,
-      "front_squareness": 0.95,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.9737,
-      "front_wheel_box": [
+      "fw_conf": 0.7888,
+      "bw_conf": 0.9245,
+      "fw_squareness": 0.95,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.9737,
+      "fw_box": [
         406,
         239,
         444,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         353,
         238,
         390,
@@ -4768,18 +4768,18 @@
       "frame_idx": 1080,
       "timestamp": 18.0098,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001080.jpg",
-      "front_wheel_conf": 0.9102,
-      "back_wheel_conf": 0.9319,
-      "front_squareness": 0.975,
-      "back_squareness": 0.95,
-      "size_match_ratio": 0.9744,
-      "front_wheel_box": [
+      "fw_conf": 0.9102,
+      "bw_conf": 0.9319,
+      "fw_squareness": 0.975,
+      "bw_squareness": 0.95,
+      "wheel_size_ratio": 0.9744,
+      "fw_box": [
         406,
         239,
         445,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         353,
         238,
         391,
@@ -4796,18 +4796,18 @@
       "frame_idx": 1081,
       "timestamp": 18.0265,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001081.jpg",
-      "front_wheel_conf": 0.9109,
-      "back_wheel_conf": 0.936,
-      "front_squareness": 0.9756,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.9024,
-      "front_wheel_box": [
+      "fw_conf": 0.9109,
+      "bw_conf": 0.936,
+      "fw_squareness": 0.9756,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.9024,
+      "fw_box": [
         406,
         239,
         446,
         280
       ],
-      "back_wheel_box": [
+      "bw_box": [
         354,
         238,
         391,
@@ -4824,18 +4824,18 @@
       "frame_idx": 1082,
       "timestamp": 18.0432,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001082.jpg",
-      "front_wheel_conf": 0.9123,
-      "back_wheel_conf": 0.9433,
-      "front_squareness": 0.975,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.9487,
-      "front_wheel_box": [
+      "fw_conf": 0.9123,
+      "bw_conf": 0.9433,
+      "fw_squareness": 0.975,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.9487,
+      "fw_box": [
         407,
         239,
         446,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         354,
         238,
         391,
@@ -4852,18 +4852,18 @@
       "frame_idx": 1083,
       "timestamp": 18.0599,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001083.jpg",
-      "front_wheel_conf": 0.9162,
-      "back_wheel_conf": 0.9161,
-      "front_squareness": 0.9512,
-      "back_squareness": 0.95,
-      "size_match_ratio": 0.9506,
-      "front_wheel_box": [
+      "fw_conf": 0.9162,
+      "bw_conf": 0.9161,
+      "fw_squareness": 0.9512,
+      "bw_squareness": 0.95,
+      "wheel_size_ratio": 0.9506,
+      "fw_box": [
         407,
         239,
         446,
         280
       ],
-      "back_wheel_box": [
+      "bw_box": [
         354,
         238,
         392,
@@ -4880,18 +4880,18 @@
       "frame_idx": 1084,
       "timestamp": 18.0765,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001084.jpg",
-      "front_wheel_conf": 0.916,
-      "back_wheel_conf": 0.9162,
-      "front_squareness": 0.975,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.9487,
-      "front_wheel_box": [
+      "fw_conf": 0.916,
+      "bw_conf": 0.9162,
+      "fw_squareness": 0.975,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.9487,
+      "fw_box": [
         408,
         239,
         447,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         355,
         238,
         392,
@@ -4908,18 +4908,18 @@
       "frame_idx": 1085,
       "timestamp": 18.0932,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001085.jpg",
-      "front_wheel_conf": 0.9167,
-      "back_wheel_conf": 0.9211,
-      "front_squareness": 0.975,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.9487,
-      "front_wheel_box": [
+      "fw_conf": 0.9167,
+      "bw_conf": 0.9211,
+      "fw_squareness": 0.975,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.9487,
+      "fw_box": [
         409,
         239,
         448,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         355,
         238,
         392,
@@ -4936,18 +4936,18 @@
       "frame_idx": 1086,
       "timestamp": 18.1099,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001086.jpg",
-      "front_wheel_conf": 0.9126,
-      "back_wheel_conf": 0.9158,
-      "front_squareness": 0.9512,
-      "back_squareness": 0.9,
-      "size_match_ratio": 0.9006,
-      "front_wheel_box": [
+      "fw_conf": 0.9126,
+      "bw_conf": 0.9158,
+      "fw_squareness": 0.9512,
+      "bw_squareness": 0.9,
+      "wheel_size_ratio": 0.9006,
+      "fw_box": [
         409,
         238,
         448,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         356,
         238,
         392,
@@ -4964,18 +4964,18 @@
       "frame_idx": 1087,
       "timestamp": 18.1266,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001087.jpg",
-      "front_wheel_conf": 0.9088,
-      "back_wheel_conf": 0.9174,
-      "front_squareness": 0.9756,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.9024,
-      "front_wheel_box": [
+      "fw_conf": 0.9088,
+      "bw_conf": 0.9174,
+      "fw_squareness": 0.9756,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.9024,
+      "fw_box": [
         409,
         238,
         449,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         356,
         238,
         393,
@@ -4992,18 +4992,18 @@
       "frame_idx": 1088,
       "timestamp": 18.1433,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001088.jpg",
-      "front_wheel_conf": 0.9074,
-      "back_wheel_conf": 0.9135,
-      "front_squareness": 0.9756,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.9024,
-      "front_wheel_box": [
+      "fw_conf": 0.9074,
+      "bw_conf": 0.9135,
+      "fw_squareness": 0.9756,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.9024,
+      "fw_box": [
         409,
         238,
         449,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         356,
         238,
         393,
@@ -5020,18 +5020,18 @@
       "frame_idx": 1089,
       "timestamp": 18.1599,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001089.jpg",
-      "front_wheel_conf": 0.9097,
-      "back_wheel_conf": 0.915,
-      "front_squareness": 0.9512,
-      "back_squareness": 0.9231,
-      "size_match_ratio": 0.878,
-      "front_wheel_box": [
+      "fw_conf": 0.9097,
+      "bw_conf": 0.915,
+      "fw_squareness": 0.9512,
+      "bw_squareness": 0.9231,
+      "wheel_size_ratio": 0.878,
+      "fw_box": [
         410,
         238,
         449,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         357,
         238,
         393,
@@ -5048,18 +5048,18 @@
       "frame_idx": 1090,
       "timestamp": 18.1766,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001090.jpg",
-      "front_wheel_conf": 0.9025,
-      "back_wheel_conf": 0.9122,
-      "front_squareness": 0.9512,
-      "back_squareness": 0.9231,
-      "size_match_ratio": 0.878,
-      "front_wheel_box": [
+      "fw_conf": 0.9025,
+      "bw_conf": 0.9122,
+      "fw_squareness": 0.9512,
+      "bw_squareness": 0.9231,
+      "wheel_size_ratio": 0.878,
+      "fw_box": [
         410,
         238,
         449,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         357,
         238,
         393,
@@ -5076,18 +5076,18 @@
       "frame_idx": 1091,
       "timestamp": 18.1933,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001091.jpg",
-      "front_wheel_conf": 0.9019,
-      "back_wheel_conf": 0.916,
-      "front_squareness": 0.975,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.9487,
-      "front_wheel_box": [
+      "fw_conf": 0.9019,
+      "bw_conf": 0.916,
+      "fw_squareness": 0.975,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.9487,
+      "fw_box": [
         410,
         239,
         449,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         357,
         238,
         394,
@@ -5104,18 +5104,18 @@
       "frame_idx": 1092,
       "timestamp": 18.21,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001092.jpg",
-      "front_wheel_conf": 0.909,
-      "back_wheel_conf": 0.9177,
-      "front_squareness": 0.975,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.9487,
-      "front_wheel_box": [
+      "fw_conf": 0.909,
+      "bw_conf": 0.9177,
+      "fw_squareness": 0.975,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.9487,
+      "fw_box": [
         410,
         239,
         449,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         358,
         238,
         395,
@@ -5132,18 +5132,18 @@
       "frame_idx": 1093,
       "timestamp": 18.2266,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001093.jpg",
-      "front_wheel_conf": 0.9075,
-      "back_wheel_conf": 0.9159,
-      "front_squareness": 0.9512,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.9256,
-      "front_wheel_box": [
+      "fw_conf": 0.9075,
+      "bw_conf": 0.9159,
+      "fw_squareness": 0.9512,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.9256,
+      "fw_box": [
         410,
         238,
         449,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         358,
         238,
         395,
@@ -5160,18 +5160,18 @@
       "frame_idx": 1094,
       "timestamp": 18.2433,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001094.jpg",
-      "front_wheel_conf": 0.9007,
-      "back_wheel_conf": 0.9206,
-      "front_squareness": 0.9756,
-      "back_squareness": 0.9487,
-      "size_match_ratio": 0.8799,
-      "front_wheel_box": [
+      "fw_conf": 0.9007,
+      "bw_conf": 0.9206,
+      "fw_squareness": 0.9756,
+      "bw_squareness": 0.9487,
+      "wheel_size_ratio": 0.8799,
+      "fw_box": [
         410,
         238,
         450,
         279
       ],
-      "back_wheel_box": [
+      "bw_box": [
         358,
         238,
         395,
@@ -5188,18 +5188,18 @@
       "frame_idx": 1095,
       "timestamp": 18.26,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001095.jpg",
-      "front_wheel_conf": 0.9003,
-      "back_wheel_conf": 0.918,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9744,
-      "size_match_ratio": 0.9263,
-      "front_wheel_box": [
+      "fw_conf": 0.9003,
+      "bw_conf": 0.918,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9744,
+      "wheel_size_ratio": 0.9263,
+      "fw_box": [
         410,
         238,
         450,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         359,
         238,
         397,
@@ -5216,18 +5216,18 @@
       "frame_idx": 1096,
       "timestamp": 18.2767,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001096.jpg",
-      "front_wheel_conf": 0.9035,
-      "back_wheel_conf": 0.9168,
-      "front_squareness": 1.0,
-      "back_squareness": 0.975,
-      "size_match_ratio": 0.975,
-      "front_wheel_box": [
+      "fw_conf": 0.9035,
+      "bw_conf": 0.9168,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.975,
+      "wheel_size_ratio": 0.975,
+      "fw_box": [
         410,
         238,
         450,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         359,
         238,
         398,
@@ -5244,18 +5244,18 @@
       "frame_idx": 1097,
       "timestamp": 18.2933,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001097.jpg",
-      "front_wheel_conf": 0.9051,
-      "back_wheel_conf": 0.9167,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.9744,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9051,
+      "bw_conf": 0.9167,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.9744,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         411,
         239,
         451,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         359,
         238,
         399,
@@ -5272,18 +5272,18 @@
       "frame_idx": 1098,
       "timestamp": 18.31,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001098.jpg",
-      "front_wheel_conf": 0.9042,
-      "back_wheel_conf": 0.9179,
-      "front_squareness": 1.0,
-      "back_squareness": 0.975,
-      "size_match_ratio": 0.975,
-      "front_wheel_box": [
+      "fw_conf": 0.9042,
+      "bw_conf": 0.9179,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.975,
+      "wheel_size_ratio": 0.975,
+      "fw_box": [
         412,
         239,
         451,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         360,
         238,
         399,
@@ -5300,18 +5300,18 @@
       "frame_idx": 1099,
       "timestamp": 18.3267,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001099.jpg",
-      "front_wheel_conf": 0.9051,
-      "back_wheel_conf": 0.9109,
-      "front_squareness": 1.0,
-      "back_squareness": 0.975,
-      "size_match_ratio": 0.975,
-      "front_wheel_box": [
+      "fw_conf": 0.9051,
+      "bw_conf": 0.9109,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.975,
+      "wheel_size_ratio": 0.975,
+      "fw_box": [
         412,
         239,
         451,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         360,
         238,
         399,
@@ -5328,18 +5328,18 @@
       "frame_idx": 1100,
       "timestamp": 18.3434,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001100.jpg",
-      "front_wheel_conf": 0.9028,
-      "back_wheel_conf": 0.9091,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.95,
-      "size_match_ratio": 0.975,
-      "front_wheel_box": [
+      "fw_conf": 0.9028,
+      "bw_conf": 0.9091,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.95,
+      "wheel_size_ratio": 0.975,
+      "fw_box": [
         413,
         239,
         451,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         361,
         238,
         399,
@@ -5356,18 +5356,18 @@
       "frame_idx": 1101,
       "timestamp": 18.36,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001101.jpg",
-      "front_wheel_conf": 0.8966,
-      "back_wheel_conf": 0.9032,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.95,
-      "size_match_ratio": 0.975,
-      "front_wheel_box": [
+      "fw_conf": 0.8966,
+      "bw_conf": 0.9032,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.95,
+      "wheel_size_ratio": 0.975,
+      "fw_box": [
         413,
         239,
         451,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         361,
         238,
         399,
@@ -5384,18 +5384,18 @@
       "frame_idx": 1102,
       "timestamp": 18.3767,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001102.jpg",
-      "front_wheel_conf": 0.8912,
-      "back_wheel_conf": 0.8996,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.95,
-      "size_match_ratio": 0.975,
-      "front_wheel_box": [
+      "fw_conf": 0.8912,
+      "bw_conf": 0.8996,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.95,
+      "wheel_size_ratio": 0.975,
+      "fw_box": [
         414,
         239,
         452,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         361,
         238,
         399,
@@ -5412,18 +5412,18 @@
       "frame_idx": 1103,
       "timestamp": 18.3934,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001103.jpg",
-      "front_wheel_conf": 0.8877,
-      "back_wheel_conf": 0.9039,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.9987,
-      "front_wheel_box": [
+      "fw_conf": 0.8877,
+      "bw_conf": 0.9039,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.9987,
+      "fw_box": [
         414,
         239,
         452,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         362,
         238,
         399,
@@ -5440,18 +5440,18 @@
       "frame_idx": 1104,
       "timestamp": 18.4101,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001104.jpg",
-      "front_wheel_conf": 0.8867,
-      "back_wheel_conf": 0.9035,
-      "front_squareness": 1.0,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.973,
-      "front_wheel_box": [
+      "fw_conf": 0.8867,
+      "bw_conf": 0.9035,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.973,
+      "fw_box": [
         413,
         239,
         452,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         362,
         238,
         399,
@@ -5468,18 +5468,18 @@
       "frame_idx": 1105,
       "timestamp": 18.4267,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001105.jpg",
-      "front_wheel_conf": 0.8873,
-      "back_wheel_conf": 0.9074,
-      "front_squareness": 0.975,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.9487,
-      "front_wheel_box": [
+      "fw_conf": 0.8873,
+      "bw_conf": 0.9074,
+      "fw_squareness": 0.975,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.9487,
+      "fw_box": [
         413,
         238,
         452,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         362,
         238,
         399,
@@ -5496,18 +5496,18 @@
       "frame_idx": 1106,
       "timestamp": 18.4434,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001106.jpg",
-      "front_wheel_conf": 0.8907,
-      "back_wheel_conf": 0.9105,
-      "front_squareness": 0.95,
-      "back_squareness": 0.9,
-      "size_match_ratio": 0.9474,
-      "front_wheel_box": [
+      "fw_conf": 0.8907,
+      "bw_conf": 0.9105,
+      "fw_squareness": 0.95,
+      "bw_squareness": 0.9,
+      "wheel_size_ratio": 0.9474,
+      "fw_box": [
         413,
         238,
         451,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         362,
         238,
         398,
@@ -5524,18 +5524,18 @@
       "frame_idx": 1107,
       "timestamp": 18.4601,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001107.jpg",
-      "front_wheel_conf": 0.8927,
-      "back_wheel_conf": 0.9152,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.95,
-      "size_match_ratio": 0.975,
-      "front_wheel_box": [
+      "fw_conf": 0.8927,
+      "bw_conf": 0.9152,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.95,
+      "wheel_size_ratio": 0.975,
+      "fw_box": [
         413,
         239,
         451,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         361,
         238,
         399,
@@ -5552,18 +5552,18 @@
       "frame_idx": 1108,
       "timestamp": 18.4768,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001108.jpg",
-      "front_wheel_conf": 0.8856,
-      "back_wheel_conf": 0.9081,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.95,
-      "size_match_ratio": 0.975,
-      "front_wheel_box": [
+      "fw_conf": 0.8856,
+      "bw_conf": 0.9081,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.95,
+      "wheel_size_ratio": 0.975,
+      "fw_box": [
         413,
         239,
         451,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         361,
         238,
         399,
@@ -5580,18 +5580,18 @@
       "frame_idx": 1109,
       "timestamp": 18.4934,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001109.jpg",
-      "front_wheel_conf": 0.8845,
-      "back_wheel_conf": 0.9068,
-      "front_squareness": 0.95,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.9737,
-      "front_wheel_box": [
+      "fw_conf": 0.8845,
+      "bw_conf": 0.9068,
+      "fw_squareness": 0.95,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.9737,
+      "fw_box": [
         413,
         238,
         451,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         361,
         238,
         398,
@@ -5608,18 +5608,18 @@
       "frame_idx": 1110,
       "timestamp": 18.5101,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001110.jpg",
-      "front_wheel_conf": 0.8866,
-      "back_wheel_conf": 0.9105,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.925,
-      "size_match_ratio": 0.9987,
-      "front_wheel_box": [
+      "fw_conf": 0.8866,
+      "bw_conf": 0.9105,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.925,
+      "wheel_size_ratio": 0.9987,
+      "fw_box": [
         413,
         238,
         451,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         361,
         238,
         398,
@@ -5636,18 +5636,18 @@
       "frame_idx": 1111,
       "timestamp": 18.5268,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001111.jpg",
-      "front_wheel_conf": 0.8972,
-      "back_wheel_conf": 0.9093,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.9231,
-      "size_match_ratio": 0.9474,
-      "front_wheel_box": [
+      "fw_conf": 0.8972,
+      "bw_conf": 0.9093,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.9231,
+      "wheel_size_ratio": 0.9474,
+      "fw_box": [
         412,
         238,
         450,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         361,
         238,
         397,
@@ -5664,18 +5664,18 @@
       "frame_idx": 1112,
       "timestamp": 18.5435,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001112.jpg",
-      "front_wheel_conf": 0.896,
-      "back_wheel_conf": 0.9089,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.9487,
-      "size_match_ratio": 0.9737,
-      "front_wheel_box": [
+      "fw_conf": 0.896,
+      "bw_conf": 0.9089,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.9487,
+      "wheel_size_ratio": 0.9737,
+      "fw_box": [
         412,
         238,
         450,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         361,
         238,
         398,
@@ -5692,18 +5692,18 @@
       "frame_idx": 1113,
       "timestamp": 18.5601,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001113.jpg",
-      "front_wheel_conf": 0.8976,
-      "back_wheel_conf": 0.913,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9487,
-      "size_match_ratio": 0.9993,
-      "front_wheel_box": [
+      "fw_conf": 0.8976,
+      "bw_conf": 0.913,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9487,
+      "wheel_size_ratio": 0.9993,
+      "fw_box": [
         412,
         239,
         450,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         361,
         238,
         398,
@@ -5720,18 +5720,18 @@
       "frame_idx": 1114,
       "timestamp": 18.5768,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001114.jpg",
-      "front_wheel_conf": 0.9039,
-      "back_wheel_conf": 0.91,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.9744,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9039,
+      "bw_conf": 0.91,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.9744,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         412,
         238,
         450,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         361,
         238,
         399,
@@ -5748,18 +5748,18 @@
       "frame_idx": 1115,
       "timestamp": 18.5935,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001115.jpg",
-      "front_wheel_conf": 0.9073,
-      "back_wheel_conf": 0.9059,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.9744,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9073,
+      "bw_conf": 0.9059,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.9744,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         412,
         238,
         450,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         361,
         238,
         399,
@@ -5776,18 +5776,18 @@
       "frame_idx": 1116,
       "timestamp": 18.6102,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001116.jpg",
-      "front_wheel_conf": 0.9025,
-      "back_wheel_conf": 0.9092,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.9487,
-      "size_match_ratio": 0.9737,
-      "front_wheel_box": [
+      "fw_conf": 0.9025,
+      "bw_conf": 0.9092,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.9487,
+      "wheel_size_ratio": 0.9737,
+      "fw_box": [
         412,
         238,
         450,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         361,
         238,
         398,
@@ -5804,18 +5804,18 @@
       "frame_idx": 1117,
       "timestamp": 18.6269,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001117.jpg",
-      "front_wheel_conf": 0.9022,
-      "back_wheel_conf": 0.9134,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.9744,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9022,
+      "bw_conf": 0.9134,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.9744,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         412,
         238,
         450,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         361,
         238,
         399,
@@ -5832,18 +5832,18 @@
       "frame_idx": 1118,
       "timestamp": 18.6435,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001118.jpg",
-      "front_wheel_conf": 0.8985,
-      "back_wheel_conf": 0.92,
-      "front_squareness": 0.9744,
-      "back_squareness": 0.9744,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8985,
+      "bw_conf": 0.92,
+      "fw_squareness": 0.9744,
+      "bw_squareness": 0.9744,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         412,
         238,
         450,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         361,
         238,
         399,
@@ -5860,18 +5860,18 @@
       "frame_idx": 1119,
       "timestamp": 18.6602,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001119.jpg",
-      "front_wheel_conf": 0.9039,
-      "back_wheel_conf": 0.9181,
-      "front_squareness": 0.925,
-      "back_squareness": 0.9487,
-      "size_match_ratio": 0.975,
-      "front_wheel_box": [
+      "fw_conf": 0.9039,
+      "bw_conf": 0.9181,
+      "fw_squareness": 0.925,
+      "bw_squareness": 0.9487,
+      "wheel_size_ratio": 0.975,
+      "fw_box": [
         412,
         238,
         449,
         278
       ],
-      "back_wheel_box": [
+      "bw_box": [
         362,
         238,
         399,
@@ -5888,18 +5888,18 @@
       "frame_idx": 1120,
       "timestamp": 18.6769,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001120.jpg",
-      "front_wheel_conf": 0.9022,
-      "back_wheel_conf": 0.9022,
-      "front_squareness": 0.9487,
-      "back_squareness": 0.9231,
-      "size_match_ratio": 0.973,
-      "front_wheel_box": [
+      "fw_conf": 0.9022,
+      "bw_conf": 0.9022,
+      "fw_squareness": 0.9487,
+      "bw_squareness": 0.9231,
+      "wheel_size_ratio": 0.973,
+      "fw_box": [
         412,
         238,
         449,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         362,
         238,
         398,
@@ -5916,18 +5916,18 @@
       "frame_idx": 1121,
       "timestamp": 18.6936,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001121.jpg",
-      "front_wheel_conf": 0.9059,
-      "back_wheel_conf": 0.9091,
-      "front_squareness": 0.9737,
-      "back_squareness": 0.9231,
-      "size_match_ratio": 0.9986,
-      "front_wheel_box": [
+      "fw_conf": 0.9059,
+      "bw_conf": 0.9091,
+      "fw_squareness": 0.9737,
+      "bw_squareness": 0.9231,
+      "wheel_size_ratio": 0.9986,
+      "fw_box": [
         412,
         239,
         449,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         362,
         238,
         398,
@@ -5944,18 +5944,18 @@
       "frame_idx": 1122,
       "timestamp": 18.7102,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001122.jpg",
-      "front_wheel_conf": 0.9024,
-      "back_wheel_conf": 0.9084,
-      "front_squareness": 0.9474,
-      "back_squareness": 0.9211,
-      "size_match_ratio": 0.9722,
-      "front_wheel_box": [
+      "fw_conf": 0.9024,
+      "bw_conf": 0.9084,
+      "fw_squareness": 0.9474,
+      "bw_squareness": 0.9211,
+      "wheel_size_ratio": 0.9722,
+      "fw_box": [
         412,
         239,
         448,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         362,
         238,
         397,
@@ -5972,18 +5972,18 @@
       "frame_idx": 1123,
       "timestamp": 18.7269,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001123.jpg",
-      "front_wheel_conf": 0.9005,
-      "back_wheel_conf": 0.9151,
-      "front_squareness": 0.9474,
-      "back_squareness": 0.9474,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9005,
+      "bw_conf": 0.9151,
+      "fw_squareness": 0.9474,
+      "bw_squareness": 0.9474,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         412,
         239,
         448,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         361,
         238,
         397,
@@ -6000,18 +6000,18 @@
       "frame_idx": 1124,
       "timestamp": 18.7436,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001124.jpg",
-      "front_wheel_conf": 0.9022,
-      "back_wheel_conf": 0.9171,
-      "front_squareness": 0.9474,
-      "back_squareness": 0.9211,
-      "size_match_ratio": 0.9722,
-      "front_wheel_box": [
+      "fw_conf": 0.9022,
+      "bw_conf": 0.9171,
+      "fw_squareness": 0.9474,
+      "bw_squareness": 0.9211,
+      "wheel_size_ratio": 0.9722,
+      "fw_box": [
         411,
         239,
         447,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         361,
         238,
         396,
@@ -6028,18 +6028,18 @@
       "frame_idx": 1125,
       "timestamp": 18.7603,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001125.jpg",
-      "front_wheel_conf": 0.9042,
-      "back_wheel_conf": 0.9211,
-      "front_squareness": 0.9211,
-      "back_squareness": 0.9211,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9042,
+      "bw_conf": 0.9211,
+      "fw_squareness": 0.9211,
+      "bw_squareness": 0.9211,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         411,
         238,
         446,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         361,
         238,
         396,
@@ -6056,18 +6056,18 @@
       "frame_idx": 1126,
       "timestamp": 18.7769,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001126.jpg",
-      "front_wheel_conf": 0.901,
-      "back_wheel_conf": 0.921,
-      "front_squareness": 0.9211,
-      "back_squareness": 0.973,
-      "size_match_ratio": 0.9985,
-      "front_wheel_box": [
+      "fw_conf": 0.901,
+      "bw_conf": 0.921,
+      "fw_squareness": 0.9211,
+      "bw_squareness": 0.973,
+      "wheel_size_ratio": 0.9985,
+      "fw_box": [
         411,
         238,
         446,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         361,
         238,
         397,
@@ -6084,18 +6084,18 @@
       "frame_idx": 1127,
       "timestamp": 18.7936,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001127.jpg",
-      "front_wheel_conf": 0.9004,
-      "back_wheel_conf": 0.9189,
-      "front_squareness": 0.9211,
-      "back_squareness": 0.9459,
-      "size_match_ratio": 0.9737,
-      "front_wheel_box": [
+      "fw_conf": 0.9004,
+      "bw_conf": 0.9189,
+      "fw_squareness": 0.9211,
+      "bw_squareness": 0.9459,
+      "wheel_size_ratio": 0.9737,
+      "fw_box": [
         411,
         238,
         446,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         361,
         238,
         396,
@@ -6112,18 +6112,18 @@
       "frame_idx": 1128,
       "timestamp": 18.8103,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001128.jpg",
-      "front_wheel_conf": 0.8995,
-      "back_wheel_conf": 0.9156,
-      "front_squareness": 0.9474,
-      "back_squareness": 0.9211,
-      "size_match_ratio": 0.9722,
-      "front_wheel_box": [
+      "fw_conf": 0.8995,
+      "bw_conf": 0.9156,
+      "fw_squareness": 0.9474,
+      "bw_squareness": 0.9211,
+      "wheel_size_ratio": 0.9722,
+      "fw_box": [
         410,
         238,
         446,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         361,
         238,
         396,
@@ -6140,18 +6140,18 @@
       "frame_idx": 1129,
       "timestamp": 18.827,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001129.jpg",
-      "front_wheel_conf": 0.8987,
-      "back_wheel_conf": 0.9115,
-      "front_squareness": 0.8974,
-      "back_squareness": 0.8947,
-      "size_match_ratio": 0.9465,
-      "front_wheel_box": [
+      "fw_conf": 0.8987,
+      "bw_conf": 0.9115,
+      "fw_squareness": 0.8974,
+      "bw_squareness": 0.8947,
+      "wheel_size_ratio": 0.9465,
+      "fw_box": [
         411,
         238,
         446,
         277
       ],
-      "back_wheel_box": [
+      "bw_box": [
         362,
         238,
         396,
@@ -6168,18 +6168,18 @@
       "frame_idx": 1130,
       "timestamp": 18.8436,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001130.jpg",
-      "front_wheel_conf": 0.9042,
-      "back_wheel_conf": 0.9133,
-      "front_squareness": 0.9474,
-      "back_squareness": 0.8718,
-      "size_match_ratio": 0.9693,
-      "front_wheel_box": [
+      "fw_conf": 0.9042,
+      "bw_conf": 0.9133,
+      "fw_squareness": 0.9474,
+      "bw_squareness": 0.8718,
+      "wheel_size_ratio": 0.9693,
+      "fw_box": [
         410,
         238,
         446,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         362,
         238,
         396,
@@ -6196,18 +6196,18 @@
       "frame_idx": 1131,
       "timestamp": 18.8603,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001131.jpg",
-      "front_wheel_conf": 0.9043,
-      "back_wheel_conf": 0.9142,
-      "front_squareness": 0.8947,
-      "back_squareness": 0.875,
-      "size_match_ratio": 0.9229,
-      "front_wheel_box": [
+      "fw_conf": 0.9043,
+      "bw_conf": 0.9142,
+      "fw_squareness": 0.8947,
+      "bw_squareness": 0.875,
+      "wheel_size_ratio": 0.9229,
+      "fw_box": [
         411,
         238,
         445,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         362,
         237,
         397,
@@ -6224,18 +6224,18 @@
       "frame_idx": 1132,
       "timestamp": 18.877,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001132.jpg",
-      "front_wheel_conf": 0.908,
-      "back_wheel_conf": 0.914,
-      "front_squareness": 0.9211,
-      "back_squareness": 0.9231,
-      "size_match_ratio": 0.9473,
-      "front_wheel_box": [
+      "fw_conf": 0.908,
+      "bw_conf": 0.914,
+      "fw_squareness": 0.9211,
+      "bw_squareness": 0.9231,
+      "wheel_size_ratio": 0.9473,
+      "fw_box": [
         410,
         238,
         445,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         362,
         238,
         398,
@@ -6252,18 +6252,18 @@
       "frame_idx": 1133,
       "timestamp": 18.8937,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001133.jpg",
-      "front_wheel_conf": 0.9074,
-      "back_wheel_conf": 0.9082,
-      "front_squareness": 0.8947,
-      "back_squareness": 0.8974,
-      "size_match_ratio": 0.9465,
-      "front_wheel_box": [
+      "fw_conf": 0.9074,
+      "bw_conf": 0.9082,
+      "fw_squareness": 0.8947,
+      "bw_squareness": 0.8974,
+      "wheel_size_ratio": 0.9465,
+      "fw_box": [
         411,
         238,
         445,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         363,
         238,
         398,
@@ -6280,18 +6280,18 @@
       "frame_idx": 1134,
       "timestamp": 18.9103,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001134.jpg",
-      "front_wheel_conf": 0.9168,
-      "back_wheel_conf": 0.9018,
-      "front_squareness": 0.8947,
-      "back_squareness": 0.8974,
-      "size_match_ratio": 0.9465,
-      "front_wheel_box": [
+      "fw_conf": 0.9168,
+      "bw_conf": 0.9018,
+      "fw_squareness": 0.8947,
+      "bw_squareness": 0.8974,
+      "wheel_size_ratio": 0.9465,
+      "fw_box": [
         411,
         238,
         445,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         363,
         237,
         398,
@@ -6308,18 +6308,18 @@
       "frame_idx": 1135,
       "timestamp": 18.927,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001135.jpg",
-      "front_wheel_conf": 0.9151,
-      "back_wheel_conf": 0.9091,
-      "front_squareness": 0.8947,
-      "back_squareness": 0.8974,
-      "size_match_ratio": 0.9465,
-      "front_wheel_box": [
+      "fw_conf": 0.9151,
+      "bw_conf": 0.9091,
+      "fw_squareness": 0.8947,
+      "bw_squareness": 0.8974,
+      "wheel_size_ratio": 0.9465,
+      "fw_box": [
         411,
         238,
         445,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         363,
         237,
         398,
@@ -6336,18 +6336,18 @@
       "frame_idx": 1136,
       "timestamp": 18.9437,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001136.jpg",
-      "front_wheel_conf": 0.9068,
-      "back_wheel_conf": 0.9079,
-      "front_squareness": 0.8947,
-      "back_squareness": 0.8974,
-      "size_match_ratio": 0.9465,
-      "front_wheel_box": [
+      "fw_conf": 0.9068,
+      "bw_conf": 0.9079,
+      "fw_squareness": 0.8947,
+      "bw_squareness": 0.8974,
+      "wheel_size_ratio": 0.9465,
+      "fw_box": [
         411,
         238,
         445,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         363,
         237,
         398,
@@ -6364,18 +6364,18 @@
       "frame_idx": 1137,
       "timestamp": 18.9604,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001137.jpg",
-      "front_wheel_conf": 0.9075,
-      "back_wheel_conf": 0.9076,
-      "front_squareness": 0.8947,
-      "back_squareness": 0.8974,
-      "size_match_ratio": 0.9465,
-      "front_wheel_box": [
+      "fw_conf": 0.9075,
+      "bw_conf": 0.9076,
+      "fw_squareness": 0.8947,
+      "bw_squareness": 0.8974,
+      "wheel_size_ratio": 0.9465,
+      "fw_box": [
         411,
         238,
         445,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         363,
         237,
         398,
@@ -6392,18 +6392,18 @@
       "frame_idx": 1138,
       "timestamp": 18.977,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001138.jpg",
-      "front_wheel_conf": 0.9042,
-      "back_wheel_conf": 0.911,
-      "front_squareness": 0.8684,
-      "back_squareness": 0.8718,
-      "size_match_ratio": 0.9457,
-      "front_wheel_box": [
+      "fw_conf": 0.9042,
+      "bw_conf": 0.911,
+      "fw_squareness": 0.8684,
+      "bw_squareness": 0.8718,
+      "wheel_size_ratio": 0.9457,
+      "fw_box": [
         411,
         238,
         444,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         363,
         237,
         397,
@@ -6420,18 +6420,18 @@
       "frame_idx": 1139,
       "timestamp": 18.9937,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001139.jpg",
-      "front_wheel_conf": 0.8976,
-      "back_wheel_conf": 0.907,
-      "front_squareness": 0.8684,
-      "back_squareness": 0.8718,
-      "size_match_ratio": 0.9457,
-      "front_wheel_box": [
+      "fw_conf": 0.8976,
+      "bw_conf": 0.907,
+      "fw_squareness": 0.8684,
+      "bw_squareness": 0.8718,
+      "wheel_size_ratio": 0.9457,
+      "fw_box": [
         411,
         238,
         444,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         363,
         237,
         397,
@@ -6448,18 +6448,18 @@
       "frame_idx": 1140,
       "timestamp": 19.0104,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001140.jpg",
-      "front_wheel_conf": 0.8895,
-      "back_wheel_conf": 0.9075,
-      "front_squareness": 0.8684,
-      "back_squareness": 0.8718,
-      "size_match_ratio": 0.9457,
-      "front_wheel_box": [
+      "fw_conf": 0.8895,
+      "bw_conf": 0.9075,
+      "fw_squareness": 0.8684,
+      "bw_squareness": 0.8718,
+      "wheel_size_ratio": 0.9457,
+      "fw_box": [
         410,
         238,
         443,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         363,
         237,
         397,
@@ -6476,18 +6476,18 @@
       "frame_idx": 1141,
       "timestamp": 19.0271,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001141.jpg",
-      "front_wheel_conf": 0.8897,
-      "back_wheel_conf": 0.9135,
-      "front_squareness": 0.8684,
-      "back_squareness": 0.8919,
-      "size_match_ratio": 0.9737,
-      "front_wheel_box": [
+      "fw_conf": 0.8897,
+      "bw_conf": 0.9135,
+      "fw_squareness": 0.8684,
+      "bw_squareness": 0.8919,
+      "wheel_size_ratio": 0.9737,
+      "fw_box": [
         410,
         238,
         443,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         363,
         238,
         396,
@@ -6504,18 +6504,18 @@
       "frame_idx": 1142,
       "timestamp": 19.0437,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001142.jpg",
-      "front_wheel_conf": 0.884,
-      "back_wheel_conf": 0.9161,
-      "front_squareness": 0.8684,
-      "back_squareness": 0.8919,
-      "size_match_ratio": 0.9737,
-      "front_wheel_box": [
+      "fw_conf": 0.884,
+      "bw_conf": 0.9161,
+      "fw_squareness": 0.8684,
+      "bw_squareness": 0.8919,
+      "wheel_size_ratio": 0.9737,
+      "fw_box": [
         409,
         238,
         442,
         276
       ],
-      "back_wheel_box": [
+      "bw_box": [
         363,
         238,
         396,
@@ -6532,18 +6532,18 @@
       "frame_idx": 1143,
       "timestamp": 19.0604,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001143.jpg",
-      "front_wheel_conf": 0.8802,
-      "back_wheel_conf": 0.9198,
-      "front_squareness": 0.8919,
-      "back_squareness": 0.8684,
-      "size_match_ratio": 0.9737,
-      "front_wheel_box": [
+      "fw_conf": 0.8802,
+      "bw_conf": 0.9198,
+      "fw_squareness": 0.8919,
+      "bw_squareness": 0.8684,
+      "wheel_size_ratio": 0.9737,
+      "fw_box": [
         409,
         238,
         442,
         275
       ],
-      "back_wheel_box": [
+      "bw_box": [
         363,
         237,
         396,
@@ -6560,18 +6560,18 @@
       "frame_idx": 1144,
       "timestamp": 19.0771,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001144.jpg",
-      "front_wheel_conf": 0.8796,
-      "back_wheel_conf": 0.9183,
-      "front_squareness": 0.8919,
-      "back_squareness": 0.8684,
-      "size_match_ratio": 0.9737,
-      "front_wheel_box": [
+      "fw_conf": 0.8796,
+      "bw_conf": 0.9183,
+      "fw_squareness": 0.8919,
+      "bw_squareness": 0.8684,
+      "wheel_size_ratio": 0.9737,
+      "fw_box": [
         409,
         238,
         442,
         275
       ],
-      "back_wheel_box": [
+      "bw_box": [
         363,
         237,
         396,
@@ -6588,18 +6588,18 @@
       "frame_idx": 1145,
       "timestamp": 19.0938,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001145.jpg",
-      "front_wheel_conf": 0.6358,
-      "back_wheel_conf": 0.9178,
-      "front_squareness": 0.8919,
-      "back_squareness": 0.8684,
-      "size_match_ratio": 0.9737,
-      "front_wheel_box": [
+      "fw_conf": 0.6358,
+      "bw_conf": 0.9178,
+      "fw_squareness": 0.8919,
+      "bw_squareness": 0.8684,
+      "wheel_size_ratio": 0.9737,
+      "fw_box": [
         408,
         238,
         441,
         275
       ],
-      "back_wheel_box": [
+      "bw_box": [
         363,
         237,
         396,
@@ -6616,18 +6616,18 @@
       "frame_idx": 1146,
       "timestamp": 19.1104,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001146.jpg",
-      "front_wheel_conf": 0.8361,
-      "back_wheel_conf": 0.9135,
-      "front_squareness": 0.8611,
-      "back_squareness": 0.8649,
-      "size_match_ratio": 0.9426,
-      "front_wheel_box": [
+      "fw_conf": 0.8361,
+      "bw_conf": 0.9135,
+      "fw_squareness": 0.8611,
+      "bw_squareness": 0.8649,
+      "wheel_size_ratio": 0.9426,
+      "fw_box": [
         409,
         239,
         440,
         275
       ],
-      "back_wheel_box": [
+      "bw_box": [
         363,
         238,
         395,
@@ -6644,18 +6644,18 @@
       "frame_idx": 1147,
       "timestamp": 19.1271,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001147.jpg",
-      "front_wheel_conf": 0.8592,
-      "back_wheel_conf": 0.9109,
-      "front_squareness": 0.9143,
-      "back_squareness": 0.8919,
-      "size_match_ratio": 0.9173,
-      "front_wheel_box": [
+      "fw_conf": 0.8592,
+      "bw_conf": 0.9109,
+      "fw_squareness": 0.9143,
+      "bw_squareness": 0.8919,
+      "wheel_size_ratio": 0.9173,
+      "fw_box": [
         408,
         239,
         440,
         274
       ],
-      "back_wheel_box": [
+      "bw_box": [
         362,
         238,
         395,
@@ -6672,18 +6672,18 @@
       "frame_idx": 1148,
       "timestamp": 19.1438,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001148.jpg",
-      "front_wheel_conf": 0.8705,
-      "back_wheel_conf": 0.9134,
-      "front_squareness": 0.8857,
-      "back_squareness": 0.8684,
-      "size_match_ratio": 0.8652,
-      "front_wheel_box": [
+      "fw_conf": 0.8705,
+      "bw_conf": 0.9134,
+      "fw_squareness": 0.8857,
+      "bw_squareness": 0.8684,
+      "wheel_size_ratio": 0.8652,
+      "fw_box": [
         408,
         239,
         439,
         274
       ],
-      "back_wheel_box": [
+      "bw_box": [
         362,
         238,
         395,
@@ -6700,18 +6700,18 @@
       "frame_idx": 1731,
       "timestamp": 28.8658,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001731.jpg",
-      "front_wheel_conf": 0.9562,
-      "back_wheel_conf": 0.9517,
-      "front_squareness": 0.9769,
-      "back_squareness": 0.8594,
-      "size_match_ratio": 0.8528,
-      "front_wheel_box": [
+      "fw_conf": 0.9562,
+      "bw_conf": 0.9517,
+      "fw_squareness": 0.9769,
+      "bw_squareness": 0.8594,
+      "wheel_size_ratio": 0.8528,
+      "fw_box": [
         344,
         279,
         471,
         409
       ],
-      "back_wheel_box": [
+      "bw_box": [
         520,
         264,
         630,
@@ -6728,18 +6728,18 @@
       "frame_idx": 1732,
       "timestamp": 28.8825,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001732.jpg",
-      "front_wheel_conf": 0.9522,
-      "back_wheel_conf": 0.9502,
-      "front_squareness": 0.9773,
-      "back_squareness": 0.8769,
-      "size_match_ratio": 0.8703,
-      "front_wheel_box": [
+      "fw_conf": 0.9522,
+      "bw_conf": 0.9502,
+      "fw_squareness": 0.9773,
+      "bw_squareness": 0.8769,
+      "wheel_size_ratio": 0.8703,
+      "fw_box": [
         338,
         278,
         467,
         410
       ],
-      "back_wheel_box": [
+      "bw_box": [
         516,
         264,
         630,
@@ -6756,18 +6756,18 @@
       "frame_idx": 1733,
       "timestamp": 28.8991,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001733.jpg",
-      "front_wheel_conf": 0.9487,
-      "back_wheel_conf": 0.9486,
-      "front_squareness": 0.985,
-      "back_squareness": 0.8712,
-      "size_match_ratio": 0.8713,
-      "front_wheel_box": [
+      "fw_conf": 0.9487,
+      "bw_conf": 0.9486,
+      "fw_squareness": 0.985,
+      "bw_squareness": 0.8712,
+      "wheel_size_ratio": 0.8713,
+      "fw_box": [
         332,
         278,
         463,
         411
       ],
-      "back_wheel_box": [
+      "bw_box": [
         514,
         263,
         629,
@@ -6784,18 +6784,18 @@
       "frame_idx": 1734,
       "timestamp": 28.9158,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001734.jpg",
-      "front_wheel_conf": 0.9509,
-      "back_wheel_conf": 0.951,
-      "front_squareness": 1.0,
-      "back_squareness": 0.8731,
-      "size_match_ratio": 0.8998,
-      "front_wheel_box": [
+      "fw_conf": 0.9509,
+      "bw_conf": 0.951,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.8731,
+      "wheel_size_ratio": 0.8998,
+      "fw_box": [
         328,
         278,
         460,
         410
       ],
-      "back_wheel_box": [
+      "bw_box": [
         511,
         262,
         628,
@@ -6812,18 +6812,18 @@
       "frame_idx": 1735,
       "timestamp": 28.9325,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001735.jpg",
-      "front_wheel_conf": 0.9576,
-      "back_wheel_conf": 0.9514,
-      "front_squareness": 0.9925,
-      "back_squareness": 0.8955,
-      "size_match_ratio": 0.8889,
-      "front_wheel_box": [
+      "fw_conf": 0.9576,
+      "bw_conf": 0.9514,
+      "fw_squareness": 0.9925,
+      "bw_squareness": 0.8955,
+      "wheel_size_ratio": 0.8889,
+      "fw_box": [
         320,
         277,
         455,
         411
       ],
-      "back_wheel_box": [
+      "bw_box": [
         507,
         263,
         627,
@@ -6840,18 +6840,18 @@
       "frame_idx": 1736,
       "timestamp": 28.9492,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001736.jpg",
-      "front_wheel_conf": 0.9522,
-      "back_wheel_conf": 0.9528,
-      "front_squareness": 0.9701,
-      "back_squareness": 0.8897,
-      "size_match_ratio": 0.8899,
-      "front_wheel_box": [
+      "fw_conf": 0.9522,
+      "bw_conf": 0.9528,
+      "fw_squareness": 0.9701,
+      "bw_squareness": 0.8897,
+      "wheel_size_ratio": 0.8899,
+      "fw_box": [
         315,
         277,
         453,
         411
       ],
-      "back_wheel_box": [
+      "bw_box": [
         505,
         263,
         626,
@@ -6868,18 +6868,18 @@
       "frame_idx": 1737,
       "timestamp": 28.9658,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001737.jpg",
-      "front_wheel_conf": 0.9487,
-      "back_wheel_conf": 0.8461,
-      "front_squareness": 0.9778,
-      "back_squareness": 0.9118,
-      "size_match_ratio": 0.9052,
-      "front_wheel_box": [
+      "fw_conf": 0.9487,
+      "bw_conf": 0.8461,
+      "fw_squareness": 0.9778,
+      "bw_squareness": 0.9118,
+      "wheel_size_ratio": 0.9052,
+      "fw_box": [
         309,
         277,
         447,
         412
       ],
-      "back_wheel_box": [
+      "bw_box": [
         500,
         264,
         624,
@@ -6896,18 +6896,18 @@
       "frame_idx": 1738,
       "timestamp": 28.9825,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001738.jpg",
-      "front_wheel_conf": 0.9544,
-      "back_wheel_conf": 0.956,
-      "front_squareness": 0.9779,
-      "back_squareness": 0.9191,
-      "size_match_ratio": 0.8993,
-      "front_wheel_box": [
+      "fw_conf": 0.9544,
+      "bw_conf": 0.956,
+      "fw_squareness": 0.9779,
+      "bw_squareness": 0.9191,
+      "wheel_size_ratio": 0.8993,
+      "fw_box": [
         304,
         276,
         443,
         412
       ],
-      "back_wheel_box": [
+      "bw_box": [
         495,
         264,
         620,
@@ -6924,18 +6924,18 @@
       "frame_idx": 1739,
       "timestamp": 28.9992,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001739.jpg",
-      "front_wheel_conf": 0.956,
-      "back_wheel_conf": 0.9569,
-      "front_squareness": 0.9708,
-      "back_squareness": 0.913,
-      "size_match_ratio": 0.9001,
-      "front_wheel_box": [
+      "fw_conf": 0.956,
+      "bw_conf": 0.9569,
+      "fw_squareness": 0.9708,
+      "bw_squareness": 0.913,
+      "wheel_size_ratio": 0.9001,
+      "fw_box": [
         297,
         276,
         438,
         413
       ],
-      "back_wheel_box": [
+      "bw_box": [
         492,
         263,
         618,
@@ -6952,18 +6952,18 @@
       "frame_idx": 1740,
       "timestamp": 29.0159,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001740.jpg",
-      "front_wheel_conf": 0.9523,
-      "back_wheel_conf": 0.9562,
-      "front_squareness": 0.971,
-      "back_squareness": 0.9209,
-      "size_match_ratio": 0.9079,
-      "front_wheel_box": [
+      "fw_conf": 0.9523,
+      "bw_conf": 0.9562,
+      "fw_squareness": 0.971,
+      "bw_squareness": 0.9209,
+      "wheel_size_ratio": 0.9079,
+      "fw_box": [
         291,
         276,
         433,
         414
       ],
-      "back_wheel_box": [
+      "bw_box": [
         488,
         264,
         616,
@@ -6980,18 +6980,18 @@
       "frame_idx": 1741,
       "timestamp": 29.0325,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001741.jpg",
-      "front_wheel_conf": 0.9516,
-      "back_wheel_conf": 0.9553,
-      "front_squareness": 0.9783,
-      "back_squareness": 0.9214,
-      "size_match_ratio": 0.9282,
-      "front_wheel_box": [
+      "fw_conf": 0.9516,
+      "bw_conf": 0.9553,
+      "fw_squareness": 0.9783,
+      "bw_squareness": 0.9214,
+      "wheel_size_ratio": 0.9282,
+      "fw_box": [
         287,
         276,
         428,
         414
       ],
-      "back_wheel_box": [
+      "bw_box": [
         485,
         264,
         614,
@@ -7008,18 +7008,18 @@
       "frame_idx": 1742,
       "timestamp": 29.0492,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001742.jpg",
-      "front_wheel_conf": 0.953,
-      "back_wheel_conf": 0.9069,
-      "front_squareness": 0.971,
-      "back_squareness": 0.9301,
-      "size_match_ratio": 0.9706,
-      "front_wheel_box": [
+      "fw_conf": 0.953,
+      "bw_conf": 0.9069,
+      "fw_squareness": 0.971,
+      "bw_squareness": 0.9301,
+      "wheel_size_ratio": 0.9706,
+      "fw_box": [
         281,
         276,
         423,
         414
       ],
-      "back_wheel_box": [
+      "bw_box": [
         480,
         262,
         613,
@@ -7036,18 +7036,18 @@
       "frame_idx": 1743,
       "timestamp": 29.0659,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001743.jpg",
-      "front_wheel_conf": 0.9585,
-      "back_wheel_conf": 0.9473,
-      "front_squareness": 0.9638,
-      "back_squareness": 0.9306,
-      "size_match_ratio": 0.9778,
-      "front_wheel_box": [
+      "fw_conf": 0.9585,
+      "bw_conf": 0.9473,
+      "fw_squareness": 0.9638,
+      "bw_squareness": 0.9306,
+      "wheel_size_ratio": 0.9778,
+      "fw_box": [
         276,
         276,
         419,
         414
       ],
-      "back_wheel_box": [
+      "bw_box": [
         477,
         263,
         611,
@@ -7064,18 +7064,18 @@
       "frame_idx": 1744,
       "timestamp": 29.0826,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001744.jpg",
-      "front_wheel_conf": 0.9536,
-      "back_wheel_conf": 0.9517,
-      "front_squareness": 0.9712,
-      "back_squareness": 0.9236,
-      "size_match_ratio": 0.9635,
-      "front_wheel_box": [
+      "fw_conf": 0.9536,
+      "bw_conf": 0.9517,
+      "fw_squareness": 0.9712,
+      "bw_squareness": 0.9236,
+      "wheel_size_ratio": 0.9635,
+      "fw_box": [
         272,
         276,
         415,
         415
       ],
-      "back_wheel_box": [
+      "bw_box": [
         476,
         264,
         609,
@@ -7092,18 +7092,18 @@
       "frame_idx": 1745,
       "timestamp": 29.0992,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001745.jpg",
-      "front_wheel_conf": 0.9497,
-      "back_wheel_conf": 0.9563,
-      "front_squareness": 0.9638,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9851,
-      "front_wheel_box": [
+      "fw_conf": 0.9497,
+      "bw_conf": 0.9563,
+      "fw_squareness": 0.9638,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9851,
+      "fw_box": [
         268,
         276,
         411,
         414
       ],
-      "back_wheel_box": [
+      "bw_box": [
         472,
         264,
         607,
@@ -7120,18 +7120,18 @@
       "frame_idx": 1746,
       "timestamp": 29.1159,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001746.jpg",
-      "front_wheel_conf": 0.9509,
-      "back_wheel_conf": 0.9578,
-      "front_squareness": 0.9786,
-      "back_squareness": 0.9444,
-      "size_match_ratio": 0.9782,
-      "front_wheel_box": [
+      "fw_conf": 0.9509,
+      "bw_conf": 0.9578,
+      "fw_squareness": 0.9786,
+      "bw_squareness": 0.9444,
+      "wheel_size_ratio": 0.9782,
+      "fw_box": [
         266,
         274,
         409,
         414
       ],
-      "back_wheel_box": [
+      "bw_box": [
         469,
         264,
         605,
@@ -7148,18 +7148,18 @@
       "frame_idx": 1747,
       "timestamp": 29.1326,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001747.jpg",
-      "front_wheel_conf": 0.9553,
-      "back_wheel_conf": 0.9588,
-      "front_squareness": 0.9857,
-      "back_squareness": 0.9452,
-      "size_match_ratio": 0.9867,
-      "front_wheel_box": [
+      "fw_conf": 0.9553,
+      "bw_conf": 0.9588,
+      "fw_squareness": 0.9857,
+      "bw_squareness": 0.9452,
+      "wheel_size_ratio": 0.9867,
+      "fw_box": [
         263,
         274,
         405,
         414
       ],
-      "back_wheel_box": [
+      "bw_box": [
         466,
         263,
         604,
@@ -7176,18 +7176,18 @@
       "frame_idx": 1748,
       "timestamp": 29.1493,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001748.jpg",
-      "front_wheel_conf": 0.9576,
-      "back_wheel_conf": 0.9478,
-      "front_squareness": 0.9857,
-      "back_squareness": 0.9456,
-      "size_match_ratio": 0.9729,
-      "front_wheel_box": [
+      "fw_conf": 0.9576,
+      "bw_conf": 0.9478,
+      "fw_squareness": 0.9857,
+      "bw_squareness": 0.9456,
+      "wheel_size_ratio": 0.9729,
+      "fw_box": [
         260,
         274,
         402,
         414
       ],
-      "back_wheel_box": [
+      "bw_box": [
         464,
         263,
         603,
@@ -7204,18 +7204,18 @@
       "frame_idx": 1749,
       "timestamp": 29.1659,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001749.jpg",
-      "front_wheel_conf": 0.9617,
-      "back_wheel_conf": 0.9547,
-      "front_squareness": 0.9928,
-      "back_squareness": 0.9527,
-      "size_match_ratio": 0.9325,
-      "front_wheel_box": [
+      "fw_conf": 0.9617,
+      "bw_conf": 0.9547,
+      "fw_squareness": 0.9928,
+      "bw_squareness": 0.9527,
+      "wheel_size_ratio": 0.9325,
+      "fw_box": [
         257,
         274,
         397,
         413
       ],
-      "back_wheel_box": [
+      "bw_box": [
         460,
         262,
         601,
@@ -7232,18 +7232,18 @@
       "frame_idx": 1750,
       "timestamp": 29.1826,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001750.jpg",
-      "front_wheel_conf": 0.9562,
-      "back_wheel_conf": 0.9537,
-      "front_squareness": 0.9784,
-      "back_squareness": 0.9597,
-      "size_match_ratio": 0.9264,
-      "front_wheel_box": [
+      "fw_conf": 0.9562,
+      "bw_conf": 0.9537,
+      "fw_squareness": 0.9784,
+      "bw_squareness": 0.9597,
+      "wheel_size_ratio": 0.9264,
+      "fw_box": [
         254,
         274,
         396,
         413
       ],
-      "back_wheel_box": [
+      "bw_box": [
         456,
         262,
         599,
@@ -7260,18 +7260,18 @@
       "frame_idx": 1751,
       "timestamp": 29.1993,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001751.jpg",
-      "front_wheel_conf": 0.9538,
-      "back_wheel_conf": 0.9535,
-      "front_squareness": 0.9929,
-      "back_squareness": 0.9597,
-      "size_match_ratio": 0.9265,
-      "front_wheel_box": [
+      "fw_conf": 0.9538,
+      "bw_conf": 0.9535,
+      "fw_squareness": 0.9929,
+      "bw_squareness": 0.9597,
+      "wheel_size_ratio": 0.9265,
+      "fw_box": [
         252,
         272,
         393,
         412
       ],
-      "back_wheel_box": [
+      "bw_box": [
         453,
         262,
         596,
@@ -7288,18 +7288,18 @@
       "frame_idx": 1752,
       "timestamp": 29.216,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001752.jpg",
-      "front_wheel_conf": 0.9536,
-      "back_wheel_conf": 0.9046,
-      "front_squareness": 0.9856,
-      "back_squareness": 0.9732,
-      "size_match_ratio": 0.9072,
-      "front_wheel_box": [
+      "fw_conf": 0.9536,
+      "bw_conf": 0.9046,
+      "fw_squareness": 0.9856,
+      "bw_squareness": 0.9732,
+      "wheel_size_ratio": 0.9072,
+      "fw_box": [
         248,
         272,
         389,
         411
       ],
-      "back_wheel_box": [
+      "bw_box": [
         449,
         262,
         594,
@@ -7316,18 +7316,18 @@
       "frame_idx": 1753,
       "timestamp": 29.2326,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001753.jpg",
-      "front_wheel_conf": 0.9537,
-      "back_wheel_conf": 0.955,
-      "front_squareness": 0.9781,
-      "back_squareness": 0.96,
-      "size_match_ratio": 0.888,
-      "front_wheel_box": [
+      "fw_conf": 0.9537,
+      "bw_conf": 0.955,
+      "fw_squareness": 0.9781,
+      "bw_squareness": 0.96,
+      "wheel_size_ratio": 0.888,
+      "fw_box": [
         246,
         272,
         386,
         409
       ],
-      "back_wheel_box": [
+      "bw_box": [
         445,
         262,
         589,
@@ -7344,18 +7344,18 @@
       "frame_idx": 1754,
       "timestamp": 29.2493,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001754.jpg",
-      "front_wheel_conf": 0.9562,
-      "back_wheel_conf": 0.9544,
-      "front_squareness": 0.9779,
-      "back_squareness": 0.96,
-      "size_match_ratio": 0.8752,
-      "front_wheel_box": [
+      "fw_conf": 0.9562,
+      "bw_conf": 0.9544,
+      "fw_squareness": 0.9779,
+      "bw_squareness": 0.96,
+      "wheel_size_ratio": 0.8752,
+      "fw_box": [
         244,
         272,
         383,
         408
       ],
-      "back_wheel_box": [
+      "bw_box": [
         442,
         262,
         586,
@@ -7372,18 +7372,18 @@
       "frame_idx": 1755,
       "timestamp": 29.266,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001755.jpg",
-      "front_wheel_conf": 0.9604,
-      "back_wheel_conf": 0.958,
-      "front_squareness": 0.9779,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.8691,
-      "front_wheel_box": [
+      "fw_conf": 0.9604,
+      "bw_conf": 0.958,
+      "fw_squareness": 0.9779,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.8691,
+      "fw_box": [
         241,
         271,
         380,
         407
       ],
-      "back_wheel_box": [
+      "bw_box": [
         438,
         262,
         583,
@@ -7400,18 +7400,18 @@
       "frame_idx": 1756,
       "timestamp": 29.2827,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001756.jpg",
-      "front_wheel_conf": 0.963,
-      "back_wheel_conf": 0.9565,
-      "front_squareness": 0.9852,
-      "back_squareness": 0.9533,
-      "size_match_ratio": 0.8622,
-      "front_wheel_box": [
+      "fw_conf": 0.963,
+      "bw_conf": 0.9565,
+      "fw_squareness": 0.9852,
+      "bw_squareness": 0.9533,
+      "wheel_size_ratio": 0.8622,
+      "fw_box": [
         239,
         271,
         376,
         406
       ],
-      "back_wheel_box": [
+      "bw_box": [
         436,
         262,
         579,
@@ -7428,18 +7428,18 @@
       "frame_idx": 1757,
       "timestamp": 29.2994,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001757.jpg",
-      "front_wheel_conf": 0.9608,
-      "back_wheel_conf": 0.9559,
-      "front_squareness": 0.985,
-      "back_squareness": 0.96,
-      "size_match_ratio": 0.8313,
-      "front_wheel_box": [
+      "fw_conf": 0.9608,
+      "bw_conf": 0.9559,
+      "fw_squareness": 0.985,
+      "bw_squareness": 0.96,
+      "wheel_size_ratio": 0.8313,
+      "fw_box": [
         238,
         271,
         373,
         404
       ],
-      "back_wheel_box": [
+      "bw_box": [
         433,
         262,
         577,
@@ -7456,18 +7456,18 @@
       "frame_idx": 1758,
       "timestamp": 29.316,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001758.jpg",
-      "front_wheel_conf": 0.9613,
-      "back_wheel_conf": 0.9546,
-      "front_squareness": 0.9771,
-      "back_squareness": 0.9463,
-      "size_match_ratio": 0.8355,
-      "front_wheel_box": [
+      "fw_conf": 0.9613,
+      "bw_conf": 0.9546,
+      "fw_squareness": 0.9771,
+      "bw_squareness": 0.9463,
+      "wheel_size_ratio": 0.8355,
+      "fw_box": [
         237,
         271,
         371,
         402
       ],
-      "back_wheel_box": [
+      "bw_box": [
         432,
         262,
         573,
@@ -7484,18 +7484,18 @@
       "frame_idx": 1759,
       "timestamp": 29.3327,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001759.jpg",
-      "front_wheel_conf": 0.959,
-      "back_wheel_conf": 0.9598,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9396,
-      "size_match_ratio": 0.8353,
-      "front_wheel_box": [
+      "fw_conf": 0.959,
+      "bw_conf": 0.9598,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9396,
+      "wheel_size_ratio": 0.8353,
+      "fw_box": [
         237,
         269,
         369,
         401
       ],
-      "back_wheel_box": [
+      "bw_box": [
         429,
         262,
         569,
@@ -7512,18 +7512,18 @@
       "frame_idx": 1760,
       "timestamp": 29.3494,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001760.jpg",
-      "front_wheel_conf": 0.9519,
-      "back_wheel_conf": 0.9447,
-      "front_squareness": 0.9924,
-      "back_squareness": 0.9396,
-      "size_match_ratio": 0.8164,
-      "front_wheel_box": [
+      "fw_conf": 0.9519,
+      "bw_conf": 0.9447,
+      "fw_squareness": 0.9924,
+      "bw_squareness": 0.9396,
+      "wheel_size_ratio": 0.8164,
+      "fw_box": [
         236,
         268,
         366,
         399
       ],
-      "back_wheel_box": [
+      "bw_box": [
         426,
         262,
         566,
@@ -7540,18 +7540,18 @@
       "frame_idx": 1761,
       "timestamp": 29.3661,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001761.jpg",
-      "front_wheel_conf": 0.9504,
-      "back_wheel_conf": 0.9578,
-      "front_squareness": 0.9773,
-      "back_squareness": 0.9257,
-      "size_match_ratio": 0.8398,
-      "front_wheel_box": [
+      "fw_conf": 0.9504,
+      "bw_conf": 0.9578,
+      "fw_squareness": 0.9773,
+      "bw_squareness": 0.9257,
+      "wheel_size_ratio": 0.8398,
+      "fw_box": [
         235,
         267,
         364,
         399
       ],
-      "back_wheel_box": [
+      "bw_box": [
         425,
         263,
         562,
@@ -7568,18 +7568,18 @@
       "frame_idx": 1762,
       "timestamp": 29.3827,
       "frame_file": "output_v2/liamb60/liamb60_selected_frames/frame_001762.jpg",
-      "front_wheel_conf": 0.9496,
-      "back_wheel_conf": 0.9577,
-      "front_squareness": 0.9771,
-      "back_squareness": 0.9324,
-      "size_match_ratio": 0.821,
-      "front_wheel_box": [
+      "fw_conf": 0.9496,
+      "bw_conf": 0.9577,
+      "fw_squareness": 0.9771,
+      "bw_squareness": 0.9324,
+      "wheel_size_ratio": 0.821,
+      "fw_box": [
         235,
         267,
         363,
         398
       ],
-      "back_wheel_box": [
+      "bw_box": [
         421,
         262,
         559,
@@ -7597,29 +7597,29 @@
     {
       "burst_id": 0,
       "quality_score": 14.8466,
-      "frame_idx_start": 617,
-      "frame_idx_end": 636,
+      "start_frame_idx": 617,
+      "end_frame_idx": 636,
       "frame_count": 20
     },
     {
       "burst_id": 1,
       "quality_score": 17.0041,
-      "frame_idx_start": 869,
-      "frame_idx_end": 977,
+      "start_frame_idx": 869,
+      "end_frame_idx": 977,
       "frame_count": 109
     },
     {
       "burst_id": 2,
       "quality_score": 20.5458,
-      "frame_idx_start": 1039,
-      "frame_idx_end": 1148,
+      "start_frame_idx": 1039,
+      "end_frame_idx": 1148,
       "frame_count": 110
     },
     {
       "burst_id": 3,
       "quality_score": 21.7649,
-      "frame_idx_start": 1731,
-      "frame_idx_end": 1762,
+      "start_frame_idx": 1731,
+      "end_frame_idx": 1762,
       "frame_count": 32
     }
   ],
@@ -7630,6 +7630,6 @@
     "bursts_selected": 4,
     "selection_rate": 0.1482,
     "avg_confidence": 0.9134,
-    "elapsed_sec": 92.01
+    "elapsed_sec": 89.85
   }
 }

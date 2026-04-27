@@ -2,26 +2,24 @@
   "video": "videos/dervlab60.MP4",
   "direction": "left",
   "knee_used": "left",
-  "cadence_rpm": 83.7,
-  "cycle_count": 4,
+  "cadence_rpm": 67.3,
+  "cycle_count": 3,
   "cycle_timestamps": [
     22.5619,
     23.946,
-    24.3462,
-    24.7131
+    24.3462
   ],
   "cycle_periods_sec": [
     1.3841,
-    0.4002,
-    0.3669
+    0.4002
   ],
-  "std_dev_rpm": 97.1,
+  "std_dev_rpm": 53.3,
   "rpm_method": "peak_detection",
   "per_run_rpms": [
     {
       "run_id": 1,
-      "rpm": 83.7,
-      "peak_count": 4
+      "rpm": 67.3,
+      "peak_count": 3
     }
   ],
   "best_run": {
@@ -36,7 +34,7 @@
     "frames_in_best_run": 102,
     "total_runs": 2,
     "usable_runs": 1,
-    "peaks_found": 5,
+    "peaks_found": 4,
     "time_span_sec": 5.92
   },
   "angle_series": [
@@ -588,7 +586,6 @@
   "peak_timestamps": [
     22.5619,
     23.946,
-    24.3462,
-    24.7131
+    24.3462
   ]
 }

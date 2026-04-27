@@ -178,11 +178,6 @@
           "frame_idx": 1460,
           "timestamp": 24.3462,
           "angle": 160.01
-        },
-        {
-          "frame_idx": 1482,
-          "timestamp": 24.7131,
-          "angle": 137.33
         }
       ],
       "peak_method": "peak_detection",
@@ -626,11 +621,6 @@
       "frame_idx": 1460,
       "timestamp": 24.3462,
       "angle": 160.01
-    },
-    {
-      "frame_idx": 1482,
-      "timestamp": 24.7131,
-      "angle": 137.33
     }
   ],
   "peak_method": "peak_detection",
@@ -1185,7 +1175,7 @@
     "frames_with_angle": 136,
     "total_runs": 2,
     "usable_runs": 1,
-    "peaks_found": 5,
+    "peaks_found": 4,
     "time_span_sec": 5.92
   }
 }

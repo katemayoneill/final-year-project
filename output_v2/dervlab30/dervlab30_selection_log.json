@@ -8,18 +8,18 @@
       "frame_idx": 160,
       "timestamp": 2.6681,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000160.jpg",
-      "front_wheel_conf": 0.8591,
-      "back_wheel_conf": 0.8723,
-      "front_squareness": 1.0,
-      "back_squareness": 0.8529,
-      "size_match_ratio": 0.9746,
-      "front_wheel_box": [
+      "fw_conf": 0.8591,
+      "bw_conf": 0.8723,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.8529,
+      "wheel_size_ratio": 0.9746,
+      "fw_box": [
         691,
         223,
         722,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         731,
         224,
         760,
@@ -36,18 +36,18 @@
       "frame_idx": 161,
       "timestamp": 2.6847,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000161.jpg",
-      "front_wheel_conf": 0.8897,
-      "back_wheel_conf": 0.862,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.8529,
-      "size_match_ratio": 0.9432,
-      "front_wheel_box": [
+      "fw_conf": 0.8897,
+      "bw_conf": 0.862,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.8529,
+      "wheel_size_ratio": 0.9432,
+      "fw_box": [
         691,
         223,
         721,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         731,
         224,
         760,
@@ -64,18 +64,18 @@
       "frame_idx": 162,
       "timestamp": 2.7014,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000162.jpg",
-      "front_wheel_conf": 0.8938,
-      "back_wheel_conf": 0.8799,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.8529,
-      "size_match_ratio": 0.9432,
-      "front_wheel_box": [
+      "fw_conf": 0.8938,
+      "bw_conf": 0.8799,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.8529,
+      "wheel_size_ratio": 0.9432,
+      "fw_box": [
         691,
         223,
         721,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         730,
         224,
         759,
@@ -92,18 +92,18 @@
       "frame_idx": 163,
       "timestamp": 2.7181,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000163.jpg",
-      "front_wheel_conf": 0.8947,
-      "back_wheel_conf": 0.8971,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9394,
-      "front_wheel_box": [
+      "fw_conf": 0.8947,
+      "bw_conf": 0.8971,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9394,
+      "fw_box": [
         690,
         223,
         720,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         729,
         225,
         759,
@@ -120,18 +120,18 @@
       "frame_idx": 164,
       "timestamp": 2.7348,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000164.jpg",
-      "front_wheel_conf": 0.8949,
-      "back_wheel_conf": 0.8932,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9394,
-      "front_wheel_box": [
+      "fw_conf": 0.8949,
+      "bw_conf": 0.8932,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9394,
+      "fw_box": [
         689,
         223,
         719,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         728,
         225,
         758,
@@ -148,18 +148,18 @@
       "frame_idx": 165,
       "timestamp": 2.7514,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000165.jpg",
-      "front_wheel_conf": 0.8993,
-      "back_wheel_conf": 0.8933,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9118,
-      "size_match_ratio": 0.8824,
-      "front_wheel_box": [
+      "fw_conf": 0.8993,
+      "bw_conf": 0.8933,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9118,
+      "wheel_size_ratio": 0.8824,
+      "fw_box": [
         689,
         223,
         719,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         727,
         225,
         758,
@@ -176,18 +176,18 @@
       "frame_idx": 166,
       "timestamp": 2.7681,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000166.jpg",
-      "front_wheel_conf": 0.8996,
-      "back_wheel_conf": 0.897,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.9375,
-      "front_wheel_box": [
+      "fw_conf": 0.8996,
+      "bw_conf": 0.897,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.9375,
+      "fw_box": [
         688,
         223,
         718,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         726,
         226,
         757,
@@ -204,18 +204,18 @@
       "frame_idx": 167,
       "timestamp": 2.7848,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000167.jpg",
-      "front_wheel_conf": 0.901,
-      "back_wheel_conf": 0.9005,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.9697,
-      "size_match_ratio": 0.8513,
-      "front_wheel_box": [
+      "fw_conf": 0.901,
+      "bw_conf": 0.9005,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.9697,
+      "wheel_size_ratio": 0.8513,
+      "fw_box": [
         688,
         223,
         717,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         725,
         225,
         757,
@@ -232,18 +232,18 @@
       "frame_idx": 168,
       "timestamp": 2.8015,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000168.jpg",
-      "front_wheel_conf": 0.9019,
-      "back_wheel_conf": 0.9014,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9697,
-      "size_match_ratio": 0.8807,
-      "front_wheel_box": [
+      "fw_conf": 0.9019,
+      "bw_conf": 0.9014,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9697,
+      "wheel_size_ratio": 0.8807,
+      "fw_box": [
         687,
         223,
         717,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         724,
         225,
         756,
@@ -260,18 +260,18 @@
       "frame_idx": 169,
       "timestamp": 2.8181,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000169.jpg",
-      "front_wheel_conf": 0.913,
-      "back_wheel_conf": 0.9097,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.9697,
-      "size_match_ratio": 0.8513,
-      "front_wheel_box": [
+      "fw_conf": 0.913,
+      "bw_conf": 0.9097,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.9697,
+      "wheel_size_ratio": 0.8513,
+      "fw_box": [
         687,
         223,
         716,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         724,
         225,
         756,
@@ -288,18 +288,18 @@
       "frame_idx": 170,
       "timestamp": 2.8348,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000170.jpg",
-      "front_wheel_conf": 0.911,
-      "back_wheel_conf": 0.9067,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9091,
-      "front_wheel_box": [
+      "fw_conf": 0.911,
+      "bw_conf": 0.9067,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9091,
+      "fw_box": [
         686,
         223,
         716,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         724,
         225,
         755,
@@ -316,18 +316,18 @@
       "frame_idx": 171,
       "timestamp": 2.8515,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000171.jpg",
-      "front_wheel_conf": 0.9145,
-      "back_wheel_conf": 0.9029,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9394,
-      "front_wheel_box": [
+      "fw_conf": 0.9145,
+      "bw_conf": 0.9029,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9394,
+      "fw_box": [
         685,
         223,
         716,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         724,
         225,
         755,
@@ -344,18 +344,18 @@
       "frame_idx": 172,
       "timestamp": 2.8682,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000172.jpg",
-      "front_wheel_conf": 0.9174,
-      "back_wheel_conf": 0.9012,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9394,
-      "front_wheel_box": [
+      "fw_conf": 0.9174,
+      "bw_conf": 0.9012,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9394,
+      "fw_box": [
         685,
         223,
         715,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         724,
         225,
         754,
@@ -372,18 +372,18 @@
       "frame_idx": 173,
       "timestamp": 2.8848,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000173.jpg",
-      "front_wheel_conf": 0.9185,
-      "back_wheel_conf": 0.9015,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9707,
-      "front_wheel_box": [
+      "fw_conf": 0.9185,
+      "bw_conf": 0.9015,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9707,
+      "fw_box": [
         684,
         223,
         715,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         724,
         225,
         754,
@@ -400,18 +400,18 @@
       "frame_idx": 174,
       "timestamp": 2.9015,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000174.jpg",
-      "front_wheel_conf": 0.9182,
-      "back_wheel_conf": 0.8934,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9707,
-      "front_wheel_box": [
+      "fw_conf": 0.9182,
+      "bw_conf": 0.8934,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9707,
+      "fw_box": [
         684,
         223,
         715,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         724,
         225,
         754,
@@ -428,18 +428,18 @@
       "frame_idx": 175,
       "timestamp": 2.9182,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000175.jpg",
-      "front_wheel_conf": 0.9116,
-      "back_wheel_conf": 0.8888,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9091,
-      "size_match_ratio": 0.9091,
-      "front_wheel_box": [
+      "fw_conf": 0.9116,
+      "bw_conf": 0.8888,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9091,
+      "wheel_size_ratio": 0.9091,
+      "fw_box": [
         684,
         224,
         714,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         724,
         225,
         754,
@@ -456,18 +456,18 @@
       "frame_idx": 176,
       "timestamp": 2.9349,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000176.jpg",
-      "front_wheel_conf": 0.9158,
-      "back_wheel_conf": 0.8891,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.8788,
-      "size_match_ratio": 0.9394,
-      "front_wheel_box": [
+      "fw_conf": 0.9158,
+      "bw_conf": 0.8891,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.8788,
+      "wheel_size_ratio": 0.9394,
+      "fw_box": [
         684,
         223,
         713,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         724,
         225,
         753,
@@ -484,18 +484,18 @@
       "frame_idx": 177,
       "timestamp": 2.9515,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000177.jpg",
-      "front_wheel_conf": 0.9131,
-      "back_wheel_conf": 0.8917,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9062,
-      "size_match_ratio": 0.9978,
-      "front_wheel_box": [
+      "fw_conf": 0.9131,
+      "bw_conf": 0.8917,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9062,
+      "wheel_size_ratio": 0.9978,
+      "fw_box": [
         683,
         223,
         713,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         724,
         225,
         753,
@@ -512,18 +512,18 @@
       "frame_idx": 178,
       "timestamp": 2.9682,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000178.jpg",
-      "front_wheel_conf": 0.9105,
-      "back_wheel_conf": 0.8962,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9062,
-      "size_match_ratio": 0.9978,
-      "front_wheel_box": [
+      "fw_conf": 0.9105,
+      "bw_conf": 0.8962,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9062,
+      "wheel_size_ratio": 0.9978,
+      "fw_box": [
         683,
         223,
         713,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         724,
         225,
         753,
@@ -540,18 +540,18 @@
       "frame_idx": 179,
       "timestamp": 2.9849,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000179.jpg",
-      "front_wheel_conf": 0.9107,
-      "back_wheel_conf": 0.916,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.9977,
-      "front_wheel_box": [
+      "fw_conf": 0.9107,
+      "bw_conf": 0.916,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.9977,
+      "fw_box": [
         683,
         223,
         712,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         724,
         226,
         752,
@@ -568,18 +568,18 @@
       "frame_idx": 180,
       "timestamp": 3.0016,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000180.jpg",
-      "front_wheel_conf": 0.9031,
-      "back_wheel_conf": 0.9161,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.9644,
-      "front_wheel_box": [
+      "fw_conf": 0.9031,
+      "bw_conf": 0.9161,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.9644,
+      "fw_box": [
         682,
         223,
         712,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         724,
         226,
         752,
@@ -596,18 +596,18 @@
       "frame_idx": 181,
       "timestamp": 3.0182,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000181.jpg",
-      "front_wheel_conf": 0.8963,
-      "back_wheel_conf": 0.9133,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.9644,
-      "front_wheel_box": [
+      "fw_conf": 0.8963,
+      "bw_conf": 0.9133,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.9644,
+      "fw_box": [
         682,
         223,
         712,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         724,
         226,
         752,
@@ -624,18 +624,18 @@
       "frame_idx": 182,
       "timestamp": 3.0349,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000182.jpg",
-      "front_wheel_conf": 0.9018,
-      "back_wheel_conf": 0.917,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.9018,
+      "bw_conf": 0.917,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         681,
         223,
         712,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         723,
         226,
         752,
@@ -652,18 +652,18 @@
       "frame_idx": 183,
       "timestamp": 3.0516,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000183.jpg",
-      "front_wheel_conf": 0.9004,
-      "back_wheel_conf": 0.9106,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.9004,
+      "bw_conf": 0.9106,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         681,
         223,
         712,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         723,
         226,
         752,
@@ -680,18 +680,18 @@
       "frame_idx": 184,
       "timestamp": 3.0683,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000184.jpg",
-      "front_wheel_conf": 0.9053,
-      "back_wheel_conf": 0.9099,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9053,
+      "bw_conf": 0.9099,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         681,
         223,
         712,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         722,
         226,
         752,
@@ -708,18 +708,18 @@
       "frame_idx": 185,
       "timestamp": 3.0849,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000185.jpg",
-      "front_wheel_conf": 0.9041,
-      "back_wheel_conf": 0.9089,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9688,
-      "front_wheel_box": [
+      "fw_conf": 0.9041,
+      "bw_conf": 0.9089,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9688,
+      "fw_box": [
         681,
         223,
         712,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         722,
         226,
         752,
@@ -736,18 +736,18 @@
       "frame_idx": 186,
       "timestamp": 3.1016,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000186.jpg",
-      "front_wheel_conf": 0.7445,
-      "back_wheel_conf": 0.9087,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9375,
-      "front_wheel_box": [
+      "fw_conf": 0.7445,
+      "bw_conf": 0.9087,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9375,
+      "fw_box": [
         681,
         223,
         711,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         722,
         226,
         752,
@@ -764,18 +764,18 @@
       "frame_idx": 187,
       "timestamp": 3.1183,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000187.jpg",
-      "front_wheel_conf": 0.8368,
-      "back_wheel_conf": 0.9052,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9375,
-      "front_wheel_box": [
+      "fw_conf": 0.8368,
+      "bw_conf": 0.9052,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9375,
+      "fw_box": [
         681,
         223,
         711,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         722,
         226,
         752,
@@ -792,18 +792,18 @@
       "frame_idx": 188,
       "timestamp": 3.135,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000188.jpg",
-      "front_wheel_conf": 0.8719,
-      "back_wheel_conf": 0.9083,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9375,
-      "front_wheel_box": [
+      "fw_conf": 0.8719,
+      "bw_conf": 0.9083,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9375,
+      "fw_box": [
         681,
         223,
         711,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         722,
         226,
         752,
@@ -820,18 +820,18 @@
       "frame_idx": 189,
       "timestamp": 3.1516,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000189.jpg",
-      "front_wheel_conf": 0.8466,
-      "back_wheel_conf": 0.9091,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8466,
+      "bw_conf": 0.9091,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         681,
         223,
         711,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         722,
         227,
         752,
@@ -848,18 +848,18 @@
       "frame_idx": 190,
       "timestamp": 3.1683,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000190.jpg",
-      "front_wheel_conf": 0.8661,
-      "back_wheel_conf": 0.9124,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9365,
-      "front_wheel_box": [
+      "fw_conf": 0.8661,
+      "bw_conf": 0.9124,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9365,
+      "fw_box": [
         681,
         223,
         711,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         721,
         227,
         752,
@@ -876,18 +876,18 @@
       "frame_idx": 191,
       "timestamp": 3.185,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000191.jpg",
-      "front_wheel_conf": 0.8138,
-      "back_wheel_conf": 0.9167,
-      "front_squareness": 0.9667,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.8138,
+      "bw_conf": 0.9167,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         681,
         223,
         712,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         722,
         227,
         752,
@@ -904,18 +904,18 @@
       "frame_idx": 192,
       "timestamp": 3.2017,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000192.jpg",
-      "front_wheel_conf": 0.9023,
-      "back_wheel_conf": 0.9134,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9023,
+      "bw_conf": 0.9134,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         681,
         223,
         712,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         721,
         227,
         752,
@@ -932,18 +932,18 @@
       "frame_idx": 193,
       "timestamp": 3.2183,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000193.jpg",
-      "front_wheel_conf": 0.9043,
-      "back_wheel_conf": 0.9226,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9043,
+      "bw_conf": 0.9226,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         681,
         223,
         712,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         722,
         227,
         753,
@@ -960,18 +960,18 @@
       "frame_idx": 194,
       "timestamp": 3.235,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000194.jpg",
-      "front_wheel_conf": 0.9024,
-      "back_wheel_conf": 0.9261,
-      "front_squareness": 0.9667,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.9024,
+      "bw_conf": 0.9261,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         681,
         223,
         712,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         722,
         227,
         753,
@@ -988,18 +988,18 @@
       "frame_idx": 195,
       "timestamp": 3.2517,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000195.jpg",
-      "front_wheel_conf": 0.9034,
-      "back_wheel_conf": 0.9284,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.9034,
+      "bw_conf": 0.9284,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         681,
         223,
         712,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         722,
         227,
         753,
@@ -1016,18 +1016,18 @@
       "frame_idx": 196,
       "timestamp": 3.2684,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000196.jpg",
-      "front_wheel_conf": 0.8992,
-      "back_wheel_conf": 0.9277,
-      "front_squareness": 0.9655,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.9355,
-      "front_wheel_box": [
+      "fw_conf": 0.8992,
+      "bw_conf": 0.9277,
+      "fw_squareness": 0.9655,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.9355,
+      "fw_box": [
         682,
         224,
         712,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         723,
         227,
         754,
@@ -1044,18 +1044,18 @@
       "frame_idx": 197,
       "timestamp": 3.285,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000197.jpg",
-      "front_wheel_conf": 0.8962,
-      "back_wheel_conf": 0.9264,
-      "front_squareness": 0.931,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.8962,
+      "bw_conf": 0.9264,
+      "fw_squareness": 0.931,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         682,
         224,
         713,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         723,
         227,
         754,
@@ -1072,18 +1072,18 @@
       "frame_idx": 198,
       "timestamp": 3.3017,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000198.jpg",
-      "front_wheel_conf": 0.8933,
-      "back_wheel_conf": 0.9213,
-      "front_squareness": 0.931,
-      "back_squareness": 0.9,
-      "size_match_ratio": 0.9081,
-      "front_wheel_box": [
+      "fw_conf": 0.8933,
+      "bw_conf": 0.9213,
+      "fw_squareness": 0.931,
+      "bw_squareness": 0.9,
+      "wheel_size_ratio": 0.9081,
+      "fw_box": [
         682,
         224,
         713,
         253
       ],
-      "back_wheel_box": [
+      "bw_box": [
         722,
         227,
         755,
@@ -1100,18 +1100,18 @@
       "frame_idx": 199,
       "timestamp": 3.3184,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000199.jpg",
-      "front_wheel_conf": 0.8898,
-      "back_wheel_conf": 0.9187,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 0.9073,
-      "front_wheel_box": [
+      "fw_conf": 0.8898,
+      "bw_conf": 0.9187,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 0.9073,
+      "fw_box": [
         683,
         224,
         713,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         723,
         226,
         755,
@@ -1128,18 +1128,18 @@
       "frame_idx": 200,
       "timestamp": 3.3351,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000200.jpg",
-      "front_wheel_conf": 0.8883,
-      "back_wheel_conf": 0.9161,
-      "front_squareness": 0.9655,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.8504,
-      "front_wheel_box": [
+      "fw_conf": 0.8883,
+      "bw_conf": 0.9161,
+      "fw_squareness": 0.9655,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.8504,
+      "fw_box": [
         683,
         225,
         713,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         723,
         226,
         756,
@@ -1156,18 +1156,18 @@
       "frame_idx": 201,
       "timestamp": 3.3518,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000201.jpg",
-      "front_wheel_conf": 0.8856,
-      "back_wheel_conf": 0.9134,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9333,
-      "size_match_ratio": 0.9688,
-      "front_wheel_box": [
+      "fw_conf": 0.8856,
+      "bw_conf": 0.9134,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9333,
+      "wheel_size_ratio": 0.9688,
+      "fw_box": [
         683,
         224,
         714,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         724,
         227,
         756,
@@ -1184,18 +1184,18 @@
       "frame_idx": 202,
       "timestamp": 3.3684,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000202.jpg",
-      "front_wheel_conf": 0.892,
-      "back_wheel_conf": 0.9162,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9091,
-      "front_wheel_box": [
+      "fw_conf": 0.892,
+      "bw_conf": 0.9162,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9091,
+      "fw_box": [
         683,
         224,
         714,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         724,
         226,
         757,
@@ -1212,18 +1212,18 @@
       "frame_idx": 203,
       "timestamp": 3.3851,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000203.jpg",
-      "front_wheel_conf": 0.8983,
-      "back_wheel_conf": 0.9177,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 0.9375,
-      "front_wheel_box": [
+      "fw_conf": 0.8983,
+      "bw_conf": 0.9177,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 0.9375,
+      "fw_box": [
         684,
         224,
         715,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         725,
         226,
         757,
@@ -1240,18 +1240,18 @@
       "frame_idx": 204,
       "timestamp": 3.4018,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000204.jpg",
-      "front_wheel_conf": 0.9035,
-      "back_wheel_conf": 0.9171,
-      "front_squareness": 0.931,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.8788,
-      "front_wheel_box": [
+      "fw_conf": 0.9035,
+      "bw_conf": 0.9171,
+      "fw_squareness": 0.931,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.8788,
+      "fw_box": [
         684,
         225,
         715,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         725,
         226,
         758,
@@ -1268,18 +1268,18 @@
       "frame_idx": 205,
       "timestamp": 3.4185,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000205.jpg",
-      "front_wheel_conf": 0.8971,
-      "back_wheel_conf": 0.9177,
-      "front_squareness": 0.9333,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9384,
-      "front_wheel_box": [
+      "fw_conf": 0.8971,
+      "bw_conf": 0.9177,
+      "fw_squareness": 0.9333,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9384,
+      "fw_box": [
         684,
         224,
         716,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         725,
         227,
         758,
@@ -1296,18 +1296,18 @@
       "frame_idx": 206,
       "timestamp": 3.4351,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000206.jpg",
-      "front_wheel_conf": 0.9108,
-      "back_wheel_conf": 0.919,
-      "front_squareness": 0.9333,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9384,
-      "front_wheel_box": [
+      "fw_conf": 0.9108,
+      "bw_conf": 0.919,
+      "fw_squareness": 0.9333,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9384,
+      "fw_box": [
         684,
         224,
         716,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         726,
         227,
         759,
@@ -1324,18 +1324,18 @@
       "frame_idx": 207,
       "timestamp": 3.4518,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000207.jpg",
-      "front_wheel_conf": 0.9117,
-      "back_wheel_conf": 0.9153,
-      "front_squareness": 0.9333,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9384,
-      "front_wheel_box": [
+      "fw_conf": 0.9117,
+      "bw_conf": 0.9153,
+      "fw_squareness": 0.9333,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9384,
+      "fw_box": [
         684,
         224,
         716,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         727,
         227,
         760,
@@ -1352,18 +1352,18 @@
       "frame_idx": 208,
       "timestamp": 3.4685,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000208.jpg",
-      "front_wheel_conf": 0.9158,
-      "back_wheel_conf": 0.9167,
-      "front_squareness": 0.8966,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9071,
-      "front_wheel_box": [
+      "fw_conf": 0.9158,
+      "bw_conf": 0.9167,
+      "fw_squareness": 0.8966,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9071,
+      "fw_box": [
         685,
         225,
         717,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         727,
         227,
         760,
@@ -1380,18 +1380,18 @@
       "frame_idx": 209,
       "timestamp": 3.4852,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000209.jpg",
-      "front_wheel_conf": 0.9119,
-      "back_wheel_conf": 0.9111,
-      "front_squareness": 0.9333,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.9091,
-      "front_wheel_box": [
+      "fw_conf": 0.9119,
+      "bw_conf": 0.9111,
+      "fw_squareness": 0.9333,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.9091,
+      "fw_box": [
         685,
         224,
         717,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         727,
         226,
         760,
@@ -1408,18 +1408,18 @@
       "frame_idx": 210,
       "timestamp": 3.5018,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000210.jpg",
-      "front_wheel_conf": 0.9116,
-      "back_wheel_conf": 0.9135,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.9394,
-      "front_wheel_box": [
+      "fw_conf": 0.9116,
+      "bw_conf": 0.9135,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.9394,
+      "fw_box": [
         685,
         224,
         717,
         255
       ],
-      "back_wheel_box": [
+      "bw_box": [
         728,
         227,
         761,
@@ -1436,18 +1436,18 @@
       "frame_idx": 211,
       "timestamp": 3.5185,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000211.jpg",
-      "front_wheel_conf": 0.9158,
-      "back_wheel_conf": 0.9144,
-      "front_squareness": 0.9677,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9688,
-      "front_wheel_box": [
+      "fw_conf": 0.9158,
+      "bw_conf": 0.9144,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9688,
+      "fw_box": [
         686,
         224,
         718,
         255
       ],
-      "back_wheel_box": [
+      "bw_box": [
         730,
         227,
         761,
@@ -1464,18 +1464,18 @@
       "frame_idx": 212,
       "timestamp": 3.5352,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000212.jpg",
-      "front_wheel_conf": 0.9235,
-      "back_wheel_conf": 0.9062,
-      "front_squareness": 0.9333,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.9235,
+      "bw_conf": 0.9062,
+      "fw_squareness": 0.9333,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         686,
         225,
         718,
         255
       ],
-      "back_wheel_box": [
+      "bw_box": [
         730,
         227,
         762,
@@ -1492,18 +1492,18 @@
       "frame_idx": 213,
       "timestamp": 3.5519,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000213.jpg",
-      "front_wheel_conf": 0.9241,
-      "back_wheel_conf": 0.9037,
-      "front_squareness": 0.9333,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 0.9677,
-      "front_wheel_box": [
+      "fw_conf": 0.9241,
+      "bw_conf": 0.9037,
+      "fw_squareness": 0.9333,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 0.9677,
+      "fw_box": [
         687,
         225,
         719,
         255
       ],
-      "back_wheel_box": [
+      "bw_box": [
         730,
         227,
         762,
@@ -1520,18 +1520,18 @@
       "frame_idx": 214,
       "timestamp": 3.5685,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000214.jpg",
-      "front_wheel_conf": 0.9248,
-      "back_wheel_conf": 0.8804,
-      "front_squareness": 0.9286,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.8741,
-      "front_wheel_box": [
+      "fw_conf": 0.9248,
+      "bw_conf": 0.8804,
+      "fw_squareness": 0.9286,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.8741,
+      "fw_box": [
         688,
         226,
         718,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         731,
         227,
         762,
@@ -1548,18 +1548,18 @@
       "frame_idx": 215,
       "timestamp": 3.5852,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000215.jpg",
-      "front_wheel_conf": 0.9207,
-      "back_wheel_conf": 0.9203,
-      "front_squareness": 0.8929,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 0.875,
-      "front_wheel_box": [
+      "fw_conf": 0.9207,
+      "bw_conf": 0.9203,
+      "fw_squareness": 0.8929,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 0.875,
+      "fw_box": [
         688,
         226,
         719,
         254
       ],
-      "back_wheel_box": [
+      "bw_box": [
         731,
         228,
         763,
@@ -1571,18 +1571,18 @@
       "frame_idx": 252,
       "timestamp": 4.2022,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000252.jpg",
-      "front_wheel_conf": 0.9008,
-      "back_wheel_conf": 0.9261,
-      "front_squareness": 0.931,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.8529,
-      "front_wheel_box": [
+      "fw_conf": 0.9008,
+      "bw_conf": 0.9261,
+      "fw_squareness": 0.931,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.8529,
+      "fw_box": [
         718,
         229,
         749,
         258
       ],
-      "back_wheel_box": [
+      "bw_box": [
         762,
         231,
         796,
@@ -1599,18 +1599,18 @@
       "frame_idx": 253,
       "timestamp": 4.2189,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000253.jpg",
-      "front_wheel_conf": 0.8876,
-      "back_wheel_conf": 0.9117,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.8539,
-      "front_wheel_box": [
+      "fw_conf": 0.8876,
+      "bw_conf": 0.9117,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.8539,
+      "fw_box": [
         720,
         229,
         750,
         259
       ],
-      "back_wheel_box": [
+      "bw_box": [
         764,
         231,
         798,
@@ -1627,18 +1627,18 @@
       "frame_idx": 254,
       "timestamp": 4.2355,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000254.jpg",
-      "front_wheel_conf": 0.8856,
-      "back_wheel_conf": 0.9151,
-      "front_squareness": 0.9655,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.8239,
-      "front_wheel_box": [
+      "fw_conf": 0.8856,
+      "bw_conf": 0.9151,
+      "fw_squareness": 0.9655,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.8239,
+      "fw_box": [
         721,
         230,
         751,
         259
       ],
-      "back_wheel_box": [
+      "bw_box": [
         766,
         230,
         799,
@@ -1655,18 +1655,18 @@
       "frame_idx": 255,
       "timestamp": 4.2522,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000255.jpg",
-      "front_wheel_conf": 0.8795,
-      "back_wheel_conf": 0.9152,
-      "front_squareness": 0.9655,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.8239,
-      "front_wheel_box": [
+      "fw_conf": 0.8795,
+      "bw_conf": 0.9152,
+      "fw_squareness": 0.9655,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.8239,
+      "fw_box": [
         722,
         230,
         752,
         259
       ],
-      "back_wheel_box": [
+      "bw_box": [
         767,
         230,
         800,
@@ -1683,18 +1683,18 @@
       "frame_idx": 256,
       "timestamp": 4.2689,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000256.jpg",
-      "front_wheel_conf": 0.888,
-      "back_wheel_conf": 0.9158,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9697,
-      "size_match_ratio": 0.8021,
-      "front_wheel_box": [
+      "fw_conf": 0.888,
+      "bw_conf": 0.9158,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9697,
+      "wheel_size_ratio": 0.8021,
+      "fw_box": [
         723,
         229,
         753,
         259
       ],
-      "back_wheel_box": [
+      "bw_box": [
         767,
         230,
         801,
@@ -1711,18 +1711,18 @@
       "frame_idx": 257,
       "timestamp": 4.2856,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000257.jpg",
-      "front_wheel_conf": 0.8824,
-      "back_wheel_conf": 0.9126,
-      "front_squareness": 0.9667,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.854,
-      "front_wheel_box": [
+      "fw_conf": 0.8824,
+      "bw_conf": 0.9126,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.854,
+      "fw_box": [
         724,
         229,
         755,
         259
       ],
-      "back_wheel_box": [
+      "bw_box": [
         769,
         230,
         802,
@@ -1739,18 +1739,18 @@
       "frame_idx": 258,
       "timestamp": 4.3022,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000258.jpg",
-      "front_wheel_conf": 0.877,
-      "back_wheel_conf": 0.8961,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.8825,
-      "front_wheel_box": [
+      "fw_conf": 0.877,
+      "bw_conf": 0.8961,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.8825,
+      "fw_box": [
         725,
         228,
         756,
         259
       ],
-      "back_wheel_box": [
+      "bw_box": [
         770,
         230,
         803,
@@ -1767,18 +1767,18 @@
       "frame_idx": 259,
       "timestamp": 4.3189,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000259.jpg",
-      "front_wheel_conf": 0.895,
-      "back_wheel_conf": 0.9037,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.9688,
-      "front_wheel_box": [
+      "fw_conf": 0.895,
+      "bw_conf": 0.9037,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.9688,
+      "fw_box": [
         727,
         229,
         758,
         260
       ],
-      "back_wheel_box": [
+      "bw_box": [
         773,
         230,
         804,
@@ -1795,18 +1795,18 @@
       "frame_idx": 260,
       "timestamp": 4.3356,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000260.jpg",
-      "front_wheel_conf": 0.9003,
-      "back_wheel_conf": 0.9228,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.999,
-      "front_wheel_box": [
+      "fw_conf": 0.9003,
+      "bw_conf": 0.9228,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.999,
+      "fw_box": [
         728,
         229,
         759,
         260
       ],
-      "back_wheel_box": [
+      "bw_box": [
         775,
         231,
         805,
@@ -1823,18 +1823,18 @@
       "frame_idx": 261,
       "timestamp": 4.3523,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000261.jpg",
-      "front_wheel_conf": 0.8995,
-      "back_wheel_conf": 0.9116,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8995,
+      "bw_conf": 0.9116,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         730,
         230,
         761,
         260
       ],
-      "back_wheel_box": [
+      "bw_box": [
         777,
         232,
         807,
@@ -1851,18 +1851,18 @@
       "frame_idx": 262,
       "timestamp": 4.3689,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000262.jpg",
-      "front_wheel_conf": 0.8928,
-      "back_wheel_conf": 0.9076,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9667,
-      "front_wheel_box": [
+      "fw_conf": 0.8928,
+      "bw_conf": 0.9076,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9667,
+      "fw_box": [
         732,
         230,
         762,
         261
       ],
-      "back_wheel_box": [
+      "bw_box": [
         780,
         232,
         809,
@@ -1879,18 +1879,18 @@
       "frame_idx": 263,
       "timestamp": 4.3856,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000263.jpg",
-      "front_wheel_conf": 0.8579,
-      "back_wheel_conf": 0.899,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9667,
-      "size_match_ratio": 0.877,
-      "front_wheel_box": [
+      "fw_conf": 0.8579,
+      "bw_conf": 0.899,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9667,
+      "wheel_size_ratio": 0.877,
+      "fw_box": [
         733,
         229,
         764,
         261
       ],
-      "back_wheel_box": [
+      "bw_box": [
         782,
         233,
         811,
@@ -1907,18 +1907,18 @@
       "frame_idx": 264,
       "timestamp": 4.4023,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000264.jpg",
-      "front_wheel_conf": 0.8622,
-      "back_wheel_conf": 0.8827,
-      "front_squareness": 0.9688,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9073,
-      "front_wheel_box": [
+      "fw_conf": 0.8622,
+      "bw_conf": 0.8827,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9073,
+      "fw_box": [
         735,
         229,
         766,
         261
       ],
-      "back_wheel_box": [
+      "bw_box": [
         782,
         233,
         812,
@@ -1935,18 +1935,18 @@
       "frame_idx": 265,
       "timestamp": 4.419,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000265.jpg",
-      "front_wheel_conf": 0.8896,
-      "back_wheel_conf": 0.8776,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8896,
+      "bw_conf": 0.8776,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         737,
         229,
         768,
         261
       ],
-      "back_wheel_box": [
+      "bw_box": [
         782,
         232,
         814,
@@ -1963,18 +1963,18 @@
       "frame_idx": 266,
       "timestamp": 4.4357,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000266.jpg",
-      "front_wheel_conf": 0.8907,
-      "back_wheel_conf": 0.8717,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9394,
-      "front_wheel_box": [
+      "fw_conf": 0.8907,
+      "bw_conf": 0.8717,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9394,
+      "fw_box": [
         738,
         230,
         769,
         261
       ],
-      "back_wheel_box": [
+      "bw_box": [
         782,
         232,
         815,
@@ -1991,18 +1991,18 @@
       "frame_idx": 267,
       "timestamp": 4.4523,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000267.jpg",
-      "front_wheel_conf": 0.8832,
-      "back_wheel_conf": 0.8998,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9677,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8832,
+      "bw_conf": 0.8998,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9677,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         740,
         230,
         771,
         262
       ],
-      "back_wheel_box": [
+      "bw_box": [
         785,
         233,
         817,
@@ -2019,18 +2019,18 @@
       "frame_idx": 268,
       "timestamp": 4.469,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000268.jpg",
-      "front_wheel_conf": 0.8803,
-      "back_wheel_conf": 0.9035,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9118,
-      "front_wheel_box": [
+      "fw_conf": 0.8803,
+      "bw_conf": 0.9035,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9118,
+      "fw_box": [
         741,
         231,
         773,
         262
       ],
-      "back_wheel_box": [
+      "bw_box": [
         786,
         232,
         820,
@@ -2047,18 +2047,18 @@
       "frame_idx": 269,
       "timestamp": 4.4857,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000269.jpg",
-      "front_wheel_conf": 0.8759,
-      "back_wheel_conf": 0.913,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.9715,
-      "front_wheel_box": [
+      "fw_conf": 0.8759,
+      "bw_conf": 0.913,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.9715,
+      "fw_box": [
         742,
         231,
         774,
         263
       ],
-      "back_wheel_box": [
+      "bw_box": [
         787,
         233,
         821,
@@ -2075,18 +2075,18 @@
       "frame_idx": 270,
       "timestamp": 4.5024,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000270.jpg",
-      "front_wheel_conf": 0.8638,
-      "back_wheel_conf": 0.9044,
-      "front_squareness": 0.9697,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9706,
-      "front_wheel_box": [
+      "fw_conf": 0.8638,
+      "bw_conf": 0.9044,
+      "fw_squareness": 0.9697,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9706,
+      "fw_box": [
         743,
         230,
         775,
         263
       ],
-      "back_wheel_box": [
+      "bw_box": [
         788,
         232,
         822,
@@ -2103,18 +2103,18 @@
       "frame_idx": 271,
       "timestamp": 4.519,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000271.jpg",
-      "front_wheel_conf": 0.878,
-      "back_wheel_conf": 0.9058,
-      "front_squareness": 0.9697,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9143,
-      "front_wheel_box": [
+      "fw_conf": 0.878,
+      "bw_conf": 0.9058,
+      "fw_squareness": 0.9697,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9143,
+      "fw_box": [
         744,
         230,
         776,
         263
       ],
-      "back_wheel_box": [
+      "bw_box": [
         788,
         232,
         823,
@@ -2131,18 +2131,18 @@
       "frame_idx": 272,
       "timestamp": 4.5357,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000272.jpg",
-      "front_wheel_conf": 0.8852,
-      "back_wheel_conf": 0.893,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9062,
-      "size_match_ratio": 0.9143,
-      "front_wheel_box": [
+      "fw_conf": 0.8852,
+      "bw_conf": 0.893,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9062,
+      "wheel_size_ratio": 0.9143,
+      "fw_box": [
         745,
         231,
         777,
         263
       ],
-      "back_wheel_box": [
+      "bw_box": [
         789,
         233,
         824,
@@ -2159,18 +2159,18 @@
       "frame_idx": 273,
       "timestamp": 4.5524,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000273.jpg",
-      "front_wheel_conf": 0.8998,
-      "back_wheel_conf": 0.8904,
-      "front_squareness": 0.9697,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 1.0,
-      "front_wheel_box": [
+      "fw_conf": 0.8998,
+      "bw_conf": 0.8904,
+      "fw_squareness": 0.9697,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 1.0,
+      "fw_box": [
         746,
         230,
         778,
         263
       ],
-      "back_wheel_box": [
+      "bw_box": [
         791,
         233,
         824,
@@ -2187,18 +2187,18 @@
       "frame_idx": 274,
       "timestamp": 4.5691,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000274.jpg",
-      "front_wheel_conf": 0.9054,
-      "back_wheel_conf": 0.888,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.9394,
-      "front_wheel_box": [
+      "fw_conf": 0.9054,
+      "bw_conf": 0.888,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.9394,
+      "fw_box": [
         747,
         231,
         778,
         263
       ],
-      "back_wheel_box": [
+      "bw_box": [
         792,
         233,
         825,
@@ -2215,18 +2215,18 @@
       "frame_idx": 275,
       "timestamp": 4.5857,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000275.jpg",
-      "front_wheel_conf": 0.907,
-      "back_wheel_conf": 0.8933,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9385,
-      "front_wheel_box": [
+      "fw_conf": 0.907,
+      "bw_conf": 0.8933,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9385,
+      "fw_box": [
         748,
         232,
         779,
         263
       ],
-      "back_wheel_box": [
+      "bw_box": [
         793,
         233,
         825,
@@ -2243,18 +2243,18 @@
       "frame_idx": 276,
       "timestamp": 4.6024,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000276.jpg",
-      "front_wheel_conf": 0.9074,
-      "back_wheel_conf": 0.884,
-      "front_squareness": 0.9677,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9082,
-      "front_wheel_box": [
+      "fw_conf": 0.9074,
+      "bw_conf": 0.884,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9082,
+      "fw_box": [
         750,
         232,
         780,
         263
       ],
-      "back_wheel_box": [
+      "bw_box": [
         793,
         233,
         825,
@@ -2271,18 +2271,18 @@
       "frame_idx": 277,
       "timestamp": 4.6191,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000277.jpg",
-      "front_wheel_conf": 0.9006,
-      "back_wheel_conf": 0.9087,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.8824,
-      "front_wheel_box": [
+      "fw_conf": 0.9006,
+      "bw_conf": 0.9087,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.8824,
+      "fw_box": [
         751,
         233,
         781,
         264
       ],
-      "back_wheel_box": [
+      "bw_box": [
         793,
         234,
         827,
@@ -2299,18 +2299,18 @@
       "frame_idx": 278,
       "timestamp": 4.6358,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000278.jpg",
-      "front_wheel_conf": 0.8987,
-      "back_wheel_conf": 0.8824,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9091,
-      "front_wheel_box": [
+      "fw_conf": 0.8987,
+      "bw_conf": 0.8824,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9091,
+      "fw_box": [
         752,
         233,
         782,
         264
       ],
-      "back_wheel_box": [
+      "bw_box": [
         795,
         234,
         828,
@@ -2327,18 +2327,18 @@
       "frame_idx": 279,
       "timestamp": 4.6524,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000279.jpg",
-      "front_wheel_conf": 0.8917,
-      "back_wheel_conf": 0.8838,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.9697,
-      "size_match_ratio": 0.8012,
-      "front_wheel_box": [
+      "fw_conf": 0.8917,
+      "bw_conf": 0.8838,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.9697,
+      "wheel_size_ratio": 0.8012,
+      "fw_box": [
         753,
         233,
         782,
         264
       ],
-      "back_wheel_box": [
+      "bw_box": [
         795,
         233,
         829,
@@ -2355,18 +2355,18 @@
       "frame_idx": 280,
       "timestamp": 4.6691,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000280.jpg",
-      "front_wheel_conf": 0.8904,
-      "back_wheel_conf": 0.895,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9062,
-      "size_match_ratio": 0.8304,
-      "front_wheel_box": [
+      "fw_conf": 0.8904,
+      "bw_conf": 0.895,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9062,
+      "wheel_size_ratio": 0.8304,
+      "fw_box": [
         753,
         233,
         783,
         264
       ],
-      "back_wheel_box": [
+      "bw_box": [
         795,
         234,
         830,
@@ -2383,18 +2383,18 @@
       "frame_idx": 281,
       "timestamp": 4.6858,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000281.jpg",
-      "front_wheel_conf": 0.8468,
-      "back_wheel_conf": 0.8876,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.9375,
-      "size_match_ratio": 0.9118,
-      "front_wheel_box": [
+      "fw_conf": 0.8468,
+      "bw_conf": 0.8876,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.9375,
+      "wheel_size_ratio": 0.9118,
+      "fw_box": [
         753,
         232,
         784,
         264
       ],
-      "back_wheel_box": [
+      "bw_box": [
         796,
         234,
         830,
@@ -2411,18 +2411,18 @@
       "frame_idx": 282,
       "timestamp": 4.7025,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000282.jpg",
-      "front_wheel_conf": 0.8544,
-      "back_wheel_conf": 0.882,
-      "front_squareness": 1.0,
-      "back_squareness": 0.9688,
-      "size_match_ratio": 0.91,
-      "front_wheel_box": [
+      "fw_conf": 0.8544,
+      "bw_conf": 0.882,
+      "fw_squareness": 1.0,
+      "bw_squareness": 0.9688,
+      "wheel_size_ratio": 0.91,
+      "fw_box": [
         754,
         233,
         785,
         264
       ],
-      "back_wheel_box": [
+      "bw_box": [
         797,
         234,
         830,
@@ -2439,18 +2439,18 @@
       "frame_idx": 283,
       "timestamp": 4.7191,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000283.jpg",
-      "front_wheel_conf": 0.8632,
-      "back_wheel_conf": 0.883,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.8825,
-      "front_wheel_box": [
+      "fw_conf": 0.8632,
+      "bw_conf": 0.883,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.8825,
+      "fw_box": [
         755,
         233,
         786,
         264
       ],
-      "back_wheel_box": [
+      "bw_box": [
         798,
         234,
         831,
@@ -2467,18 +2467,18 @@
       "frame_idx": 284,
       "timestamp": 4.7358,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000284.jpg",
-      "front_wheel_conf": 0.8607,
-      "back_wheel_conf": 0.9185,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9697,
-      "size_match_ratio": 0.9091,
-      "front_wheel_box": [
+      "fw_conf": 0.8607,
+      "bw_conf": 0.9185,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9697,
+      "wheel_size_ratio": 0.9091,
+      "fw_box": [
         756,
         233,
         786,
         265
       ],
-      "back_wheel_box": [
+      "bw_box": [
         798,
         233,
         830,
@@ -2495,18 +2495,18 @@
       "frame_idx": 285,
       "timestamp": 4.7525,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000285.jpg",
-      "front_wheel_conf": 0.8763,
-      "back_wheel_conf": 0.9168,
-      "front_squareness": 1.0,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9385,
-      "front_wheel_box": [
+      "fw_conf": 0.8763,
+      "bw_conf": 0.9168,
+      "fw_squareness": 1.0,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9385,
+      "fw_box": [
         757,
         234,
         788,
         265
       ],
-      "back_wheel_box": [
+      "bw_box": [
         799,
         234,
         831,
@@ -2523,18 +2523,18 @@
       "frame_idx": 286,
       "timestamp": 4.7692,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000286.jpg",
-      "front_wheel_conf": 0.8918,
-      "back_wheel_conf": 0.8139,
-      "front_squareness": 0.9677,
-      "back_squareness": 1.0,
-      "size_match_ratio": 0.9082,
-      "front_wheel_box": [
+      "fw_conf": 0.8918,
+      "bw_conf": 0.8139,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 1.0,
+      "wheel_size_ratio": 0.9082,
+      "fw_box": [
         758,
         234,
         788,
         265
       ],
-      "back_wheel_box": [
+      "bw_box": [
         799,
         234,
         831,
@@ -2551,18 +2551,18 @@
       "frame_idx": 287,
       "timestamp": 4.7858,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000287.jpg",
-      "front_wheel_conf": 0.8981,
-      "back_wheel_conf": 0.9246,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.9394,
-      "size_match_ratio": 0.9384,
-      "front_wheel_box": [
+      "fw_conf": 0.8981,
+      "bw_conf": 0.9246,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.9394,
+      "wheel_size_ratio": 0.9384,
+      "fw_box": [
         759,
         234,
         789,
         266
       ],
-      "back_wheel_box": [
+      "bw_box": [
         800,
         234,
         831,
@@ -2579,18 +2579,18 @@
       "frame_idx": 288,
       "timestamp": 4.8025,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000288.jpg",
-      "front_wheel_conf": 0.8538,
-      "back_wheel_conf": 0.9214,
-      "front_squareness": 0.9688,
-      "back_squareness": 0.8824,
-      "size_match_ratio": 0.9725,
-      "front_wheel_box": [
+      "fw_conf": 0.8538,
+      "bw_conf": 0.9214,
+      "fw_squareness": 0.9688,
+      "bw_squareness": 0.8824,
+      "wheel_size_ratio": 0.9725,
+      "fw_box": [
         759,
         234,
         790,
         266
       ],
-      "back_wheel_box": [
+      "bw_box": [
         801,
         233,
         831,
@@ -2607,18 +2607,18 @@
       "frame_idx": 289,
       "timestamp": 4.8192,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000289.jpg",
-      "front_wheel_conf": 0.8508,
-      "back_wheel_conf": 0.9081,
-      "front_squareness": 0.9375,
-      "back_squareness": 0.8529,
-      "size_match_ratio": 0.9736,
-      "front_wheel_box": [
+      "fw_conf": 0.8508,
+      "bw_conf": 0.9081,
+      "fw_squareness": 0.9375,
+      "bw_squareness": 0.8529,
+      "wheel_size_ratio": 0.9736,
+      "fw_box": [
         761,
         234,
         791,
         266
       ],
-      "back_wheel_box": [
+      "bw_box": [
         802,
         233,
         831,
@@ -2635,18 +2635,18 @@
       "frame_idx": 506,
       "timestamp": 8.4377,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000506.jpg",
-      "front_wheel_conf": 0.5139,
-      "back_wheel_conf": 0.8953,
-      "front_squareness": 0.9333,
-      "back_squareness": 0.95,
-      "size_match_ratio": 0.9825,
-      "front_wheel_box": [
+      "fw_conf": 0.5139,
+      "bw_conf": 0.8953,
+      "fw_squareness": 0.9333,
+      "bw_squareness": 0.95,
+      "wheel_size_ratio": 0.9825,
+      "fw_box": [
         485,
         249,
         541,
         309
       ],
-      "back_wheel_box": [
+      "bw_box": [
         562,
         250,
         619,
@@ -2663,18 +2663,18 @@
       "frame_idx": 507,
       "timestamp": 8.4544,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000507.jpg",
-      "front_wheel_conf": 0.7654,
-      "back_wheel_conf": 0.9133,
-      "front_squareness": 0.9344,
-      "back_squareness": 0.9333,
-      "size_match_ratio": 0.9664,
-      "front_wheel_box": [
+      "fw_conf": 0.7654,
+      "bw_conf": 0.9133,
+      "fw_squareness": 0.9344,
+      "bw_squareness": 0.9333,
+      "wheel_size_ratio": 0.9664,
+      "fw_box": [
         482,
         248,
         539,
         309
       ],
-      "back_wheel_box": [
+      "bw_box": [
         560,
         249,
         616,
@@ -2691,18 +2691,18 @@
       "frame_idx": 508,
       "timestamp": 8.4711,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000508.jpg",
-      "front_wheel_conf": 0.8404,
-      "back_wheel_conf": 0.9142,
-      "front_squareness": 0.9194,
-      "back_squareness": 0.9333,
-      "size_match_ratio": 0.9508,
-      "front_wheel_box": [
+      "fw_conf": 0.8404,
+      "bw_conf": 0.9142,
+      "fw_squareness": 0.9194,
+      "bw_squareness": 0.9333,
+      "wheel_size_ratio": 0.9508,
+      "fw_box": [
         479,
         247,
         536,
         309
       ],
-      "back_wheel_box": [
+      "bw_box": [
         557,
         249,
         613,
@@ -2719,18 +2719,18 @@
       "frame_idx": 509,
       "timestamp": 8.4878,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000509.jpg",
-      "front_wheel_conf": 0.8759,
-      "back_wheel_conf": 0.9224,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.8852,
-      "size_match_ratio": 0.916,
-      "front_wheel_box": [
+      "fw_conf": 0.8759,
+      "bw_conf": 0.9224,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.8852,
+      "wheel_size_ratio": 0.916,
+      "fw_box": [
         476,
         247,
         534,
         309
       ],
-      "back_wheel_box": [
+      "bw_box": [
         556,
         249,
         610,
@@ -2747,18 +2747,18 @@
       "frame_idx": 510,
       "timestamp": 8.5044,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000510.jpg",
-      "front_wheel_conf": 0.8829,
-      "back_wheel_conf": 0.8942,
-      "front_squareness": 0.9516,
-      "back_squareness": 0.9194,
-      "size_match_ratio": 0.9661,
-      "front_wheel_box": [
+      "fw_conf": 0.8829,
+      "bw_conf": 0.8942,
+      "fw_squareness": 0.9516,
+      "bw_squareness": 0.9194,
+      "wheel_size_ratio": 0.9661,
+      "fw_box": [
         473,
         247,
         532,
         309
       ],
-      "back_wheel_box": [
+      "bw_box": [
         551,
         248,
         608,
@@ -2775,18 +2775,18 @@
       "frame_idx": 511,
       "timestamp": 8.5211,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000511.jpg",
-      "front_wheel_conf": 0.8386,
-      "back_wheel_conf": 0.8965,
-      "front_squareness": 0.9048,
-      "back_squareness": 0.9016,
-      "size_match_ratio": 0.9343,
-      "front_wheel_box": [
+      "fw_conf": 0.8386,
+      "bw_conf": 0.8965,
+      "fw_squareness": 0.9048,
+      "bw_squareness": 0.9016,
+      "wheel_size_ratio": 0.9343,
+      "fw_box": [
         471,
         246,
         528,
         309
       ],
-      "back_wheel_box": [
+      "bw_box": [
         550,
         248,
         605,
@@ -2803,18 +2803,18 @@
       "frame_idx": 512,
       "timestamp": 8.5378,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000512.jpg",
-      "front_wheel_conf": 0.841,
-      "back_wheel_conf": 0.9081,
-      "front_squareness": 0.9206,
-      "back_squareness": 0.9333,
-      "size_match_ratio": 0.9195,
-      "front_wheel_box": [
+      "fw_conf": 0.841,
+      "bw_conf": 0.9081,
+      "fw_squareness": 0.9206,
+      "bw_squareness": 0.9333,
+      "wheel_size_ratio": 0.9195,
+      "fw_box": [
         468,
         245,
         526,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         547,
         249,
         603,
@@ -2831,18 +2831,18 @@
       "frame_idx": 513,
       "timestamp": 8.5545,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000513.jpg",
-      "front_wheel_conf": 0.8492,
-      "back_wheel_conf": 0.8933,
-      "front_squareness": 0.95,
-      "back_squareness": 0.9167,
-      "size_match_ratio": 0.9649,
-      "front_wheel_box": [
+      "fw_conf": 0.8492,
+      "bw_conf": 0.8933,
+      "fw_squareness": 0.95,
+      "bw_squareness": 0.9167,
+      "wheel_size_ratio": 0.9649,
+      "fw_box": [
         465,
         248,
         522,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         545,
         249,
         600,
@@ -2859,18 +2859,18 @@
       "frame_idx": 514,
       "timestamp": 8.5711,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000514.jpg",
-      "front_wheel_conf": 0.8642,
-      "back_wheel_conf": 0.9015,
-      "front_squareness": 0.9667,
-      "back_squareness": 0.918,
-      "size_match_ratio": 0.9816,
-      "front_wheel_box": [
+      "fw_conf": 0.8642,
+      "bw_conf": 0.9015,
+      "fw_squareness": 0.9667,
+      "bw_squareness": 0.918,
+      "wheel_size_ratio": 0.9816,
+      "fw_box": [
         462,
         248,
         520,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         542,
         249,
         598,
@@ -2887,18 +2887,18 @@
       "frame_idx": 515,
       "timestamp": 8.5878,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000515.jpg",
-      "front_wheel_conf": 0.8607,
-      "back_wheel_conf": 0.9102,
-      "front_squareness": 0.9516,
-      "back_squareness": 0.9016,
-      "size_match_ratio": 0.9172,
-      "front_wheel_box": [
+      "fw_conf": 0.8607,
+      "bw_conf": 0.9102,
+      "fw_squareness": 0.9516,
+      "bw_squareness": 0.9016,
+      "wheel_size_ratio": 0.9172,
+      "fw_box": [
         459,
         246,
         518,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         540,
         248,
         595,
@@ -2915,18 +2915,18 @@
       "frame_idx": 516,
       "timestamp": 8.6045,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000516.jpg",
-      "front_wheel_conf": 0.9109,
-      "back_wheel_conf": 0.9265,
-      "front_squareness": 0.9365,
-      "back_squareness": 0.8689,
-      "size_match_ratio": 0.8698,
-      "front_wheel_box": [
+      "fw_conf": 0.9109,
+      "bw_conf": 0.9265,
+      "fw_squareness": 0.9365,
+      "bw_squareness": 0.8689,
+      "wheel_size_ratio": 0.8698,
+      "fw_box": [
         456,
         246,
         515,
         309
       ],
-      "back_wheel_box": [
+      "bw_box": [
         539,
         248,
         592,
@@ -2943,18 +2943,18 @@
       "frame_idx": 517,
       "timestamp": 8.6212,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000517.jpg",
-      "front_wheel_conf": 0.9318,
-      "back_wheel_conf": 0.9211,
-      "front_squareness": 0.9672,
-      "back_squareness": 0.8852,
-      "size_match_ratio": 0.9153,
-      "front_wheel_box": [
+      "fw_conf": 0.9318,
+      "bw_conf": 0.9211,
+      "fw_squareness": 0.9672,
+      "bw_squareness": 0.8852,
+      "wheel_size_ratio": 0.9153,
+      "fw_box": [
         453,
         247,
         512,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         536,
         248,
         590,
@@ -2971,18 +2971,18 @@
       "frame_idx": 518,
       "timestamp": 8.6378,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000518.jpg",
-      "front_wheel_conf": 0.9294,
-      "back_wheel_conf": 0.9186,
-      "front_squareness": 0.9516,
-      "back_squareness": 0.8852,
-      "size_match_ratio": 0.9005,
-      "front_wheel_box": [
+      "fw_conf": 0.9294,
+      "bw_conf": 0.9186,
+      "fw_squareness": 0.9516,
+      "bw_squareness": 0.8852,
+      "wheel_size_ratio": 0.9005,
+      "fw_box": [
         450,
         246,
         509,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         533,
         248,
         587,
@@ -2999,18 +2999,18 @@
       "frame_idx": 519,
       "timestamp": 8.6545,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000519.jpg",
-      "front_wheel_conf": 0.8961,
-      "back_wheel_conf": 0.899,
-      "front_squareness": 0.9219,
-      "back_squareness": 0.8689,
-      "size_match_ratio": 0.8562,
-      "front_wheel_box": [
+      "fw_conf": 0.8961,
+      "bw_conf": 0.899,
+      "fw_squareness": 0.9219,
+      "bw_squareness": 0.8689,
+      "wheel_size_ratio": 0.8562,
+      "fw_box": [
         446,
         244,
         505,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         532,
         248,
         585,
@@ -3027,18 +3027,18 @@
       "frame_idx": 520,
       "timestamp": 8.6712,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000520.jpg",
-      "front_wheel_conf": 0.9116,
-      "back_wheel_conf": 0.9145,
-      "front_squareness": 0.9672,
-      "back_squareness": 0.8871,
-      "size_match_ratio": 0.9475,
-      "front_wheel_box": [
+      "fw_conf": 0.9116,
+      "bw_conf": 0.9145,
+      "fw_squareness": 0.9672,
+      "bw_squareness": 0.8871,
+      "wheel_size_ratio": 0.9475,
+      "fw_box": [
         444,
         247,
         503,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         528,
         247,
         583,
@@ -3055,18 +3055,18 @@
       "frame_idx": 521,
       "timestamp": 8.6879,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000521.jpg",
-      "front_wheel_conf": 0.8953,
-      "back_wheel_conf": 0.9116,
-      "front_squareness": 0.9508,
-      "back_squareness": 0.8871,
-      "size_match_ratio": 0.9638,
-      "front_wheel_box": [
+      "fw_conf": 0.8953,
+      "bw_conf": 0.9116,
+      "fw_squareness": 0.9508,
+      "bw_squareness": 0.8871,
+      "wheel_size_ratio": 0.9638,
+      "fw_box": [
         441,
         247,
         499,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         525,
         247,
         580,
@@ -3083,18 +3083,18 @@
       "frame_idx": 522,
       "timestamp": 8.7045,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000522.jpg",
-      "front_wheel_conf": 0.8924,
-      "back_wheel_conf": 0.9236,
-      "front_squareness": 0.9355,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.9655,
-      "front_wheel_box": [
+      "fw_conf": 0.8924,
+      "bw_conf": 0.9236,
+      "fw_squareness": 0.9355,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.9655,
+      "fw_box": [
         439,
         247,
         497,
         309
       ],
-      "back_wheel_box": [
+      "bw_box": [
         522,
         247,
         578,
@@ -3111,18 +3111,18 @@
       "frame_idx": 523,
       "timestamp": 8.7212,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000523.jpg",
-      "front_wheel_conf": 0.9068,
-      "back_wheel_conf": 0.9111,
-      "front_squareness": 0.9508,
-      "back_squareness": 0.873,
-      "size_match_ratio": 0.9794,
-      "front_wheel_box": [
+      "fw_conf": 0.9068,
+      "bw_conf": 0.9111,
+      "fw_squareness": 0.9508,
+      "bw_squareness": 0.873,
+      "wheel_size_ratio": 0.9794,
+      "fw_box": [
         436,
         247,
         494,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         520,
         246,
         575,
@@ -3139,18 +3139,18 @@
       "frame_idx": 524,
       "timestamp": 8.7379,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000524.jpg",
-      "front_wheel_conf": 0.9043,
-      "back_wheel_conf": 0.9139,
-      "front_squareness": 0.9516,
-      "back_squareness": 0.9032,
-      "size_match_ratio": 0.9492,
-      "front_wheel_box": [
+      "fw_conf": 0.9043,
+      "bw_conf": 0.9139,
+      "fw_squareness": 0.9516,
+      "bw_squareness": 0.9032,
+      "wheel_size_ratio": 0.9492,
+      "fw_box": [
         433,
         246,
         492,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         517,
         246,
         573,
@@ -3167,18 +3167,18 @@
       "frame_idx": 525,
       "timestamp": 8.7546,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000525.jpg",
-      "front_wheel_conf": 0.925,
-      "back_wheel_conf": 0.9062,
-      "front_squareness": 0.9524,
-      "back_squareness": 0.8889,
-      "size_match_ratio": 0.9333,
-      "front_wheel_box": [
+      "fw_conf": 0.925,
+      "bw_conf": 0.9062,
+      "fw_squareness": 0.9524,
+      "bw_squareness": 0.8889,
+      "wheel_size_ratio": 0.9333,
+      "fw_box": [
         430,
         245,
         490,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         514,
         246,
         570,
@@ -3195,18 +3195,18 @@
       "frame_idx": 526,
       "timestamp": 8.7712,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000526.jpg",
-      "front_wheel_conf": 0.9016,
-      "back_wheel_conf": 0.9013,
-      "front_squareness": 0.9365,
-      "back_squareness": 0.9048,
-      "size_match_ratio": 0.9661,
-      "front_wheel_box": [
+      "fw_conf": 0.9016,
+      "bw_conf": 0.9013,
+      "fw_squareness": 0.9365,
+      "bw_squareness": 0.9048,
+      "wheel_size_ratio": 0.9661,
+      "fw_box": [
         427,
         245,
         486,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         510,
         246,
         567,
@@ -3223,18 +3223,18 @@
       "frame_idx": 527,
       "timestamp": 8.7879,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000527.jpg",
-      "front_wheel_conf": 0.9047,
-      "back_wheel_conf": 0.9094,
-      "front_squareness": 0.9516,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9831,
-      "front_wheel_box": [
+      "fw_conf": 0.9047,
+      "bw_conf": 0.9094,
+      "fw_squareness": 0.9516,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9831,
+      "fw_box": [
         424,
         246,
         483,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         507,
         246,
         565,
@@ -3251,18 +3251,18 @@
       "frame_idx": 528,
       "timestamp": 8.8046,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000528.jpg",
-      "front_wheel_conf": 0.9155,
-      "back_wheel_conf": 0.9203,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9344,
-      "size_match_ratio": 0.9347,
-      "front_wheel_box": [
+      "fw_conf": 0.9155,
+      "bw_conf": 0.9203,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9344,
+      "wheel_size_ratio": 0.9347,
+      "fw_box": [
         421,
         246,
         481,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         505,
         246,
         562,
@@ -3279,18 +3279,18 @@
       "frame_idx": 529,
       "timestamp": 8.8213,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000529.jpg",
-      "front_wheel_conf": 0.9129,
-      "back_wheel_conf": 0.9054,
-      "front_squareness": 0.9516,
-      "back_squareness": 0.9344,
-      "size_match_ratio": 0.9505,
-      "front_wheel_box": [
+      "fw_conf": 0.9129,
+      "bw_conf": 0.9054,
+      "fw_squareness": 0.9516,
+      "bw_squareness": 0.9344,
+      "wheel_size_ratio": 0.9505,
+      "fw_box": [
         418,
         246,
         477,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         502,
         246,
         559,
@@ -3307,18 +3307,18 @@
       "frame_idx": 530,
       "timestamp": 8.838,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000530.jpg",
-      "front_wheel_conf": 0.9231,
-      "back_wheel_conf": 0.636,
-      "front_squareness": 0.9365,
-      "back_squareness": 0.9516,
-      "size_match_ratio": 0.9841,
-      "front_wheel_box": [
+      "fw_conf": 0.9231,
+      "bw_conf": 0.636,
+      "fw_squareness": 0.9365,
+      "bw_squareness": 0.9516,
+      "wheel_size_ratio": 0.9841,
+      "fw_box": [
         415,
         245,
         474,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         497,
         246,
         556,
@@ -3335,18 +3335,18 @@
       "frame_idx": 531,
       "timestamp": 8.8546,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000531.jpg",
-      "front_wheel_conf": 0.9349,
-      "back_wheel_conf": 0.9159,
-      "front_squareness": 0.9524,
-      "back_squareness": 0.9048,
-      "size_match_ratio": 0.95,
-      "front_wheel_box": [
+      "fw_conf": 0.9349,
+      "bw_conf": 0.9159,
+      "fw_squareness": 0.9524,
+      "bw_squareness": 0.9048,
+      "wheel_size_ratio": 0.95,
+      "fw_box": [
         412,
         245,
         472,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         496,
         245,
         553,
@@ -3363,18 +3363,18 @@
       "frame_idx": 532,
       "timestamp": 8.8713,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000532.jpg",
-      "front_wheel_conf": 0.9302,
-      "back_wheel_conf": 0.919,
-      "front_squareness": 0.9677,
-      "back_squareness": 0.9206,
-      "size_match_ratio": 0.9823,
-      "front_wheel_box": [
+      "fw_conf": 0.9302,
+      "bw_conf": 0.919,
+      "fw_squareness": 0.9677,
+      "bw_squareness": 0.9206,
+      "wheel_size_ratio": 0.9823,
+      "fw_box": [
         409,
         245,
         469,
         307
       ],
-      "back_wheel_box": [
+      "bw_box": [
         493,
         245,
         551,
@@ -3391,18 +3391,18 @@
       "frame_idx": 533,
       "timestamp": 8.888,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000533.jpg",
-      "front_wheel_conf": 0.9209,
-      "back_wheel_conf": 0.9137,
-      "front_squareness": 0.9516,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9831,
-      "front_wheel_box": [
+      "fw_conf": 0.9209,
+      "bw_conf": 0.9137,
+      "fw_squareness": 0.9516,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9831,
+      "fw_box": [
         406,
         245,
         465,
         307
       ],
-      "back_wheel_box": [
+      "bw_box": [
         490,
         245,
         548,
@@ -3419,18 +3419,18 @@
       "frame_idx": 534,
       "timestamp": 8.9047,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000534.jpg",
-      "front_wheel_conf": 0.9199,
-      "back_wheel_conf": 0.8318,
-      "front_squareness": 0.9524,
-      "back_squareness": 0.9365,
-      "size_match_ratio": 0.9833,
-      "front_wheel_box": [
+      "fw_conf": 0.9199,
+      "bw_conf": 0.8318,
+      "fw_squareness": 0.9524,
+      "bw_squareness": 0.9365,
+      "wheel_size_ratio": 0.9833,
+      "fw_box": [
         403,
         245,
         463,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         486,
         245,
         545,
@@ -3447,18 +3447,18 @@
       "frame_idx": 535,
       "timestamp": 8.9213,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000535.jpg",
-      "front_wheel_conf": 0.9247,
-      "back_wheel_conf": 0.8796,
-      "front_squareness": 0.9524,
-      "back_squareness": 0.9194,
-      "size_match_ratio": 0.9349,
-      "front_wheel_box": [
+      "fw_conf": 0.9247,
+      "bw_conf": 0.8796,
+      "fw_squareness": 0.9524,
+      "bw_squareness": 0.9194,
+      "wheel_size_ratio": 0.9349,
+      "fw_box": [
         400,
         245,
         460,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         485,
         245,
         542,
@@ -3475,18 +3475,18 @@
       "frame_idx": 536,
       "timestamp": 8.938,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000536.jpg",
-      "front_wheel_conf": 0.9245,
-      "back_wheel_conf": 0.8867,
-      "front_squareness": 0.9524,
-      "back_squareness": 0.9355,
-      "size_match_ratio": 0.9513,
-      "front_wheel_box": [
+      "fw_conf": 0.9245,
+      "bw_conf": 0.8867,
+      "fw_squareness": 0.9524,
+      "bw_squareness": 0.9355,
+      "wheel_size_ratio": 0.9513,
+      "fw_box": [
         397,
         245,
         457,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         482,
         245,
         540,
@@ -3503,18 +3503,18 @@
       "frame_idx": 537,
       "timestamp": 8.9547,
       "frame_file": "output_v2/dervlab30/dervlab30_selected_frames/frame_000537.jpg",
-      "front_wheel_conf": 0.9217,
-      "back_wheel_conf": 0.8685,
-      "front_squareness": 0.9683,
-      "back_squareness": 0.9508,
-      "size_match_ratio": 0.9206,
-      "front_wheel_box": [
+      "fw_conf": 0.9217,
+      "bw_conf": 0.8685,
+      "fw_squareness": 0.9683,
+      "bw_squareness": 0.9508,
+      "wheel_size_ratio": 0.9206,
+      "fw_box": [
         394,
         245,
         455,
         308
       ],
-      "back_wheel_box": [
+      "bw_box": [
         479,
         246,
         537,
@@ -3532,22 +3532,22 @@
     {
       "burst_id": 0,
       "quality_score": 8.2915,
-      "frame_idx_start": 160,
-      "frame_idx_end": 215,
+      "start_frame_idx": 160,
+      "end_frame_idx": 215,
       "frame_count": 56
     },
     {
       "burst_id": 1,
       "quality_score": 5.7252,
-      "frame_idx_start": 252,
-      "frame_idx_end": 289,
+      "start_frame_idx": 252,
+      "end_frame_idx": 289,
       "frame_count": 38
     },
     {
       "burst_id": 2,
       "quality_score": 8.6734,
-      "frame_idx_start": 506,
-      "frame_idx_end": 537,
+      "start_frame_idx": 506,
+      "end_frame_idx": 537,
       "frame_count": 32
     }
   ],
@@ -3558,6 +3558,6 @@
     "bursts_selected": 3,
     "selection_rate": 0.1098,
     "avg_confidence": 0.8956,
-    "elapsed_sec": 54.83
+    "elapsed_sec": 53.67
   }
 }
